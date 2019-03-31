@@ -1,0 +1,47 @@
+scripted_gui = {
+
+	party_popularity_number = {
+		window_name = "party_popularity_number_container"
+	}
+
+	party_communist = {
+		window_name = "communist_container"
+		visible = { has_government = communist }
+	}
+
+	party_socialist = {
+		window_name = "socialist_container"
+		visible = { has_government = socialist }
+	}
+
+	party_republican_liberal = {
+		window_name = "republican_liberal_container"
+		visible = { has_government = republican_liberal }
+	}
+
+	party_liberal_conservative = {
+		window_name = "liberal_conservative_container"
+		visible = { has_government = liberal_conservative }
+	}
+
+	party_social_conservative = {
+		window_name = "social_conservative_container"
+		visible = { has_government = social_conservative }
+	}
+
+	party_semi_constitutionalist = {
+		window_name = "semi_constitutionalist_container"
+		visible = { has_government = semi_constitutionalist }
+	}
+
+	party_absolutist = {
+		window_name = "absolutist_container"
+		visible = { has_government = absolutist }
+	}
+
+	party_despotist = {
+		window_name = "despotist_container"
+		visible = { has_government = despotist }
+	}
+}
+
