@@ -1,1 +1,2 @@
 ARG = "countries/Argentina.txt"
+EMP = "countries/Empty.txt"
