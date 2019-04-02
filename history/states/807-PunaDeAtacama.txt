@@ -1,8 +1,8 @@
 
 state={
-	id=510
-	name="STATE_510" #Chubut
-	manpower = 58202
+	id=807
+	name="STATE_807" #Puna de Atacama
+	manpower = 0
 	resources={
 		oil=8 # was: 12
 	}
@@ -11,19 +11,19 @@ state={
 
 	history={
 		owner = ARG
+		victory_points = {
+			9692 10
+		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 4
 			air_base = 1
 			arms_factory = 1
 		}
-		victory_points = {
-			7500 1 
-		}
 		add_core_of = ARG
 	}
 
 	provinces={
-		8161 8176 10953 11005 12349
+		13220
 	}
 }

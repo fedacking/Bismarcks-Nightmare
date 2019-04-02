@@ -1,8 +1,8 @@
 
 state={
-	id=510
-	name="STATE_510" #Chubut
-	manpower = 58202
+	id=802
+	name="STATE_802" #Formosa
+	manpower = 62967
 	resources={
 		oil=8 # was: 12
 	}
@@ -24,6 +24,6 @@ state={
 	}
 
 	provinces={
-		8161 8176 10953 11005 12349
+		12922 12943
 	}
 }

@@ -1,0 +1,27 @@
+
+state={
+	id=808
+	name="STATE_808" #Northern Epirus
+	manpower = 0
+	resources={
+		aluminium=2 # was: 3
+		chromium=2 # was: 3
+	}
+	
+	state_category = town
+	
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+		}
+		add_core_of = GRE
+		add_claim_by = ALB
+	}
+
+	provinces={
+		914 3448 6900 11767
+	}
+}
