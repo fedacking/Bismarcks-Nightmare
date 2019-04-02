@@ -1,0 +1,6 @@
+#reload countrycolors
+
+ARG = {
+	color = rgb { 153 217 234 }
+	color_ui = rgb { 153 217 234 }
+}

@@ -9,6 +9,9 @@ if = {
 	}
 }
 
+set_stability = 0.2
+set_research_slots = 3
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -49,74 +52,223 @@ if = {
 	}
 }
 
-set_convoys = 120
+set_convoys = 300
 set_politics = {
-
 	parties = {
 		despotist = { 
-			popularity = 5
+			popularity = 3
 		}
 
 		absolutist = { 
-			popularity = 5
+			popularity = 10
 		}
 
 		semi_constitutionalist = { 
-			popularity = 5
+			popularity = 51
 		}
 
 		social_conservative = { 
-			popularity = 25
+			popularity = 4
 		}
 
 		liberal_conservative = { 
-			popularity = 30
+			popularity = 5
 		}
 
 		republican_liberal = {
-			popularity = 20
+			popularity = 25
 		}
 		
 		communist = {
-			popularity = 5
+			popularity = 0
 		}
 		
 		socialist = { 
-			popularity = 5
+			popularity = 2
 		}
-	}
-	
-	ruling_party = social_conservative
+	}	
+	ruling_party = semi_constitutionalist
 	last_election = "1931.11.8"
 	election_frequency = 72
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Juan II"
+	desc = "POLITICS_JUAN_II_DESC"
+	picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
+
+### Field Marshal
+
+create_field_marshal = {
+	name = "Basilio Pertiné"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Basilio_Pertine.tga"
+	traits = {
+	defensive_doctrine
+	thorough_planner
+	}
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_field_marshal = {
-	name = "Arturo Rawson"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	traits = { defensive_doctrine }
+	name = "Pedro Pablo Ramirez"
+	portrait_path = "gfx/leaders/ARG/Portrait_Argentine_Pablo_Ramirez.tga"
+	traits = {
+	politically_connected
+		swamp_fox
+		offensive_doctrine
+		fast_planner
+	}
 	skill = 3
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 1
-    logistics_skill = 2
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Luis Dellepiane"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Luis_Dellepiane.tga"
+	traits = {
+		trait_cautious
+		brilliant_strategist
+		old_guard
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+### Corps Commander
+
+create_corps_commander = {
+	name = "Enrique Mosconi"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Mosconi.tga"
+	traits = {
+	infantry_officer
+	career_officer
+	trait_engineer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Manuel Savio"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Manuel_Savio.tga"
+	traits = {
+	career_officer
+	politically_connected
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Juan Domingo Peron"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Peron_General.tga"
+	traits = {
+	media_personality
+	politically_connected
+		fortress_buster
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Arturo Rawson"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Arturo_Rawson.tga"
+	traits = {
+	cavalry_officer
+	career_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Juan Pistarini"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-	traits = { urban_assault_specialist fortress_buster }
+	portrait_path = "gfx/leaders/ARG/Portrait_Argentine_Juan_Pistarini.tga"
+	traits = {
+	career_officer
+	harsh_leader
+	trait_engineer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Edelmiro Julián Farrell"
+	portrait_path = "gfx/leaders/ARG/Portrait_Argentine_Edelmiro_Farrell.tga"
+	traits = {
+	infantry_officer
+	harsh_leader
+	trickster
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Manuel Domecq Garcia"
+	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Domecq_Garcia.tga"
+	traits = {
+		old_guard
+		superior_tactician
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Eleazar Videla"
+	picture = "Portrait_Argentine_Eleazar_Videla.tga"
+	traits = { seawolf }
 	skill = 3
-    attack_skill = 1
-    defense_skill = 2
-    planning_skill = 4
-    logistics_skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 4
+	coordination_skill = 3
 }
 
 create_navy_leader = {
 	name = "Alberto Teisaire"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	portrait_path = "gfx/leaders/ARG/Portrait_Argentine_Alberto_Teisaire.tga"
 	traits = { chief_engineer }
 	skill = 3
 	attack_skill = 2
@@ -124,7 +276,6 @@ create_navy_leader = {
 	maneuvering_skill = 3
 	coordination_skill = 3
 }
-
 
 ### VARIANTS ###
 # 1936 Start #
