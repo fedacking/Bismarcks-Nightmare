@@ -1,15 +1,12 @@
-
-state={
-	id=796
-	name="STATE_796" #Corrientes
+state = {
+	id = 796
+	name = "STATE_796" #Corrientes
 	manpower = 457587
-	resources={
-		oil=8 # was: 12
-	}
-	
+	resources = {
+		oil = 8 # was: 12
+	}	
 	state_category = large_town
-
-	history={
+	history ={ 
 		owner = ARG
 		buildings = {
 			infrastructure = 5
@@ -22,7 +19,6 @@ state={
 		}
 		add_core_of = ARG
 	}
-
 	provinces={
 		8187 8238 12964
 	}

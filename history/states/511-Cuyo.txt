@@ -1,12 +1,9 @@
-
-state={
-	id=511
-	name="STATE_511" # Rio Negro
+state = {
+	id = 511
+	name = "STATE_511" # Rio Negro
 	manpower = 91357
-	
 	state_category = rural
-
-	history={
+	history = {
 		owner = ARG
 		buildings = {
 			infrastructure = 3
@@ -17,9 +14,7 @@ state={
 		victory_points = {
 			12942 1 
 		}
-
 	}
-
 	provinces={
 		10981 12321 12982
 	}

@@ -1,15 +1,12 @@
-
-state={
-	id=793
-	name="STATE_793" #Cordoba
+state = {
+	id = 793
+	name = "STATE_793" #Cordoba
 	manpower = 1181755
-	resources={
+	resources = {
 		oil=8 # was: 12
-	}
-	
+	}	
 	state_category = large_town
-
-	history={
+	history = {
 		owner = ARG
 		buildings = {
 			infrastructure = 5
@@ -22,7 +19,6 @@ state={
 		}
 		add_core_of = ARG
 	}
-
 	provinces={
 		5184 10975 10985 12942
 	}

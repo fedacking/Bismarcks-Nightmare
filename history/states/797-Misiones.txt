@@ -1,14 +1,11 @@
-
-state={
-	id=797
-	name="STATE_797" #Misiones
+state = {
+	id = 797
+	name = "STATE_797" #Misiones
 	manpower = 148153
 	resources={
 		oil=8 # was: 12
-	}
-	
+	}	
 	state_category = large_town
-
 	history={
 		owner = ARG
 		buildings = {
@@ -22,7 +19,6 @@ state={
 		}
 		add_core_of = ARG
 	}
-
 	provinces={
 		11007
 	}

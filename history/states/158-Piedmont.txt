@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = ARG
+		owner = EMP
 		victory_points = {
 			6788 10 
 		}
@@ -30,7 +30,7 @@ state={
 				naval_base = 8
 			}
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 10

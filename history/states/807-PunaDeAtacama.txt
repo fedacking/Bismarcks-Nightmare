@@ -1,15 +1,12 @@
-
-state={
-	id=807
-	name="STATE_807" #Puna de Atacama
+state = {
+	id = 807
+	name = "STATE_807" #Puna de Atacama
 	manpower = 0
-	resources={
-		oil=8 # was: 12
-	}
-	
+	resources = {
+		oil = 8 # was: 12
+	}	
 	state_category = large_town
-
-	history={
+	history = {
 		owner = ARG
 		victory_points = {
 			9692 10
@@ -22,7 +19,6 @@ state={
 		}
 		add_core_of = ARG
 	}
-
 	provinces={
 		13220
 	}

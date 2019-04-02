@@ -13,8 +13,8 @@ state=
 		victory_points = { 
 			5068 1
 		}
-		owner = ARG
-		add_core_of = ARG
+		owner = EMP
+		add_core_of = EMP
 		buildings = {
 			infrastructure = 3
 			10833 = {

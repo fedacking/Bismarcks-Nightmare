@@ -11,8 +11,8 @@ state=
 	}
 
 	history={
-		add_core_of = ARG
-		owner = ARG
+		add_core_of = EMP
+		owner = EMP
 		victory_points = {
 			10201 3 
 		}

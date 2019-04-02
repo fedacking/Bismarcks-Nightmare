@@ -1,12 +1,9 @@
-
-state={
-	id=278
-	name="STATE_278" # Buenos Aires
+state = {
+	id = 278
+	name = "STATE_278" # Buenos Aires
 	manpower = 5766317
-	
 	state_category = large_city
-
-	history={
+	history = {
 		owner = ARG
 		buildings = {
 			infrastructure = 6
@@ -33,9 +30,7 @@ state={
 		victory_points = {
 			7621 1 
 		}
-
 	}
-
 	provinces={
 		1555 1568 1596 1624 1639 4573 4602 4643 7621 10375 10390 10402 10418 12351 12364 12379 12394 12409 12494 
 	}

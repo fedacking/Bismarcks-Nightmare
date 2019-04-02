@@ -1,15 +1,12 @@
-
-state={
-	id=802
-	name="STATE_802" #Formosa
+state = {
+	id = 802
+	name = "STATE_802" #Formosa
 	manpower = 62967
-	resources={
-		oil=8 # was: 12
-	}
-	
+	resources = {
+		oil = 8 # was: 12
+	}	
 	state_category = large_town
-
-	history={
+	history = {
 		owner = ARG
 		buildings = {
 			infrastructure = 5
@@ -22,7 +19,6 @@ state={
 		}
 		add_core_of = ARG
 	}
-
 	provinces={
 		12922 12943
 	}

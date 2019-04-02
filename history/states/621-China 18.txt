@@ -3,8 +3,8 @@ state={
 	name="STATE_621"
 
 	history={
-		owner = ARG
-		add_core_of = ARG
+		owner = EMP
+		add_core_of = EMP
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -16,7 +16,7 @@ state={
 				level = 1
 
 			}
-		owner = ARG
+		owner = EMP
 			controller = MEN
 
 		}

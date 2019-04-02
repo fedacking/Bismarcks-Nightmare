@@ -6,7 +6,7 @@ state={
 	name="STATE_545"
 
 	history={
-		owner = ARG
+		owner = EMP
 		buildings = {
 			infrastructure = 3
 
@@ -14,7 +14,7 @@ state={
 		victory_points = {
 			10929 1 
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 	}
 
 	provinces={

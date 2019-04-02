@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = ARG
+		owner = EMP
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -32,10 +32,10 @@ state={
 		#victory_points = {
 		#	11612 3
 		#}
-		add_core_of = ARG
+		add_core_of = EMP
 
 		1938.3.12 = {
-		owner = ARG
+		owner = EMP
 			controller = GER
 		}
 	}

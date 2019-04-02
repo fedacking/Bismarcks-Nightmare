@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = ARG
+		owner = EMP
 		victory_points = {
 			673 5 
 		}
@@ -16,10 +16,10 @@ state={
 			industrial_complex = 1
 			air_base = 3
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 
 		1938.3.12 = {
-		owner = ARG
+		owner = EMP
 			controller = GER
 		}
 	}

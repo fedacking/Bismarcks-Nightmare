@@ -8,8 +8,8 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
-		owner = ARG
-		add_core_of = ARG
+		owner = EMP
+		add_core_of = EMP
 		buildings = {
 			infrastructure = 4
 

@@ -1,15 +1,14 @@
-
-state={
-	id=805
-	name="STATE_805" #Jujuy
+state = {
+	id = 805
+	name = "STATE_805" #Jujuy
 	manpower = 129145
-	resources={
-		oil=8 # was: 12
+	resources = {
+		oil = 8 # was: 12
 	}
 	
 	state_category = large_town
 
-	history={
+	history = {
 		owner = ARG
 		buildings = {
 			infrastructure = 5

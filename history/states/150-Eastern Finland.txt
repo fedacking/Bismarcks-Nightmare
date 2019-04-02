@@ -10,12 +10,12 @@ state={
 		steel=3 # was: 4
 	}
 	history={
-		owner = ARG
+		owner = EMP
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 	}
 
 	provinces={

@@ -9,12 +9,12 @@ state={
 		victory_points = {
 			9602 3
 		}
-		owner = ARG
+		owner = EMP
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 
 	}
 

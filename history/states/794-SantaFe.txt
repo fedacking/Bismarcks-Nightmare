@@ -1,15 +1,12 @@
-
-state={
-	id=794
-	name="STATE_794" #Santa Fe
+state = {
+	id = 794
+	name = "STATE_794" #Santa Fe
 	manpower = 1376665
 	resources={
-		oil=8 # was: 12
-	}
-	
+		oil = 8 # was: 12
+	}	
 	state_category = large_town
-
-	history={
+	history = {
 		owner = ARG
 		buildings = {
 			infrastructure = 5
@@ -22,7 +19,6 @@ state={
 		}
 		add_core_of = ARG
 	}
-
 	provinces={
 		2172 5163 7500 13000
 	}

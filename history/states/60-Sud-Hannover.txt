@@ -12,14 +12,14 @@ state={
 	state_category = large_city
 
 	history={
-		owner = ARG
+		owner = EMP
 		victory_points = { 3561 5 }
 		victory_points = { 425 3 }
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 3

@@ -12,7 +12,7 @@ state= {
 		victory_points = {
 			9347 20
 		}
-		owner = ARG
+		owner = EMP
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -22,7 +22,7 @@ state= {
 				naval_base = 8
 			}
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 3

@@ -12,15 +12,15 @@ state=
 		victory_points = {
 			3583 5
 		}
-		owner = ARG
+		owner = EMP
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 
 		1938.9.30 = {
-		owner = ARG
+		owner = EMP
 			controller = GER
 		}
 	}

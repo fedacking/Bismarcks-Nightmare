@@ -6,8 +6,8 @@ state={
 	state_category = city
 
 	history={
-		owner = ARG
-		add_core_of = ARG
+		owner = EMP
+		add_core_of = EMP
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 3

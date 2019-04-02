@@ -1,5 +1,10 @@
 #reload countrycolors
 
+EMP = {
+	color = rgb { 54 54 54 }
+	color_ui = rgb { 115 115 115 }
+}
+
 ARG = {
 	color = rgb { 153 217 234 }
 	color_ui = rgb { 153 217 234 }

@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		owner = ARG
+		owner = EMP
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 	}
 
 	provinces={

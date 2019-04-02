@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = ARG
+		owner = EMP
 		victory_points = {
 			3552 20
 		}
@@ -33,7 +33,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

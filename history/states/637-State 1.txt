@@ -4,7 +4,7 @@ state={
 	name="STATE_637"
 
 	history={
-		owner = ARG
+		owner = EMP
 		buildings = {
 			infrastructure = 2
 			12207 = {
@@ -13,7 +13,7 @@ state={
 			}
 
 		}
-		add_core_of = ARG
+		add_core_of = EMP
 
 	}
 
