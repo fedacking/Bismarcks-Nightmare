@@ -104,7 +104,7 @@ ideologies = {
 			"FACTION_NAME_LIBCON_5"
 			"FACTION_NAME_LIBCON_6"
 		}		
-		color = { 0 0 255 }
+		color = { 255 255 0 }
 		rules = {
 			can_force_government = yes
 			can_puppet = yes

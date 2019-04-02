@@ -11,14 +11,14 @@ state={
 	state_category = town
 	
 	history={
-		owner = GRE
+		owner = ARG
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2 
 		}
-		add_core_of = GRE
-		add_claim_by = ALB
+		add_core_of = ARG
+		add_claim_by = ARG
 	}
 
 	provinces={
