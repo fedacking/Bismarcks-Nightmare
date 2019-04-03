@@ -1,2 +1,3 @@
-ARG = "countries/Argentina.txt"
 EMP = "countries/Empty.txt"
+ARG = "countries/Argentina.txt"
+PAR = "countries/Paraguay.txt"
