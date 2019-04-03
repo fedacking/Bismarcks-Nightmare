@@ -1,0 +1,17 @@
+state = {
+	id = 810
+	name = "STATE_810" # Arica
+	manpower = 283605	
+	state_category = rural
+	history = {
+		owner = PER
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = PER
+	}
+	provinces = {
+		5131
+	}
+}

@@ -1,3 +1,5 @@
 EMP = "countries/Empty.txt"
 ARG = "countries/Argentina.txt"
 PAR = "countries/Paraguay.txt"
+BOL = "countries/Bolivia.txt"
+PER = "countries/Peru.txt"
