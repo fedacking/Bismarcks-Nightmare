@@ -12,10 +12,13 @@ state = {
 		}
 		add_core_of = ARG
 		victory_points = {
-			12942 1 
+			12982 1 
+		}
+		victory_points = {
+			10981 1 
 		}
 	}
-	provinces={
+	provinces = {
 		10981 12321 12982
 	}
 }

@@ -110,8 +110,8 @@ create_field_marshal = {
 	name = "Basilio Pertiné"
 	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Basilio_Pertine.tga"
 	traits = {
-	defensive_doctrine
-	thorough_planner
+		defensive_doctrine
+		thorough_planner
 	}
 	skill = 4
 	attack_skill = 2

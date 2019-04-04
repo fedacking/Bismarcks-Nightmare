@@ -2,7 +2,7 @@ state = {
 	id = 797
 	name = "STATE_797" #Misiones
 	manpower = 148153
-	resources={
+	resources = {
 		oil=8 # was: 12
 	}	
 	state_category = large_town
@@ -15,11 +15,11 @@ state = {
 			arms_factory = 1
 		}
 		victory_points = {
-			7500 1 
+			11007 1 
 		}
 		add_core_of = ARG
 	}
-	provinces={
+	provinces = {
 		11007
 	}
 }

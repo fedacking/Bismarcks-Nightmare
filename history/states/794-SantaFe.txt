@@ -15,11 +15,14 @@ state = {
 			arms_factory = 1
 		}
 		victory_points = {
-			7500 1 
+			5163 5 
+		}
+		victory_points = {
+			7500 30
 		}
 		add_core_of = ARG
 	}
-	provinces={
+	provinces = {
 		2172 5163 7500 13000
 	}
 }
