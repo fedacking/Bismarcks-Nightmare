@@ -1,20 +1,13 @@
-state={
-	id=695
-	name="STATE_695"
+state = {
+	id = 695
+	name = "STATE_695"
 	manpower = 76299
-	
 	state_category = rural
-
-	resources={
+	resources = {
 		oil=35 # was: 126
 	}
-
-	history={
-		add_core_of = EMP
-		owner = EMP
-		victory_points = {
-			153 1
-		}
+	history = {
+		owner = VEN
 		buildings = {
 			fuel_silo = 1
 			infrastructure = 3
@@ -23,9 +16,12 @@ state={
 				coastal_bunker = 2
 			}
 		}
+		add_core_of = VEN
+		victory_points = {
+			153 1
+		}
 	}
-
-	provinces={
+	provinces = {
 		153 
 	}
 }

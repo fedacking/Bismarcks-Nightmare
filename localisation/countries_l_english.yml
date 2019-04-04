@@ -17,3 +17,6 @@
  COL_republican_liberal:0 "Republic of Colombia"
  COL_republican_liberal_DEF:0 "the Republic of Colombia"
  COL_republican_liberal_ADJ:0 "Colombian"
+ VEN_social_conservative:0 "United States of Venezuela"
+ VEN_social_conservative_DEF:0 "the United States of Venezuela"
+ VEN_social_conservative_ADJ:0 "Venezuelan"

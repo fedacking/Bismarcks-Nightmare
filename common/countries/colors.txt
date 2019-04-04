@@ -24,3 +24,7 @@ COL = {
 	color = rgb { 222 187 91 }
 	color_ui = rgb { 255 243 118 }
 }
+VEN = {
+	color = rgb { 249 146 98 }
+	color_ui = rgb { 249 146 98 }
+}
