@@ -23,3 +23,6 @@
  BRA_despotist:0 "Brazilian State"
  BRA_despotist_DEF:0 "the Brazilian State"
  BRA_despotist_ADJ:0 "Brazilian"
+ CEN_republican_liberal:0 "FRCA"
+ CEN_republican_liberal_DEF:0 "the Federal Republic of Central America"
+ CEN_republican_liberal_ADJ:0 "Central American"
