@@ -28,3 +28,7 @@ VEN = {
 	color = rgb { 249 146 98 }
 	color_ui = rgb { 249 146 98 }
 }
+BRA = {
+	color = rgb { 76 145 63 }
+	color_ui = rgb { 99 189 82 }
+}

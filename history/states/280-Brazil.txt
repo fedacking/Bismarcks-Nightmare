@@ -1,21 +1,15 @@
-
-state={
-	id=280
-	name="STATE_280"
-	
+state = {
+	id = 280
+	name = "STATE_280"
 	state_category = pastoral
-
-	history={
-		owner = EMP
+	history = {
+		owner = BRA
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = EMP
-
+		add_core_of = BRA
 	}
-
-	provinces={
+	provinces = {
 		2142 2147 2204 8175 11010 12939 
 	}
 	manpower=120000
