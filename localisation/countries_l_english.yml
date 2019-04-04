@@ -14,3 +14,6 @@
  PER_socialist:0 "Peruvian SR"
  PER_socialist_DEF:0 "the Peruvian Socialist Republic"
  PER_socialist_ADJ:0 "Peruvian"
+ COL_republican_liberal:0 "Republic of Colombia"
+ COL_republican_liberal_DEF:0 "the Republic of Colombia"
+ COL_republican_liberal_ADJ:0 "Colombian"
