@@ -1,7 +1,7 @@
 state = {
 	id = 278
 	name = "STATE_278" # Buenos Aires
-	manpower = 5766317
+	manpower = 5879637
 	state_category = large_city
 	history = {
 		owner = ARG
