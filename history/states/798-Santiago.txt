@@ -1,18 +1,16 @@
 state = {
 	id = 798
 	name = "STATE_798" #Santiago del Estero
-	manpower = 391831
+	manpower = 633546
 	resources = {
-		oil = 8 # was: 12
+		#
 	}	
-	state_category = large_town
+	state_category = town
 	history = {
 		owner = ARG
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 4
-			air_base = 1
-			arms_factory = 1
+			infrastructure = 4
+			industrial_complex = 1
 		}
 		victory_points = {
 			5143 3

@@ -1,18 +1,16 @@
 state = {
 	id = 510
 	name = "STATE_510" #Chubut
-	manpower = 58202
+	manpower = 46535
 	resources = {
-		oil = 8 # was: 12
+		#
 	}
-	state_category = large_town
+	state_category = rural
 	history = {
 		owner = ARG
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 4
-			air_base = 1
-			arms_factory = 1
+			infrastructure = 3
+			industrial_complex = 1
 		}
 		victory_points = {
 			10953 1 

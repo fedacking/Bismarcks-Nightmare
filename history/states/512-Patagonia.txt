@@ -1,18 +1,15 @@
 state = {
 	id = 512
 	name = "STATE_512" #Neuquen
-	manpower = 60153	
-	state_category = rural
+	manpower = 58238	
+	state_category = pastoral
 	resources = {
-		oil = 5 # was: 6
+		#
 	}
 	history = {
 		owner = ARG
 		buildings = {
 			infrastructure = 3
-			10953 = {
-				naval_base = 1
-			}
 		}
 		victory_points = {
 			12306 1

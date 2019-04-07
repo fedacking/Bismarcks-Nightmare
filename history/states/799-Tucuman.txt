@@ -1,25 +1,25 @@
 state = {
 	id = 799
 	name = "STATE_799" #Tucuman
-	manpower = 306006
+	manpower = 723618
 	resources = {
-		oil = 8 # was: 12
+		#
 	}	
-	state_category = large_town
+	state_category = city
 	history = {
 		owner = ARG
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 4
+			infrastructure = 6
+			industrial_complex = 3
 			air_base = 1
-			arms_factory = 1
+			arms_factory = 2
 		}
 		victory_points = {
 			8208 5
 		}
 		add_core_of = ARG
 	}
-	provinces={
+	provinces = {
 		8208
 	}
 }

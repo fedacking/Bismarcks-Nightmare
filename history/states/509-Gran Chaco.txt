@@ -1,11 +1,10 @@
 state = {
 	id = 509
 	name = "STATE_509" # Santa Cruz
-	manpower = 26348
-	state_category = town
+	manpower = 20071
+	state_category = pastoral
 	resources = {
-		tungsten = 35 # was: 46
-		steel = 6 # was: 8
+		#
 	}
 	history = {
 		owner = ARG

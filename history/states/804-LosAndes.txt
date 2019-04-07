@@ -1,11 +1,11 @@
 state = {
 	id = 804
 	name = "STATE_804" #Los Andes
-	manpower = 3519
+	manpower = 4398
 	resources = {
 		#
 	}	
-	state_category = large_town
+	state_category = pastoral
 	history = {
 		owner = ARG
 		buildings = {

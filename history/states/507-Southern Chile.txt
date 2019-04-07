@@ -1,12 +1,13 @@
 state = {
 	id = 507
 	name = "STATE_507" # Magallanes
-	manpower = 68693
-	state_category = pastoral
+	manpower = 103039
+	state_category = town
 	history = {
 		owner = ARG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 1
 		}
 		add_core_of = ARG
 	}
