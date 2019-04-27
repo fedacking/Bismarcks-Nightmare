@@ -1,0 +1,7 @@
+ideas = {
+	political_advisor = {
+		earl_browder = {
+			traits = { communist_revolutionary }
+		}
+	}
+}

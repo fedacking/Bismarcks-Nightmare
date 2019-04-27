@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_semi_constitutionalist_small"
+		texturefile = "gfx/interface/ideologies/semi_constitutionalist_small.dds"
+	}
+}
