@@ -1,14 +1,11 @@
-state=
-{
-	id=311
-	name="STATE_311"
-	manpower = 51000
-	
+state = {
+	id = 311
+	name = "STATE_311"
+	manpower = 63750	
 	state_category = pastoral
-	history=
-	{
-		add_core_of = EMP
-		owner = EMP
+	history = {
+		owner = MEX
+		add_core_of = MEX
 		victory_points = {
 			2077 1 
 		}

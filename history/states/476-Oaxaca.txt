@@ -1,25 +1,24 @@
-
-state={
-	id=476
-	name="STATE_476"
-	manpower = 1663331
-	
-	state_category = rural
-
-	resources={
-		oil=8
-	}
-	
-	history={
-		owner = EMP
+state = {
+	id = 476
+	name = "STATE_476"
+	manpower = 3326662
+	state_category = city
+	resources = {
+		oil = 8
+	}	
+	history = {
+		owner = MEX
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
 			air_base = 2
 			10889 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = EMP
+		add_core_of = MEX
 		victory_points = {
 			10889 1
 		}
@@ -27,9 +26,7 @@ state={
 			2021 3
 		}
 	}
-
-	provinces={
+	provinces = {
 		2021 8236 10773 10889 12712 
-	}
-	
+	}	
 }

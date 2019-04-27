@@ -1,22 +1,20 @@
-
-state={
-	id=478
-	name="STATE_478" # Jalisco
-	manpower = 2470875
-	
-	state_category = town
-	
-	resources={
+state = {
+	id = 478
+	name = "STATE_478" # Jalisco
+	manpower = 4324031
+	state_category = city
+	resources = {
 		tungsten=8 # was: 10
 	}
-
-	history={
-		owner = EMP
+	history = {
+		owner = MEX
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 		}
-		add_core_of = EMP
+		add_core_of = MEX
 		victory_points = {
 			13089 10
 		}
@@ -26,11 +24,8 @@ state={
 		victory_points = {
 			12746 1
 		}
-
 	}
-
-	provinces={
+	provinces = {
 		2051 5052 10172 12746 12873 13089 
-	}
-	
+	}		
 }

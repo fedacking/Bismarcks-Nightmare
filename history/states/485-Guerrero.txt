@@ -1,26 +1,23 @@
-
-state={
-	id=485
-	name="STATE_485"
-	manpower = 1598311
-	
-	state_category = rural
-
-	resources={
-		steel=4 #was 2
+state = {
+	id = 485
+	name = "STATE_485"
+	manpower = 3196622
+	state_category = large_city
+	resources = {
+		steel = 4 #was 2
 	}
-
-
-	history={
-		owner = EMP
+	history = {
+		owner = MEX
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 3
+			dockyard = 1
 			8032 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = EMP
+		add_core_of = MEX
 		victory_points = {
 			10730 5
 		}
@@ -31,9 +28,7 @@ state={
 			8032 1
 		}
 	}
-
-	provinces={
+	provinces = {
 		4887 5066 8032 10730 10832 
-	}
-	
+	}	
 }
