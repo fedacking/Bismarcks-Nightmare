@@ -40,3 +40,7 @@ MEX = {
 	color = rgb { 135 198 108 }
 	color_ui = rgb { 135 198 108 }
 }
+USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
