@@ -1,16 +1,13 @@
-
-state={
-	id=366
-	name="STATE_366"
-	manpower = 1468210
-	
+state = {
+	id = 366
+	name = "STATE_366"
+	manpower = 1321389	
 	state_category = city
-
-	history={
-		owner = EMP
+	history = {
+		owner = USA
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
+			infrastructure = 3
+			industrial_complex = 1
 			air_base = 8
 			1572 = {
 				naval_base = 2

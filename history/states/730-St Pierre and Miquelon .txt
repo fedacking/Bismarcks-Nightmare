@@ -1,11 +1,11 @@
-state={
-	id=730
-	name="STATE_730"
-	manpower=3426
+state = {
+	id = 730
+	name = "STATE_730"
+	manpower = 3426
 	state_category = tiny_island
-
-	history={
-		owner = EMP
+	history = {
+		owner = QUE
+		add_core_of = QUE
 		buildings = {
 			infrastructure = 3
 			373 = {
@@ -13,6 +13,7 @@ state={
 			}
 		}
 	}
-	
-	provinces={ 373 }
+	provinces = {
+		373
+	}
 }
