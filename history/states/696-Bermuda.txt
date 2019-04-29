@@ -1,11 +1,11 @@
-state={
-	id=696
-	name="STATE_696"
-	manpower=37516
+state = {
+	id = 696
+	name = "STATE_696"
+	manpower = 37516
 	state_category = small_island
-
-	history={
-		owner = EMP
+	history = {
+		owner = USA
+		add_core_of = USA
 		victory_points = {
 			13010 1
 		}
@@ -15,9 +15,8 @@ state={
 				naval_base = 1
 			}
 		}
-	}
-	
-	provinces={
+	}	
+	provinces = {
 		13010 
 	}
 }
