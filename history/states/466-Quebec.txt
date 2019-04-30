@@ -8,6 +8,12 @@ state = {
 	state_category = rural
 	history = {
 		owner = QUE
+		victory_points = {
+			12149 3
+		}
+		victory_points = {
+			4345 20
+		}
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -16,12 +22,6 @@ state = {
 			dockyard = 1
 			12149 = {
 				naval_base = 6
-			}
-			victory_points = {
-				12149 3
-			}
-			victory_points = {
-				4345 20
 			}
 		}
 		add_core_of = QUE

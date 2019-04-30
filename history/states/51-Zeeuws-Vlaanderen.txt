@@ -1,0 +1,22 @@
+state = {
+	id = 51
+	name = "STATE_51"
+	provinces = {
+		480
+	}
+	manpower = 95247
+
+	state_category = rural
+
+	history = {
+		owner = EMP
+		add_core_of = EMP
+
+		buildings = {
+			infrastructure = 5
+			480 = {
+				bunker = 1
+			}
+		}
+	}
+}
