@@ -35,3 +35,6 @@
  QUE_social_conservative:0 "Dominion of Quebec"
  QUE_social_conservative_DEF:0 "the Dominion of Quebec"
  QUE_social_conservative_ADJ:0 "Quebecois"
+ FRA_semi_constitutionalist:0 "French Empire"
+ FRA_semi_constitutionalist_DEF:0 "the French Empire"
+ FRA_semi_constitutionalist_ADJ:0 "French"

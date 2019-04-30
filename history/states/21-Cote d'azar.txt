@@ -1,16 +1,13 @@
-
-state={
-	id=21
-	name="STATE_21" # Provence
+state = {
+	id = 21
+	name = "STATE_21" # Provence
 	manpower = 2060400
-	resources={
-		aluminium=60 # was: 120
+	resources = {
+		aluminium = 60 # was: 120
 	}
-
 	state_category = city
-
-	history={
-		owner = EMP
+	history = {
+		owner = FRA
 		victory_points = {
 			911 1 
 		}
@@ -32,15 +29,9 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = EMP
-		1939.1.1 = {
-			buildings = {
-				dockyard = 3
-			}
-		}
+		add_core_of = FRA
 	}
-
-	provinces={
+	provinces = {
 		911 956 958 3762 3928 11834 11849 11875 
 	}
 }

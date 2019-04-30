@@ -5,13 +5,10 @@ state = {
 		480
 	}
 	manpower = 95247
-
 	state_category = rural
-
 	history = {
-		owner = EMP
-		add_core_of = EMP
-
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 5
 			480 = {

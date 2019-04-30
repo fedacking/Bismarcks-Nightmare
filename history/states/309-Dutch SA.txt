@@ -1,18 +1,13 @@
-
-state={
-	id=309
-	name="STATE_309"
+state = {
+	id = 309
+	name = "STATE_309"
 	manpower = 152000
-
-	resources={
+	resources = {
 		aluminium=60 # was: 104
 	}	
-	
 	state_category = rural
-
-	history={
-		add_core_of = EMP
-		owner = EMP
+	history = {
+		owner = FRA
 		victory_points = {
 			10906 1
 		}
@@ -24,8 +19,7 @@ state={
 			}
 		}
 	}
-
-	provinces={
+	provinces = {
 		1928 10906 12828 
 	}
 }

@@ -1,17 +1,12 @@
-
-state={
-	id=151
-	name="STATE_151"
+state = {
+	id = 151
+	name = "STATE_151"
 	manpower = 1854711
-	
-	
 	state_category = city
-	
-	resources={
+	resources = {
 		aluminium=15 # was: 24
 	}
-
-	history={
+	history = {
 		owner = EMP
 		buildings = {
 			infrastructure = 6
@@ -22,8 +17,7 @@ state={
 		}
 		add_core_of = EMP
 	}
-
-	provinces={
-		658 661 663 3641 3660 3662 9600 11601 11623 
+	provinces = {
+		658 661 663 3641 3660 3662 9600 11601 11604 11623 
 	}
 }
