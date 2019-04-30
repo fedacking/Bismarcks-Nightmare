@@ -1,6 +1,6 @@
 ﻿capital = 303
 
-oob = "PRU_1936"
+oob = "PER_1936"
 
 set_stability = 0.5
 
@@ -8,9 +8,9 @@ set_research_slots = 3
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "PRU_1936_naval_mtg"
+		set_naval_oob = "PER_1936_naval_mtg"
 	else = {
-		set_naval_oob = "PRU_1936_naval_legacy"
+		set_naval_oob = "PER_1936_naval_legacy"
 	}
 }
 
@@ -111,7 +111,7 @@ if = {
 	create_equipment_variant = {
 		name = "Almirante Villar Class"				
 		type = ship_hull_light_1
-		name_group = PRU_DD_HISTORICAL
+		name_group = PER_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -128,7 +128,7 @@ if = {
 	create_equipment_variant = {
 		name = "Almirante Grau Class"				
 		type = ship_hull_cruiser_coastal_defense_ship
-		name_group = PRU_CA_HISTORICAL
+		name_group = PER_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1

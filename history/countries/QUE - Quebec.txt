@@ -1,11 +1,11 @@
 ﻿capital = 466
 
-oob = "CAN_1936"
+oob = "QUE_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-	set_naval_oob = "CAN_1936_naval_mtg"
+	set_naval_oob = "QUE_1936_naval_mtg"
 	else = {
-		set_naval_oob = "CAN_1936_naval_legacy"
+		set_naval_oob = "QUE_1936_naval_legacy"
 	}
 }
 
@@ -108,7 +108,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Charles Foulkes"
-	gfx = "GFX_CAN_charles_foulkes"
+	gfx = "GFX_QUE_charles_foulkes"
 	traits = { }
 	skill = 4
     attack_skill = 4
@@ -129,7 +129,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Bert Hoffmeister"
-	gfx = "GFX_CAN_bert_hoffmeister"
+	gfx = "GFX_QUE_bert_hoffmeister"
 	traits = { hill_fighter }
 	skill = 4
     attack_skill = 4
@@ -140,7 +140,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Leonard W. Murray"
-	gfx = "GFX_CAN_leonard_warren_murray"
+	gfx = "GFX_QUE_leonard_warren_murray"
 	traits = { }
 	skill = 4
 	attack_skill = 4
@@ -161,7 +161,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "James D. Prentice"
-	gfx = "GFX_CAN_james_prentice"
+	gfx = "GFX_QUE_james_prentice"
 	traits = { spotter }
 	skill = 3
 	attack_skill = 3
@@ -171,7 +171,7 @@ create_navy_leader = {
 }
 create_navy_leader = {
 	name = "Harry DeWolf"
-	gfx = "GFX_CAN_harry_dewolf"
+	gfx = "GFX_QUE_harry_dewolf"
 	traits = { superior_tactician bold }
 	skill = 4
 	attack_skill = 3
@@ -204,7 +204,7 @@ if = {
 	create_equipment_variant = {
 		name = "S Class"
 		type = ship_hull_light_1
-		name_group = CAN_DD_HISTORICAL
+		name_group = QUE_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -221,7 +221,7 @@ if = {
 	create_equipment_variant = {
 		name = "Sanguenay Class"
 		type = ship_hull_light_1
-		name_group = CAN_DD_HISTORICAL
+		name_group = QUE_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
