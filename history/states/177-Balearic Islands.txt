@@ -1,17 +1,13 @@
-state=
-{
-	id=177
-	name="STATE_177"
-	manpower = 365500
-	
-	state_category = rural
-	
-	history=
-	{
+state = {
+	id = 177
+	name = "STATE_177"
+	manpower = 365500	
+	state_category = rural	
+	history = {
 		victory_points = {
 			9793 1
 		}
-		owner = EMP
+		owner = SPA
 		buildings = {
 			infrastructure = 6
 			air_base = 1
@@ -22,9 +18,9 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = EMP
+		add_core_of = SPA
 	}
-	provinces=
-	{
-7114 9793 9845 	}
+	provinces =	{
+		7114 9793 9845
+	}
 }

@@ -1,12 +1,10 @@
-state=
-{
-	id=118
-	name="STATE_118"
-	manpower=21372
-	
+state = {
+	id = 118
+	name = "STATE_118"
+	manpower = 21372
 	state_category = enclave
-	history={
-		owner = EMP
+	history = {
+		owner = SPA
 		victory_points = { 4135 10 }
 		buildings = {
 			infrastructure = 6
@@ -16,9 +14,9 @@ state=
 				coastal_bunker = 2
 			}
 		}
-		add_claim_by = SPR
+		add_core_of = SPA
 	}
-	provinces={
+	provinces = {
 		4135
 	}
 }
