@@ -1,16 +1,13 @@
-
-state={
-	id=806
-	name="STATE_806" #Pressburg
+state = {
+	id = 806
+	name = "STATE_806" #Pressburg
 	manpower = 116897
-	resources={
-		oil=8 # was: 12
-	}
-	
+	resources = {
+		oil = 8 # was: 12
+	}	
 	state_category = large_town
-
-	history={
-		owner = EMP
+	history = {
+		owner = AUS
 		victory_points = {
 			9692 10
 		}
@@ -20,10 +17,9 @@ state={
 			air_base = 1
 			arms_factory = 1
 		}
-		add_core_of = EMP
+		add_core_of = AUS
 	}
-
-	provinces={
+	provinces = {
 		13221
 	}
 }

@@ -56,3 +56,7 @@ SPA = {
 	color = rgb { 242 205 94 }
 	color_ui = rgb { 255 255 122 }
 }
+AUS = {
+	color = rgb { 220 220 220 }
+	color_ui = rgb { 220 220 220 }
+}

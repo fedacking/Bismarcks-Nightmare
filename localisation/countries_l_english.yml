@@ -41,3 +41,6 @@
  SPA_liberal_conservative:0 "Republic of Spain"
  SPA_liberal_conservative_DEF:0 "the Republic of Spain"
  SPA_liberal_conservative_ADJ:0 "Spanish"
+ AUS_social_conservative:0 "United States of Greater Austria"
+ AUS_social_conservative_DEF:0 "the United States of Greater Austria"
+ AUS_social_conservative_ADJ:0 "Austrian"
