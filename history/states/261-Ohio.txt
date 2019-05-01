@@ -2,15 +2,15 @@ state = {
 	id = 261
 	name = "STATE_261"
 	resources = {
-		steel = 28 # was: 48.000
-		aluminium = 9 # was: 16.000
+		steel = 25 # was: 25
+		aluminium = 9 # was: 9
 	}	
 	state_category = large_city
 	history = {
 		owner = USA
 		buildings = {
 			infrastructure = 6
-			arms_factory = 3
+			arms_factory = 1
 			industrial_complex = 2
 		}
 		add_core_of = USA

@@ -4,9 +4,9 @@ state = {
 	manpower = 311521	
 	state_category = pastoral	
 	resources = {
-		steel = 18 # was: 32
-		chromium = 1 # was: 2
-		tungsten = 18 # was: 34
+		steel = 10 # was: 18
+		chromium = 1
+		tungsten = 10 # was: 18
 	}
 	history = {
 		owner = USA
