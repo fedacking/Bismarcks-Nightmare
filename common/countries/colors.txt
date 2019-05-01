@@ -60,3 +60,7 @@ AUS = {
 	color = rgb { 220 220 220 }
 	color_ui = rgb { 220 220 220 }
 }
+ROM = {
+	color = rgb { 59 148 65 }
+	color_ui = rgb { 74 186 82 }
+}
