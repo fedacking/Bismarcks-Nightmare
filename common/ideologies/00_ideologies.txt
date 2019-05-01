@@ -12,7 +12,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_4"
 			"FACTION_NAME_COMMUNIST_5"
 		}		
-		color = { 255 0 0 }
+		color = { 127 0 0 }
 		ai_communist = yes # uses the commie AI behaviour		
 		rules = {
 			can_force_government = yes
@@ -40,7 +40,7 @@ ideologies = {
 			"FACTION_NAME_SOCIALIST_4"
 			"FACTION_NAME_SOCIALIST_5"
 		}		
-		color = { 127 0 0 }
+		color = { 255 0 0 }
 		ai_communist = yes # uses the commie AI behaviour		
 		rules = {
 			can_force_government = yes
