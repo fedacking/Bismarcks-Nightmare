@@ -1,0 +1,22 @@
+state = {
+	id = 823
+	name = "STATE_823" # Nancy
+	manpower = 485000
+	state_category = rural	
+	resources = {
+		#
+	}
+	history = {
+		owner = FRA
+		victory_points = {
+			11516 5 
+		}
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = FRA
+	}
+	provinces = {
+		521 11516
+	}
+}

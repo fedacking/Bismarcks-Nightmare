@@ -1,0 +1,22 @@
+state = {
+	id = 820
+	name = "STATE_820"
+	manpower = 590000
+	buildings_max_level_factor = 1
+	state_category = town
+	history = {
+		owner = EMP
+		victory_points = {
+			3522 5 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = EMP
+	}
+	provinces = {
+		3522 6487 9560 11359
+	}
+}

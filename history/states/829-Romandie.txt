@@ -1,0 +1,21 @@
+state = {
+	id = 829
+	name = "STATE_829"
+	manpower = 830000
+	resources = {
+		#
+	}
+	state_category = town
+	history = {
+		owner = FRA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = FRA
+	}
+	provinces = {
+		3612 6666 6683 9622 11590 13124
+	}
+}

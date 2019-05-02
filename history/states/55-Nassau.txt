@@ -11,7 +11,7 @@ state = {
 			industrial_complex = 2
 		}
 		victory_points = {
-			6488 20.0 
+			6488 20
 		}
 		victory_points = {
 			564 3
@@ -19,6 +19,6 @@ state = {
 		add_core_of = EMP
 	}
 	provinces = {
-		564 589 3397 3524 3574 6444 6488 6549 9486 9524 9547 11445 11533
+		564 3397 3524 6444 6488 6549 9486 9524 9547 11445 11533
 	}
 }
