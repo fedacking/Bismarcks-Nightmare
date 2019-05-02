@@ -7,12 +7,12 @@ state = {
 	}
 	state_category = rural
 	history = {
-		owner = EMP
+		owner = SCA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
 		}
-		add_core_of = EMP
+		add_core_of = SCA
 	}
 	provinces = {
 		332 11251

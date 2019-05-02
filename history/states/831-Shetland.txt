@@ -1,19 +1,19 @@
 state = {
-	id = 124
-	name = "STATE_124"
-	manpower = 56988
-	state_category = small_island
+	id = 831
+	name = "STATE_831"
 	history = {
 		owner = SCA
 		add_core_of = SCA
 		buildings = {
-			infrastructure = 6
-			408 = {
+			infrastructure = 3
+			6196 = {
 				naval_base = 1
 			}
 		}
 	}
 	provinces = {
-		408 6258
+		6196
 	}
+	manpower = 19270
+	state_category = "wasteland"
 }

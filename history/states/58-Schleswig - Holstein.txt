@@ -7,7 +7,7 @@ state = {
 		victory_points = {
 			6389 10 
 		}
-		owner = EMP
+		owner = SCA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -17,7 +17,7 @@ state = {
 				naval_base = 8
 			}
 		}
-		add_core_of = EMP
+		add_core_of = SCA
 	}
 	
 	provinces = {
