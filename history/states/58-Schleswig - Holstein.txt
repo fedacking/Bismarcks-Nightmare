@@ -11,7 +11,7 @@ state = {
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
-			dockyard = 21
+			dockyard = 2
 			air_base = 5
 			6389 = {
 				naval_base = 8
@@ -19,6 +19,7 @@ state = {
 		}
 		add_core_of = EMP
 	}
+	
 	provinces = {
 		317 3231 3368 6257 6389 11331 11366
  	}
