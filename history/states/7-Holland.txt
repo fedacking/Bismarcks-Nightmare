@@ -1,13 +1,12 @@
-state={
-	id=7
-	name="STATE_7"
-	resources={
-		steel=4.000
+state = {
+	id = 7
+	name = "STATE_7"
+	resources = {
+		steel = 4
 	}
-
-	history={
-		owner = EMP
-		add_core_of = EMP
+	history = {
+		owner = NGR
+		add_core_of = NGR
 		victory_points = {
 			391 40 
 		}
@@ -22,17 +21,14 @@ state={
 			air_base = 5
 			3314 = {
 				naval_base = 5
-
 			}
-
 		}
-
 	}
 
-	provinces={
+	provinces = {
 		68 391 3211 3314 8622 
 	}
-	manpower=3523000
-	buildings_max_level_factor=1.000
+	manpower = 3523000
+	buildings_max_level_factor = 1.000
 	state_category=large_city
 }

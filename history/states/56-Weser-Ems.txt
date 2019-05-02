@@ -1,12 +1,10 @@
-state={
-	id=56
-	name="STATE_56"
-	manpower = 2058467
-	
+state = {
+	id = 56
+	name = "STATE_56"
+	manpower = 2058467	
 	state_category = city
-
-	history={
-		owner = EMP
+	history = {
+		owner = NGR
 		victory_points = {
 			241 5 
 		}
@@ -28,16 +26,9 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = EMP
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-				dockyard = 3
-			}
-		}
+		add_core_of = NGR
 	}
-
-	provinces={
+	provinces = {
 		241 247 309 336 3234 9281 11233 11264 11360 11388 
 	}
 }

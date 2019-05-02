@@ -64,3 +64,15 @@ ROM = {
 	color = rgb { 59 148 65 }
 	color_ui = rgb { 74 186 82 }
 }
+NGR = {
+	color = rgb { 0 18 127 }
+	color_ui = rgb { 0 18 127 }
+}
+SGC = {
+	color = rgb { 239 238 215 }
+	color_ui = rgb { 239 238 215 }
+}
+HON = {
+	color = rgb { 135 169 107 }
+	color_ui = rgb { 135 169 107 }
+}

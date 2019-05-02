@@ -5,7 +5,7 @@ state = {
 	buildings_max_level_factor = 1
 	state_category = town
 	history = {
-		owner = EMP
+		owner = NGR
 		victory_points = {
 			3522 5 
 		}
@@ -14,7 +14,7 @@ state = {
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		add_core_of = EMP
+		add_core_of = NGR
 	}
 	provinces = {
 		3522 6487 9560 11359

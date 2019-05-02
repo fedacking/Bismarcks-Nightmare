@@ -3,11 +3,11 @@ state = {
 	name = "STATE_816"
 	manpower = 3072371
 	resources = {
-		steel=20 # was: 54
+		steel = 20 # was: 54
 	}
 	state_category = metropolis
 	history = {
-		owner = EMP
+		owner = NGR
 		victory_points = {
 			6469 10 
 		}
@@ -17,7 +17,7 @@ state = {
 			industrial_complex = 1
 			air_base = 3
 		}
-		add_core_of = EMP
+		add_core_of = NGR
 	}
 	provinces = {
 		529 3512 6469 6570 9482 
