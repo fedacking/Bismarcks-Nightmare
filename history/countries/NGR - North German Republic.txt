@@ -128,7 +128,7 @@ set_politics = {
 			popularity = 4
 		}
 	}	
-	ruling_party = absolutist
+	ruling_party = republican_liberal
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
