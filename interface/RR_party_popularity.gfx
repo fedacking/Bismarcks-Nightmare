@@ -43,7 +43,7 @@ spriteTypes = {
 spriteTypes = {
 	spriteType = {
 		name = "GFX_absolutist_small"
-		texturefile = "gfx/interface/ideologies/liberal_absolutist_small.dds"
+		texturefile = "gfx/interface/ideologies/absolutist_small.dds"
 	}
 }
 
