@@ -1,21 +1,17 @@
-
-state={
-	id=655
-	name="STATE_655"
-	manpower = 94759
-	
+state = {
+	id = 655
+	name = "STATE_655"
+	manpower = 94759	
 	state_category = pastoral
-	history={
-		owner = EMP
-		add_core_of = EMP
-		add_claim_by = JAP
+	history = {
+		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 		}
 	}
-
-	provinces={
+	provinces = {
 		855 1742 1755 
 	}
 }

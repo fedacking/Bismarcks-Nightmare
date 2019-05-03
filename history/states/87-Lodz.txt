@@ -1,11 +1,10 @@
-state={
-	id=87
-	name="STATE_87"
-	manpower = 2632000
-	
+state = {
+	id = 87
+	name = "STATE_87"
+	manpower = 2632000	
 	state_category = town
-	history={
-		owner = EMP
+	history = {
+		owner = RUS
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -13,16 +12,9 @@ state={
 		victory_points = {
 			9508 10
 		}
-		add_core_of = EMP
-
-		1939.1.1 = {
-			buildings = {
-				air_base = 3
-			}
-		}
+		add_core_of = RUS
 	}
-
-	provinces={
+	provinces = {
 		493 584 9439 9508 9546 11428 11515 
 	}
 }
