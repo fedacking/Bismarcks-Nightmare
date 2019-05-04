@@ -1,17 +1,13 @@
-
-state={
-	id=226
-	name="STATE_226" # Dnipropertovsk
-	manpower = 2391047
-	
-	state_category = town
-	
-	resources={
-		oil=4 # was: 6
+state = {
+	id = 226
+	name = "STATE_226" # Dnipropertovsk
+	manpower = 2391047	
+	state_category = town	
+	resources = {
+		oil = 4 # was: 6
 	}
-
-	history={
-		owner = EMP
+	history = {
+		owner = RUS
 		victory_points = {
 			11437 10 
 		}
@@ -23,10 +19,9 @@ state={
 			industrial_complex = 2
 			air_base = 2
 		}
-		add_core_of = EMP
+		add_core_of = RUS
 	}
-
-	provinces={
+	provinces = {
 		453 472 486 6423 9419 9433 9463 9479 11422 11437 11452 11561 
 	}
 }
