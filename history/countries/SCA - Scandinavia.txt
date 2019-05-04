@@ -1,11 +1,11 @@
 ﻿capital = 37
 
-oob = "DEN_1936"
+oob = "SCA_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "DEN_1936_naval_mtg"
+		set_naval_oob = "SCA_1936_naval_mtg"
 	else = {
-		set_naval_oob = "DEN_1936_naval_legacy"
+		set_naval_oob = "SCA_1936_naval_legacy"
 	}
 }
 
@@ -103,7 +103,7 @@ if = {
 	create_equipment_variant = {
 		name = "Rota Class"								# represents Rota and Daphne classes
 		type = ship_hull_submarine_1
-		name_group = DEN_DD_HISTORICAL
+		name_group = SCA_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -115,7 +115,7 @@ if = {
 	create_equipment_variant = {
 		name = "Herluf Trolle Class"				
 		type = ship_hull_cruiser_coastal_defense_ship
-		name_group = DEN_CA_HISTORICAL
+		name_group = SCA_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_medium_battery_1
@@ -134,7 +134,7 @@ if = {
 	create_equipment_variant = {
 		name = "Niels Iuel Class"				
 		type = ship_hull_cruiser_coastal_defense_ship
-		name_group = DEN_CA_HISTORICAL
+		name_group = SCA_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1

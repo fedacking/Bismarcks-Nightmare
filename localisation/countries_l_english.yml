@@ -62,3 +62,6 @@
  RUS_absolutist:0 "Russian Empire"
  RUS_absolutist_DEF:0 "the Russian Empire"
  RUS_absolutist_ADJ:0 "Russian"
+ JOS_absolutist:0 "Kingdom of Joseon"
+ JOS_absolutist_DEF:0 "the Kingdom of Joseon"
+ JOS_absolutist_ADJ:0 "Korean"
