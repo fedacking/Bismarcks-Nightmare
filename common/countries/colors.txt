@@ -92,3 +92,11 @@ QIN = {
 	color = rgb { 230  172  0 }
 	color_ui = rgb { 230  172  0 }
 }
+VIE = {
+	color = rgb { 200  0  0 }
+	color_ui = rgb { 200  0  0 }
+}
+BUR = {
+	color = rgb { 200  200  200 }
+	color_ui = rgb { 200  200  200 }
+}

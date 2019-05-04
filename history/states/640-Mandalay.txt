@@ -1,4 +1,3 @@
-
 state={
 	id=640
 	name="STATE_640" # Mandalay
@@ -7,8 +6,8 @@ state={
 	state_category = town
 
 	history={
-		add_core_of = EMP
-		owner = EMP
+		add_core_of = BUR
+		owner = BUR
 		buildings = {
 			infrastructure = 3
 			air_base = 1
