@@ -10,8 +10,8 @@ state= {
 	}
 
 	history= {
-		owner = EMP
-		add_core_of = EMP
+		owner = QIN
+		add_core_of = QIN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

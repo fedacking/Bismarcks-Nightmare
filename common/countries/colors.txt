@@ -88,3 +88,7 @@ JOS = {
 	color = rgb { 11  0  139 }
 	color_ui = rgb { 11  0  139 }
 }
+QIN = {
+	color = rgb { 230  172  0 }
+	color_ui = rgb { 230  172  0 }
+}

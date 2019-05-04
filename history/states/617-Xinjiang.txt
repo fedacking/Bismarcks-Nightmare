@@ -1,10 +1,13 @@
 state={
 	id=617
 	name="STATE_617"
+	manpower=1080500
+	buildings_max_level_factor=1.000
+	state_category=rural
 
 	history={
-		owner = EMP
-		add_core_of = EMP
+		owner = QIN
+		add_core_of = QIN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -19,7 +22,4 @@ state={
 	provinces={
 		1703 4682 4709 4770 7702 7792 7850 10545 10614 12526 12601 12656 
 	}
-	manpower=1080500
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

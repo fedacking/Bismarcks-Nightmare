@@ -9,22 +9,11 @@ state={
 	
 	history=
 	{
-		owner = EMP
-		add_core_of = EMP
+		owner = QIN
+		add_core_of = QIN
 		
 		buildings = {
 			infrastructure = 2
-		}
-
-		1938.10.25 = {
-			controller = JAP
-		}
-		
-		1939.1.1 = {
-			
-		owner = EMP
-			controller = MEN
-
 		}
 	}
 	manpower=500000

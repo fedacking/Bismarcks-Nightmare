@@ -8,8 +8,8 @@ state=
 	
 	history=
 	{
-		owner = EMP
-		add_core_of = EMP
+		owner = QIN
+		add_core_of = QIN
 		victory_points = {
 			1519 3 
 		}

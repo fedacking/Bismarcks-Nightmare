@@ -3,8 +3,8 @@ state={
 	name="STATE_616"
 
 	history={
-		owner = EMP
-		add_core_of = EMP
+		owner = QIN
+		add_core_of = QIN
 		buildings = {
 			infrastructure = 2
 

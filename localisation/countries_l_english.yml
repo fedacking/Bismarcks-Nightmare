@@ -65,3 +65,6 @@
  JOS_absolutist:0 "Kingdom of Joseon"
  JOS_absolutist_DEF:0 "the Kingdom of Joseon"
  JOS_absolutist_ADJ:0 "Korean"
+ QIN_absolutist:0 "Qing Empire"
+ QIN_absolutist_DEF:0 "the Qing Empire"
+ QIN_absolutist_ADJ:0 "Chinese"
