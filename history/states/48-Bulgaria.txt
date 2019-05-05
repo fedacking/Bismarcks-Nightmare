@@ -1,17 +1,13 @@
-
-state={
-	id=48
-	name="STATE_48"
+state = {
+	id = 48
+	name = "STATE_48"
 	manpower = 1891500
-	resources={
-		aluminium=1 # was: 2
-	}
-	
-	
+	resources = {
+		aluminium = 1
+	}	
 	state_category = city
-
-	history={
-		owner = EMP
+	history = {
+		owner = YUG
 		victory_points = {
 			949 15 
 		}
@@ -20,10 +16,9 @@ state={
 			industrial_complex = 6
 			air_base = 3
 		}
-		add_core_of = EMP
+		add_core_of = YUG
 	}
-
-	provinces={
+	provinces = {
 		793 935 949 965 3908 3971 6857 9771 9818 11754 
 	}
 }

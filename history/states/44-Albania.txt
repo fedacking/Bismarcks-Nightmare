@@ -1,17 +1,14 @@
-
-state={
-	id=44
-	name="STATE_44"
+state = {
+	id = 44
+	name = "STATE_44"
 	manpower = 801770
-	resources={
-		aluminium=2 # was: 3
-		chromium=2 # was: 3
-	}
-	
+	resources = {
+		aluminium = 2
+		chromium = 2
+	}	
 	state_category = town
-	
-	history={
-		owner = EMP
+	history = {
+		owner = YUG
 		victory_points = {
 			9914 5
 		}
@@ -27,10 +24,9 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = EMP
+		add_core_of = YUG
 	}
-
-	provinces={
+	provinces = {
 		3884 3896 9780 9875 9914 11762 
 	}
 }

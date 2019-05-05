@@ -80,3 +80,6 @@
  MOL_absolutist:0 "Principality of Moldavia"
  MOL_absolutist_DEF:0 "the Principality of Moldavia"
  MOL_absolutist_ADJ:0 "Moldavian"
+ YUG_absolutist:0 "Tsardom of Yugoslavia"
+ YUG_absolutist_DEF:0 "the Tsardom of Yugoslavia"
+ YUG_absolutist_ADJ:0 "Yugoslavian"
