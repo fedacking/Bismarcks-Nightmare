@@ -4,9 +4,8 @@ state={
 	manpower=2147	
 	state_category = tiny_island
 	
-	history=
-	{
-		owner = EMP
+	history = {
+		owner = IND
 		buildings = {
 			infrastructure = 3
 			13019 = {

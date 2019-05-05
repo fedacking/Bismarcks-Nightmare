@@ -120,3 +120,7 @@ AFG = {
 	color = rgb { 64 160 167 }
 	color_ui = rgb { 83 208 217 }
 }
+NEP = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
+}
