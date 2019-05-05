@@ -116,3 +116,7 @@ IND = {
 	color = rgb { 255 153 51 }
 	color_ui = rgb { 255 153 51 }
 }
+AFG = {
+	color = rgb { 64 160 167 }
+	color_ui = rgb { 83 208 217 }
+}
