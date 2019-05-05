@@ -1,0 +1,19 @@
+state = {
+	id = 832
+	name = "STATE_832"
+	manpower = 170148
+	state_category = pastoral
+	history = {
+		owner = EMP
+		add_core_of = EMP
+		victory_points = {
+			10122 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		9941 10122 11917 12096
+	}
+}

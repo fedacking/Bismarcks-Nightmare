@@ -2,11 +2,11 @@
 state={
 	id=342
 	name="STATE_342" # Antalya
-	manpower = 362689
+	manpower = 192541
 	resources={
 		chromium=35 # was: 46
 	}
-	state_category = rural
+	state_category = pastoral
 
 	history={
 		owner = EMP
@@ -24,6 +24,6 @@ state={
 	}
 
 	provinces={
-		1005 1119 9941 10122 11917 12013 12016 12096 
+		1005 1119 12013 12016 
 	}
 }
