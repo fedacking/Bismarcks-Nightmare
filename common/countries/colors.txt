@@ -132,3 +132,7 @@ IRA = {
 	color = rgb { 21 38 66 }
 	color_ui = rgb { 21 38 66 }
 }
+SIA = {
+	color = rgb { 180 180 180 }
+	color_ui = rgb { 180 180 180 }
+}
