@@ -14,7 +14,13 @@ state = {
 			infrastructure = 6
 			arms_factory = 4
 			industrial_complex = 1
-			air_base = 3
+			air_base = 5
+			9651 = {
+				bunker = 2
+			}
+			11636 = {
+				bunker = 2
+			}
 		}
 		add_core_of = WAL
 	}
