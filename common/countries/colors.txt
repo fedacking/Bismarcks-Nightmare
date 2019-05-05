@@ -136,3 +136,7 @@ SIA = {
 	color = rgb { 180 180 180 }
 	color_ui = rgb { 180 180 180 }
 }
+GRE = {
+	color = rgb { 93 181 227 }
+	color_ui = rgb { 121 235 255 }
+}

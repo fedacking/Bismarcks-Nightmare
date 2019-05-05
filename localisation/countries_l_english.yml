@@ -101,3 +101,6 @@
  SIA_semi_constitutionalist:0 "Kingdom of Siam"
  SIA_semi_constitutionalist_DEF:0 "the Kingdom of Siam"
  SIA_semi_constitutionalist_ADJ:0 "Siamese"
+ GRE_social_conservative:0 "Kingdom of Greece"
+ GRE_social_conservative_DEF:0 "the Kingdom of Greece"
+ GRE_social_conservative_ADJ:0 "Greek"
