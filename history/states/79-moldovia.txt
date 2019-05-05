@@ -1,28 +1,25 @@
-state=
-{
-	id=79
-	name="STATE_79"
+state = {
+	id = 79
+	name = "STATE_79"
 	manpower = 2806400
-	
-	state_category = rural
-	
-	history=
-	{
-		owner = EMP
+	state_category = metropolis
+	history = {
+		owner = MOL
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			air_base = 2
+			infrastructure = 7
+			air_base = 5
+			arms_factory = 3
+			industrial_complex = 5
 		}
 		victory_points = {
-			9716 1 
+			9716 20
 		}
 		victory_points = {
-			6706 1 
+			6706 5
 		}
-		add_core_of = EMP
+		add_core_of = MOL
 	}
-	provinces=
-	{
-723 744 3728 3741 6584 6706 6729 6747 6761 9701 9716 11534 11652 11655 11672 11689 	}
+	provinces = {
+		723 744 3728 3741 6584 6706 6729 6747 6761 9701 9716 11534 11652 11655 11672 11689
+	}
 }

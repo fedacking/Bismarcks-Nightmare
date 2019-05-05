@@ -100,3 +100,11 @@ BUR = {
 	color = rgb { 200  200  200 }
 	color_ui = rgb { 200  200  200 }
 }
+WAL = {
+	color = rgb { 208 184 73 }
+	color_ui = rgb { 248 218 87 }
+}
+MOL = {
+	color = rgb { 219 87 0 }
+	color_ui = rgb { 219 87 0 }
+}
