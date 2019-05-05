@@ -1,14 +1,10 @@
-state=
-{
-	id=164
-	name="STATE_164"
+state = {
+	id = 164
+	name = "STATE_164"
 	manpower = 120000
-	
 	state_category = small_island
-	
-	history=
-	{
-		owner = EMP
+	history = {
+		owner = GRE
 		victory_points = {
 			10007 1 
 		}
@@ -22,9 +18,9 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = EMP
+		add_core_of = GRE
 	}
-	provinces=
-	{
-7003 10007 	}
+	provinces = {
+		7003 10007
+	}
 }

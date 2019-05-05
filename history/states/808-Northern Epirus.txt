@@ -1,24 +1,20 @@
-
-state={
-	id=808
-	name="STATE_808" #Northern Epirus
+state = {
+	id = 808
+	name = "STATE_808" #Northern Epirus
 	manpower = 201230
-	resources={
-	}
-	
-	state_category = town
-	
-	history={
-		owner = EMP
+	resources = {
+	}	
+	state_category = town	
+	history = {
+		owner = GRE
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2 
 		}
-		add_core_of = EMP
+		add_core_of = GRE
 	}
-
-	provinces={
+	provinces = {
 		914 3448 6900 11767
 	}
 }

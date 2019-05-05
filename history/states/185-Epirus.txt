@@ -1,17 +1,13 @@
-
-state={
-	id=185
-	name="STATE_185"
+state = {
+	id = 185
+	name = "STATE_185"
 	manpower = 760900
-	
 	state_category = town
-	
-	resources={
-		chromium=14 # was: 20
-		steel = 14 # was: 20
+	resources = {
+		chromium = 14
+		steel = 14
 	}
-
-	history={
+	history = {
 		victory_points = {
 			10203 1
 		}
@@ -21,7 +17,7 @@ state={
 		victory_points = {
 			1205 1
 		}
-		owner = EMP
+		owner = GRE
 		buildings = {
 			infrastructure = 4
 			air_base = 3
@@ -29,10 +25,9 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = EMP
+		add_core_of = GRE
 	}
-
-	provinces={
+	provinces = {
 		841 1106 1205 3914 3980 9805 9837 9916 10203 11786 11895 12001 
 	}
 }

@@ -4,8 +4,8 @@ state = {
 	manpower = 170148
 	state_category = pastoral
 	history = {
-		owner = EMP
-		add_core_of = EMP
+		owner = GRE
+		add_core_of = GRE
 		victory_points = {
 			10122 1 
 		}
