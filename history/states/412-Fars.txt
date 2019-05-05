@@ -10,7 +10,8 @@ state={
 
 	state_category = rural
 	history={
-		owner = EMP
+		owner = IRA
+		add_core_of = IRA
 		victory_points = {
 			8117 1 
 		}
@@ -26,7 +27,6 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = EMP
 	}
 
 	provinces={

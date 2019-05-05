@@ -6,15 +6,14 @@ state={
 	state_category = rural
 
 	history={
-		victory_points = {
-			1910 1
-		}
-		owner = EMP
+		owner = PAK
+		add_core_of = PAK
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = EMP
-
+		victory_points = {
+			1910 1
+		}
 	}
 
 	provinces={

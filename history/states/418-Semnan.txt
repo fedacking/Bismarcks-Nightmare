@@ -7,11 +7,11 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = EMP
+		owner = IRA
+		add_core_of = IRA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = EMP
 	}
 
 	provinces={
