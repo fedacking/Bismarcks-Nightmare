@@ -1,5 +1,4 @@
-state=
-{
+state = {
 	id=333
 	name="STATE_333"
 	manpower = 889800
@@ -10,9 +9,8 @@ state=
 	
 	state_category = rural
 
-	history=
-	{
-		owner = EMP
+	history = {
+		owner = MAL
 		victory_points = {
 			7371 1
 		}
@@ -25,7 +23,7 @@ state=
 				naval_base = 2
 			}
 		}
-		add_core_of = EMP
+		add_core_of = MAL
 	}
 
 	provinces={

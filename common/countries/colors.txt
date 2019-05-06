@@ -152,3 +152,7 @@ ENG = {
 	color = rgb { 208 12 39 }
 	color_ui = rgb { 208 12 39 }
 }
+MAL = {
+	color = rgb { 71 113 165 }
+	color_ui = rgb { 71 113 165 }
+}

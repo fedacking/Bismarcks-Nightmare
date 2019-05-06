@@ -1,4 +1,3 @@
-
 state={
 	id=336
 	name="STATE_336"
@@ -14,7 +13,8 @@ state={
 	}
 
 	history={
-		owner = EMP
+		owner = MAL
+		add_core_of = MAL
 		victory_points = {
 			12299 10
 		}
@@ -39,7 +39,6 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = EMP
 	}
 
 	provinces={
