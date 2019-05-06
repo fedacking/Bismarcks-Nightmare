@@ -1,15 +1,13 @@
-
-state={
-	id=342
-	name="STATE_342" # Antalya
+state = {
+	id = 342
+	name = "STATE_342" # Antalya
 	manpower = 192541
-	resources={
-		chromium=35 # was: 46
+	resources = {
+		chromium = 35
 	}
 	state_category = pastoral
-
-	history={
-		owner = EMP
+	history = {
+		owner = TUR
 		victory_points = {
 			1005 1 
 		}
@@ -20,10 +18,9 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = EMP
+		add_core_of = TUR
 	}
-
-	provinces={
+	provinces = {
 		1005 1119 12013 12016 
 	}
 }
