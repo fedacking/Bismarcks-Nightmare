@@ -13,7 +13,7 @@ state = {
 			industrial_complex = 1
 		}
 		victory_points = {
-			10106 1 
+			10106 10
 		}
 		add_core_of = SYR
 	}	
