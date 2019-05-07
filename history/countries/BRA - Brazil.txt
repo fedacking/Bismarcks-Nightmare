@@ -53,11 +53,11 @@ if = {
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 50
+			popularity = 0
 		}
 
 		absolutist = { 
-			popularity = 0
+			popularity = 51
 		}
 
 		semi_constitutionalist = { 
@@ -65,7 +65,7 @@ set_politics = {
 		}
 
 		social_conservative = { 
-			popularity = 10
+			popularity = 9
 		}
 
 		liberal_conservative = { 
@@ -84,7 +84,7 @@ set_politics = {
 			popularity = 6
 		}
 	}
-	ruling_party = despotist
+	ruling_party = absolutist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
