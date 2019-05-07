@@ -156,3 +156,7 @@ MAL = {
 	color = rgb { 71 113 165 }
 	color_ui = rgb { 71 113 165 }
 }
+INS = {
+	color = rgb { 173 84 105 }
+	color_ui = rgb { 173 84 105 }
+}

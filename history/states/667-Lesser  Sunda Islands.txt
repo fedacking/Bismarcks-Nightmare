@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = EMP
-		add_core_of = EMP
+		owner = INS
+		add_core_of = INS
 		buildings = {
 			infrastructure = 3
 			1355 = {
