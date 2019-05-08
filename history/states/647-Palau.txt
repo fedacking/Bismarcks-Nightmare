@@ -1,12 +1,10 @@
-state=
-{
+state = {
 	id=647
 	name="STATE_647"
 	state_category = small_island
 	manpower = 12100
-	history=
-	{
-		owner = EMP
+	history = {
+		owner = SPA
 		buildings = {
 			infrastructure = 3
 			air_base = 1

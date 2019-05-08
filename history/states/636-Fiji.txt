@@ -1,14 +1,12 @@
-
-state={
+state = {
 	id=636
 	name="STATE_636"
 	manpower = 180000
 	
 	state_category = small_island
 
-	history={
-		owner = EMP
-		add_core_of = EMP
+	history = {
+		owner = OCE
 		buildings = {
 			infrastructure = 3
 			4286 = {

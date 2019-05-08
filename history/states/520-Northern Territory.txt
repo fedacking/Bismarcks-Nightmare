@@ -1,5 +1,4 @@
-
-state={
+state = {
 	id=520
 	name="STATE_520"
 
@@ -12,8 +11,9 @@ state={
 		steel=22 # was: 28
 	}
 
-	history={
-		owner = EMP
+	history = {
+		owner = OCE
+		add_core_of = OCE
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -24,7 +24,6 @@ state={
 		victory_points = {
 			7669 5 
 		}
-		add_core_of = EMP
 	}
 
 	provinces={

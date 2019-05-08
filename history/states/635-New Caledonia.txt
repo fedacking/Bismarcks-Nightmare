@@ -1,5 +1,4 @@
-
-state={
+state = {
 	id=635
 	name="STATE_635"
 	resources={
@@ -8,8 +7,8 @@ state={
 	
 	state_category = small_island
 
-	history={
-		owner = EMP
+	history = {
+		owner = FRA
 		victory_points = {
 			4268 1 
 		}

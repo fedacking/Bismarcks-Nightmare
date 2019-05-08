@@ -145,8 +145,8 @@ TUR = {
 	color_ui = rgb { 123 0 0 }
 }
 GBR = {
-	color = rgb { 66 244 179 }
-	color_ui = rgb { 66 244 179 }
+	color = rgb { 61 226 166 }
+	color_ui = rgb { 61 226 166 }
 }
 ENG = {
 	color = rgb { 208 12 39 }
@@ -167,4 +167,8 @@ POR = {
 SYR = {
 	color = rgb { 100 100 150 }
 	color_ui = rgb { 100 100 150 }
+}
+OCE = {
+	color = rgb { 20 42 98 }
+	color_ui = rgb { 20 42 98 }
 }

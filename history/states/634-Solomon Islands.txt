@@ -1,9 +1,9 @@
-state={
+state = {
 	id=634
 	name="STATE_634"
 
-	history={
-		owner = EMP
+	history = {
+		owner = OCE
 		buildings = {
 			infrastructure = 2
 			1269 = {
