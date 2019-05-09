@@ -11,13 +11,12 @@ state={
 	}
 
 	history={
-		owner = EMP
-		add_core_of = EMP
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
+			infrastructure = 2
 		
 			arms_factory = 1
-			industrial_complex = 2
-			infrastructure = 3
 			dockyard = 1
 			fuel_silo = 1
 
