@@ -1,21 +1,20 @@
-
-state={
+state = {
 	id=542
 	name="STATE_542"
 	manpower = 234000
 	
 	state_category = wasteland
 	
-	resources={
+	resources = {
 		chromium=90 # was: 168
 	}
 
-	history={
-		owner = EMP
+	history = {
+		owner = BOE
+		add_core_of = BOE
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = EMP
 		victory_points = {
 			8214 1
 		}

@@ -1,20 +1,19 @@
-
-state={
+state = {
 	id=541
 	name="STATE_541"
 	manpower = 462000
 	
 	state_category = wasteland
 
-	history={
-		owner = EMP
+	history = {
+		owner = BOE
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = {
 			4879 1
 		}
-		add_core_of = EMP
+		add_core_of = BOE
 	}
 
 	provinces={

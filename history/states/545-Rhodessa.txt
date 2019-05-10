@@ -1,12 +1,13 @@
-state={
+state = {
 	id=545
 	
 	state_category = pastoral
 	
 	name="STATE_545"
 
-	history={
-		owner = EMP
+	history = {
+		owner = POR
+		add_core_of = POR
 		buildings = {
 			infrastructure = 3
 
@@ -14,7 +15,6 @@ state={
 		victory_points = {
 			10929 1 
 		}
-		add_core_of = EMP
 	}
 
 	provinces={

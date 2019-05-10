@@ -1,4 +1,4 @@
-state={
+state = {
 	id=719
 	name="STATE_719" # Natal
 	manpower = 3962157
@@ -9,8 +9,9 @@ state={
 	state_category = city
 
 
-	history={
-		owner = EMP
+	history = {
+		owner = BOE
+		add_core_of = BOE
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -28,7 +29,6 @@ state={
 		victory_points = {
 			4696 1 
 		}
-		add_core_of = EMP
 	}
 
 	provinces={
