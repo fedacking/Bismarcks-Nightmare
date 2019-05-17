@@ -1,5 +1,4 @@
-
-state={
+state = {
 	id=782
 	name="STATE_782" # Tombouctou
 	manpower = 79243
@@ -7,9 +6,8 @@ state={
 	state_category = wasteland
 	impassable = yes
 
-	history={
-		owner = EMP
-		add_core_of = EMP
+	history = {
+		owner = FRA
 		buildings = {
 			infrastructure = 0
 		}

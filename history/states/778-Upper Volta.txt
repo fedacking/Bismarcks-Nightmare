@@ -1,13 +1,11 @@
-
-state={
+state = {
 	id=778
 	name="STATE_778" # Upper Volta
 	manpower = 3186184
 	
 	state_category = pastoral
-	history={
-		owner = EMP
-		add_core_of = EMP
+	history = {
+		owner = FRA
 		victory_points = {
 			10836 1
 		}

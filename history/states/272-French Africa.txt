@@ -1,4 +1,3 @@
-
 state={
 	id=272
 	name="STATE_272"
@@ -10,8 +9,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = EMP
-		add_core_of = EMP
+		owner = FRA
 		victory_points = {
 			4948 5 
 		}

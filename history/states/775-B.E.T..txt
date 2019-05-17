@@ -1,13 +1,12 @@
-state={
+state = {
 	id=775
 	name="STATE_775" # BET - Borkou-Ennedi-Tibesti region
 	
 	state_category = wasteland
 	impassable = yes
 
-	history={
-		owner = EMP
-		add_core_of = EMP
+	history = {
+		owner = FRA
 		buildings = {
 			infrastructure = 0
 		}

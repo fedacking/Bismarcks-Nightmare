@@ -176,7 +176,11 @@ JAP = {
 	color = rgb { 255 191 191 }
 	color_ui = rgb { 255 191 191 }
 }
-BOE = {
+BOE = {	
 	color = rgb { 203 138 74 }
-	color_ui = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
+}
+LIB = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
 }

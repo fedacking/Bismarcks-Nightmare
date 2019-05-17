@@ -1,14 +1,12 @@
-
-state={
+state = {
 	id=556
 	name="STATE_556" # Mali (previously French West Africa)
 	manpower = 3324782
 	
 	state_category = rural
 
-	history={
-		owner = EMP
-		add_core_of = EMP
+	history = {
+		owner = FRA
 		victory_points = {
 			4927 1
 		}

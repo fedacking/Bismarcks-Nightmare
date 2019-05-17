@@ -1,10 +1,9 @@
-state={
+state = {
 	id=701
 	name="STATE_701"
 
-	history={
-		owner = EMP
-		add_core_of = EMP
+	history = {
+		owner = FRA
 		victory_points = {
 			4989 1 
 		}

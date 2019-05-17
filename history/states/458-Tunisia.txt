@@ -9,8 +9,7 @@ state={
 	}
 
 	history={
-		owner = EMP
-		add_core_of = EMP
+		owner = FRA
 		victory_points = {
 			11969 10 
 		}

@@ -1,4 +1,4 @@
-state={
+state = {
 	id=786
 	name="STATE_786" # Mauritanian Desert
 	manpower = 124200
@@ -6,9 +6,8 @@ state={
 	state_category = wasteland
 	impassable = yes
 
-	history={
-		owner = EMP
-		add_core_of = EMP
+	history = {
+		owner = FRA
 		buildings = {
 			infrastructure = 0
 		}
