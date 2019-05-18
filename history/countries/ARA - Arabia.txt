@@ -1,0 +1,44 @@
+﻿capital = 292
+
+oob = "ARA_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+	parties = {
+		despotist = { 
+			popularity = 3
+		}
+		absolutist = { 
+			popularity = 51
+		}
+		semi_constitutionalist = { 
+			popularity = 10
+		}
+		social_conservative = { 
+			popularity = 25
+		}
+		liberal_conservative = { 
+			popularity = 5
+		}
+		republican_liberal = {
+			popularity = 4
+		}		
+		communist = {
+			popularity = 0
+		}		
+		socialist = { 
+			popularity = 2
+		}
+	}	
+	ruling_party = absolutist
+	last_election = "1931.11.8"
+	election_frequency = 72
+	elections_allowed = no
+}

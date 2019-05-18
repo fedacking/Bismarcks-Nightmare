@@ -1,13 +1,12 @@
-
-state={
+state = {
 	id=765
 	name="STATE_765"
 	manpower = 51600
 	state_category = pastoral
 
-	history={
-		add_core_of = EMP
-		owner = EMP
+	history = {
+		add_core_of = ARA
+		owner = ARA
 		victory_points = {
 			8051 1
 		}
@@ -19,7 +18,7 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = {
 		8051
 	}
 }

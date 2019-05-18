@@ -1,5 +1,4 @@
-
-state={
+state = {
 	id=538
 	name="STATE_538" # Central Congo
 	manpower = 1693974
@@ -8,12 +7,11 @@ state={
 	resources={
 		rubber=5 # was: 5
 	}
-	history={
-		owner = EMP
+	history = {
+		owner = ARG
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = EMP
 	}
 
 	provinces={

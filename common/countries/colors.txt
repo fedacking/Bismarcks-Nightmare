@@ -1,9 +1,4 @@
 #reload countrycolors
-
-EMP = {
-	color = rgb { 54 54 54 }
-	color_ui = rgb { 115 115 115 }
-}
 ARG = {
 	color = rgb { 153 217 234 }
 	color_ui = rgb { 153 217 234 }
@@ -195,4 +190,8 @@ EGY = {
 HAI = {
 	color = rgb { 174 113 113 }
 	color_ui = rgb { 174 113 113 }
+}
+ARA = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
 }
