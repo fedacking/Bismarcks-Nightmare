@@ -1,16 +1,14 @@
-
-state={
+state = {
 	id=558
 	name="STATE_558"
 	manpower = 19757000
 	
 	state_category = rural
-	resources={
+	resources = {
 		rubber=2 # was: 3
 	}
-	history={
-		owner = EMP
-		add_core_of = EMP
+	history = {
+		owner = FRA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0

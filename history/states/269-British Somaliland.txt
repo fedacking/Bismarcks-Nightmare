@@ -13,7 +13,6 @@ state = {
 			5068 1
 		}
 		owner = FRA
-		add_core_of = FRA
 		buildings = {
 			infrastructure = 3
 			10833 = {

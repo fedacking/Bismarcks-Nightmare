@@ -9,10 +9,10 @@ state={
 	history={
 		owner = PAK
 		add_core_of = PAK
+		add_claim_by = IND
 		buildings = {
 			infrastructure = 2
 		}
-		add_claim_by = IND
 	}
 
 	provinces={
