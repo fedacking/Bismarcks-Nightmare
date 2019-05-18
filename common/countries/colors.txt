@@ -184,3 +184,7 @@ LIB = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
+ZAN = {
+	color = rgb { 245 194 143 }
+	color_ui = rgb { 245 194 143 }
+}

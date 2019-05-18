@@ -1,20 +1,19 @@
-state=
-{
+state = {
 	id=269
 	name="STATE_269"
 	manpower = 344700
 	
 	state_category = enclave
 	
-	history= {
+	history = {
 		victory_points = { 
 			10833 1
 		}
 		victory_points = { 
 			5068 1
 		}
-		owner = EMP
-		add_core_of = EMP
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 3
 			10833 = {
