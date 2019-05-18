@@ -1,5 +1,4 @@
-
-state={
+state = {
 	id=447
 	name="STATE_447"
 	manpower = 3859239
@@ -9,8 +8,9 @@ state={
 	
 	state_category = town
 
-	history={
-		owner = EMP
+	history = {
+		owner = EGY
+		add_core_of = EGY
 		
 		victory_points = {
 			4076 10 
@@ -28,7 +28,6 @@ state={
 			}
 		}
 
-		add_core_of = EMP
 	}
 
 	provinces={
