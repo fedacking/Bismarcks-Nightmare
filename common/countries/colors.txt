@@ -192,3 +192,7 @@ EGY = {
 	color = rgb { 230 230 70 }
 	color_ui = rgb { 230 230 70 }
 }
+HAI = {
+	color = rgb { 174 113 113 }
+	color_ui = rgb { 174 113 113 }
+}

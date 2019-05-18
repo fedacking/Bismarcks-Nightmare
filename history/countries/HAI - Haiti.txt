@@ -1,0 +1,44 @@
+﻿capital = 318
+
+oob = "HAI_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+	parties = {
+		despotist = { 
+			popularity = 3
+		}
+		absolutist = { 
+			popularity = 10
+		}
+		semi_constitutionalist = { 
+			popularity = 51
+		}
+		social_conservative = { 
+			popularity = 4
+		}
+		liberal_conservative = { 
+			popularity = 5
+		}
+		republican_liberal = {
+			popularity = 25
+		}		
+		communist = {
+			popularity = 0
+		}		
+		socialist = { 
+			popularity = 2
+		}
+	}	
+	ruling_party = semi_constitutionalist
+	last_election = "1931.11.8"
+	election_frequency = 72
+	elections_allowed = no
+}
