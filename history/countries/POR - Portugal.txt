@@ -9,6 +9,66 @@ if = {
 	}
 }
 
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = BRA
+		autonomous_state = personal_union
+	}
+	
+	else = {
+		puppet = BRA
+	}
+}
+
+BRA = {
+	set_politics = {
+		parties = {
+			despotist = { 
+				popularity = 0
+			}
+
+			absolutist = { 
+				popularity = 51
+			}
+
+			semi_constitutionalist = { 
+				popularity = 0
+			}
+
+			social_conservative = { 
+				popularity = 9
+			}
+
+			liberal_conservative = { 
+				popularity = 16
+			}
+
+			republican_liberal = {
+				popularity = 18
+			}
+			
+			communist = {
+				popularity = 0
+			}
+			
+			socialist = { 
+				popularity = 6
+			}
+		}
+		ruling_party = absolutist
+		last_election = "1931.11.8"
+		election_frequency = 72
+		elections_allowed = no
+	}
+}
+
 set_research_slots = 3
 
 set_technology = {
