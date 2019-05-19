@@ -83,3 +83,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "José Luis Tejada Sorzano"
+	desc = "POLITICS_JOSE_TEJADA_SORZANO_DESC"
+	picture = "gfx/leaders/BOL/Portrait_BOL_Jose_Luis_Tejada_Sorzano.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}

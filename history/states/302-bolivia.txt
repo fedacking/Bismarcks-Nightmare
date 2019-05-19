@@ -16,7 +16,10 @@ state = {
 		}
 		add_core_of = BOL
 		victory_points = {
-			5230 5 
+			12930 20
+		}
+		victory_points = {
+			5230 10
 		}
 	}
 	provinces = {

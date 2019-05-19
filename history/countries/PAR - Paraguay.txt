@@ -16,7 +16,7 @@ set_technology = {
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 50
+			popularity = 92
 		}
 
 		absolutist = { 
@@ -28,27 +28,38 @@ set_politics = {
 		}
 
 		social_conservative = { 
-			popularity = 10
+			popularity = 0
 		}
 
 		liberal_conservative = { 
-			popularity = 16
+			popularity = 0
 		}
 
 		republican_liberal = {
-			popularity = 18
-		}
-		
-		communist = {
 			popularity = 0
 		}
 		
+		communist = {
+			popularity = 8
+		}
+		
 		socialist = { 
-			popularity = 6
+			popularity = 0
 		}
 	}
 	ruling_party = despotist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Rafael Franco"
+	desc = "POLITICS_RAFAEL_FRANCO_DESC"
+	picture = "gfx/leaders/PAR/Portrait_PAR_Rafael_Franco.dds"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
 }
