@@ -51,7 +51,7 @@ set_convoys = 100
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 16
+			popularity = 0
 		}
 
 		absolutist = { 
@@ -63,29 +63,40 @@ set_politics = {
 		}
 
 		social_conservative = { 
-			popularity = 10
+			popularity = 0
 		}
 
 		liberal_conservative = { 
-			popularity = 6
+			popularity = 0
 		}
 
 		republican_liberal = {
-			popularity = 18
+			popularity = 10
 		}
 		
 		communist = {
-			popularity = 0
+			popularity = 20
 		}
 		
 		socialist = { 
-			popularity = 50
+			popularity = 70
 		}
 	}
 	ruling_party = socialist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Víctor Raúl Haya"
+	desc = "POLITICS_VICTOR_RAUL_HAYA_DESC"
+	picture = "gfx/leaders/PER/Portrait_PER_Victor_Raul_Haya.tga"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
 }
 
 ### VARIANTS ###

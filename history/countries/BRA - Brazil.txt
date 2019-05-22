@@ -90,6 +90,17 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Manuel II"
+	desc = "POLITICS_MANUEL_II_DESC"
+	picture = "gfx/leaders/BRA/Portrait_Manuel_II.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
+
 set_convoys = 40
 
 if = {
