@@ -91,7 +91,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Manuel II"
+	name = "Manuel I"
 	desc = "POLITICS_MANUEL_II_DESC"
 	picture = "gfx/leaders/BRA/Portrait_Manuel_II.tga"
 	expire = "1965.1.1"

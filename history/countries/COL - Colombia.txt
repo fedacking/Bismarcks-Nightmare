@@ -84,6 +84,17 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Eduardo Santos Montejo"
+	desc = "POLITICS_EDUARDO_SANTOS_MONTEJO_DESC"
+	picture = "gfx/leaders/COL/Portrait_Eduardo_Santos.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
 ### VARIANTS ###
 # 1936 Start #
 if = {

@@ -20,7 +20,7 @@ set_convoys = 100
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 0
+			popularity = 10
 		}
 
 		absolutist = { 
@@ -32,27 +32,38 @@ set_politics = {
 		}
 
 		social_conservative = { 
-			popularity = 15
+			popularity = 57
 		}
 
 		liberal_conservative = { 
-			popularity = 20
+			popularity = 25
 		}
 
 		republican_liberal = {
-			popularity = 50
+			popularity = 8
 		}
 		
 		communist = {
-			popularity = 9
+			popularity = 0
 		}
 		
 		socialist = { 
-			popularity = 6
+			popularity = 0
 		}
 	}
-	ruling_party = republican_liberal
+	ruling_party = social_conservative
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Juan Bautista Sacasa"
+	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
+	picture = "gfx/leaders/CEN/Portrait_Juan_Bautista_Sacasa.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
 }

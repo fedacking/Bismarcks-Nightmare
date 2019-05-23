@@ -56,3 +56,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Isaías Medina Angarita"
+	desc = "POLITICS_ISAIAS_MEDINA_ANGARITA_DESC"
+	picture = "gfx/leaders/VEN/Portrait_Isaias_Medina.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
