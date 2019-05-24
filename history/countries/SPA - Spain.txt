@@ -98,19 +98,19 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Miguel Maura"
+	desc = "POLITICS_MIGUEL_MAURA_DESC"
+	picture = "gfx/leaders/SPA/Portrait_Miguel_Maura.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
 set_convoys = 150
 set_stability = 0.5
-
-create_field_marshal = {
-	name = "José Asensio Torrado"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 2
-    attack_skill = 1
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 1
-}
 
 
 ### VARIANTS ###

@@ -106,7 +106,7 @@ set_convoys = 800
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 5
+			popularity = 0
 		}
 
 		absolutist = { 
@@ -114,19 +114,19 @@ set_politics = {
 		}
 
 		semi_constitutionalist = { 
-			popularity = 6
+			popularity = 0
 		}
 
 		social_conservative = { 
-			popularity = 6
+			popularity = 5
 		}
 
 		liberal_conservative = { 
-			popularity = 9
+			popularity = 10
 		}
 
 		republican_liberal = {
-			popularity = 60
+			popularity = 66
 		}
 		
 		communist = {
@@ -141,4 +141,15 @@ set_politics = {
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Michael Collins"
+	desc = "POLITICS_MICHAEL_COLLINS_DESC"
+	picture = "gfx/leaders/GBR/Portrait_Michael_Collins.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
 }
