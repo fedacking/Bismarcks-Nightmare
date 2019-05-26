@@ -20,7 +20,7 @@ set_convoys = 100
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 10
+			popularity = 0
 		}
 
 		absolutist = { 
@@ -40,7 +40,7 @@ set_politics = {
 		}
 
 		republican_liberal = {
-			popularity = 8
+			popularity = 18
 		}
 		
 		communist = {

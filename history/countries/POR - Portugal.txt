@@ -35,23 +35,23 @@ BRA = {
 			}
 
 			absolutist = { 
-				popularity = 51
+				popularity = 75
 			}
 
 			semi_constitutionalist = { 
-				popularity = 0
+				popularity = 10
 			}
 
 			social_conservative = { 
-				popularity = 9
+				popularity = 15
 			}
 
 			liberal_conservative = { 
-				popularity = 16
+				popularity = 0
 			}
 
 			republican_liberal = {
-				popularity = 18
+				popularity = 0
 			}
 			
 			communist = {
@@ -59,7 +59,7 @@ BRA = {
 			}
 			
 			socialist = { 
-				popularity = 6
+				popularity = 0
 			}
 		}
 		ruling_party = absolutist
@@ -116,7 +116,7 @@ set_politics = {
 		}
 
 		absolutist = { 
-			popularity = 10
+			popularity = 12
 		}
 
 		semi_constitutionalist = { 
@@ -124,15 +124,15 @@ set_politics = {
 		}
 
 		social_conservative = { 
-			popularity = 55
+			popularity = 60
 		}
 
 		liberal_conservative = { 
-			popularity = 5
+			popularity = 25
 		}
 
 		republican_liberal = {
-			popularity = 25
+			popularity = 0
 		}
 		
 		communist = {
@@ -140,7 +140,7 @@ set_politics = {
 		}
 		
 		socialist = { 
-			popularity = 2
+			popularity = 0
 		}
 	}	
 	ruling_party = social_conservative

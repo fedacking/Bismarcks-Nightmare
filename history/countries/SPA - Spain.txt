@@ -61,19 +61,19 @@ if = {
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 3
-		}
-
-		absolutist = { 
-			popularity = 10
-		}
-
-		semi_constitutionalist = { 
 			popularity = 5
 		}
 
+		absolutist = { 
+			popularity = 8
+		}
+
+		semi_constitutionalist = { 
+			popularity = 0
+		}
+
 		social_conservative = { 
-			popularity = 4
+			popularity = 28
 		}
 
 		liberal_conservative = { 
@@ -81,7 +81,7 @@ set_politics = {
 		}
 
 		republican_liberal = {
-			popularity = 25
+			popularity = 8
 		}
 		
 		communist = {
@@ -89,7 +89,7 @@ set_politics = {
 		}
 		
 		socialist = { 
-			popularity = 2
+			popularity = 0
 		}
 	}	
 	ruling_party = liberal_conservative

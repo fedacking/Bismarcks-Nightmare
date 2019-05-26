@@ -47,7 +47,7 @@ set_convoys = 100
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 16
+			popularity = 4
 		}
 
 		absolutist = { 
@@ -59,15 +59,15 @@ set_politics = {
 		}
 
 		social_conservative = { 
-			popularity = 10
+			popularity = 0
 		}
 
 		liberal_conservative = { 
-			popularity = 18
+			popularity = 24
 		}
 
 		republican_liberal = {
-			popularity = 50
+			popularity = 60
 		}
 		
 		communist = {
@@ -75,7 +75,7 @@ set_politics = {
 		}
 		
 		socialist = { 
-			popularity = 6
+			popularity = 12
 		}
 	}
 	ruling_party = republican_liberal

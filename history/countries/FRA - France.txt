@@ -95,19 +95,19 @@ set_politics = {
 			popularity = 51
 		}
 		social_conservative = { 
-			popularity = 4
+			popularity = 25
 		}
 		liberal_conservative = { 
-			popularity = 5
+			popularity = 11
 		}
 		republican_liberal = {
-			popularity = 25
+			popularity = 0
 		}		
 		communist = {
 			popularity = 0
 		}		
 		socialist = { 
-			popularity = 2
+			popularity = 0
 		}
 	}	
 	ruling_party = semi_constitutionalist
