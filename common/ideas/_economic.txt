@@ -85,9 +85,7 @@ ideas = {
 			available = {
 				has_war_support > 0.15
 				if = {
-					limit = {
-						has_defensive_war = no
-					}
+					limit = { has_defensive_war = no }
 					has_war_support > 0.3
 				}	
 			}
