@@ -542,16 +542,16 @@ guiTypes = {
 		iconType ={
 			name ="category_header"
 			spriteType = "GFX_category_header"
-			position = { x=-5 y=2 }
-			Orientation = "UPPER_LEFT"
-		}
-		iconType ={
-			name ="category_icon"
-			spriteType = "GFX_idea_categories"
-			position = { x=4 y=8 }
+			position = { x = -5 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}
 		
+		iconType ={
+			name ="category_icon"
+			spriteType = "GFX_idea_categories"
+			position = { x = 4 y = 8 }
+			Orientation = "UPPER_LEFT"
+		}
 		
 		instantTextboxType = {
 			name = "name"
