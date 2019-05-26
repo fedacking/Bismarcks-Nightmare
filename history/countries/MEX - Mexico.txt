@@ -90,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_MARIA_I_DESC"
 	picture = "gfx/leaders/MEX/Portrait_Maria_I.tga"
 	expire = "1965.1.1"
-	ideology = republican_liberal_subtype
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
