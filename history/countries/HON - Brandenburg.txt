@@ -222,6 +222,28 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Gotthard Heinrici"
+	picture = "Portrait_General_Gotthard_Heinric.tga"
+	traits = { trait_engineer fortress_buster }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hermann Hoth"
+	picture = "Portrait_General_Hermann_Hoth.tga"
+	traits = { infantry_officer infantry_expert }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }

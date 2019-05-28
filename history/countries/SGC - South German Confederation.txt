@@ -211,6 +211,39 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
+create_corps_commander = {
+	name = "Franz Halder"
+	picture = "Portrait_General_Franz_Halder.tga"
+	traits = { organizer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Franz von Bayern"
+	picture = "Portrait_General_Franz_Bayern.tga"
+	traits = { trait_engineer fortress_buster hill_fighter }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Fritz Bayerlein"
+	picture = "Portrait_General_Fritz_Bayerlein.tga"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
