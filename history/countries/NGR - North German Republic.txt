@@ -215,3 +215,36 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 2
 }
+
+create_navy_leader = {
+	name = "Wilhelm Souchon"
+	picture = "Portrait_Navy_Wilhelm_Souchon.tga"
+	traits = { spotter old_guard_navy }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Günther Lütjens"
+	picture = "Portrait_Navy_Gunther_Lutjens.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Otto Ciliax"
+	picture = "Portrait_Navy_Otto_Ciliax.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
