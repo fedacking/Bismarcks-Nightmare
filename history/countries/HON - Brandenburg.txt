@@ -146,14 +146,14 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Gerd von Rundstedt"
-	picture = "Portrait_General_Gerd_von_Rundstedt.tga"
-	traits = { defensive_doctrine offensive_doctrine }
-	skill = 4
+	name = "Walter Model"
+	picture = "Portrait_General_Walter_Model.tga"
+	traits = { defensive_doctrine brilliant_strategist trait_cautious politically_connected }
+	skill = 3
 	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -164,6 +164,28 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Günther von Kluge"
+	picture = "Portrait_General_Gunther_Kluge.tga"
+	traits = { career_officer armor_officer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Erwin von Witzleben"
+	picture = "Portrait_General_Erwin_von_Witzleben.tga"
+	traits = { skilled_staffer career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
 	logistics_skill = 3
 }
 

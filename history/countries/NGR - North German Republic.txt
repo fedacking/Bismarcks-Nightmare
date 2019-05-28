@@ -148,3 +148,14 @@ create_country_leader = {
 		#
 	}
 }
+
+create_field_marshal = {
+	name = "Gerd von Rundstedt"
+	picture = "Portrait_General_Gerd_von_Rundstedt.tga"
+	traits = { defensive_doctrine offensive_doctrine }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
