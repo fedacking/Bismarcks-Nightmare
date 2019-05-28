@@ -101,11 +101,11 @@ set_politics = {
 		}
 
 		absolutist = { 
-			popularity = 51
+			popularity = 78
 		}
 
 		semi_constitutionalist = { 
-			popularity = 0
+			popularity = 10
 		}
 
 		social_conservative = { 
@@ -113,11 +113,11 @@ set_politics = {
 		}
 
 		liberal_conservative = { 
-			popularity = 18
+			popularity = 0
 		}
 
 		republican_liberal = {
-			popularity = 12
+			popularity = 0
 		}
 		
 		communist = {
@@ -125,13 +125,24 @@ set_politics = {
 		}
 		
 		socialist = { 
-			popularity = 7
+			popularity = 0
 		}
 	}	
 	ruling_party = absolutist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = "gfx/leaders/HON/Portrait_Wilhelm_III.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
 }
 
 if = {

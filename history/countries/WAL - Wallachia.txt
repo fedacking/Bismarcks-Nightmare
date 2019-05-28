@@ -51,23 +51,23 @@ if = {
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 3
+			popularity = 5
 		}
 
 		absolutist = { 
-			popularity = 10
+			popularity = 0
 		}
 
 		semi_constitutionalist = { 
-			popularity = 51
+			popularity = 0
 		}
 
 		social_conservative = { 
-			popularity = 4
+			popularity = 20
 		}
 
 		liberal_conservative = { 
-			popularity = 5
+			popularity = 46
 		}
 
 		republican_liberal = {
@@ -79,11 +79,22 @@ set_politics = {
 		}
 		
 		socialist = { 
-			popularity = 2
+			popularity = 4
 		}
 	}	
-	ruling_party = semi_constitutionalist
+	ruling_party = liberal_conservative
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Alexandru Vaida-Voevod"
+	desc = "POLITICS_ALEXANDRU_VAIDA_VOEVOD_DESC"
+	picture = "gfx/leaders/WAL/Portrait_Alexandru_Vaida_Voevod.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
 }

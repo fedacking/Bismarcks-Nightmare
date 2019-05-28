@@ -56,19 +56,19 @@ set_politics = {
 		}
 
 		absolutist = { 
-			popularity = 10
+			popularity = 3
 		}
 
 		semi_constitutionalist = { 
-			popularity = 9
+			popularity = 42
 		}
 
 		social_conservative = { 
-			popularity = 51
+			popularity = 15
 		}
 
 		liberal_conservative = { 
-			popularity = 5
+			popularity = 12
 		}
 
 		republican_liberal = {
@@ -80,13 +80,24 @@ set_politics = {
 		}
 		
 		socialist = { 
-			popularity = 2
+			popularity = 5
 		}
 	}	
-	ruling_party = social_conservative
+	ruling_party = semi_constitutionalist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Congress of Copenhagen"
+	desc = "POLITICS_SCANDINAVIAN_CONGRESS_DESC"
+	picture = "gfx/leaders/SCA/Portrait_Scandinavian_Congress.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
 }
 
 set_convoys = 400

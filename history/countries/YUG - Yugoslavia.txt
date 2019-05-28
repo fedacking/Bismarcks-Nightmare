@@ -55,7 +55,7 @@ set_convoys = 10
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 3
+			popularity = 0
 		}
 
 		absolutist = { 
@@ -63,7 +63,7 @@ set_politics = {
 		}
 
 		semi_constitutionalist = { 
-			popularity = 0
+			popularity = 20
 		}
 
 		social_conservative = { 
@@ -71,11 +71,11 @@ set_politics = {
 		}
 
 		liberal_conservative = { 
-			popularity = 5
+			popularity = 15
 		}
 
 		republican_liberal = {
-			popularity = 25
+			popularity = 0
 		}
 		
 		communist = {
@@ -83,13 +83,24 @@ set_politics = {
 		}
 		
 		socialist = { 
-			popularity = 2
+			popularity = 0
 		}
 	}	
 	ruling_party = absolutist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	desc = "POLITICS_FERDINAND_I_DESC"
+	picture = "gfx/leaders/YUG/Portrait_Ferdinand_I.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
 }
 
 set_stability = 0.05

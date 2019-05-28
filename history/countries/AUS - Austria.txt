@@ -17,15 +17,15 @@ set_technology = {
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 3
+			popularity = 6
 		}
 
 		absolutist = { 
-			popularity = 10
+			popularity = 0
 		}
 
 		semi_constitutionalist = { 
-			popularity = 4
+			popularity = 0
 		}
 
 		social_conservative = { 
@@ -33,7 +33,7 @@ set_politics = {
 		}
 
 		liberal_conservative = { 
-			popularity = 5
+			popularity = 16
 		}
 
 		republican_liberal = {
@@ -52,6 +52,17 @@ set_politics = {
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Franz Ferdinand I"
+	desc = "POLITICS_FRANZ_FERDINAND_DESC"
+	picture = "gfx/leaders/AUS/Portrait_Franz_Ferdinand.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
 }
 
 set_stability = 0.50

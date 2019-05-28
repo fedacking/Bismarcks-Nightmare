@@ -51,11 +51,11 @@ if = {
 set_politics = {
 	parties = {
 		despotist = { 
-			popularity = 3
+			popularity = 100
 		}
 
 		absolutist = { 
-			popularity = 51
+			popularity = 0
 		}
 
 		semi_constitutionalist = { 
@@ -63,15 +63,15 @@ set_politics = {
 		}
 
 		social_conservative = { 
-			popularity = 14
+			popularity = 0
 		}
 
 		liberal_conservative = { 
-			popularity = 5
+			popularity = 0
 		}
 
 		republican_liberal = {
-			popularity = 25
+			popularity = 0
 		}
 		
 		communist = {
@@ -79,11 +79,22 @@ set_politics = {
 		}
 		
 		socialist = { 
-			popularity = 2
+			popularity = 0
 		}
 	}	
-	ruling_party = absolutist
+	ruling_party = despotist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gheorghe Brătianu"
+	desc = "POLITICS_GHEORGHE_BRATIANU_DESC"
+	picture = "gfx/leaders/MOL/Portrait_Gheorghe_Bratianu.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
 }

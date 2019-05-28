@@ -94,4 +94,15 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Geórgios II"
+	desc = "POLITICS_GEORGE_II_DESC"
+	picture = "gfx/leaders/GRE/Portrait_George_II.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
 set_stability = 0.4

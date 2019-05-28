@@ -48,35 +48,46 @@ set_politics = {
 		}
 
 		absolutist = { 
-			popularity = 2
+			popularity = 0
 		}
 
 		semi_constitutionalist = { 
-			popularity = 5
+			popularity = 10
 		}
 
 		social_conservative = { 
-			popularity = 12
+			popularity = 17
 		}
 
 		liberal_conservative = { 
-			popularity = 2
+			popularity = 3
 		}
 
 		republican_liberal = {
-			popularity = 1
+			popularity = 0
 		}
 		
 		communist = {
-			popularity = 7
+			popularity = 0
 		}
 		
 		socialist = { 
-			popularity = 1
+			popularity = 0
 		}
 	}	
 	ruling_party = despotist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tokugawa Iesato"
+	desc = "POLITICS_TOKUGAWA_IESATO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Tokugawa_Iesato.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
 }
