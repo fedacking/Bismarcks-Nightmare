@@ -159,3 +159,36 @@ create_field_marshal = {
 	planning_skill = 4
 	logistics_skill = 4
 }
+
+create_corps_commander = {
+	name = "Ewald von Kleist"
+	picture = "Portrait_General_Ewald_Kleist.tga"
+	traits = { skilled_staffer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Friedrich Paulus"
+	picture = "Portrait_General_Friedrich_Paulus.tga"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Georg von Küchler"
+	picture = "Portrait_General_Georg_Kuchler.tga"
+	traits = { politically_connected career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}

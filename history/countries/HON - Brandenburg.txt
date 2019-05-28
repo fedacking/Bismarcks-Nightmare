@@ -200,6 +200,28 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Erich Hoepner"
+	picture = "Portrait_General_Erich_Hoepner.tga"
+	traits = { armor_officer trait_reckless }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Fedor von Bock"
+	picture = "Portrait_General_Fedor_Bock"
+	traits = { brilliant_strategist harsh_leader trait_cautious }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }

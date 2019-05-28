@@ -200,6 +200,17 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
+create_corps_commander = {
+	name = "Eduard Dietl"
+	picture = "Portrait_General_Eduard_Dietl.tga"
+	traits = { winter_specialist commando }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
