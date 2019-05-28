@@ -192,3 +192,26 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 2
 }
+
+create_corps_commander = {
+	name = "Kurt Student"
+	picture = "Portrait_General_Kurt_Student.dds"
+	traits = { commando trait_reckless }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ernst-Eberhard Hell"
+	picture = "Portrait_General_Ernst-Eberhard_Hell.dds"
+	traits = { winter_specialist trait_engineer war_hero }
+	skill = 3
+	id = 34
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
