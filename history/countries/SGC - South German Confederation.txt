@@ -145,6 +145,39 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Ruprecht I"
+	picture = "Portrait_Ruprecht_I.tga"
+	traits = { trait_cautious inflexible_strategist defensive_doctrine organizer thorough_planner }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Erich von Manstein"
+	picture = "Portrait_General_Erich_von_Manstein.tga"
+	traits = { trickster armor_officer brilliant_strategist trait_engineer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Erwin Rommel"
+	picture = "Portrait_General_Erwin_Rommel.tga"
+	traits = { trickster trait_reckless war_hero armor_officer media_personality }
+	skill = 4
+	attack_skill = 6
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
