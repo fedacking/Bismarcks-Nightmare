@@ -149,6 +149,8 @@ create_country_leader = {
 	}
 }
 
+#German
+
 create_field_marshal = {
 	name = "Gerd von Rundstedt"
 	picture = "Portrait_General_Gerd_von_Rundstedt.tga"
@@ -214,6 +216,82 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
+}
+
+#Dutch
+
+create_field_marshal = {
+	name = "Izaak Reijnders"
+	id = 980
+	picture = "Portrait_General_Izaak_Reijnders.tga"
+	traits = { old_guard inflexible_strategist trait_reckless }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Henri Winkelman"
+	picture = "Portrait_General_Henri_Winkelman.tga"
+	traits = {}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "G. van Voorst tot Voorst"
+	picture = "Portrait_General_van_Voorst_tot_Voorst_G_.tga"
+	traits = { brilliant_strategist career_officer armor_officer politically_connected }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Hendrik Seyffardt"
+	picture = "Portrait_General_Hendrik_Seyffardt.tga"
+	traits = {
+		old_guard
+		politically_connected
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hein ter Poorten"
+	picture = "Portrait_General_Hein_ter_Poorten.tga"
+	traits = {
+		jungle_rat
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "H. van Voorst tot Voorst"
+	picture = "Portrait_General_van_Voorst_tot_Voorst_H_.tga"
+	traits = {
+		trait_engineer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_navy_leader = {
