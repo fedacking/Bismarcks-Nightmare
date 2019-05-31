@@ -227,6 +227,83 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
+create_corps_commander = {
+	name = "Édouard van den Bergen"
+	picture = "Portrait_General_Edouard_van_den_Bergen.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Jean Baptiste Piron"
+	picture = "Portrait_General_Jean_Baptiste_Piron.tga"
+	traits = { trickster infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Victor van Strydonck de Burkel"
+	picture = "Portrait_General_Victor_van_Strydonck_de_Burkel.tga"
+	traits = { cavalry_officer war_hero }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Maurice Keyaerts"
+	picture = "Portrait_General_Maurice_Keyaerts.tga"
+	traits = { ranger hill_fighter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Georges Deffontaine"
+	picture = "Portrait_General_Georges_Deffontaine.tga"
+	traits = { organizer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Maximilien de Nève de Roden"
+	picture = "Portrait_General_de_Neve_de_Roden.tga"
+	traits = { politically_connected }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Alexis Vander Veken"
+	picture = "Portrait_General_Alexis_Vander_Veken.tga"
+	traits = {}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
 
 create_navy_leader = {
 	name = "François Darlan"
@@ -281,6 +358,28 @@ create_navy_leader = {
 	defense_skill = 1
 	maneuvering_skill = 1
 	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Fritz Conrad"
+	picture = "Portrait_Navy_Fritz_Conrad.tga"
+	traits = { spotter }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Georges Timmermans"
+	picture = "Portrait_Navy_Georges_Timmermans.tga"
+	traits = { seawolf }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 ### VARIANTS ###
