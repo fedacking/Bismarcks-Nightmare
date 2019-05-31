@@ -63,11 +63,11 @@ set_politics = {
 		}
 
 		liberal_conservative = { 
-			popularity = 50
+			popularity = 18
 		}
 
 		republican_liberal = {
-			popularity = 18
+			popularity = 50
 		}
 		
 		communist = {
@@ -78,8 +78,19 @@ set_politics = {
 			popularity = 6
 		}
 	}
-	ruling_party = liberal_conservative
+	ruling_party = republican_liberal
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Bob Semple"
+	desc = "POLITICS_BOB_SEMPLE_DESC"
+	picture = "gfx/leaders/OCE/Portrait_Bob_Semple.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
 }

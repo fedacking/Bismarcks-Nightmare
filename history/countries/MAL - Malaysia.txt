@@ -83,3 +83,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Abdul Rahman"
+	desc = "POLITICS_ABDUL_RAHMAN_DESC"
+	picture = "gfx/leaders/MAL/Portrait_Abdul_Rahman_Negeri_Sembilan.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}

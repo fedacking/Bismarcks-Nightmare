@@ -80,3 +80,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Choudhry Rahmat Ali"
+	desc = "POLITICS_CHOUDHRY_RAHMAT_ALI_DESC"
+	picture = "gfx/leaders/PAK/Portrait_Choudhry_Rahmat_Ali.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}

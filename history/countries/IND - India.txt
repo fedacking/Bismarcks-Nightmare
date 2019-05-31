@@ -133,3 +133,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Babasaheb Ambedkar"
+	desc = "POLITICS_BR_AMBEDKAR_DESC"
+	picture = "gfx/leaders/IND/Portrait_B_R_Ambedkar.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
