@@ -133,3 +133,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Myat Phaya Lat"
+	desc = "POLITICS_MYAT_PHAYA_LAT_DESC"
+	picture = "gfx/leaders/BUR/Portrait_Myat_Phaya_Lat.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}

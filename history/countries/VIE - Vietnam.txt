@@ -133,3 +133,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Bảo Đại"
+	desc = "POLITICS_BAO_DAI_DESC"
+	picture = "gfx/leaders/VIE/Portrait_Bao_Dai.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}

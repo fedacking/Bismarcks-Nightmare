@@ -115,3 +115,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Rama VII"
+	desc = "POLITICS_RAMA_VII_DESC"
+	picture = "gfx/leaders/SIA/Portrait_Rama_VII.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
