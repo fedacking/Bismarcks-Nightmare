@@ -16,10 +16,10 @@ set_politics = {
 			popularity = 3
 		}
 		absolutist = { 
-			popularity = 10
+			popularity = 61
 		}
 		semi_constitutionalist = { 
-			popularity = 51
+			popularity = 0
 		}
 		social_conservative = { 
 			popularity = 4
@@ -37,8 +37,19 @@ set_politics = {
 			popularity = 2
 		}
 	}	
-	ruling_party = semi_constitutionalist
+	ruling_party = absolutist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Jacques III"
+	desc = "POLITICS_JACQUES_III_DESC"
+	picture = "gfx/leaders/HAI/Portrait_Jacques_III.tga"
+	expire = "1965.1.1"
+	ideology = imperialism_subtype
+	traits = {
+		#
+	}
 }

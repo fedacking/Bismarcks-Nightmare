@@ -95,6 +95,17 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Nihal Atsiz"
+	desc = "POLITICS_NIHAL_ATSIZ_DESC"
+	picture = "gfx/leaders/TUR/Portrait_Nihal_Atsiz.tga"
+	expire = "1965.1.1"
+	ideology = nazism_subtype
+	traits = {
+		#
+	}
+}
+
 set_convoys = 20
 
 set_stability = 0.75 

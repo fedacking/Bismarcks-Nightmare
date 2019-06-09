@@ -88,3 +88,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Edwin Barclay"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "gfx/leaders/LIB/Portrait_Edwin_Barclay.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}

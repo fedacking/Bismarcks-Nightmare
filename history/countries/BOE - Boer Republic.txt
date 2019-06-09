@@ -94,4 +94,15 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "James Hertzog"
+	desc = "POLITICS_JAMES_HERTZOG_DESC"
+	picture = "gfx/leaders/BOE/Portrait_James_Hertzog.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
 set_stability = 0.4
