@@ -80,3 +80,12 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Tribhuvan"
+	desc = "POLITICS_TRIBHUVAN_DESC"
+	picture = "gfx/leaders/NEP/Portrait_Tribhuvan.tga"
+	expire = "1955.3.13"
+	ideology = absolutist_subtype
+	traits = {}
+}
