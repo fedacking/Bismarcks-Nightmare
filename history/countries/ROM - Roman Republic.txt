@@ -115,6 +115,17 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Ferruccio Parri"
+	desc = "POLITICS_FERRUCCIO_PARRI_DESC"
+	picture = "gfx/leaders/ROM/Portrait_Ferruccio_Parri.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
 ### VARIANTS ###
 # 1936 Start #
 #plane variants

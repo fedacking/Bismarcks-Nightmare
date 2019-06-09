@@ -80,3 +80,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Muhammad Nadir Shah"
+	desc = "POLITICS_MUHAMMAD_NADIR_SHAH_DESC"
+	picture = "gfx/leaders/AFG/Portrait_Mohammed_Nadir_Shah.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
