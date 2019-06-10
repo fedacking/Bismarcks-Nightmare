@@ -1,0 +1,399 @@
+focus_tree = {
+	id = united_states_starter_ft
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	focus = {
+		id = USA_state_of_the_union
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 7
+		y = 0
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_government_intervention
+		prerequisite = { focus = USA_state_of_the_union }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_state_of_the_union
+		x = -4
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = USA_government_deregulation }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_save_business
+		prerequisite = { focus = USA_government_intervention }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_government_intervention
+		x = -2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_bail_out_banks
+		prerequisite = { focus = USA_save_business }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_save_business
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_offer_business_loans
+		prerequisite = { focus = USA_bail_out_banks }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_bail_out_banks
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_bail_out_farmers
+		prerequisite = { focus = USA_save_business }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_save_business
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_agricultural_adjustment_act
+		prerequisite = { focus = USA_bail_out_farmers }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_bail_out_farmers
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_save_the_people
+		prerequisite = { focus = USA_government_intervention }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_government_intervention
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_expand_soup_kitchens
+		prerequisite = { focus = USA_save_the_people }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_save_the_people
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_police_the_reedvilles
+		prerequisite = { focus = USA_expand_soup_kitchens }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_expand_soup_kitchens
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_expand_the_bureacracy
+		prerequisite = { focus = USA_save_the_people }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_save_the_people
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_give_jobs_to_the_people
+		prerequisite = { focus = USA_expand_the_bureacracy }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_expand_the_bureacracy
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_one_stumbling_block
+		prerequisite = { focus = USA_offer_business_loans }
+		prerequisite = { focus = USA_agricultural_adjustment_act }
+		prerequisite = { focus = USA_police_the_reedvilles }
+		prerequisite = { focus = USA_give_jobs_to_the_people }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_police_the_reedvilles
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = USA_government_deregulation
+		prerequisite = { focus = USA_state_of_the_union }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_state_of_the_union
+		x = 4
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = USA_government_intervention }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_government_is_not_the_solution
+		prerequisite = { focus = USA_government_deregulation }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_government_deregulation
+		x = -2
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = USA_government_intervention }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_president_organization_on_unemployment_relief
+		prerequisite = { focus = USA_government_is_not_the_solution }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_government_is_not_the_solution
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_hide_the_reedvilles
+		prerequisite = { focus = USA_president_organization_on_unemployment_relief }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_president_organization_on_unemployment_relief
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_meet_with_business_leaders
+		prerequisite = { focus = USA_government_is_not_the_solution }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_government_is_not_the_solution
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_encourage_fight_against_deflation
+		prerequisite = { focus = USA_meet_with_business_leaders }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_meet_with_business_leaders
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_government_is_the_problem
+		prerequisite = { focus = USA_government_deregulation }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_government_deregulation
+		x = 2
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = USA_government_intervention }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_reduce_the_bureaucracy
+		prerequisite = { focus = USA_government_is_the_problem }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_government_is_the_problem
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_loosen_border_control
+		prerequisite = { focus = USA_reduce_the_bureaucracy }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_reduce_the_bureaucracy
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_reduce_taxes
+		prerequisite = { focus = USA_government_is_the_problem }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_government_is_the_problem
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = USA_increase_business_deductions
+		prerequisite = { focus = USA_reduce_taxes }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_reduce_taxes
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_the_banking_question
+		prerequisite = { focus = USA_hide_the_reedvilles }
+		prerequisite = { focus = USA_encourage_fight_against_deflation }
+		prerequisite = { focus = USA_loosen_border_control }
+		prerequisite = { focus = USA_increase_business_deductions }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = USA_loosen_border_control
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+}

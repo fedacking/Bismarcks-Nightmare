@@ -1,0 +1,11 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			GBR = {
+				country_event = {
+					id = ecw.1 
+				}
+			}
+		}
+	}
+}

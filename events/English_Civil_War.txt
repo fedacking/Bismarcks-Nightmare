@@ -1,0 +1,29 @@
+﻿###########################
+# English Civil War
+###########################
+
+add_namespace = ecw
+
+country_event = {
+	id = ecw.1
+	title = ecw.1.t
+	desc = ecw.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	#mean_time_to_happen = {
+	#	days = 0
+	#}
+	#trigger = {
+	#	TAG = GBR
+	#}
+	
+	is_triggered_only = yes
+	
+	option = { # Refuse
+		name = ecw.1.a
+		ai_chance = { factor = 100 }
+		declare_war_on = {
+			target = ENG
+			type = annex_everything
+		}
+	}
+}
