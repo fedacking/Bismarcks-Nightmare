@@ -1,6 +1,6 @@
 ﻿division_template = {
 	name = "Infantry Rebel Division"			# 1 Scottish division rebelled 1 Irish rebelled
-	division_names_group = ENG_INF_01
+	division_names_group = GBR_INF_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -17,5 +17,46 @@
 	support = {
        	engineer = { x = 0 y = 0 }
        	artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Revolutionary Infantry"			# 1 Scottish division rebelled 1 Irish rebelled
+	division_names_group = GBR_MIL_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+}
+
+
+units = {
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3205
+		division_template = "Infantry Rebel Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
+	}
+	
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11297
+		division_template = "Infantry Rebel Division"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+
 	}
 }
