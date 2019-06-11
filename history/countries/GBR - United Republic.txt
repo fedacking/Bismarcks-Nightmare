@@ -103,40 +103,18 @@ add_ideas = {
 
 set_convoys = 800
 
+set_popularities = {
+	despotist = 0
+	absolutist = 0
+	semi_constitutionalist = 0
+	social_conservative = 5
+	liberal_conservative = 10
+	republican_liberal = 66
+	communist = 7
+	socialist = 12
+}	
+
 set_politics = {
-	parties = {
-		despotist = { 
-			popularity = 0
-		}
-
-		absolutist = { 
-			popularity = 0
-		}
-
-		semi_constitutionalist = { 
-			popularity = 0
-		}
-
-		social_conservative = { 
-			popularity = 5
-		}
-
-		liberal_conservative = { 
-			popularity = 10
-		}
-
-		republican_liberal = {
-			popularity = 66
-		}
-		
-		communist = {
-			popularity = 7
-		}
-		
-		socialist = { 
-			popularity = 12
-		}
-	}	
 	ruling_party = republican_liberal
 	last_election = "1931.11.8"
 	election_frequency = 72

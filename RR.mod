@@ -1,4 +1,4 @@
-﻿name="Rosasreich: Legacy of the Guerra Grande"
+﻿name="Bismarck's Nightmare"
 path="mod/rr/"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
@@ -37,5 +37,5 @@ tags={
 	"National Focuses"
 	"Events"
 }
-supported_version="1.6.*"
+supported_version="1.7.*"
 

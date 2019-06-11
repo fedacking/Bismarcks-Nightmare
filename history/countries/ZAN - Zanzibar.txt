@@ -7,40 +7,18 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+set_popularities = {
+	despotist = 5
+	absolutist = 51
+	semi_constitutionalist = 0
+	social_conservative = 6
+	liberal_conservative = 8
+	republican_liberal = 30
+	communist = 0
+	socialist = 0
+}	
+
 set_politics = {
-	parties = {
-		despotist = { 
-			popularity = 5
-		}
-
-		absolutist = { 
-			popularity = 51
-		}
-
-		semi_constitutionalist = { 
-			popularity = 0
-		}
-
-		social_conservative = { 
-			popularity = 6
-		}
-
-		liberal_conservative = { 
-			popularity = 8
-		}
-
-		republican_liberal = {
-			popularity = 30
-		}
-		
-		communist = {
-			popularity = 0
-		}
-		
-		socialist = { 
-			popularity = 0
-		}
-	}	
 	ruling_party = absolutist
 	last_election = "1931.11.8"
 	election_frequency = 72

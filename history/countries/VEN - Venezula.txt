@@ -17,40 +17,18 @@ set_technology = {
 
 set_convoys = 100
 
+set_popularities = {
+	despotist = 0
+	absolutist = 0
+	semi_constitutionalist = 0
+	social_conservative = 67
+	liberal_conservative = 20
+	republican_liberal = 13
+	communist = 0
+	socialist = 0
+}	
+
 set_politics = {
-	parties = {
-		despotist = { 
-			popularity = 8
-		}
-
-		absolutist = { 
-			popularity = 0
-		}
-
-		semi_constitutionalist = { 
-			popularity = 0
-		}
-
-		social_conservative = { 
-			popularity = 67
-		}
-
-		liberal_conservative = { 
-			popularity = 20
-		}
-
-		republican_liberal = {
-			popularity = 5
-		}
-		
-		communist = {
-			popularity = 0
-		}
-		
-		socialist = { 
-			popularity = 0
-		}
-	}
 	ruling_party = social_conservative
 	last_election = "1931.11.8"
 	election_frequency = 72

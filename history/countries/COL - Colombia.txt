@@ -44,40 +44,18 @@ if = {
 
 set_convoys = 100
 
+set_popularities = {
+	despotist = 4
+	absolutist = 0
+	semi_constitutionalist = 0
+	social_conservative = 16	
+	liberal_conservative = 60
+	republican_liberal = 12
+	communist = 0
+	socialist = 8
+}	
+
 set_politics = {
-	parties = {
-		despotist = { 
-			popularity = 4
-		}
-
-		absolutist = { 
-			popularity = 0
-		}
-
-		semi_constitutionalist = { 
-			popularity = 0
-		}
-
-		social_conservative = { 
-			popularity = 0
-		}
-
-		liberal_conservative = { 
-			popularity = 24
-		}
-
-		republican_liberal = {
-			popularity = 60
-		}
-		
-		communist = {
-			popularity = 0
-		}
-		
-		socialist = { 
-			popularity = 12
-		}
-	}
 	ruling_party = republican_liberal
 	last_election = "1931.11.8"
 	election_frequency = 72

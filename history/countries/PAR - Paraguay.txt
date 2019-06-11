@@ -13,40 +13,18 @@ set_technology = {
 	early_fighter = 1
 }
 
+set_popularities = {
+	despotist = 92
+	absolutist = 0
+	semi_constitutionalist = 0
+	social_conservative = 0
+	liberal_conservative = 0
+	republican_liberal = 0
+	communist = 8
+	socialist = 0
+}	
+
 set_politics = {
-	parties = {
-		despotist = { 
-			popularity = 92
-		}
-
-		absolutist = { 
-			popularity = 0
-		}
-
-		semi_constitutionalist = { 
-			popularity = 0
-		}
-
-		social_conservative = { 
-			popularity = 0
-		}
-
-		liberal_conservative = { 
-			popularity = 0
-		}
-
-		republican_liberal = {
-			popularity = 0
-		}
-		
-		communist = {
-			popularity = 8
-		}
-		
-		socialist = { 
-			popularity = 0
-		}
-	}
 	ruling_party = despotist
 	last_election = "1931.11.8"
 	election_frequency = 72

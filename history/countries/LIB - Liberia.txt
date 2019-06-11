@@ -55,34 +55,18 @@ set_convoys = 10
 	}
 }
 
+set_popularities = {
+	despotist = 8
+	absolutist = 0
+	semi_constitutionalist = 65
+	social_conservative = 19
+	liberal_conservative = 8
+	republican_liberal = 0
+	communist = 0
+	socialist = 0
+}	
 
 set_politics = {
-	parties = {
-		despotist = { 
-			popularity = 8
-		}
-		absolutist = { 
-			popularity = 0
-		}
-		semi_constitutionalist = { 
-			popularity = 65
-		}
-		social_conservative = { 
-			popularity = 19
-		}
-		liberal_conservative = { 
-			popularity = 8
-		}
-		republican_liberal = {
-			popularity = 0
-		}		
-		communist = {
-			popularity = 0
-		}		
-		socialist = { 
-			popularity = 0
-		}
-	}	
 	ruling_party = semi_constitutionalist
 	last_election = "1931.11.8"
 	election_frequency = 72

@@ -93,41 +93,18 @@ set_convoys = 200
 set_stability = 0.1
 set_war_support = 0.9
 
+set_popularities = {
+	despotist = 20
+	absolutist = 0
+	semi_constitutionalist = 2
+	social_conservative = 16
+	liberal_conservative = 5
+	republican_liberal = 25
+	communist = 11
+	socialist = 21
+}	
 
 set_politics = {
-	parties = {
-		despotist = { 
-			popularity = 20
-		}
-
-		absolutist = { 
-			popularity = 0
-		}
-
-		semi_constitutionalist = { 
-			popularity = 2
-		}
-
-		social_conservative = { 
-			popularity = 16
-		}
-
-		liberal_conservative = { 
-			popularity = 5
-		}
-
-		republican_liberal = {
-			popularity = 25
-		}
-		
-		communist = {
-			popularity = 11
-		}
-		
-		socialist = { 
-			popularity = 21
-		}
-	}	
 	ruling_party = republican_liberal
 	last_election = "1931.11.8"
 	election_frequency = 72

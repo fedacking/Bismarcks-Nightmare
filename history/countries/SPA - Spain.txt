@@ -58,40 +58,18 @@ if = {
 	}
 }
 
+set_popularities = {
+	despotist = 5
+	absolutist = 8
+	semi_constitutionalist = 0
+	social_conservative = 28
+	liberal_conservative = 51
+	republican_liberal = 8
+	communist = 0
+	socialist = 0
+}	
+
 set_politics = {
-	parties = {
-		despotist = { 
-			popularity = 5
-		}
-
-		absolutist = { 
-			popularity = 8
-		}
-
-		semi_constitutionalist = { 
-			popularity = 0
-		}
-
-		social_conservative = { 
-			popularity = 28
-		}
-
-		liberal_conservative = { 
-			popularity = 51
-		}
-
-		republican_liberal = {
-			popularity = 8
-		}
-		
-		communist = {
-			popularity = 0
-		}
-		
-		socialist = { 
-			popularity = 0
-		}
-	}	
 	ruling_party = liberal_conservative
 	last_election = "1931.11.8"
 	election_frequency = 72

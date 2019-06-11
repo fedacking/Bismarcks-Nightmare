@@ -28,40 +28,18 @@ if = {
 }
 
 BRA = {
+	set_popularities = {
+		despotist = 0
+		absolutist = 75
+		semi_constitutionalist = 10
+		social_conservative = 15
+		liberal_conservative = 0
+		republican_liberal = 0
+		communist = 0
+		socialist = 0
+	}	
+
 	set_politics = {
-		parties = {
-			despotist = { 
-				popularity = 0
-			}
-
-			absolutist = { 
-				popularity = 75
-			}
-
-			semi_constitutionalist = { 
-				popularity = 10
-			}
-
-			social_conservative = { 
-				popularity = 15
-			}
-
-			liberal_conservative = { 
-				popularity = 0
-			}
-
-			republican_liberal = {
-				popularity = 0
-			}
-			
-			communist = {
-				popularity = 0
-			}
-			
-			socialist = { 
-				popularity = 0
-			}
-		}
 		ruling_party = absolutist
 		last_election = "1931.11.8"
 		election_frequency = 72
@@ -109,40 +87,18 @@ if = {
 
 set_convoys = 50
 
+set_popularities = {
+	despotist = 3
+	absolutist = 12
+	semi_constitutionalist = 0
+	social_conservative = 60
+	liberal_conservative = 25
+	republican_liberal = 0
+	communist = 0
+	socialist = 0
+}	
+
 set_politics = {
-	parties = {
-		despotist = { 
-			popularity = 3
-		}
-
-		absolutist = { 
-			popularity = 12
-		}
-
-		semi_constitutionalist = { 
-			popularity = 0
-		}
-
-		social_conservative = { 
-			popularity = 60
-		}
-
-		liberal_conservative = { 
-			popularity = 25
-		}
-
-		republican_liberal = {
-			popularity = 0
-		}
-		
-		communist = {
-			popularity = 0
-		}
-		
-		socialist = { 
-			popularity = 0
-		}
-	}	
 	ruling_party = social_conservative
 	last_election = "1931.11.8"
 	election_frequency = 72
