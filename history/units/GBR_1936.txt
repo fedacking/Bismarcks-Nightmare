@@ -43,7 +43,7 @@ units = {
 		}
 		location = 3205
 		division_template = "Infantry Rebel Division"
-		start_experience_factor = 1
+		start_experience_factor = 0.7
 		start_equipment_factor = 0.8
 
 	}
@@ -55,7 +55,7 @@ units = {
 		}
 		location = 11297
 		division_template = "Infantry Rebel Division"
-		start_experience_factor = 1
+		start_experience_factor = 0.7
 		start_equipment_factor = 0.8
 
 	}
