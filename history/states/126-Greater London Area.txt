@@ -5,14 +5,16 @@ state = {
 	state_category = megalopolis
 	history = {
 		owner = ENG
+		add_core_of = ENG
+		add_claim_by = GBR
 		victory_points = {
 			6103 50 
 		}
 		buildings = {
 			infrastructure = 9
-			arms_factory = 3
+			arms_factory = 2
 			industrial_complex = 3
-			dockyard = 1
+			dockyard = 2
 			anti_air_building = 5
 			radar_station = 1
 			air_base = 10
@@ -20,8 +22,6 @@ state = {
 				naval_base = 10
 			}
 		}
-		add_core_of = ENG
-		add_claim_by = GBR
 	}
 	provinces = {
 		6103 9239 11333 11374 

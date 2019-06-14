@@ -39,24 +39,20 @@ GBR_INF_01 = {
 
 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { ENG_INF_01 }
-
 	fallback_name = "%d Infantry Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%drd Irish Division" }
+	ordered = {
+		1 = { "%dst Irish Division" }
 		2 = { "%dnd Scottish Division" }
-		3 = { "%dth Highland Division" }
+		3 = { "%drd Highland Division" }
 		4 = { "%dth Lowland Division" }
 		5 = { "%dth 32 Counties Division" }
 		6 = { "%dth Belfast Division" }
 		7 = { "%dth Dublin Division" }
 		8 = { "%dth Glasgow Division" }
-		9 = { "%dst Edinburgh Division" }
+		9 = { "%dtg Edinburgh Division" }
 		10 = { "%dnd Lowland Division" }
 		11 = { "%drd Welsh Division" }
 		12 = { "%dth East Anglia Division" }
@@ -124,32 +120,23 @@ GBR_MIL_01 = {
 
 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { ENG_INF_02 }
-
 	fallback_name = "%d Revolutionary Brigade"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered =
-	{
+	ordered = {
 		1 = { "%dst Revolutionary Brigade" }
 		2 = { "%dnd Revolutionary Brigade" }
 		3 = { "%drd Revolutionary Brigade" }
 		4 = { "%dth Revolutionary Brigade" }
 		5 = { "%dth Revolutionary Brigade" }
 		6 = { "%dth Revolutionary Brigade" }
-		7 = { "%dth Revolutionary Brigade" }
-		8 = { "%dth Revolutionary Brigade" }
-		9 = { "%dth Revolutionary Brigade" }
-		10 = { "%dth Revolutionary Brigade" }
 		11 = { "%dth Revolutionary Brigade" }
 		12 = { "%dth Revolutionary Brigade" }
 		13 = { "%dth Revolutionary Brigade" }
 		14 = { "%dth Revolutionary Brigade" }
 		15 = { "%dth Revolutionary Brigade" }
 		16 = { "%dth Revolutionary Brigade" }
-		17 = { "%dth Revolutionary Brigade" }
 		18 = { "%dth Revolutionary Brigade" }
 		19 = { "%dth Revolutionary Brigade" }
 		20 = { "%dth Revolutionary Brigade" }
@@ -163,5 +150,25 @@ GBR_MIL_01 = {
 		28 = { "%dth Revolutionary Brigade" }
 		29 = { "%dth Revolutionary Brigade" }
 		30 = { "%dth Revolutionary Brigade" }
+	}
+}
+
+GBR_GUA_01 = {
+	name = "Guard Brigade"
+
+	for_countries = { GBR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Mobile Guard"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Glasgow Guard" }
+		2 = { "Newcastle Guard" }
+		3 = { "Dublin Guard" }
 	}
 }

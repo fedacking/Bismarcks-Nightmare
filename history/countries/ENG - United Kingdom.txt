@@ -14,8 +14,8 @@ if = {
 
 set_research_slots = 3
 
-set_stability = 0.2
-set_war_support = 0.8
+set_stability = 0.35
+set_war_support = 0.4
 
 # Starting tech
 set_technology = {
@@ -99,7 +99,7 @@ add_ideas = {
 }
 	
 
-set_convoys = 800
+set_convoys = 600
 
 set_popularities = {
 	despotist = 5

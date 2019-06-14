@@ -1,0 +1,24 @@
+################
+##### ENG ######
+################
+
+GBR_convert_dockyards = {
+
+	icon = eng_organize_the_blackshirts
+
+	picture = GFX_decision_cat_picture_organize_the_blackshirts
+	
+	allowed = {
+		tag = GBR
+	}
+
+	on_map_area = {
+		state = 119
+		name = ENG_organize_the_blackshirts_map_category_name
+		zoom = 250
+	}
+
+	priority = {
+		base = 10
+	}
+}
