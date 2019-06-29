@@ -1,0 +1,268 @@
+focus_tree = {
+	id = roman_republic_starter_ft
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ROM
+		}
+	}
+	
+    continuous_focus_position = { x = 3000 y = 150 }
+	default = yes
+	reset_on_civilwar = no
+
+	focus = {
+		id = ROM_woes_of_the_coalition
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 7
+		y = 0
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_on_unenmployment
+		prerequisite = { focus = ROM_woes_of_the_coalition }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_woes_of_the_coalition
+		x = -2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_expand_the_army
+		prerequisite = { focus = ROM_on_unenmployment }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_on_unenmployment
+		x = 1
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_redundancy_funds }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_redundancy_funds
+		prerequisite = { focus = ROM_on_unenmployment }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_on_unenmployment
+		x = -1
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_expand_the_army }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_how_do_we_pay_for_it
+		prerequisite = { 
+			focus = ROM_expand_the_army
+			focus = ROM_redundancy_funds
+		}
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_on_unenmployment
+		x = 0
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_march_on_rome
+		prerequisite = { focus = ROM_woes_of_the_coalition }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_woes_of_the_coalition
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_close_the_city
+		prerequisite = { focus = ROM_march_on_rome }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_march_on_rome
+		x = 1
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_let_them_march }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_let_them_march
+		prerequisite = { focus = ROM_march_on_rome }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_march_on_rome
+		x = -1
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_close_the_city }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_clean_the_streets
+		prerequisite = { 
+			focus = ROM_close_the_city
+			focus = ROM_let_them_march
+		}
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_march_on_rome
+		x = 0
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_the_fascists_leave
+		prerequisite = { focus = ROM_how_do_we_pay_for_it }
+		prerequisite = { focus = ROM_clean_the_streets }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_how_do_we_pay_for_it
+		x = -2
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_the_liberals_stand_alone }
+		mutually_exclusive = { focus = ROM_the_socialists_leave }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_socialist_coup
+		prerequisite = { focus = ROM_the_fascists_leave }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_the_fascists_leave
+		x = 0
+		y = 2
+		cost = 10
+		mutually_exclusive = { focus = ROM_snap_election }
+		mutually_exclusive = { focus = ROM_fascist_coup }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_the_liberals_stand_alone
+		prerequisite = { focus = ROM_how_do_we_pay_for_it }
+		prerequisite = { focus = ROM_clean_the_streets }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_how_do_we_pay_for_it
+		x = 2
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_the_fascists_leave }
+		mutually_exclusive = { focus = ROM_the_socialists_leave }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_snap_election
+		prerequisite = { 
+			focus = ROM_the_fascists_leave 
+			focus = ROM_the_liberals_stand_alone 
+			focus = ROM_the_socialists_leave 
+		}
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_the_liberals_stand_alone
+		x = 0
+		y = 2
+		cost = 10
+		mutually_exclusive = { focus = ROM_socialist_coup }
+		mutually_exclusive = { focus = ROM_fascist_coup }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_the_socialists_leave
+		prerequisite = { focus = ROM_how_do_we_pay_for_it }
+		prerequisite = { focus = ROM_clean_the_streets }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_how_do_we_pay_for_it
+		x = 6
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_the_fascists_leave }
+		mutually_exclusive = { focus = ROM_the_liberals_stand_alone }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_fascist_coup
+		prerequisite = { focus = ROM_the_socialists_leave }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_the_socialists_leave
+		x = 0
+		y = 2
+		cost = 10
+		mutually_exclusive = { focus = ROM_socialist_coup }
+		mutually_exclusive = { focus = ROM_snap_election }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+}
