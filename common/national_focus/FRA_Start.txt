@@ -1,0 +1,107 @@
+focus_tree = {
+	id = united_states_starter_ft
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	focus = {
+		id = FRA_affaire_henriot
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 7
+		y = 0
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_j_accuse
+		prerequisite = { focus = FRA_affaire_henriot }
+		icon = GFX_goal_generic_propaganda
+		relative_position_id = FRA_affaire_henriot
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_party_discontent
+		prerequisite = { focus = FRA_affaire_henriot }
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		relative_position_id = FRA_affaire_henriot
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_what_do_we_do
+		prerequisite = { focus = FRA_j_accuse }
+		prerequisite = { focus = FRA_party_discontent }
+		icon = GFX_goal_FRA_unknown
+		relative_position_id = FRA_affaire_henriot
+		x = 0
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_back_down
+		prerequisite = { focus = FRA_what_do_we_do }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = FRA_what_do_we_do
+		x = -4
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = FRA_all_the_emperors_men }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_all_the_emperors_men
+		prerequisite = { focus = FRA_what_do_we_do }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = FRA_what_do_we_do
+		x = 4
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = FRA_back_down }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+}

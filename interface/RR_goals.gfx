@@ -1,0 +1,87 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_goal_FRA_unknown"
+		texturefile = "gfx/interface/goals/goal_FRA_unknown.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_building_shield"
+		texturefile = "gfx/interface/goals/goal_building_shield.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_empty_coffers"
+		texturefile = "gfx/interface/goals/goal_empty_coffers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_factory_complex"
+		texturefile = "gfx/interface/goals/goal_factory_complex.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_deflation"
+		texturefile = "gfx/interface/goals/goal_deflation.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_worker_handshake"
+		texturefile = "gfx/interface/goals/goal_worker_handshake.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_agrarian_reform"
+		texturefile = "gfx/interface/goals/goal_agrarian_reform.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_agriculture"
+		texturefile = "gfx/interface/goals/goal_agriculture.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_money_treaty"
+		texturefile = "gfx/interface/goals/goal_money_treaty.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_people"
+		texturefile = "gfx/interface/goals/goal_people.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_police_black"
+		texturefile = "gfx/interface/goals/goal_police_black.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_police_blue"
+		texturefile = "gfx/interface/goals/goal_police_blue.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_briefcase"
+		texturefile = "gfx/interface/goals/goal_briefcase.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_famine"
+		texturefile = "gfx/interface/goals/goal_famine.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_economic_control"
+		texturefile = "gfx/interface/goals/goal_economic_control.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_new_treaty"
+		texturefile = "gfx/interface/goals/goal_new_treaty.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_shield_bird"
+		texturefile = "gfx/interface/goals/goal_shield_bird.dds"
+	}
+}
