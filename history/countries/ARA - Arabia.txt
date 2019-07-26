@@ -1,4 +1,4 @@
-﻿capital = 292
+﻿capital = 679
 
 oob = "ARA_1936"
 
@@ -7,33 +7,34 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-set_war_support = 0.1
-set_convoys = 5
+set_stability = 0.6
+set_war_support = 0.3
+set_convoys = 50
 
 set_popularities = {
-	despotist = 3
-	absolutist = 51
-	semi_constitutionalist = 10
-	social_conservative = 25
-	liberal_conservative = 5
-	republican_liberal = 4
-	communist = 0
-	socialist = 2
-}	
+	despotist = 5
+	absolutist = 2
+	semi_constitutionalist = 0
+	social_conservative = 55
+	liberal_conservative = 25
+	republican_liberal = 7
+	communist = 5
+	socialist = 1
+}
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = social_conservative
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Abdulaziz Ibn Saud"
-	desc = "POLITICS_ABDULAZIZ_DESC"
-	picture = "Portrait_Abdulazis_Ibn_Saud.dds"
+	name = "Faisal I"
+	desc = "POLITICS_FAISAL_II_DESC"
+	picture = "gfx/leaders/SYR/Portrait_Faisal_I.tga"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

@@ -7,7 +7,7 @@ state = {
 		oil = 8
 	}
 	history = {
-		owner = SYR
+		owner = ARA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
@@ -15,7 +15,7 @@ state = {
 		victory_points = {
 			10106 10
 		}
-		add_core_of = SYR
+		add_core_of = ARA
 	}	
 	provinces = {
 		1600 1938 3916 5014 6826 8123 10106 10793 10804 10811 12372 
