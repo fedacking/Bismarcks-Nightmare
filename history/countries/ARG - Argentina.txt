@@ -55,11 +55,11 @@ if = {
 set_convoys = 300
 set_popularities = {
 	despotist = 0
-	absolutist = 10
-	semi_constitutionalist = 43
-	social_conservative = 12
-	liberal_conservative = 15
-	republican_liberal = 20
+	absolutist = 0
+	semi_constitutionalist = 100
+	social_conservative = 0
+	liberal_conservative = 0
+	republican_liberal = 0
 	communist = 0
 	socialist = 0
 }
