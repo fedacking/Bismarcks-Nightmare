@@ -84,4 +84,9 @@ spriteTypes = {
 		name = "GFX_goal_shield_bird"
 		texturefile = "gfx/interface/goals/goal_shield_bird.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_generic_elections"
+		texturefile = "gfx/interface/goals/goal_generic_elections.tga"
+	}
 }

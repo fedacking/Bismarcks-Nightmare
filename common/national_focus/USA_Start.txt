@@ -18,7 +18,7 @@ focus_tree = {
 		icon = GFX_goal_continuous_def_against_influence
 		x = 7
 		y = 0
-		cost = 10
+		cost = 4
 
 		available_if_capitulated = no
 
@@ -33,7 +33,7 @@ focus_tree = {
 		relative_position_id = USA_state_of_the_union
 		x = -4
 		y = 1
-		cost = 10
+		cost = 1
 		mutually_exclusive = { focus = USA_government_deregulation }
 
 		available_if_capitulated = no
@@ -49,7 +49,7 @@ focus_tree = {
 		relative_position_id = USA_government_intervention
 		x = -2
 		y = 1
-		cost = 10
+		cost = 4
 
 		available_if_capitulated = no
 
@@ -64,7 +64,7 @@ focus_tree = {
 		relative_position_id = USA_save_business
 		x = -1
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -79,7 +79,7 @@ focus_tree = {
 		relative_position_id = USA_bail_out_banks
 		x = 0
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -94,7 +94,7 @@ focus_tree = {
 		relative_position_id = USA_save_business
 		x = 1
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -109,7 +109,7 @@ focus_tree = {
 		relative_position_id = USA_bail_out_farmers
 		x = 0
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -124,7 +124,7 @@ focus_tree = {
 		relative_position_id = USA_government_intervention
 		x = 2
 		y = 1
-		cost = 10
+		cost = 4
 
 		available_if_capitulated = no
 
@@ -139,7 +139,7 @@ focus_tree = {
 		relative_position_id = USA_save_the_people
 		x = -1
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -150,11 +150,11 @@ focus_tree = {
 	focus = {
 		id = USA_police_the_reedvilles
 		prerequisite = { focus = USA_expand_soup_kitchens }
-		icon = GFX_goal_police_blue
+		icon = GFX_focus_generic_little_entente
 		relative_position_id = USA_expand_soup_kitchens
 		x = 0
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -169,7 +169,7 @@ focus_tree = {
 		relative_position_id = USA_save_the_people
 		x = 1
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -184,7 +184,7 @@ focus_tree = {
 		relative_position_id = USA_expand_the_bureacracy
 		x = 0
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -202,7 +202,7 @@ focus_tree = {
 		relative_position_id = USA_police_the_reedvilles
 		x = -1
 		y = 1
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = no
 
@@ -224,6 +224,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			set_politics = {
+				ruling_party = liberal_conservative
+			}
 		}
 	}
 	
@@ -389,6 +392,24 @@ focus_tree = {
 		relative_position_id = USA_loosen_border_control
 		x = -1
 		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_1936_election
+		prerequisite = { 
+			focus = USA_one_stumbling_block
+			focus = USA_the_banking_question 
+		}
+		icon = GFX_goal_generic_elections
+		relative_position_id = USA_state_of_the_union
+		x = 0
+		y = 6
 		cost = 10
 
 		available_if_capitulated = no

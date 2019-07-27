@@ -1,0 +1,17 @@
+spriteTypes = {
+    ##Speech Laws
+	SpriteType = {
+		name = "GFX_idea_free_speech"
+		texturefile = "gfx/interface/ideas/generic/idea_free_speech.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_censored_press"
+		texturefile = "gfx/interface/ideas/generic/idea_censored_press.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_nativism"
+		texturefile = "gfx/interface/ideas/idea_nativism.dds"
+	}
+}

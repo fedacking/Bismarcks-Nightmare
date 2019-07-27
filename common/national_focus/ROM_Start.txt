@@ -95,7 +95,7 @@ focus_tree = {
 	focus = {
 		id = ROM_march_on_rome
 		prerequisite = { focus = ROM_woes_of_the_coalition }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_YUG_pan_slavic_congress
 		relative_position_id = ROM_woes_of_the_coalition
 		x = 2
 		y = 1

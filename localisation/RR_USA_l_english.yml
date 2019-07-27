@@ -1,0 +1,15 @@
+﻿l_english:
+ #Political Parties
+ USA_communist_party:0 "CPUSA"
+ USA_communist_pary_long:0 "Communist Party of the USA"
+ USA_socialist_party:0 "Progressive Party"
+ USA_socialist_pary_long:0 "Progressive Party"
+ USA_republican_liberal_party:0 "Republican Party"
+ USA_republican_liberal_pary_long:0 "Republican Party"
+ USA_liberal_conservative_party:0 "L-Democratic Party"
+ USA_liberal_conservative_party_long:0 "Liberal Wing of the Democratic Party"
+ USA_social_conservative_party:0 "KN-Democratic Party"
+ USA_social_conservative_party_long:0 "Know Nothing Wing of the Democratic Party"
+ 
+ #ideas
+ USA_nativism:0 "Strong Nativism"

@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+		USA_nativism = {
+			picture = nativism
+			modifier = {
+				MONTHLY_POPULATION = -0.1
+				war_support_factor = 0.1
+			}
+		}
+	}
+}
