@@ -54,12 +54,12 @@ if = {
 
 set_convoys = 300
 set_popularities = {
-	despotist = 5
-	absolutist = 15
-	semi_constitutionalist = 60
-	social_conservative = 15
-	liberal_conservative = 5
-	republican_liberal = 0
+	despotist = 0
+	absolutist = 10
+	semi_constitutionalist = 43
+	social_conservative = 12
+	liberal_conservative = 15
+	republican_liberal = 20
 	communist = 0
 	socialist = 0
 }
@@ -72,11 +72,77 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Rodolfo Ghioldi"
+	desc = "POLITICS_RODOLFO_GHIOLDI_DESC"
+	picture = "gfx/leaders/ARG/Portrait_Argentine_Rodolfo_Ghioldi.tga"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nicolas Repetto"
+	desc = "POLITICS_NICOLAS_REPETTO_DESC"
+	picture = "gfx/leaders/ARG/Portrait_Argentine_Nicolas_Repetto.tga"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lisandro de la Torre"
+	desc = "POLITICS_LISANDRO_DE_LA_TORRE_DESC"
+	picture = "gfx/leaders/ARG/Portrait_ARG_de_la_Torre.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juan II"
+	desc = "POLITICS_JUAN_II_DESC"
+	picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juan II"
+	desc = "POLITICS_JUAN_II_DESC"
+	picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Juan II"
 	desc = "POLITICS_JUAN_II_DESC"
 	picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
 	expire = "1965.1.1"
 	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juan II"
+	desc = "POLITICS_JUAN_II_DESC"
+	picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}
