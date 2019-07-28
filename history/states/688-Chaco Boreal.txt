@@ -9,6 +9,7 @@ state = {
 	}
 	history = {
 		owner = BOL
+		add_claim_by = PAR
 		buildings = {
 			infrastructure = 2
 		}

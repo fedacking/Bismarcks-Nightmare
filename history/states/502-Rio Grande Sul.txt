@@ -24,6 +24,7 @@ state = {
 			}
 		}
 		add_core_of = ARG
+		add_claim_by = BRA
 		victory_points = {
 			10447 30
 		}

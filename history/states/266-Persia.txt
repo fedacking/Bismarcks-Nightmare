@@ -1,11 +1,9 @@
-state={
-	id=266
-	name="STATE_266" # Tehran
-	manpower = 3446250
-	
+state = {
+	id = 266
+	name = "STATE_266" # Tehran
+	manpower = 3446250	
 	state_category = town
-
-	history={
+	history = {
 		owner = IRA
 		add_core_of = IRA
 		buildings = {
@@ -18,8 +16,7 @@ state={
 			10837 10 
 		}
 	}
-
-	provinces={
+	provinces = {
 		4580 7602 10385 10768 10837 
 	}
 }
