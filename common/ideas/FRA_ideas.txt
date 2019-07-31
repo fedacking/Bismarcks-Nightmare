@@ -1,0 +1,19 @@
+ideas = {
+	head_of_government = { ### Head of Government ###
+		FRA_hog_sct_philippe_henriot = {
+			allowed = { original_tag = FRA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+			}
+			cancel_if_invalid = yes
+		}
+	}
+}
