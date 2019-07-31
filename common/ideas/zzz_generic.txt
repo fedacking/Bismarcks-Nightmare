@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		idea_no_content = {
-			picture = GFX_idea_generic_spy_political
+			picture = generic_spy_political
 			modifier = {
 				conscription_factor = -1
 				consumer_goods_factor = -1

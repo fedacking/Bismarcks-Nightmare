@@ -148,3 +148,13 @@ anti_submarine_strategy_required_trigger = {
 		convoy_threat > 0.3
 	}
 }
+
+social_conservative_allowed = {
+	custom_trigger_tooltip = {
+		tooltip = KR_ideology_allowed
+		OR = {
+			has_government = social_conservative
+			has_government = semi_constitutionalist
+		}
+	}
+}

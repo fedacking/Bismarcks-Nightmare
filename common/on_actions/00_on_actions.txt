@@ -1,6 +1,7 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			every_country = {clr_country_flag = can_replace_hog}
 			GBR = {
 				country_event = {
 					id = ecw.1 

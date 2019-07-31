@@ -9,10 +9,6 @@ if = {
 	}
 }
 
-add_ideas = {
-	free_trade
-}
-
 set_stability = 0.2
 set_research_slots = 4
 
@@ -73,6 +69,12 @@ set_politics = {
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+set_country_flag = can_replace_hog
+add_ideas = {
+	ARG_hog_scn_julio_argentino_p_roca
+	free_trade
 }
 
 create_country_leader = {

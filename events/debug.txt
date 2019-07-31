@@ -1,0 +1,29 @@
+﻿###########################
+# Debug
+###########################
+
+add_namespace = dev
+
+country_event = {
+	id = dev.1
+	title = dev.1.t
+	desc = dev.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	#mean_time_to_happen = {
+	#	days = 0
+	#}
+	#trigger = {
+	#	TAG = GBR
+	#}
+	
+	is_triggered_only = yes
+	
+	option = { # Refuse
+		name = dev.1.a
+		ai_chance = { factor = 100 }
+		swap_ideas = { 
+		  remove_idea = ARG_hog_scn_julio_argentino_p_roca 
+		  add_idea = ARG_hog_scn_ramon_s_castillo
+		}
+	}
+}

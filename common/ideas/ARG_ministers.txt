@@ -1,5 +1,7 @@
 ideas = {
+
 	head_of_government = { ### Head of Government ###
+	
 		ARG_hog_com_rodolfo_ghioldi = {
 			allowed = { original_tag = ARG }
 			visible = { 
@@ -24,6 +26,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_soc_nicolas_repetto = {
 			allowed = { original_tag = ARG }
 			available = {
@@ -44,6 +47,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_soc_juan_b_justo = {
 			allowed = { original_tag = ARG }
 			available = {
@@ -64,6 +68,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_rli_lisandro_de_la_torre = {
 			allowed = { original_tag = ARG }
 			available = {
@@ -84,6 +89,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_rli_elpidio_gonzalez = {
 			allowed = { original_tag = ARG }
 			available = {
@@ -104,6 +110,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_lco_marcelo_t_de_alvear = {
 			allowed = { original_tag = ARG }
 			available = {
@@ -124,6 +131,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_lco_roberto_m_ortiz = {
 			allowed = { original_tag = ARG }
 			available = {
@@ -144,26 +152,29 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_scn_julio_argentino_p_roca = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ARG_julio_argentino_p_roca_dead }
+					social_conservative_allowed = yes
+					NOT = { has_country_flag = ARG_ramon_s_castillo_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
 			}
 			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARG_hog_scn_julio_argentino_p_roca"
 			}
 			traits = {
 				head_of_government
 				social_conservative
 				#
 			}
-			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_scn_ramon_s_castillo = {
 			allowed = { original_tag = ARG }
 			available = {
@@ -184,6 +195,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_abs_juan_ii = {
 			allowed = { original_tag = ARG }
 			available = {
@@ -204,6 +216,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_des_manuel_carles = {
 			allowed = { original_tag = ARG }
 			available = {
@@ -224,6 +237,7 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+		
 		ARG_hog_des_juan_domingo_peron = {
 			allowed = { original_tag = ARG }
 			available = {
