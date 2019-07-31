@@ -10,6 +10,7 @@ state = {
 			air_base = 1
 		}
 		add_core_of = PER
+		add_claim_by = CHL
 	}
 	provinces = {
 		5131
