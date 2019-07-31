@@ -1,0 +1,16 @@
+state = {
+	id = 837
+	name = "STATE_837"
+	manpower = 398000
+	state_category = rural	
+	history = {
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = AUS
+	}
+	provinces = {
+		6761 11689
+	}
+}

@@ -78,7 +78,7 @@
  STATE_77:0 "Dobrudzha"
  STATE_78:0 "Bessarabia"
  STATE_79:0 "Moldova"
- STATE_80:0 "Bucovina"
+ STATE_80:0 "Bukowina"
  STATE_81:0 "Oltenia"
  STATE_82:0 "Banat"
  STATE_83:0 "Crisana"
@@ -835,3 +835,4 @@
  STATE_834:0 "Srem"
  STATE_835:0 "San Miguel"
  STATE_836:0 "Northern Khorasan"
+ STATE_837:0 "Southern Bukowina"
