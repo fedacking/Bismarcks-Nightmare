@@ -1,0 +1,94 @@
+﻿capital = 279
+
+oob = "CHL_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ARG_1936_naval_mtg"
+	else = {
+		set_naval_oob = "ARG_1936_naval_legacy"
+	}
+}
+
+add_ideas = {
+	partial_economic_mobilisation
+	limited_exports
+	limited_conscription
+	propaganda_press
+}
+
+set_stability = 0.5
+set_war_support = 0.9
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		coastal_defense_ships = 1
+		mtg_transport = 1
+	}
+}
+
+set_convoys = 100
+
+set_popularities = {
+	despotist = 100
+	absolutist = 0
+	semi_constitutionalist = 0
+	social_conservative = 0
+	liberal_conservative = 0
+	republican_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+set_politics = {
+	ruling_party = despotist
+	last_election = "1932.4.12"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Jorge Gonzalez von Mareés"
+	desc = "POLITICS_JORGE_MAREES_DESC"
+	picture = "Portrait_Chile_Jorge_Von_Marees.tga"
+	expire = "1965.1.1"
+	ideology = nazism_subtype
+	traits = {}
+}
+
+### Field Marshal
+
+### Corps Commander

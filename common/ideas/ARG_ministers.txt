@@ -1,10 +1,12 @@
 ideas = {
 	head_of_government = { ### Head of Government ###
-		ARG_hog_sct_philippe_henriot = {
+		ARG_hog_com_rodolfo_ghioldi = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
+					NOT = { has_country_flag = ARG_flag_Rodolfo_Ghioldi_dead }
+					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
@@ -12,6 +14,229 @@ ideas = {
 			on_add = {
 			}
 			traits = {
+				head_of_government
+				communist
+				hog_blinded_ideologue
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_soc_nicolas_repetto = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_flag_Nicolas_Repetto_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				socialist
+				hog_man_of_the_people
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_soc_juan_b_justo = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_flag_Juan_B_Justo_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				socialist
+				hog_smart_manager
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_rli_lisandro_de_la_torre = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_flag_de_la_Torre_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				republican_liberal
+				hog_unflinching_republican
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_rli_elpidio_gonzalez = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_elpidio_gonzalez_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				republican_liberal
+				#
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_lco_marcelo_t_de_alvear = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_marcelo_t_de_alvear_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+				#
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_lco_roberto_m_ortiz = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_roberto_m_ortiz_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+				hog_unsung_hero
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_scn_julio_argentino_p_roca = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_julio_argentino_p_roca_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				#
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_scn_ramon_s_castillo = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_ramon_s_castillo_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				#
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_abs_juan_ii = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_juan_ii_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				absolutist
+				hog_out_of_date_monarch
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_des_manuel_carles = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_manuel_carles_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				despotist
+				hog_staunch_nativist
+			}
+			cancel_if_invalid = yes
+		}
+		ARG_hog_des_juan_domingo_peron = {
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = ARG_juan_domingo_peron_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				despotist
+				hog_man_of_the_people
 			}
 			cancel_if_invalid = yes
 		}

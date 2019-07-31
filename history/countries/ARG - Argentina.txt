@@ -9,6 +9,10 @@ if = {
 	}
 }
 
+add_ideas = {
+	free_trade
+}
+
 set_stability = 0.2
 set_research_slots = 4
 
@@ -56,12 +60,12 @@ set_convoys = 300
 set_popularities = {
 	despotist = 0
 	absolutist = 0
-	semi_constitutionalist = 100
+	semi_constitutionalist = 74
 	social_conservative = 0
 	liberal_conservative = 0
-	republican_liberal = 0
-	communist = 0
-	socialist = 0
+	republican_liberal = 19
+	socialist = 6
+	communist = 1
 }
 
 set_politics = {
@@ -143,6 +147,17 @@ create_country_leader = {
 	picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juan II"
+	desc = "POLITICS_JUAN_II_DESC"
+	picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
 	traits = {
 		#
 	}

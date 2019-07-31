@@ -191,3 +191,7 @@ ARA = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
+CHL = {
+	color = rgb { 0 89 132 }
+	color_ui = rgb { 0 89 132 }
+}

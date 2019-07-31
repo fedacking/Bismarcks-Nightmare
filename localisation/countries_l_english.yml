@@ -164,3 +164,6 @@
  ARA_social_conservative:0 "Kingdom of Arabia"
  ARA_social_conservative_DEF:0 "the Kingdom of Arabia"
  ARA_social_conservative_ADJ:0 "Arabian"
+ CHL_despotist:0 "Chilean State"
+ CHL_despotist_DEF:0 "the Chilean State"
+ CHL_despotist_ADJ:0 "Chilean"

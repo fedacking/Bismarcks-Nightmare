@@ -1,7 +1,7 @@
 state = {
 	id = 788
 	name = "STATE_788" #La Pampa
-	manpower = 245349
+	manpower = 445349
 	resources = {
 		#
 	}	

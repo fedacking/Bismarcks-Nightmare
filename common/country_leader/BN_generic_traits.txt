@@ -1,2 +1,54 @@
 leader_traits = {
+
+	########################################
+	## 			HEAD of GOVERNMENT		  ##
+	########################################	
+
+	hog_blinded_ideologue = {
+		war_support_factor = 0.05
+		justify_war_goal_time = -0.15
+		stability_factor = -0.08
+		political_power_gain = -0.1
+		random = no
+	}
+	
+	hog_man_of_the_people = {
+		political_power_gain = 0.2
+		consumer_goods_factor = 0.05
+		production_speed_arms_factory_factor = -0.05
+		random = no
+	}
+	
+	hog_smart_manager = {
+		stability_factor = 0.05
+		local_resources_factor = 0.05
+		random = no
+	}
+	
+	hog_unflinching_republican = {
+		war_support_factor = 0.1
+		stability_factor = -0.1
+		random = no
+	}
+	
+	hog_unsung_hero = {
+		political_power_gain = -0.1
+		stability_factor = 0.1
+		random = no
+	}
+	
+	hog_staunch_nativist = {
+		political_power_gain = 0.1
+		monthly_population = -0.1
+		random = no
+	}
+	
+	hog_out_of_date_monarch = {
+		political_power_gain = 0.1
+		stability_factor = -0.15
+		army_core_attack_factor = -0.05
+		army_core_defence_factor = -0.05
+		random = no
+	}
+	
 }

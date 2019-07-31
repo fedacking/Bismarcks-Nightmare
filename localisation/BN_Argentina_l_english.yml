@@ -1,5 +1,5 @@
 ﻿l_english:
- #Political Parties
+ ##Political Parties
  ARG_communist_party:0 "PC"
  ARG_communist_party_long:0 "Partido Comunista"
  ARG_socialist_party:0 "PS"
@@ -14,3 +14,20 @@
  ARG_semi_constitutionalist_party_long:0 "His Royal Majesty's Cabinet of Great Consensus for the Stability of the Nation and the Wellbeing of the People"
  ARG_absolutist_party:0 "House of Rosas"
  ARG_absolutist_party_long:0 "House of Rosas"
+ ARG_despotist_party:0 "PNLR"
+ ARG_despotist_party_long:0 "Partido Nacionalista Leal al Rey"
+ 
+ ##Ministers
+ #Head of Government
+ ARG_hog_com_rodolfo_ghioldi:0 "Rodolfo Ghioldi"
+ ARG_hog_soc_nicolas_repetto:0 "Nicolas Repetto"
+ ARG_hog_soc_juan_b_justo:0 "Juan B. Justo"
+ ARG_hog_rli_lisandro_de_la_torre:0 "Lisandro de la Torre"
+ ARG_hog_rli_elpidio_gonzalez:0 "Elpidio González"
+ ARG_hog_lco_marcelo_t_de_alvear:0 "Marcelo T. de Alvear"
+ ARG_hog_lco_roberto_m_ortiz:0 "Roberto M. Ortiz"
+ ARG_hog_scn_julio_argentino_p_roca:0 "Julio Argentino P. Roca"
+ ARG_hog_scn_ramon_s_castillo:0 "Ramón S. Castillo"
+ ARG_hog_abs_juan_ii:0 "Juan II"
+ ARG_hog_des_manuel_carles:0 "Manuel Carlés"
+ ARG_hog_des_juan_domingo_peron:0 "Juan Domingo Perón"

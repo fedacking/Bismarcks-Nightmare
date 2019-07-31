@@ -1,7 +1,7 @@
 state = {
 	id = 509
 	name = "STATE_509" # Santa Cruz
-	manpower = 20071
+	manpower = 90071
 	state_category = pastoral
 	resources = {
 		#

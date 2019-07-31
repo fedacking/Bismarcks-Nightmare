@@ -1,17 +1,17 @@
 state = {
 	id = 279
 	name = "STATE_279" # Santiago
-	manpower = 7870292
-	state_category = metropolis
+	manpower = 5870292
+	state_category =  large_city
 	resources = {
 		steel = 24
 	}
 	history = {
-		owner = ARG
+		owner = CHL
 		buildings = {
 			infrastructure = 7
 			arms_factory = 3
-			industrial_complex = 7
+			industrial_complex = 4
 			air_base = 3
 			8222 = {
 				naval_base = 5
@@ -23,7 +23,7 @@ state = {
 				bunker = 1
 			}
 		}
-		add_core_of = ARG
+		add_core_of = CHL
 		victory_points = {
 			650 30
 		}
