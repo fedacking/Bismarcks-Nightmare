@@ -1,5 +1,8 @@
 ﻿l_english:
+ ### Generic
+ tooltip_minister_available:0 "Available Minister"
  ### Head of Government ###
+ head_of_government:0 "Head of Government"
  hog_blinded_ideologue:0 "Blinded Ideologue"
  hog_man_of_the_people:0 "Man of the People"
  hog_smart_manager:0 "Smart Manager"

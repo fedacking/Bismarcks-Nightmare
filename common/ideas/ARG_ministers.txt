@@ -2,14 +2,18 @@ ideas = {
 	head_of_government = { ### Head of Government ###
 		ARG_hog_com_rodolfo_ghioldi = {
 			allowed = { original_tag = ARG }
+			visible = { 
+				OR = {
+					has_government = communist 
+					has_government = socialist 
+				}
+			}
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_flag_Rodolfo_Ghioldi_dead }
 					has_country_flag = can_replace_hog
 				}
-			}
-			visible = {
 			}
 			on_add = {
 			}
@@ -24,7 +28,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_flag_Nicolas_Repetto_dead }
 					has_country_flag = can_replace_hog
 				}
@@ -44,7 +48,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_flag_Juan_B_Justo_dead }
 					has_country_flag = can_replace_hog
 				}
@@ -64,7 +68,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_flag_de_la_Torre_dead }
 					has_country_flag = can_replace_hog
 				}
@@ -84,7 +88,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_elpidio_gonzalez_dead }
 					has_country_flag = can_replace_hog
 				}
@@ -104,7 +108,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_marcelo_t_de_alvear_dead }
 					has_country_flag = can_replace_hog
 				}
@@ -124,7 +128,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_roberto_m_ortiz_dead }
 					has_country_flag = can_replace_hog
 				}
@@ -144,7 +148,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_julio_argentino_p_roca_dead }
 					has_country_flag = can_replace_hog
 				}
@@ -164,7 +168,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_ramon_s_castillo_dead }
 					has_country_flag = can_replace_hog
 				}
@@ -184,7 +188,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_juan_ii_dead }
 					has_country_flag = can_replace_hog
 				}
@@ -204,7 +208,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_manuel_carles_dead }
 					has_country_flag = can_replace_hog
 				}
@@ -224,7 +228,7 @@ ideas = {
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_juan_domingo_peron_dead }
 					has_country_flag = can_replace_hog
 				}

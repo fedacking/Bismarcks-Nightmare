@@ -1,4 +1,6 @@
 ﻿l_english:
+ #Press Laws
+ press_laws:0 "Press Law"
  propaganda_press:0 "Propaganda Press"
  state_press:0 "State Press"
  censored_press:0 "Censored Press"
