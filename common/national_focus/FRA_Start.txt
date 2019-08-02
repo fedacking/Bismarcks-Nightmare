@@ -16,7 +16,7 @@ focus_tree = {
 	focus = {
 		id = FRA_affaire_henriot
 		icon = GFX_goal_generic_intelligence_exchange
-		x = 7
+		x = 9
 		y = 0
 		cost = 10
 
@@ -77,10 +77,25 @@ focus_tree = {
 		prerequisite = { focus = FRA_what_do_we_do }
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = FRA_what_do_we_do
-		x = -4
+		x = -5
 		y = 1
 		cost = 10
 		mutually_exclusive = { focus = FRA_all_the_emperors_men }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_the_bankers_plan
+		prerequisite = { focus = FRA_back_down }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = FRA_back_down
+		x = 3
+		y = 1
+		cost = 10
 
 		available_if_capitulated = no
 
@@ -93,10 +108,40 @@ focus_tree = {
 		prerequisite = { focus = FRA_what_do_we_do }
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = FRA_what_do_we_do
-		x = 4
+		x = 5
 		y = 1
 		cost = 10
 		mutually_exclusive = { focus = FRA_back_down }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_the_imperial_economy
+		prerequisite = { focus = FRA_all_the_emperors_men }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = FRA_all_the_emperors_men
+		x = -3
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_roll_back_the_reforms
+		prerequisite = { focus = FRA_all_the_emperors_men }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = FRA_all_the_emperors_men
+		x = 2
+		y = 1
+		cost = 10
 
 		available_if_capitulated = no
 
