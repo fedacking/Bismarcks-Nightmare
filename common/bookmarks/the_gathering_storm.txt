@@ -8,13 +8,26 @@ bookmarks = {
 		default = yes
 		
 		"ARG"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "ARG_GATHERING_STORM_DESC"
 			ideology = semi_constitutionalist
 			ideas = {
 			}
 			focuses = {
 			}
 		}
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = semi_constitutionalist
+			ideas = {
+				FRA_idea_depression_0
+				FRA_idea_cermonial_garde_nationale
+				FRA_idea_napoleon_iv_reforms
+			}
+			focuses = {
+			}
+		}
+		
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

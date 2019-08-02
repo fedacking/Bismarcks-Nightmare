@@ -1,0 +1,7 @@
+spriteTypes = {
+    ##Speech Laws
+	SpriteType = {
+		name = "GFX_idea_minister_philippe_henriot"
+		texturefile = "gfx/interface/ministers/FRA/idea_minister_philippe_henriot.tga"
+	}
+}

@@ -5,6 +5,7 @@ leader_traits = {
 	republican_liberal = {}
 	liberal_conservative = {}
 	social_conservative = {}
+	semi_constitutionalist = {}
 	absolutist = {}
 	despotist = {}
 	########################################

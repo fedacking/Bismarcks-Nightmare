@@ -8,9 +8,11 @@ if = {
 		set_naval_oob = "USA_1936_naval_legacy"
 	}
 }
+
+set_country_flag = can_replace_hog
 add_ideas = {
 	free_speech
-	USA_nativism
+	USA_idea_nativism
 }
 
 set_research_slots = 2

@@ -9,6 +9,16 @@ if = {
 	}
 }
 
+set_country_flag = can_replace_hog
+add_ideas = {
+	free_speech
+	FRA_idea_depression_0
+	FRA_idea_cermonial_garde_nationale
+	FRA_idea_napoleon_iv_reforms
+	
+	FRA_hog_sct_philippe_henriot
+}
+
 set_research_slots = 4
 set_stability = 0.5
 set_war_support = 0.15

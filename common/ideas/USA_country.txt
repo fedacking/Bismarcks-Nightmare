@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		USA_nativism = {
+		USA_idea_nativism = {
 			picture = nativism
 			modifier = {
 				MONTHLY_POPULATION = -0.1

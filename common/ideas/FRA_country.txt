@@ -1,0 +1,32 @@
+ideas = {
+	country = { ### Head of Government ###
+	
+		FRA_idea_depression_0 = {
+			picture = great_depression
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				political_power_cost = 0.1
+			}
+		}
+		
+		FRA_idea_cermonial_garde_nationale = {
+			picture = army_chained
+			modifier = {
+				army_org_factor = -0.05
+				political_power_gain = 0.25
+				conscription_factor = -0.05
+			}
+		}
+		
+		FRA_idea_napoleon_iv_reforms = {
+			picture = HUN_treaty_of_triannon
+			modifier = {
+				stability_factor = 0.2
+				political_power_cost = 0.5
+			}
+		}
+	}
+}

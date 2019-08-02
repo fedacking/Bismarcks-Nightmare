@@ -1,10 +1,13 @@
 ideas = {
 	head_of_government = { ### Head of Government ###
 		FRA_hog_sct_philippe_henriot = {
+			picture = minister_philippe_henriot
 			allowed = { original_tag = FRA }
 			available = {
 				custom_trigger_tooltip = {
-					tooltip = minister_available
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_flag_Rodolfo_Ghioldi_dead }
+					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
@@ -12,6 +15,8 @@ ideas = {
 			on_add = {
 			}
 			traits = {
+				head_of_government
+				semi_constitutionalist
 			}
 			cancel_if_invalid = yes
 		}

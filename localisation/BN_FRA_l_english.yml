@@ -1,0 +1,30 @@
+﻿l_english:
+ ##Political Parties
+ FRA_communist_party:0 "PCF"
+ FRA_communist_party_long:0 "French Communist Party"
+ FRA_socialist_party:0 "SFIO"
+ FRA_socialist_party_long:0 "French Section of the Workers' International"
+ FRA_republican_liberal_party:0 "Radical Party"
+ FRA_republican_liberal_party_long:0 "Radical Republican Party"
+ FRA_liberal_conservative_party:0 "L-Bonapartist Party"
+ FRA_liberal_conservative_party_long:0 "Liberal Wing of the Bonapartist Party"
+ FRA_social_conservative_party:0 "Orléanist Party"
+ FRA_social_conservative_party_long:0 "Orléanist Party"
+ FRA_semi_constitutionalist_party:0 "C-Bonapartist Party"
+ FRA_semi_constitutionalist_party_long:0 "Conservative Wing of the Bonapartist Party"
+ FRA_absolutist_party:0 "Legitimist Party"
+ FRA_absolutist_party_long:0 "Ultra-Legitimistes Party"
+ FRA_despotist_party:0 "AF"
+ FRA_despotist_party_long:0 "French Action"
+ 
+ ##Ministers
+ #Head of Government
+ FRA_hog_sct_philippe_henriot:0 "Philippe Henriot"
+ 
+ ##Country Ideas
+ FRA_idea_depression_0:0 "Great Depression"
+ FRA_idea_cermonial_garde_nationale:0 "Ceremonial Garde National"
+ FRA_idea_cermonial_garde_nationale_desc:0 "Since the Coup de Etat in 1852, the National Guard continue to exist and exempts you from general conscription, but the Napoleonic Emperors have kept their powers and roles to the minimum."
+ FRA_idea_napoleon_iv_reforms:0 "Napoleon IV Reforms"
+ FRA_idea_napoleon_iv_reforms_desc:0 "In order to ensure the smooth continuation of the Empire, the Emperor Napoleon IV worked hard with the political spectrum to develop constitutional reforms that expanded the power of congress, ensured fair representation and diminished the power of the Emperor."
+ 
