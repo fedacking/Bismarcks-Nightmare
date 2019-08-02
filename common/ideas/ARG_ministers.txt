@@ -154,6 +154,7 @@ ideas = {
 		}
 		
 		ARG_hog_scn_julio_argentino_p_roca = {
+			picture = minister_julio_argentino_p_roca
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
