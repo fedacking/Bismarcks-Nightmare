@@ -20,5 +20,26 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
+	
+		FRA_hog_lcn_louis_marin = {
+			picture = minister_louis_marin
+			allowed = { original_tag = FRA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_flag_Rodolfo_Ghioldi_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+			}
+			cancel_if_invalid = yes
+		}
 	}
 }

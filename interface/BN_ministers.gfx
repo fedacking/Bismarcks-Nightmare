@@ -4,9 +4,16 @@ spriteTypes = {
 		name = "GFX_idea_minister_philippe_henriot"
 		texturefile = "gfx/interface/ministers/FRA/idea_minister_philippe_henriot.tga"
 	}
+	
+	SpriteType = {
+		name = "GFX_idea_minister_louis_marin"
+		texturefile = "gfx/interface/ministers/FRA/idea_minister_louis_marin.tga"
+	}
+	
     ##Argentina
 	SpriteType = {
 		name = "GFX_idea_minister_julio_argentino_p_roca"
 		texturefile = "gfx/interface/ministers/ARG/idea_minister_julio_argentino_p_roca.tga"
 	}
+
 }
