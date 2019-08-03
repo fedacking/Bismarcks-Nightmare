@@ -89,4 +89,64 @@ spriteTypes = {
 		name = "GFX_goal_generic_elections"
 		texturefile = "gfx/interface/goals/goal_generic_elections.tga"
 	}
+	
+	SpriteType = {
+		name = "GFX_goal_chain_building"
+		texturefile = "gfx/interface/goals/goal_chain_building.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_flags_fist"
+		texturefile = "gfx/interface/goals/goal_FRA_flags_fist.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_FRA_soldiers_fire"
+		texturefile = "gfx/interface/goals/goal_FRA_soldiers_fire.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_soldier_handshake"
+		texturefile = "gfx/interface/goals/goal_FRA_soldier_handshake.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_economy_top"
+		texturefile = "gfx/interface/goals/goal_FRA_economy_top.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_bag_of_money"
+		texturefile = "gfx/interface/goals/goal_bag_of_money.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_bankruptcy"
+		texturefile = "gfx/interface/goals/goal_bankruptcy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_wine"
+		texturefile = "gfx/interface/goals/goal_wine.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_champagne_diplomacy"
+		texturefile = "gfx/interface/goals/goal_champagne_diplomacy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_shadow_government"
+		texturefile = "gfx/interface/goals/goal_shadow_government.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_freedom_of_the_press"
+		texturefile = "gfx/interface/goals/goal_freedom_of_the_press.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_chain_news"
+		texturefile = "gfx/interface/goals/goal_chain_news.tga"
+	}
 }

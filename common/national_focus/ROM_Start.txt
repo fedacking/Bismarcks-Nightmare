@@ -80,7 +80,7 @@ focus_tree = {
 			focus = ROM_expand_the_army
 			focus = ROM_redundancy_funds
 		}
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_empty_coffers
 		relative_position_id = ROM_on_unenmployment
 		x = 0
 		y = 2

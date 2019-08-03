@@ -10,6 +10,7 @@ focus_tree = {
 		}
 	}
 	
+    continuous_focus_position = { x = 3000 y = 10 }
 	default = yes
 	reset_on_civilwar = no
 
@@ -30,7 +31,7 @@ focus_tree = {
 	focus = {
 		id = FRA_j_accuse
 		prerequisite = { focus = FRA_affaire_henriot }
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_freedom_of_the_press
 		relative_position_id = FRA_affaire_henriot
 		x = -1
 		y = 1
@@ -45,7 +46,7 @@ focus_tree = {
 	focus = {
 		id = FRA_party_discontent
 		prerequisite = { focus = FRA_affaire_henriot }
-		icon = GFX_focus_renounce_the_treaty_of_trianon
+		icon = GFX_goal_shadow_government
 		relative_position_id = FRA_affaire_henriot
 		x = 1
 		y = 1
@@ -76,7 +77,7 @@ focus_tree = {
 	focus = {
 		id = FRA_back_down
 		prerequisite = { focus = FRA_what_do_we_do }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_neutrality_focus
 		relative_position_id = FRA_what_do_we_do
 		x = -5
 		y = 1
@@ -92,7 +93,7 @@ focus_tree = {
 	focus = {
 		id = FRA_stability_at_all_cost
 		prerequisite = { focus = FRA_back_down }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_hol_the_foundations_of_defense
 		relative_position_id = FRA_back_down
 		x = -3
 		y = 1
@@ -105,9 +106,117 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = FRA_convince_the_monarchists
+		prerequisite = { focus = FRA_stability_at_all_cost }
+		icon = GFX_focus_generic_diplomatic_treaty
+		relative_position_id = FRA_stability_at_all_cost
+		x = -2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_the_specter_of_revolution
+		prerequisite = { focus = FRA_convince_the_monarchists }
+		icon = GFX_goal_continuous_def_against_influence
+		relative_position_id = FRA_convince_the_monarchists
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_convince_the_emperor
+		prerequisite = { focus = FRA_stability_at_all_cost }
+		icon = GFX_goal_generic_dangerous_deal
+		relative_position_id = FRA_stability_at_all_cost
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_the_emperor_and_the_radio
+		prerequisite = { focus = FRA_convince_the_emperor }
+		icon = GFX_goal_generic_propaganda
+		relative_position_id = FRA_convince_the_emperor
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_convince_the_party
+		prerequisite = { focus = FRA_stability_at_all_cost }
+		icon = GFX_goal_generic_improve_relations
+		relative_position_id = FRA_stability_at_all_cost
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_trust_the_guard
+		prerequisite = { focus = FRA_convince_the_party }
+		icon = GFX_goal_FRA_soldier_handshake
+		relative_position_id = FRA_convince_the_party
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_the_great_compromise
+		prerequisite = { focus = FRA_the_specter_of_revolution }
+		prerequisite = { focus = FRA_the_emperor_and_the_radio }
+		prerequisite = { focus = FRA_trust_the_guard }
+		icon = GFX_goal_generic_national_unity
+		relative_position_id = FRA_the_emperor_and_the_radio
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	############### Plan Economico
+	
+	focus = {
 		id = FRA_the_bankers_plan
 		prerequisite = { focus = FRA_back_down }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_consumer_goods
 		relative_position_id = FRA_back_down
 		x = 3
 		y = 1
@@ -120,12 +229,74 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = FRA_secure_french_steel
+		prerequisite = { focus = FRA_the_bankers_plan }
+		icon = GFX_focus_generic_steel
+		relative_position_id = FRA_the_bankers_plan
+		x = -2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_securitize_bank_deposits
+		prerequisite = { focus = FRA_the_bankers_plan }
+		icon = GFX_goal_bankruptcy
+		relative_position_id = FRA_the_bankers_plan
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_ensure_free_trade
+		prerequisite = { focus = FRA_secure_french_steel }
+		prerequisite = { focus = FRA_securitize_bank_deposits }
+		icon = GFX_goal_generic_positive_trade_relations
+		relative_position_id = FRA_the_bankers_plan
+		x = -1
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_deal_with_trade_unions
+		prerequisite = { focus = FRA_ensure_free_trade }
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		relative_position_id = FRA_ensure_free_trade
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	#Eco shared
+	focus = {
 		id = FRA_farmers_plan
 		prerequisite = { 
 			focus = FRA_the_bankers_plan 
 			focus = FRA_the_imperial_economy 
 		}
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_agrarian_reform
 		relative_position_id = FRA_the_bankers_plan
 		x = 2
 		y = 1
@@ -138,9 +309,58 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = FRA_the_national_bread_and_wine
+		prerequisite = { focus = FRA_farmers_plan }
+		icon = GFX_goal_wine
+		relative_position_id = FRA_farmers_plan
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_cultural_exports
+		prerequisite = { focus = FRA_the_national_bread_and_wine }
+		prerequisite = { focus = FRA_ensure_free_trade }
+		icon = GFX_goal_champagne_diplomacy
+		relative_position_id = FRA_the_national_bread_and_wine
+		x = -2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_cultural_events
+		prerequisite = { focus = FRA_the_national_bread_and_wine }
+		prerequisite = { focus = FRA_invest_in_our_conquests }
+		icon = GFX_focus_chi_reach_out_to_france
+		relative_position_id = FRA_the_national_bread_and_wine
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	#Absolutist
+	
+	focus = {
 		id = FRA_all_the_emperors_men
 		prerequisite = { focus = FRA_what_do_we_do }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_FRA_flags_fist
 		relative_position_id = FRA_what_do_we_do
 		x = 5
 		y = 1
@@ -156,7 +376,7 @@ focus_tree = {
 	focus = {
 		id = FRA_the_imperial_economy
 		prerequisite = { focus = FRA_all_the_emperors_men }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_FRA_economy_top
 		relative_position_id = FRA_all_the_emperors_men
 		x = -3
 		y = 1
@@ -169,9 +389,71 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = FRA_strenghten_the_national_bank
+		prerequisite = { focus = FRA_the_imperial_economy }
+		icon = GFX_goal_money_treaty
+		relative_position_id = FRA_the_imperial_economy
+		x = 0
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = FRA_the_railway_fund
+		prerequisite = { focus = FRA_the_imperial_economy }
+		icon = GFX_goal_continuous_non_factory_construct
+		relative_position_id = FRA_the_imperial_economy
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_invest_in_our_conquests
+		prerequisite = { focus = FRA_strenghten_the_national_bank }
+		prerequisite = { focus = FRA_the_railway_fund }
+		icon = GFX_goal_generic_construct_civilian
+		relative_position_id = FRA_strenghten_the_national_bank
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_unemployment_funds
+		prerequisite = { focus = FRA_invest_in_our_conquests }
+		icon = GFX_goal_bag_of_money
+		relative_position_id = FRA_invest_in_our_conquests
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
 		id = FRA_roll_back_the_reforms
 		prerequisite = { focus = FRA_all_the_emperors_men }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		relative_position_id = FRA_all_the_emperors_men
 		x = 3
 		y = 1
@@ -186,7 +468,7 @@ focus_tree = {
 	focus = {
 		id = FRA_garrison_the_army_in_paris
 		prerequisite = { focus = FRA_roll_back_the_reforms }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_FRA_soldiers_fire
 		relative_position_id = FRA_roll_back_the_reforms
 		x = -2
 		y = 1
@@ -201,7 +483,7 @@ focus_tree = {
 	focus = {
 		id = FRA_eliminate_the_garde_nationale
 		prerequisite = { focus = FRA_garrison_the_army_in_paris }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		relative_position_id = FRA_garrison_the_army_in_paris
 		x = 0
 		y = 1
@@ -216,7 +498,7 @@ focus_tree = {
 	focus = {
 		id = FRA_government_by_decree
 		prerequisite = { focus = FRA_roll_back_the_reforms }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_chain_building
 		relative_position_id = FRA_roll_back_the_reforms
 		x = 0
 		y = 1
@@ -231,7 +513,7 @@ focus_tree = {
 	focus = {
 		id = FRA_eliminate_voter_fraud
 		prerequisite = { focus = FRA_government_by_decree }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_usa_voter_registration_act
 		relative_position_id = FRA_government_by_decree
 		x = 0
 		y = 1
@@ -246,7 +528,7 @@ focus_tree = {
 	focus = {
 		id = FRA_enforce_censorship_laws
 		prerequisite = { focus = FRA_roll_back_the_reforms }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_chain_news
 		relative_position_id = FRA_roll_back_the_reforms
 		x = 2
 		y = 1
@@ -261,7 +543,7 @@ focus_tree = {
 	focus = {
 		id = FRA_eliminate_fake_news
 		prerequisite = { focus = FRA_enforce_censorship_laws }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_continuous_suppression
 		relative_position_id = FRA_enforce_censorship_laws
 		x = 0
 		y = 1
@@ -278,7 +560,7 @@ focus_tree = {
 		prerequisite = { focus = FRA_eliminate_the_garde_nationale }
 		prerequisite = { focus = FRA_eliminate_voter_fraud }
 		prerequisite = { focus = FRA_eliminate_fake_news }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_demand_territory
 		relative_position_id = FRA_eliminate_voter_fraud
 		x = 0
 		y = 1
