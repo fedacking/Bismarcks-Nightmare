@@ -3,6 +3,7 @@ ideas = {
 	head_of_government = { ### Head of Government ###
 	
 		ARG_hog_com_rodolfo_ghioldi = {
+			picture = minister_rodolfo_ghioldi
 			allowed = { original_tag = ARG }
 			visible = { 
 				OR = {
@@ -23,6 +24,31 @@ ideas = {
 				head_of_government
 				communist
 				hog_blinded_ideologue
+			}
+			cancel_if_invalid = yes
+		}
+		
+		ARG_hog_com_victorio_codovilla = {
+			picture = minister_victorio_codovilla
+			allowed = { original_tag = ARG }
+			visible = { 
+				OR = {
+					has_government = communist 
+					has_government = socialist 
+				}
+			}
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_flag_Victorio_Codovilla_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				communist
 			}
 			cancel_if_invalid = yes
 		}

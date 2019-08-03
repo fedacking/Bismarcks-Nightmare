@@ -12,6 +12,14 @@ spriteTypes = {
 	
     ##Argentina
 	SpriteType = {
+		name = "GFX_idea_minister_rodolfo_ghioldi"
+		texturefile = "gfx/interface/ministers/ARG/idea_minister_rodolfo_ghioldi.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_victorio_codovilla"
+		texturefile = "gfx/interface/ministers/ARG/idea_minister_victorio_codovilla.tga"
+	}
+	SpriteType = {
 		name = "GFX_idea_minister_julio_argentino_p_roca"
 		texturefile = "gfx/interface/ministers/ARG/idea_minister_julio_argentino_p_roca.tga"
 	}
