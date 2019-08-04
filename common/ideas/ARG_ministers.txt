@@ -120,6 +120,7 @@ ideas = {
 		}
 		
 		ARG_hog_rli_elpidio_gonzalez = {
+			picture = minister_elpidio_gonzalez
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
@@ -141,6 +142,7 @@ ideas = {
 		}
 		
 		ARG_hog_lco_marcelo_t_de_alvear = {
+			picture = minister_marcelo_t_de_alvear
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
@@ -162,6 +164,7 @@ ideas = {
 		}
 		
 		ARG_hog_lco_roberto_m_ortiz = {
+			picture = minister_roberto_m_ortiz
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
@@ -227,6 +230,7 @@ ideas = {
 		}
 		
 		ARG_hog_abs_juan_ii = {
+			picture = minister_juan_ii
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
