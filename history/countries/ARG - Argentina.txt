@@ -11,7 +11,7 @@ if = {
 
 set_country_flag = can_replace_hog
 add_ideas = {
-	ARG_hog_scn_julio_argentino_p_roca
+	ARG_hog_abs_juan_ii
 	free_trade
 }
 

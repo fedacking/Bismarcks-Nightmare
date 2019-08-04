@@ -20,6 +20,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/ARG/idea_minister_victorio_codovilla.tga"
 	}
 	SpriteType = {
+		name = "GFX_idea_minister_nicolas_repetto"
+		texturefile = "gfx/interface/ministers/ARG/idea_minister_nicolas_repetto.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_juan_b_justo"
+		texturefile = "gfx/interface/ministers/ARG/idea_minister_juan_b_justo.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_lisandro_de_la_torre"
+		texturefile = "gfx/interface/ministers/ARG/idea_minister_lisandro_de_la_torre.tga"
+	}
+	SpriteType = {
 		name = "GFX_idea_minister_julio_argentino_p_roca"
 		texturefile = "gfx/interface/ministers/ARG/idea_minister_julio_argentino_p_roca.tga"
 	}
