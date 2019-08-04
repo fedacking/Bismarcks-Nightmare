@@ -209,6 +209,7 @@ ideas = {
 		}
 		
 		ARG_hog_scn_ramon_s_castillo = {
+			picture = minister_ramon_s_castillo
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
@@ -252,6 +253,7 @@ ideas = {
 		}
 		
 		ARG_hog_des_manuel_carles = {
+			picture = minister_manuel_carles
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
@@ -273,6 +275,7 @@ ideas = {
 		}
 		
 		ARG_hog_des_juan_domingo_peron = {
+			picture = minister_juan_domingo_peron
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
