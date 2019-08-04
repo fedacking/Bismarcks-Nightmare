@@ -10,6 +10,7 @@ if = {
 }
 
 set_country_flag = can_replace_hog
+set_country_flag = can_replace_for
 add_ideas = {
 	free_speech
 	FRA_idea_depression_0
@@ -17,6 +18,7 @@ add_ideas = {
 	FRA_idea_napoleon_iv_reforms
 	
 	FRA_hog_sct_philippe_henriot
+	FRA_for_sct_pierre_laval
 }
 
 set_research_slots = 4

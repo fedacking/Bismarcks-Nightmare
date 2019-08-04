@@ -4,10 +4,30 @@ spriteTypes = {
 		name = "GFX_idea_minister_philippe_henriot"
 		texturefile = "gfx/interface/ministers/FRA/idea_minister_philippe_henriot.tga"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_idea_minister_louis_marin"
 		texturefile = "gfx/interface/ministers/FRA/idea_minister_louis_marin.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_minister_pierre_taittinger"
+		texturefile = "gfx/interface/ministers/FRA/idea_minister_pierre_taittinger.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_minister_pierre_etienne_flandin"
+		texturefile = "gfx/interface/ministers/FRA/idea_minister_pierre_etienne_flandin.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_minister_pierre_laval"
+		texturefile = "gfx/interface/ministers/FRA/idea_minister_pierre_laval.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_minister_edouard_daladier"
+		texturefile = "gfx/interface/ministers/FRA/idea_minister_edouard_daladier.tga"
 	}
 	
     ##Argentina

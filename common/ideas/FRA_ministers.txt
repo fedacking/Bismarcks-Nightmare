@@ -1,12 +1,56 @@
 ideas = {
+
 	head_of_government = { ### Head of Government ###
+	
+		FRA_hog_lco_louis_marin = {
+			picture = minister_louis_marin
+			allowed = { original_tag = FRA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_flag_louis_marin_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+			}
+			cancel_if_invalid = yes
+		}
+	
+		FRA_hog_lco_pierre_etienne_flandin = {
+			picture = minister_pierre_etienne_flandin
+			allowed = { original_tag = FRA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_flag_pierre_etienne_flandin_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+			}
+			cancel_if_invalid = yes
+		}
+		
 		FRA_hog_sct_philippe_henriot = {
 			picture = minister_philippe_henriot
 			allowed = { original_tag = FRA }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ARG_flag_Rodolfo_Ghioldi_dead }
+					NOT = { has_country_flag = ARG_flag_philippe_henriot_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
@@ -20,14 +64,14 @@ ideas = {
 			}
 			cancel_if_invalid = yes
 		}
-	
-		FRA_hog_lcn_louis_marin = {
-			picture = minister_louis_marin
+		
+		FRA_hog_sct_pierre_taittinger = {
+			picture = minister_pierre_taittinger
 			allowed = { original_tag = FRA }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ARG_flag_Rodolfo_Ghioldi_dead }
+					NOT = { has_country_flag = ARG_flag_pierre_taittinger_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
@@ -37,7 +81,55 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				liberal_conservative
+				semi_constitutionalist
+				hog_blinded_ideologue
+			}
+			cancel_if_invalid = yes
+		}
+	}
+	
+	foreign_minister = {
+		
+		FRA_for_rli_edouard_daladier = {
+			picture = minister_edouard_daladier
+			allowed = { original_tag = FRA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_flag_philippe_henriot_dead }
+					has_country_flag = can_replace_for
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				republican_liberal
+				for_naive_enthusiast
+			}
+			cancel_if_invalid = yes
+		}
+		
+		FRA_for_sct_pierre_laval = {
+			picture = minister_pierre_laval
+			allowed = { original_tag = FRA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_flag_philippe_henriot_dead }
+					has_country_flag = can_replace_for
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				semi_constitutionalist
+				for_anti_communist_crusader
 			}
 			cancel_if_invalid = yes
 		}

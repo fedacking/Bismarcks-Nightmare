@@ -19,8 +19,13 @@
  
  ##Ministers
  #Head of Government
+ FRA_hog_lco_louis_marin:0 "Louis Marin"
+ FRA_hog_lco_pierre_etienne_flandin:0 "Pierre-Étienne Flandin"
  FRA_hog_sct_philippe_henriot:0 "Philippe Henriot"
- FRA_hog_lcn_louis_marin:0 "Louis Marin"
+ FRA_hog_sct_pierre_taittinger:0 "Pierre Taittinger"
+ #Foreign Minister
+ FRA_for_rli_edouard_daladier:0 "Édouard Daladier"
+ FRA_for_sct_pierre_laval:0 "Pierre Laval"
  
  ##Country Ideas
  FRA_idea_depression_0:0 "Great Depression"
