@@ -195,3 +195,19 @@ CHL = {
 	color = rgb { 0 89 132 }
 	color_ui = rgb { 0 89 132 }
 }
+URG = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
+}
+BSA = {
+	color = rgb { 52, 158, 235 }
+	color_ui = rgb { 52, 158, 235 }
+}
+BAC = {
+	color = rgb { 255, 255, 255 }
+	color_ui = rgb { 255, 255, 255 }
+}
+PIR = {
+	color = rgb { 222 187 91 }
+	color_ui = rgb { 222 187 91 }
+}

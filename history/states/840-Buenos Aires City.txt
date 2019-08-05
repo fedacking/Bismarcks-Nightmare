@@ -1,0 +1,28 @@
+state = {
+	id = 840
+	name = "STATE_840" # Buenos Aires City
+	manpower = 4381043
+	state_category = large_city
+	history = {
+		owner = ARG
+		buildings = {
+			infrastructure = 9
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 8
+			12364 = {
+				naval_base = 8
+				bunker = 3
+				coastal_bunker = 3
+			}
+		}
+		add_core_of = ARG
+		victory_points = {
+			12364 40
+		}
+	}
+	provinces = {
+		12364
+	}
+}
