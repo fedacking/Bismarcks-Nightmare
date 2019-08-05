@@ -1,5 +1,5 @@
 focus_tree = {
-	id = united_states_starter_ft
+	id = france_starter_ft
 	
 	country = {
 		factor = 0
@@ -20,11 +20,13 @@ focus_tree = {
 		x = 11
 		
 		y = 0
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = fra.1
+			add_political_power  = -50
 		}
 	}
 
@@ -35,11 +37,13 @@ focus_tree = {
 		relative_position_id = FRA_affaire_henriot
 		x = -1
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			news_event = fra_news.1
+			add_stability = -0.1
 		}
 	}
 	
@@ -50,11 +54,12 @@ focus_tree = {
 		relative_position_id = FRA_affaire_henriot
 		x = 1
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = FRA_idea_bonapartists_divided
 		}
 	}
 	
@@ -66,11 +71,13 @@ focus_tree = {
 		relative_position_id = FRA_affaire_henriot
 		x = 0
 		y = 2
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = fra.2
+			add_ideas = FRA_idea_paris_riots
 		}
 	}
 

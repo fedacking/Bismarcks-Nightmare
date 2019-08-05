@@ -22,10 +22,24 @@ ideas = {
 		}
 		
 		FRA_idea_napoleon_iv_reforms = {
-			picture = HUN_treaty_of_triannon
+			picture = generic_constitutional_guarantees
 			modifier = {
 				stability_factor = 0.2
 				political_power_cost = 0.5
+			}
+		}
+		
+		FRA_idea_bonapartists_divided = {
+			picture = generic_disjointed_gov
+			modifier = {
+				political_power_cost = 0.1
+			}
+		}
+		
+		FRA_idea_paris_riots = {
+			picture = chi_war_of_resistance
+			modifier = {
+				stability_factor = -0.1
 			}
 		}
 	}

@@ -1,5 +1,7 @@
 leader_traits = {
-	#Ideologias
+
+	##			Ideologias			##
+	
 	communist = {}
 	socialist = {}
 	republican_liberal = {}
@@ -8,6 +10,7 @@ leader_traits = {
 	semi_constitutionalist = {}
 	absolutist = {}
 	despotist = {}
+	
 	########################################
 	## 			HEAD of GOVERNMENT		  ##
 	########################################	
@@ -61,4 +64,20 @@ leader_traits = {
 		random = no
 	}
 	
+	########################################
+	## 			Foreign Ministers		  ##
+	########################################	
+	
+	for_naive_enthusiast = {
+		justify_war_goal_time = 0.05
+		political_power_gain = 0.05
+		random = no
+	}
+	
+	for_anti_communist_crusader = {
+		justify_war_goal_time = -0.05
+		political_power_gain = -0.1
+		opinion_gain_monthly_same_ideology = 0.25
+		random = no
+	}
 }

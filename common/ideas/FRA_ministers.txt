@@ -20,7 +20,7 @@ ideas = {
 				head_of_government
 				liberal_conservative
 			}
-			cancel_if_invalid = yes
+			cancel_if_invalid = no
 		}
 	
 		FRA_hog_lco_pierre_etienne_flandin = {
@@ -41,7 +41,7 @@ ideas = {
 				head_of_government
 				liberal_conservative
 			}
-			cancel_if_invalid = yes
+			cancel_if_invalid = no
 		}
 		
 		FRA_hog_sct_philippe_henriot = {
@@ -62,7 +62,7 @@ ideas = {
 				head_of_government
 				semi_constitutionalist
 			}
-			cancel_if_invalid = yes
+			cancel_if_invalid = no
 		}
 		
 		FRA_hog_sct_pierre_taittinger = {
@@ -84,7 +84,7 @@ ideas = {
 				semi_constitutionalist
 				hog_blinded_ideologue
 			}
-			cancel_if_invalid = yes
+			cancel_if_invalid = no
 		}
 	}
 	
@@ -109,7 +109,7 @@ ideas = {
 				republican_liberal
 				for_naive_enthusiast
 			}
-			cancel_if_invalid = yes
+			cancel_if_invalid = no
 		}
 		
 		FRA_for_sct_pierre_laval = {
@@ -131,7 +131,7 @@ ideas = {
 				semi_constitutionalist
 				for_anti_communist_crusader
 			}
-			cancel_if_invalid = yes
+			cancel_if_invalid = no
 		}
 	}
 }
