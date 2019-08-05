@@ -97,10 +97,10 @@ set_convoys = 300
 set_popularities = {
 	despotist = 3
 	absolutist = 10
-	semi_constitutionalist = 51
-	social_conservative = 25
-	liberal_conservative = 11
-	republican_liberal = 0
+	semi_constitutionalist = 35
+	social_conservative = 5
+	liberal_conservative = 27
+	republican_liberal = 20
 	communist = 0
 	socialist = 0
 }	

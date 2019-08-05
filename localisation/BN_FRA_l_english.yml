@@ -1,21 +1,22 @@
 ﻿l_english:
  ##Political Parties
  FRA_communist_party:0 "PCF"
- FRA_communist_party_long:0 "French Communist Party"
+ FRA_communist_party_long:0 "Parti Communiste Français"
  FRA_socialist_party:0 "SFIO"
- FRA_socialist_party_long:0 "French Section of the Workers' International"
- FRA_republican_liberal_party:0 "Radical Party"
- FRA_republican_liberal_party_long:0 "Radical Republican Party"
- FRA_liberal_conservative_party:0 "L-Bonapartist Party"
- FRA_liberal_conservative_party_long:0 "Liberal Wing of the Bonapartist Party"
- FRA_social_conservative_party:0 "Orléanist Party"
- FRA_social_conservative_party_long:0 "Orléanist Party"
- FRA_semi_constitutionalist_party:0 "C-Bonapartist Party"
- FRA_semi_constitutionalist_party_long:0 "Conservative Wing of the Bonapartist Party"
- FRA_absolutist_party:0 "Legitimist Party"
- FRA_absolutist_party_long:0 "Ultra-Legitimistes Party"
+ FRA_socialist_party_long:0 "Section Française de l'Internationale Ouvrière"
+ FRA_republican_liberal_party:0 "PRRRS"
+ FRA_republican_liberal_party_long:0 "Parti républicain, radical et radical-socialiste"
+ FRA_liberal_conservative_party:0 "Bonapartisme Libéral"
+ FRA_liberal_conservative_party_long:0 "Bonapartisme Libéral"
+ FRA_social_conservative_party:0 "Parti Orléaniste"
+ FRA_social_conservative_party_long:0 "Parti Orléaniste"
+ FRA_semi_constitutionalist_party:0 "Bonapartisme Imperial"
+ FRA_semi_constitutionalist_party_desc:0 "Empire"
+ FRA_semi_constitutionalist_party_long:0 "Bonapartisme Imperial"
+ FRA_absolutist_party:0 "Parti Legitimiste"
+ FRA_absolutist_party_long:0 "Parti Ultra-Legitimistes"
  FRA_despotist_party:0 "AF"
- FRA_despotist_party_long:0 "French Action"
+ FRA_despotist_party_long:0 "Actione Française"
  
  ##Ministers
  #Head of Government
@@ -26,13 +27,27 @@
  #Foreign Minister
  FRA_for_rli_edouard_daladier:0 "Édouard Daladier"
  FRA_for_sct_pierre_laval:0 "Pierre Laval"
- 
+  
  ##Country Ideas
  FRA_idea_depression_0:0 "Great Depression"
+ FRA_idea_depression_0_desc:0 "During the second semester of 1935, the US and French economies started to slow down. The massive expansion of the economy in the 1920's has lead to overborrowing and overexposure for the banks. In the US in 1935 the banks started to default, and the crisis spiraled from there to the rest of the world."
  FRA_idea_cermonial_garde_nationale:0 "Ceremonial Garde National"
  FRA_idea_cermonial_garde_nationale_desc:0 "Since the Coup de Etat in 1852, the National Guard continue to exist and exempts you from general conscription, but the Napoleonic Emperors have kept their powers and roles to the minimum."
  FRA_idea_napoleon_iv_reforms:0 "Napoleon IV Reforms"
  FRA_idea_napoleon_iv_reforms_desc:0 "In order to ensure the smooth continuation of the Empire, the Emperor Napoleon IV worked hard with the political spectrum to develop constitutional reforms that expanded the power of congress, ensured fair representation and diminished the power of the Emperor."
+ FRA_idea_bonapartists_divided:0 "Bonapartists Divided"
+ FRA_idea_paris_riots:0 "Paris Riots"
  
  ##Events
- fra.1.t:0 "The Affair"
+ fra.1.t:0 "Stavisky's case Dismissed!"
+ fra.1.desc:0 "Today, a controversial case has been dismissed. Conman Alexandre Stavisky's case has been dismissed for procedural reasons. The members of the party are not happy with this, but they will not speak about this in public."
+ fra.1.a:0 "Well, at least the press doesn't know."
+ fra.2.t:0 "Riots in Paris!"
+ fra.2.desc:0 "After the announcement of the death of Stavisky, the city has been embroiled in continual acts of violence. Even after the main protest ended, every day there are small acts of violence, and the peace has not returned to the capital."
+ fra.2.a:0 "Damn Rabble Rousers!"
+ 
+ ##News Events
+ fra_news.1.t:0 "J'Accuse...!"
+ fra_news.1.desc:0 "The newspaper L'Aurore has published in it's front page an open letter to the Emperor accusing the Prime Minister of defending Stavisky in order to protect his affairs. In his letter, the journalist Georges Mandel asks for the dismissal of Henriot and the appointment of a new Prime Minister. \nThe explosive news are being widely read and shared, and have become the main topic of discussion, displacing the crisis as the center of French politics."
+ fra_news.1.a:0 "Could this get any worse?"
+ 
