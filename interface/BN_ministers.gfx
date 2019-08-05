@@ -64,12 +64,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/ARG/idea_minister_roberto_m_ortiz.tga"
 	}
 	SpriteType = {
+		name = "GFX_idea_minister_julio_argentino_p_roca"
+		texturefile = "gfx/interface/ministers/ARG/idea_minister_julio_argentino_p_roca.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_ramon_s_castillo"
+		texturefile = "gfx/interface/ministers/ARG/idea_minister_ramon_s_castillo.tga"
+	}
+	SpriteType = {
 		name = "GFX_idea_minister_juan_ii"
 		texturefile = "gfx/interface/ministers/ARG/idea_minister_juan_ii.tga"
 	}
 	SpriteType = {
-		name = "GFX_idea_minister_julio_argentino_p_roca"
-		texturefile = "gfx/interface/ministers/ARG/idea_minister_julio_argentino_p_roca.tga"
+		name = "GFX_idea_minister_manuel_carles"
+		texturefile = "gfx/interface/ministers/ARG/idea_minister_manuel_carles.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_juan_domingo_peron"
+		texturefile = "gfx/interface/ministers/ARG/idea_minister_juan_domingo_peron.tga"
 	}
 
 }
