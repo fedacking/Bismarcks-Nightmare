@@ -55,18 +55,22 @@ bookmarks = {
 			}
 		}
 		
-		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = social_conservative
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
+		
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			minor = yes
+			ideas = {
+				USA_idea_nativism
+			}
+			focuses = {
+				USA_government_intervention
+			}
+		}
+		
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
