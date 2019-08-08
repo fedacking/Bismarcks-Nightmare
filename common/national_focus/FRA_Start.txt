@@ -88,12 +88,36 @@ focus_tree = {
 		relative_position_id = FRA_what_do_we_do
 		x = -5
 		y = 1
-		cost = 10
+		cost = 4
 		mutually_exclusive = { focus = FRA_all_the_emperors_men }
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			set_politics = {
+				ruling_party = liberal_conservative
+				elections_allowed = yes
+			}
+			swap_ideas = {
+			    remove_idea = FRA_hog_sct_philippe_henriot
+				add_idea = FRA_hog_lco_pierre_etienne_flandin
+			}
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = 0.15
+			}
+			hidden_effect = {
+				set_popularities = {
+					despotist = 3
+					absolutist = 2
+					semi_constitutionalist = 25
+					social_conservative = 5
+					liberal_conservative = 56
+					republican_liberal = 19
+					communist = 0
+					socialist = 0
+				}
+			}
 		}
 	}
 	

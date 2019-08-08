@@ -96,11 +96,11 @@ set_convoys = 300
 
 set_popularities = {
 	despotist = 3
-	absolutist = 10
-	semi_constitutionalist = 35
+	absolutist = 2
+	semi_constitutionalist = 40
 	social_conservative = 5
-	liberal_conservative = 27
-	republican_liberal = 20
+	liberal_conservative = 31
+	republican_liberal = 19
 	communist = 0
 	socialist = 0
 }	
@@ -109,7 +109,7 @@ set_politics = {
 	ruling_party = semi_constitutionalist
 	last_election = "1931.11.8"
 	election_frequency = 72
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
