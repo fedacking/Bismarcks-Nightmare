@@ -7,10 +7,6 @@ ideologies = {
 		}		
 		dynamic_faction_names = {
 			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
 		}		
 		color = { 127 0 0 }
 		ai_communist = yes # uses the commie AI behaviour		
@@ -35,10 +31,6 @@ ideologies = {
 		}		
 		dynamic_faction_names = {
 			"FACTION_NAME_SOCIALIST_1"
-			"FACTION_NAME_SOCIALIST_2"
-			"FACTION_NAME_SOCIALIST_3"
-			"FACTION_NAME_SOCIALIST_4"
-			"FACTION_NAME_SOCIALIST_5"
 		}		
 		color = { 255 0 0 }
 		ai_communist = yes # uses the commie AI behaviour		
@@ -65,11 +57,6 @@ ideologies = {
 		}		
 		dynamic_faction_names = {
 			"FACTION_NAME_REPLIB_1"
-			"FACTION_NAME_REPLIB_2"
-			"FACTION_NAME_REPLIB_3"
-			"FACTION_NAME_REPLIB_4"
-			"FACTION_NAME_REPLIB_5"
-			"FACTION_NAME_REPLIB_6"
 		}		
 		color = { 255 153 0 }		
 		rules = {
@@ -98,11 +85,6 @@ ideologies = {
 		}		
 		dynamic_faction_names = {
 			"FACTION_NAME_LIBCON_1"
-			"FACTION_NAME_LIBCON_2"
-			"FACTION_NAME_LIBCON_3"
-			"FACTION_NAME_LIBCON_4"
-			"FACTION_NAME_LIBCON_5"
-			"FACTION_NAME_LIBCON_6"
 		}		
 		color = { 255 255 0 }
 		rules = {
@@ -129,11 +111,6 @@ ideologies = {
 		}		
 		dynamic_faction_names = {
 			"FACTION_NAME_SOCCON_1"
-			"FACTION_NAME_SOCCON_2"
-			"FACTION_NAME_SOCCON_3"
-			"FACTION_NAME_SOCCON_4"
-			"FACTION_NAME_SOCCON_5"
-			"FACTION_NAME_SOCCON_6"
 		}		
 		color = { 0 0 255 }
 		rules = {
@@ -160,10 +137,6 @@ ideologies = {
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_SEMICON_1"
-			"FACTION_NAME_SEMICON_2"
-			"FACTION_NAME_SEMICON_3"
-			"FACTION_NAME_SEMICON_4"
-			"FACTION_NAME_SEMICON_5"
 		}		
 		color = { 110 110 110 }
 		rules = {
@@ -191,10 +164,6 @@ ideologies = {
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_ABSOLUTIST_1"
-			"FACTION_NAME_ABSOLUTIST_2"
-			"FACTION_NAME_ABSOLUTIST_3"
-			"FACTION_NAME_ABSOLUTIST_4"
-			"FACTION_NAME_ABSOLUTIST_5"
 		}		
 		color = { 45 45 45 }
 		rules = {
@@ -224,10 +193,6 @@ ideologies = {
 		}		
 		dynamic_faction_names = {
 			"FACTION_NAME_DESPOTIST_1"
-			"FACTION_NAME_DESPOTIST_2"
-			"FACTION_NAME_DESPOTIST_3"
-			"FACTION_NAME_DESPOTIST_4"
-			"FACTION_NAME_DESPOTIST_5"
 		}		
 		color = { 142 57 0 }
 		faction_impact_on_world_tension = 1.0		

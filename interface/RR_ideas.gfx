@@ -19,4 +19,9 @@ spriteTypes = {
 		name = "GFX_idea_army_chained"
 		texturefile = "gfx/interface/ideas/idea_army_chained.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_idea_propaganda"
+		texturefile = "gfx/interface/ideas/idea_propaganda.dds"
+	}
 }

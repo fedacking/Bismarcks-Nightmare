@@ -88,7 +88,7 @@ focus_tree = {
 		relative_position_id = FRA_what_do_we_do
 		x = -5
 		y = 1
-		cost = 4
+		cost = 1
 		mutually_exclusive = { focus = FRA_all_the_emperors_men }
 
 		available_if_capitulated = no
@@ -98,15 +98,18 @@ focus_tree = {
 				ruling_party = liberal_conservative
 				elections_allowed = yes
 			}
-			swap_ideas = {
-			    remove_idea = FRA_hog_sct_philippe_henriot
-				add_idea = FRA_hog_lco_pierre_etienne_flandin
+			effect_tooltip ={
+				add_popularity = {
+					ideology = liberal_conservative
+					popularity = 0.15
+				}
 			}
-			add_popularity = {
-				ideology = liberal_conservative
-				popularity = 0.15
-			}
+			custom_effect_tooltip = FRA_tooltip_swap_henriot_flandin
 			hidden_effect = {
+				swap_ideas = {
+					remove_idea = FRA_hog_sct_philippe_henriot
+					add_idea = FRA_hog_lco_pierre_etienne_flandin
+				}
 				set_popularities = {
 					despotist = 3
 					absolutist = 2
@@ -128,11 +131,15 @@ focus_tree = {
 		relative_position_id = FRA_back_down
 		x = -3
 		y = 1
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_idea_napoleon_iv_reforms
+				add_idea = FRA_idea_napoleon_iv_reforms_1
+			}
 		}
 	}
 	
@@ -143,11 +150,13 @@ focus_tree = {
 		relative_position_id = FRA_stability_at_all_cost
 		x = -2
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = fra.10
+			add_stability = 0.02
 		}
 	}
 	
@@ -158,11 +167,13 @@ focus_tree = {
 		relative_position_id = FRA_convince_the_monarchists
 		x = 0
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_stability = 0.05
+			add_war_support = -0.05
 		}
 	}
 	
@@ -173,11 +184,16 @@ focus_tree = {
 		relative_position_id = FRA_stability_at_all_cost
 		x = 0
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = fra.11
+			swap_ideas = {
+				remove_idea = FRA_idea_napoleon_iv_reforms_1
+				add_idea = FRA_idea_napoleon_iv_reforms_2
+			}
 		}
 	}
 	
@@ -188,11 +204,12 @@ focus_tree = {
 		relative_position_id = FRA_convince_the_emperor
 		x = 0
 		y = 1
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = FRA_idea_emperor_and_radio
 		}
 	}
 	
@@ -203,11 +220,13 @@ focus_tree = {
 		relative_position_id = FRA_stability_at_all_cost
 		x = 2
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = fra.12
+			remove_ideas = FRA_idea_bonapartists_divided
 		}
 	}
 	
@@ -218,11 +237,16 @@ focus_tree = {
 		relative_position_id = FRA_convince_the_party
 		x = 0
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_idea_cermonial_garde_nationale
+				add_idea = FRA_idea_loyal_garde_nationale
+			}
+			remove_ideas = FRA_idea_paris_riots
 		}
 	}
 	
@@ -235,11 +259,15 @@ focus_tree = {
 		relative_position_id = FRA_the_emperor_and_the_radio
 		x = 0
 		y = 1
-		cost = 10
+		cost = 7
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_idea_napoleon_iv_reforms_2
+				add_idea = FRA_idea_napoleon_iv_reforms_3
+			}
 		}
 	}
 	############### Plan Economico
@@ -395,12 +423,35 @@ focus_tree = {
 		relative_position_id = FRA_what_do_we_do
 		x = 5
 		y = 1
-		cost = 10
+		cost = 1
 		mutually_exclusive = { focus = FRA_back_down }
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			effect_tooltip ={
+				add_popularity = {
+					ideology = semi_constitutionalist
+					popularity = 0.05
+				}
+			}
+			custom_effect_tooltip = FRA_tooltip_swap_henriot_taittinger
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = FRA_hog_sct_philippe_henriot
+					add_idea = FRA_hog_sct_pierre_taittinger
+				}
+				set_popularities = {
+					despotist = 3
+					absolutist = 2
+					semi_constitutionalist = 50
+					social_conservative = 5
+					liberal_conservative = 21
+					republican_liberal = 24
+					communist = 0
+					socialist = 0
+				}
+			}
 		}
 	}
 	

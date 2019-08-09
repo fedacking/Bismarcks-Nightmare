@@ -1,6 +1,7 @@
 ideas = {
-	country = { ### Head of Government ###
+	country = { 
 	
+		##Eco
 		FRA_idea_depression_0 = {
 			picture = great_depression
 			modifier = {
@@ -12,6 +13,7 @@ ideas = {
 			}
 		}
 		
+		## Garde Nationale
 		FRA_idea_cermonial_garde_nationale = {
 			picture = army_chained
 			modifier = {
@@ -21,6 +23,15 @@ ideas = {
 			}
 		}
 		
+		FRA_idea_loyal_garde_nationale = {
+			picture = YUG_all_yugoslavian_regiments
+			modifier = {
+				political_power_gain = 0.20
+				conscription_factor = -0.05
+			}
+		}
+		
+		## Napo reforms
 		FRA_idea_napoleon_iv_reforms = {
 			picture = generic_constitutional_guarantees
 			modifier = {
@@ -29,6 +40,38 @@ ideas = {
 			}
 		}
 		
+		FRA_idea_napoleon_iv_reforms_1 = {
+			picture = generic_constitutional_guarantees
+			modifier = {
+				stability_factor = 0.3
+				political_power_cost = 0.6
+			}
+		}
+		
+		FRA_idea_napoleon_iv_reforms_2 = {
+			picture = generic_constitutional_guarantees
+			modifier = {
+				stability_factor = 0.3
+				political_power_cost = 0.5
+			}
+		}
+		
+		FRA_idea_napoleon_iv_reforms_3 = {
+			picture = generic_constitutional_guarantees
+			modifier = {
+				stability_factor = 0.3
+				political_power_cost = 0.2
+			}
+		}
+		
+		FRA_idea_emperor_and_radio = {
+			picture = propaganda
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+		
+		## Crisis of 36
 		FRA_idea_bonapartists_divided = {
 			picture = generic_disjointed_gov
 			modifier = {

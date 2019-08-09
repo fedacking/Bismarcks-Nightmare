@@ -113,11 +113,88 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Maurice Thorez"
+	desc = "POLITICS_MAURICE_THOREZ_DESC"
+	picture = "GFX_portrait_fra_maurice_thorez"
+	expire = "1965.1.1"
+	ideology = 	communist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Léon Blum"
+	desc = "POLITICS_LEON_BLUM_DESC"
+	picture = "gfx/leaders/FRA/Portrait_Leon_Blum.tga"
+	expire = "1965.1.1"
+	ideology = 	socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Camille Chautemps"
+	desc = "POLITICS_CAMILLE_CHAUTEMPS_DESC"
+	picture = "gfx/leaders/FRA/Portrait_Camille_Chautemps.tga"
+	expire = "1965.1.1"
+	ideology = 	social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Napoléon V"
+	desc = "POLITICS_NAPOLEON_V_DESC"
+	picture = "gfx/leaders/FRA/Portrait_Napoleon_V.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jean d'Orléans"
+	desc = "POLITICS_JEAN_ORLEANS_DESC"
+	picture = "gfx/leaders/FRA/Portrait_Jean_dOrleans.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Napoléon V"
 	desc = "POLITICS_NAPOLEON_V_DESC"
 	picture = "gfx/leaders/FRA/Portrait_Napoleon_V.tga"
 	expire = "1965.1.1"
 	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jaime I"
+	desc = "POLITICS_JAIME_I_DESC"
+	picture = "gfx/leaders/FRA/Portrait_Jaime_I.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Charles Maurras"
+	desc = "POLITICS_CHARLES_MAURRAS_DESC"
+	picture = "gfx/leaders/FRA/Portrait_Charles_Maurras.tga"
+	expire = "1965.1.1"
+	ideology = nazism_subtype
 	traits = {
 		#
 	}
