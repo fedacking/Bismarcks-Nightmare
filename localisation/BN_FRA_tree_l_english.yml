@@ -36,6 +36,10 @@
  FRA_securitize_bank_deposits_desc:0 "In order to stop further runs on the banks, it's important to restore the people's trust in the banks. To do this the government will start securitizing money in the banks up to a certain amount. We hope this will encourage savings."
  FRA_ensure_free_trade:0 "Ensure Free Trade"
  FRA_ensure_free_trade_desc:0 "Not only must the government help the economy, they must also not impede it's growth. The government should reduce tariffs and sign as many trade deals as possible in order to preserve as much trade as possible."
+ FRA_deal_with_trade_unions:0 "Deal With the Trade Unions"
+ FRA_deal_with_trade_unions_desc:0 "The trade unions have been a torn on our side since the beginning of the century. With the economic crisis they are growing in membership, and they are starting to better oroganize and mobilize. It's time to sit with them and hear their demands."
+ FRA_cultural_exports:0 "Cultural Exports"
+ FRA_cultural_exports_desc:0 "With our cultural industry firing on all cylinders and trade barriers eliminated, it's time to show the world our culture. Mountains of cheese, bread an wine are going to be exported, with just a little more investment from the government."
  #Shared Eco Tree
  FRA_farmers_plan:0 "Agricultural Subsidies"
  FRA_farmers_plan_desc:0 "One of the most important blocks in the French population is the farmers. To ensure the loyalty of the rural population, a package of agricultural subsidies has been approved by the government."
