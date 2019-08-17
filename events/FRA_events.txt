@@ -64,3 +64,21 @@ country_event = { #Sit with the party
 		name = fra.12.a
 	}
 }
+
+country_event = { #Deal with the trade unions
+	id = fra.15
+	title = fra.15.t
+	desc = fra.15.desc
+	picture = GFX_report_event_american_hunger_march
+	
+	is_triggered_only = yes
+	
+	option = { #No Deal
+		name = fra.15.a 
+		add_political_power = 50
+	}
+	option = { #Minor Concessions
+		name = fra.15.b
+		add_ideas = FRA_idea_minor_concessions
+	}
+}

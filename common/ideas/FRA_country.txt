@@ -3,13 +3,59 @@ ideas = {
 	
 		##Eco
 		FRA_idea_depression_0 = {
+			picture = usa_great_depression_3
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				political_power_cost = 0.1
+			}
+		}
+		
+		FRA_idea_depression_1 = {
+			picture = usa_great_depression_2
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				political_power_cost = 0.15
+			}
+		}
+		
+		FRA_idea_depression_2 = {
 			picture = great_depression
 			modifier = {
 				consumer_goods_factor = 0.1
 				production_speed_buildings_factor = -0.5
 				industrial_capacity_factory = -0.2
 				industrial_capacity_dockyard = -0.2
-				political_power_cost = 0.1
+				political_power_cost = 0.15
+			}
+		}
+		
+		FRA_idea_depression_3 = {
+			picture = slow_growth
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				political_power_cost = 0.15
+			}
+		}
+		FRA_idea_agricultural_subsidies = {
+			picture = generic_agrarian_society
+			modifier = {
+				monthly_population = 0.1
+			}
+		}
+		#eco - liberal
+		FRA_idea_minor_concessions = {
+			picture = FRA_factory_strikes
+			modifier = {
+				industrial_capacity_factory = 0.1
 			}
 		}
 		

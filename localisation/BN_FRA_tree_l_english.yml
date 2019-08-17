@@ -1,4 +1,5 @@
 ﻿l_english:
+ #Start
  FRA_affaire_henriot:0 "The Henriot Affair"
  FRA_affaire_henriot_desc:0 "The prime minister Philippe Henriot appears to be involved with certain unsavory characters. After a judge dismissed a case for a well know art counterfeiter, Alexandre Stavisky, rumors have started to circulate."
  FRA_j_accuse:0 "\"J'Accuse...!\""
@@ -7,6 +8,7 @@
  FRA_party_discontent_desc:0 "The party finds itself divided over the issue of the Henriot affair. The liberals want him to renounce and Stavisky to answer questions in the Legislative Assembly. The conservatives want this whole event to be put to rest."
  FRA_what_do_we_do:0 "What do we do?"
  FRA_what_do_we_do_desc:0 "The body of Stavisky has been found dead in his appartment. With the crisis approaching a boiling point, it's time for the emperor to take action."
+ #Lib Pol Tree
  FRA_back_down:0 "Back Down"
  FRA_back_down_desc:0 "The crisis has shown that the Emperor cannot trust only yes men. If we don't let people voice their concerns in the ballot box, they will let us hear it with rocks and chants in Paris."
  FRA_stability_at_all_cost:0 "Stability Above All"
@@ -14,7 +16,7 @@
  FRA_convince_the_monarchists:0 "Convince the Monarchists"
  FRA_convince_the_monarchists_desc:0 "The Monarchists still hold to their old ideologies, hoping to stay relevant in the 20th century. They can't see that without working with us, there won't be any monarch in France. It's time to put the on board the Bonapartist project"
  FRA_the_specter_of_revolution:0 "The Specter of Revolution"
- FRA_the_specter_of_revolution_desc:0 "'This, gentlemen, is my profound conviction: I believe that we are at this moment sleeping on a volcano', we're the words of our Prime Minister today to parliament. These same words were uttered days before the Revolution of 1848. Every member of congress remembers now why they must work to preserve the Empire."
+ FRA_the_specter_of_revolution_desc:0 "'This, gentlemen, is my profound conviction: I believe that we are at this moment sleeping on a volcano', were the words of our Prime Minister today to parliament. These same words were uttered days before the Revolution of 1848. Every member of congress remembers now why they must work to preserve the Empire."
  FRA_convince_the_emperor:0 "Convince the Emperor"
  FRA_convince_the_emperor_desc:0 "Napoleon might have backed down and appointed a new prime minister from the liberals, but he still is Bonaparte at heart. We need to make him see how precarious his situation really is."
  FRA_the_emperor_and_the_radio:0 "The Emperor and the Radio"
@@ -24,7 +26,21 @@
  FRA_trust_the_guard:0 "Trust the Guard"
  FRA_trust_the_guard_desc:0 "The Garde Nationale is the bulwark of respectable population in Paris. For now, they stay in the sidelines watching as their city is ruined by ruffians and populists. It's time to let them restore order, as they were meant to."
  FRA_the_great_compromise:0 "The Great Compromise"
- FRA_the_great_compromise_desc:0 "The Govenrment has worked hard and fairly to reduce the power of the emperor, and get everyone on board of it's political program. The feel confident enough to take their alliance into the ballot box, and find the support of the people."
- #Abs Tree
+ FRA_the_great_compromise_desc:0 "The Govenrment has worked hard and fairly to reduce the power of the emperor, and get everyone on board of it's political program. The feel confident enough to reform the cabinet, and put the government ins aolid path forwards."
+ #Lib Eco Tree
+ FRA_the_bankers_plan:0 "The Banker's Plan"
+ FRA_the_bankers_plan_desc:0 "The government needs to resolve the economic crisis, source of the unrest in the streets and disapproval of the government. The chief executives of the banks working in concert with economists have worked on a plan to solve the crisis."
+ FRA_secure_french_steel:0 "Secure French Steel"
+ FRA_secure_french_steel_desc:0 "One of the primary goals of this plan is to ensure that France's most important industries survive the crisis in good footing. One of the engines of economic growth, the steel foundries has been hit hard. To allow them to sustain themselves, the government has approved to cover the interest of new loans."
+ FRA_securitize_bank_deposits:0 "Securitize Bank Deposits"
+ FRA_securitize_bank_deposits_desc:0 "In order to stop further runs on the banks, it's important to restore the people's trust in the banks. To do this the government will start securitizing money in the banks up to a certain amount. We hope this will encourage savings."
+ FRA_ensure_free_trade:0 "Ensure Free Trade"
+ FRA_ensure_free_trade_desc:0 "Not only must the government help the economy, they must also not impede it's growth. The government should reduce tariffs and sign as many trade deals as possible in order to preserve as much trade as possible."
+ #Shared Eco Tree
+ FRA_farmers_plan:0 "Agricultural Subsidies"
+ FRA_farmers_plan_desc:0 "One of the most important blocks in the French population is the farmers. To ensure the loyalty of the rural population, a package of agricultural subsidies has been approved by the government."
+ FRA_the_national_bread_and_wine:0 "The National Bread and Wine"
+ FRA_the_national_bread_and_wine_desc:0 "The French culture is based on it's great food output. We need to ensure that the industry is allowed to operate freely and only provide support from the government, without intervention."
+ #Abs Pol Tree
  FRA_all_the_emperors_men:0 "All The Emperor's Men"
  FRA_all_the_emperors_men_desc:0 "Maybe Henriot was corrupt and inept, but there are still men loyal to the Emperor. We must trust the government only to the loyal followers to the Emperor. Even if people in the stree clamor for violence, Napoleon still has the trust of the Silent Majority."

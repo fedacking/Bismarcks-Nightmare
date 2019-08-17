@@ -24,4 +24,9 @@ spriteTypes = {
 		name = "GFX_idea_propaganda"
 		texturefile = "gfx/interface/ideas/idea_propaganda.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_idea_slow_growth"
+		texturefile = "gfx/interface/ideas/idea_slow_growth.dds"
+	}
 }

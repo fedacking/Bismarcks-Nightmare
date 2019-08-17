@@ -113,9 +113,9 @@ focus_tree = {
 				set_popularities = {
 					despotist = 3
 					absolutist = 2
-					semi_constitutionalist = 25
+					semi_constitutionalist = 20
 					social_conservative = 5
-					liberal_conservative = 56
+					liberal_conservative = 51
 					republican_liberal = 19
 					communist = 0
 					socialist = 0
@@ -284,6 +284,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_idea_depression_0
+				add_idea = FRA_idea_depression_1
+			}
 		}
 	}
 	
@@ -299,6 +303,16 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 28
+				state = 28
+			}
+			add_resource = {
+				type = steel
+				amount = 17
+				state = 17
+			}
 		}
 	}
 	
@@ -314,6 +328,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_idea_depression_1
+				add_idea = FRA_idea_depression_2
+			}
 		}
 	}
 	
@@ -330,6 +348,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = free_trade
 		}
 	}
 	
@@ -345,6 +364,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = fra.15
 		}
 	}
 	
@@ -364,6 +384,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = FRA_idea_agricultural_subsidies
 		}
 	}
 	
@@ -379,6 +400,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 50
 		}
 	}
 	
@@ -395,6 +417,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_idea_depression_2
+				add_idea = FRA_idea_depression_3
+			}
 		}
 	}
 	
@@ -446,8 +472,8 @@ focus_tree = {
 					absolutist = 2
 					semi_constitutionalist = 50
 					social_conservative = 5
-					liberal_conservative = 21
-					republican_liberal = 24
+					liberal_conservative = 17
+					republican_liberal = 23
 					communist = 0
 					socialist = 0
 				}
@@ -467,6 +493,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_idea_depression_0
+				add_idea = FRA_idea_depression_1
+			}
 		}
 	}
 	
@@ -482,6 +512,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_idea_depression_1
+				add_idea = FRA_idea_depression_2
+			}
 		}
 	}
 	
@@ -529,6 +563,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_idea_depression_2
+				add_idea = FRA_idea_depression_3
+			}
 		}
 	}
 	
