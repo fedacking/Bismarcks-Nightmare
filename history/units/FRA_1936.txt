@@ -1,1 +1,788 @@
-﻿
+﻿##### Division Templates #####
+division_template = { # Division d'Infanterie
+	name = "Division d'Infanterie"		
+	division_names_group = FRA_INF_01
+	# Represents: Division d'Infanterie (Series A and B), Div. d'Inf. de Forteresse
+	# Difference is their equipment
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	# Heavy Arty Regiment had 2x 155mm battalions
+	}
+}
+
+division_template = { # Division d'Infanterie Motorisée
+	name = "Division d'Infanterie Motorisée"	
+	division_names_group = FRA_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		motorized = { x = 1 y = 4 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
+		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+	}
+}
+
+division_template = { # Division d'Infanterie Alpine
+	name = "Division d'Infanterie Alpine"	
+	division_names_group = FRA_MNT_01
+	# Note: trimmed to 3x Rgts w/ arty bn added, 1939
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 0 y = 4 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 1 y = 3 }
+		mountaineers = { x = 1 y = 4 }
+	}
+}
+
+division_template = { # Division de Cavalerie
+	name = "Division de Cavalerie" 	
+	division_names_group = FRA_CAV_01
+	# Note: Transformed to DLC, DLM divisions, 1936-39 
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 0 y = 4 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+	}
+}
+
+division_template = {	# Division Légère Mécanique
+	name = "Division Légère Mécanique" 	
+	division_names_group = FRA_MEC_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }		# Bn. of Hotchkiss, then Souma (Med.) tanks
+		light_armor = { x = 0 y = 1 }		# Bn. of Hotchkiss tanks
+		motorized = { x = 1 y = 0 }			# Brigade of 2x Rgts., 2 Bns. each (later 1 Rgt. of 3x Bns.)
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }      # Recon Group consisted of 42 ACs + motorcycles
+	}
+}
+
+division_template = { #Brigade colonial
+	name = "Brigade Coloniale"
+	division_names_group = FRA_COL_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	priority = 0
+}
+
+##### OOB #####
+units = {
+	### Garde-frontière ###
+	## SGC border
+	division = {	
+		name = "Mainz Garde-frontière"
+		location = 11560
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "Manheim Garde-frontière"
+		location = 3558
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Haguenau Garde-frontière"
+		location = 549
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Strasbourg Garde-frontière"
+		location = 9503
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Colmar Garde-frontière"
+		location = 6529
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Mulhouse Garde-frontière"
+		location = 678
+		division_template = "Division d'Infanterie"	 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	## Austrian border
+	division = {	
+		name = "Bâle Garde-frontière"
+		location = 9638
+		division_template = "Division d'Infanterie"	 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {	
+		name = "Berthoud Garde-frontière"
+		location = 11604
+		division_template = "Division d'Infanterie"	 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Thoune Garde-Alpine"
+		location = 636
+		division_template = "Division d'Infanterie Alpine"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {	
+		name = "Domodossola Garde-Alpine"
+		location = 6635
+		division_template = "Division d'Infanterie Alpine"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	## Italian border
+	division = {	
+		name = "Novare Garde-frontière"
+		location = 776
+		division_template = "Division d'Infanterie"	 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {	
+		name = "Alexandrie Garde-frontière"
+		location = 9741
+		division_template = "Division d'Infanterie"	 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {	
+		name = "Acqui Terme Garde-frontière"
+		location = 11723
+		division_template = "Division d'Infanterie"	 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {	
+		name = "Savona Garde-frontière"
+		location = 3772
+		division_template = "Division d'Infanterie"	 	# Frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	
+	
+	### Garde Metropolitaine ###
+	# Garde Parisienne	
+	division = {	
+		name = "Garde de L'Empereurer"
+		location = 11506
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Cavalerie Imperiale de Paris"
+		location = 9523
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	
+	# Garde Du L'Est
+	division = {	
+		name = "Berne Reserve"
+		location = 9620
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division = {	
+		name = "Besançon Reserve"
+		location = 9642
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3652
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division = {	
+		name = "Troyes Reserve"
+		location = 9490
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	# Garde Du Nord Est
+	division = {	
+		name = "Metz Reserve"
+		location = 9559
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}	
+	division = {	
+		name = "Reims Reserve"
+		location = 13011
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		name = "Cologne Reserve"
+		location = 587
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3262
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11519
+		division_template = "Division Légère Mécanique" 	# DLM is frontline, best equipment, L Arm = H-35
+		start_experience_factor = 0.3
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "FRA" } }
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 516
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	
+	# Garde du Nord Ouest
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11483
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division = {	
+		name = "Dunkerque Reserve"
+		location = 575
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}	
+	division= {	# "5ème Div. d'Infanterie Motorisée"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11563
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division = {	
+		name = "Cherbourg Reserve"
+		location = 6449
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		name = "Brest Reserve"
+		location = 3552
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	
+	#Garde de L'Ouest
+	division = {	
+		name = "Lorient Reserve"
+		location = 6536
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		name = "Rennes Reserve"
+		location = 9495
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		name = "Nantes Reserve"
+		location = 11465
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		name = "Cavalerie Imperiale d'Orleans"
+		location = 512
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 3671
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 651
+		division_template = "Division d'Infanterie Motorisée" 	# All motorized are frontline, best equipment
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.95
+	}
+	division = {	
+		name = "La Rochelle Reserve"
+		location = 6657
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		name = "Bordeaux Reserve"
+		location = 9737
+		division_template = "Division d'Infanterie" 	# Frontline, best equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	
+	#Garde du Sudest
+	division = {	
+		name = "Toulouse Reserve"
+		location = 6766
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {	#Cursed Reserve
+		name = "Vichy Reserve"
+		location = 3594
+		division_template = "Division d'Infanterie" 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Montpellier Reserve"
+		location = 9898
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		name = "Cavalerie Imperiale de Lyon"
+		location = 6613
+		division_template = "Division de Cavalerie" 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Marseille Reserve"
+		location = 11834
+		division_template = "Division d'Infanterie"		 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		name = "Nice Reserve"
+		location = 9909
+		division_template = "Brigade Coloniale" 	# Garrison unit, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		name = "Turin Reserve"
+		location = 6780
+		division_template = "Division d'Infanterie"	 	# Second line, reserve equipment
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+
+
+
+	##### North African Theatre #####
+	### Tunisia
+	division = {
+		location = 7005
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {	
+		location = 11921
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "Division de Tunise"
+		location = 11969
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "Division de Sousse"
+		location = 9994
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		location = 1046
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	###Algerie
+	division = {	
+		location = 7081
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {	
+		location = 12051
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		location = 12034
+		division_template = "Brigade Coloniale" 	
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {	
+		location = 1145
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {	
+		location = 7132
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+	### Maroc
+	division = {
+		location = 7100
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {	# "Division de Casablanca"	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 95
+		}
+		location = 7069
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	division = {
+		location = 4108
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+
+	##### Eastern Mediterranean Theatre #####
+	### Army: Mandat du Levant ### -- Beirut
+
+	# Troupes de Madagascar
+	division= {	
+		name = "Troupes de Madagascar"	
+		location = 5222
+		division_template = "Brigade Coloniale" 	# Miltia unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.15
+
+	}
+
+
+	##### Far Seas Theatre ##### -- Dakar
+	division= {	
+		name = "Troupes de Sénégalais"
+		location = 4948
+		division_template = "Brigade Coloniale" 	# Miltia unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.3
+	}
+	division= {	
+		name = "Troupes de Nigeria"
+		location = 2050
+		division_template = "Brigade Coloniale" 	# Colonial unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.3
+
+	}
+	division = {	
+		name = "Troupes de Afrique Equatoriale Française"	
+		location = 5139
+		division_template = "Brigade Coloniale" 	# Miltia unit, reserve equipment
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Troupes de Djibouti"	
+		location = 8124
+		division_template = "Brigade Coloniale"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.3
+	}
+
+	##### Indochina Theatre #####
+	### Army Group: Troupes d'Indochine ### -- Saigon
+	division = {	
+		name = "Troupes de la Inde"	
+		location = 10149
+		division_template = "Brigade Coloniale"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
+	### Amerique
+	division = {	
+		name = "Troupes de Guiana"	
+		location = 12885
+		division_template = "Brigade Coloniale"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		start_equipment_factor = 0.3
+	}
+}
+
+### Air Wings
+air_wings = {
+	# Z.d'Op. Aériennes Nord -- Lille
+	29 = { 
+		# Groupement de Chasse 21 
+		# Groupement de Chasse 23
+		fighter_equipment_0 = {
+			owner = "FRA" 
+			amount = 192
+		}
+		# Groupement de Bombardment 6
+		# Groupement de Bombardment 9
+		tac_bomber_equipment_1 =  {
+			owner = "FRA" 
+			amount = 60
+		}
+	}
+
+	# Z.d'Op. Aériennes Est -- Reims
+	18 = {
+		# Groupement de Chasse 22
+		fighter_equipment_0 = {
+			owner = "FRA" 
+			amount = 96
+		}
+	}
+
+	# Z.d'Op. Aériennes du Alps -- Marseille
+	21 = {
+		# Groupement de Chasse d'Alps
+		fighter_equipment_0 = {
+			owner = "FRA" 
+			amount = 96
+		}
+		# Groupement de Bombardment 1
+		# Groupement de Bombardment 6
+		# Groupement de Bombardment 9
+		tac_bomber_equipment_1 =  {
+			owner = "FRA" 
+			amount = 90
+		}
+		# Groupement de Bombardment d'Assault 19
+		tac_bomber_equipment_0 =  {
+			owner = "FRA" 
+			amount = 24
+		}
+	}
+
+	# Z.d'Op. Aériennes Africain -- Tunis
+	458 = {
+		# Groupement de Chasse du Nord-Africain
+		fighter_equipment_0 = {
+			owner = "FRA" 
+			amount = 48
+		}
+		# Groupement de Bombardment du Nord-Africain
+		tac_bomber_equipment_1 =  {
+			owner = "FRA" 
+			amount = 30
+		}
+	}
+
+	# Aeronautique Navale -- Cherbourg
+	15 = {
+		# Flotille F1
+		nav_bomber_equipment_1 = {
+			owner = "FRA" 
+			amount = 24
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+###################

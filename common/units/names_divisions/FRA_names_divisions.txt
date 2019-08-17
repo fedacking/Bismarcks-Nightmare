@@ -1,0 +1,137 @@
+﻿FRA_INF_01 = {
+	name = "Division d'Infanterie"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	
+	fallback_name = "%dème Div. d'Infanterie"
+	
+	ordered = {
+		1 = { "%dère Div. d'Infanterie" }
+	}
+}
+
+FRA_CAV_01 = {
+	name = "Division de Cuirassiers"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { "cavalry" }
+
+	fallback_name = "%dème Division de Cuirassiers"
+	
+	ordered ={
+		1 = { "%dère Division de Cuirassiers" }
+	}
+}
+
+FRA_MOT_01 = {
+	name = "Infanterie Motorisée"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { "motorized" }
+
+	link_numbering_with = { FRA_INF_01 }
+
+	fallback_name = "%dème Div. d'Infanterie Motorisée"
+	
+	ordered = {
+		1 = { "%dère Div. d'Infanterie Motorisée" }
+	}
+}
+
+FRA_MEC_01 = {
+	name = "Light Mechanized Division"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { "light_armor" "mechanized" }
+
+	fallback_name = "%dème Division Légère Mécanique"
+
+	ordered = {
+		1 = { "%dère Division Légère Mécanique" }
+	}
+}
+
+FRA_ARM_01 = {
+	name = "Armored Division"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%dème Division Cuirassée"
+
+	ordered = {
+		1 = { "%dère Division Cuirassée" }
+	}
+}
+
+FRA_ARM_02 = {
+	name = "Division Blindee"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { "medium_armor" "heavy_armor" "modern_armor" }
+	
+	link_numbering_with = { FRA_ARM_01 }
+
+	fallback_name = "%dème Division Blindée"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%dère Division Blindée" }
+	}
+}
+
+FRA_PAR_01 = {
+	name = "Division Parachutiste"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { "paratrooper" }
+
+	fallback_name = "%dème Division Parachutiste"
+
+	ordered = {
+		1 = { "%dère Division Parachutiste" }
+	}
+}
+
+FRA_MAR_01 = {
+	name = "Infanterie de Marine"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { "marine" }
+
+	fallback_name = "%dème Div. d'Infanterie de Marine"
+
+	ordered = {
+		1 = { "%dère Div. d'Infanterie de Marine" }
+	}
+}
+
+FRA_MNT_01 = {
+	name = "Mountain Division"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { "mountaineers" }
+
+	link_numbering_with = { FRA_INF_01 }
+
+	fallback_name = "%dème Division d'Infanterie Alpine"
+
+	ordered = {
+		1 = { "%dère Division d'Infanterie Alpine" }
+	}
+}
+
+FRA_COL_01 = {
+	name = "Colonial Brigade"
+	for_countries = { FRA }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+
+	fallback_name = "%dème Brigade Colonial"
+	
+	ordered = {
+		1 = { "%dère Brigade Colonial" }
+	}
+}
