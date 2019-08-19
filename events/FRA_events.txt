@@ -82,3 +82,68 @@ country_event = { #Deal with the trade unions
 		add_ideas = FRA_idea_minor_concessions
 	}
 }
+
+country_event = { #Deal with the Lying Presses
+	id = fra.22
+	title = fra.22.t
+	desc = fra.22.desc
+	picture = GFX_report_event_american_hunger_march
+	
+	is_triggered_only = yes
+	
+	option = { #Crush Them
+		name = fra.22.a 
+		add_political_power = 50
+	}
+}
+
+## 100 - 102 Revolution trigger
+country_event = { #Resist the army
+	id = fra.100
+	title = fra.100.t
+	desc = fra.100.desc
+	picture = report_event_crowd_in_prague
+	
+	is_triggered_only = yes
+	
+	option = { #This is bad
+		name = fra.100.a
+	}
+}
+
+country_event = { #Protect the presses
+	id = fra.102
+	title = fra.102.t
+	desc = fra.102.desc
+	picture = report_event_crowd_in_prague
+	
+	is_triggered_only = yes
+	
+	option = { #Revolution
+		name = fra.102.a
+		set_politics = {
+			ruling_party = republican_liberal
+			elections_allowed = yes
+		}
+		load_focus_tree = FRA_focus_revolution
+	}
+}
+
+## 110 The new government
+country_event = { #Party like it's 1789
+	id = fra.110
+	title = fra.110.t
+	desc = fra.110.desc
+	picture = report_event_crowd_in_prague
+	
+	is_triggered_only = yes
+	
+	option = { #Revolution
+		name = fra.110.a
+		set_politics = {
+			ruling_party = republican_liberal
+			elections_allowed = yes
+		}
+		load_focus_tree = FRA_focus_revolution
+	}
+}

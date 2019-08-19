@@ -36,6 +36,7 @@
  FRA_idea_depression_3:0 "Slow Recovery"
  FRA_idea_agricultural_subsidies:0 "Agricultural Subsidies"
  FRA_idea_minor_concessions:0 "Minor Concessions"
+ FRA_idea_railway_fund:0 "Railway Fund"
  FRA_idea_cermonial_garde_nationale:0 "Ceremonial Garde National"
  FRA_idea_cermonial_garde_nationale_desc:0 "Since the Coup de Etat in 1852, the National Guard continue to exist and exempts you from general conscription, but the Napoleonic Emperors have kept their powers and roles to the minimum."
  FRA_idea_loyal_garde_nationale:0 "Loyal Garde National"
@@ -56,6 +57,9 @@
  ##Tree Tooltips
  FRA_tooltip_swap_henriot_flandin:0 "Replace §YPhilippe Henriot§! with §YPierre-Étienne Flandin§!\n"
  FRA_tooltip_swap_henriot_taittinger:0 "Replace §YPhilippe Henriot§! with §YPierre Taittinger§!\n"
+ FRA_tooltip_ease_tensions:0 "§GThis will soothe Paris§!\n"
+ FRA_tooltip_revolution_warning:0 "§RThis may anger Paris§!\n"
+ FRA_tooltip_last_warning:0 "§RThe Imperials will assert dominance over Paris§!\n"
  
  ##Events
  #Stavisky case

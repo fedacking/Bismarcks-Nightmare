@@ -1,5 +1,5 @@
 focus_tree = {
-	id = france_starter_ft
+	id = FRA_focus_starter	
 	
 	country = {
 		factor = 0
@@ -279,7 +279,7 @@ focus_tree = {
 		relative_position_id = FRA_back_down
 		x = 3
 		y = 1
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = no
 
@@ -298,7 +298,7 @@ focus_tree = {
 		relative_position_id = FRA_the_bankers_plan
 		x = -2
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -323,7 +323,7 @@ focus_tree = {
 		relative_position_id = FRA_the_bankers_plan
 		x = 0
 		y = 1
-		cost = 10
+		cost = 4
 
 		available_if_capitulated = no
 
@@ -343,7 +343,7 @@ focus_tree = {
 		relative_position_id = FRA_the_bankers_plan
 		x = -1
 		y = 2
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = no
 
@@ -359,7 +359,7 @@ focus_tree = {
 		relative_position_id = FRA_ensure_free_trade
 		x = -1
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -379,7 +379,7 @@ focus_tree = {
 		relative_position_id = FRA_the_bankers_plan
 		x = 2
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -395,7 +395,7 @@ focus_tree = {
 		relative_position_id = FRA_farmers_plan
 		x = 0
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -412,7 +412,7 @@ focus_tree = {
 		relative_position_id = FRA_the_national_bread_and_wine
 		x = -2
 		y = 1
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = no
 
@@ -432,11 +432,12 @@ focus_tree = {
 		relative_position_id = FRA_the_national_bread_and_wine
 		x = 2
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_stability = 0.05
 		}
 	}
 	
@@ -488,7 +489,7 @@ focus_tree = {
 		relative_position_id = FRA_all_the_emperors_men
 		x = -3
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -507,7 +508,7 @@ focus_tree = {
 		relative_position_id = FRA_the_imperial_economy
 		x = 0
 		y = 1
-		cost = 10
+		cost = 4
 
 		available_if_capitulated = no
 
@@ -527,11 +528,12 @@ focus_tree = {
 		relative_position_id = FRA_the_imperial_economy
 		x = 2
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = FRA_idea_railway_fund
 		}
 	}
 	
@@ -543,11 +545,39 @@ focus_tree = {
 		relative_position_id = FRA_strenghten_the_national_bank
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			35 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			817 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			42 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			158 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -558,11 +588,12 @@ focus_tree = {
 		relative_position_id = FRA_invest_in_our_conquests
 		x = 1
 		y = 1
-		cost = 10
+		cost = 4
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = FRA_tooltip_ease_tensions
 			swap_ideas = {
 				remove_idea = FRA_idea_depression_2
 				add_idea = FRA_idea_depression_3
@@ -597,6 +628,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = FRA_tooltip_revolution_warning
+			if = {
+				limit = {
+					NOT = {has_completed_focus  = FRA_unemployment_funds}
+				}
+				country_event = fra.100
+			}
 		}
 	}
 	
@@ -672,6 +710,16 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = FRA_tooltip_revolution_warning
+			if = {
+				limit = {
+					has_completed_focus  = FRA_unemployment_funds
+				}
+				country_event = fra.22
+				else = {
+					country_event = fra.102
+				}
+			}
 		}
 	}
 	
@@ -689,6 +737,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = FRA_tooltip_last_warning
 		}
 	}
 	

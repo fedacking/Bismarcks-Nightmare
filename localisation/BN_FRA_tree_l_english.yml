@@ -8,6 +8,7 @@
  FRA_party_discontent_desc:0 "The party finds itself divided over the issue of the Henriot affair. The liberals want him to renounce and Stavisky to answer questions in the Legislative Assembly. The conservatives want this whole event to be put to rest."
  FRA_what_do_we_do:0 "What do we do?"
  FRA_what_do_we_do_desc:0 "The body of Stavisky has been found dead in his appartment. With the crisis approaching a boiling point, it's time for the emperor to take action."
+ 
  #Lib Pol Tree
  FRA_back_down:0 "Back Down"
  FRA_back_down_desc:0 "The crisis has shown that the Emperor cannot trust only yes men. If we don't let people voice their concerns in the ballot box, they will let us hear it with rocks and chants in Paris."
@@ -27,6 +28,7 @@
  FRA_trust_the_guard_desc:0 "The Garde Nationale is the bulwark of respectable population in Paris. For now, they stay in the sidelines watching as their city is ruined by ruffians and populists. It's time to let them restore order, as they were meant to."
  FRA_the_great_compromise:0 "The Great Compromise"
  FRA_the_great_compromise_desc:0 "The Govenrment has worked hard and fairly to reduce the power of the emperor, and get everyone on board of it's political program. The feel confident enough to reform the cabinet, and put the government ins aolid path forwards."
+ 
  #Lib Eco Tree
  FRA_the_bankers_plan:0 "The Banker's Plan"
  FRA_the_bankers_plan_desc:0 "The government needs to resolve the economic crisis, source of the unrest in the streets and disapproval of the government. The chief executives of the banks working in concert with economists have worked on a plan to solve the crisis."
@@ -40,11 +42,48 @@
  FRA_deal_with_trade_unions_desc:0 "The trade unions have been a torn on our side since the beginning of the century. With the economic crisis they are growing in membership, and they are starting to better oroganize and mobilize. It's time to sit with them and hear their demands."
  FRA_cultural_exports:0 "Cultural Exports"
  FRA_cultural_exports_desc:0 "With our cultural industry firing on all cylinders and trade barriers eliminated, it's time to show the world our culture. Mountains of cheese, bread an wine are going to be exported, with just a little more investment from the government."
+
  #Shared Eco Tree
  FRA_farmers_plan:0 "Agricultural Subsidies"
  FRA_farmers_plan_desc:0 "One of the most important blocks in the French population is the farmers. To ensure the loyalty of the rural population, a package of agricultural subsidies has been approved by the government."
  FRA_the_national_bread_and_wine:0 "The National Bread and Wine"
  FRA_the_national_bread_and_wine_desc:0 "The French culture is based on it's great food output. We need to ensure that the industry is allowed to operate freely and only provide support from the government, without intervention."
+
+ #ABS Eco Tree
+ FRA_the_imperial_economy:0 "The Imperial Economy"
+ FRA_the_imperial_economy_desc:0 "The matter of the economy is of utmost importance for our Emperor and our people. This crisis must be addressed from the top up, least it blow the foundations of our government. With heavy national investment and work, we will prevail."
+ 
  #Abs Pol Tree
  FRA_all_the_emperors_men:0 "All The Emperor's Men"
- FRA_all_the_emperors_men_desc:0 "Maybe Henriot was corrupt and inept, but there are still men loyal to the Emperor. We must trust the government only to the loyal followers to the Emperor. Even if people in the stree clamor for violence, Napoleon still has the trust of the Silent Majority."
+ FRA_all_the_emperors_men_desc:0 "Maybe Henriot was corrupt and inept, but there are still men loyal to the Emperor. We must trust the government only to the loyal followers to the Emperor. Even if people in the street clamor for violence, Napoleon still has the trust of the Silent Majority."
+ FRA_strenghten_the_national_bank:0 "Strengthen the National Bank"
+ FRA_strenghten_the_national_bank_desc:0 "To be able to deal with the crisis, we need a strong centralized institution capable of providing funding for our projects and organize our effort. The National Banks board has been stuffed with imperialist, and authorized to print money and devaluate the currency to ensure our prosperity."
+ FRA_the_railway_fund:0 "The Railway Fund"
+ FRA_the_railway_fund_desc:0 "One of the greatest contributions to our nation from Napoleon III was the construction of many railways, that connected the nation and provided the means to develop our industry. For years, the infrastructure has languished, but it's time to rebuild it!"
+ FRA_invest_in_our_conquests:0 "Invest in Our Conquests"
+ FRA_invest_in_our_conquests_desc:0 "During the course of the Great War, we relieved many soon-to-be Frenchmen from their German and Italian oppressors. Despite 20 years in the Empire they have yet to embrace their nature as members of France. Construction railways will make them feel closer to Paris, and closer to France."
+ FRA_cultural_events:0 "Cultural Events"
+ FRA_cultural_events_desc:0 "The French Nation is the greatest in the world, but our citizens are to poor to see it's cultural output. We should fund cultural events to make them feel as part of our great nation, providing them with a sense of belonging."
+ FRA_unemployment_funds:0 "Unemployment Funds"
+ FRA_unemployment_funds_desc:0 "The crisis has left many people out into the streets, jobless. While they search for work they suffer, from hunger and destitution. These people in our cities have much time to curse the government, and talk with like minded individuals. We should fund programs to relieve them, and restore faith in the Emperor."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -51,11 +51,20 @@ ideas = {
 				monthly_population = 0.1
 			}
 		}
+		
 		#eco - liberal
 		FRA_idea_minor_concessions = {
 			picture = FRA_factory_strikes
 			modifier = {
 				industrial_capacity_factory = 0.1
+			}
+		}
+		
+		#eco - Imperial
+		FRA_idea_railway_fund = {
+			picture = generic_foreign_capital
+			modifier = {
+				production_speed_infrastructure_factor = 0.2
 			}
 		}
 		

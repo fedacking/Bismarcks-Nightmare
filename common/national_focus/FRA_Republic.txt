@@ -1,0 +1,33 @@
+focus_tree = {
+	id = FRA_focus_revolution	
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = FRA
+		}
+	}
+	
+    continuous_focus_position = { x = 3000 y = 10 }
+	default = yes
+	reset_on_civilwar = no
+
+	focus = {
+		id = FRA_revolution
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 11
+		
+		y = 0
+		cost = 2
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = fra.110
+			add_political_power  = -50
+		}
+	}
+	
+}
