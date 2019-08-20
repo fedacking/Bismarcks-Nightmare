@@ -119,9 +119,19 @@ ideas = {
 			}
 		}
 		
+		#Lib Reform
 		FRA_idea_emperor_and_radio = {
 			picture = propaganda
 			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+		
+		#Imperial reform
+		FRA_idea_empire_secured = {
+			picture = AST_abandon_the_westminster_system
+			modifier = {
+				stability_factor = 0.1
 				political_power_gain = 0.1
 			}
 		}

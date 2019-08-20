@@ -23,7 +23,7 @@ add_ideas = {
 
 set_research_slots = 4
 set_stability = 0.35
-set_war_support = 0.15
+set_war_support = 0.25
 
 # Starting tech
 set_technology = {

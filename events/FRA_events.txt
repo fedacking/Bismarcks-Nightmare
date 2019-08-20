@@ -83,11 +83,42 @@ country_event = { #Deal with the trade unions
 	}
 }
 
+country_event = { #Deal with the Garde Nationale
+	id = fra.20
+	title = fra.20.t
+	desc = fra.20.desc
+	picture = GFX_report_event_ANZAC_day
+	
+	is_triggered_only = yes
+	
+	option = { #Disarm them
+		name = fra.20.a 
+	}
+	option = { #Let Them go
+		name = fra.20.b
+		add_political_power = 50
+		set_country_flag = FRA_flag_garde_still_active
+	}
+}
+
+country_event = { #Deal with the liberals in government
+	id = fra.21
+	title = fra.21.t
+	desc = fra.21.desc
+	picture = GFX_report_event_hungary_parliament
+	
+	is_triggered_only = yes
+	
+	option = { #Crush Them
+		name = fra.21.a 
+	}
+}
+
 country_event = { #Deal with the Lying Presses
 	id = fra.22
 	title = fra.22.t
 	desc = fra.22.desc
-	picture = GFX_report_event_american_hunger_march
+	picture = GFX_report_event_soviet_purge_trial
 	
 	is_triggered_only = yes
 	
@@ -102,12 +133,27 @@ country_event = { #Resist the army
 	id = fra.100
 	title = fra.100.t
 	desc = fra.100.desc
-	picture = report_event_crowd_in_prague
+	picture = GFX_report_event_ger_civil_war
 	
 	is_triggered_only = yes
 	
 	option = { #This is bad
 		name = fra.100.a
+		country_event = fra.105
+	}
+}
+
+country_event = { #Uprising of the current date
+	id = fra.101
+	title = fra.101.t
+	desc = fra.101.desc
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { #This is bad
+		name = fra.101.a
+		country_event = fra.105
 	}
 }
 
@@ -115,17 +161,27 @@ country_event = { #Protect the presses
 	id = fra.102
 	title = fra.102.t
 	desc = fra.102.desc
-	picture = report_event_crowd_in_prague
+	picture = GFX_report_event_generic_riot
 	
 	is_triggered_only = yes
 	
 	option = { #Revolution
 		name = fra.102.a
-		set_politics = {
-			ruling_party = republican_liberal
-			elections_allowed = yes
-		}
-		load_focus_tree = FRA_focus_revolution
+		country_event = fra.105
+	}
+}
+
+country_event = { #Fighting in the Streets
+	id = fra.105
+	title = fra.105.t
+	desc = fra.105.desc
+	picture = GFX_report_event_fight_in_street
+	
+	is_triggered_only = yes
+	
+	option = { #Revolution
+		name = fra.105.a
+		country_event = fra.110
 	}
 }
 
@@ -134,7 +190,7 @@ country_event = { #Party like it's 1789
 	id = fra.110
 	title = fra.110.t
 	desc = fra.110.desc
-	picture = report_event_crowd_in_prague
+	picture = GFX_report_event_soviet_purge_speech
 	
 	is_triggered_only = yes
 	
@@ -144,6 +200,6 @@ country_event = { #Party like it's 1789
 			ruling_party = republican_liberal
 			elections_allowed = yes
 		}
-		load_focus_tree = FRA_focus_revolution
+		load_focus_tree = FRA_focus_tree_revolution
 	}
 }

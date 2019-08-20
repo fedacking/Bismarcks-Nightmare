@@ -11,10 +11,23 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_idea_state_press"
+		texturefile = "gfx/interface/ideas/generic/idea_state_press.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_propaganda_press"
+		texturefile = "gfx/interface/ideas/generic/idea_propaganda_press.dds"
+	}
+	
+	
+	#USA
+	SpriteType = {
 		name = "GFX_idea_nativism"
 		texturefile = "gfx/interface/ideas/idea_nativism.dds"
 	}
 	
+	#FRA
 	SpriteType = {
 		name = "GFX_idea_army_chained"
 		texturefile = "gfx/interface/ideas/idea_army_chained.dds"

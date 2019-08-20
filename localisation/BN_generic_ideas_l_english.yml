@@ -5,5 +5,6 @@
  state_press:0 "State Press"
  censored_press:0 "Censored Press"
  free_speech:0 "Free Press"
+ EFFECT_CHANGE_LAW_press_laws:0 "Change Press Law to '$NAME|Y$' which grants ($DESC$)."
  
  idea_no_content:0 "Looking Inward"
