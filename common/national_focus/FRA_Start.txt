@@ -624,7 +624,7 @@ focus_tree = {
 		relative_position_id = FRA_roll_back_the_reforms
 		x = -2
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -649,7 +649,7 @@ focus_tree = {
 		relative_position_id = FRA_garrison_the_army_in_paris
 		x = 0
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -666,7 +666,7 @@ focus_tree = {
 		relative_position_id = FRA_roll_back_the_reforms
 		x = 0
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -682,7 +682,7 @@ focus_tree = {
 		relative_position_id = FRA_government_by_decree
 		x = 0
 		y = 1
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = no
 
@@ -699,7 +699,7 @@ focus_tree = {
 		relative_position_id = FRA_roll_back_the_reforms
 		x = 2
 		y = 1
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = no
 
@@ -715,7 +715,7 @@ focus_tree = {
 		relative_position_id = FRA_enforce_censorship_laws
 		x = 0
 		y = 1
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = no
 
@@ -743,7 +743,7 @@ focus_tree = {
 		relative_position_id = FRA_eliminate_voter_fraud
 		x = 0
 		y = 1
-		cost = 10
+		cost = 8
 
 		available_if_capitulated = no
 
