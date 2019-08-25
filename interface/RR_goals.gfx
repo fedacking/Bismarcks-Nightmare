@@ -64,7 +64,7 @@ spriteTypes = {
 		name = "GFX_goal_briefcase"
 		texturefile = "gfx/interface/goals/goal_briefcase.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_famine"
 		texturefile = "gfx/interface/goals/goal_famine.dds"
@@ -89,7 +89,7 @@ spriteTypes = {
 		name = "GFX_goal_generic_elections"
 		texturefile = "gfx/interface/goals/goal_generic_elections.tga"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_chain_building"
 		texturefile = "gfx/interface/goals/goal_chain_building.tga"
@@ -99,7 +99,7 @@ spriteTypes = {
 		name = "GFX_goal_FRA_flags_fist"
 		texturefile = "gfx/interface/goals/goal_FRA_flags_fist.tga"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_FRA_soldiers_fire"
 		texturefile = "gfx/interface/goals/goal_FRA_soldiers_fire.tga"
@@ -148,5 +148,20 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_chain_news"
 		texturefile = "gfx/interface/goals/goal_chain_news.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_arrest_henriot"
+		texturefile = "gfx/interface/goals/goal_FRA_arrest_henriot.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_support_democracy"
+		texturefile = "gfx/interface/goals/goal_FRA_support_democracy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_price_controls"
+		texturefile = "gfx/interface/goals/goal_price_controls.tga"
 	}
 }
