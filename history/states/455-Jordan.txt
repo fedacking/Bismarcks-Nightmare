@@ -4,7 +4,7 @@ state = {
 	manpower = 257000	
 	state_category = pastoral
 	history = {
-		owner = EGY
+		owner = ARA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -12,7 +12,7 @@ state = {
 		victory_points = {
 			7151 1 
 		}
-		add_core_of = EGY
+		add_core_of = ARA
 	}
 	provinces = {
 		4017 4115 4574 4591 7001 7151 7170 10089 11976 
