@@ -71,6 +71,17 @@ bookmarks = {
 			}
 		}
 		
+		"ROM"={
+			history = "ROM_GATHERING_STORM_DESC"
+			ideology = republican_liberal
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+				ROM_woes_of_the_coalition
+			}
+		}
+		
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

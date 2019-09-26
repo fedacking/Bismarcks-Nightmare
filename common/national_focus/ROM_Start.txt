@@ -11,12 +11,12 @@ focus_tree = {
 	}
 	
     continuous_focus_position = { x = 3000 y = 150 }
-	default = yes
+	default = no
 	reset_on_civilwar = no
 
 	focus = {
 		id = ROM_woes_of_the_coalition
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_concessions
 		x = 7
 		y = 0
 		cost = 10
@@ -157,13 +157,14 @@ focus_tree = {
 		}
 	}
 
+## Succ tree
 	focus = {
 		id = ROM_the_fascists_leave
 		prerequisite = { focus = ROM_how_do_we_pay_for_it }
 		prerequisite = { focus = ROM_clean_the_streets }
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = ROM_how_do_we_pay_for_it
-		x = -2
+		x = -3
 		y = 1
 		cost = 10
 		mutually_exclusive = { focus = ROM_the_liberals_stand_alone }
@@ -175,16 +176,16 @@ focus_tree = {
 		}
 	}
 
+# Coup Subtree
 	focus = {
-		id = ROM_socialist_coup
+		id = ROM_cast_the_die
+		icon = GFX_focus_jap_cast_the_die
 		prerequisite = { focus = ROM_the_fascists_leave }
-		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = ROM_the_fascists_leave
-		x = 0
-		y = 2
+		x = -1
+		y = 1
 		cost = 10
-		mutually_exclusive = { focus = ROM_snap_election }
-		mutually_exclusive = { focus = ROM_fascist_coup }
+		mutually_exclusive = { focus = ROM_trust_the_republic }
 
 		available_if_capitulated = no
 
@@ -192,6 +193,88 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = ROM_convince_the_commies
+		prerequisite = { focus = ROM_cast_the_die }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_cast_the_die
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_unlock_the_armories
+		prerequisite = { focus = ROM_cast_the_die }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_cast_the_die
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_socialist_coup
+		prerequisite = { focus = ROM_convince_the_commies }
+		prerequisite = { focus = ROM_unlock_the_armories }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_cast_the_die
+		x = 0
+		y = 2
+		cost = 10
+		mutually_exclusive = { focus = ROM_consul_election }
+		mutually_exclusive = { focus = ROM_fascist_coup }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+# Trust the republic Subtree
+
+	focus = {
+		id = ROM_trust_the_republic
+		prerequisite = { focus = ROM_the_fascists_leave }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_the_fascists_leave
+		x = 1
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_cast_the_die }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_tone_down_the_rethoric
+		prerequisite = { focus = ROM_trust_the_republic }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_trust_the_republic
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+## Lib tree
 	focus = {
 		id = ROM_the_liberals_stand_alone
 		prerequisite = { focus = ROM_how_do_we_pay_for_it }
@@ -211,16 +294,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROM_snap_election
+		id = ROM_consul_election
 		prerequisite = { 
-			focus = ROM_the_fascists_leave 
+			focus = ROM_tone_down_the_rethoric 
 			focus = ROM_the_liberals_stand_alone 
-			focus = ROM_the_socialists_leave 
+			focus = ROM_pro_government_military_parades 
 		}
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = ROM_the_liberals_stand_alone
 		x = 0
-		y = 2
+		y = 3
 		cost = 10
 		mutually_exclusive = { focus = ROM_socialist_coup }
 		mutually_exclusive = { focus = ROM_fascist_coup }
@@ -228,16 +311,18 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			hold_election = ROOT
 		}
 	}
 
+## Fash Tree
 	focus = {
 		id = ROM_the_socialists_leave
 		prerequisite = { focus = ROM_how_do_we_pay_for_it }
 		prerequisite = { focus = ROM_clean_the_streets }
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = ROM_how_do_we_pay_for_it
-		x = 6
+		x = 7
 		y = 1
 		cost = 10
 		mutually_exclusive = { focus = ROM_the_fascists_leave }
@@ -248,17 +333,99 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+	
+#Coup the libs /the_musso
 
 	focus = {
-		id = ROM_fascist_coup
+		id = ROM_save_the_nation
 		prerequisite = { focus = ROM_the_socialists_leave }
 		icon = GFX_goal_generic_allies_build_infantry
 		relative_position_id = ROM_the_socialists_leave
+		x = 1
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_trust_the_romans }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_the_group_of_united_officers
+		prerequisite = { focus = ROM_save_the_nation }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_save_the_nation
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_coordinate_the_paramilitaries
+		prerequisite = { focus = ROM_save_the_nation }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_save_the_nation
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_fascist_coup
+		prerequisite = { focus = ROM_the_group_of_united_officers }
+		prerequisite = { focus = ROM_coordinate_the_paramilitaries }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_save_the_nation
 		x = 0
 		y = 2
 		cost = 10
 		mutually_exclusive = { focus = ROM_socialist_coup }
-		mutually_exclusive = { focus = ROM_snap_election }
+		mutually_exclusive = { focus = ROM_consul_election }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+#Trust the nation Subtree
+
+	focus = {
+		id = ROM_trust_the_romans
+		prerequisite = { focus = ROM_the_socialists_leave }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_the_socialists_leave
+		x = -1
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_save_the_nation }
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_pro_government_military_parades
+		prerequisite = { focus = ROM_trust_the_romans }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_trust_the_romans
+		x = -1
+		y = 1
+		cost = 10
 
 		available_if_capitulated = no
 
