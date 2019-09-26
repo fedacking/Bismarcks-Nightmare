@@ -1,0 +1,12 @@
+FRA_libral_tree_effect = {
+	FRA = {
+		if = {
+			limit = {
+				has_completed_focus = FRA_the_great_compromise
+				has_completed_focus = FRA_deal_with_trade_unions
+				has_completed_focus = FRA_cultural_exports
+			} 
+			load_focus_tree = FRA_focus_tree_liberal_bonapartist
+		}
+	}
+}

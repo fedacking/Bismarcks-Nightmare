@@ -13,8 +13,11 @@ focus_tree = {
     continuous_focus_position = { x = 3000 y = 10 }
 	default = no
 	reset_on_civilwar = no
+	
+	shared_focus = FRA_affaire_henriot
+}
 
-	focus = {
+	shared_focus = {
 		id = FRA_affaire_henriot
 		icon = GFX_goal_generic_intelligence_exchange
 		x = 11
@@ -30,7 +33,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = FRA_j_accuse
 		prerequisite = { focus = FRA_affaire_henriot }
 		icon = GFX_goal_freedom_of_the_press
@@ -47,7 +50,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_party_discontent
 		prerequisite = { focus = FRA_affaire_henriot }
 		icon = GFX_goal_shadow_government
@@ -63,7 +66,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_what_do_we_do
 		prerequisite = { focus = FRA_j_accuse }
 		prerequisite = { focus = FRA_party_discontent }
@@ -81,7 +84,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+	shared_focus = {
 		id = FRA_back_down
 		prerequisite = { focus = FRA_what_do_we_do }
 		icon = GFX_goal_generic_neutrality_focus
@@ -124,7 +127,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_stability_at_all_cost
 		prerequisite = { focus = FRA_back_down }
 		icon = GFX_focus_hol_the_foundations_of_defense
@@ -143,7 +146,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_convince_the_monarchists
 		prerequisite = { focus = FRA_stability_at_all_cost }
 		icon = GFX_focus_generic_diplomatic_treaty
@@ -160,7 +163,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_the_specter_of_revolution
 		prerequisite = { focus = FRA_convince_the_monarchists }
 		icon = GFX_goal_continuous_def_against_influence
@@ -177,7 +180,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_convince_the_emperor
 		prerequisite = { focus = FRA_stability_at_all_cost }
 		icon = GFX_goal_generic_dangerous_deal
@@ -197,7 +200,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_the_emperor_and_the_radio
 		prerequisite = { focus = FRA_convince_the_emperor }
 		icon = GFX_goal_generic_propaganda
@@ -213,7 +216,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_convince_the_party
 		prerequisite = { focus = FRA_stability_at_all_cost }
 		icon = GFX_goal_generic_improve_relations
@@ -230,7 +233,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_trust_the_guard
 		prerequisite = { focus = FRA_convince_the_party }
 		icon = GFX_goal_FRA_soldier_handshake
@@ -250,7 +253,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_the_great_compromise
 		prerequisite = { focus = FRA_the_specter_of_revolution }
 		prerequisite = { focus = FRA_the_emperor_and_the_radio }
@@ -267,12 +270,13 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = FRA_idea_napoleon_iv_reforms_2
 				add_idea = FRA_idea_napoleon_iv_reforms_3
-			}
+			}	
+			FRA_libral_tree_effect = yes
 		}
 	}
 	############### Plan Economico
 	
-	focus = {
+	shared_focus = {
 		id = FRA_the_bankers_plan
 		prerequisite = { focus = FRA_back_down }
 		icon = GFX_goal_generic_consumer_goods
@@ -291,7 +295,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_secure_french_steel
 		prerequisite = { focus = FRA_the_bankers_plan }
 		icon = GFX_focus_generic_steel
@@ -316,7 +320,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_securitize_bank_deposits
 		prerequisite = { focus = FRA_the_bankers_plan }
 		icon = GFX_goal_bankruptcy
@@ -335,7 +339,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_ensure_free_trade
 		prerequisite = { focus = FRA_secure_french_steel }
 		prerequisite = { focus = FRA_securitize_bank_deposits }
@@ -352,7 +356,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_deal_with_trade_unions
 		prerequisite = { focus = FRA_ensure_free_trade }
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
@@ -365,11 +369,12 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = fra.15
+			FRA_libral_tree_effect = yes
 		}
 	}
 	
 	#Eco shared
-	focus = {
+	shared_focus = {
 		id = FRA_farmers_plan
 		prerequisite = { 
 			focus = FRA_the_bankers_plan 
@@ -388,7 +393,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_the_national_bread_and_wine
 		prerequisite = { focus = FRA_farmers_plan }
 		icon = GFX_goal_wine
@@ -404,7 +409,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_cultural_exports
 		prerequisite = { focus = FRA_the_national_bread_and_wine }
 		prerequisite = { focus = FRA_ensure_free_trade }
@@ -421,10 +426,11 @@ focus_tree = {
 				remove_idea = FRA_idea_depression_2
 				add_idea = FRA_idea_depression_3
 			}
+			FRA_libral_tree_effect = yes
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_cultural_events
 		prerequisite = { focus = FRA_the_national_bread_and_wine }
 		prerequisite = { focus = FRA_invest_in_our_conquests }
@@ -443,7 +449,7 @@ focus_tree = {
 	
 	#Absolutist
 	
-	focus = {
+	shared_focus = {
 		id = FRA_all_the_emperors_men
 		prerequisite = { focus = FRA_what_do_we_do }
 		icon = GFX_goal_FRA_flags_fist
@@ -482,7 +488,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_the_imperial_economy
 		prerequisite = { focus = FRA_all_the_emperors_men }
 		icon = GFX_goal_FRA_economy_top
@@ -501,7 +507,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_strenghten_the_national_bank
 		prerequisite = { focus = FRA_the_imperial_economy }
 		icon = GFX_goal_money_treaty
@@ -521,7 +527,7 @@ focus_tree = {
 	}
 	
 	
-	focus = {
+	shared_focus = {
 		id = FRA_the_railway_fund
 		prerequisite = { focus = FRA_the_imperial_economy }
 		icon = GFX_goal_continuous_non_factory_construct
@@ -537,7 +543,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_invest_in_our_conquests
 		prerequisite = { focus = FRA_strenghten_the_national_bank }
 		prerequisite = { focus = FRA_the_railway_fund }
@@ -581,7 +587,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_unemployment_funds
 		prerequisite = { focus = FRA_invest_in_our_conquests }
 		icon = GFX_goal_bag_of_money
@@ -601,7 +607,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_roll_back_the_reforms
 		prerequisite = { focus = FRA_all_the_emperors_men }
 		icon = GFX_focus_renounce_the_treaty_of_trianon
@@ -617,7 +623,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_garrison_the_army_in_paris
 		prerequisite = { focus = FRA_roll_back_the_reforms }
 		icon = GFX_goal_FRA_soldiers_fire
@@ -642,7 +648,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_eliminate_the_garde_nationale
 		prerequisite = { focus = FRA_garrison_the_army_in_paris }
 		icon = GFX_focus_eng_move_to_secure_the_dominions
@@ -659,7 +665,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_government_by_decree
 		prerequisite = { focus = FRA_roll_back_the_reforms }
 		icon = GFX_goal_chain_building
@@ -675,7 +681,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_eliminate_voter_fraud
 		prerequisite = { focus = FRA_government_by_decree }
 		icon = GFX_focus_usa_voter_registration_act
@@ -692,7 +698,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_enforce_censorship_laws
 		prerequisite = { focus = FRA_roll_back_the_reforms }
 		icon = GFX_goal_chain_news
@@ -708,7 +714,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_eliminate_fake_news
 		prerequisite = { focus = FRA_enforce_censorship_laws }
 		icon = GFX_goal_continuous_suppression
@@ -734,7 +740,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = FRA_the_emperor_secured
 		prerequisite = { focus = FRA_eliminate_the_garde_nationale }
 		prerequisite = { focus = FRA_eliminate_voter_fraud }
@@ -760,5 +766,3 @@ focus_tree = {
 			}
 		}
 	}
-	
-}
