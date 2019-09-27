@@ -294,10 +294,56 @@ focus_tree = {
 	}
 
 	focus = {
+		id = ROM_rearrenge_the_deck_chairs
+		prerequisite = { focus = ROM_the_liberals_stand_alone }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_the_liberals_stand_alone
+		x = -1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_the_band_keeps_playing
+		prerequisite = { focus = ROM_the_liberals_stand_alone }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_the_liberals_stand_alone
+		x = 1
+		y = 1
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_the_unsinkable_government
+		prerequisite = { focus = ROM_rearrenge_the_deck_chairs }
+		prerequisite = { focus = ROM_the_band_keeps_playing }
+		icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = ROM_the_liberals_stand_alone
+		x = 0
+		y = 2
+		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
 		id = ROM_consul_election
 		prerequisite = { 
 			focus = ROM_tone_down_the_rethoric 
-			focus = ROM_the_liberals_stand_alone 
+			focus = ROM_the_unsinkable_government 
 			focus = ROM_pro_government_military_parades 
 		}
 		icon = GFX_goal_generic_allies_build_infantry
@@ -386,7 +432,7 @@ focus_tree = {
 		id = ROM_fascist_coup
 		prerequisite = { focus = ROM_the_group_of_united_officers }
 		prerequisite = { focus = ROM_coordinate_the_paramilitaries }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_ger_assassinate_mussolini
 		relative_position_id = ROM_save_the_nation
 		x = 0
 		y = 2

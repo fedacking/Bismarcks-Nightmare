@@ -1,0 +1,55 @@
+﻿##### Britain NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ROM_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "RRM "							
+	fallback_name = "Destroyer %s"					
+
+	unique = {
+		"Emilia-Romagna" "Liguria" "Piemonte" "Valle d'Aosta" "Lombardia" "Veneto" "Trentino" "Friuli" "Corsica" "Hispania" "Macedonia" "Africa" "Asia" "Gallia" "Creta" "Cyrenae" "Pontus" "Syria" "Cilicia" "Cyprus" "Africa Nova" "Aegyptus"
+		"Achaia" "Lusitania" "Illiyricum" "Dalmatia" "Pannonia" "Aquitania" "Belgica" "Galatia" "Raetia" "Germania" "Moesia" "Judae" "Cappadocia" "Mauretania" "Noricum" "Britannia" "Lycia" "Thracia" "Alpes" "Commagene" "Lycia" "Arabia"
+		"Dacia" "Epirus" "Armenia" "Assyria" "Numidia" "Osrhoene"
+	}
+}
+
+### BATTLESHIP NAMES ###
+ROM_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "RRM "							
+	fallback_name = "Battleship %s"		
+
+	unique = {
+        "Manius Valerius Maximus" "Lucius Quinctius Cincinnatus" "Publius Cornelius Rufinus" "Lucius Papirius Cursor" "Marcus Valerius Corvus" "Marcus Minucius Rufus" "Marcus Antonius" "Marcus Tullius Cicero" "Scipio Nasica Serapio"
+		"Marcus Porcius Cato Uticensis" "Marcus Porcius Cato" "Gnaeus Pompey Magnus" "Titus Annius Milo Papianus" "Marcus Junius Brutus" "Gaius Sempronius Gracchus" "Lucius Cornelius Cinna" "Publius Clodius Pulcher"
+	}
+}
+
+### SUBMARINES ###
+ROM_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "RRM "							
+	fallback_name = "Submarine %s"
+	
+	unique = {
+		"Cosenza" "Crotons" "Catanzaro" "Messina" "Catania" "Siracusa" "Ragusa" "Agrigento" "Trapani" "Palermo" "Enna" "Salerno" "Napoli" "Avellino" "Benevento" "Caserta" "Isernia" "Campobasso" "L'Aquila" "Chieti" "Teramo" "Pescara" "Latina"
+		"Frosinone" "Viterbo" "Rieti" "Terni" "Grosseto" "Livorno" "Pisa" "Lucca" "Pistoia" "Firenze" "Arezzo" "Siena" "Perugia" "Terni" "Ancona" "Fermo" "Macerata" "Ravena" "Ferrara" "Ravena" "Bologna" "Parma" "Piacenza" "Moderna"
+	}
+}
