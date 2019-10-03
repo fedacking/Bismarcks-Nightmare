@@ -1,12 +1,11 @@
-﻿##### Britain NAME LISTS #####
-### REGULAR DESTROYER NAMES###
-ROM_DD_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_DESTROYERS
+﻿##### Roman Republic NAME LISTS #####
 
+ROM_provinces = {
+	name = "Roman Provinces"
 	for_countries = { ROM }
-
+	
 	type = ship
-	ship_types = { ship_hull_light destroyer }			
+	ship_types = { ship_hull_cruiser ship_hull_light destroyer }			
 
 	prefix = "RRM "							
 	fallback_name = "Destroyer %s"					
@@ -18,14 +17,54 @@ ROM_DD_HISTORICAL = {
 	}
 }
 
-### BATTLESHIP NAMES ###
-ROM_BB_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BB
-
+ROM_CITIES = {
+	name = "Roman Cities"
 	for_countries = { ROM }
 
 	type = ship
-	ship_types = { ship_hull_heavy battleship }
+	ship_types = { ship_hull_cruiser }
+	
+	prefix = "RRM "							
+	fallback_name = "Battleship %s"		
+
+	unique = {
+        "Ariminu" "Belu" "Placenti" "Tarrac" "Italic" "Mo" "Salernu" "Bononi" "Forum Livi" "Regium Lepid" "Aquilei" "Cordub" "Ascriviu" "Valentia Edetanoru" "Scalabi" "Villa Euracini" "Colonia Narbo Martiu" "Mass" "Pistori" "Segovi" "Gerund" "Naissu"
+		"Brigantiu" "Florenti" "Vesonti" "Lutetia Parisioru" "Atuatuca Tungroru" "Iulia Romula Hispali" "Augusta Rauric" "Lugdunu" "Sisci" "Marsoni" "Augusta Treveroru" "Castra Legioni" "Augusta Taurinoru" "Augusta Praetoria Salassoru" "Emerita August"
+		"Lucus August" "Caesare" "Bracara August" "Novaesiu" "Castra Veter" "Pons Drus" "Ovilav" "Iuvavu" "Augusta Vindelicoru" "Turicu" "Sirmiu" "Borbetomagu" "Caesaraugust" "Sorvioduru" "Mogontiacu" "Ulpia Traian" "Argentoratu" "Bonn" "Noviomagu" 
+		"Castellum apud Confluente" "Divoduru" "Caesaromagu" "Ambianu" "Faventia Paterna Barcin" "Abil" "Lousonn" "Ulpia Noviomagus Batavoru" "Rigomagu" "Aquae Mattiacoru" "Murs" "Emon" "Praetorium Agrippina" "Lugdunum Batavoru" "Aequu" "Londiniu" 
+		"Albaniani" "Laur" "Durovernum Cantiacoru" "Regulbiu" "Rutupia" "Viminaciu" "Camulodunu" "Traiectu" "Matil" "Forum Hadrian" "Nigrum Pullu" "Lindum Coloni" "Ratae Corieltauvoru" "Durocobrivi" "Colonia Agrippin" "Durocornoviu" "Verulamiu" 
+		"Letocetu" "Dubri" "Danu" "Mediolanu" "Isca Dumnonioru" "Blestiu" "Viroconium Cornovioru" "Durnovari" "Lindini" "Ad Flexu" "Clausentu" "Venta Belgaru" "Calleva Atrebatu" "Durolipont" "Clausentu" "Concangi" "Condat" "Corinium Dobunnoru" 
+		"Eboracu" "Luguvaliu" "Arae Flavia" "Isca August" "Lagentiu" "Lopodunu" "Moridunu" "Venta Siluru" "Deva Victri" "Mancuniu" "Olican" "Vinovi" "Inveresk Roman For" "Boname" "Cori" "Gerulat" "Vindobon" "Birician" "Cannstatt Castru" 
+		"Colonia Nervia Glevensiu" "Sumelocenn" "Lopodunu" "Traiectum ad Nicre" "Castra Batava" "Nid" "Lactoduru" "Boviu" "Burgodunu" "Lenti" "Aquae Grann" "Portus Victoriae Iuliobrigensiu" "Aeminiu" "Traiectum ad Mosa" "Coriovallu" "Portus Lemani" 
+		"Andautoni" "Salon" "Cibala" "Aquincu" "Apulu" "Pons Aeliu" "Durovigutu" "Aelia Capitolin" "Al" "Castra Regin" "Therand" "Pomari" "Partiscu" "Castra Bononi" "Gesoriacum" "Aurelia Aquensi" "urbs Aurelianoru" "Venetia"
+	}
+}
+
+ROM_EMPERORS = {
+	name = "Roman Emperors"
+	for_countries = { ROM }
+	can_use = { has_government = despotist }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser }
+	
+	prefix = "RRM "							
+	fallback_name = "Battleship %s"		
+
+	unique = {
+        "Augustus" "Tiberius" "Caligula" "Claudius" "Nero" "Galba" "Otho" "Vitellius" "Vespasian" "Titus" "Domitian" "Nerva" "Trajan" "Hadrian" "Antoninus Pius" "Lucius Verus" "Marcus Aurelius" "Commodus" "Pertinax" "Didius Julianus" "Severus"
+		"Caracalla" "Geta" "Macrinus" "Diadumenian" "Elagabalus" "Severus Alexander" "Maximinus I" "Gordian I" "Gordian II" "Pupienus" "Balbinus" "Gordian III" "Philip I" "Trajan Decius" "Hostilian" "Trebonianus Gallus" "Aemilianus" "Valerian"
+		"Gallienus" "Claudius II Gothicus" "Quintillus" "Aurelian" "Marcus Claudius Tacitus" "Florian" "Probus" "Carus" "Numerian" "Carinus" "Diocletian" "Maximian" "Galerius" "Constantius Chlorus" "Valerius Severus" "Constantine" "Maxentius"
+		"Licinius" "Maximinus II" "Constantine II" "Constantius II" "Constans I" "Vetranio" "Julian" "Jovian" "Valentinian I" "Valens" "Gratian" "Valentinian II" "Magnus Maximus" "Theodosius"
+	}
+}
+
+ROM_REPUBLICAN_LEADERS = {
+	name = "Roman Republic Leaders"
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_heavy battleship }
 	
 	prefix = "RRM "							
 	fallback_name = "Battleship %s"		
@@ -36,14 +75,13 @@ ROM_BB_HISTORICAL = {
 	}
 }
 
-### SUBMARINES ###
-ROM_SS_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_SUBMARINES
+ROM_departments = {
+	name = "Roman Departments"
 
 	for_countries = { ROM }
 
 	type = ship
-	ship_types = { ship_hull_submarine submarine }
+	ship_types = { ship_hull_submarine submarine ship_hull_light destroyer }
 	
 	prefix = "RRM "							
 	fallback_name = "Submarine %s"

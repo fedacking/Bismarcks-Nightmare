@@ -4,39 +4,37 @@
 		name = "Comando Navale Alto Tirreno"			
 		naval_base = 6973 # La Spezia, ROMly
 		task_force = {				
-			name = "II Squadra Navale" # Dipartimento MilROMre Marittimo 'Alto Tirreno' / II Squadra
+			name = "II Squadra Navale"
 			location = 6973 # La Spezia, ROMly
 			# Comando di Squadra
 			ship = { name = "RRM Tiberius Gracchus" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ROM version_name = "Tiberius Gracchus Class"  } } } 
-			
 			# II Divisione Incrociatori
-			ship = { name = "RRM Quintus Fabius Maximus" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Zara Class" } } } 
-			ship = { name = "RRM Publius Decius Mus" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Zara Class" } } } 
-			ship = { name = "RRM Lucius Cornelius Scipio Africanus" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Zara Class" } } } 
+			ship = { name = "RRM Quintus Fabius Maximus" 					 definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Zara Class" } } } 
+			ship = { name = "RRM Publius Decius Mus" 						 definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Zara Class" } } } 
+			ship = { name = "RRM Lucius Cornelius Scipio Africanus" 		 definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Zara Class" } } } 
 			# III Divisione Incrociatori
-			ship = { name = "RRM Gaius Marius" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Taranto Class" } } } 
-			ship = { name = "RRM Lucius Cornelius Sulla" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Taranto Class" } } } 
-			ship = { name = "RRM Pompeius Strabo" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Taranto Class" } } } 
+			ship = { name = "RRM Gaius Marius" 								 definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Taranto Class" } } } 
+			ship = { name = "RRM Lucius Cornelius Sulla" 					 definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Taranto Class" } } } 
+			ship = { name = "RRM Pompeius Strabo" 							 definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ROM version_name = "Taranto Class" } } } 
 			# VI Divisione Incrociatori
-			ship = { name = "RRM Gaius Lutatius Catulus" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ROM version_name = "Montecuccoli Class" } } } 
-			ship = { name = "RRM Publius Valerius Laevinus" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ROM version_name = "Montecuccoli Class" } } } 
-			ship = { name = "RRM Quintus Caecilius " definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ROM version_name = "Montecuccoli Class" } } } 
-			# X Squadriglia Cacciatorpediniere
-			ship = { name = "RRM Toscana" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Maestrale Class" } } } 
+			ship = { name = "RRM Gaius Lutatius Catulus" 					 definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ROM version_name = "Montecuccoli Class" } } } 
+			ship = { name = "RRM Publius Valerius Laevinus" 				 definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ROM version_name = "Montecuccoli Class" } } } 
+			ship = { name = "RRM Quintus Caecilius" 						 definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ROM version_name = "Montecuccoli Class" } } } 
 			ship = { name = "RRM Marche" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Maestrale Class" } } } 
-			ship = { name = "RRM Abruzzo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Maestrale Class" } } } 
 			ship = { name = "RRM Umbria" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Maestrale Class" } } } 
+			ship = { name = "RRM Abruzzo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Maestrale Class" } } } 
+			ship = { name = "RRM Toscana" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Maestrale Class" } } } 
 			# XI Squadriglia Cacciatorpediniere
 			ship = { name = "RRM Lazio" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Navigatori Class" } } } 
 			ship = { name = "RRM Molise" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Navigatori Class" } } } 
-			ship = { name = "RRM Campania" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Navigatori Class" } } } 
 			ship = { name = "RRM Puglia" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Navigatori Class" } } } 
-			# XII Squadriglia Cacciatorpediniere
-			ship = { name = "RRM Basilicata" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Navigatori Class" } } } 
 			ship = { name = "RRM Clabria" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Navigatori Class" } } } 
+			# XII Squadriglia Cacciatorpediniere
 			ship = { name = "RRM Sicilia" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Navigatori Class" } } } 
+			ship = { name = "RRM Campania" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Navigatori Class" } } } 
 			ship = { name = "RRM Sardegna" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Navigatori Class" } } } 
-		} 
+			ship = { name = "RRM Basilicata" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Navigatori Class" } } } 
+		} 			
 		task_force = { 
 			name = "I Gruppo Sommergibili" 
 			location = 6973 # La Spezia, ROMly

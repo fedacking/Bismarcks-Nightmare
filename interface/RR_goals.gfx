@@ -19,27 +19,27 @@ spriteTypes = {
 		name = "GFX_goal_factory_complex"
 		texturefile = "gfx/interface/goals/goal_factory_complex.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_deflation"
 		texturefile = "gfx/interface/goals/goal_deflation.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_worker_handshake"
 		texturefile = "gfx/interface/goals/goal_worker_handshake.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_agrarian_reform"
 		texturefile = "gfx/interface/goals/goal_agrarian_reform.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_agriculture"
 		texturefile = "gfx/interface/goals/goal_agriculture.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_money_treaty"
 		texturefile = "gfx/interface/goals/goal_money_treaty.dds"
@@ -163,5 +163,30 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_price_controls"
 		texturefile = "gfx/interface/goals/goal_price_controls.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_liberty_ships"
+		texturefile = "gfx/interface/goals/goal_liberty_ships.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_red_star_gold_wreath"
+		texturefile = "gfx/interface/goals/goal_red_star_gold_wreath.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_communist_discourse"
+		texturefile = "gfx/interface/goals/goal_communist_discourse.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_liberty"
+		texturefile = "gfx/interface/goals/goal_liberty.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ITA_titanic"
+		texturefile = "gfx/interface/goals/goal_ITA_titanic.dds"
 	}
 }
