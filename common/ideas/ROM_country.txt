@@ -1,0 +1,34 @@
+ideas = {
+	country = { 
+	
+		##Starter set
+		ROM_idea_depression_0 = {
+			picture = usa_great_depression_3
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+			}
+		}
+
+		ROM_rampant_militarism = {
+			picture = ROM_legionary_helmet
+			modifier = {
+				conscription = 0.015
+				production_speed_industrial_complex_factor = -0.1
+				political_power_cost = 0.5
+				surrender_limit = 0.1
+				war_support_factor = 0.1
+			}
+		}
+
+		ROM_shaky_coalition = {
+			picture = generic_disjointed_gov
+			modifier = {
+				stability_factor = -0.05
+				political_power_cost = 0.1
+			}
+		}
+	}
+}

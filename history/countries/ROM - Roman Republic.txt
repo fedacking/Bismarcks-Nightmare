@@ -12,6 +12,11 @@ add_ideas = {
 	free_speech
 }
 
+add_ideas = {
+	ROM_idea_depression_0
+	ROM_rampant_militarism
+	ROM_shaky_coalition
+}
 
 # Starting tech
 set_technology = {

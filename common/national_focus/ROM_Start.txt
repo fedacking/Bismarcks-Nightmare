@@ -30,11 +30,28 @@ focus_tree = {
 	focus = {
 		id = ROM_on_unenmployment
 		prerequisite = { focus = ROM_woes_of_the_coalition }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_bankruptcy
 		relative_position_id = ROM_woes_of_the_coalition
 		x = -2
 		y = 1
 		cost = 10
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 30
+		}
+	}
+
+	focus = {
+		id = ROM_redundancy_funds
+		prerequisite = { focus = ROM_on_unenmployment }
+		icon = GFX_goal_agrarian_reform
+		relative_position_id = ROM_on_unenmployment
+		x = -1
+		y = 1
+		cost = 10
+		mutually_exclusive = { focus = ROM_expand_the_army }
 
 		available_if_capitulated = no
 
@@ -45,7 +62,7 @@ focus_tree = {
 	focus = {
 		id = ROM_expand_the_army
 		prerequisite = { focus = ROM_on_unenmployment }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_ROM_soldiers_fire
 		relative_position_id = ROM_on_unenmployment
 		x = 1
 		y = 1
@@ -55,22 +72,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = ROM_redundancy_funds
-		prerequisite = { focus = ROM_on_unenmployment }
-		icon = GFX_goal_generic_allies_build_infantry
-		relative_position_id = ROM_on_unenmployment
-		x = -1
-		y = 1
-		cost = 10
-		mutually_exclusive = { focus = ROM_expand_the_army }
-
-		available_if_capitulated = no
-
-		completion_reward = {
+			add_political_power = -50
+			add_ideas = extensive_conscription
 		}
 	}
 
@@ -126,7 +129,7 @@ focus_tree = {
 	focus = {
 		id = ROM_close_the_city
 		prerequisite = { focus = ROM_march_on_rome }
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_generic_fortify_city
 		relative_position_id = ROM_march_on_rome
 		x = 1
 		y = 1
@@ -145,7 +148,7 @@ focus_tree = {
 			focus = ROM_close_the_city
 			focus = ROM_let_them_march
 		}
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_defence
 		relative_position_id = ROM_march_on_rome
 		x = 0
 		y = 2
@@ -327,7 +330,7 @@ focus_tree = {
 		id = ROM_the_unsinkable_government
 		prerequisite = { focus = ROM_rearrenge_the_deck_chairs }
 		prerequisite = { focus = ROM_the_band_keeps_playing }
-		icon = GFX_goal_ITA_titanic
+		icon = GFX_goal_ROM_titanic
 		relative_position_id = ROM_the_liberals_stand_alone
 		x = 0
 		y = 2

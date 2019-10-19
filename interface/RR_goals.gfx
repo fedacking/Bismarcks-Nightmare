@@ -59,7 +59,7 @@ spriteTypes = {
 		name = "GFX_goal_police_blue"
 		texturefile = "gfx/interface/goals/goal_police_blue.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_briefcase"
 		texturefile = "gfx/interface/goals/goal_briefcase.dds"
@@ -186,7 +186,12 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_ITA_titanic"
-		texturefile = "gfx/interface/goals/goal_ITA_titanic.dds"
+		name = "GFX_goal_ROM_titanic"
+		texturefile = "gfx/interface/goals/goal_ROM_titanic.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ROM_soldiers_fire"
+		texturefile = "gfx/interface/goals/goal_ROM_soldiers_fire.dds"
 	}
 }

@@ -42,4 +42,9 @@ spriteTypes = {
 		name = "GFX_idea_slow_growth"
 		texturefile = "gfx/interface/ideas/idea_slow_growth.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_idea_ROM_legionary_helmet"
+		texturefile = "gfx/interface/ideas/idea_ROM_legionary_helmet.dds"
+	}
 }
