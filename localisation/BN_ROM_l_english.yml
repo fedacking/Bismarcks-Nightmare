@@ -28,7 +28,9 @@
  ##Ideas
  ROM_idea_depression_0:0 "Great Depression"
  ROM_idea_depression_0_desc:0 "During the second semester of 1935, the US and French economies started to slow down. The massive expansion of the economy in the 1920's has lead to overborrowing and overexposure for the banks. In the US in 1935 the banks started to default, and the crisis spiraled from there to the rest of the world.\n The Roman Republic has been less affected due to low international the trade, but the crisis still lingers."
- ROM_rampant_militarism:0 "Rampant Milittarism"
- ROM_rampant_militarism_desc:0 "Since the loss of the territories in the North due to the Great War the nationalist and politicians blame the traitors of the Democrazia Cristiana and PLI, who advocated for lower investment in the army and peace. As a result, the Government has ramped up the worhsip of the military and amped up the narrative of 'stabbed in the back'."
- ROM_shaky_coalition:0 "Shaky Coalition"
+ ROM_idea_rampant_militarism:0 "Rampant Milittarism"
+ ROM_idea_rampant_militarism_desc:0 "Since the loss of the territories in the North due to the Great War the nationalist and politicians blame the traitors of the Democrazia Cristiana and PLI, who advocated for lower investment in the army and peace. As a result, the Government has ramped up the worhsip of the military and amped up the narrative of 'stabbed in the back'."
+ ROM_idea_shaky_coalition:0 "Shaky Coalition"
  ROM_shaky_coalition_desc:0 "The governing coalition has been under duress since the last year. With the economic crisis and the constant infighting between the Fascists and Socialists, the Coalition seems poised to fall."
+ 
+ ROM_idea_hole_budget:0 "Budget Shortfall"

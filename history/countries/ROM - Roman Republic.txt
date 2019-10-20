@@ -3,7 +3,7 @@
 oob = "ROM_1936"
 
 set_research_slots = 3
-set_stability = 0.5
+set_stability = 0.4
 set_war_support = 0.5
 add_ideas = {
 	limited_exports
@@ -14,8 +14,8 @@ add_ideas = {
 
 add_ideas = {
 	ROM_idea_depression_0
-	ROM_rampant_militarism
-	ROM_shaky_coalition
+	ROM_idea_rampant_militarism
+	ROM_idea_shaky_coalition
 }
 
 # Starting tech

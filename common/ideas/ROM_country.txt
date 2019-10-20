@@ -6,13 +6,13 @@ ideas = {
 			picture = usa_great_depression_3
 			modifier = {
 				consumer_goods_factor = 0.15
-				production_speed_buildings_factor = -0.5
+				production_speed_buildings_factor = -0.3
 				industrial_capacity_factory = -0.2
 				industrial_capacity_dockyard = -0.2
 			}
 		}
 
-		ROM_rampant_militarism = {
+		ROM_idea_rampant_militarism = {
 			picture = ROM_legionary_helmet
 			modifier = {
 				conscription = 0.015
@@ -23,11 +23,25 @@ ideas = {
 			}
 		}
 
-		ROM_shaky_coalition = {
+		ROM_idea_shaky_coalition = {
 			picture = generic_disjointed_gov
 			modifier = {
 				stability_factor = -0.05
 				political_power_cost = 0.1
+			}
+		}
+
+		ROM_idea_hole_budget = {
+			picture = capital_outflow
+			modifier = {
+				production_speed_buildings_factor = -0.2
+			}
+		}
+
+		ROM_idea_march_on_rome = {
+			picture = FRA_factory_strikes
+			modifier = {
+				stability_weekly_factor = -0.1
 			}
 		}
 	}

@@ -19,11 +19,12 @@ focus_tree = {
 		icon = GFX_focus_generic_concessions
 		x = 7
 		y = 0
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_stability = 0.05
 		}
 	}
 
@@ -34,7 +35,7 @@ focus_tree = {
 		relative_position_id = ROM_woes_of_the_coalition
 		x = -2
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -92,6 +93,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = ROM_idea_hole_budget
 		}
 	}
 
@@ -107,6 +109,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_timed_idea = {
+				idea = ROM_idea_march_on_rome
+				days = 14
+			}
 		}
 	}
 
@@ -117,12 +123,13 @@ focus_tree = {
 		relative_position_id = ROM_march_on_rome
 		x = -1
 		y = 1
-		cost = 10
+		cost = 1
 		mutually_exclusive = { focus = ROM_close_the_city }
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 100
 		}
 	}
 
@@ -133,12 +140,13 @@ focus_tree = {
 		relative_position_id = ROM_march_on_rome
 		x = 1
 		y = 1
-		cost = 10
+		cost = 1
 		mutually_exclusive = { focus = ROM_let_them_march }
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			remove_ideas = ROM_idea_march_on_rome
 		}
 	}
 
@@ -152,11 +160,12 @@ focus_tree = {
 		relative_position_id = ROM_march_on_rome
 		x = 0
 		y = 2
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_stability = 0.05
 		}
 	}
 
