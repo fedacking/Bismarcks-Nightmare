@@ -1,0 +1,102 @@
+﻿ROM_LEG_01 = {
+	name = "Roman Legion"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%dth Roman Legion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Legio I Germanica" }    
+		2 = { "Legio II Sabina" }
+		3 = { "Legio III Cyrenaica" }
+		4 = { "Legio IV Macedonica" }
+		5 = { "Legio V Alaudae" }
+		6 = { "Legio VI Ferrata" }
+		7 = { "Legio VII Claudia Pia Fidelis" }
+		8 = { "Legio VIII Augusta" }
+		9 = { "Legio IX Hispana Triumphalis" }
+		10 = { "Legio X Equestris" }
+		11 = { "Legio XI Claudia" }
+		12 = { "Legio XII Victrix" }
+		14 = { "Legio XIV Gemina" }
+		15 = { "Legio XV Fulminata" }
+		16 = { "Legio XVI Fretensis" }
+		17 = { "Legio XVII Classic" }
+		18 = { "Legio XVIII Libyca" }
+		19 = { "Legio XIX" }
+		20 = { "Legio XX Gallica" }
+		21 = { "Legio XXI Scythica" }
+		22 = { "Legio XXII Victrix" }
+		30 = { "Legio XXX Classica" }
+	}
+}
+
+ROM_INF_01 = {
+	name = "Infantry Division"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%dth Infantry Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%dst Infantry Division" }
+		2 = { "%dnd Infantry Division" }
+		3 = { "%drd Infantry Division" }
+		4 = { "%dth Infantry Division" }
+		5 = { "%dth Infantry Division" }
+		6 = { "%dth Infantry Division" }
+		7 = { "%dth Infantry Division" }
+		8 = { "%dth Infantry Division" }
+		9 = { "%dtg Infantry Division" }
+		10 = { "%dnd Infantry Division" }
+		11 = { "%drd Infantry Division" }
+		12 = { "%dth Infantry Division" }
+		13 = { "%dth Infantry Division" }
+		100 = { "%dth Infantry Division" }
+		101 = { "%dst Infantry Division" }
+		102 = { "%dnd Infantry Division" }
+		103 = { "%drd Infantry Division" }
+	}
+}
+
+
+ROM_GAR_01 = {
+	name = "Garrison"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Garrison"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Roma Garrison" }
+		2 = { "La Spezia Garrison" }
+		3 = { "Bologna Garrison" }
+		4 = { "Firenze Garrison" }
+		5 = { "Livorno Garrison" }
+		6 = { "Ancona Garrison" }
+		7 = { "Genova Garrison" }
+		8 = { "Anzio Garrison" }
+		9 = { "Napoli Garrison" }
+		10 = { "Taranto Garrison" }
+		11 = { "Messina Garrison" }
+		12 = { "Palermo Garrison" }
+	}
+}

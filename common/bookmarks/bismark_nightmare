@@ -76,9 +76,14 @@ bookmarks = {
 			ideology = republican_liberal
 			minor = yes
 			ideas = {
+				ROM_idea_depression_0
+				ROM_rampant_militarism
+				ROM_shaky_coalition
 			}
 			focuses = {
 				ROM_woes_of_the_coalition
+				ROM_socialist_coup
+				ROM_fascist_coup
 			}
 		}
 		
