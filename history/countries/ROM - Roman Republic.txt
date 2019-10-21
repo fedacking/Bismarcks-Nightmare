@@ -202,6 +202,36 @@ create_field_marshal = {# Rodolfo Graziani
 	logistics_skill = 3
 }
 
+create_field_marshal = {# Randolfo Pacciardi
+	name = "Randolfo Pacciardi"
+	picture = "ROM_Portrait_General_Randolfo_Pacciardi.tga"
+	traits = {
+		politically_connected
+		trickster
+		guerilla_fighter
+		inspirational_leader
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_field_marshal = {# Edmondo Rossoni
+	name = "Edmondo Rossoni"
+	picture = "ROM_Portrait_General_Edmondo_Rossoni.tga"
+	traits = {
+		career_officer
+		organisational_leader
+		organizer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+
 create_field_marshal = {# Emilio di Bono
 	name = "Emilio di Bono"
 	picture = "ROM_Portrait_General_Emilio_de_Bono.dds"
@@ -246,6 +276,20 @@ create_corps_commander = {# Gastone Gambara
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 4
+}
+
+create_corps_commander = {# Dardano Fenulli
+	name = "Dardano Fenulli"
+	picture = "ROM_Portrait_General_Dardano_Fenulli.tga"
+	traits = {
+		organizer
+		panzer_leader
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {# Alberto Pariani
@@ -344,6 +388,17 @@ create_navy_leader = {# Alberto Da Zara
 	coordination_skill = 4
 }
 
+create_navy_leader = {# Riccardo Paladini
+	name = "Riccardo Paladini"
+	picture = "Portrait_ROM_Admiral_Riccardo_Paladini.tga"
+	traits = { ironside superior_tactician }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+
 create_navy_leader = {# Giuseppe Fioravanzo
 	name = "Giuseppe Fioravanzo"
 	picture = "ROM_Portrait_Admiral_Giuseppe_Fioravanzo.dds"
@@ -353,6 +408,28 @@ create_navy_leader = {# Giuseppe Fioravanzo
 	defense_skill = 3
 	maneuvering_skill = 4
 	coordination_skill = 4
+}
+
+create_navy_leader = {# Romeo Bernotti
+	name = "Romeo Bernotti"
+	picture = "ROM_Portrait_Admiral_Romeo_Bernotti.tga"
+	traits = { air_controller }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+
+create_navy_leader = {# Inigo Campioni
+	name = "Inigo Campioni"
+	picture = "ROM_Portrait_Admiral_Inigo_Campioni.tga"
+	traits = { ironside }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 create_navy_leader = {# Raffaele de Courten
