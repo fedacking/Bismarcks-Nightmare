@@ -117,10 +117,43 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_III_DESC"
 	picture = "gfx/leaders/HON/Portrait_Wilhelm_III.tga"
 	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = "gfx/leaders/HON/Portrait_Wilhelm_III.tga"
+	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
 		#
 	}
+}
+
+create_country_leader = {
+	name = "Erich Ludendorff"
+	desc = "POLITICS_ERICH_LUDENDORFF_DESC"
+	picture = "gfx/leaders/HON/HON_Portrait_Leader_Erich_Ludendorff.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Erich Ludendorff"
+	picture = "HON_Portrait_Leader_Erich_Ludendorff.tga"
+	traits = { old_guard brilliant_strategist politically_connected offensive_doctrine logistics_wizard }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 4
 }
 
 create_field_marshal = {
