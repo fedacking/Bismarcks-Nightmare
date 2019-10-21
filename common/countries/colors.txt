@@ -67,7 +67,7 @@ SGC = {
 	color = rgb { 239 238 215 }
 	color_ui = rgb { 239 238 215 }
 }
-HON = {
+HOH = {
 	color = rgb { 135 169 107 }
 	color_ui = rgb { 135 169 107 }
 }

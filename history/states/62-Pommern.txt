@@ -7,12 +7,12 @@ state = {
 		victory_points = {
 			9388 1
 		}
-		owner = HON
+		owner = HOH
 		buildings = {
 			infrastructure = 6
 			fuel_silo = 1
 		}
-		add_core_of = HON
+		add_core_of = HOH
 	}
 	provinces = {
 		349 3207 3258 3312 3340 9388 

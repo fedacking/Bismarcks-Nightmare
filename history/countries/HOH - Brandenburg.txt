@@ -1,6 +1,6 @@
 ﻿capital = 64
 
-oob = "HON_1936"
+oob = "HOH_1936"
 
 set_fuel_ratio = 0.8
 
@@ -115,7 +115,7 @@ set_politics = {
 create_country_leader = {
 	name = "Wilhelm III"
 	desc = "POLITICS_WILHELM_III_DESC"
-	picture = "gfx/leaders/HON/Portrait_Wilhelm_III.tga"
+	picture = "gfx/leaders/HOH/Portrait_Wilhelm_III.tga"
 	expire = "1965.1.1"
 	ideology = semi_constitutionalist_subtype
 	traits = {
@@ -126,7 +126,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Wilhelm III"
 	desc = "POLITICS_WILHELM_III_DESC"
-	picture = "gfx/leaders/HON/Portrait_Wilhelm_III.tga"
+	picture = "gfx/leaders/HOH/Portrait_Wilhelm_III.tga"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {
@@ -137,7 +137,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Erich Ludendorff"
 	desc = "POLITICS_ERICH_LUDENDORFF_DESC"
-	picture = "gfx/leaders/HON/HON_Portrait_Leader_Erich_Ludendorff.tga"
+	picture = "gfx/leaders/HOH/HOH_Portrait_Leader_Erich_Ludendorff.tga"
 	expire = "1965.1.1"
 	ideology = despotism_subtype
 	traits = {
@@ -147,7 +147,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Erich Ludendorff"
-	picture = "HON_Portrait_Leader_Erich_Ludendorff.tga"
+	picture = "HOH_Portrait_Leader_Erich_Ludendorff.tga"
 	traits = { old_guard brilliant_strategist politically_connected offensive_doctrine logistics_wizard }
 	skill = 6
 	attack_skill = 5
