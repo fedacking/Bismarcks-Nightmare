@@ -169,6 +169,143 @@ create_country_leader = {
 	traits = {}
 }
 
+### Field Marshals ###
+
+create_field_marshal = {# Ettore Bastico
+	name = "Ettore Bastico"
+	picture = "ROM_Portrait_General_Ettore_Bastico.tga"
+	traits = {
+		offensive_doctrine
+		logistics_wizard
+		career_officer
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_field_marshal = {# Emilio di Bono
+	name = "Emilio di Bono"
+	picture = "ROM_Portrait_General_Emilio_de_Bono.dds"
+	traits = {
+		war_hero
+		old_guard
+		thorough_planner
+		organizer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_field_marshal = {# Rodolfo Graziani
+	name = "Rodolfo Graziani"
+	picture = "ROM_Portrait_General_Radolfo_Graziani.dds"
+	traits = {
+		offensive_doctrine
+		organizer
+		armor_officer
+		fast_planner
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+### Generals ###
+
+create_corps_commander = {# Alberto Pariani
+	name = "Alberto Pariani"
+	picture = "ROM_Portrait_General_Alberto_Pariani.tga"
+	traits = {
+		career_officer
+		trait_mountaineer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {# Sebastiano Visconti Prasca
+	name = "Sebastiano Visconti Prasca"
+	picture = "ROM_Portrait_General_Sebastiano_Visconti_Prasca.tga"
+	traits = {}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {# Arnaldo Azzi
+	name = "Arnaldo Azzi "
+	picture = "ROM_Portrait_General_Arnaldo_Azzi.tga"
+	traits = {
+		armor_officer
+		panzer_leader
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {# Pietro Maletti
+	name = "Pietro Maletti"
+	picture = "ROM_Portrait_General_Pietro_Maletti.tga"
+	traits = {trait_engineer}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {# Gabriele Nasci
+	name = "Gabriele Nasci"
+	picture = "ROM_Portrait_General_Gabriele_Nasci.tga"
+	traits = {trait_mountaineer}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {# Alfredo Guzzoni
+	name = "Alfredo Guzzoni"
+	picture = "ROM_Portrait_General_Alfredo_Guzzoni.tga"
+	traits = {panzer_leader}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {# Gastone Gambara
+	name = "Gastone Gambara"
+	picture = "ROM_Portrait_General_Gastone_Gambara.tga"
+	traits = {
+		career_officer
+		war_hero
+		trait_engineer
+		fortress_buster
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
 ### VARIANTS ###
 # 1936 Start #
 if = {
