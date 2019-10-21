@@ -185,21 +185,7 @@ create_field_marshal = {# Ettore Bastico
 	planning_skill = 4
 	logistics_skill = 3
 }
-create_field_marshal = {# Emilio di Bono
-	name = "Emilio di Bono"
-	picture = "ROM_Portrait_General_Emilio_de_Bono.dds"
-	traits = {
-		war_hero
-		old_guard
-		thorough_planner
-		organizer
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
+
 create_field_marshal = {# Rodolfo Graziani
 	name = "Rodolfo Graziani"
 	picture = "ROM_Portrait_General_Radolfo_Graziani.dds"
@@ -216,7 +202,51 @@ create_field_marshal = {# Rodolfo Graziani
 	logistics_skill = 3
 }
 
+create_field_marshal = {# Emilio di Bono
+	name = "Emilio di Bono"
+	picture = "ROM_Portrait_General_Emilio_de_Bono.dds"
+	traits = {
+		war_hero
+		old_guard
+		thorough_planner
+		organizer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
 ### Generals ###
+
+
+create_corps_commander = {# Venanzio Gabriotti
+	name = "Venanzio Gabriotti"
+	picture = "ROM_Portrait_General_Venanzio_Gabriotti.tga"
+	traits = { commando }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {# Gastone Gambara
+	name = "Gastone Gambara"
+	picture = "ROM_Portrait_General_Gastone_Gambara.tga"
+	traits = {
+		career_officer
+		war_hero
+		trait_engineer
+		fortress_buster
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
 
 create_corps_commander = {# Alberto Pariani
 	name = "Alberto Pariani"
@@ -229,17 +259,6 @@ create_corps_commander = {# Alberto Pariani
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {# Sebastiano Visconti Prasca
-	name = "Sebastiano Visconti Prasca"
-	picture = "ROM_Portrait_General_Sebastiano_Visconti_Prasca.tga"
-	traits = {}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 1
 	logistics_skill = 2
 }
 
@@ -290,20 +309,83 @@ create_corps_commander = {# Alfredo Guzzoni
 	logistics_skill = 2
 }
 
-create_corps_commander = {# Gastone Gambara
-	name = "Gastone Gambara"
-	picture = "ROM_Portrait_General_Gastone_Gambara.tga"
-	traits = {
-		career_officer
-		war_hero
-		trait_engineer
-		fortress_buster
-	}
+create_corps_commander = {# Italo Gariboldi
+	name = "Italo Gariboldi"
+	picture = "ROM_Portrait_General_Italo_Gariboldi.tga"
+	traits = {hill_fighter }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {# Sebastiano Visconti Prasca
+	name = "Sebastiano Visconti Prasca"
+	picture = "ROM_Portrait_General_Sebastiano_Visconti_Prasca.tga"
+	traits = {}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+### Admirals ###
+
+create_navy_leader = {# Alberto Da Zara
+	name = "Alberto Da Zara"
+	picture = "ROM_Portrait_Admiral_Alberto_Da_Zara.dds"
+	traits = { superior_tactician spotter }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+
+create_navy_leader = {# Giuseppe Fioravanzo
+	name = "Giuseppe Fioravanzo"
+	picture = "ROM_Portrait_Admiral_Giuseppe_Fioravanzo.dds"
+	traits = { superior_tactician ironside}
 	skill = 4
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
+	maneuvering_skill = 4
+	coordination_skill = 4
+}
+
+create_navy_leader = {# Raffaele de Courten
+	name = "Raffaele de Courten"
+	picture = "ROM_Portrait_Admiral_Raffaele_de_Courten.tga"
+	traits = { blockade_runner }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {# Costanzo Ciano
+	name = "Costanzo Ciano"
+	picture = "ROM_Portrait_Admiral_Costanzo_Ciano.tga"
+	traits = {}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {# Carlo Bergamini
+	name = "Carlo Bergamini"
+	picture = "ROM_Portrait_Admiral_Carlo_Bergamini.dds"
+	traits = {}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 ### VARIANTS ###
