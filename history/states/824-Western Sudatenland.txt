@@ -1,7 +1,7 @@
 state = {
 	id = 824
 	name = "STATE_824"
-	manpower = 943333
+	manpower = 929298
 	state_category = rural	
 	resources = {
 		#
@@ -14,6 +14,6 @@ state = {
 		add_core_of = AUS
 	}
 	provinces =	{
-		543 557 5283 11525
+		543 5283 11525
 	}
 }

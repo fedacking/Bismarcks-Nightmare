@@ -122,6 +122,28 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Rupprecht I"
+	desc = "POLITICS_RUPPRECHT_I_DESC"
+	picture = "gfx/leaders/SGC/Portrait_Ruprecht_I.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ernst Röhm"
+	desc = "POLITICS_ERNST_ROHM_DESC"
+	picture = "gfx/leaders/SGC/SGC_Portrait_Leader_Ernst_Rohm.tga" #Place holder, need a better edited portrait for him.
+	expire = "1965.1.1"
+	ideology = nazism_subtype
+	traits = {
+		#
+	}
+}
+
 create_field_marshal = {
 	name = "Ruprecht I"
 	picture = "Portrait_Ruprecht_I.tga"
@@ -218,6 +240,17 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ernst Röhm"
+	picture = "SGC_Portrait_Leader_Ernst_Rohm.tga" #Place holder, need a better edited portrait for him.
+	traits = { war_hero politically_connected trait_reckless }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
 	logistics_skill = 1
 }
 

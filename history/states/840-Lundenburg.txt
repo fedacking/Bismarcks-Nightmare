@@ -1,0 +1,22 @@
+state = {
+	id = 840
+	name = "STATE_840"
+	manpower = 14035
+	state_category = pastoral	
+	resources = {
+		#
+	}	
+	history = {
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			557 1 
+		}
+		add_core_of = AUS
+	}
+	provinces =	{
+		557
+	}
+}
