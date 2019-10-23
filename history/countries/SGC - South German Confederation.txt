@@ -94,14 +94,14 @@ set_stability = 0.5
 set_war_support = 0.5
 
 set_popularities = {
-	despotist = 7
+	despotist = 10
 	absolutist = 0
-	semi_constitutionalist = 51
-	social_conservative = 12
-	liberal_conservative = 18
-	republican_liberal = 10
-	communist = 2
-	socialist = 0
+	semi_constitutionalist = 55
+	social_conservative = 0
+	liberal_conservative = 0
+	republican_liberal = 28
+	socialist = 6
+	communist = 1
 }	
 
 set_politics = {
@@ -109,6 +109,61 @@ set_politics = {
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Paul Levi"
+	desc = "POLITICS_PAUL_LEVI_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds" #Mr generico because I could not find a suitable image. Maybe when Red Flood releases we can borrow theirs.
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kurt Eisner"
+	desc = "POLITICS_KURT_EISNER_DESC"
+	picture = "gfx/leaders/SGC/SGC_Portrait_Leader_Kurt_Eisner.tga"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Friedrich Ebert"
+	desc = "POLITICS_FRIEDICH_EBERT_DESC"
+	picture = "gfx/leaders/SGC/SGC_Portrait_Leader_Friedich_Ebert.tga" #Place holder (image by Reddit user /u/jedek8). Need an aged version of him since he would be like 10 years older.
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rupprecht I"
+	desc = "POLITICS_RUPPRECHT_I_DESC"
+	picture = "gfx/leaders/SGC/Portrait_Ruprecht_I.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rupprecht I"
+	desc = "POLITICS_RUPPRECHT_I_DESC"
+	picture = "gfx/leaders/SGC/Portrait_Ruprecht_I.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {

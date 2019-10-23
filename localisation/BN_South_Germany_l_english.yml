@@ -1,0 +1,18 @@
+﻿l_english:
+ ##Political Parties
+ SGC_communist_party:0 "KPSD"
+ SGC_communist_party_long:0 "Kommunistische Partei Süddeutschlands"
+ SGC_socialist_party:0 "USPSD"
+ SGC_socialist_party_long:0 "Unabhängige Sozialdemokratische Partei Süddeutschlands"
+ SGC_republican_liberal_party:0 "SPSD"
+ SGC_republican_liberal_party_long:0 "Sozialdemokratische Partei Süddeutschlands"
+ SGC_liberal_conservative_party:0 "BVP"
+ SGC_liberal_conservative_party_long:0 "Bayerische Volkspartei"
+ SGC_social_conservative_party:0 "BVP"
+ SGC_social_conservative_party_long:0 "Bayerische Volkspartei"
+ SGC_semi_constitutionalist_party:0 "BVP"
+ SGC_semi_constitutionalist_party_long:0 "Bayerische Volkspartei"
+ SGC_absolutist_party:0 "Haus Wittelsbach"
+ SGC_absolutist_party_long:0 "Haus Wittelsbach"
+ SGC_despotist_party:0 "DAP"
+ SGC_despotist_party_long:0 "Deutsche Arbeiterpartei"
