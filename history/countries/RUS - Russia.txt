@@ -95,10 +95,184 @@ set_politics = {
 create_country_leader = {
 	name = "Nikolai II"
 	desc = "POLITICS_NIKOLAI_II_DESC"
-	picture = "gfx/leaders/RUS/Portrait_Nicholas_II.tga"
+	picture = "gfx/leaders/RUS/RUS_Portrait_Leader_Nicholas_II.tga"
 	expire = "1965.1.1"
 	ideology = imperialism_subtype
 	traits = {
 		#
 	}
+}
+
+###Field Marshalls
+
+
+create_field_marshal = {
+	name = "Anton Denikin"
+	picture = "RUS_Portrait_General_Anton_Denikin.tga"
+	traits = {
+		old_guard
+		war_hero
+		organizer
+		thorough_planner
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Pyotr von Wrangel"
+	picture = "RUS_Portrait_General_Pyotr_Wrangel.tga"
+	traits = {
+		war_hero
+		harsh_leader
+		cavalry_officer
+		inspirational_leader
+		offensive_doctrine
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Lavr Kornilov"
+	picture = "RUS_Portrait_General_Lavr_Kornilov.tga"
+	traits = {
+		offensive_doctrine
+		old_guard
+		media_personality
+		cavalry_officer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+###Generals
+
+create_corps_commander = {
+	name = "Georgiy Zhukov"
+	picture = "RUS_Portrait_General_Georgy_Zhukov.tga"
+	traits = {
+		career_officer
+		brilliant_strategist
+		organizer
+		skilled_staffer
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Konstantin Rokossovskiy"
+	picture = "RUS_Portrait_General_Konstantin_Rokossovsky.tga"
+	traits = {
+		brilliant_strategist
+		cavalry_leader
+		cavalry_officer
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Vladimir Kappel"
+	picture = "RUS_Portrait_General_Vladimir_Kappel.tga"
+	traits = {
+		brilliant_strategist
+		winter_specialist
+		winter_expert
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Mikhail Drozdovskiy"
+	picture = "RUS_Portrait_General_Mikhail_Drozdovsky.tga"
+	traits = {
+		career_officer
+		infantry_leader
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Anton Turkul"
+	picture = "RUS_Portrait_General_Anton_Turkul.tga"
+	traits = {
+		politically_connected
+		trait_cautious
+		trickster
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Aleksandr Kutepov"
+	picture = "RUS_Portrait_General_Aleksander_Kutepov.tga"
+	traits = {
+		career_officer
+		trait_cautious
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mikhail Levitov"
+	picture = "RUS_Portrait_General_Mikhail_Levitov.tga"
+	traits = {
+		war_hero
+		infantry_leader
+		trait_reckless
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Vladimir von Manstein"
+	picture = "RUS_Portrait_General_Vladimir_von_Manstein.tga"
+	traits = {
+		infantry_officer
+		trait_reckless
+		commando
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
 }
