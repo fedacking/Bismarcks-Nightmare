@@ -189,6 +189,21 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Sergey Markov"
+	picture = "RUS_Portrait_General_Sergei_Markov.tga"
+	traits = {
+		career_officer
+		panzer_leader
+		trickster
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
 	name = "Vladimir Kappel"
 	picture = "RUS_Portrait_General_Vladimir_Kappel.tga"
 	traits = {
@@ -214,6 +229,52 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 3
 	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vasiliy Chernetsov"
+	picture = RUS_Portrait_General_Vasili_Chernetsov.tga"
+	traits = {
+		trait_reckless
+		cavalry_leader
+		war_hero
+		cavalry_expert
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vyacheslav Naumenko"
+	picture = "RUS_Portrait_General_Vyacheslav_Naumenko.tga"
+	traits = {
+		old_guard
+		cavalry_officer
+		cavalry_leader
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Boris Shaposhnikov"
+	picture = "RUS_Portrait_General_Boris_Shaposhnikov.tga"
+	traits = {
+		career_officer
+		brilliant_strategist
+		skilled_staffer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
 	logistics_skill = 2
 }
 
@@ -248,6 +309,65 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Vladimir von Manstein"
+	picture = "RUS_Portrait_General_Vladimir_von_Manstein.tga"
+	traits = {
+		infantry_officer
+		trait_reckless
+		commando
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nikolay Timanovskiy"
+	picture = "RUS_Portrait_General_Nikolai_Timanovsky.tga"
+	traits = {
+		infantry_officer
+		trait_engineer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Fyedor Abramov"
+	picture = "RUS_Portrait_General_Fyodor_Abramov.tga"
+	traits = {
+		old_guard
+		artillery_officer
+		cavalry_officer
+		cavalry_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Pavel Bermondt-Avalov"
+	picture = "RUS_Portrait_General_Pavel_Bermondt_Avalov.tga"
+	traits = {
+		cavalry_officer
+		politically_connected
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
 	name = "Mikhail Levitov"
 	picture = "RUS_Portrait_General_Mikhail_Levitov.tga"
 	traits = {
@@ -263,16 +383,61 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Vladimir von Manstein"
-	picture = "RUS_Portrait_General_Vladimir_von_Manstein.tga"
+	name = "Anatoliy Rogozhin"
+	picture = "RUS_Portrait_General_Anatoly_Rogozhin"
 	traits = {
-		infantry_officer
-		trait_reckless
-		commando
+		cavalry_officer
+		hill_fighter
+		cavalry_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Yevgeniy Miller"
+	picture = "RUS_Portrait_General_Yevgeny_Miller.tga"
+	traits = {
+		old_guard
+		trait_cautious
+		trickster
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ivan Polyakov"
+	picture = "RUS_Portrait_General_Ivan_Polyakov.tga"
+	traits = {
+		cavalry_officer
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Pyetr Popov"
+	picture = "RUS_Portrait_General_Pyotr_Popov.tga"
+	traits = {
+		old_guard
+		cavalry_officer
+		cavalry_leader
+		organizer
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
+	defense_skill = 1
+	planning_skill = 2
 	logistics_skill = 2
 }
