@@ -2,6 +2,13 @@
 
 oob = "HOH_1936"
 
+add_ideas = {
+	limited_exports
+	state_press
+	low_economic_mobilisation
+	limited_conscription
+}
+
 set_fuel_ratio = 0.8
 
 # Starting tech
@@ -88,18 +95,18 @@ if = {
 	set_naval_oob = "HON_1936_naval_mtg"
 }
 
-set_research_slots = 3
+set_research_slots = 2
 set_convoys = 200
 set_stability = 0.1
-set_war_support = 0.9
+set_war_support = 0.7
 
 
 set_popularities = {
-	despotist = 0
-	absolutist = 78
+	despotist = 2
+	absolutist = 66
 	semi_constitutionalist = 10
 	social_conservative = 12
-	liberal_conservative = 0
+	liberal_conservative = 10
 	republican_liberal = 0
 	communist = 0
 	socialist = 0
@@ -110,6 +117,61 @@ set_politics = {
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Wilhelm Pieck"
+	desc = "POLITICS_WILHELM_PIECK_DESC"
+	picture = "gfx/leaders/HOH/HOH_Portrait_Leader_Wilhelm_Pieck_I.tga"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Arthur Crispien"
+	desc = "POLITICS_ARTHUR_CRISPIEN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Otto Wels"
+	desc = "POLITICS_OTTO_WELS_DESC"
+	picture = "gfx/leaders/HOH/HOH_Portrait_Leader_Otto_Wels.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = "gfx/leaders/HOH/Portrait_Wilhelm_III.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelm III"
+	desc = "POLITICS_WILHELM_III_DESC"
+	picture = "gfx/leaders/HOH/Portrait_Wilhelm_III.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {

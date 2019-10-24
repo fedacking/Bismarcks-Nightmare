@@ -112,9 +112,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Paul Levi"
-	desc = "POLITICS_PAUL_LEVI_DESC"
-	picture = "gfx/leaders/Europe/portrait_europe_generic_6.dds" #Mr generico because I could not find a suitable image. Maybe when Red Flood releases we can borrow theirs.
+	name = "Karl Liebknecht"
+	desc = "POLITICS_KARL_LIEBKNECHT_DESC"
+	picture = "gfx/leaders/SGC/SGC_Portrait_Leader_Karl_Liebknecht.tga"
 	expire = "1965.1.1"
 	ideology = communist_subtype
 	traits = {

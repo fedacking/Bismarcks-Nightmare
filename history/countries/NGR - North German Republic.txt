@@ -2,6 +2,11 @@
 
 oob = "NGR_1936"
 
+add_ideas = {
+	free_trade
+	free_speech
+}
+
 set_fuel_ratio = 0.8
 
 # Starting tech
@@ -94,14 +99,14 @@ set_stability = 0.8
 set_war_support = 0.2
 
 set_popularities = {
-	despotist = 0
+	despotist = 5
 	absolutist = 0
 	semi_constitutionalist = 0
-	social_conservative = 20
-	liberal_conservative = 58
-	republican_liberal = 22
-	communist = 0
-	socialist = 0
+	social_conservative = 17
+	liberal_conservative = 41
+	republican_liberal = 26
+	communist = 4
+	socialist = 7
 }	
 
 set_politics = {
@@ -111,8 +116,37 @@ set_politics = {
 	elections_allowed = no
 }
 
-add_ideas = {
-	free_trade
+create_country_leader = {
+	name = "Rudolf Rocker"
+	desc = "POLITICS_RUDOLF_ROCKER_DESC"
+	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Rudolf_Rocker.tga"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ernst Thälmann"
+	desc = "POLITICS_ERNST_THALMANN_DESC"
+	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Ernst_Thalmann_I.tga"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Erich Koch-Weser"
+	desc = "POLITICS_ERICH_KOCH_WESER_DESC"
+	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Erich_Koch_Weser.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
@@ -126,7 +160,27 @@ create_country_leader = {
 	}
 }
 
-#German
+create_country_leader = {
+	name = "Franz von Papen"
+	desc = "POLITICS_FRANZ_VON_PAPEN_DESC"
+	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Franz_von_Papen.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Anton Mussert"
+	desc = "POLITICS_ANTON_MUSSERT_DESC"
+	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Anton_Mussert.dds"
+	expire = "1965.1.1"
+	ideology = nazism_subtype
+	traits = {
+		#
+	}
+}
 
 create_field_marshal = {
 	name = "Gerd von Rundstedt"
