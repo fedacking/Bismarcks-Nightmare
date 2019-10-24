@@ -368,6 +368,65 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Mikhail Kvetsinskiy"
+	picture = "RUS_Portrait_General_Mikhail_Kvetsinsky.tga"
+	traits = {
+		old_guard
+		trait_cautious
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Konstantin Mamantov"
+	picture = "RUS_Portrait_General_Konstantin_Mamontov.tga"
+	traits = {
+		old_guard
+		cavalry_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Viktor Pokrovskiy"
+	picture = "RUS_Portrait_General_Viktor_Pokrovsky.tga"
+	traits = {
+		trait_reckless
+		career_officer
+		trickster
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Abram Dragomirov"
+	picture = "RUS_Portrait_General_Abram_Dragomirov.tga"
+	traits = {
+		old_guard
+		cavalry_officer
+		organizer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
 	name = "Mikhail Levitov"
 	picture = "RUS_Portrait_General_Mikhail_Levitov.tga"
 	traits = {
