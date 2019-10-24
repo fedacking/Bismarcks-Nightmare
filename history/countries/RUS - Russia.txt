@@ -174,6 +174,17 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Mikhail Tukhachevskiy"
+	picture = "RUS_Portrait_General_Mikhail_Tukhachevsky.dds"
+	traits = { politically_connected brilliant_strategist infantry_officer career_officer }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
 	name = "Konstantin Rokossovskiy"
 	picture = "RUS_Portrait_General_Konstantin_Rokossovsky.tga"
 	traits = {
@@ -274,6 +285,47 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ivan Romanovskiy"
+	picture = "RUS_Portrait_General_Ivan_Romanovsky.tga"
+	traits = {
+		old_guard
+		artillery_officer
+		career_officer
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Grigoriy Semyenov"
+	picture = "RUS_Portrait_General_Grigory_Semyonov.tga"
+	traits = {
+		cavalry_leader
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Vasiliy Boldyrev"
+	picture = "RUS_Portrait_General_Vasily_Boldyrev.tga"
+	traits = {
+		old_guard
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 2
 }
@@ -412,6 +464,67 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Pyetr Popov"
+	picture = "RUS_Portrait_General_Pyotr_Popov.tga"
+	traits = {
+		old_guard
+		cavalry_officer
+		cavalry_leader
+		organizer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mitrofan Nezhentsev"
+	picture = "RUS_Portrait_General_Mitrofan_Nezhentsev.tga"
+	traits = {
+		war_hero
+		organizer
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vasiliy Chuykov"
+	picture = "RUS_Portrait_General_Vasily_Chuikov.tga"
+	traits = {
+		infantry_officer
+		trait_engineer
+		urban_assault_specialist
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Pavel Shatilov"
+	picture = "RUS_Portrait_General_Pavel_Shatilov.tga"
+	traits = {
+		politically_connected
+		cavalry_officer
+		cavalry_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
 	name = "Abram Dragomirov"
 	picture = "RUS_Portrait_General_Abram_Dragomirov.tga"
 	traits = {
@@ -485,18 +598,79 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
-create_corps_commander = {
-	name = "Pyetr Popov"
-	picture = "RUS_Portrait_General_Pyotr_Popov.tga"
+###Admirals
+
+create_navy_leader = {
+	name = "Aleksandr Kolchak"
+	picture = "RUS_Portrait_Admiral_Alexandr_Kolchak.tga"
 	traits = {
-		old_guard
-		cavalry_officer
-		cavalry_leader
-		organizer
+		superior_tactician
 	}
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Vasiliy Kanin"
+	picture = "RUS_Portrait_Admiral_Vasily_Kanin.tga"
+	traits = { old_guard_navy superior_tactician }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Mikhail Kedrov"
+	picture = "RUS_Portrait_Admiral_Mikhail_Kedrov.tga"
+	traits = { superior_tactician ironside }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 2
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Nikolay Kolomeytsev"
+	picture = "RUS_Portrait_Admiral_Nikolai_Kolomeitsev.tga"
+	traits = { old_guard_navy }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Mikhail Berens"
+	picture = "RUS_Portrait_Admiral_Mikhail_Berens.tga"
+	traits = { air_controller }
 	skill = 2
 	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Neon Antonov"
+	picture = "RUS_Portrait_Admiral_Neon_Antonov.tga"
+	traits = {}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Nestor Monastyryev"
+	picture = "RUS_Portrait_Admiral_Nestor_Monastyrev.tga"
+	traits = { seawolf }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
