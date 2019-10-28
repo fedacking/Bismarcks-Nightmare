@@ -13,3 +13,7 @@
  ### Foreign Minister ###
  for_naive_enthusiast:0 "Naive Enthusiast"
  for_anti_communist_crusader:0 "Anti-Communist Crusader"
+ 
+ ##Military personality
+ artillery_officer: "Artillery Officer"
+ artillery_officer_desc: "§LThis man has been to the side of artillery as far as he can remember.§!"

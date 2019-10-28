@@ -308,7 +308,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Vasiliy Chernetsov"
-	picture = RUS_Portrait_General_Vasili_Chernetsov.tga"
+	picture = "RUS_Portrait_General_Vasili_Chernetsov.tga"
 	traits = {
 		trait_reckless
 		cavalry_leader
@@ -619,7 +619,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Anatoliy Rogozhin"
-	picture = "RUS_Portrait_General_Anatoly_Rogozhin"
+	picture = "RUS_Portrait_General_Anatoly_Rogozhin.tga"
 	traits = {
 		cavalry_officer
 		hill_fighter
