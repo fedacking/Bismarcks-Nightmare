@@ -33,7 +33,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Franz Ferdinand I"
+	name = "Franz II"
 	desc = "POLITICS_FRANZ_FERDINAND_DESC"
 	picture = "gfx/leaders/AUS/Portrait_Franz_Ferdinand.tga"
 	expire = "1965.1.1"
