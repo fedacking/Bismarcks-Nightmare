@@ -5,6 +5,7 @@ state = {
 	state_category = large_city
 	history = {
 		owner = ROM
+		add_core_of = ROM
 		victory_points = {
 			9907 3 
 		}
@@ -27,7 +28,6 @@ state = {
 				naval_base = 4
 			}
 		}
-		add_core_of = ROM
 	}
 	provinces = {
 		910 1616 3885 6875 6946 6973 9750 9879 9907 11833 11889 

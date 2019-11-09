@@ -9,6 +9,7 @@ state = {
 	}
 	history = {
 		owner = ROM
+		add_core_of = ROM
 		victory_points = {
 			819 20 
 		}
@@ -21,7 +22,6 @@ state = {
 				naval_base = 6
 			}
 		}
-		add_core_of = ROM
 	}
 	provinces = {
 		819 851 883 955 3958 3968 6843 6939 6972 6980 9826 11803 
