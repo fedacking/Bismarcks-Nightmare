@@ -5,6 +5,7 @@ state = {
 	state_category = city
 	history = {
 		owner = ROM
+		add_core_of = ROM
 		victory_points = { 9904 40 }
 		victory_points = { 11846 5 }
 		buildings = {
@@ -19,7 +20,6 @@ state = {
 				naval_base = 2
 			}
 		}
-		add_core_of = ROM
 	}
 	provinces = {
 		923 6862 9794 9904 11751 11846 11882
