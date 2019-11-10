@@ -1,16 +1,10 @@
 ﻿ROM_LEG_01 = {
 	name = "Roman Legion"
-
 	for_countries = { ROM }
-
 	can_use = { always = yes }
-
 	division_types = { "infantry" }
+	fallback_name = "Legio %dth"
 
-	fallback_name = "%dth Roman Legion"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
 	ordered = {
 		1 = { "Legio I Germanica" }    
 		2 = { "Legio II Sabina" }
@@ -33,58 +27,211 @@
 		20 = { "Legio XX Gallica" }
 		21 = { "Legio XXI Scythica" }
 		22 = { "Legio XXII Victrix" }
+		23 = { "Legio XXIII" }
+		24 = { "Legio XXIV" }
+		25 = { "Legio XXV" }
+		26 = { "Legio XXVI" }
+		27 = { "Legio XXVII" }
+		28 = { "Legio XXVIII" }
+		29 = { "Legio XXIX" }
 		30 = { "Legio XXX Classica" }
+		31 = { "Legio XXXI" }
+		32 = { "Legio XXXII" }
+		33 = { "Legio XXXIII" }
+		34 = { "Legio XXXIV" }
+		35 = { "Legio XXXV" }
+		36 = { "Legio XXXVI" }
+		37 = { "Legio XXXVII" }
+		38 = { "Legio XXXVIII" }
+		39 = { "Legio XXXIX" }
+		40 = { "Legio XL" }
+		41 = { "Legio XLI" }
+		42 = { "Legio XLII" }
+		43 = { "Legio XLIII" }
+		44 = { "Legio XLIV" }
+		45 = { "Legio XLV" }
+		46 = { "Legio XLVI" }
+		47 = { "Legio XLVII" }
+		48 = { "Legio XLVII" }
+		49 = { "Legio XLIX" }
+		50 = { "Legio L" }
 	}
 }
 
-ROM_INF_01 = {
-	name = "Infantry Division"
-
+ROM_CAV_01 = {
+	name = "Roman Cavalry Formations"
 	for_countries = { ROM }
-
 	can_use = { always = yes }
+	division_types = { "cavalry" }
+	fallback_name = "Equites %s"
 
-	division_types = { "infantry" }
-
-	fallback_name = "%dth Infantry Division"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%dst Infantry Division" }
-		2 = { "%dnd Infantry Division" }
-		3 = { "%drd Infantry Division" }
-		4 = { "%dth Infantry Division" }
-		5 = { "%dth Infantry Division" }
-		6 = { "%dth Infantry Division" }
-		7 = { "%dth Infantry Division" }
-		8 = { "%dth Infantry Division" }
-		9 = { "%dtg Infantry Division" }
-		10 = { "%dnd Infantry Division" }
-		11 = { "%drd Infantry Division" }
-		12 = { "%dth Infantry Division" }
-		13 = { "%dth Infantry Division" }
-		100 = { "%dth Infantry Division" }
-		101 = { "%dst Infantry Division" }
-		102 = { "%dnd Infantry Division" }
-		103 = { "%drd Infantry Division" }
+		1 = { "Equites %s" }
+		2 = { "Equites %s" }
+		3 = { "Equites %s" }
+		4 = { "Equites %s" }
+		5 = { "Equites %s" }
+		6 = { "Equites %s" }
+		7 = { "Equites %s" }
+		9 = { "Equites %s" }
+		8 = { "Equites %s" }
+		10 = { "Equites %s" }
 	}
 }
 
+ROM_MOT_01 = {
+	name = "Roman Motorised Legions"
+	for_countries = { ROM }
+	can_use = { always = yes }
+	division_types = { "motorized" }
+	fallback_name = "Legio Motricium %s"
+
+	ordered = {
+		1 = { "Legio Motricium %s" }
+		2 = { "Legio Motricium %s" }
+		3 = { "Legio Motricium %s" }
+		4 = { "Legio Motricium %s" }
+		5 = { "Legio Motricium %s" }
+		6 = { "Legio Motricium %s" }
+		7 = { "Legio Motricium %s" }
+		8 = { "Legio Motricium %s" }
+		9 = { "Legio Motricium %s" }
+
+	}
+}
+
+ROM_ARM_01 = {
+	name = "Roman Armored Legions"
+	for_countries = { ROM }
+	can_use = { always = yes }
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	fallback_name = "Legio Loricatorum %s"
+	
+	ordered = {
+		1 = { "Legio Loricatorum %s" }
+		2 = { "Legio Loricatorum %s" }
+		3 = { "Legio Loricatorum %s" }
+		4 = { "Legio Loricatorum %s" }
+		5 = { "Legio Loricatorum %s" }
+		6 = { "Legio Loricatorum %s" }
+		7 = { "Legio Loricatorum %s" }
+		8 = { "Legio Loricatorum %s" }
+		9 = { "Legio Loricatorum %s" }
+	}
+}
+
+ROM_MEC_01 = {
+	name = "Roman Mech. Legions"
+	for_countries = { ROM }
+	can_use = { always = yes }
+	division_types = { "mechanized"  }
+	fallback_name = "Legio Mechanica %s"
+
+	ordered = {
+		1 = { "Legio Mechanica %s" }
+		2 = { "Legio Mechanica %s" }
+		3 = { "Legio Mechanica %s" }
+		4 = { "Legio Mechanica %s" }
+		5 = { "Legio Mechanica %s" }
+		6 = { "Legio Mechanica %s" }
+		7 = { "Legio Mechanica %s" }
+		8 = { "Legio Mechanica %s" }
+		9 = { "Legio Mechanica %s" }
+	}
+}
+
+ROM_AUX_01 = {
+	name = "Roman Auxiliaries"
+	for_countries = { ROM }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	#link_numbering_with = { ROM_INF_01 }
+	fallback_name = "Auxilia %s"
+
+	ordered = {
+		1 = { "Auxilia %s" }
+		2 = { "Auxilia %s" }
+		3 = { "Auxilia %s" }
+		4 = { "Auxilia %s" }
+		5 = { "Auxilia %s" }
+		6 = { "Auxilia %s" }
+		7 = { "Auxilia %s" }
+		9 = { "Auxilia %s" }
+		8 = { "Auxilia %s" }
+		10 = { "Auxilia %s" }
+	}
+}
+
+ROM_MAR_01 = {
+	name = "Roman Marine Units"
+	for_countries = { ROM }
+	can_use = { always = yes }
+	division_types = { "marine" }
+	fallback_name = "Classica %s"
+
+	ordered = 	{
+		1 = { "Classica %s" }
+		2 = { "Classica %s" }
+		3 = { "Classica %s" }
+		4 = { "Classica %s" }
+		5 = { "Classica %s" }
+		6 = { "Classica %s" }
+		7 = { "Classica %s" }
+		9 = { "Classica %s" }
+		8 = { "Classica %s" }
+		10 = { "Classica %s" }
+	}
+}
+
+ROM_MTN_01 = {
+	name = "Roman Mountain Legions"
+	for_countries = { ROM }
+	can_use = { always = yes }
+	division_types = { "mountaineers" }
+	fallback_name = "Legio Mons %s"
+
+	ordered = {
+		1 = { "Legio Mons %s" }
+		2 = { "Legio Mons %s" }
+		3 = { "Legio Mons %s" }
+		4 = { "Legio Mons %s" }
+		5 = { "Legio Mons %s" }
+		6 = { "Legio Mons %s" }
+		7 = { "Legio Mons %s" }
+		9 = { "Legio Mons %s" }
+		8 = { "Legio Mons %s" }
+		10 = { "Legio Mons %s" }
+	}
+}
+
+ROM_PAR_01 = {
+	name = "Roman Paratrooper Legions"
+	for_countries = { ROM }
+	can_use = { always = yes }
+	division_types = { "paratrooper" }
+	fallback_name = "Legio Caeli %s"
+
+	ordered = {
+		1 = { "Legio Caeli %s" }
+		2 = { "Legio Caeli %s" }
+		3 = { "Legio Caeli %s" }
+		4 = { "Legio Caeli %s" }
+		5 = { "Legio Caeli %s" }
+		6 = { "Legio Caeli %s" }
+		7 = { "Legio Caeli %s" }
+		9 = { "Legio Caeli %s" }
+		8 = { "Legio Caeli %s" }
+		10 = { "Legio Caeli %s" }
+	}
+}
 
 ROM_GAR_01 = {
 	name = "Garrison"
-
 	for_countries = { ROM }
-
 	can_use = { always = yes }
-
 	division_types = { "infantry" }
-
-	fallback_name = "%d Garrison"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
+	fallback_name = "%dth Garrison"
+	
 	ordered = {
 		1 = { "Roma Garrison" }
 		2 = { "La Spezia Garrison" }
