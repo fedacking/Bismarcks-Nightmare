@@ -68,6 +68,7 @@ leader_traits = {
 	## 			Foreign Ministers		  ##
 	########################################	
 	
+	foreign_minister = {}
 	for_naive_enthusiast = {
 		justify_war_goal_time = 0.05
 		political_power_gain = 0.05

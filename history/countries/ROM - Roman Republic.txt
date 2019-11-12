@@ -18,6 +18,10 @@ add_ideas = {
 	ROM_idea_shaky_coalition
 }
 
+add_ideas = {
+	ROM_for_des_roberto_farinacci
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

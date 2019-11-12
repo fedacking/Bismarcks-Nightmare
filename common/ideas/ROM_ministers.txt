@@ -1,0 +1,50 @@
+ideas = {
+	
+	foreign_minister = {
+		
+		ROM_for_des_roberto_farinacci = {
+			picture = minister_roberto_farinacci
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_roberto_farinacci_dead }
+					has_country_flag = can_replace_for
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				foreign_minister
+				despotist
+				for_fervent_anti_french
+			}
+			cancel_if_invalid = no
+		}
+		
+		ROM_for_des_galeazzo_ciano = {
+			picture = minister_galeazzo_ciano
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_galeazzo_ciano_dead }
+					has_country_flag = can_replace_for
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				foreign_minister
+				despotist
+				for_flexible_diplomat
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+}

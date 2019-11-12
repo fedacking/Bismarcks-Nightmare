@@ -9,27 +9,23 @@ spriteTypes = {
 		name = "GFX_idea_minister_louis_marin"
 		texturefile = "gfx/interface/ministers/FRA/idea_minister_louis_marin.tga"
 	}
-
 	SpriteType = {
 		name = "GFX_idea_minister_pierre_taittinger"
 		texturefile = "gfx/interface/ministers/FRA/idea_minister_pierre_taittinger.tga"
 	}
-	
 	SpriteType = {
 		name = "GFX_idea_minister_pierre_etienne_flandin"
 		texturefile = "gfx/interface/ministers/FRA/idea_minister_pierre_etienne_flandin.tga"
 	}
-	
 	SpriteType = {
 		name = "GFX_idea_minister_pierre_laval"
 		texturefile = "gfx/interface/ministers/FRA/idea_minister_pierre_laval.tga"
 	}
-	
 	SpriteType = {
 		name = "GFX_idea_minister_edouard_daladier"
 		texturefile = "gfx/interface/ministers/FRA/idea_minister_edouard_daladier.tga"
 	}
-	
+
     ##Argentina
 	SpriteType = {
 		name = "GFX_idea_minister_rodolfo_ghioldi"
@@ -84,4 +80,17 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/ARG/idea_minister_juan_domingo_peron.tga"
 	}
 
+
+	#Rome
+
+	SpriteType = {
+		name = "GFX_idea_minister_roberto_farinacci"
+		texturefile = "gfx/interface/ministers/ROM/idea_minister_roberto_farinacci.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_galeazzo_ciano"
+		texturefile = "gfx/interface/ministers/ROM/idea_minister_galeazzo_ciano.tga"
+	}
+
+	
 }
