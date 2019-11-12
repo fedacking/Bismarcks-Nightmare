@@ -1,25 +1,83 @@
 ideas = {
+
+	head_of_government = {
 	
-	foreign_minister = {
-		
-		ROM_for_des_roberto_farinacci = {
-			picture = minister_roberto_farinacci
+		ROM_hog_rli_ferrucio_parri = {
+			picture = minister_ferrucio_parri
 			allowed = { original_tag = ROM }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ROM_flag_roberto_farinacci_dead }
-					has_country_flag = can_replace_for
+					NOT = { has_country_flag = ROM_flag_ferrucio_parri_dead }
+					has_country_flag = can_appoint_republican_liberal
+					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
+				NOT = { has_country_flag = ROM_flag_ferrucio_parri_dead }
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				republican_liberal
+				hog_master_compromiser
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	economy_minister = {
+	
+		ROM_eco_rli_giovanni_conti = {
+			picture = minister_giovanni_conti
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_giovanni_conti_dead }
+					has_country_flag = can_appoint_republican_liberal
+					has_country_flag = can_replace_eco
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_giovanni_conti_dead }
+			}
+			on_add = {
+			}
+			traits = {
+				economy_minister
+				republican_liberal
+				eco_reformer
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	foreign_minister = {
+	
+		ROM_for_soc_giuseppe_saragat = {
+			picture = minister_giuseppe_saragat
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					has_country_flag = can_appoint_socialist
+					has_country_flag = can_replace_for
+					NOT = { has_country_flag = ROM_flag_giuseppe_saragat_dead }
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_giuseppe_saragat_dead }
 			}
 			on_add = {
 			}
 			traits = {
 				foreign_minister
-				despotist
-				for_fervent_anti_french
+				socialist
+				for_apologetic_clerk
 			}
 			cancel_if_invalid = no
 		}
@@ -31,10 +89,12 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ROM_flag_galeazzo_ciano_dead }
+					has_country_flag = can_appoint_despotist
 					has_country_flag = can_replace_for
 				}
 			}
 			visible = {
+				NOT = { has_country_flag = ROM_flag_galeazzo_ciano_dead }
 			}
 			on_add = {
 			}
@@ -42,6 +102,33 @@ ideas = {
 				foreign_minister
 				despotist
 				for_flexible_diplomat
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	security_minister = {
+		
+		ROM_sec_des_roberto_farinacci = {
+			picture = minister_roberto_farinacci
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_roberto_farinacci_dead }
+					has_country_flag = can_appoint_despotist
+					has_country_flag = can_replace_for
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_roberto_farinacci_dead }
+			}
+			on_add = {
+			}
+			traits = {
+				security_minister
+				despotist
+				sec_prince_of_terror
 			}
 			cancel_if_invalid = no
 		}

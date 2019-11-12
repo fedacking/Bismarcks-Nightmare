@@ -1,6 +1,8 @@
 ﻿l_english:
  ### Generic
+ ministers:0 "Ministers"
  tooltip_minister_available:0 "Available Minister"
+ 
  ### Head of Government ###
  head_of_government:0 "Head of Government"
  hog_blinded_ideologue:0 "Blinded Ideologue"
@@ -10,10 +12,22 @@
  hog_unsung_hero:0 "Unsung Hero"
  hog_staunch_nativist:0 "Staunch Nativist"
  hog_out_of_date_monarch:0 "Out of Date Monarch"
+ hog_master_compromiser:0 "Master Compromiser"
+ 
  ### Foreign Minister ###
  foreign_minister:0 "Foreign Minister"
  for_naive_enthusiast:0 "Naive Enthusiast"
  for_anti_communist_crusader:0 "Anti-Communist Crusader"
+ for_flexible_diplomat:0 "Flexible Diplomat"
+ for_apologetic_clerk:0 "Apologetic Clerk"
+ 
+ ### Economy Minister ###
+ economy_minister:0 "Economy Minister"
+ eco_reformer:0 "Ardent Reformer"
+ 
+ ### Security Minister ###
+ security_minister:0 "Security Minister"
+ sec_prince_of_terror:0 "Prince of Terror"
  
  ##Military personality
  artillery_officer: "Artillery Officer"

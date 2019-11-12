@@ -19,7 +19,10 @@ add_ideas = {
 }
 
 add_ideas = {
-	ROM_for_des_roberto_farinacci
+	ROM_hog_rli_ferrucio_parri
+	ROM_for_soc_giuseppe_saragat
+	ROM_eco_rli_giovanni_conti
+	ROM_sec_des_roberto_farinacci
 }
 
 # Starting tech

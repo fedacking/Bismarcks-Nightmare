@@ -34,3 +34,14 @@
  ROM_shaky_coalition_desc:0 "The governing coalition has been under duress since the last year. With the economic crisis and the constant infighting between the Fascists and Socialists, the Coalition seems poised to fall."
  
  ROM_idea_hole_budget:0 "Budget Shortfall"
+ 
+ ###Ministers
+ ## Head of government
+ ROM_hog_rli_ferrucio_parri:0 "Ferrucio Parri"
+ ## Foreign
+ ROM_for_soc_giuseppe_saragat:0 "Giuseppe Saragat"
+ ROM_for_des_galeazzo_ciano:0 "Galeazzo Ciano"
+ ## Economy
+ ROM_eco_rli_giovanni_conti:0 "Giovanni Conti"
+ ## Security
+ ROM_sec_des_roberto_farinacci:0 "Roberto Farinacci"

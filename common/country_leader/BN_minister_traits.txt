@@ -17,6 +17,7 @@ leader_traits = {
 
 	#Tipo
 	head_of_government = {}
+	
 	hog_blinded_ideologue = {
 		war_support_factor = 0.05
 		justify_war_goal_time = -0.15
@@ -64,11 +65,18 @@ leader_traits = {
 		random = no
 	}
 	
+	hog_master_compromiser = {
+		political_power_cost = 0.1
+		stability_factor = 0.10
+		random = no
+	}
+	
 	########################################
 	## 			Foreign Ministers		  ##
 	########################################	
 	
 	foreign_minister = {}
+	
 	for_naive_enthusiast = {
 		justify_war_goal_time = 0.05
 		political_power_gain = 0.05
@@ -79,6 +87,44 @@ leader_traits = {
 		justify_war_goal_time = -0.05
 		political_power_gain = -0.1
 		opinion_gain_monthly_same_ideology = 0.25
+		random = no
+	}
+	
+	for_flexible_diplomat = {
+	 	trade_opinion_factor = 0.25
+		opinion_gain_monthly_factor = 0.10
+		random = no
+	}
+
+	for_apologetic_clerk = {
+		political_power_gain = 0.05
+		random = no
+	}
+	
+	########################################
+	## 			Economy Ministers		  ##
+	########################################	
+	
+	economy_minister = {}
+	
+	eco_reformer = {
+		political_power_cost = 0.05
+		production_speed_infrastructure_factor = 0.05
+		production_speed_industrial_complex_factor = 0.10
+		random = no
+	}
+	
+	########################################
+	## 			Security Ministers		  ##
+	########################################	
+	
+	security_minister = {}
+	
+	sec_prince_of_terror = {
+		political_power_gain = 0.05
+		local_resources = 0.05
+		local_manpower =  0.05
+		local_factories = 0.05
 		random = no
 	}
 }

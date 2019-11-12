@@ -185,6 +185,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			remove_ideas = { ROM_sec_des_roberto_farinacci }
 		}
 	}
 
@@ -473,6 +474,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			set_country_flag = can_appoint_despotist
+			add_ideas = { ROM_for_des_galeazzo_ciano }
 		}
 	}
 
