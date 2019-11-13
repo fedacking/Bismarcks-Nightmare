@@ -3,7 +3,7 @@
 	for_countries = { ROM }
 	can_use = { always = yes }
 	division_types = { "infantry" }
-	fallback_name = "Legio %dth"
+	fallback_name = "Legio %s"
 
 	ordered = {
 		1 = { "Legio I Germanica" }    
