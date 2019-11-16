@@ -194,4 +194,14 @@ spriteTypes = {
 		name = "GFX_goal_ROM_soldiers_fire"
 		texturefile = "gfx/interface/goals/goal_ROM_soldiers_fire.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_national_mobilization"
+		texturefile = "gfx/interface/goals/goal_national_mobilization.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_continuous_political"
+		texturefile = "gfx/interface/goals/goal_continuous_political.dds"
+	}
 }

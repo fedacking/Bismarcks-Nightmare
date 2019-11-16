@@ -26,6 +26,31 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	
+		ROM_hog_des_benito_mussolini = {
+			picture = minister_benito_mussolini
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_benito_mussolini_dead }
+					has_country_flag = can_appoint_republican_liberal
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_benito_mussolini_dead }
+				has_country_flag = ROM_flag_fascist_coup
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				despotist
+				hog_blinded_ideologue
+			}
+			cancel_if_invalid = no
+		}
+	
 	}
 	
 	economy_minister = {

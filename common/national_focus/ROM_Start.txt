@@ -51,7 +51,7 @@ focus_tree = {
 		relative_position_id = ROM_on_unenmployment
 		x = -1
 		y = 1
-		cost = 10
+		cost = 4
 		mutually_exclusive = { focus = ROM_expand_the_army }
 
 		available_if_capitulated = no
@@ -67,7 +67,7 @@ focus_tree = {
 		relative_position_id = ROM_on_unenmployment
 		x = 1
 		y = 1
-		cost = 10
+		cost = 4
 		mutually_exclusive = { focus = ROM_redundancy_funds }
 
 		available_if_capitulated = no
@@ -88,7 +88,7 @@ focus_tree = {
 		relative_position_id = ROM_on_unenmployment
 		x = 0
 		y = 2
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = no
 
@@ -104,7 +104,7 @@ focus_tree = {
 		relative_position_id = ROM_woes_of_the_coalition
 		x = 2
 		y = 1
-		cost = 10
+		cost = 2
 
 		available_if_capitulated = no
 
@@ -178,7 +178,7 @@ focus_tree = {
 		relative_position_id = ROM_how_do_we_pay_for_it
 		x = -3
 		y = 1
-		cost = 10
+		cost = 1
 		mutually_exclusive = { focus = ROM_the_liberals_stand_alone }
 		mutually_exclusive = { focus = ROM_the_socialists_leave }
 
@@ -197,7 +197,7 @@ focus_tree = {
 		relative_position_id = ROM_the_fascists_leave
 		x = -1
 		y = 1
-		cost = 10
+		cost = 3
 		mutually_exclusive = { focus = ROM_trust_the_republic }
 
 		available_if_capitulated = no
@@ -213,7 +213,7 @@ focus_tree = {
 		relative_position_id = ROM_cast_the_die
 		x = -1
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -228,7 +228,7 @@ focus_tree = {
 		relative_position_id = ROM_cast_the_die
 		x = 1
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -244,7 +244,7 @@ focus_tree = {
 		relative_position_id = ROM_cast_the_die
 		x = 0
 		y = 2
-		cost = 10
+		cost = 3
 		mutually_exclusive = { focus = ROM_consul_election }
 		mutually_exclusive = { focus = ROM_fascist_coup }
 
@@ -259,11 +259,11 @@ focus_tree = {
 	focus = {
 		id = ROM_trust_the_republic
 		prerequisite = { focus = ROM_the_fascists_leave }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_diplomatic_treaty
 		relative_position_id = ROM_the_fascists_leave
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 		mutually_exclusive = { focus = ROM_cast_the_die }
 
 		available_if_capitulated = no
@@ -279,7 +279,7 @@ focus_tree = {
 		relative_position_id = ROM_trust_the_republic
 		x = 1
 		y = 1
-		cost = 10
+		cost = 4
 
 		available_if_capitulated = no
 
@@ -303,17 +303,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			remove_ideas = { 
+				ROM_for_soc_giuseppe_saragat
+				ROM_sec_des_roberto_farinacci
+			}
 		}
 	}
 
 	focus = {
 		id = ROM_rearrenge_the_deck_chairs
 		prerequisite = { focus = ROM_the_liberals_stand_alone }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_continuous_political
 		relative_position_id = ROM_the_liberals_stand_alone
 		x = -1
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -324,11 +328,11 @@ focus_tree = {
 	focus = {
 		id = ROM_the_band_keeps_playing
 		prerequisite = { focus = ROM_the_liberals_stand_alone }
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_national_mobilization
 		relative_position_id = ROM_the_liberals_stand_alone
 		x = 1
 		y = 1
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -344,7 +348,7 @@ focus_tree = {
 		relative_position_id = ROM_the_liberals_stand_alone
 		x = 0
 		y = 2
-		cost = 10
+		cost = 3
 
 		available_if_capitulated = no
 
@@ -363,7 +367,7 @@ focus_tree = {
 		relative_position_id = ROM_the_liberals_stand_alone
 		x = 0
 		y = 3
-		cost = 10
+		cost = 3
 		mutually_exclusive = { focus = ROM_socialist_coup }
 		mutually_exclusive = { focus = ROM_fascist_coup }
 
@@ -390,6 +394,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			remove_ideas = { ROM_for_soc_giuseppe_saragat }
 		}
 	}
 	
@@ -408,15 +413,29 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			random_neighbor_country = {
+				limit = {  
+					strength_ratio = {
+						tag = ROOT
+						ratio < 0.6
+					}
+				}
+				ROOT = {
+					create_wargoal = {
+						type = annex_everything
+						target = PREV
+					}
+				}
+			}
 		}
 	}
 
 	focus = {
 		id = ROM_the_group_of_united_officers
 		prerequisite = { focus = ROM_save_the_nation }
-		icon = GFX_focus_generic_military_mission
+		icon = GFX_goal_shadow_government
 		relative_position_id = ROM_save_the_nation
-		x = -1
+		x = 1
 		y = 1
 		cost = 10
 
@@ -431,7 +450,7 @@ focus_tree = {
 		prerequisite = { focus = ROM_save_the_nation }
 		icon = GFX_focus_RAJ_lions_of_the_great_war
 		relative_position_id = ROM_save_the_nation
-		x = 1
+		x = -1
 		y = 1
 		cost = 10
 

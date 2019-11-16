@@ -38,6 +38,7 @@
  ###Ministers
  ## Head of government
  ROM_hog_rli_ferrucio_parri:0 "Ferrucio Parri"
+ ROM_hog_des_benito_mussolini:0 "Benito Mussolini"
  ## Foreign
  ROM_for_soc_giuseppe_saragat:0 "Giuseppe Saragat"
  ROM_for_des_galeazzo_ciano:0 "Galeazzo Ciano"

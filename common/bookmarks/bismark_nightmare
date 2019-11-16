@@ -1,14 +1,14 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "BISMARCKS_NIGHTMARE_NAME"
+		desc = "BISMARCKS_NIGHTMARE_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "ARG"
 		default = yes
 		
 		"ARG"={
-			history = "ARG_GATHERING_STORM_DESC"
+			history = "ARG_BISMARCKS_NIGHTMARE_DESC"
 			ideology = semi_constitutionalist
 			ideas = {
 			}
@@ -17,7 +17,7 @@ bookmarks = {
 		}
 		
 		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "FRA_BISMARCKS_NIGHTMARE_DESC"
 			ideology = semi_constitutionalist
 			ideas = {
 				FRA_idea_depression_0
@@ -25,11 +25,14 @@ bookmarks = {
 				FRA_idea_napoleon_iv_reforms
 			}
 			focuses = {
+				FRA_the_great_compromise
+				FRA_all_the_emperors_men
+				FRA_emergency_revolutionary_government
 			}
 		}
 		
 		"AUS"={
-			history = "AUS_GATHERING_STORM_DESC"
+			history = "AUS_BISMARCKS_NIGHTMARE_DESC"
 			ideology = social_conservative
 			ideas = {
 			}
@@ -38,7 +41,7 @@ bookmarks = {
 		}
 		
 		"RUS"={
-			history = "RUS_GATHERING_STORM_DESC"
+			history = "RUS_BISMARCKS_NIGHTMARE_DESC"
 			ideology = absolutist
 			ideas = {
 			}
@@ -47,7 +50,7 @@ bookmarks = {
 		}
 		
 		"SCA"={
-			history = "SCA_GATHERING_STORM_DESC"
+			history = "SCA_BISMARCKS_NIGHTMARE_DESC"
 			ideology = semi_constitutionalist
 			ideas = {
 			}
@@ -56,11 +59,11 @@ bookmarks = {
 		}
 		
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_BISMARCKS_NIGHTMARE_DESC"
 		}
 		
 		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "USA_BISMARCKS_NIGHTMARE_DESC"
 			ideology = social_conservative
 			minor = yes
 			ideas = {
@@ -72,7 +75,7 @@ bookmarks = {
 		}
 		
 		"ROM"={
-			history = "ROM_GATHERING_STORM_DESC"
+			history = "ROM_BISMARCKS_NIGHTMARE_DESC"
 			ideology = republican_liberal
 			minor = yes
 			ideas = {
