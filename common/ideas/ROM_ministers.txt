@@ -107,6 +107,30 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
+		ROM_for_rli_randolfo_pacciardi = {
+			picture = minister_randolfo_pacciardi
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_randolfo_pacciardi_dead }
+					has_country_flag = can_appoint_republican_liberal
+					has_country_flag = can_replace_for
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_randolfo_pacciardi_dead }
+			}
+			on_add = {
+			}
+			traits = {
+				foreign_minister
+				republican_liberal
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+		
 		ROM_for_des_galeazzo_ciano = {
 			picture = minister_galeazzo_ciano
 			allowed = { original_tag = ROM }
@@ -134,6 +158,54 @@ ideas = {
 	
 	security_minister = {
 		
+		ROM_sec_soc_sandro_pertini = {
+			picture = minister_sandro_pertini
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_sandro_pertini_dead }
+					has_country_flag = can_appoint_socialist
+					has_country_flag = can_replace_sec
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_sandro_pertini_dead }
+			}
+			on_add = {
+			}
+			traits = {
+				security_minister
+				socialist
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = no
+		}
+		
+		ROM_sec_rli_oronzo_reale = {
+			picture = minister_oronzo_reale
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_oronzo_reale_dead }
+					has_country_flag = can_appoint_republican_liberal
+					has_country_flag = can_replace_sec
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_oronzo_reale_dead }
+			}
+			on_add = {
+			}
+			traits = {
+				security_minister
+				republican_liberal
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+		
 		ROM_sec_des_roberto_farinacci = {
 			picture = minister_roberto_farinacci
 			allowed = { original_tag = ROM }
@@ -142,7 +214,7 @@ ideas = {
 					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ROM_flag_roberto_farinacci_dead }
 					has_country_flag = can_appoint_despotist
-					has_country_flag = can_replace_for
+					has_country_flag = can_replace_sec
 				}
 			}
 			visible = {

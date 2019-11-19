@@ -89,6 +89,12 @@ leader_traits = {
 		opinion_gain_monthly_same_ideology = 0.25
 		random = no
 	}
+
+	for_ideological_crusader = {
+		opinion_gain_monthly_same_ideology_factor = 0.25
+
+		random = no
+	}
 	
 	for_flexible_diplomat = {
 	 	trade_opinion_factor = 0.25
@@ -125,6 +131,20 @@ leader_traits = {
 		local_resources = 0.05
 		local_manpower =  0.05
 		local_factories = 0.05
+		random = no
+	}
+
+	sec_crime_fighter = {
+		political_power_gain = 0.05
+		conscription_factor = -0.02
+
+		random = no
+	}
+
+	sec_compassionate_gentleman = {
+		stability_factor = 0.02
+		political_power_gain = 0.04
+
 		random = no
 	}
 }

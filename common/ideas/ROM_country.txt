@@ -30,9 +30,25 @@ ideas = {
 				political_power_cost = 0.1
 			}
 		}
+		
+		ROM_idea_redundancy_funds = {
+			picture = new_deal
+			modifier = {
+				political_power_gain = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+		ROM_idea_overzied_military_budget = {
+			picture = MEX_politicised_army
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				training_time_army_factor = -0.1
+			}
+		}
 
 		ROM_idea_hole_budget = {
-			picture = capital_outflow
+			picture = ROM_king_carol_emptied_accounts
 			modifier = {
 				production_speed_buildings_factor = -0.2
 			}

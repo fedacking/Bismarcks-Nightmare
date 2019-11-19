@@ -96,12 +96,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/ROM/idea_minister_giuseppe_saragat.tga"
 	}
 	SpriteType = {
+		name = "GFX_idea_minister_randolfo_pacciardi"
+		texturefile = "gfx/interface/ministers/ROM/idea_minister_randolfo_pacciardi.tga"
+	}
+	SpriteType = {
 		name = "GFX_idea_minister_galeazzo_ciano"
 		texturefile = "gfx/interface/ministers/ROM/idea_minister_galeazzo_ciano.tga"
 	}
 	SpriteType = {
 		name = "GFX_idea_minister_giovanni_conti"
 		texturefile = "gfx/interface/ministers/ROM/idea_minister_giovanni_conti.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_sandro_pertini"
+		texturefile = "gfx/interface/ministers/ROM/idea_minister_sandro_pertini.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_oronzo_reale"
+		texturefile = "gfx/interface/ministers/ROM/idea_minister_oronzo_reale.tga"
 	}
 	SpriteType = {
 		name = "GFX_idea_minister_roberto_farinacci"

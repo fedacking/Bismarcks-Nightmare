@@ -24,6 +24,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = rom.1
 			add_stability = 0.05
 		}
 	}
@@ -57,6 +58,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = -50
+			add_ideas = ROM_idea_redundancy_funds
 		}
 	}
 
@@ -74,7 +77,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = -50
-			add_ideas = extensive_conscription
+			add_ideas = ROM_idea_overzied_military_budget
 		}
 	}
 
@@ -137,6 +140,7 @@ focus_tree = {
 		id = ROM_close_the_city
 		prerequisite = { focus = ROM_march_on_rome }
 		icon = GFX_goal_generic_fortify_city
+		available = { has_idea = ROM_idea_march_on_rome }
 		relative_position_id = ROM_march_on_rome
 		x = 1
 		y = 1
@@ -269,6 +273,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = ROM_sec_soc_sandro_pertini
+			set_country_flag = can_appoint_socialist
 		}
 	}
 
@@ -322,6 +328,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = ROM_for_rli_randolfo_pacciardi
+			add_ideas = ROM_sec_rli_oronzo_reale
 		}
 	}
 
@@ -375,6 +383,7 @@ focus_tree = {
 
 		completion_reward = {
 			hold_election = ROOT
+			remove_ideas = ROM_idea_shaky_coalition
 		}
 	}
 
@@ -413,20 +422,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			random_neighbor_country = {
-				limit = {  
-					strength_ratio = {
-						tag = ROOT
-						ratio < 0.6
-					}
-				}
-				ROOT = {
-					create_wargoal = {
-						type = annex_everything
-						target = PREV
-					}
-				}
-			}
 		}
 	}
 

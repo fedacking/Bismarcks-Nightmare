@@ -17,6 +17,7 @@
  ### Foreign Minister ###
  foreign_minister:0 "Foreign Minister"
  for_naive_enthusiast:0 "Naive Enthusiast"
+ for_ideological_crusader:0 "Ideological Crusader"
  for_anti_communist_crusader:0 "Anti-Communist Crusader"
  for_flexible_diplomat:0 "Flexible Diplomat"
  for_apologetic_clerk:0 "Apologetic Clerk"
@@ -28,6 +29,8 @@
  ### Security Minister ###
  security_minister:0 "Security Minister"
  sec_prince_of_terror:0 "Prince of Terror"
+ sec_crime_fighter:0 "Crime Fighter"
+ sec_compassionate_gentleman:0 "Compassionate Gentleman"
  
  ##Military personality
  artillery_officer: "Artillery Officer"

@@ -10,6 +10,12 @@
  ROM_expand_the_army_desc:0 "Since time immemorial, the Roman people have been part of the army, as a way to serve the state. The late Roman Republic introduced higher pay for the soldiers, as a way to ensure the soldiery could sustain themselves. The Fascists have proposed an increase in the conscription quota, while The Socialists have attacked Mussolini for wanting to use this emboldened army as a place to espouse his politics."
  ROM_how_do_we_pay_for_it:0 "How do we pay for it?"
  ROM_how_do_we_pay_for_it_desc:0 "This sudden expansion of the state in order to help the unemployed has left a hole in our budget. While the Congress bickers back and forth in how to pay for it, the funds for infrastructure are being funneled to pay for it."
- 
- 
+ ROM_march_on_rome:0 "The March on Rome"
+ ROM_march_on_rome_desc:0 "The syndicates of Rome have been restless since the start of the economic crisis. To protest the government and put pressure for the expansion of worker protections in this time of crisis they have called for a march two weeks from now in the capital. What do we do?"
+ ROM_let_them_march:0 "Let Them March"
+ ROM_let_them_march_desc:0 "After a week of negotiation we have reach an accord that will let the protests march into the city undisturbed, and thanks to their pressure we could force more legislation through the Assembly."
+ ROM_close_the_city:0 "Close the City"
+ ROM_close_the_city_desc:0 "The Cabinet has decided that bully tactics from the Syndicates will not be tolerated. We will deploy the security forces under Farinacci to stop any and all protests in the Eternal City!"
+ ROM_clean_the_streets:0 "Clean the Streets"
+ ROM_clean_the_streets_desc:0 "After the massive March, it's time to clean the city of marble, and try to restore order, so that no one can dispute the central government."
  
