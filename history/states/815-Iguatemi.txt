@@ -3,11 +3,11 @@ state = {
 	name = "STATE_815"
 	state_category = rural
 	history = {
-		owner = BRA
+		owner = PAR
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = BRA
+		add_core_of = PAR
 	}
 	provinces = {
 		13223 13224 13225

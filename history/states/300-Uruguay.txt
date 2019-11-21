@@ -9,6 +9,7 @@ state = {
 	}
 	history = {
 		owner = ARG
+		add_claim_by = BRA
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1

@@ -5,7 +5,7 @@ state = {
 	state_category = rural
 	history = {
 		owner = ARG
-		add_claim_by = BRA
+		add_claim_by = PAR
 		buildings = {
 			infrastructure = 2
 		}
