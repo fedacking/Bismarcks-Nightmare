@@ -25,6 +25,7 @@
  ### Economy Minister ###
  economy_minister:0 "Economy Minister"
  eco_reformer:0 "Ardent Reformer"
+ eco_keynesian_economy:0 "Demand Shock Proponent"
  
  ### Security Minister ###
  security_minister:0 "Security Minister"

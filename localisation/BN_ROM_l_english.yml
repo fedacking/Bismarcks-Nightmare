@@ -40,18 +40,21 @@
  
  ### Ministers
  ## Head of government
- ROM_hog_rli_ferrucio_parri:0 "Ferrucio Parri"
+ ROM_hog_rli_ugo_la_malfa:0 "Ugo La Malfa"
  ROM_hog_des_benito_mussolini:0 "Benito Mussolini"
  ## Foreign
  ROM_for_soc_giuseppe_saragat:0 "Giuseppe Saragat"
  ROM_for_rli_randolfo_pacciardi:0 "Randolfo Pacciardi"
  ROM_for_des_galeazzo_ciano:0 "Galeazzo Ciano"
  ## Economy
+ ROM_eco_soc_giuseppe_romita:0 "Giuseppe Romita"
  ROM_eco_rli_giovanni_conti:0 "Giovanni Conti"
+ 
  ## Security
  ROM_sec_soc_sandro_pertini:0 "Sandro Pertini"
  ROM_sec_rli_oronzo_reale:0 "Oronzo Reale"
  ROM_sec_des_roberto_farinacci:0 "Roberto Farinacci"
+ ROM_sec_des_benito_mussolini:0 "Benito Mussolini"
  
  ### Events
  rom.1.t:0 "Woes of the Coalition"

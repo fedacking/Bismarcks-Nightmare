@@ -2,19 +2,19 @@ ideas = {
 
 	head_of_government = {
 	
-		ROM_hog_rli_ferrucio_parri = {
-			picture = minister_ferrucio_parri
+		ROM_hog_rli_ugo_la_malfa = {
+			picture = minister_ugo_la_malfa
 			allowed = { original_tag = ROM }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ROM_flag_ferrucio_parri_dead }
+					NOT = { has_country_flag = ROM_flag_ugo_la_malfa_dead }
 					has_country_flag = can_appoint_republican_liberal
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				NOT = { has_country_flag = ROM_flag_ferrucio_parri_dead }
+				NOT = { has_country_flag = ROM_flag_ugo_la_malfa_dead }
 			}
 			on_add = {
 			}
@@ -54,6 +54,30 @@ ideas = {
 	}
 	
 	economy_minister = {
+	
+		ROM_eco_soc_giuseppe_romita = {
+			picture = minister_giuseppe_romita
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_giuseppe_romita_dead }
+					has_country_flag = can_appoint_socialist
+					has_country_flag = can_replace_eco
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_giuseppe_romita_dead }
+			}
+			on_add = {
+			}
+			traits = {
+				economy_minister
+				socialist
+				eco_keynesian_economy
+			}
+			cancel_if_invalid = no
+		}
 	
 		ROM_eco_rli_giovanni_conti = {
 			picture = minister_giovanni_conti
@@ -205,6 +229,30 @@ ideas = {
 			}
 			cancel_if_invalid = no
 		}
+	
+		ROM_sec_des_benito_mussolini = {
+			picture = minister_benito_mussolini
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_benito_mussolini_dead }
+					has_country_flag = can_appoint_republican_liberal
+					has_country_flag = can_replace_sec
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_benito_mussolini_dead }
+			}
+			on_add = {
+			}
+			traits = {
+				security_minister
+				despotist
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = no
+		}
 		
 		ROM_sec_des_roberto_farinacci = {
 			picture = minister_roberto_farinacci
@@ -219,6 +267,7 @@ ideas = {
 			}
 			visible = {
 				NOT = { has_country_flag = ROM_flag_roberto_farinacci_dead }
+				has_country_flag = ROM_flag_fascist_coup
 			}
 			on_add = {
 			}

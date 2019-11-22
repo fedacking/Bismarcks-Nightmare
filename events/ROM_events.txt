@@ -4,7 +4,7 @@ country_event = { # Woes of the Coalition
 	id = rom.1
 	title = rom.1.t
 	desc = rom.1.desc
-	picture = GFX_report_event_pierre_laval
+	picture = GFX_report_event_italian_cabinet
 	
 	is_triggered_only = yes
 	

@@ -189,7 +189,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			remove_ideas = { ROM_sec_des_roberto_farinacci }
+			remove_ideas = { ROM_sec_des_benito_mussolini }
 		}
 	}
 
@@ -310,8 +310,8 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = { 
-				ROM_for_soc_giuseppe_saragat
-				ROM_sec_des_roberto_farinacci
+				ROM_eco_soc_giuseppe_romita
+				ROM_sec_des_benito_mussolini
 			}
 		}
 	}
@@ -403,7 +403,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			remove_ideas = { ROM_for_soc_giuseppe_saragat }
+			remove_ideas = { ROM_eco_soc_giuseppe_romita }
 		}
 	}
 	

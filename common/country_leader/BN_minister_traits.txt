@@ -119,6 +119,15 @@ leader_traits = {
 		production_speed_industrial_complex_factor = 0.10
 		random = no
 	}
+
+	eco_keynesian_economy = {
+		production_factory_max_efficiency_factor = -0.05
+		local_resources_factor = -0.05
+		consumer_goods_factor = -0.05
+		political_power_gain = 0.05
+
+		random = no
+	}
 	
 	########################################
 	## 			Security Ministers		  ##
