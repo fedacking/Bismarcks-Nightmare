@@ -4,6 +4,10 @@ oob = "NEP_1936"
 
 set_fuel_ratio = 0.8
 
+add_ideas = {
+	idea_no_content
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

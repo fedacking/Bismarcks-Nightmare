@@ -2,7 +2,11 @@
 
 oob = "JOS_1936"
 
-set_fuel_ratio = 0.8
+set_fuel_ratio = 0.
+
+add_ideas = {
+	idea_no_content
+}
 
 # Starting tech
 set_technology = {
