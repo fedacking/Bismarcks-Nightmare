@@ -25,6 +25,11 @@
  ROM_despotist_party_desc:0 "Dictatorship"
  ROM_despotist_party_long:0 "Fasci d'Azione Rivoluzionaria"
  
+ ### Flags
+ ROM_flag_fascists_leave_coalition: "The Fascists Left"
+ ROM_flag_liberals_stand_alone: "The Liberals Stand Alone"
+ ROM_flag_socialists_leave_coalition: "The Socialists Left"
+ 
  ### Ideas
  ROM_idea_depression_0:0 "Great Depression"
  ROM_idea_depression_0_desc:0 "During the second semester of 1935, the US and French economies started to slow down. The massive expansion of the economy in the 1920's has lead to overborrowing and overexposure for the banks. In the US in 1935 the banks started to default, and the crisis spiraled from there to the rest of the world.\n The Roman Republic has been less affected due to low international the trade, but the crisis still lingers."
@@ -49,7 +54,7 @@
  ## Economy
  ROM_eco_soc_giuseppe_romita:0 "Giuseppe Romita"
  ROM_eco_rli_giovanni_conti:0 "Giovanni Conti"
- 
+ ROM_eco_des_giacomo_acerbo: "Giacomo Acerbo"
  ## Security
  ROM_sec_soc_sandro_pertini:0 "Sandro Pertini"
  ROM_sec_rli_oronzo_reale:0 "Oronzo Reale"

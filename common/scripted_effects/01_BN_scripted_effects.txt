@@ -10,3 +10,38 @@ FRA_libral_tree_effect = {
 		}
 	}
 }
+
+ROM_effect_cabinet_change = {
+	ROM = {
+		if = {
+			limit = {
+				has_completed_focus = ROM_how_do_we_pay_for_it
+				has_completed_focus = ROM_clean_the_streets
+			}
+			if = {
+				limit = {
+					has_completed_focus = ROM_redundancy_funds
+					has_completed_focus = ROM_let_them_march
+				} 
+				country_event = {
+					id = rom.10
+					days = 5
+				}
+			} else_if = {
+				limit = {
+					has_completed_focus = ROM_expand_the_army
+					has_completed_focus = ROM_close_the_city
+				} 
+				country_event = {
+					id = rom.12
+					days = 5
+				}
+			} else = {
+				country_event = {
+					id = rom.11
+					days = 5
+				}
+			}
+		}
+	}
+}

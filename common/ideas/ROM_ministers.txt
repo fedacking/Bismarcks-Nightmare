@@ -103,6 +103,30 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	
+		ROM_eco_des_giacomo_acerbo = {
+			picture = minister_giacomo_acerbo
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_giacomo_acerbo_dead }
+					has_country_flag = can_appoint_despotist
+					has_country_flag = can_replace_eco
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_giacomo_acerbo_dead }
+			}
+			on_add = {
+			}
+			traits = {
+				economy_minister
+				despotist
+				eco_corporatist
+			}
+			cancel_if_invalid = no
+		}
+	
 	}
 	
 	foreign_minister = {

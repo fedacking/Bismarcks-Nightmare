@@ -128,6 +128,14 @@ leader_traits = {
 
 		random = no
 	}
+
+	eco_corporatist = {
+		production_factory_max_efficiency_factor = 0.05
+		local_resources_factor = 0.05
+		political_power_cost = 0.05
+
+		random = no
+	}
 	
 	########################################
 	## 			Security Ministers		  ##

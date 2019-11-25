@@ -112,6 +112,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/ROM/idea_minister_giovanni_conti.tga"
 	}
 	SpriteType = {
+		name = "GFX_idea_minister_giacomo_acerbo"
+		texturefile = "gfx/interface/ministers/ROM/idea_minister_giacomo_acerbo.tga"
+	}
+	SpriteType = {
 		name = "GFX_idea_minister_sandro_pertini"
 		texturefile = "gfx/interface/ministers/ROM/idea_minister_sandro_pertini.tga"
 	}

@@ -97,6 +97,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = ROM_idea_hole_budget
+			hidden_effect = {
+				ROM_effect_cabinet_change = yes
+			}
 		}
 	}
 
@@ -170,15 +173,19 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.05
+			hidden_effect = {
+				ROM_effect_cabinet_change = yes
+			}
 		}
 	}
 
 ## Succ tree
 	focus = {
 		id = ROM_the_fascists_leave
+		icon = GFX_focus_generic_anti_fascist_diplomacy
 		prerequisite = { focus = ROM_how_do_we_pay_for_it }
 		prerequisite = { focus = ROM_clean_the_streets }
-		icon = GFX_focus_generic_anti_fascist_diplomacy
+		available = { has_country_flag = ROM_flag_fascists_leave_coalition }
 		relative_position_id = ROM_how_do_we_pay_for_it
 		x = -3
 		y = 1
@@ -296,9 +303,10 @@ focus_tree = {
 ## Lib tree
 	focus = {
 		id = ROM_the_liberals_stand_alone
+		icon = GFX_goal_liberty
+		available = { has_country_flag = ROM_flag_liberals_stand_alone }
 		prerequisite = { focus = ROM_how_do_we_pay_for_it }
 		prerequisite = { focus = ROM_clean_the_streets }
-		icon = GFX_goal_liberty
 		relative_position_id = ROM_how_do_we_pay_for_it
 		x = 2
 		y = 1
@@ -390,9 +398,10 @@ focus_tree = {
 ## Fash Tree
 	focus = {
 		id = ROM_the_socialists_leave
+		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = ROM_how_do_we_pay_for_it }
 		prerequisite = { focus = ROM_clean_the_streets }
-		icon = GFX_goal_generic_allies_build_infantry
+		available = { has_country_flag = ROM_flag_socialists_leave_coalition }
 		relative_position_id = ROM_how_do_we_pay_for_it
 		x = 7
 		y = 1
@@ -489,7 +498,7 @@ focus_tree = {
 
 		completion_reward = {
 			set_country_flag = can_appoint_despotist
-			add_ideas = { ROM_for_des_galeazzo_ciano }
+			add_ideas = { ROM_eco_des_giacomo_acerbo }
 		}
 	}
 
