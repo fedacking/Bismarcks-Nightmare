@@ -209,4 +209,29 @@ spriteTypes = {
 		name = "GFX_goal_revolution"
 		texturefile = "gfx/interface/goals/goal_revolution.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_goal_the_trial"
+		texturefile = "gfx/interface/goals/goal_the_trial.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_moar_rubber"
+		texturefile = "gfx/interface/goals/goal_moar_rubber.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_conspiracy"
+		texturefile = "gfx/interface/goals/goal_conspiracy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_crush_monarchy"
+		texturefile = "gfx/interface/goals/goal_crush_monarchy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_government_icon"
+		texturefile = "gfx/interface/goals/goal_government_icon.tga"
+	}
 }

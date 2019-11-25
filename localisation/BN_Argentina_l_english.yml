@@ -41,3 +41,21 @@
  
  #Security Ministers
  ARG_sec_rli_enzo_bordabehere:0 "Enzo Bordabehere"
+ 
+
+ ##National Focus
+ #December Revolution
+ ARG_december_revolution:0 "December Revolution"
+ ARG_december_revolution_desc:0 "WIP"
+ ARG_release_political_prisoners:0 "Release Political Prisoners"
+ ARG_release_political_prisoners_desc:0 "WIP"
+ ARG_status_of_the_congo:0 "Status of the Congo"
+ ARG_status_of_the_congo_desc:0 "WIP"
+ ARG_fate_of_the_king:0 "Of Tyrant..."
+ ARG_fate_of_the_king_desc:0 "WIP"
+ ARG_trials_of_the_pan:0 "...and Henchmen"
+ ARG_trials_of_the_pan_desc:0 "WIP"
+ ARG_declare_the_monarchy_defunct:0 "Declare the Monarchy Defunct"
+ ARG_declare_the_monarchy_defunct_desc:0 "WIP"
+ ARG_constitutional_assembly:0 "Create a Constitutional Assembly"
+ ARG_constitutional_assembly_desc:0 "WIP"

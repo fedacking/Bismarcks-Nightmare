@@ -63,6 +63,9 @@ if = {
 }
 
 set_convoys = 300
+
+complete_national_focus = ARG_december_revolution
+
 set_popularities = {
 	despotist = 0
 	absolutist = 0
