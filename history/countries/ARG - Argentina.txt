@@ -11,11 +11,15 @@ if = {
 
 set_country_flag = can_replace_hog
 add_ideas = {
-	ARG_hog_abs_juan_ii
-	free_trade
+	ARG_hog_rli_lisandro_de_la_torre
+	ARG_for_lco_marcelo_t_de_alvear
+	ARG_eco_soc_juan_b_justo
+	ARG_sec_rli_enzo_bordabehere
+	limited_exports
 }
 
 set_stability = 0.2
+set_war_support = 0.1
 set_research_slots = 4
 
 # Starting tech
@@ -62,16 +66,16 @@ set_convoys = 300
 set_popularities = {
 	despotist = 0
 	absolutist = 0
-	semi_constitutionalist = 74
+	semi_constitutionalist = 0
 	social_conservative = 0
-	liberal_conservative = 0
-	republican_liberal = 19
-	socialist = 6
-	communist = 1
+	liberal_conservative = 18
+	republican_liberal = 66
+	socialist = 12
+	communist = 4
 }
 
 set_politics = {
-	ruling_party = semi_constitutionalist
+	ruling_party = republican_liberal
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no

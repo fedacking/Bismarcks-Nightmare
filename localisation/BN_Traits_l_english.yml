@@ -27,6 +27,7 @@
  eco_reformer:0 "Ardent Reformer"
  eco_keynesian_economy:0 "Demand Shock Proponent"
  eco_corporatist: "Corporatism Proponent"
+ eco_coop_proponent: "Coop Proponent"
  
  ### Security Minister ###
  security_minister:0 "Security Minister"

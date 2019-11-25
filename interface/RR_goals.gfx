@@ -204,4 +204,9 @@ spriteTypes = {
 		name = "GFX_goal_continuous_political"
 		texturefile = "gfx/interface/goals/goal_continuous_political.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_goal_revolution"
+		texturefile = "gfx/interface/goals/goal_revolution.dds"
+	}
 }

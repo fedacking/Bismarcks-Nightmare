@@ -296,4 +296,81 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
+	
+	foreign_minister = { ### Foreign Minister ###
+	
+		ARG_for_lco_marcelo_t_de_alvear = {
+			picture = minister_marcelo_t_de_alvear
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_marcelo_t_de_alvear_dead }
+					has_country_flag = can_replace_for
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				foreign_minister
+				liberal_conservative
+				for_flexible_diplomat
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	
+	economy_minister = { ### Economy Minister ###
+	
+		ARG_eco_soc_juan_b_justo = {
+			picture = minister_juan_b_justo
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_flag_Juan_B_Justo_dead }
+					has_country_flag = can_replace_eco
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				economy_minister
+				socialist
+				eco_coop_proponent
+			}
+			cancel_if_invalid = no
+		}		
+	}
+	
+	security_minister = {
+	
+		ARG_sec_rli_enzo_bordabehere = {
+			picture = 
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_flag_enzo_bordabehere_dead }
+					has_country_flag = can_replace_sec
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				security_minister
+				republican_liberal
+				sec_compassionate_gentleman
+			}
+			cancel_if_invalid = no
+		}		
+	}
+	
 }
