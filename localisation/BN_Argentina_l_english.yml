@@ -42,6 +42,15 @@
  #Security Ministers
  ARG_sec_rli_enzo_bordabehere:0 "Enzo Bordabehere"
  
+ 
+### Cosmetic names ###
+
+ ARG_Republic_republican_liberal:0 "Argentine Republic"
+ ARG_Republic_republican_liberal_DEF:0 "the Argentine Republic"
+ ARG_Republic_liberal_conservative:0 "Argentine Republic"
+ ARG_Republic_liberal_conservative_DEF:0 "the Argentine Republic"
+ ARG_Republic_social_conservative:0 "Argentine Republic"
+ ARG_Republic_social_conservative_DEF:0 "the Argentine Republic"
 
  ##National Focus
  #December Revolution
@@ -50,7 +59,7 @@
  ARG_release_political_prisoners:0 "Release Political Prisoners"
  ARG_release_political_prisoners_desc:0 "In the months leading up to the Revolution, the King jailed a lot of republican partisans. Now with the power in the peoples hands is time to free all the political prisoners."
  ARG_status_of_the_congo:0 "Status of the Congo"
- ARG_status_of_the_congo_desc:0 "The Congo was personal property of the King, but with all his power striped we can seize it."
+ ARG_status_of_the_congo_desc:0 "The Congo was personal property of the King, but with all his power striped we can seize it. It is now time to decide, what will be the future of the colony?"
  ARG_fate_of_the_king:0 "Of Tyrant..."
  ARG_fate_of_the_king_desc:0 "The King has done a great deal of harm to the Nation. Although he deserves it, harsher punishments can lead to unrest in certain sections of society."
  ARG_trials_of_the_pan:0 "...and Henchmen"
