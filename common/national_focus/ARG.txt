@@ -56,7 +56,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			##country_event = congoevent
+			country_event = arg.1
 		}
 	}
 	

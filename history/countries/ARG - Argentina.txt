@@ -15,7 +15,7 @@ add_ideas = {
 	ARG_for_lco_marcelo_t_de_alvear
 	ARG_eco_soc_juan_b_justo
 	ARG_sec_rli_enzo_bordabehere
-	limited_exports
+	ARG_idea_overextended_colonial_empire
 }
 
 set_stability = 0.2
@@ -25,7 +25,6 @@ set_research_slots = 4
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
 	support_weapons = 1
 	motorised_infantry = 1
 	tech_support = 1

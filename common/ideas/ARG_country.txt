@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+	
+		##Eco
+		ARG_idea_congo_purchase = {
+			picture = army_chained #place holder image
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+		ARG_idea_congo_sale = {
+			picture = army_chained #place holder image
+			modifier = {
+				consumer_goods_factor = -0.2
+			}
+		}
+		
+		## Colonial empire
+		ARG_idea_overextended_colonial_empire = {
+			picture = army_chained #place holder image
+			modifier = {
+				supply_consumption_factor = 0.20
+				local_resources_factor = -0.10
+			}
+		}
+		
+		#Revolution
+	}
+}

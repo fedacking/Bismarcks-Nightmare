@@ -211,3 +211,7 @@ PIR = {
 	color = rgb { 222 187 91 }
 	color_ui = rgb { 222 187 91 }
 }
+COG = {
+	color = rgb { 152 159 209 }
+	color_ui = rgb { 152 159 209 }
+}

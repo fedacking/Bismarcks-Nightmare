@@ -1,0 +1,100 @@
+﻿add_namespace = arg
+
+##Fate of the Congo
+
+country_event = { #Status of the Congo
+	id = arg.1
+	title = arg.1.t
+	desc = arg.1.desc
+	is_triggered_only = yes
+	option = { #Sell
+		name = arg.1.a
+		country_event = arg.2
+	}
+	option = { #Keep it
+		name = arg.2.b
+		set_country_flag = ARG_Keep_the_Congo
+	}
+	option = { #Deconolization
+		name = arg.3.c
+		hidden_effect = {
+			295 = { add_core_of = COG }
+			538 = { add_core_of = COG }
+			718 = { add_core_of = COG }			
+			COG = {
+				set_politics = {
+					ruling_party = republican_liberal
+					last_election = "1936.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				set_popularities = {
+					despotist = 5
+					absolutist = 0
+					semi_constitutionalist = 0
+					social_conservative = 15
+					liberal_conservative = 18
+					republican_liberal = 48
+					socialist = 10
+					communist = 4
+				}
+			}
+		}
+		release = COG
+		remove_ideas = {ARG_idea_overextended_colonial_empire}
+	}
+}
+
+country_event = { #The Congo Sale
+	id = arg.2
+	title = arg.2.t
+	desc = arg.2.desc
+	is_triggered_only = yes
+	option = { #France
+		name = arg.2.a
+		FRA = {
+			country_event = arg.3
+		}
+	}
+	option = { #Portugal
+		name = arg.2.b
+		POR = {
+			country_event = arg.3
+		}
+	}
+	option = { #Spain
+		name = arg.3.c
+		SPA = {
+			country_event = arg.3
+		}
+	}
+	option = { #Scandinavia
+		name = arg.3.e
+		SCA = {
+			country_event = arg.3
+		}
+	}
+}
+
+country_event = { #The Congo Purchase
+	id = arg.3
+	title = arg.3.t
+	desc = arg.3.desc
+	is_triggered_only = yes
+	option = { #Yes
+		name = arg.3.a
+		add_timed_idea = {
+			idea = ARG_idea_congo_purchase
+			days = 365
+		}
+		ARG = {
+			country_event = arg.4
+		}
+	}
+	option = { #No
+		name = arg.3.b
+		POR = {
+			country_event = arg.5
+		}
+	}
+}
