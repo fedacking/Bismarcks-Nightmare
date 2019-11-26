@@ -59,42 +59,57 @@ country_event = { #The Congo Sale
 	option = { #Portugal
 		name = arg.2.b
 		POR = {
-			country_event = arg.3
+			country_event = arg.4
 		}
 	}
 	option = { #Spain
 		name = arg.3.c
 		SPA = {
-			country_event = arg.3
+			country_event = arg.5
 		}
 	}
 	option = { #Scandinavia
 		name = arg.3.e
 		SCA = {
-			country_event = arg.3
+			country_event = arg.6
 		}
 	}
 }
 
-country_event = { #The Congo Purchase
-	id = arg.3
-	title = arg.3.t
-	desc = arg.3.desc
-	is_triggered_only = yes
-	option = { #Yes
-		name = arg.3.a
+##country_event = { #The Congo Purchase FRA
+#	id = arg.3
+#	title = arg.3.t
+#	desc = arg.3.desc
+#	is_triggered_only = yes
+#	option = { #Yes
+#		name = arg.3.a
+#		add_timed_idea = {
+#			idea = ARG_idea_congo_purchase
+#			days = 365
+#		}
+#		ARG = {
+#			country_event = arg.7
+#		}
+#	}
+#	option = { #No
+#		name = arg.3.b
+#		ARG = {
+#			country_event = arg.8
+#		}
+#	}
+#}
+
+#country_event = { #The Congo Sale
+#	id = arg.4
+#	title = arg.4.t
+#	desc = arg.4.desc
+#	is_triggered_only = yes
+#	option = { #Yes
+		name = arg.4.a
 		add_timed_idea = {
-			idea = ARG_idea_congo_purchase
+			idea = ARG_idea_congo_sale
 			days = 365
 		}
-		ARG = {
-			country_event = arg.4
-		}
-	}
-	option = { #No
-		name = arg.3.b
-		POR = {
-			country_event = arg.5
-		}
+		295 = {		
 	}
 }
