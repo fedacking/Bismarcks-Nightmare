@@ -8,7 +8,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ARG_flag_louis_marin_dead }
+					NOT = { has_country_flag = FRA_flag_louis_marin_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
@@ -29,7 +29,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ARG_flag_pierre_etienne_flandin_dead }
+					NOT = { has_country_flag = FRA_flag_pierre_etienne_flandin_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
@@ -50,7 +50,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ARG_flag_philippe_henriot_dead }
+					NOT = { has_country_flag = FRA_flag_philippe_henriot_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
@@ -71,7 +71,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ARG_flag_pierre_taittinger_dead }
+					NOT = { has_country_flag = FRA_flag_pierre_taittinger_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
@@ -96,7 +96,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ARG_flag_philippe_henriot_dead }
+					NOT = { has_country_flag = FRA_flag_philippe_henriot_dead }
 					has_country_flag = can_replace_for
 				}
 			}
@@ -118,7 +118,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ARG_flag_philippe_henriot_dead }
+					NOT = { has_country_flag = FRA_flag_philippe_henriot_dead }
 					has_country_flag = can_replace_for
 				}
 			}

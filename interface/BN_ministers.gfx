@@ -79,6 +79,10 @@ spriteTypes = {
 		name = "GFX_idea_minister_juan_domingo_peron"
 		texturefile = "gfx/interface/ministers/ARG/idea_minister_juan_domingo_peron.tga"
 	}
+	SpriteType = {
+		name = "GFX_idea_minister_enzo_bordabehere"
+		texturefile = "gfx/interface/ministers/ARG/idea_minister_enzo_bordabehere.tga"
+	}
 
 
 	##Rome

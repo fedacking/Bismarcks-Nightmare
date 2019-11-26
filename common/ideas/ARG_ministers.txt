@@ -351,7 +351,7 @@ ideas = {
 	security_minister = {
 	
 		ARG_sec_rli_enzo_bordabehere = {
-			picture = 
+			picture = minister_enzo_bordabehere
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {

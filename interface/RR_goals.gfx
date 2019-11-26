@@ -221,11 +221,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_conspiracy"
-		texturefile = "gfx/interface/goals/goal_conspiracy.tga"
-	}
-	
-	SpriteType = {
 		name = "GFX_goal_crush_monarchy"
 		texturefile = "gfx/interface/goals/goal_crush_monarchy.tga"
 	}

@@ -32,7 +32,7 @@ focus_tree = {
 	
 	focus = {
 		id = ARG_release_political_prisoners
-		icon = GFX_goal_conspiracy
+		icon = GFX_goal_people
 		x = 1
 		y = 1
 		cost = 1
