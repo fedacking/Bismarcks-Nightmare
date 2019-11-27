@@ -105,11 +105,11 @@ country_event = { #The Congo Sale
 #	desc = arg.4.desc
 #	is_triggered_only = yes
 #	option = { #Yes
-		name = arg.4.a
-		add_timed_idea = {
-			idea = ARG_idea_congo_sale
-			days = 365
-		}
-		295 = {		
-	}
-}
+#		name = arg.4.a
+#		add_timed_idea = {
+#			idea = ARG_idea_congo_sale
+#			days = 365
+#		}
+#		295 = {		
+#	}
+#}

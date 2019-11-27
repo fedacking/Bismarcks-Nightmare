@@ -155,6 +155,7 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = ROM_idea_march_on_rome
+			country_event = rom.3
 		}
 	}
 
@@ -337,7 +338,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = ROM_for_rli_randolfo_pacciardi
+			add_ideas = ROM_eco_rli_giovanni_conti
 			add_ideas = ROM_sec_rli_oronzo_reale
 		}
 	}

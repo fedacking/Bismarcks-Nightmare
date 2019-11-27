@@ -26,6 +26,19 @@ country_event = { # Deal with the socialist
 	}
 }
 
+country_event = { # Deal with the socialist
+	id = rom.3
+	title = rom.3.t
+	desc = rom.3.desc
+	picture = GFX_report_event_protesters_dispersed
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rom.3.a
+	}
+}
+
 country_event = { # Block the march
 	id = rom.10
 	title = rom.10.t
