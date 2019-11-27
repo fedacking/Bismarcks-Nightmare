@@ -74,6 +74,9 @@ if = {
 
 set_convoys = 300
 
+complete_national_focus = ARG_revolution_of_the_park
+complete_national_focus = ARG_seek_compromise
+complete_national_focus = ARG_approach_pan_ucrm
 complete_national_focus = ARG_december_revolution
 
 set_popularities = {

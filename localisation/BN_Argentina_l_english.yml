@@ -1,70 +1,95 @@
 ﻿l_english:
- ##Political Parties
- ARG_communist_party:0 "PC"
- ARG_communist_party_long:0 "Partido Comunista"
- ARG_socialist_party:0 "PS"
- ARG_socialist_party_long:0 "Partido Socialista"
- ARG_republican_liberal_party:0 "UCRR"
- ARG_republican_liberal_party_long:0 "Unión Cívica Radical Republicana"
- ARG_liberal_conservative_party:0 "UCRM"
- ARG_liberal_conservative_party_long:0 "Unión Cívica Radical Moderada"
- ARG_social_conservative_party:0 "PAN"
- ARG_social_conservative_party_long:0 "Partido Autonomista Nacional"
- ARG_semi_constitutionalist_party:0 "November Government"
- ARG_semi_constitutionalist_party_long:0 "His Royal Majesty's Cabinet of Great Consensus for the Stability of the Nation and the Wellbeing of the People"
- ARG_absolutist_party:0 "House of Rosas"
- ARG_absolutist_party_long:0 "House of Rosas"
- ARG_despotist_party:0 "PNLR"
- ARG_despotist_party_long:0 "Partido Nacionalista Leal al Rey"
- 
- ##Ministers
- #Head of Government
- ARG_hog_com_rodolfo_ghioldi:0 "Rodolfo Ghioldi"
- ARG_hog_com_victorio_codovilla:0 "Victorio Codovilla"
- ARG_hog_soc_nicolas_repetto:0 "Nicolas Repetto"
- ARG_hog_soc_juan_b_justo:0 "Juan B. Justo"
- ARG_hog_rli_lisandro_de_la_torre:0 "Lisandro de la Torre"
- ARG_hog_rli_elpidio_gonzalez:0 "Elpidio González"
- ARG_hog_lco_marcelo_t_de_alvear:0 "Marcelo T. de Alvear"
- ARG_hog_lco_roberto_m_ortiz:0 "Roberto M. Ortiz"
- ARG_hog_scn_julio_argentino_p_roca:0 "Julio Argentino P. Roca"
- ARG_hog_scn_ramon_s_castillo:0 "Ramón S. Castillo"
- ARG_hog_abs_juan_ii:0 "Juan II"
- ARG_hog_des_manuel_carles:0 "Manuel Carlés"
- ARG_hog_des_juan_domingo_peron:0 "Juan Domingo Perón"
- 
- #Foreign Minister
- ARG_for_lco_marcelo_t_de_alvear:0 "Marcelo T. de Alvear"
- 
- #Economy Minister
- ARG_eco_soc_juan_b_justo:0 "Juan B. Justo"
- 
- #Security Ministers
- ARG_sec_rli_enzo_bordabehere:0 "Enzo Bordabehere"
- 
- 
+##Political Parties
+ARG_communist_party:0 "PC"
+ARG_communist_party_long:0 "Partido Comunista"
+ARG_socialist_party:0 "PS"
+ARG_socialist_party_long:0 "Partido Socialista"
+ARG_republican_liberal_party:0 "UCRR"
+ARG_republican_liberal_party_long:0 "Unión Cívica Radical Republicana"
+ARG_liberal_conservative_party:0 "UCRM"
+ARG_liberal_conservative_party_long:0 "Unión Cívica Radical Moderada"
+ARG_social_conservative_party:0 "PAN"
+ARG_social_conservative_party_long:0 "Partido Autonomista Nacional"
+ARG_semi_constitutionalist_party:0 "November Government"
+ARG_semi_constitutionalist_party_long:0 "His Royal Majesty's Cabinet of Great Consensus for the Stability of the Nation and the Wellbeing of the People"
+ARG_absolutist_party:0 "House of Rosas"
+ARG_absolutist_party_long:0 "House of Rosas"
+ARG_despotist_party:0 "PNLR"
+ARG_despotist_party_long:0 "Partido Nacionalista Leal al Rey"
+
+##Ministers
+#Head of Government
+ARG_hog_com_rodolfo_ghioldi:0 "Rodolfo Ghioldi"
+ARG_hog_com_victorio_codovilla:0 "Victorio Codovilla"
+ARG_hog_soc_nicolas_repetto:0 "Nicolas Repetto"
+ARG_hog_soc_juan_b_justo:0 "Juan B. Justo"
+ARG_hog_rli_lisandro_de_la_torre:0 "Lisandro de la Torre"
+ARG_hog_rli_elpidio_gonzalez:0 "Elpidio González"
+ARG_hog_lco_marcelo_t_de_alvear:0 "Marcelo T. de Alvear"
+ARG_hog_lco_roberto_m_ortiz:0 "Roberto M. Ortiz"
+ARG_hog_scn_julio_argentino_p_roca:0 "Julio Argentino P. Roca"
+ARG_hog_scn_ramon_s_castillo:0 "Ramón S. Castillo"
+ARG_hog_abs_juan_ii:0 "Juan II"
+ARG_hog_des_manuel_carles:0 "Manuel Carlés"
+ARG_hog_des_juan_domingo_peron:0 "Juan Domingo Perón"
+
+#Foreign Minister
+ARG_for_lco_marcelo_t_de_alvear:0 "Marcelo T. de Alvear"
+
+#Economy Minister
+ARG_eco_soc_juan_b_justo:0 "Juan B. Justo"
+
+#Security Ministers
+ARG_sec_rli_enzo_bordabehere:0 "Enzo Bordabehere"
+
+
 ### Cosmetic names ###
 
- ARG_Republic_republican_liberal:0 "Argentine Republic"
- ARG_Republic_republican_liberal_DEF:0 "the Argentine Republic"
- ARG_Republic_liberal_conservative:0 "Argentine Republic"
- ARG_Republic_liberal_conservative_DEF:0 "the Argentine Republic"
- ARG_Republic_social_conservative:0 "Argentine Republic"
- ARG_Republic_social_conservative_DEF:0 "the Argentine Republic"
+ARG_Republic_republican_liberal:0 "Argentine Republic"
+ARG_Republic_republican_liberal_DEF:0 "the Argentine Republic"
+ARG_Republic_liberal_conservative:0 "Argentine Republic"
+ARG_Republic_liberal_conservative_DEF:0 "the Argentine Republic"
+ARG_Republic_social_conservative:0 "Argentine Republic"
+ARG_Republic_social_conservative_DEF:0 "the Argentine Republic"
 
- ##National Focus
- #December Revolution
- ARG_december_revolution:0 "December Revolution"
- ARG_december_revolution_desc:0 "Last November, as tensions skyrocketed in the capital, the King made concessions but these were too little too late."
- ARG_release_political_prisoners:0 "Release Political Prisoners"
- ARG_release_political_prisoners_desc:0 "In the months leading up to the Revolution, the King jailed a lot of republican partisans. Now with the power in the peoples hands is time to free all the political prisoners."
- ARG_status_of_the_congo:0 "Status of the Congo"
- ARG_status_of_the_congo_desc:0 "The Congo was personal property of the King, but with all his power striped we can seize it. It is now time to decide, what will be the future of the colony?"
- ARG_fate_of_the_king:0 "Of Tyrant..."
- ARG_fate_of_the_king_desc:0 "The King has done a great deal of harm to the Nation. Although he deserves it, harsher punishments can lead to unrest in certain sections of society."
- ARG_trials_of_the_pan:0 "...and Henchmen"
- ARG_trials_of_the_pan_desc:0 "The Partido Autonomista Nacional were the enforcers of the King's policy. They had helped the King in doing most of his excesses and atrocities. Although harsher punishments would be just, these could endanger the stability of the Nation and make it really hard to fix the national divide."
- ARG_declare_the_monarchy_defunct:0 "Declare the Monarchy Defunct"
- ARG_declare_the_monarchy_defunct_desc:0 "With the King removed from power it doesn't make much sense to still call the country a Kingdom. We will declare to the world that we are now a Replubic."
- ARG_constitutional_assembly:0 "Create a Constitutional Assembly"
- ARG_constitutional_assembly_desc:0 "Part of what got us in this mess is the lack of a supreme law, an aggregate of fundamental principles that guide the people. Establishing one should be top priority."
+### National Focus #####
+#December Revolution
+ARG_revolution_of_the_park:0 "Revolution of the Park"
+ARG_revolution_of_the_park_desc:0 "WIP"
+ARG_crush_them:0 "Crush Them"
+ARG_crush_them_desc:0 "WIP"
+ARG_mass_trials:0 "Mass Trials"
+ARG_mass_trials_desc:0 "WIP"
+ARG_ban_political_parties:0 "Ban Disloyal Parties"
+ARG_ban_political_parties_desc:0 "WIP"
+ARG_ban_all_dissent:0 "Ban All Dissent"
+ARG_ban_all_dissent_desc:0 "WIP"
+ARG_seek_compromise:0 "Seek Compromise"
+ARG_seek_compromise_desc:0 "WIP"
+ARG_approach_pan_ucrm:0 "Approach Conservatives and Moderates"
+ARG_approach_pan_ucrm_desc:0 "WIP"
+ARG_approach_the_revolutionaries:0 "Approach the Revolutionaries"
+ARG_approach_the_revolutionaries_desc:0 "WIP"
+ARG_december_revolution:0 "December Revolution"
+ARG_december_revolution_desc:0 "Last November, as tensions skyrocketed in the capital, the King made concessions but these were too little too late."
+ARG_release_political_prisoners:0 "Release Political Prisoners"
+ARG_release_political_prisoners_desc:0 "In the months leading up to the Revolution, the King jailed a lot of republican partisans. Now with the power in the peoples hands is time to free all the political prisoners."
+ARG_status_of_the_congo:0 "Status of the Congo"
+ARG_status_of_the_congo_desc:0 "The Congo was personal property of the King, but with all his power striped we can seize it. It is now time to decide, what will be the future of the colony?"
+ARG_fate_of_the_king:0 "Of Tyrant..."
+ARG_fate_of_the_king_desc:0 "The King has done a great deal of harm to the Nation. Although he deserves it, harsher punishments can lead to unrest in certain sections of society."
+ARG_trials_of_the_pan:0 "...and Henchmen"
+ARG_trials_of_the_pan_desc:0 "The Partido Autonomista Nacional were the enforcers of the King's policy. They had helped the King in doing most of his excesses and atrocities. Although harsher punishments would be just, these could endanger the stability of the Nation and make it really hard to fix the national divide."
+ARG_declare_the_monarchy_defunct:0 "Declare the Monarchy Defunct"
+ARG_declare_the_monarchy_defunct_desc:0 "With the King removed from power it doesn't make much sense to still call the country a Kingdom. We will declare to the world that we are now a Replubic."
+ARG_constitutional_assembly:0 "Create a Constitutional Assembly"
+ARG_constitutional_assembly_desc:0 "Part of what got us in this mess is the lack of a supreme law, an aggregate of fundamental principles that guide the people. Establishing one should be top priority." 
+ 
+### Events ###
+
+#Congo 
+arg.1.t:0 "The Status of the Congo"
+arg.1.desc:0 "The Congo has been under personal rule of the Argentine monarch since 1885. Now, with the overthrow of the King, the new civilian government needs to decide what to do with the colony."
+arg.1.a:0 "Sell it, we need the money now!"
+arg.1.b:0 "Keep it! It has a lot of economic potential."
+arg.1.c:0 "The fate of the Congo belongs to the Congolese!"

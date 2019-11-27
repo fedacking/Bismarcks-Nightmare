@@ -229,4 +229,20 @@ spriteTypes = {
 		name = "GFX_goal_government_icon"
 		texturefile = "gfx/interface/goals/goal_government_icon.tga"
 	}
+	SpriteType = {
+		name = "GFX_goal_no_religion"
+		texturefile = "gfx/interface/goals/goal_state_atheism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_social_democrat"
+		texturefile = "gfx/interface/goals/goal_ideology_social_democrat.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_purge_opposition"
+		texturefile = "gfx/interface/goals/goal_purge_opposition.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_flag_puncher"
+		texturefile = "gfx/interface/goals/goal_generic_flag_puncher.tga"
+	}
 }

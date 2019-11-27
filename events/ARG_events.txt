@@ -12,11 +12,11 @@ country_event = { #Status of the Congo
 		country_event = arg.2
 	}
 	option = { #Keep it
-		name = arg.2.b
+		name = arg.1.b
 		set_country_flag = ARG_Keep_the_Congo
 	}
 	option = { #Deconolization
-		name = arg.3.c
+		name = arg.1.c
 		hidden_effect = {
 			295 = { add_core_of = COG }
 			538 = { add_core_of = COG }

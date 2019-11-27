@@ -17,15 +17,162 @@ focus_tree = {
 	####################
 	
 	focus = {
+		id = ARG_revolution_of_the_park
+		icon = GFX_focus_generic_support_the_left_right
+		available = {
+			always = no 
+		}
+		x = 8
+		y = 0
+		cost = 10
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ARG_crush_them
+		icon = GFX_goal_purge_opposition
+		available = {
+			always = no 
+		}
+		x = 3
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = ARG_revolution_of_the_park
+		}
+		relative_position_id = ARG_revolution_of_the_park
+		mutually_exclusive = {
+			focus = ARG_seek_compromise
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ARG_mass_trials
+		icon = GFX_goal_the_trial
+		available = {
+			always = no 
+		}
+		x = 3
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ARG_crush_them
+		}
+		relative_position_id = ARG_revolution_of_the_park
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ARG_ban_political_parties
+		icon = GFX_goal_generic_flag_puncher
+		available = {
+			always = no 
+		}
+		x = 3
+		y = 3
+		cost = 10
+		prerequisite = {
+			focus = ARG_mass_trials
+		}
+		relative_position_id = ARG_revolution_of_the_park
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ARG_ban_all_dissent
+		icon = GFX_goal_no_religion
+		available = {
+			always = no 
+		}
+		x = 3
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = ARG_ban_political_parties
+		}
+		relative_position_id = ARG_revolution_of_the_park
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ARG_seek_compromise
+		icon = GFX_goal_tripartite_pact
+		available = {
+			always = no 
+		}
+		x = -3
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = ARG_revolution_of_the_park
+		}
+		relative_position_id = ARG_revolution_of_the_park
+		mutually_exclusive = {
+			focus = ARG_crush_them
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ARG_approach_pan_ucrm
+		icon = GFX_goal_molotov_ribbentrop_pact
+		available = {
+			always = no 
+		}
+		x = -5
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ARG_seek_compromise
+		}
+		relative_position_id = ARG_revolution_of_the_park
+		mutually_exclusive = {
+			focus = ARG_approach_the_revolutionaries
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ARG_approach_the_revolutionaries
+		icon = GFX_focus_generic_concessions
+		available = {
+			always = no 
+		}
+		x = -1
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ARG_seek_compromise
+		}
+		relative_position_id = ARG_revolution_of_the_park
+		mutually_exclusive = {
+			focus = ARG_approach_pan_ucrm
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
 		id = ARG_december_revolution
 		icon = GFX_goal_revolution
 		available = {
 			always = no 
 		}
-		x = 4
-		y = 0
+		x = 0
+		y = 1
 		cost = 10
-		
+		prerequisite = {
+			focus = ARG_approach_pan_ucrm
+		}
+		relative_position_id = ARG_approach_pan_ucrm
 		completion_reward = {
 		}
 	}
@@ -33,13 +180,13 @@ focus_tree = {
 	focus = {
 		id = ARG_release_political_prisoners
 		icon = GFX_goal_people
-		x = 1
+		x = -3
 		y = 1
 		cost = 1
 		prerequisite = {
 			focus = ARG_december_revolution
 		}
-		
+		relative_position_id = ARG_december_revolution
 		completion_reward = {
 			add_political_power = 50
 		}
@@ -48,13 +195,13 @@ focus_tree = {
 	focus = {
 		id = ARG_status_of_the_congo
 		icon = GFX_goal_moar_rubber
-		x = 7
+		x = 3
 		y = 1
 		cost = 2
 		prerequisite = {
 			focus = ARG_december_revolution
 		}
-		
+		relative_position_id = ARG_december_revolution
 		completion_reward = {
 			country_event = arg.1
 		}
@@ -63,13 +210,13 @@ focus_tree = {
 	focus = {
 		id = ARG_fate_of_the_king
 		icon = GFX_goal_crush_monarchy
-		x = 3
+		x = -1
 		y = 1
 		cost = 1
 		prerequisite = {
 			focus = ARG_december_revolution
 		}
-		
+		relative_position_id = ARG_december_revolution	
 		completion_reward = {
 			##country_event = fate of the king event
 		}
@@ -78,13 +225,13 @@ focus_tree = {
 	focus = {
 		id = ARG_trials_of_the_pan
 		icon = GFX_goal_the_trial
-		x = 3
+		x = -1
 		y = 2
 		cost = 1
 		prerequisite = {
 			focus = ARG_fate_of_the_king
 		}
-		
+		relative_position_id = ARG_december_revolution	
 		completion_reward = {
 			##country_event = trials of the pan event
 		}
@@ -93,13 +240,13 @@ focus_tree = {
 	focus = {
 		id = ARG_declare_the_monarchy_defunct
 		icon = GFX_focus_rom_abdicate
-		x = 5
+		x = 1
 		y = 1
 		cost = 1
 		prerequisite = {
 			focus = ARG_december_revolution
 		}
-		
+		relative_position_id = ARG_december_revolution	
 		completion_reward = {
 			add_political_power = 25
 			set_cosmetic_tag = ARG_Republic
@@ -109,13 +256,13 @@ focus_tree = {
 	focus = {
 		id = ARG_constitutional_assembly
 		icon = GFX_goal_government_icon
-		x = 5
+		x = 1
 		y = 2
 		cost = 3
 		prerequisite = {
 			focus = ARG_declare_the_monarchy_defunct
 		}
-		
+		relative_position_id = ARG_december_revolution	
 		completion_reward = {
 			##load constitution focus
 		}
