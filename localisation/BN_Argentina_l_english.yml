@@ -53,6 +53,15 @@ ARG_idea_congo_sale_desc:0 "We are receiving payments for the sale of our colony
 ARG_idea_congo_purchase:0 "Congo Purchase"
 ARG_idea_congo_purchase_desc:0 "We are paying the purchase of the Congo"
 
+### Flags ###
+ARG_sell_the_congo:0 "Sell the Congo"
+ARG_keep_the_congo:0 "Keep the Congo"
+ARG_congo_offered:0 "Congo offered"
+ARG_the_king_is_exiled:0 "King in exile"
+ARG_king_remains_captive:0 "The King remains captive"
+ARG_the_king_is_dead:0 "The King was executed"
+ARG_harsh_punishments_pan:0 "The PAN received harsh punishments"
+
 ### Decisions ###
 
 #Categories
