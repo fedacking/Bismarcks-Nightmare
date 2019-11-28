@@ -95,7 +95,7 @@ country_event = { #Denied
 	is_triggered_only = yes
 	option = { #Yes
 		name = arg.4.a
-		remove_country_flag = ARG_congo_offered
+		clr_country_flag = ARG_congo_offered
 	}
 }
 
