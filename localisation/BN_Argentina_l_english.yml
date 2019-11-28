@@ -12,8 +12,8 @@ ARG_social_conservative_party:0 "PAN"
 ARG_social_conservative_party_long:0 "Partido Autonomista Nacional"
 ARG_semi_constitutionalist_party:0 "November Government"
 ARG_semi_constitutionalist_party_long:0 "His Royal Majesty's Cabinet of Great Consensus for the Stability of the Nation and the Wellbeing of the People"
-ARG_absolutist_party:0 "House of Rosas"
-ARG_absolutist_party_long:0 "House of Rosas"
+ARG_absolutist_party:0 "Casa Rosas"
+ARG_absolutist_party_long:0 "Casa Rosas"
 ARG_despotist_party:0 "PNLR"
 ARG_despotist_party_long:0 "Partido Nacionalista Leal al Rey"
 
@@ -42,6 +42,30 @@ ARG_eco_soc_juan_b_justo:0 "Juan B. Justo"
 #Security Ministers
 ARG_sec_rli_enzo_bordabehere:0 "Enzo Bordabehere"
 
+### Ideas ###
+
+ARG_idea_captive_king:0 "Captive King"
+ARG_idea_captive_king_desc:0 "King Juan II of house Rosas is still in the hands of the Revolutionary government waiting for them to decide what to do with him."
+ARG_idea_overextended_colonial_empire:0 "Colonial Overextension"
+ARG_idea_overextended_colonial_empire_desc:0 "The Congo was the personal property of the King. With him out of power we need to rethink our colonial administration."
+ARG_idea_congo_sale:0 "Congo Sale"
+ARG_idea_congo_sale_desc:0 "We are receiving payments for the sale of our colony."
+ARG_idea_congo_purchase:0 "Congo Purchase"
+ARG_idea_congo_purchase_desc:0 "We are paying the purchase of the Congo"
+
+### Decisions ###
+
+#Categories
+ARG_congo_sale:0 "The Congo Sale"
+ARG_congo_sale_desc:0 "We need to find a buyer for our colony!"
+
+#Decisions
+
+ARG_offer_france:0 "France"
+ARG_offer_portugal:0 "Portugal"
+ARG_offer_spain:0 "Spain"
+ARG_offer_scandinavia:0 "Scandinavia"
+ARG_offer_russia:0 "Russia"
 
 ### Cosmetic names ###
 
@@ -87,9 +111,31 @@ ARG_constitutional_assembly_desc:0 "Part of what got us in this mess is the lack
  
 ### Events ###
 
-#Congo 
+#Congo
 arg.1.t:0 "The Status of the Congo"
 arg.1.desc:0 "The Congo has been under personal rule of the Argentine monarch since 1885. Now, with the overthrow of the King, the new civilian government needs to decide what to do with the colony."
 arg.1.a:0 "Sell it, we need the money now!"
 arg.1.b:0 "Keep it! It has a lot of economic potential."
 arg.1.c:0 "The fate of the Congo belongs to the Congolese!"
+arg.2.t:0 "The Congo Purchase"
+arg.2.desc:0 "The Argentine government is approaching us with the once in a lifetime opportunity of purchasing their colony in the Congo. Although they're asking for a stiff price the colony could prove very profitable."
+arg.2.a:0 "Deal!"
+arg.2.b:0 "We can't spare the money."
+arg.3.t:0 "The Congo Sale"
+arg.3.desc:0 "Our buyers have agreed to our terms and we are now exchanging the lands for the money."
+arg.3.a:0 "Deal!"
+arg.4.t:0 "The Congo Sale"
+arg.4.desc:0 "Our potential buyer has refused our terms for the exchange."
+arg.4.a:0 "We'll fine another one."
+
+#Revolution events
+arg.5.t:0 "The Fate of the King"
+arg.5.desc:0 "The King has been in our power since we seized the government back in December. It is time to make a decision of what to do with him. Although exiling him might leave the more radical members of our government dissasfied, it could secure a more stable country. Another option is to keep him captive in the Martín García Island but that will make his supporters weary. The last option is to execute the King for his crimes against the people, while just, this road may lead to unrest."
+arg.5.a:0 "Exile him."
+arg.5.b:0 "He stays our prisoner."
+arg.5.c:0 "Execute him!"
+arg.6.t:0 "Trials of the PAN"
+arg.6.desc:0 "The PAN, along with our now allies the UCRM, were the parties that the King approached when he formed his emergency government back in November. Many of the PAN members collaborated closely with the King's atrocities while some just were there. Again, harsher punishments may prove popular in the short run, but lenient ruling could build a stronger Nation."
+arg.6.a:0 "Let them be."
+arg.6.b:0 "Punish close collaborators."
+arg.6.c:0 "Lapdogs of the King, the lot of them!"

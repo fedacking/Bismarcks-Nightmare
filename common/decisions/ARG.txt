@@ -1,0 +1,102 @@
+ARG_congo_sale = {
+	ARG_offer_france = {
+		icon = eng_propaganda_campaigns #PHolder
+		available = {
+			owns = 295
+			NOT = { has_country_flag = ARG_congo_offered }
+		}
+		cost = 0
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			FRA = {
+				country_event = arg.2
+			}
+		set_country_flag = ARG_congo_offered
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ARG_offer_portugal = {
+		icon = eng_propaganda_campaigns #PHolder
+		available = {
+			owns = 295
+			NOT = { has_country_flag = ARG_congo_offered }
+		}
+		cost = 0
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			POR = {
+				country_event = arg.2
+			}
+		set_country_flag = ARG_congo_offered
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ARG_offer_spain = {
+		icon = eng_propaganda_campaigns #PHolder
+		available = {
+			owns = 295
+			NOT = { has_country_flag = ARG_congo_offered }
+		}
+		cost = 0
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			SPA = {
+				country_event = arg.2
+			}
+		set_country_flag = ARG_congo_offered
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ARG_offer_scandinavia = {
+		icon = eng_propaganda_campaigns #PHolder
+		available = {
+			owns = 295
+			NOT = { has_country_flag = ARG_congo_offered }
+		}
+		cost = 0
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			SCA = {
+				country_event = arg.2
+			}
+		set_country_flag = ARG_congo_offered
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ARG_offer_russia = {
+		icon = eng_propaganda_campaigns #PHolder
+		available = {
+			owns = 295
+			NOT = { has_country_flag = ARG_congo_offered }
+		}
+		cost = 0
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			RUS = {
+				country_event = arg.2
+			}
+		set_country_flag = ARG_congo_offered
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

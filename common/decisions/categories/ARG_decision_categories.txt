@@ -1,0 +1,14 @@
+################
+##### ARG ######
+################
+
+ARG_congo_sale = {
+	icon = eng_organize_the_blackshirts #PHolder
+	picture = GFX_decision_cat_picture_organize_the_blackshirts	#PHolder
+	allowed = {
+		tag = ARG
+	}
+	visible = {
+		has_country_flag = ARG_sell_the_congo
+	}
+}

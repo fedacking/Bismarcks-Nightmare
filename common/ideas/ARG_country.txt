@@ -25,5 +25,11 @@ ideas = {
 		}
 		
 		#Revolution
+		ARG_idea_captive_king = {
+			picture = army_chained #place holder image
+			modifier = {
+				political_power_gain = -0.2
+			}
+		}
 	}
 }

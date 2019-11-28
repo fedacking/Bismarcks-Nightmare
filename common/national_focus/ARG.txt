@@ -218,7 +218,7 @@ focus_tree = {
 		}
 		relative_position_id = ARG_december_revolution	
 		completion_reward = {
-			##country_event = fate of the king event
+			country_event = arg.5
 		}
 	}
 	
@@ -233,7 +233,7 @@ focus_tree = {
 		}
 		relative_position_id = ARG_december_revolution	
 		completion_reward = {
-			##country_event = trials of the pan event
+			country_event = arg.6
 		}
 	}
 	
@@ -265,6 +265,7 @@ focus_tree = {
 		relative_position_id = ARG_december_revolution	
 		completion_reward = {
 			##load constitution focus
+			add_stability = 0.1
 		}
 	}
 }

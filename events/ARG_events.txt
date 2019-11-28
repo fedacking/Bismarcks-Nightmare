@@ -9,11 +9,11 @@ country_event = { #Status of the Congo
 	is_triggered_only = yes
 	option = { #Sell
 		name = arg.1.a
-		country_event = arg.2
+		set_country_flag = ARG_sell_the_congo
 	}
 	option = { #Keep it
 		name = arg.1.b
-		set_country_flag = ARG_Keep_the_Congo
+		set_country_flag = ARG_keep_the_congo
 	}
 	option = { #Deconolization
 		name = arg.1.c
@@ -45,71 +45,106 @@ country_event = { #Status of the Congo
 	}
 }
 
-country_event = { #The Congo Sale
+country_event = { #The Congo Purchase
 	id = arg.2
 	title = arg.2.t
 	desc = arg.2.desc
 	is_triggered_only = yes
-	option = { #France
+	option = { #Yes
 		name = arg.2.a
-		FRA = {
+		add_timed_idea = {
+			idea = ARG_idea_congo_purchase
+			days = 365
+		}
+		ROOT = {
+			transfer_state = 295
+			transfer_state = 538
+			transfer_state = 718
+		}
+		ARG = {
 			country_event = arg.3
 		}
 	}
-	option = { #Portugal
+	option = { #No
 		name = arg.2.b
-		POR = {
+		ARG = {
 			country_event = arg.4
-		}
-	}
-	option = { #Spain
-		name = arg.3.c
-		SPA = {
-			country_event = arg.5
-		}
-	}
-	option = { #Scandinavia
-		name = arg.3.e
-		SCA = {
-			country_event = arg.6
 		}
 	}
 }
 
-##country_event = { #The Congo Purchase FRA
-#	id = arg.3
-#	title = arg.3.t
-#	desc = arg.3.desc
-#	is_triggered_only = yes
-#	option = { #Yes
-#		name = arg.3.a
-#		add_timed_idea = {
-#			idea = ARG_idea_congo_purchase
-#			days = 365
-#		}
-#		ARG = {
-#			country_event = arg.7
-#		}
-#	}
-#	option = { #No
-#		name = arg.3.b
-#		ARG = {
-#			country_event = arg.8
-#		}
-#	}
-#}
+country_event = { #Yas queen
+	id = arg.3
+	title = arg.3.t
+	desc = arg.3.desc
+	is_triggered_only = yes
+	option = { #Yes
+		name = arg.3.a
+		add_timed_idea = {
+			idea = ARG_idea_congo_sale
+			days = 365
+		}
+		remove_ideas = {ARG_idea_overextended_colonial_empire}
+	}
+}
 
-#country_event = { #The Congo Sale
-#	id = arg.4
-#	title = arg.4.t
-#	desc = arg.4.desc
-#	is_triggered_only = yes
-#	option = { #Yes
-#		name = arg.4.a
-#		add_timed_idea = {
-#			idea = ARG_idea_congo_sale
-#			days = 365
-#		}
-#		295 = {		
-#	}
-#}
+country_event = { #Denied
+	id = arg.4
+	title = arg.4.t
+	desc = arg.4.desc
+	is_triggered_only = yes
+	option = { #Yes
+		name = arg.4.a
+		remove_country_flag = ARG_congo_offered
+	}
+}
+
+##The tyrant and his henchmen
+
+country_event = { #Fate of the King
+	id = arg.5
+	title = arg.5.t
+	desc = arg.5.desc
+	is_triggered_only = yes
+	option = { #Exile him
+		name = arg.5.a
+		set_country_flag = ARG_the_king_is_exiled
+		add_political_power = -100
+		add_stability = 0.2
+		remove_ideas = {ARG_idea_captive_king}
+	}
+	option = { #Keep him in Martin Garcia
+		name = arg.5.b
+		set_country_flag = ARG_king_remains_captive
+	}
+	option = { #Execute him
+		name = arg.5.c
+		set_country_flag = ARG_the_king_is_dead
+		add_political_power = 100
+		add_stability = -0.2
+		remove_ideas = {ARG_idea_captive_king}
+	}
+}
+
+country_event = { #Trials of the PAN
+	id = arg.6
+	title = arg.6.t
+	desc = arg.6.desc
+	is_triggered_only = yes
+	option = { #Let them go free
+		name = arg.6.a
+		add_political_power = -50
+		add_stability = 0.1
+		add_popularity = { ideology = social_conservative popularity = 0.1 }
+	}
+	option = { #Be lenient
+		name = arg.6.b
+		add_popularity = { ideology = social_conservative popularity = 0.05 }
+	}
+	option = { #Harsh punishments
+		name = arg.6.c
+		set_country_flag = ARG_harsh_punishments_pan
+		add_political_power = 50
+		add_stability = -0.1
+	}
+}

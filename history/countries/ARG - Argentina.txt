@@ -15,6 +15,8 @@ add_ideas = {
 	ARG_for_lco_marcelo_t_de_alvear
 	ARG_eco_soc_juan_b_justo
 	ARG_sec_rli_enzo_bordabehere
+	state_press
+	ARG_idea_captive_king
 	ARG_idea_overextended_colonial_empire
 }
 
