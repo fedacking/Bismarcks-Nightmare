@@ -500,7 +500,7 @@
  STATE_499:0 "Bahia"
  STATE_500:0 "Rio de Janeiro"
  STATE_501:0 "Sao Paulo"
- STATE_502:0 "Río Grande"
+ STATE_502:0 "Río Grande Este"
  STATE_503:0 "Santa Catarina"
  STATE_504:0 "Iguacu"
  STATE_505:0 "Goias"
@@ -839,3 +839,4 @@
  STATE_838:0 "Polnisches Schlesien"
  STATE_839:0 "Konstantinoúpolis"
  STATE_840:0 "Lundenburg"
+ STATE_841:0 "Río Grande Oeste"

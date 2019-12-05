@@ -268,4 +268,56 @@ focus_tree = {
 			add_stability = 0.1
 		}
 	}
+	
+	####################
+	### Congo Reform ###
+	####################
+	
+	focus = {
+		id = ARG_reform_the_congo
+		icon = GFX_focus_generic_support_the_left_right #Pholder
+		bypass = { has_country_flag = ARG_keep_the_congo }
+		available = {
+			always = no 
+		}
+		x = 16
+		y = 0
+		cost = 10
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ARG_an_asset_of_the_nation
+		icon = GFX_focus_generic_support_the_left_right #Pholder
+		x = -2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_reform_the_congo
+		}
+		relative_position_id = ARG_reform_the_congo
+		mutually_exclusive = {
+			focus = ARG_a_part_of_the_nation
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ARG_a_part_of_the_nation
+		icon = GFX_focus_generic_support_the_left_right #Pholder
+		x = 2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_reform_the_congo
+		}
+		relative_position_id = ARG_reform_the_congo
+		mutually_exclusive = {
+			focus = ARG_an_asset_of_the_nation
+		}
+		completion_reward = {
+		}
+	}
 }
