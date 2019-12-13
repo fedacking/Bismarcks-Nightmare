@@ -1,8 +1,8 @@
 ARG_congo_sale = {
+	
 	ARG_offer_france = {
 		icon = eng_propaganda_campaigns #PHolder
 		available = {
-			owns = 295
 			NOT = { has_country_flag = ARG_congo_offered }
 		}
 		cost = 0
@@ -13,16 +13,21 @@ ARG_congo_sale = {
 			FRA = {
 				country_event = arg.2
 			}
-		set_country_flag = ARG_congo_offered
+			set_country_flag = ARG_congo_offered
+			clr_state_flag = AI_ARG_congo_FRA
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 10
+			modifier = {
+				add = 90
+				has_country_flag = AI_ARG_congo_FRA
+			}
 		}
 	}
+	
 	ARG_offer_portugal = {
 		icon = eng_propaganda_campaigns #PHolder
 		available = {
-			owns = 295
 			NOT = { has_country_flag = ARG_congo_offered }
 		}
 		cost = 0
@@ -33,16 +38,21 @@ ARG_congo_sale = {
 			POR = {
 				country_event = arg.2
 			}
-		set_country_flag = ARG_congo_offered
+			set_country_flag = ARG_congo_offered
+			clr_state_flag = AI_ARG_congo_POR
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 10
+			modifier = {
+				add = 90
+				has_country_flag = AI_ARG_congo_POR
+			}
 		}
 	}
+	
 	ARG_offer_spain = {
 		icon = eng_propaganda_campaigns #PHolder
 		available = {
-			owns = 295
 			NOT = { has_country_flag = ARG_congo_offered }
 		}
 		cost = 0
@@ -53,16 +63,21 @@ ARG_congo_sale = {
 			SPA = {
 				country_event = arg.2
 			}
-		set_country_flag = ARG_congo_offered
+			set_country_flag = ARG_congo_offered
+			clr_state_flag = AI_ARG_congo_SPR
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 10
+			modifier = {
+				add = 90
+				has_country_flag = AI_ARG_congo_SPR
+			}
 		}
 	}
+	
 	ARG_offer_scandinavia = {
 		icon = eng_propaganda_campaigns #PHolder
 		available = {
-			owns = 295
 			NOT = { has_country_flag = ARG_congo_offered }
 		}
 		cost = 0
@@ -73,16 +88,21 @@ ARG_congo_sale = {
 			SCA = {
 				country_event = arg.2
 			}
-		set_country_flag = ARG_congo_offered
+			set_country_flag = ARG_congo_offered
+			clr_state_flag = AI_ARG_congo_SCA
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 10
+			modifier = {
+				add = 90
+				has_country_flag = AI_ARG_congo_SCA
+			}
 		}
 	}
+	
 	ARG_offer_russia = {
 		icon = eng_propaganda_campaigns #PHolder
 		available = {
-			owns = 295
 			NOT = { has_country_flag = ARG_congo_offered }
 		}
 		cost = 0
@@ -93,10 +113,15 @@ ARG_congo_sale = {
 			RUS = {
 				country_event = arg.2
 			}
-		set_country_flag = ARG_congo_offered
+			set_country_flag = ARG_congo_offered
+			clr_state_flag = AI_ARG_congo_RUS
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 10
+			modifier = {
+				add = 90
+				has_country_flag = AI_ARG_congo_RUS
+			}
 		}
 	}
 }

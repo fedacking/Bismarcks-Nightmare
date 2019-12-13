@@ -10,6 +10,30 @@ country_event = { #Status of the Congo
 	option = { #Sell
 		name = arg.1.a
 		set_country_flag = ARG_sell_the_congo
+		hidden_effect = {
+			random_list = {
+				20 = {
+					log = "Congo sold to France"
+					set_country_flag = AI_ARG_congo_FRA
+				}
+				20 = {
+					log = "Congo sold to Portugal"
+					set_country_flag = AI_ARG_congo_POR
+				}
+				20 = {
+					log = "Congo sold to Spain"
+					set_country_flag = AI_ARG_congo_SPR
+				}
+				20 = {
+					log = "Congo sold to Scandinavia"
+					set_country_flag = AI_ARG_congo_SCA
+				}
+				20 = {
+					log = "Congo sold to Russia"
+					set_country_flag = AI_ARG_congo_RUS
+				}
+			}
+		}
 	}
 	option = { #Keep it
 		name = arg.1.b
