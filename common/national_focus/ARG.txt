@@ -280,7 +280,7 @@ focus_tree = {
 		available = {
 			always = no 
 		}
-		x = 16
+		x = 18
 		y = 0
 		cost = 10
 		completion_reward = {
@@ -290,9 +290,9 @@ focus_tree = {
 	focus = {
 		id = ARG_an_asset_of_the_nation
 		icon = GFX_focus_generic_support_the_left_right #Pholder
-		x = -2
+		x = -3
 		y = 1
-		cost = 1
+		cost = 3
 		prerequisite = {
 			focus = ARG_reform_the_congo
 		}
@@ -301,15 +301,16 @@ focus_tree = {
 			focus = ARG_a_part_of_the_nation
 		}
 		completion_reward = {
+			#TBD
 		}
 	}
 	
 	focus = {
 		id = ARG_a_part_of_the_nation
 		icon = GFX_focus_generic_support_the_left_right #Pholder
-		x = 2
+		x = 3
 		y = 1
-		cost = 1
+		cost = 10
 		prerequisite = {
 			focus = ARG_reform_the_congo
 		}
@@ -318,6 +319,113 @@ focus_tree = {
 			focus = ARG_an_asset_of_the_nation
 		}
 		completion_reward = {
+			#TBD
+		}
+	}
+	
+	focus = {
+		id = ARG_spanish_schools
+		icon = GFX_focus_generic_support_the_left_right #Pholder
+		x = 1
+		y = 1
+		cost = 6
+		prerequisite = {
+			focus = ARG_a_part_of_the_nation
+		}
+		relative_position_id = ARG_a_part_of_the_nation
+		mutually_exclusive = {
+			focus = ARG_local_language_schools
+		}
+		completion_reward = {
+			#TBD
+		}
+	}
+	
+	focus = {
+		id = ARG_local_language_schools
+		icon = GFX_focus_generic_support_the_left_right #Pholder
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = ARG_a_part_of_the_nation
+		}
+		relative_position_id = ARG_a_part_of_the_nation
+		mutually_exclusive = {
+			focus = ARG_spanish_schools
+		}
+		completion_reward = {
+			#TBD
+		}
+	}
+	
+	focus = {
+		id = ARG_national_ids
+		icon = GFX_focus_generic_support_the_left_right #Pholder
+		x = 0
+		y = 2
+		cost = 10
+		prerequisite = {
+			focus = ARG_local_language_schools
+			focus = ARG_spanish_schools
+		}
+		relative_position_id = ARG_a_part_of_the_nation
+		completion_reward = {
+			#TBD
+		}
+	}
+	
+	focus = {
+		id = ARG_call_local_elections
+		icon = GFX_goal_generic_elections
+		x = -1
+		y = 3
+		cost = 6
+		prerequisite = {
+			focus = ARG_national_ids
+		}
+		relative_position_id = ARG_a_part_of_the_nation
+		mutually_exclusive = {
+			focus = ARG_they_are_not_ready
+		}
+		completion_reward = {
+			#TBD
+		}
+	}
+	
+	focus = {
+		id = ARG_they_are_not_ready
+		icon = GFX_focus_usa_voter_registration_act
+		x = 1
+		y = 3
+		cost = 6
+		prerequisite = {
+			focus = ARG_national_ids
+		}
+		relative_position_id = ARG_a_part_of_the_nation
+		mutually_exclusive = {
+			focus = ARG_call_local_elections
+		}
+		completion_reward = {
+			#TBD
+		}
+	}
+	
+	focus = {
+		id = ARG_congo_argentino
+		icon = GFX_focus_generic_support_the_left_right #Pholder
+		x = 0
+		y = 4
+		cost = 10
+		prerequisite = {
+			focus = ARG_call_local_elections
+			focus = ARG_they_are_not_ready
+		}
+		relative_position_id = ARG_a_part_of_the_nation
+		completion_reward = {
+			295 = { add_core_of = ARG }
+			538 = { add_core_of = ARG }
+			718 = { add_core_of = ARG }
 		}
 	}
 }

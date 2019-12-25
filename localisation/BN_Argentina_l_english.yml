@@ -117,6 +117,23 @@ ARG_declare_the_monarchy_defunct:0 "Declare the Monarchy Defunct"
 ARG_declare_the_monarchy_defunct_desc:0 "With the King removed from power it doesn't make much sense to still call the country a Kingdom. We will declare to the world that we are now a Replubic."
 ARG_constitutional_assembly:0 "Create a Constitutional Assembly"
 ARG_constitutional_assembly_desc:0 "Part of what got us in this mess is the lack of a supreme law, an aggregate of fundamental principles that guide the people. Establishing one should be top priority." 
+#Congo
+ARG_reform_the_congo:0 "Reform the Congo"
+ARG_reform_the_congo_desc:0 "The new government has decided that it is best to keep the colony. Now it's time to make what to do with it."
+ARG_an_asset_of_the_nation:0 "An Asset of the Nation"
+ARG_an_asset_of_the_nation_desc:0 "The idea of making the colony a part of the Nation it's preposterous. The Congo needs to be exploited to it's maximum potential to extract as many natural resources as possible."
+ARG_a_part_of_the_nation:0 "A Part of the Nation"
+ARG_a_part_of_the_nation_desc:0 "We, just like them, used to be a colony that craved for rights. In order to follow the principles of the Mayo Revolution we need to extend citizenship rights to the people of the Congo."
+ARG_spanish_schools:0 "Spanish Schools"
+ARG_spanish_schools_desc:0 "Although non-Spanish speaker still make the majority of the Congo's population, it would be a waste of time to prop up languages that no one in the rest of the country speak. If they want to be Argentine they'll have to speak our language."
+ARG_national_ids:0 "National IDs"
+ARG_national_ids_desc:0 "Part of being an Argentine is having a Documento Nacional de Identidad that lets you access government services, do paper work and most importantly, vote. It is the responsability of the government to give one of these to each citizen."
+ARG_call_local_elections:0 "Local Elections"
+ARG_call_local_elections_desc:0 "One of the upsides of being part of the Republic is being able to choose your representatives. The Revolution fought to bring voting rights to all Argentines which the Congolose are now part of."
+ARG_they_are_not_ready:0 "They're Not Ready"
+ARG_they_are_not_ready_desc:0 "Calling for elections now would be foolish. The population lacks any sort of education and thus they're not able to make this sort of decisions. However, we should promise a date in which they would be able to vote to give them some security."
+ARG_congo_argentino:0 "Congo Argentino"
+ARG_congo_argentino_desc:0 "With all the hard decisions taken, it's only a matter of polishing the last details before finally incorporating the Congo as a part of our Republic."
  
 ### Events ###
 
