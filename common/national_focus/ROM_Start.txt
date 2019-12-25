@@ -1,6 +1,6 @@
 focus_tree = {
 	id = roman_republic_starter_ft
-	
+
 	country = {
 		factor = 0
 		
@@ -216,6 +216,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_stability = -0.05
 		}
 	}
 
@@ -231,6 +232,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = -100
 		}
 	}
 
@@ -246,6 +248,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
 		}
 	}
 
@@ -299,6 +306,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_stability = 0.05
 		}
 	}
 	
@@ -516,6 +524,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_war_support = 0.05
 		}
 	}
 }

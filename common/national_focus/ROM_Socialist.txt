@@ -1,0 +1,588 @@
+focus_tree = {
+	id = roman_socialist_coup_ft
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 11
+			tag = ROM
+		}
+	}
+	
+    continuous_focus_position = { x = 3000 y = 150 }
+	default = no
+	reset_on_civilwar = no
+
+	### The Beginning
+
+	focus = {
+		id = ROM_take_power
+		icon = GFX_goal_generic_war_with_comintern
+		x = 10
+		y = 0
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	# Secure the streets
+	
+	focus = {
+		id = ROM_secure_the_streets
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_take_power }
+		relative_position_id = ROM_take_power
+		x = -3
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_arrest_the_blackshirts
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_secure_the_streets }
+		relative_position_id = ROM_secure_the_streets
+		x = -1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_arrest_disloyal_generals
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_secure_the_streets }
+		relative_position_id = ROM_secure_the_streets
+		x = 1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_summary_executions
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_arrest_the_blackshirts }
+		prerequisite = { focus = ROM_arrest_disloyal_generals }
+		mutually_exclusive = { focus = ROM_revolutionary_tribunals }
+		relative_position_id = ROM_arrest_the_blackshirts
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_revolutionary_tribunals
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_arrest_disloyal_generals }
+		prerequisite = { focus = ROM_arrest_the_blackshirts }
+		mutually_exclusive = { focus = ROM_summary_executions }
+		relative_position_id = ROM_arrest_disloyal_generals
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_put_paramilitaries_on_the_streets
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { 
+			focus = ROM_summary_executions 
+			focus = ROM_revolutionary_tribunals 
+		}
+		relative_position_id = ROM_secure_the_streets
+		x = 0
+		y = 3
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	# Secure the government
+
+	focus = {
+		id = ROM_secure_the_government
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_take_power }
+		relative_position_id = ROM_take_power
+		x = 3
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_form_the_provisional_government
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_secure_the_government }
+		relative_position_id = ROM_secure_the_government
+		x = -1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_supporters_of_l_ordine_nuovo
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_form_the_provisional_government }
+		mutually_exclusive = { focus = ROM_bring_on_maximalists }
+		relative_position_id = ROM_form_the_provisional_government
+		x = -1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_bring_on_maximalists
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_form_the_provisional_government }
+		mutually_exclusive = { focus = ROM_supporters_of_l_ordine_nuovo }
+		relative_position_id = ROM_form_the_provisional_government
+		x = 1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_close_down_the_senate
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_secure_the_government }
+		relative_position_id = ROM_secure_the_government
+		x = 2
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_pack_the_assembly
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_close_down_the_senate }
+		relative_position_id = ROM_close_down_the_senate
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_control_the_media
+		icon = GFX_goal_chain_news
+		prerequisite = { 
+			focus = ROM_bring_on_maximalists 
+			focus = ROM_supporters_of_l_ordine_nuovo 
+		}
+		prerequisite = { focus = ROM_pack_the_assembly }
+		relative_position_id = ROM_secure_the_government
+		x = 1
+		y = 3
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_the_new_socialist_government
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_put_paramilitaries_on_the_streets }
+		prerequisite = { focus = ROM_control_the_media }
+		relative_position_id = ROM_take_power
+		x = 0
+		y = 5
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	### The First Government
+
+	## Proto Economy
+	focus = {
+		id = ROM_answer_the_economic_question
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_the_new_socialist_government }
+		relative_position_id = ROM_the_new_socialist_government
+		x = -7
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_seize_the_factories
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_answer_the_economic_question }
+		relative_position_id = ROM_answer_the_economic_question
+		x = -2
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_the_state_takes_over
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_seize_the_factories }
+		relative_position_id = ROM_seize_the_factories
+		mutually_exclusive = { focus = ROM_the_unions_in_charge }
+		x = -1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_the_unions_in_charge
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_seize_the_factories }
+		relative_position_id = ROM_seize_the_factories
+		mutually_exclusive = { focus = ROM_the_state_takes_over }
+		x = 1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_the_conquest_of_steel
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { 
+			focus = ROM_the_state_takes_over
+			focus = ROM_the_unions_in_charge
+		}
+		relative_position_id = ROM_seize_the_factories
+		x = 0
+		y = 2
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_seize_the_latifundies
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_answer_the_economic_question }
+		relative_position_id = ROM_answer_the_economic_question
+		x = 2
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_farm_collectivization
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_seize_the_latifundies }
+		relative_position_id = ROM_seize_the_latifundies
+		mutually_exclusive = { focus = ROM_redistribute_land }
+		x = -1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_redistribute_land
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_seize_the_latifundies }
+		relative_position_id = ROM_seize_the_latifundies
+		mutually_exclusive = { focus = ROM_farm_collectivization }
+		x = 1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_the_conquest_of_bread
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { 
+			focus = ROM_farm_collectivization
+			focus = ROM_redistribute_land
+		}
+		relative_position_id = ROM_seize_the_latifundies
+		x = 0
+		y = 2
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_expand_the_powers_of_the_economy_minister
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_the_conquest_of_steel }
+		prerequisite = { focus = ROM_the_conquest_of_bread }
+		relative_position_id = ROM_answer_the_economic_question
+		x = 0
+		y = 4
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	## Proto Politics
+	focus = {
+		id = ROM_answer_the_political_question
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_the_new_socialist_government }
+		relative_position_id = ROM_the_new_socialist_government
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_bolster_the_socialist_presses
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_answer_the_political_question }
+		relative_position_id = ROM_answer_the_political_question
+		x = -2
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_distribute_revolutionary_literature
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_answer_the_political_question }
+		relative_position_id = ROM_answer_the_political_question
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_convene_a_constitutional_convention
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_answer_the_political_question }
+		relative_position_id = ROM_answer_the_political_question
+		x = 2
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_have_an_open_election
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_bolster_the_socialist_presses }
+		prerequisite = { focus = ROM_distribute_revolutionary_literature }
+		prerequisite = { focus = ROM_convene_a_constitutional_convention }
+		relative_position_id = ROM_answer_the_political_question
+		mutually_exclusive = { focus = ROM_only_the_reds }
+		x = -1
+		y = 2
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_only_the_reds
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_bolster_the_socialist_presses }
+		prerequisite = { focus = ROM_distribute_revolutionary_literature }
+		prerequisite = { focus = ROM_convene_a_constitutional_convention }
+		relative_position_id = ROM_answer_the_political_question
+		mutually_exclusive = { focus = ROM_have_an_open_election }
+		x = 1
+		y = 2
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_socialist_this_isnt_working
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = {
+			focus = ROM_have_an_open_election
+			focus = ROM_only_the_reds 
+		}
+		relative_position_id = ROM_answer_the_political_question
+		x = 0
+		y = 3
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_purge_the_elected_representative
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_have_an_open_election }
+		prerequisite = { focus = ROM_socialist_this_isnt_working }
+		relative_position_id = ROM_socialist_this_isnt_working
+		x = -1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ROM_permit_open_petitioning
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_only_the_reds }
+		prerequisite = { focus = ROM_socialist_this_isnt_working }
+		relative_position_id = ROM_socialist_this_isnt_working
+		x = 1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	## Proto Military
+	focus = {
+		id = ROM_answer_the_military_question
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_the_new_socialist_government }
+		relative_position_id = ROM_the_new_socialist_government
+		x = 7
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+}
