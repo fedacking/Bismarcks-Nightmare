@@ -13,8 +13,10 @@ ARG_congo_sale = {
 			FRA = {
 				country_event = arg.2
 			}
-			set_country_flag = ARG_congo_offered
-			clr_state_flag = AI_ARG_congo_FRA
+			ARG = {
+				set_country_flag = ARG_congo_offered
+				clr_country_flag = AI_ARG_congo_FRA
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -38,8 +40,10 @@ ARG_congo_sale = {
 			POR = {
 				country_event = arg.2
 			}
-			set_country_flag = ARG_congo_offered
-			clr_state_flag = AI_ARG_congo_POR
+			ARG = {
+				set_country_flag = ARG_congo_offered
+				clr_country_flag = AI_ARG_congo_POR
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -63,8 +67,10 @@ ARG_congo_sale = {
 			SPA = {
 				country_event = arg.2
 			}
-			set_country_flag = ARG_congo_offered
-			clr_state_flag = AI_ARG_congo_SPR
+			ARG = {
+				set_country_flag = ARG_congo_offered
+				clr_country_flag = AI_ARG_congo_SPR
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -88,8 +94,10 @@ ARG_congo_sale = {
 			SCA = {
 				country_event = arg.2
 			}
-			set_country_flag = ARG_congo_offered
-			clr_state_flag = AI_ARG_congo_SCA
+			ARG = {
+				set_country_flag = ARG_congo_offered
+				clr_country_flag = AI_ARG_congo_SCA
+			}
 		}
 		ai_will_do = {
 			factor = 10
@@ -113,8 +121,10 @@ ARG_congo_sale = {
 			RUS = {
 				country_event = arg.2
 			}
-			set_country_flag = ARG_congo_offered
-			clr_state_flag = AI_ARG_congo_RUS
+			ARG = {
+				set_country_flag = ARG_congo_offered
+				clr_country_flag = AI_ARG_congo_RUS
+			}
 		}
 		ai_will_do = {
 			factor = 10

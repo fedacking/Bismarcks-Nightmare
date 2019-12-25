@@ -23,6 +23,7 @@
  ARG_despotist:0 "Kingdom of Argentina"
  ARG_despotist_DEF:0 "the Kingdom of Argentina"
  ARG_despotist_ADJ:0 "Argentine" 
+ 
  COG_communist:0 "Democratic Republic of the Congo"
  COG_communist_DEF:0 "the Democratic Republic of the Congo"
  COG_communist_ADJ:0 "Congolese"
@@ -47,6 +48,7 @@
  COG_despotist:0 "Republic of Zaire"
  COG_despotist_DEF:0 "the Republic of Zaire"
  COG_despotist_ADJ:0 "Zairian" 
+ 
  PAR_despotist:0 "Paraguayan State"
  PAR_despotist_DEF:0 "the Paraguayan State"
  PAR_despotist_ADJ:0 "Paraguayan"

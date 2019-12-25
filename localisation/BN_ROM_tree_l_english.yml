@@ -19,3 +19,33 @@
  ROM_clean_the_streets:0 "Clean the Streets"
  ROM_clean_the_streets_desc:0 "After the massive March, it's time to clean the city of marble, and try to restore order, so that no one can dispute the central government."
  
+ ROM_the_fascists_leave:0 "The Fascists Leave"
+ ROM_the_fascists_leave_desc:0 "The Fascists have decided they could not work with the socialists any more. This grain dole, and the appeasement of the march was the breaking point. 'Can't you see these madment are just growing their power base for a revolution' thundered Mussolini, before he and his allies left the last cabinet meeting."
+ ROM_cast_the_die:0 "Cast the Die"
+ ROM_cast_the_die_desc:0 "With these desertions from the fascist camp, the government has no real support from the streets. It's time to prepare our friends and allies, and bring forth a true revolution to liberate the workers from the capitalist swine!"
+ ROM_convince_the_commies:0 "Convince the Communists"
+ ROM_convince_the_commies_desc:0 "While the Roman Communist Party feels betrayed by our alliance with the bourgeois swine and the reactionary Mussolini, they will see now the fruits of our labour. If we convince them to join our insurrection we will liberate the workers in no time!"
+ ROM_unlock_the_armories:0 "Unlock the Armories"
+ ROM_unlock_the_armories_desc:0 "With the post of security minister vacant and the government paralyzed by the political crisis, the army depots are low on everyones's priority list. We can send our agents to arm our revolutionary brigade, in order to have the necessary weapons for our insurrection."
+ 
+ 
+ ### Socialist Tree
+ ROM_answer_the_political_question:0 "Answer the Political Question"
+ ROM_bolster_the_socialist_presses:0 "Bolster the Revolutionary Presses"
+ ROM_distribute_revolutionary_literature:0 "Distribute Socialist Literature"
+ ROM_convene_a_constitutional_convention:0 "Call for a New Constitution"
+ ROM_have_an_open_election:0 "Have an Open Election"
+ ROM_only_the_reds:0 "Only the Reds"
+ ROM_socialist_this_isnt_working:0 "This isn't Working..."
+ ROM_purge_the_elected_representative:0 "Purge the Elected Representatives"
+ ROM_permit_open_petitioning:0 "Permit Open Petitioning"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
