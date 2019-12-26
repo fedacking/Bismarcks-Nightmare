@@ -245,4 +245,20 @@ spriteTypes = {
 		name = "GFX_goal_generic_flag_puncher"
 		texturefile = "gfx/interface/goals/goal_generic_flag_puncher.tga"
 	}
+	SpriteType = {
+		name = "GFX_goal_WIP"
+		texturefile = "gfx/interface/goals/goal_WIP.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Bookstack"
+		texturefile = "gfx/interface/goals/Bookstack.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_single_red_book"
+		texturefile = "gfx/interface/goals/goal_single_red_book.tga"
+	}
+	SpriteType = {
+		name = "GFX_LEC_Passports"
+		texturefile = "gfx/interface/goals/LEC_Passports.tga"
+	}
 }
