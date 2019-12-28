@@ -86,7 +86,7 @@ ARG_Republic_social_conservative:0 "Argentine Republic"
 ARG_Republic_social_conservative_DEF:0 "the Argentine Republic"
 
 ### National Focus #####
-#December Revolution
+##December Revolution
 ARG_revolution_of_the_park:0 "The Right to Vote"
 ARG_revolution_of_the_park_desc:0 "WIP"
 ARG_crush_them:0 "Crush Them"
@@ -116,12 +116,20 @@ ARG_trials_of_the_pan_desc:0 "The Partido Autonomista Nacional were the enforcer
 ARG_declare_the_monarchy_defunct:0 "Declare the Monarchy Defunct"
 ARG_declare_the_monarchy_defunct_desc:0 "With the King removed from power it doesn't make much sense to still call the country a Kingdom. We will declare to the world that we are now a Replubic."
 ARG_constitutional_assembly:0 "Create a Constitutional Assembly"
-ARG_constitutional_assembly_desc:0 "Part of what got us in this mess is the lack of a supreme law, an aggregate of fundamental principles that guide the people. Establishing one should be top priority." 
-#Congo
-ARG_reform_the_congo:0 "Reform the Congo"
-ARG_reform_the_congo_desc:0 "The new government has decided that it is best to keep the colony. Now it's time to make what to do with it."
+ARG_constitutional_assembly_desc:0 "Part of what got us in this mess is the lack of a supreme law, an aggregate of fundamental principles that guide the people. Establishing one should be top priority."
+
+##Congo
+#Asset
 ARG_an_asset_of_the_nation:0 "An Asset of the Nation"
 ARG_an_asset_of_the_nation_desc:0 "The idea of making the colony a part of the Nation it's preposterous. The Congo needs to be exploited to it's maximum potential to extract as many natural resources as possible."
+ARG_congo_licitation:0 "Licitation of the Congo"
+ARG_congo_licitation_desc:0 "A private entity should be best suited to run this type of business. However, in order to get the most out the Congo, we should call for a licitation to see who offers more."
+ARG_national_congo_company:0 "National Congo Company"
+ARG_national_congo_company_desc:0 "The resources of the colony are too valuable to give out to a private company. In order to run the colony to its maximum potential, we should create a natioanl company dedicated exclusively to the extraction of resources in the Congo."
+
+#Part of
+ARG_reform_the_congo:0 "Reform the Congo"
+ARG_reform_the_congo_desc:0 "The new government has decided that it is best to keep the colony. Now it's time to make what to do with it."
 ARG_a_part_of_the_nation:0 "A Part of the Nation"
 ARG_a_part_of_the_nation_desc:0 "We, just like them, used to be a colony that craved for rights. In order to follow the principles of the Mayo Revolution we need to extend citizenship rights to the people of the Congo."
 ARG_spanish_schools:0 "Spanish Schools"

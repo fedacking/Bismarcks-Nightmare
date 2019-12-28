@@ -306,6 +306,42 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = ARG_congo_licitation
+		icon = GFX_goal_WIP #Pholder
+		x = 1
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = ARG_an_asset_of_the_nation
+		}
+		relative_position_id = ARG_an_asset_of_the_nation
+		mutually_exclusive = {
+			focus = ARG_national_congo_company
+		}
+		completion_reward = {
+			#TBD timed (or not) - consumer goods idea maybe?
+		}
+	}
+	
+	focus = {
+		id = ARG_national_congo_company
+		icon = GFX_goal_WIP #Pholder
+		x = -1
+		y = 1
+		cost = 3
+		prerequisite = {
+			focus = ARG_an_asset_of_the_nation
+		}
+		relative_position_id = ARG_an_asset_of_the_nation
+		mutually_exclusive = {
+			focus = ARG_congo_licitation
+		}
+		completion_reward = {
+			#TBD bonus a ruber extraction research + resource extraction bonus maybe?
+		}
+	}
+	
+	focus = {
 		id = ARG_a_part_of_the_nation
 		icon = GFX_goal_WIP #Pholder
 		x = 3
