@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 11
+			add = 1
 			tag = ROM
 		}
 	}
@@ -578,6 +578,208 @@ focus_tree = {
 		relative_position_id = ROM_the_new_socialist_government
 		x = 7
 		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	#Top Down
+	
+	focus = {
+		id = ROM_from_the_top_down
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_answer_the_military_question }
+		relative_position_id = ROM_answer_the_military_question
+		mutually_exclusive = { focus = ROM_from_the_bottom_up }
+		x = -2
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_socialist_officer_school
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_from_the_top_down }
+		relative_position_id = ROM_from_the_top_down
+		x = -2
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_doctrine_of_the_masses
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_from_the_top_down }
+		relative_position_id = ROM_from_the_top_down
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_a_red_high_command
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_socialist_officer_school }
+		prerequisite = { focus = ROM_doctrine_of_the_masses }
+		relative_position_id = ROM_from_the_top_down
+		x = 0
+		y = 2
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	#bottom up
+	
+	focus = {
+		id = ROM_from_the_bottom_up
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_answer_the_military_question }
+		relative_position_id = ROM_answer_the_military_question
+		mutually_exclusive = { focus = ROM_from_the_top_down }
+		x = 2
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_elected_officers
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_from_the_bottom_up }
+		relative_position_id = ROM_from_the_bottom_up
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_increase_soldier_pays
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_from_the_bottom_up }
+		relative_position_id = ROM_from_the_bottom_up
+		x = 2
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_improve_field_hospitals
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_elected_officers }
+		prerequisite = { focus = ROM_increase_soldier_pays }
+		relative_position_id = ROM_from_the_bottom_up
+		x = 0
+		y = 2
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	#Shared Mil
+	
+	focus = {
+		id = ROM_political_commisars
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { 
+			focus = ROM_from_the_top_down
+			focus = ROM_from_the_bottom_up
+		}
+		relative_position_id = ROM_answer_the_military_question
+		x = 0
+		y = 2
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_mandate_socialist_teachings
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_political_commisars }
+		relative_position_id = ROM_political_commisars
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_an_army_of_liberation
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_mandate_socialist_teachings }
+		prerequisite = { 
+			focus = ROM_a_red_high_command
+			focus = ROM_improve_field_hospitals
+		}
+		relative_position_id = ROM_answer_the_military_question
+		x = 0
+		y = 4
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = ROM_a_socialist_constitution
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_expand_the_powers_of_the_economy_minister }
+		prerequisite = { focus = ROM_an_army_of_liberation }
+		prerequisite = { 
+			focus = ROM_purge_the_elected_representative
+			focus = ROM_permit_open_petitioning
+		}
+		relative_position_id = ROM_the_new_socialist_government
+		x = 0
+		y = 6
 		cost = 1
 
 		available_if_capitulated = no

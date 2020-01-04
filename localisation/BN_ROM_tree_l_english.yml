@@ -1,5 +1,5 @@
 ﻿l_english:
- #Start
+ ### Start
  ROM_woes_of_the_coalition:0 "Woes of the Coalition"
  ROM_woes_of_the_coalition_desc:0 "Roman politics since the contested election of 1934 have been dominated by the governing coalition of the Radical, Socialists and Fascists. Strong believers in the ideals of the People and Senate of Rome, differences in policies have plagued the coalition, to the point where it cannot hold for much longer."
  ROM_on_unenmployment:0 "On Unemployment"
@@ -27,9 +27,27 @@
  ROM_convince_the_commies_desc:0 "While the Roman Communist Party feels betrayed by our alliance with the bourgeois swine and the reactionary Mussolini, they will see now the fruits of our labour. If we convince them to join our insurrection we will liberate the workers in no time!"
  ROM_unlock_the_armories:0 "Unlock the Armories"
  ROM_unlock_the_armories_desc:0 "With the post of security minister vacant and the government paralyzed by the political crisis, the army depots are low on everyones's priority list. We can send our agents to arm our revolutionary brigade, in order to have the necessary weapons for our insurrection."
+ ROM_socialist_coup:0 "Start The Revolution"
+ ROM_socialist_coup_desc:0 "Our time has come! Grab your guns, the time of reconing has come! We will take the Palazzo Montecitorio and drive the capitalist swine to submission!"
  
+ ROM_trust_the_republic:0 "Trust the Republic"
+ ROM_trust_the_republic_desc:0 "Despite our misgivings with the constitutional reality of Rome, this is a time where the system has given us power. Rome can still be redeemed without resorting to violence. We will name our candidates for the cabinet and work with the liberals to surpass this crisis."
+ ROM_tone_down_the_rethoric:0 "Tone Down the Rethoric"
+ ROM_tone_down_the_rethoric_desc:0 "Without a majority to pass legislation in congress, it's clear that elections are coming up. Despite our excelent oratory, the voting public doesn't seem to responde well to violent speeches. The socialist party has been asked to moderate their speech, and they will acquiese."
+ ROM_the_liberals_stand_alone:0 "The Liberals Stand Alone"
+ ROM_the_liberals_stand_alone_desc:0 "Our coalition has collapsed! Without allies, we are left alone carrying the flag of the Republic, and we will persevere!"
+ ROM_rearrenge_the_deck_chairs:0 "Rearrange the Deck Chairs"
+ ROM_rearrenge_the_deck_chairs_desc:0 "With the traitors Mussolinig and Romita out of the ministry is time for new ministers to come in and fill their places. It's important to keep going on, even in the face of adversity!"
+ ROM_the_band_keeps_playing:0 "The Band Keeps Playing"
+ ROM_the_band_keeps_playing_desc:0 "Even while facing 'headwinds' we must show to the Roman people we are still strong, and worth leading the country. To this end we will publish a series of editorials from the government trumpeting our successes!"
+ ROM_the_unsinkable_government:0 "The Unsinkable Government"
+ ROM_the_unsinkable_government_desc:0 "With the political situation detereorating fast, it's time to make our last move before the election. We will put forward a resolution mandating that any candidates for the snap election must take an oath to protect 'Liberty, Order and the Constitution'"
+ ROM_consul_election:0 "Snap Election"
  
  ### Socialist Tree
+ 
+ ROM_expand_the_powers_of_the_economy_minister:0 "Economic Emergency Decree"
+ 
  ROM_answer_the_political_question:0 "Answer the Political Question"
  ROM_bolster_the_socialist_presses:0 "Bolster the Revolutionary Presses"
  ROM_distribute_revolutionary_literature:0 "Distribute Socialist Literature"
@@ -39,6 +57,21 @@
  ROM_socialist_this_isnt_working:0 "This isn't Working..."
  ROM_purge_the_elected_representative:0 "Purge the Elected Representatives"
  ROM_permit_open_petitioning:0 "Permit Open Petitioning"
+ 
+ ROM_answer_the_military_question:0 "Answer the Military Question"
+ ROM_from_the_top_down:0 "From The Top Down"
+ ROM_socialist_officer_school:0 "Socialist Officer School"
+ ROM_doctrine_of_the_masses:0 "Doctrine Of the Masses"
+ ROM_a_red_high_command:0 "A Red High Command"
+ ROM_from_the_bottom_up:0 "From The Bottom Up"
+ ROM_elected_officers:0 "Elected Officers"
+ ROM_increase_soldier_pays:0 "Increase Soldiers Pay"
+ ROM_improve_field_hospitals:0 "Improve Field Hospitals"
+ ROM_political_commisars:0 "Political Commisars"
+ ROM_mandate_socialist_teachings:0 "Mandate Socialist Teachings"
+ ROM_an_army_of_liberation:0 "An Army of Liberation"
+ 
+ ROM_a_socialist_constitution:0 "A Socialist Constitution"
  
  
  
