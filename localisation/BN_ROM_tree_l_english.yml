@@ -43,6 +43,7 @@
  ROM_the_unsinkable_government:0 "The Unsinkable Government"
  ROM_the_unsinkable_government_desc:0 "With the political situation detereorating fast, it's time to make our last move before the election. We will put forward a resolution mandating that any candidates for the snap election must take an oath to protect 'Liberty, Order and the Constitution'"
  ROM_consul_election:0 "Snap Election"
+ ROM_consul_election_desc:0 "Despite the attempts of the government to remain in power, the collapse of the alliance has left them without a mandate or ability to pass legislation. The time has come to call for elections, and let the chips fall where they may."
  
  ### Socialist Tree
  

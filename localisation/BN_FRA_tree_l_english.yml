@@ -55,7 +55,7 @@
  FRA_strenghten_the_national_bank:0 "Strengthen the National Bank"
  FRA_strenghten_the_national_bank_desc:0 "To be able to deal with the crisis, we need a strong centralized institution capable of providing funding for our projects and organize our effort. The National Banks board has been stuffed with imperialists, and authorized to print money and devaluate the currency to ensure our prosperity."
  FRA_the_railway_fund:0 "The Railway Fund"
- FRA_the_railway_fund_desc:0 "One of the greatest contributions to our nation from Napoleon III was the construction of many railways, that connected the nation and provided the means to develop our industry. For years, the infrastructure has languished, but it's time to rebuild it!"
+ FRA_the_railway_fund_desc:0 "One of the greatest contributions to our nation from Napoleon III was the construction of many railways, that connected the nation and provided the means to develop our industry. For years, the railways have stagnated, but it's time to expand again!"
  FRA_invest_in_our_conquests:0 "Invest in Our Conquests"
  FRA_invest_in_our_conquests_desc:0 "During the course of the Great War, we relieved many soon-to-be Frenchmen from their German and Italian oppressors. Despite 20 years in the Empire they have yet to embrace their nature as members of France. The construction of railways will make them feel closer to Paris, and closer to France."
  FRA_cultural_events:0 "Cultural Events"
@@ -84,6 +84,26 @@
  FRA_the_emperor_secured_desc:0 "While there is still much to work on, the Empire is alive! While dealing with the current crisis, we have achieved to put the masses back under the rightful suzerain and accept his Imperial rule. After this the Empire is secured!"
  
  
+ ###Shared Bonapartist Tree
+ ## Military Shared
+ #start
+ FRA_the_imperial_army:0 "The Imperial Army"
+ FRA_the_imperial_army_desc:0 "Despite our Victory in the Great War the army must always keep itself modern. Many enemies still await for a moment of weakness in the great French Empire to strike. We will not give them the satisfaction of being easy targets."
+ 
+ #shared mass and grand
+ FRA_the_noble_sons_of_france:0 "The Noble Sons of France"
+ FRA_the_noble_sons_of_france_desc:0 "No one represents better the spirit of the French Nation that it's citizens! Any preparation for our army must be concetrated on the brave sons of the Nation, the true representatives of what it means to be French!"
+ 
+ #mass assault
+ FRA_doctrine_of_patriotic_fervor:0 "Doctrine of Patriotic Fervor"
+ FRA_doctrine_of_patriotic_fervor_desc:0 "Napoleon triumphed not only by his own brilliance, but by the massive armies he was able to have at his disposal. It's time to recreate the spirit of Valmy, and bring as many of our patriotic soldiers into the army, ensuring we always have numerical superiority."
+ 
+ #grand battleplan
+ FRA_doctrine_of_patriotic_officers:0 "Doctrine of Patriotic Officers"
+ FRA_doctrine_of_patriotic_officers_desc:0 "Napoleon triumphed not only by his own brilliance, but by surrounding himself with the new core of liberal officers, battle hardened from the wars of coalition. It's time to rekindle that esprit de corps in the officers, ensuring we have a good and competent high command."
+ 
+ FRA_the_guns_of_napoleon:0 "The Guns of Napoleon"
+ FRA_the_guns_of_napoleon_desc:0 "We must never forget what made the First Empire great. Napoleon I was a corporal of artillery, and of the back of his guns he bent Europe to his will. We should follow his example, and give primacy to artillery!"
  
  
  

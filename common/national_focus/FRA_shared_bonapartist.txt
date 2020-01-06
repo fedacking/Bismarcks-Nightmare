@@ -1,0 +1,101 @@
+shared_focus = {
+	id = FRA_the_imperial_army
+	icon = GFX_goal_generic_intelligence_exchange
+	x = 32
+	y = 0
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_the_noble_sons_of_france
+	prerequisite = { focus = FRA_the_imperial_army }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_the_imperial_army
+	mutually_exclusive = { focus = FRA_the_guns_of_napoleon }
+	x = -4
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_doctrine_of_patriotic_fervor
+	prerequisite = { focus = FRA_the_noble_sons_of_france }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_the_noble_sons_of_france
+	mutually_exclusive = { focus = FRA_doctrine_of_patriotic_officers }
+	x = -2
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_doctrine_of_patriotic_officers
+	prerequisite = { focus = FRA_the_noble_sons_of_france }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_the_noble_sons_of_france
+	mutually_exclusive = { focus = FRA_doctrine_of_patriotic_fervor }
+	x = 2
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_the_guns_of_napoleon
+	prerequisite = { focus = FRA_the_imperial_army }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_the_imperial_army
+	mutually_exclusive = { focus = FRA_the_noble_sons_of_france }
+	x = 4
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_doctrine_of_mobile_artillery
+	prerequisite = { focus = FRA_the_guns_of_napoleon }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_the_guns_of_napoleon
+	mutually_exclusive = { focus = FRA_doctrine_of_mass_artillery }
+	x = -2
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_doctrine_of_mass_artillery
+	prerequisite = { focus = FRA_the_guns_of_napoleon }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_the_guns_of_napoleon
+	mutually_exclusive = { focus = FRA_doctrine_of_mobile_artillery }
+	x = 2
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
