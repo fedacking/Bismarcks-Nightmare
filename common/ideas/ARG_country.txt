@@ -31,5 +31,23 @@ ideas = {
 				political_power_gain = -0.2
 			}
 		}
+		ARG_idea_strong_coalition = {
+			picture = army_chained #place holder image
+			modifier = {
+				political_power_gain = 0.5
+			}
+		}
+		ARG_idea_weak_coalition = {
+			picture = army_chained #place holder image
+			modifier = {
+				political_power_gain = -0.2
+			}
+		}
+		ARG_idea_no_coalition = {
+			picture = army_chained #place holder image
+			modifier = {
+				political_power_gain = -0.5
+			}
+		}
 	}
 }

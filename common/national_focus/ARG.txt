@@ -10,6 +10,7 @@ focus_tree = {
 		}
 	}
 	
+    continuous_focus_position = { x = 3000 y = 10 }	
 	default = no
 	
 	####################
@@ -180,7 +181,7 @@ focus_tree = {
 	focus = {
 		id = ARG_release_political_prisoners
 		icon = GFX_goal_people
-		x = -3
+		x = 0
 		y = 1
 		cost = 1
 		prerequisite = {
@@ -188,18 +189,18 @@ focus_tree = {
 		}
 		relative_position_id = ARG_december_revolution
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 25
 		}
 	}
 	
 	focus = {
 		id = ARG_status_of_the_congo
 		icon = GFX_goal_moar_rubber
-		x = 3
-		y = 1
+		x = 0
+		y = 2
 		cost = 2
 		prerequisite = {
-			focus = ARG_december_revolution
+			focus = ARG_release_political_prisoners
 		}
 		relative_position_id = ARG_december_revolution
 		completion_reward = {
@@ -208,15 +209,33 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = ARG_radical_approach
+		icon = GFX_goal_generic_demand_territory
+		x = -3
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_status_of_the_congo
+		}
+		relative_position_id = ARG_december_revolution
+		mutually_exclusive = {
+			focus = ARG_moderate_approach
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
 		id = ARG_fate_of_the_king
 		icon = GFX_goal_crush_monarchy
-		x = -1
+		x = 0
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = ARG_december_revolution
+			focus = ARG_radical_approach
 		}
-		relative_position_id = ARG_december_revolution	
+		relative_position_id = ARG_radical_approach
 		completion_reward = {
 			country_event = arg.5
 		}
@@ -225,31 +244,127 @@ focus_tree = {
 	focus = {
 		id = ARG_trials_of_the_pan
 		icon = GFX_goal_the_trial
-		x = -1
+		x = 0
 		y = 2
 		cost = 1
 		prerequisite = {
 			focus = ARG_fate_of_the_king
 		}
-		relative_position_id = ARG_december_revolution	
+		relative_position_id = ARG_radical_approach
 		completion_reward = {
 			country_event = arg.6
 		}
 	}
 	
 	focus = {
-		id = ARG_declare_the_monarchy_defunct
+		id = ARG_moderate_approach
+		icon = GFX_goal_generic_neutrality_focus
+		x = 2
+		y = 3
+		cost = 1
+		prerequisite = {
+			focus = ARG_status_of_the_congo
+		}
+		relative_position_id = ARG_december_revolution
+		mutually_exclusive = {
+			focus = ARG_radical_approach
+		}
+		completion_reward = {
+			set_politics = {
+				ruling_party = liberal_conservative
+			}
+			add_popularity = { ideology = liberal_conservative popularity = 0.08 }
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = ARG_abdication
 		icon = GFX_focus_rom_abdicate
+		x = -2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_moderate_approach
+		}
+		relative_position_id = ARG_moderate_approach
+		mutually_exclusive = {
+			focus = ARG_force_his_hand
+		}
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = {
+		id = ARG_force_his_hand
+		icon = GFX_goal_generic_forceful_treaty
+		x = 2
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_moderate_approach
+		}
+		relative_position_id = ARG_moderate_approach
+		mutually_exclusive = {
+			focus = ARG_abdication
+		}
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = {
+		id = ARG_wip_1
+		icon = GFX_goal_tripartite_pact
+		x = -2
+		y = 2
+		cost = 1
+		prerequisite = {
+			focus = ARG_abdication
+		}
+		relative_position_id = ARG_moderate_approach
+		mutually_exclusive = {
+			focus = ARG_force_his_hand
+		}
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = {
+		id = ARG_deal_with_devil
+		icon = GFX_goal_generic_dangerous_deal
+		x = -1
+		y = 1
+		cost = 1
+		prerequisite = {
+			focus = ARG_force_his_hand
+		}
+		relative_position_id = ARG_force_his_hand
+		mutually_exclusive = {
+			focus = ARG_stand_alone
+		}
+		completion_reward = {
+			#
+		}
+	}
+	
+	focus = {
+		id = ARG_stand_alone
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 1
 		y = 1
 		cost = 1
 		prerequisite = {
-			focus = ARG_december_revolution
+			focus = ARG_force_his_hand
 		}
-		relative_position_id = ARG_december_revolution	
+		relative_position_id = ARG_force_his_hand
+		mutually_exclusive = {
+			focus = ARG_deal_with_devil
+		}
 		completion_reward = {
-			add_political_power = 25
-			set_cosmetic_tag = ARG_Republic
+			#
 		}
 	}
 	
@@ -257,10 +372,13 @@ focus_tree = {
 		id = ARG_constitutional_assembly
 		icon = GFX_goal_government_icon
 		x = 1
-		y = 2
+		y = 6
 		cost = 3
 		prerequisite = {
-			focus = ARG_declare_the_monarchy_defunct
+			focus = ARG_trials_of_the_pan
+			focus = ARG_deal_with_devil
+			focus = ARG_stand_alone
+			focus = ARG_wip_1
 		}
 		relative_position_id = ARG_december_revolution	
 		completion_reward = {
@@ -300,6 +418,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ARG_a_part_of_the_nation
 		}
+		available = { always = no }
+		bypass = { has_country_flag = ARG_flag_keep_as_colony }
 		completion_reward = {
 			#TBD
 		}
@@ -307,7 +427,7 @@ focus_tree = {
 	
 	focus = {
 		id = ARG_congo_licitation
-		icon = GFX_goal_WIP #Pholder
+		icon = GFX_goal_generic_intelligence_exchange
 		x = 1
 		y = 1
 		cost = 3
@@ -354,6 +474,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ARG_an_asset_of_the_nation
 		}
+		available = { always = no }
+		bypass = { has_country_flag = ARG_flag_integrate_the_congo }
 		completion_reward = {
 			#TBD
 		}

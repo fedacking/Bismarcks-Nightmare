@@ -18,6 +18,7 @@ add_ideas = {
 	state_press
 	ARG_idea_captive_king
 	ARG_idea_overextended_colonial_empire
+	ARG_idea_strong_coalition
 }
 
 set_stability = 0.2
@@ -86,10 +87,10 @@ set_popularities = {
 	absolutist = 0
 	semi_constitutionalist = 0
 	social_conservative = 0
-	liberal_conservative = 18
-	republican_liberal = 66
+	liberal_conservative = 43
+	republican_liberal = 45
 	socialist = 12
-	communist = 4
+	communist = 0
 }
 
 set_politics = {
@@ -122,9 +123,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Lisandro de la Torre"
-	desc = "POLITICS_LISANDRO_DE_LA_TORRE_DESC"
-	picture = "gfx/leaders/ARG/Portrait_ARG_de_la_Torre.tga"
+	name = "Vacant"
+	desc = "VACANT_DESC"
+	picture = "gfx/leaders/ARG/Portrait_ARG_Vacant.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -133,9 +134,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Juan II"
-	desc = "POLITICS_JUAN_II_DESC"
-	picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
+	name = "Vacant"
+	desc = "VACANT_DESC"
+	picture = "gfx/leaders/ARG/Portrait_ARG_Vacant.tga"
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
 	traits = {

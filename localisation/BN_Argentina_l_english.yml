@@ -57,6 +57,9 @@ ARG_idea_congo_purchase_desc:0 "We are paying the purchase of the Congo"
 ARG_sell_the_congo:0 "Sell the Congo"
 ARG_keep_the_congo:0 "Keep the Congo"
 ARG_congo_offered:0 "Congo offered"
+ARG_flag_integrate_the_congo:0 "Integrate the Congo"
+ARG_flag_keep_as_colony:0 "Congo remains as colony"
+ARG_flag_socialists_leave:0 "The socialists left the coalition"
 ARG_the_king_is_exiled:0 "King in exile"
 ARG_king_remains_captive:0 "The King remains captive"
 ARG_the_king_is_dead:0 "The King was executed"
@@ -109,12 +112,24 @@ ARG_release_political_prisoners:0 "Release Political Prisoners"
 ARG_release_political_prisoners_desc:0 "In the months leading up to the Revolution, the King jailed a lot of republican partisans. Now with the power in the peoples hands is time to free all the political prisoners."
 ARG_status_of_the_congo:0 "Status of the Congo"
 ARG_status_of_the_congo_desc:0 "The Congo was personal property of the King, but with all his power striped we can seize it. It is now time to decide, what will be the future of the colony?"
+ARG_radical_approach:0 "The Radical Approach"
+ARG_radical_approach_desc:0 "The Revolution needs to stay as near to its original objectives as possible, and for that, the only real answer is to keep its policy mainly in the hands of the radicals."
 ARG_fate_of_the_king:0 "Of Tyrant..."
 ARG_fate_of_the_king_desc:0 "The King has done a great deal of harm to the Nation. Although he deserves it, harsher punishments can lead to unrest in certain sections of society."
 ARG_trials_of_the_pan:0 "...and Henchmen"
 ARG_trials_of_the_pan_desc:0 "The Partido Autonomista Nacional were the enforcers of the King's policy. They had helped the King in doing most of his excesses and atrocities. Although harsher punishments would be just, these could endanger the stability of the Nation and make it really hard to fix the national divide."
-ARG_declare_the_monarchy_defunct:0 "Declare the Monarchy Defunct"
-ARG_declare_the_monarchy_defunct_desc:0 "With the King removed from power it doesn't make much sense to still call the country a Kingdom. We will declare to the world that we are now a Replubic."
+ARG_moderate_approach:0 "The Moderate Approach"
+ARG_moderate_approach_desc:0 "What the country needs the most right now is stability, and who better to bring such thing than the moderates? If we let the radicals have their way in most of the decisions the Revolution could fell to a reaction."
+ARG_abdication:0 "The King Must Abdicate!"
+ARG_abdication_desc:0 "If we are to keep the Monarchy we have to meet this demand from the radicals, the current King must go. He has to much blood in his hands and therefore he's going to abdicate in favor of his young son."
+ARG_wip_1:0 "WIP"
+ARG_wip_1_desc:0 "WIP"
+ARG_force_his_hand:0 "Force His Hand"
+ARG_force_his_hand_desc:0 "Instead of just outright removing the King from the throne we could just force him to allow the creation of a new constitution that would guarantee the civil and political rights of all Argentines. Although good on paper, this decision could anguer the radicals and make them leave the coalition, making our government a much weaker one."
+ARG_deal_with_devil:0 "A Deal With the Devil"
+ARG_deal_with_devil_desc:0 "Since both, radicals and socialists have abandoned our coalition we need a new ally to really keep control of the government. Although they were previously our rivals we could strike a deal with the more liberal side of the PAN to keep the peace until we can call for elections."
+ARG_stand_alone:0 "Stand Alone"
+ARG_stand_alone_desc:0 "Although difficult, we need to hold this government together alone. Making a deal with the PAN would be practically betraying the revolution."
 ARG_constitutional_assembly:0 "Create a Constitutional Assembly"
 ARG_constitutional_assembly_desc:0 "Part of what got us in this mess is the lack of a supreme law, an aggregate of fundamental principles that guide the people. Establishing one should be top priority."
 
@@ -123,9 +138,9 @@ ARG_constitutional_assembly_desc:0 "Part of what got us in this mess is the lack
 ARG_an_asset_of_the_nation:0 "An Asset of the Nation"
 ARG_an_asset_of_the_nation_desc:0 "The idea of making the colony a part of the Nation it's preposterous. The Congo needs to be exploited to it's maximum potential to extract as many natural resources as possible."
 ARG_congo_licitation:0 "Licitation of the Congo"
-ARG_congo_licitation_desc:0 "A private entity should be best suited to run this type of business. However, in order to get the most out the Congo, we should call for a licitation to see who offers more."
+ARG_congo_licitation_desc:0 "A private entity should be best suited to run this type of business. However, in order to get the most out the Congo, we should call for a licitation to see who gives the best offer."
 ARG_national_congo_company:0 "National Congo Company"
-ARG_national_congo_company_desc:0 "The resources of the colony are too valuable to give out to a private company. In order to run the colony to its maximum potential, we should create a natioanl company dedicated exclusively to the extraction of resources in the Congo."
+ARG_national_congo_company_desc:0 "The resources of the colony are too valuable to give out to a private company. In order to run the colony to its maximum potential, we should create a national company dedicated exclusively to the extraction of resources in the Congo."
 
 #Part of
 ARG_reform_the_congo:0 "Reform the Congo"
@@ -144,7 +159,11 @@ ARG_they_are_not_ready:0 "They're Not Ready"
 ARG_they_are_not_ready_desc:0 "Calling for elections now would be foolish. The population lacks any sort of education and thus they're not able to make this sort of decisions. However, we should promise a date in which they would be able to vote to give them some security."
 ARG_congo_argentino:0 "Congo Argentino"
 ARG_congo_argentino_desc:0 "With all the hard decisions taken, it's only a matter of polishing the last details before finally incorporating the Congo as a part of our Republic."
- 
+
+### Tooltips ###
+
+ARG_socialist_angery: "The socialists will leave the coalition."
+
 ### Events ###
 
 #Congo
@@ -163,6 +182,10 @@ arg.3.a:0 "Deal!"
 arg.4.t:0 "The Congo Sale"
 arg.4.desc:0 "Our potential buyer has refused our terms for the exchange."
 arg.4.a:0 "We'll fine another one."
+arg.7.t:0 "Reform the Congo"
+arg.7.desc:0 "Now that we chose to keep the colony we'll need to decide what to do with it. The socialists said that they would leave the coalition if we keep the Congo as a colony for resource exploitation and had made the case for the full integration of the Congo as part of the Nation. Although costly, integrating the Congo is the only way to keep the coalition intact."
+arg.7.a:0 "The Congo remains a colony"
+arg.7.b:0 "We shall strive to extend freedom to the Congo"
 
 #Revolution events
 arg.5.t:0 "The Fate of the King"

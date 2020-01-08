@@ -9,8 +9,11 @@ country_event = { #Status of the Congo
 	is_triggered_only = yes
 	option = { #Sell
 		name = arg.1.a
-		set_country_flag = ARG_sell_the_congo
+		custom_effect_tooltip = ARG_socialist_angery
+		add_popularity = { ideology = socialist popularity = -0.12 }
 		hidden_effect = {
+			set_country_flag = ARG_sell_the_congo
+			set_country_flag = ARG_flag_socialists_leave
 			random_list = {
 				20 = {
 					log = "Congo sold to France"
@@ -38,6 +41,9 @@ country_event = { #Status of the Congo
 	option = { #Keep it
 		name = arg.1.b
 		set_country_flag = ARG_keep_the_congo
+		ARG = {
+			country_event = arg.7
+		}
 	}
 	option = { #Deconolization
 		name = arg.1.c
@@ -123,6 +129,28 @@ country_event = { #Denied
 	}
 }
 
+country_event = { #Reform the Congo
+	id = arg.7
+	title = arg.7.t
+	desc = arg.7.desc
+	is_triggered_only = yes
+	option = { #Colony
+		name = arg.7.a
+		hidden_effect = {
+			set_country_flag = ARG_flag_keep_as_colony
+			set_country_flag = ARG_flag_socialists_leave
+		}
+		custom_effect_tooltip = ARG_socialist_angery
+		add_popularity = { ideology = socialist popularity = -0.12 }
+	}
+	option = { #Province
+		name = arg.7.b
+		hidden_effect = {
+			set_country_flag = ARG_flag_integrate_the_congo
+		}
+	}
+}
+
 ##The tyrant and his henchmen
 
 country_event = { #Fate of the King
@@ -136,10 +164,12 @@ country_event = { #Fate of the King
 		add_political_power = -100
 		add_stability = 0.2
 		remove_ideas = {ARG_idea_captive_king}
+		set_cosmetic_tag = ARG_Republic
 	}
 	option = { #Keep him in Martin Garcia
 		name = arg.5.b
 		set_country_flag = ARG_king_remains_captive
+		set_cosmetic_tag = ARG_Republic
 	}
 	option = { #Execute him
 		name = arg.5.c
@@ -147,6 +177,7 @@ country_event = { #Fate of the King
 		add_political_power = 100
 		add_stability = -0.2
 		remove_ideas = {ARG_idea_captive_king}
+		set_cosmetic_tag = ARG_Republic
 	}
 }
 
