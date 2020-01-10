@@ -34,6 +34,7 @@ ARG_hog_des_manuel_carles:0 "Manuel Carlés"
 ARG_hog_des_juan_domingo_peron:0 "Juan Domingo Perón"
 
 #Foreign Minister
+ARG_for_rli_juan_isaac_cooke:0 "Juan Isaac Cooke"
 ARG_for_lco_marcelo_t_de_alvear:0 "Marcelo T. de Alvear"
 ARG_for_scn_julio_argentino_p_roca:0 "Julio Argentino P. Roca"
 
@@ -43,6 +44,7 @@ ARG_eco_lco_roberto_m_ortiz:0 "Roberto M. Ortiz"
 
 #Security Ministers
 ARG_sec_rli_enzo_bordabehere:0 "Enzo Bordabehere"
+ARG_sec_lco_leopoldo_melo:0 "Leopoldo Melo"
 ARG_sec_scn_ramon_s_castillo:0 "Ramón S. Castillo"
 
 ### Ideas ###

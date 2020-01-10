@@ -220,6 +220,10 @@ country_event = { #Fate of the King
 			set_country_flag = ARG_flag_moderates_leave
 		}
 		add_popularity = { ideology = liberal_conservative popularity = -0.5 }
+		swap_ideas = {
+			 remove_idea = ARG_for_lco_marcelo_t_de_alvear
+			 add_idea = ARG_for_rli_juan_isaac_cooke
+		}
 		custom_effect_tooltip = ARG_moderates_angery
 	}
 }

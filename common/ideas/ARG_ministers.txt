@@ -299,6 +299,28 @@ ideas = {
 	
 	foreign_minister = { ### Foreign Minister ###
 	
+		ARG_for_rli_juan_isaac_cooke = {
+			picture = #
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_juan_isaac_cooke_dead }
+					has_country_flag = can_replace_for
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				foreign_minister
+				republican_liberal
+				for_ideological_crusader
+			}
+			cancel_if_invalid = no
+		}
+	
 		ARG_for_lco_marcelo_t_de_alvear = {
 			picture = minister_marcelo_t_de_alvear
 			allowed = { original_tag = ARG }
@@ -329,7 +351,7 @@ ideas = {
 					tooltip = tooltip_minister_available
 					social_conservative_allowed = yes
 					NOT = { has_country_flag = ARG_julio_argentino_p_roca_dead }
-					has_country_flag = can_replace_hog
+					has_country_flag = can_replace_for
 				}
 			}
 			visible = {
@@ -417,6 +439,28 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
+		ARG_sec_lco_leopoldo_melo = {
+			picture = #
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_leopoldo_melo_dead }
+					has_country_flag = can_replace_sec
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				liberal_conservative
+				sec_crime_fighter
+			}
+			cancel_if_invalid = no
+		}
+		
 		ARG_sec_scn_ramon_s_castillo = {
 			picture = minister_ramon_s_castillo
 			allowed = { original_tag = ARG }
@@ -424,7 +468,7 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
 					NOT = { has_country_flag = ARG_ramon_s_castillo_dead }
-					has_country_flag = can_replace_hog
+					has_country_flag = can_replace_sec
 				}
 			}
 			visible = {

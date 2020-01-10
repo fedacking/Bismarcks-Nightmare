@@ -17,7 +17,6 @@ add_ideas = {
 	state_press
 	ARG_idea_captive_king
 	ARG_idea_overextended_colonial_empire
-	ARG_idea_strong_coalition
 }
 
 set_stability = 0.2

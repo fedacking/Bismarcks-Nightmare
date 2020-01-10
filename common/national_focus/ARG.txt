@@ -222,6 +222,10 @@ focus_tree = {
 			focus = ARG_moderate_approach
 		}
 		completion_reward = {
+			set_politics = {
+				ruling_party = republican_liberal
+			}
+			add_popularity = { ideology = republican_liberal popularity = 0.06 }
 			add_political_power = 50
 			add_ideas = {
 				ARG_hog_rli_lisandro_de_la_torre
@@ -326,12 +330,20 @@ focus_tree = {
 			focus = ARG_abdication
 		}
 		completion_reward = {
+			custom_effect_tooltip = ARG_replibs_angery
 			add_popularity = { ideology = republican_liberal popularity = -0.5 }
 			remove_ideas = {
 				ARG_sec_rli_enzo_bordabehere
 			}
+			if = {
+				limit = {
+					has_country_flag  = ARG_flag_socialists_stay
+				}
+				add_ideas = {
+					ARG_sec_lco_leopoldo_melo
+				}
+			}
 			add_political_power = 25
-			custom_effect_tooltip = ARG_replibs_angery
 			remove_ideas = {
 				ARG_idea_captive_king
 			}
