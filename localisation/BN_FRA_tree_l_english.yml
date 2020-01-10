@@ -92,7 +92,13 @@
  
  #shared mass and grand
  FRA_the_noble_sons_of_france:0 "The Noble Sons of France"
- FRA_the_noble_sons_of_france_desc:0 "No one represents better the spirit of the French Nation that it's citizens! Any preparation for our army must be concetrated on the brave sons of the Nation, the true representatives of what it means to be French!"
+ FRA_the_noble_sons_of_france_desc:0 "No one represents better the spirit of the French Nation that it's citizens! Any preparation for our army must be concentrated on the brave sons of the Nation, the true representatives of what it means to be French!"
+ FRA_department_of_patriotism:0 "Department of Patriotism"
+ FRA_department_of_patriotism_desc:0 "The French state has no central mechanism to distribute state propaganda. In order to further incentivize the patriotic feelings of our population we will create the Department of Patriotism and Propaganda; tasked with developing and ordering our propaganda efforts."
+ FRA_support_our_troops:0 "Support Our Troops!"
+ FRA_support_our_troops_desc:0 "Our troops deserve the best that we can give them! In order to accomplish this goal we have spent quite a considerable amount of time developing support equipment for our troops."
+ FRA_create_the_army_of_engineers:0 "Create the Army of Engineers"
+ FRA_create_the_army_of_engineers_desc:0 "The modern world provides us many solutions to the problems of geography in the battlefield. We must create "L'arme du génie", our Enginnering Arm, in order to centralize and plan our engineering efforts. Sometimes to destroy, often to build, always to serve!"
  
  #mass assault
  FRA_doctrine_of_patriotic_fervor:0 "Doctrine of Patriotic Fervor"

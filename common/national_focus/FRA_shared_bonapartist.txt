@@ -1,7 +1,7 @@
 shared_focus = {
 	id = FRA_the_imperial_army
 	icon = GFX_goal_generic_intelligence_exchange
-	x = 32
+	x = 35
 	y = 0
 	cost = 5
 	
@@ -10,13 +10,15 @@ shared_focus = {
 	}
 }
 
+## Noble Sons of France
+
 shared_focus = {
 	id = FRA_the_noble_sons_of_france
 	prerequisite = { focus = FRA_the_imperial_army }
 	icon = GFX_goal_generic_intelligence_exchange
 	relative_position_id = FRA_the_imperial_army
 	mutually_exclusive = { focus = FRA_the_guns_of_napoleon }
-	x = -4
+	x = -6
 	y = 1
 	cost = 5
 	
@@ -28,10 +30,10 @@ shared_focus = {
 shared_focus = {
 	id = FRA_doctrine_of_patriotic_fervor
 	prerequisite = { focus = FRA_the_noble_sons_of_france }
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_FRA_patriotic_fervor
 	relative_position_id = FRA_the_noble_sons_of_france
 	mutually_exclusive = { focus = FRA_doctrine_of_patriotic_officers }
-	x = -2
+	x = -5
 	y = 1
 	cost = 5
 	
@@ -43,10 +45,10 @@ shared_focus = {
 shared_focus = {
 	id = FRA_doctrine_of_patriotic_officers
 	prerequisite = { focus = FRA_the_noble_sons_of_france }
-	icon = GFX_goal_generic_intelligence_exchange
+	icon = GFX_goal_FRA_military_mission
 	relative_position_id = FRA_the_noble_sons_of_france
 	mutually_exclusive = { focus = FRA_doctrine_of_patriotic_fervor }
-	x = 2
+	x = 5
 	y = 1
 	cost = 5
 	
@@ -56,12 +58,181 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = FRA_expand_the_officer_schools
+	prerequisite = { focus = FRA_doctrine_of_patriotic_officers }
+	icon = GFX_focus_generic_military_academy
+	relative_position_id = FRA_doctrine_of_patriotic_officers
+	x = 0
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_leading_from_the_front
+	prerequisite = { focus = FRA_expand_the_officer_schools }
+	icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+	relative_position_id = FRA_expand_the_officer_schools
+	x = 0
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+		add_ideas = FRA_idea_reckless_generals
+	}
+}
+
+shared_focus = {
+	id = FRA_in_defense_of_the_homeland
+	prerequisite = { focus = FRA_leading_from_the_front }
+	icon = GFX_goal_continuous_def_against_influence
+	relative_position_id = FRA_leading_from_the_front
+	x = 0
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+#shared noble sons
+
+#Propaganda
+shared_focus = {
+	id = FRA_department_of_patriotism
+	prerequisite = { 
+		focus = FRA_doctrine_of_patriotic_fervor 
+		focus = FRA_doctrine_of_patriotic_officers 
+	}
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_the_noble_sons_of_france
+	x = -2
+	y = 2
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_exalt_our_national_heroes
+	prerequisite = { focus = FRA_department_of_patriotism }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_department_of_patriotism
+	x = -1
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_conscript_the_artists
+	prerequisite = { focus = FRA_department_of_patriotism }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_department_of_patriotism
+	x = 1
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_a_poster_on_every_corner
+	prerequisite = { focus = FRA_exalt_our_national_heroes }
+	prerequisite = { focus = FRA_conscript_the_artists }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_department_of_patriotism
+	x = 0
+	y = 2
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+#Support Our Troops
+shared_focus = {
+	id = FRA_support_our_troops
+	prerequisite = { 
+		focus = FRA_doctrine_of_patriotic_fervor 
+		focus = FRA_doctrine_of_patriotic_officers 
+	}
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_the_noble_sons_of_france
+	x = 2
+	y = 2
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_create_the_army_of_engineers
+	prerequisite = { focus = FRA_support_our_troops }
+	icon = GFX_goal_FRA_engineers
+	relative_position_id = FRA_support_our_troops
+	x = -1
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_recon_developments
+	prerequisite = { focus = FRA_support_our_troops }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_support_our_troops
+	x = 1
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_first_aid_improvments
+	prerequisite = { focus = FRA_create_the_army_of_engineers }
+	prerequisite = { focus = FRA_recon_developments }
+	icon = GFX_goal_generic_intelligence_exchange
+	relative_position_id = FRA_support_our_troops
+	x = 0
+	y = 2
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+## The Guns of Napoleon
+
+shared_focus = {
 	id = FRA_the_guns_of_napoleon
 	prerequisite = { focus = FRA_the_imperial_army }
 	icon = GFX_goal_generic_intelligence_exchange
 	relative_position_id = FRA_the_imperial_army
 	mutually_exclusive = { focus = FRA_the_noble_sons_of_france }
-	x = 4
+	x = 6
 	y = 1
 	cost = 5
 	

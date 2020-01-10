@@ -501,7 +501,7 @@ focus_tree = {
 	
 	focus = {
 		id = ARG_local_language_schools
-		icon = GFX_goal_Bookstack
+		icon = GFX_goal_bookstack
 		x = -1
 		y = 1
 		cost = 10
@@ -519,7 +519,7 @@ focus_tree = {
 	
 	focus = {
 		id = ARG_national_ids
-		icon = GFX_LEC_Passports
+		icon = GFX_goal_passports
 		x = 0
 		y = 2
 		cost = 10

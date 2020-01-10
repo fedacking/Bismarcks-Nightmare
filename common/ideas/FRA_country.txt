@@ -150,5 +150,14 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
+		
+		### Military
+		
+		FRA_idea_reckless_generals = {
+			picture = chi_war_of_resistance
+			modifier = {
+				wounded_chance_factor = 0.5
+			}
+		}
 	}
 }

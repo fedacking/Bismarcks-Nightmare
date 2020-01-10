@@ -229,36 +229,56 @@ spriteTypes = {
 		name = "GFX_goal_government_icon"
 		texturefile = "gfx/interface/goals/goal_government_icon.tga"
 	}
+
 	SpriteType = {
 		name = "GFX_goal_no_religion"
 		texturefile = "gfx/interface/goals/goal_state_atheism.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_goal_ideology_social_democrat"
 		texturefile = "gfx/interface/goals/goal_ideology_social_democrat.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_goal_purge_opposition"
 		texturefile = "gfx/interface/goals/goal_purge_opposition.tga"
 	}
+
 	SpriteType = {
 		name = "GFX_goal_generic_flag_puncher"
 		texturefile = "gfx/interface/goals/goal_generic_flag_puncher.tga"
 	}
+
 	SpriteType = {
 		name = "GFX_goal_WIP"
 		texturefile = "gfx/interface/goals/goal_WIP.tga"
 	}
+
 	SpriteType = {
-		name = "GFX_goal_Bookstack"
-		texturefile = "gfx/interface/goals/Bookstack.tga"
+		name = "GFX_goal_bookstack"
+		texturefile = "gfx/interface/goals/goal_bookstack.tga"
 	}
 	SpriteType = {
 		name = "GFX_goal_single_red_book"
 		texturefile = "gfx/interface/goals/goal_single_red_book.tga"
 	}
 	SpriteType = {
-		name = "GFX_LEC_Passports"
-		texturefile = "gfx/interface/goals/LEC_Passports.tga"
+		name = "GFX_goal_passports"
+		texturefile = "gfx/interface/goals/goal_passports.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FRA_engineers"
+		texturefile = "gfx/interface/goals/goal_FRA_engineers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_patriotic_fervor"
+		texturefile = "gfx/interface/goals/goal_FRA_patriotic_fervor.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_military_mission"
+		texturefile = "gfx/interface/goals/goal_FRA_military_mission.dds"
 	}
 }
