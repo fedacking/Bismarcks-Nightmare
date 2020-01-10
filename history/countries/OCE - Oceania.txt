@@ -4,6 +4,10 @@ oob = "OCE_1936"
 
 set_stability = 0.5
 
+add_ideas = {
+	idea_no_content
+}
+
 set_research_slots = 2
 
 # Starting tech

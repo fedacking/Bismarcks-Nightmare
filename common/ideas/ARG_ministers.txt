@@ -158,7 +158,7 @@ ideas = {
 			traits = {
 				head_of_government
 				liberal_conservative
-				#
+				hog_master_compromiser
 			}
 			cancel_if_invalid = no
 		}
@@ -192,7 +192,7 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
 					social_conservative_allowed = yes
-					NOT = { has_country_flag = ARG_ramon_s_castillo_dead }
+					NOT = { has_country_flag = ARG_julio_argentino_p_roca_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
@@ -320,6 +320,29 @@ ideas = {
 			}
 			cancel_if_invalid = no
 		}
+		
+		ARG_for_scn_julio_argentino_p_roca = {
+			picture = minister_julio_argentino_p_roca
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					social_conservative_allowed = yes
+					NOT = { has_country_flag = ARG_julio_argentino_p_roca_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ARG_hog_scn_julio_argentino_p_roca"
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				for_apologetic_clerk
+			}
+		}
 	
 	}
 	
@@ -345,7 +368,29 @@ ideas = {
 				eco_coop_proponent
 			}
 			cancel_if_invalid = no
-		}		
+		}
+		
+		ARG_eco_lco_roberto_m_ortiz = {
+			picture = minister_roberto_m_ortiz
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_roberto_m_ortiz_dead }
+					has_country_flag = can_replace_eco
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				economy_minister
+				liberal_conservative
+				eco_balanced_budget_economy
+			}
+			cancel_if_invalid = no
+		}
 	}
 	
 	security_minister = {
@@ -370,7 +415,28 @@ ideas = {
 				sec_compassionate_gentleman
 			}
 			cancel_if_invalid = no
-		}		
+		}
+		
+		ARG_sec_scn_ramon_s_castillo = {
+			picture = minister_ramon_s_castillo
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_ramon_s_castillo_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				social_conservative
+				sec_prince_of_terror
+			}
+			cancel_if_invalid = no
+		}
 	}
-	
 }

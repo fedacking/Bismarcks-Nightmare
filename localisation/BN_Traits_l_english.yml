@@ -28,6 +28,7 @@
  eco_keynesian_economy:0 "Demand Shock Proponent"
  eco_corporatist: "Corporatism Proponent"
  eco_coop_proponent: "Coop Proponent"
+ eco_balanced_budget_economy: "Balanced Budget Economy"
  
  ### Security Minister ###
  security_minister:0 "Security Minister"
