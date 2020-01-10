@@ -247,9 +247,9 @@ country_event = { #Trials of the PAN
 		add_stability = -0.2
 		if = {
 			limit = {
-				NOT = has_country_flag  = ARG_flag_moderates_leave
-				add_popularity = { ideology = liberal_conservative popularity = -0.5 }
+				NOT = { has_country_flag = ARG_flag_moderates_leave }
 			}
+			add_popularity = { ideology = liberal_conservative popularity = -0.5 }
 			custom_effect_tooltip = ARG_moderates_angery
 			hidden_effect = {
 				set_country_flag = ARG_flag_moderates_leave
