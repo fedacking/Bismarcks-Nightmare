@@ -223,6 +223,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 50
+			add_ideas = {
+				ARG_hog_rli_lisandro_de_la_torre
+			}
 		}
 	}
 	
@@ -275,6 +278,17 @@ focus_tree = {
 			}
 			add_popularity = { ideology = liberal_conservative popularity = 0.08 }
 			add_stability = 0.05
+			add_ideas = {
+				ARG_hog_lco_marcelo_t_de_alvear
+			}
+			if = {
+				limit = {
+					has_country_flag  = ARG_flag_socialists_leave
+				}
+				add_ideas = {
+					ARG_eco_lco_roberto_m_ortiz
+				}
+			}
 		}
 	}
 	
@@ -292,7 +306,9 @@ focus_tree = {
 			focus = ARG_force_his_hand
 		}
 		completion_reward = {
-			#
+			remove_ideas = {
+				ARG_idea_captive_king
+			}
 		}
 	}
 	
@@ -310,7 +326,47 @@ focus_tree = {
 			focus = ARG_abdication
 		}
 		completion_reward = {
-			#
+			add_popularity = { ideology = republican_liberal popularity = -0.5 }
+			remove_ideas = {
+				ARG_sec_rli_enzo_bordabehere
+			}
+			add_political_power = 25
+			custom_effect_tooltip = ARG_replibs_angery
+			remove_ideas = {
+				ARG_idea_captive_king
+			}
+			create_country_leader = {
+				name = "Juan II"
+				desc = "POLITICS_JUAN_II_DESC"
+				picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
+				expire = "1965.1.1"
+				ideology = liberal_conservative_subtype
+				traits = {
+					#
+				}
+			}
+			hidden_effect = {
+				create_country_leader = {
+					name = "Juan II"
+					desc = "POLITICS_JUAN_II_DESC"
+					picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
+					expire = "1965.1.1"
+					ideology = social_democrat_subtype
+					traits = {
+						#
+					}
+				}
+				create_country_leader = {
+					name = "Juan II"
+					desc = "POLITICS_JUAN_II_DESC"
+					picture = "gfx/leaders/ARG/Portrait_ARG_Juan_II.tga"
+					expire = "1965.1.1"
+					ideology = socialist_subtype
+					traits = {
+						#
+					}
+				}
+			}
 		}
 	}
 	
@@ -335,6 +391,7 @@ focus_tree = {
 	focus = {
 		id = ARG_deal_with_devil
 		icon = GFX_goal_generic_dangerous_deal
+		bypass = { has_country_flag = ARG_flag_socialists_stay }
 		x = -1
 		y = 1
 		cost = 1
@@ -346,13 +403,22 @@ focus_tree = {
 			focus = ARG_stand_alone
 		}
 		completion_reward = {
-			#
+			custom_effect_tooltip = ARG_conservative_join_coalition
+			add_popularity = { ideology = social_conservative popularity = 0.4 }
+			remove_ideas = {
+				ARG_for_lco_marcelo_t_de_alvear
+			}
+			add_ideas = {
+				ARG_for_scn_julio_argentino_p_roca
+				ARG_sec_scn_ramon_s_castillo
+			}
 		}
 	}
 	
 	focus = {
 		id = ARG_stand_alone
 		icon = GFX_goal_generic_more_territorial_claims
+		bypass = { has_country_flag = ARG_flag_socialists_stay }
 		x = 1
 		y = 1
 		cost = 1

@@ -11,7 +11,6 @@ if = {
 
 set_country_flag = can_replace_hog
 add_ideas = {
-	ARG_hog_rli_lisandro_de_la_torre
 	ARG_for_lco_marcelo_t_de_alvear
 	ARG_eco_soc_juan_b_justo
 	ARG_sec_rli_enzo_bordabehere

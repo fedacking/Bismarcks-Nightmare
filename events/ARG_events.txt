@@ -11,6 +11,9 @@ country_event = { #Status of the Congo
 		name = arg.1.a
 		custom_effect_tooltip = ARG_socialist_angery
 		add_popularity = { ideology = socialist popularity = -0.12 }
+		remove_ideas = {
+			ARG_eco_soc_juan_b_justo
+		}
 		hidden_effect = {
 			set_country_flag = ARG_sell_the_congo
 			set_country_flag = ARG_flag_socialists_leave
@@ -48,6 +51,7 @@ country_event = { #Status of the Congo
 	option = { #Deconolization
 		name = arg.1.c
 		hidden_effect = {
+			set_country_flag = ARG_flag_socialists_stay
 			295 = { add_core_of = COG }
 			538 = { add_core_of = COG }
 			718 = { add_core_of = COG }			
@@ -142,11 +146,15 @@ country_event = { #Reform the Congo
 		}
 		custom_effect_tooltip = ARG_socialist_angery
 		add_popularity = { ideology = socialist popularity = -0.12 }
+		remove_ideas = {
+			ARG_eco_soc_juan_b_justo
+		}
 	}
 	option = { #Province
 		name = arg.7.b
 		hidden_effect = {
 			set_country_flag = ARG_flag_integrate_the_congo
+			set_country_flag = ARG_flag_socialists_stay
 		}
 	}
 }
@@ -165,11 +173,31 @@ country_event = { #Fate of the King
 		add_stability = 0.2
 		remove_ideas = {ARG_idea_captive_king}
 		set_cosmetic_tag = ARG_Republic
+		create_country_leader = {
+			name = "Lisandro de la Torre"
+			desc = "LISANDRO_DE_LA_TORRE_DESC"
+			picture = "gfx/leaders/ARG/Portrait_ARG_de_la_Torre.tga"
+			expire = "1965.1.1"
+			ideology = social_democrat_subtype
+			traits = {
+				#
+			}
+		}
 	}
 	option = { #Keep him in Martin Garcia
 		name = arg.5.b
 		set_country_flag = ARG_king_remains_captive
 		set_cosmetic_tag = ARG_Republic
+		create_country_leader = {
+			name = "Lisandro de la Torre"
+			desc = "LISANDRO_DE_LA_TORRE_DESC"
+			picture = "gfx/leaders/ARG/Portrait_ARG_de_la_Torre.tga"
+			expire = "1965.1.1"
+			ideology = social_democrat_subtype
+			traits = {
+				#
+			}
+		}
 	}
 	option = { #Execute him
 		name = arg.5.c
@@ -178,6 +206,21 @@ country_event = { #Fate of the King
 		add_stability = -0.2
 		remove_ideas = {ARG_idea_captive_king}
 		set_cosmetic_tag = ARG_Republic
+		create_country_leader = {
+			name = "Lisandro de la Torre"
+			desc = "LISANDRO_DE_LA_TORRE_DESC"
+			picture = "gfx/leaders/ARG/Portrait_ARG_de_la_Torre.tga"
+			expire = "1965.1.1"
+			ideology = social_democrat_subtype
+			traits = {
+				#
+			}
+		}
+		hidden_effect = {
+			set_country_flag = ARG_flag_moderates_leave
+		}
+		add_popularity = { ideology = liberal_conservative popularity = -0.5 }
+		custom_effect_tooltip = ARG_moderates_angery
 	}
 }
 
@@ -190,16 +233,27 @@ country_event = { #Trials of the PAN
 		name = arg.6.a
 		add_political_power = -50
 		add_stability = 0.1
-		add_popularity = { ideology = social_conservative popularity = 0.1 }
 	}
 	option = { #Be lenient
 		name = arg.6.b
-		add_popularity = { ideology = social_conservative popularity = 0.05 }
+		hidden_effect = {
+			set_country_flag = ARG_flag_moderates_leave
+		}
 	}
 	option = { #Harsh punishments
 		name = arg.6.c
 		set_country_flag = ARG_harsh_punishments_pan
-		add_political_power = 50
-		add_stability = -0.1
+		add_political_power = 100
+		add_stability = -0.2
+		if = {
+			limit = {
+				NOT = has_country_flag  = ARG_flag_moderates_leave
+				add_popularity = { ideology = liberal_conservative popularity = -0.5 }
+			}
+			custom_effect_tooltip = ARG_moderates_angery
+			hidden_effect = {
+				set_country_flag = ARG_flag_moderates_leave
+			}
+		}
 	}
 }

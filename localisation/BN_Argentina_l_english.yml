@@ -35,12 +35,15 @@ ARG_hog_des_juan_domingo_peron:0 "Juan Domingo Perón"
 
 #Foreign Minister
 ARG_for_lco_marcelo_t_de_alvear:0 "Marcelo T. de Alvear"
+ARG_for_scn_julio_argentino_p_roca:0 "Julio Argentino P. Roca"
 
 #Economy Minister
 ARG_eco_soc_juan_b_justo:0 "Juan B. Justo"
+ARG_eco_lco_roberto_m_ortiz:0 "Roberto M. Ortiz"
 
 #Security Ministers
 ARG_sec_rli_enzo_bordabehere:0 "Enzo Bordabehere"
+ARG_sec_scn_ramon_s_castillo:0 "Ramón S. Castillo"
 
 ### Ideas ###
 
@@ -64,6 +67,8 @@ ARG_the_king_is_exiled:0 "King in exile"
 ARG_king_remains_captive:0 "The King remains captive"
 ARG_the_king_is_dead:0 "The King was executed"
 ARG_harsh_punishments_pan:0 "The PAN received harsh punishments"
+ARG_flag_socialists_stay:0 "The socialists stayed in the coalition"
+ARG_flag_moderates_leave:0 "The moderates left the coalition"
 
 ### Decisions ###
 
@@ -163,6 +168,9 @@ ARG_congo_argentino_desc:0 "With all the hard decisions taken, it's only a matte
 ### Tooltips ###
 
 ARG_socialist_angery: "The socialists will leave the coalition."
+ARG_replibs_angery: "The radicals will leave the coalition."
+ARG_conservative_join_coalition: "The conservatives will join in a coalition with the moderates."
+ARG_moderates_angery: "The moderates will leave the coalition."
 
 ### Events ###
 

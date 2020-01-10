@@ -4,7 +4,7 @@ state = {
 	manpower = 1325594	
 	state_category = city	
 	history = {
-		owner = EGY
+		owner = ARA
 		victory_points = {
 			12473 10
 		}
@@ -19,7 +19,7 @@ state = {
 				bunker = 2
 			}
 		}
-		add_core_of = EGY
+		add_core_of = ARA
 	}	
 	provinces = {
 		1056 1072 1088 7140 7671 10087 12029 12473 

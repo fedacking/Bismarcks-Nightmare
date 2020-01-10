@@ -143,6 +143,14 @@ leader_traits = {
 
 		random = no
 	}
+
+	eco_balanced_budget_economy = {
+		political_power_gain = 0.03
+		production_speed_buildings_factor = 0.02
+		production_factory_max_efficiency_factor = 0.02
+
+		random = no
+	}
 	
 	########################################
 	## 			Security Ministers		  ##
