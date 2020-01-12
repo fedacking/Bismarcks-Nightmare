@@ -1,7 +1,7 @@
 shared_focus = {
 	id = FRA_the_imperial_army
 	icon = GFX_goal_generic_intelligence_exchange
-	x = 35
+	x = 38
 	y = 0
 	cost = 5
 	
@@ -18,7 +18,7 @@ shared_focus = {
 	icon = GFX_goal_generic_intelligence_exchange
 	relative_position_id = FRA_the_imperial_army
 	mutually_exclusive = { focus = FRA_the_guns_of_napoleon }
-	x = -6
+	x = -8
 	y = 1
 	cost = 5
 	
@@ -87,10 +87,53 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = FRA_in_defense_of_the_homeland
+	id = FRA_glorify_the_ncos
 	prerequisite = { focus = FRA_leading_from_the_front }
-	icon = GFX_goal_continuous_def_against_influence
+	icon = GFX_focus_generic_little_entente
 	relative_position_id = FRA_leading_from_the_front
+	x = 0
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_prioritize_planning
+	prerequisite = { focus = FRA_doctrine_of_patriotic_officers }
+	icon = GFX_goal_generic_position_armies
+	relative_position_id = FRA_doctrine_of_patriotic_officers
+	x = 2
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_refine_the_grand_assault
+	prerequisite = { focus = FRA_prioritize_planning }
+	icon = GFX_goal_generic_air_doctrine
+	relative_position_id = FRA_prioritize_planning
+	x = 0
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+		add_ideas = FRA_idea_reckless_generals
+	}
+}
+
+shared_focus = {
+	id = FRA_reward_loyalty_and_patriotism
+	prerequisite = { focus = FRA_refine_the_grand_assault }
+	icon = GFX_goal_molotov_ribbentrop_pact
+	relative_position_id = FRA_refine_the_grand_assault
 	x = 0
 	y = 1
 	cost = 5
@@ -232,7 +275,7 @@ shared_focus = {
 	icon = GFX_goal_generic_intelligence_exchange
 	relative_position_id = FRA_the_imperial_army
 	mutually_exclusive = { focus = FRA_the_noble_sons_of_france }
-	x = 6
+	x = 8
 	y = 1
 	cost = 5
 	

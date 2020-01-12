@@ -300,7 +300,7 @@ ideas = {
 	foreign_minister = { ### Foreign Minister ###
 	
 		ARG_for_rli_juan_isaac_cooke = {
-			picture = #
+			picture = minister_placeholder
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {
@@ -440,7 +440,7 @@ ideas = {
 		}
 		
 		ARG_sec_lco_leopoldo_melo = {
-			picture = #
+			picture = minister_placeholder
 			allowed = { original_tag = ARG }
 			available = {
 				custom_trigger_tooltip = {

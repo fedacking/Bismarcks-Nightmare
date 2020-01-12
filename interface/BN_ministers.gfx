@@ -1,4 +1,10 @@
 spriteTypes = {
+	## All_countries
+	SpriteType = {
+		name = "GFX_idea_minister_placeholder"
+		texturefile = "gfx/interface/ministers/idea_minister_placeholder.tga"
+	}
+
     ##France
 	SpriteType = {
 		name = "GFX_idea_minister_philippe_henriot"
