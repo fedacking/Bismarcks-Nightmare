@@ -13,7 +13,7 @@ country_event = { # Woes of the Coalition
 	}
 }
 
-country_event = { # Deal with the socialist
+country_event = { # Let them march
 	id = rom.2
 	title = rom.2.t
 	desc = rom.2.desc
@@ -26,7 +26,7 @@ country_event = { # Deal with the socialist
 	}
 }
 
-country_event = { # Deal with the socialist
+country_event = { # Block the march
 	id = rom.3
 	title = rom.3.t
 	desc = rom.3.desc
@@ -39,7 +39,7 @@ country_event = { # Deal with the socialist
 	}
 }
 
-country_event = { # Block the march
+country_event = { 
 	id = rom.10
 	title = rom.10.t
 	desc = rom.10.desc
