@@ -459,7 +459,7 @@ focus_tree = {
 			focus = ARG_trials_of_the_pan
 			focus = ARG_deal_with_devil
 			focus = ARG_stand_alone
-			focus = ARG_wip_1
+			focus = ARG_mend_the_liberal_schism
 		}
 		relative_position_id = ARG_december_revolution	
 		completion_reward = {
