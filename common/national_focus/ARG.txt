@@ -383,7 +383,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = ARG_wip_1
+		id = ARG_mend_the_liberal_schism
 		icon = GFX_goal_tripartite_pact
 		x = -2
 		y = 2
@@ -396,7 +396,10 @@ focus_tree = {
 			focus = ARG_force_his_hand
 		}
 		completion_reward = {
-			#
+			custom_effect_tooltip = ARG_mend_liberal_schism
+			set_party_name = { ideology = liberal_conservative long_name = ARG_liberal_conservative_party_schism_mended_long name = ARG_liberal_conservative_party_schism_mended }
+			set_party_name = { ideology = republican_liberal long_name = ARG_republican_liberal_party_schism_mended_long name = ARG_republican_liberal_party_schism_mended }
+			add_political_power = 25
 		}
 	}
 	
