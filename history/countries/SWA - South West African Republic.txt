@@ -4,6 +4,8 @@ oob = "SWA_1936"
 
 add_ideas = {
 	state_press
+	extensive_conscription
+	low_economic_mobilisation
 }
 
 set_fuel_ratio = 0.8
@@ -100,16 +102,16 @@ set_war_support = 0.2
 set_popularities = {
 	despotist = 12
 	absolutist = 0
-	semi_constitutionalist = 0
-	social_conservative = 41
-	liberal_conservative = 18
-	republican_liberal = 26
+	semi_constitutionalist = 40
+	social_conservative = 23
+	liberal_conservative = 8
+	republican_liberal = 14
 	communist = 0
 	socialist = 3
 }	
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = semi_constitutionalist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
@@ -120,7 +122,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_SOLF_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = semi_constitutionalist_subtype
 	traits = {
 		#
 	}

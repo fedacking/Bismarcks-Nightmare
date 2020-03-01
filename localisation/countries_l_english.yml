@@ -242,7 +242,10 @@
  
  SWA_social_conservative:0 "German Africa Republic"
  SWA_social_conservative_DEF:0 "the German Africa Republic"
- SWA_social_conservative_ADJ:0 "German-African"
+ SWA_social_conservative_ADJ:0 "German-African" 
+ SWA_semi_constitutionalist:0 "German Africa Republic"
+ SWA_semi_constitutionalist_DEF:0 "the German Africa Republic"
+ SWA_semi_constitutionalist_ADJ:0 "German-African"
  
  LIB_semi_constitutionalist:0 "Confederation of Liberia"
  LIB_semi_constitutionalist_DEF:0 "the Confederation of Liberia"
