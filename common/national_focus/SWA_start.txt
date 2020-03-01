@@ -1,0 +1,242 @@
+focus_tree = {
+	id = united_states_starter_ft
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SWA
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = SWA_the_man_with_the_plan
+		icon = GFX_goal_SWA_wilhelm_solf
+		x = 7
+		y = 0
+		cost = 4
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_kolonialpolitik
+		prerequisite = { focus = SWA_the_man_with_the_plan }
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = SWA_the_man_with_the_plan
+		x = -3
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_increase_recruiment_with_the_natives
+		prerequisite = { focus = SWA_kolonialpolitik }
+		icon = GFX_goal_continuous_def_against_influence
+		relative_position_id = SWA_kolonialpolitik
+		x = -1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_mixed_regiments
+		prerequisite = { focus = SWA_increase_recruiment_with_the_natives }
+		icon = GFX_goal_generic_military_deal
+		relative_position_id = SWA_increase_recruiment_with_the_natives
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_a_meeting_with_isaak_witbooi
+		prerequisite = { focus = SWA_kolonialpolitik }
+		icon = GFX_goal_generic_improve_relations
+		relative_position_id = SWA_kolonialpolitik
+		x = 1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_native_representation_act
+		prerequisite = { focus = SWA_a_meeting_with_isaak_witbooi }
+		icon = GFX_focus_hol_the_foundations_of_defense
+		relative_position_id = SWA_a_meeting_with_isaak_witbooi
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_bridge_the_divide
+		prerequisite = { focus = SWA_mixed_regiments }
+		prerequisite = { focus = SWA_native_representation_act }
+		icon = GFX_focus_generic_diplomatic_treaty
+		relative_position_id = SWA_kolonialpolitik
+		x = 0
+		y = 3
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_kolonialwirtschaft
+		prerequisite = { focus = SWA_the_man_with_the_plan }
+		icon = GFX_goal_economic_control
+		relative_position_id = SWA_the_man_with_the_plan
+		x = 3
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_from_the_interior_to_the_coast
+		prerequisite = { focus = SWA_kolonialwirtschaft }
+		icon = GFX_goal_generic_construction2
+		relative_position_id = SWA_kolonialwirtschaft
+		x = -1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_and_from_the_coast_to_the_world
+		prerequisite = { focus = SWA_from_the_interior_to_the_coast }
+		icon = GFX_goal_generic_construct_naval_dockyard
+		relative_position_id = SWA_from_the_interior_to_the_coast
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_build_hospitals
+		prerequisite = { focus = SWA_kolonialwirtschaft }
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = SWA_kolonialwirtschaft
+		x = 1
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_replace_basic_imports
+		prerequisite = { focus = SWA_build_hospitals }
+		icon = GFX_goal_generic_production
+		relative_position_id = SWA_build_hospitals
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_an_agricultural_economy
+		prerequisite = { focus = SWA_and_from_the_coast_to_the_world }
+		prerequisite = { focus = SWA_replace_basic_imports }
+		icon = GFX_goal_agrarian_reform
+		relative_position_id = SWA_kolonialwirtschaft
+		x = 0
+		y = 3
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_self_sufficient_plantations
+		prerequisite = { focus = SWA_from_the_interior_to_the_coast }
+		prerequisite = { focus = SWA_a_meeting_with_isaak_witbooi }
+		icon = GFX_goal_agriculture
+		relative_position_id = SWA_the_man_with_the_plan
+		x = 0
+		y = 3
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SWA_no_more_famine
+		prerequisite = { focus = SWA_self_sufficient_plantations }
+		icon = GFX_goal_famine
+		relative_position_id = SWA_self_sufficient_plantations
+		x = 0
+		y = 1
+		cost = 1
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+}

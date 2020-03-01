@@ -281,4 +281,10 @@ spriteTypes = {
 		name = "GFX_goal_FRA_military_mission"
 		texturefile = "gfx/interface/goals/goal_FRA_military_mission.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_SWA_wilhelm_solf"
+		texturefile = "gfx/interface/goals/goal_SWA_wilhelm_solf.dds"
+	}
+
 }
