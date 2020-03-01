@@ -1,20 +1,17 @@
 state = {
-	id=719
-	name="STATE_719" # Natal
+	id = 719
+	name = "STATE_719" # Natal
 	manpower = 3962157
-	resources={
-		chromium=60 # was: 116
-	}
-	
+	resources = {
+		chromium = 60
+	}	
 	state_category = city
-
-
 	history = {
 		owner = BOE
 		add_core_of = BOE
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 3
 			air_base = 1
 			1468 = {
 				naval_base = 2
@@ -30,8 +27,7 @@ state = {
 			4696 1 
 		}
 	}
-
-	provinces={
+	provinces = {
 		1468 1494 1833 4556 4584 4696 7576 7900 8178 
 	}
 }

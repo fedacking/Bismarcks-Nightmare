@@ -1,27 +1,29 @@
 state = {
-	id=542
-	name="STATE_542"
-	manpower = 234000
-	
-	state_category = wasteland
-	
+	id = 542
+	name = "STATE_542"
+	manpower = 234000	
+	state_category = town
 	resources = {
-		chromium=90 # was: 168
+		chromium = 90
 	}
-
 	history = {
-		owner = BOE
-		add_core_of = BOE
+		owner = SWA
+		add_core_of = SWA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			industrial_complex = 1
 		}
 		victory_points = {
-			8214 1
+			1580 1
 		}
-
+		victory_points = {
+			8214 10
+		}
+		victory_points = {
+			12963 3
+		}
 	}
-
-	provinces={
-		1580 8214 10525 12940 12963 
+	provinces = {
+		1580 8214 10525 12940 12963 13217
 	}
 }

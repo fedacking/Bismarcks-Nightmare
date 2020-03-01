@@ -1,7 +1,7 @@
 state = {
 	id = 339
 	name = "STATE_339"
-	manpower = 1091755
+	manpower = 1241755
 	resources = {
 		chromium = 50
 	}	
@@ -22,6 +22,6 @@ state = {
 		add_core_of = GRE
 	}
 	provinces = {
-		928 3927 4112 6992 7130 9921 9929 10038 11848  
+		928 3927 4112 6864 6992 7130 9799 9887 9921 9929 10038 11848  
 	}
 }
