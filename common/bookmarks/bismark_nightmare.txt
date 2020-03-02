@@ -9,15 +9,15 @@ bookmarks = {
 		
 		"ARG"={
 			history = "ARG_BISMARCKS_NIGHTMARE_DESC"
-			ideology = semi_constitutionalist
+			ideology = republican_liberal
 			ideas = {
 				ARG_idea_captive_king
 				ARG_idea_overextended_colonial_empire
 			}
 			focuses = {
-				ARG_declare_the_monarchy_defunct
+				ARG_radical_approach
 				ARG_constitutional_assembly
-				ARG_status_of_the_congo
+				ARG_moderate_approach
 			}
 		}
 		
@@ -92,6 +92,16 @@ bookmarks = {
 				ROM_socialist_coup
 				ROM_the_liberals_stand_alone
 				ROM_fascist_coup
+			}
+		}
+		
+		"SWA"={
+			history = "SWA_BISMARCKS_NIGHTMARE_DESC"
+			ideology = semi_constitutionalist
+			minor = yes
+			ideas = {
+			}
+			focuses = {
 			}
 		}
 		

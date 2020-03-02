@@ -55,10 +55,10 @@ if = {
 set_convoys = 10
 
 set_popularities = {
-	despotist = 25
+	despotist = 31
 	absolutist = 0
-	semi_constitutionalist = 0
-	social_conservative = 60
+	semi_constitutionalist = 7
+	social_conservative = 47
 	liberal_conservative = 15
 	republican_liberal = 0
 	communist = 0
@@ -83,4 +83,37 @@ create_country_leader = {
 	}
 }
 
-set_stability = 0.4
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "gfx/leaders/BOE/Portrait_Boer_Wilhelmina.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wilhelmina"
+	desc = "POLITICS_WILHELMINA_DESC"
+	picture = "gfx/leaders/BOE/Portrait_Boer_Wilhelmina.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "D. F. Malan"
+	desc = "POLITICS_D_F_MALAN_DESC"
+	picture = "gfx/leaders/BOE/Portrait_Boer_Daniel_Francois_Malan.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+set_stability = 0.3

@@ -1,0 +1,18 @@
+﻿l_english:
+ ##Political Parties
+ AUS_communist_party:0 "KPO"
+ AUS_communist_party_long:0 "Kommunistische Partei Österreichs"
+ AUS_socialist_party:0 "SPÖ"
+ AUS_socialist_party_long:0 "Sozialdemokratische Partei Österreichs"
+ AUS_republican_liberal_party:0 "SPÖ"
+ AUS_republican_liberal_party_long:0 "Sozialdemokratische Partei Österreichs"
+ AUS_liberal_conservative_party:0 "CS"
+ AUS_liberal_conservative_party_long:0 "Christlichsoziale Partei"
+ AUS_social_conservative_party:0 "CS"
+ AUS_social_conservative_party_long:0 "Christlichsoziale Partei"
+ AUS_semi_constitutionalist_party:0 "CS"
+ AUS_semi_constitutionalist_party_long:0 "Christlichsoziale Partei"
+ AUS_absolutist_party:0 "Haus Habsburg-Lothringen"
+ AUS_absolutist_party_long:0 "Haus Habsburg-Lothringen"
+ AUS_despotist_party:0 "VF"
+ AUS_despotist_party_long:0 "Vaterländische Front"
