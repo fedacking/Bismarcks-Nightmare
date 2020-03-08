@@ -1,0 +1,25 @@
+state = {
+	id = 842
+	name = "STATE_842"
+	manpower = 0
+	resources = {
+	}
+	
+	state_category = pastoral
+	
+
+	history = {
+		owner = IRA
+		add_core_of = IRA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4928 1 
+		}
+	}
+
+	provinces = {
+		1922 4928 5089 12756
+	}
+}
