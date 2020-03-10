@@ -1,7 +1,7 @@
 shared_focus = {
 	id = FRA_the_imperial_army
 	icon = GFX_goal_generic_intelligence_exchange
-	x = 38
+	x = 39
 	y = 0
 	cost = 5
 	
@@ -34,6 +34,109 @@ shared_focus = {
 	relative_position_id = FRA_the_noble_sons_of_france
 	mutually_exclusive = { focus = FRA_doctrine_of_patriotic_officers }
 	x = -5
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_doctrine_of_superiority
+	prerequisite = { focus = FRA_doctrine_of_patriotic_fervor }
+	icon = GFX_focus_eng_move_to_secure_the_dominions
+	relative_position_id = FRA_doctrine_of_patriotic_fervor
+	x = -2
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+		increase_conscription = yes
+	}
+}
+
+shared_focus = {
+	id = FRA_empower_the_ncos
+	prerequisite = { focus = FRA_doctrine_of_superiority }
+	icon = GFX_focus_generic_little_entente
+	relative_position_id = FRA_doctrine_of_superiority
+	x = 0
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+		increase_conscription = yes
+	}
+}
+
+shared_focus = {
+	id = FRA_squad_level_tactics
+	prerequisite = { focus = FRA_empower_the_ncos }
+	icon = GFX_goal_generic_small_arms
+	relative_position_id = FRA_empower_the_ncos
+	x = 0
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+		increase_conscription = yes
+	}
+}
+
+shared_focus = {
+	id = FRA_revive_the_jourdan_law
+	prerequisite = { focus = FRA_doctrine_of_patriotic_fervor }
+	icon = GFX_goal_generic_forceful_treaty
+	relative_position_id = FRA_doctrine_of_patriotic_fervor
+	x = 0
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+		increase_conscription = yes
+	}
+}
+
+shared_focus = {
+	id = FRA_every_frenchman_is_a_soldier
+	prerequisite = { focus = FRA_revive_the_jourdan_law }
+	icon = GFX_focus_attack_france
+	relative_position_id = FRA_revive_the_jourdan_law
+	x = 0
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_and_must_defend_the_country
+	prerequisite = { focus = FRA_every_frenchman_is_a_soldier }
+	icon = GFX_goal_generic_military_sphere
+	relative_position_id = FRA_every_frenchman_is_a_soldier
+	x = 0
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = FRA_the_grand_armee_reborn
+	prerequisite = { focus = FRA_squad_level_tactics }
+	prerequisite = { focus = FRA_and_must_defend_the_country }
+	icon = GFX_goal_FRA_imperial_eagle
+	relative_position_id = FRA_and_must_defend_the_country
+	x = 0
 	y = 1
 	cost = 5
 	

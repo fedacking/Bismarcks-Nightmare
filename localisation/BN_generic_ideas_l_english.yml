@@ -1,4 +1,10 @@
 ﻿l_english:
+ increase_conscription_tooltip:0 "§GIncrease Conscription§!\n"
+ decrease_conscription_tooltip:0 "§Decrease Conscription§!\n"
+ 
+ increase_mobilisation_tooltip:0 "§GIncrease Mobilization§!\n"
+ decrease_mobilisation_tooltip:0 "§Decrease Conscription§!\n"
+
  #Press Laws
  press_laws:0 "Press Law"
  propaganda_press:0 "Propaganda Press"

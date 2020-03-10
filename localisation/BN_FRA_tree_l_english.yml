@@ -103,6 +103,21 @@
  #mass assault
  FRA_doctrine_of_patriotic_fervor:0 "Doctrine of Patriotic Fervor"
  FRA_doctrine_of_patriotic_fervor_desc:0 "Napoleon triumphed not only by his own brilliance, but by the massive armies he was able to have at his disposal. It's time to recreate the spirit of Valmy, and bring as many of our patriotic soldiers into the army, ensuring we always have numerical superiority."
+ FRA_doctrine_of_superiority:0 "Doctrine of Superiority"
+ FRA_doctrine_of_superiority_desc:0 "Our Nation not only has the greatest soldiers on earth, but we also have the most. By using overwhelming numbers in any engagement, we should be able to win it. To this we should develop strategies of defeat in detail and mass assault."
+ FRA_empower_the_ncos:0 "Empower the NCOs"
+ FRA_empower_the_ncos_desc:0 "The backbone of our army are the non commissioned officers. They have fought and died for the Empire, and for that they are our most fearless and committed representatives on the field. Empowering them and giving them more authority and flexibility."
+ FRA_squad_level_tactics:0 "Squad Level Tactics"
+ FRA_squad_level_tactics_desc:0 "We must emphasize the primacy of the infantry in the tactics of our Empire. The Soldiers of France brought it victory in the past, and we must keep their tactics as advanced and developed as we can."
+ FRA_revive_the_jourdan_law:0 "Revive the Jourdan Law"
+ FRA_revive_the_jourdan_law_desc:0 "During the peace years following the Great War, Napoleon IV decided to reward his exhausted populace with a removal of conscription. With the clouds of war once again in the horizon, it's time to go back to what made France Great, mass mobilization."
+ FRA_every_frenchman_is_a_soldier:0 "Every Frenchman is a Soldier..."
+ FRA_every_frenchman_is_a_soldier_desc:0 "Is there a greatest occupation that one of the soldier? And is there a greatest nationality than French? The conclusion is obvious, every Frenchman is a soldier."
+ FRA_and_must_defend_the_country:0 "...And Must Defend the Country"
+ FRA_and_must_defend_the_country_desc:0 "There is no greater honor than defending one's country. We should help our brave soldiers defend the nation by developing further entrenchment and defensive techniques."
+ 
+ FRA_the_grand_armee_reborn:0 "The Grande Armée Reborn"
+ FRA_the_grand_armee_reborn_desc:0 "With years of hard work we have remade tha army that conquered Europe and brought France to the height of it's glory. The Grande Armée marches again!"
  
  #grand battleplan
  FRA_doctrine_of_patriotic_officers:0 "Doctrine of Patriotic Officers"

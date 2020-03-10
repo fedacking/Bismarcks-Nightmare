@@ -259,14 +259,17 @@ spriteTypes = {
 		name = "GFX_goal_bookstack"
 		texturefile = "gfx/interface/goals/goal_bookstack.tga"
 	}
+
 	SpriteType = {
 		name = "GFX_goal_single_red_book"
 		texturefile = "gfx/interface/goals/goal_single_red_book.tga"
 	}
+	
 	SpriteType = {
 		name = "GFX_goal_passports"
 		texturefile = "gfx/interface/goals/goal_passports.tga"
 	}
+	
 	SpriteType = {
 		name = "GFX_goal_FRA_engineers"
 		texturefile = "gfx/interface/goals/goal_FRA_engineers.dds"
@@ -287,4 +290,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_SWA_wilhelm_solf.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_goal_FRA_imperial_eagle"
+		texturefile = "gfx/interface/goals/goal_FRA_imperial_eagle.dds"
+	}
 }
