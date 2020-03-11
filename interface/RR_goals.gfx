@@ -204,27 +204,27 @@ spriteTypes = {
 		name = "GFX_goal_continuous_political"
 		texturefile = "gfx/interface/goals/goal_continuous_political.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_revolution"
 		texturefile = "gfx/interface/goals/goal_revolution.dds"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_the_trial"
 		texturefile = "gfx/interface/goals/goal_the_trial.tga"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_moar_rubber"
 		texturefile = "gfx/interface/goals/goal_moar_rubber.tga"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_crush_monarchy"
 		texturefile = "gfx/interface/goals/goal_crush_monarchy.tga"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_government_icon"
 		texturefile = "gfx/interface/goals/goal_government_icon.tga"
@@ -264,12 +264,12 @@ spriteTypes = {
 		name = "GFX_goal_single_red_book"
 		texturefile = "gfx/interface/goals/goal_single_red_book.tga"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_passports"
 		texturefile = "gfx/interface/goals/goal_passports.tga"
 	}
-	
+
 	SpriteType = {
 		name = "GFX_goal_FRA_engineers"
 		texturefile = "gfx/interface/goals/goal_FRA_engineers.dds"
@@ -294,4 +294,40 @@ spriteTypes = {
 		name = "GFX_goal_FRA_imperial_eagle"
 		texturefile = "gfx/interface/goals/goal_FRA_imperial_eagle.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_napoleon_at_arcole_propaganda"
+		texturefile = "gfx/interface/goals/goal_FRA_napoleon_at_arcole_propaganda.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_writing_cash_chains"
+		texturefile = "gfx/interface/goals/goal_writing_cash_chains.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_emprunt_national"
+		texturefile = "gfx/interface/goals/goal_FRA_emprunt_national.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_soldiers_flag"
+		texturefile = "gfx/interface/goals/goal_FRA_soldiers_flag.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_eagle_soldiers"
+		texturefile = "gfx/interface/goals/goal_FRA_eagle_soldiers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_red_cross_shield"
+		texturefile = "gfx/interface/goals/goal_red_cross_shield.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_marechal_lannes"
+		texturefile = "gfx/interface/goals/goal_FRA_marechal_lannes.dds"
+	}
+
 }
