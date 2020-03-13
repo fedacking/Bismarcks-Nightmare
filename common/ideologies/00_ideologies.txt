@@ -28,6 +28,8 @@ ideologies = {
 		types = {		
 			socialist_subtype = {
 			}
+			progressive_subtype = {
+			}
 		}		
 		dynamic_faction_names = {
 			"FACTION_NAME_SOCIALIST_1"

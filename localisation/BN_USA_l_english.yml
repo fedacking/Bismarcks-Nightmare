@@ -10,6 +10,12 @@
  USA_liberal_conservative_party_long:0 "Liberal Wing of the Democratic Party"
  USA_social_conservative_party:0 "KN-Democratic Party"
  USA_social_conservative_party_long:0 "Know Nothing Wing of the Democratic Party"
+ USA_semi_constitutionalist_party:0 "American Liberty League"
+ USA_semi_constitutionalist_party_long:0 "American Liberty League"
+ USA_absolutist_party:0 "-"
+ USA_absolutist_party_long:0 "-"
+ USA_despotist_party:0 "Christian Party"
+ USA_despotist_party_long:0 "Christian Party of America"
  
  #ideas
  USA_nativism:0 "Strong Nativism"

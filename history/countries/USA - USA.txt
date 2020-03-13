@@ -99,6 +99,49 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Earl Browder"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "portrait_USA_earl_browder.dds"
+	expire = "1965.1.1"
+	ideology = 	communist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Henry Wallace"
+	desc = "POLITICS_HENRY_WALLACE_DESC"
+	picture = "gfx/leaders/USA/Portrait_Henry_Wallace.tga"
+	expire = "1965.1.1"
+	ideology = 	progressive_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Franklin Delano Roosevelt"
+	desc = "POLITICS_FRANKLIN_ROOSEVELT_DESC"
+	picture = "gfx/leaders/USA/Portrait_Franklin_Delano_Roosevelt.tga"
+	expire = "1965.1.1"
+	ideology = 	social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "James A. Reed"
+	desc = "POLITICS_JAMES_A_REED_DESC"
+	picture = "gfx/leaders/USA/Portrait_James_Reed.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "James A. Reed"
 	desc = "POLITICS_JAMES_A_REED_DESC"
 	picture = "gfx/leaders/USA/Portrait_James_Reed.tga"
@@ -110,11 +153,33 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James A. Reed"
-	desc = "POLITICS_JAMES_A_REED_DESC"
-	picture = "gfx/leaders/USA/Portrait_James_Reed.tga"
+	name = "George Van Horn Moseley"
+	desc = "POLITICS_GEORGE_VAN_HORN_MOSELEY_DESC"
+	picture = "gfx/leaders/USA/Portrait_George_Van_Horn_Moseley.tga"
 	expire = "1965.1.1"
-	ideology = liberal_conservative_subtype
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "-"
+	desc = ""
+	picture = "gfx/leaders/Portrait_Vacant.tga"
+	expire = "1965.1.1"
+	ideology = imperialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "William Dudley Pelley"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "gfx/leaders/Portrait_William_Dudley_Pelley.tga"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
 	traits = {
 		#
 	}
