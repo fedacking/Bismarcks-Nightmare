@@ -10,6 +10,7 @@ state = {
 			infrastructure = 2
 		}
 		add_core_of = ARG
+		add_core_of = RIO
 	}
 	provinces = {
 		12466 

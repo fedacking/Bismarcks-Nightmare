@@ -18,6 +18,7 @@ state = {
 			}
 		}
 		add_core_of = COL
+		add_core_of = ECU
 		victory_points = {
 			12798 5
 		}

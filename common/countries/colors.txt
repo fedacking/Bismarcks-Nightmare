@@ -219,3 +219,11 @@ SWA = {
 	color = rgb { 135 169 107 }
 	color_ui = rgb { 135 169 107 }
 }
+RIO = {
+	color = rgb { 222 187 91 }
+	color_ui = rgb { 222 187 91 }
+}
+ECU = {
+	color = rgb { 255 255 158 }
+	color_ui = rgb { 255 255 158 }
+}
