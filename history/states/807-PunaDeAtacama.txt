@@ -5,19 +5,16 @@ state = {
 	resources = {
 		#
 	}	
-	state_category = large_town
+	state_category = wasteland
 	history = {
 		owner = ARG
-		victory_points = {
-			9692 10
-		}
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = ARG
 		add_claim_by = CHL
 	}
-	provinces={
+	provinces = {
 		13220
 	}
 }

@@ -1,13 +1,10 @@
 state = {
 	id = 842
 	name = "STATE_842"
-	manpower = 0
+	manpower = 239207
 	resources = {
-	}
-	
+	}	
 	state_category = pastoral
-	
-
 	history = {
 		owner = IRA
 		add_core_of = IRA
@@ -18,7 +15,6 @@ state = {
 			4928 1 
 		}
 	}
-
 	provinces = {
 		1922 4928 5089 12756
 	}
