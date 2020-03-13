@@ -4,7 +4,7 @@ state = {
 	manpower = 309000
 	state_category = pastoral
 	resources = {
-		aluminium=64 # was: 112
+		aluminium = 64
 	}
 	history = {
 		owner = VEN
@@ -15,6 +15,7 @@ state = {
 			}
 		}
 		add_core_of = VEN
+		add_core_of = GUY
 		victory_points = {
 			4982 1
 		}

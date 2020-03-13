@@ -5,6 +5,7 @@ state = {
 	state_category = pastoral
 	history = {
 		owner = FRA
+		add_core_of = GUY
 		buildings = {
 			infrastructure = 2
 			12885 = {
