@@ -1,0 +1,37 @@
+﻿capital = 686
+
+oob = "PUE_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+add_ideas = {
+	idea_no_content
+}
+
+set_stability = 0.5
+set_war_support = 0.5
+set_research_slots = 3
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = liberal_conservative
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	despotist = 6
+	absolutist = 0
+	semi_constitutionalist = 0
+	social_conservative = 18
+	liberal_conservative = 38
+	republican_liberal = 26
+	socialist = 12
+	communist = 0
+}
