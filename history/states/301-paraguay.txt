@@ -2,7 +2,7 @@ state = {
 	id = 301
 	name = "STATE_301"
 	manpower = 890100	
-	state_category = town	
+	state_category = city
 	history = {
 		owner = PAR
 		buildings = {
@@ -13,10 +13,16 @@ state = {
 		}
 		add_core_of = PAR
 		victory_points = {
-			2152 5 
+			12901 5
+		}
+		victory_points = {
+			2194 1
+		}
+		victory_points = {
+			2152 10
 		}
 	}
 	provinces = {
 		2152 2173 2194 11023 12901 
-	}	
+	}
 }
