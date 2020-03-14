@@ -231,3 +231,7 @@ PUE = {
 	color = rgb { 153 153 255 }
 	color_ui = rgb { 153 153 255 }
 }
+DOM = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 171 190 152 }
+}
