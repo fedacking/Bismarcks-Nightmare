@@ -465,6 +465,16 @@ focus_tree = {
 		completion_reward = {
 			##load constitution focus
 			add_stability = 0.1
+			unlock_decision_category_tooltip = ARG_dec_cat_constitutional_assembly
+			if = {
+				limit = {
+					NOT = { has_completed_focus = ARG_force_his_hand }
+				}
+				set_country_flag = ARG_flag_rep_constituational_assembly
+				else = {
+					set_country_flag = ARG_flag_mon_constituational_assembly
+				}
+			}
 		}
 	}
 	

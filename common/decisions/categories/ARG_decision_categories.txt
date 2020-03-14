@@ -12,3 +12,18 @@ ARG_congo_sale = {
 		has_country_flag = ARG_sell_the_congo
 	}
 }
+
+ARG_dec_cat_constitutional_assembly = {
+	icon = eng_organize_the_blackshirts #PHolder
+	picture = GFX_decision_cat_picture_organize_the_blackshirts	#PHolder
+	allowed = {
+		tag = ARG
+	}
+	visible = {
+		OR = {
+			has_country_flag = ARG_flag_rep_constituational_assembly
+			has_country_flag = ARG_flag_mon_constituational_assembly
+		}
+	}
+}
+

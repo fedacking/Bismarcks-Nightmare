@@ -135,3 +135,100 @@ ARG_congo_sale = {
 		}
 	}
 }
+
+ARG_dec_cat_constitutional_assembly = {
+
+	ARG_dec_rep_system = {
+        allowed = { tag = ARG }
+        available = {
+			always = no
+        }
+        activation = {
+			has_country_flag = ARG_flag_rep_constituational_assembly
+        }
+        is_good = no
+        days_mission_timeout = 14
+        fire_only_once = yes
+        timeout_effect = {
+		 	set_country_flag = ARG_flag_dec_rep_terms
+        }
+        complete_effect = {
+        }
+	}
+
+	ARG_dec_rep_terms = {
+        allowed = { tag = ARG }
+        available = {
+			always = no
+        }
+        activation = {
+			has_country_flag = ARG_flag_dec_rep_terms
+        }
+        is_good = no
+        days_mission_timeout = 14
+        fire_only_once = yes
+        timeout_effect = {
+		 	set_country_flag = ARG_flag_dec_rep_voting
+			clr_country_flag = ARG_flag_dec_rep_terms
+        }
+        complete_effect = {
+        }
+	}
+
+	ARG_dec_rep_voting = {
+        allowed = { tag = ARG }
+        available = {
+			always = no
+        }
+        activation = {
+			has_country_flag = ARG_flag_dec_rep_voting
+        }
+        is_good = no
+        days_mission_timeout = 14
+        fire_only_once = yes
+        timeout_effect = {
+		 	set_country_flag = ARG_flag_dec_rep_camera
+			clr_country_flag = ARG_flag_dec_rep_voting
+        }
+        complete_effect = {
+        }
+	}
+
+	ARG_dec_rep_camera = {
+        allowed = { tag = ARG }
+        available = {
+			always = no
+        }
+        activation = {
+			has_country_flag = ARG_flag_dec_rep_camera
+        }
+        is_good = no
+        days_mission_timeout = 14
+        fire_only_once = yes
+        timeout_effect = {
+		 	set_country_flag = ARG_flag_dec_rep_legal_code
+			clr_country_flag = ARG_flag_dec_rep_camera
+        }
+        complete_effect = {
+        }
+	}
+
+	ARG_dec_rep_legal_code = {
+        allowed = { tag = ARG }
+        available = {
+			always = no
+        }
+        activation = {
+			has_country_flag = ARG_flag_dec_rep_legal_code
+        }
+        is_good = no
+        days_mission_timeout = 14
+        fire_only_once = yes
+        timeout_effect = {
+			clr_country_flag = ARG_flag_dec_rep_legal_code
+			clr_country_flag = ARG_flag_rep_constituational_assembly
+        }
+        complete_effect = {
+        }
+	}
+}
