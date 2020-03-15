@@ -271,3 +271,7 @@ IRE = {
 	color = rgb { 80 159 90 }
 	color_ui = rgb { 104 207 117 }
 }
+YUC = {
+	color = rgb { 237  134  40 }
+	color_ui = rgb { 237  134  40 }
+}
