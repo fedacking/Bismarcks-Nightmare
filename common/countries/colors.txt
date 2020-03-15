@@ -267,3 +267,7 @@ GUA = {
 	color = rgb { 43 82 188 }
 	color_ui = rgb { 43 82 188 }
 }
+IRE = {
+	color = rgb { 80 159 90 }
+	color_ui = rgb { 104 207 117 }
+}
