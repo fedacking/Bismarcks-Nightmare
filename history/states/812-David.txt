@@ -5,7 +5,7 @@ state = {
 	resources = {
 		oil = 1
 	}	
-	state_category = pastoral
+	state_category = rural
 	history = {
 		owner = CEN
 		buildings = {
@@ -17,6 +17,7 @@ state = {
 			}
 		}
 		add_core_of = CEN
+		add_core_of = PAN
 		victory_points = {
 			4611 1
 		}

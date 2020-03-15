@@ -243,3 +243,7 @@ CUB = {
 	color = rgb { 140 65 166 }
 	color_ui = rgb { 140 65 166 }
 }
+PAN = {
+	color = rgb { 122 153 204 }
+	color_ui = rgb { 122 153 204 }
+}
