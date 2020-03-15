@@ -3,7 +3,7 @@ state = {
 	name = "STATE_314"
 	manpower = 1437611
 	resources = {
-		chromium=1 # was: 1
+		chromium = 1
 	}	
 	state_category = town
 	history = {
@@ -18,8 +18,12 @@ state = {
 			}
 		}
 		add_core_of = CEN
+		add_core_of = ELS
 		victory_points = {
-			12823 3
+			13093 3
+		}
+		victory_points = {
+			12823 5
 		}
 	}
 	provinces = {

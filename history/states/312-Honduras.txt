@@ -21,8 +21,12 @@ state = {
 			}
 		}
 		add_core_of = CEN
+		add_core_of = HON
 		victory_points = {
-			12865 3 
+			8017 3
+		}
+		victory_points = {
+			12865 5
 		}
 	}
 	provinces = {

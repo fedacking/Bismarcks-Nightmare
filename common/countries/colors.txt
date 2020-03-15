@@ -247,3 +247,23 @@ PAN = {
 	color = rgb { 122 153 204 }
 	color_ui = rgb { 122 153 204 }
 }
+COS = {
+	color = rgb { 212 161 9 }
+	color_ui = rgb { 212 161 9 }
+}
+NIC = {
+	color = rgb { 189 35 53 }
+	color_ui = rgb { 189 25 53 }
+}
+HON = {
+	color = rgb { 161 76 65 }
+	color_ui = rgb { 161 76 65 }
+}
+ELS = {
+	color = rgb { 96 154 151 }
+	color_ui = rgb { 96 154 151 }
+}
+GUA = {
+	color = rgb { 43 82 188 }
+	color_ui = rgb { 43 82 188 }
+}
