@@ -26,6 +26,7 @@ state = {
 			}
 		}
 		add_core_of = GBR
+		add_core_of = ENP
 		add_claim_by = ENG
 	}
 	provinces = {

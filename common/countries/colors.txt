@@ -275,3 +275,11 @@ YUC = {
 	color = rgb { 237  134  40 }
 	color_ui = rgb { 237  134  40 }
 }
+SCO = {
+	color = rgb { 0 101 189 }
+	color_ui = rgb { 0 101 189 }
+}
+ENP = {
+	color = rgb { 152 129 123 }
+	color_ui = rgb { 152 129 123 }
+}
