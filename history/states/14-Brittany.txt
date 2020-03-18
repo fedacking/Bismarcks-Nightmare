@@ -1,12 +1,12 @@
 state = {
 	id = 14
 	name = "STATE_14"
-	manpower = 2396600
-	state_category = city
+	manpower = 2626600
+	state_category = large_city
 	history = {
 		owner = FRA
 		victory_points = {
-			3552 20
+			3552 10
 		}
 		victory_points = {
 			6536 5
@@ -14,9 +14,13 @@ state = {
 		victory_points = {
 			9495 1
 		}
+		victory_points = {
+			11465 15
+		}
 		buildings = {
-			infrastructure = 6
-			dockyard = 4
+			infrastructure = 7
+			dockyard = 5
+			industrial_complex = 1
 			air_base = 5
 			3552 = {
 				naval_base = 10
@@ -31,8 +35,9 @@ state = {
 			}
 		}
 		add_core_of = FRA
+		add_core_of = BRI
 	}
 	provinces = {
-		542 3552 3758 6536 6548 6572 9495 9510 9525 11508 
+		542 3552 3758 6536 6548 6572 9495 9510 9525 11465 11508
 	}
 }

@@ -291,3 +291,7 @@ CAT = {
 	color = rgb { 255 128 0 }
 	color_ui = rgb { 255 128 0 }
 }
+BRI = {
+	color = rgb { 118 99 151 }
+	color_ui = rgb { 118 99 151 }
+}
