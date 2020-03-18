@@ -18,6 +18,7 @@ state = {
 			}
 		}
 		add_core_of = ENG
+		add_core_of = WLS
 		add_claim_by = GBR
 	}
 	provinces = {

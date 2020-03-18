@@ -283,3 +283,7 @@ ENP = {
 	color = rgb { 152 129 123 }
 	color_ui = rgb { 152 129 123 }
 }
+WLS = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}

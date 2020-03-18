@@ -1,14 +1,14 @@
-﻿capital = 126
+﻿capital = 122
 
-set_oob = "ENP_1936"
+set_oob = "WLS_1936"
 
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	set_naval_oob = "ENP_1936_Naval"
+	set_naval_oob = "WLS_1936_Naval"
 	else = {
-		set_naval_oob = "ENP_1936_Naval_Legacy"
+		set_naval_oob = "WLS_1936_Naval_Legacy"
 	}
 }
 
