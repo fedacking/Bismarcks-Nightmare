@@ -287,3 +287,7 @@ WLS = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
 }
+CAT = {
+	color = rgb { 255 128 0 }
+	color_ui = rgb { 255 128 0 }
+}
