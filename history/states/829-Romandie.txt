@@ -8,12 +8,16 @@ state = {
 	state_category = town
 	history = {
 		owner = FRA
+		victory_points = {
+			6666 10
+		}
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 1
 		}
 		add_core_of = FRA
+		add_core_of = SWI
 	}
 	provinces = {
 		3612 6666 6683 9622 11590 13124

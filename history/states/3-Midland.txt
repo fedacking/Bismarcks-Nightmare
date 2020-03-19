@@ -3,12 +3,14 @@ state = {
 	name = "STATE_3"
 	manpower = 1381689
 	resources = {
-		aluminium = 18 # was: 28
+		aluminium = 18
 	}
 	state_category = town
 	history = {
 		owner = FRA
-		victory_points = { 9620 15 }
+		victory_points = {
+			9620 15
+		}
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
@@ -16,6 +18,7 @@ state = {
 			air_base = 4
 		}
 		add_core_of = FRA
+		add_core_of = SWI
 	}
 	provinces = {
 		636 9587 9618 9620 9638 11604

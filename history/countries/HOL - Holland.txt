@@ -107,7 +107,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Napoléon V"
+	name = "Napoleon V"
 	desc = "POLITICS_NAPOLEON_V_DESC"
 	picture = "gfx/leaders/HOL/HOL_Portrait_Napoleon_V.tga"
 	expire = "1965.1.1"
