@@ -9,6 +9,24 @@ if = {
 	}
 }
 
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = HOL
+		autonomous_state = personal_union
+	}
+	
+	else = {
+		puppet = HOL
+	}
+}
+
 set_country_flag = can_replace_hog
 set_country_flag = can_replace_for
 add_ideas = {

@@ -295,3 +295,7 @@ BRI = {
 	color = rgb { 118 99 151 }
 	color_ui = rgb { 118 99 151 }
 }
+HOL = {
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
+}

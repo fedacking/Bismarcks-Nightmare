@@ -54,7 +54,7 @@
  STATE_53:0 "Niederbayern"
  STATE_54:0 "Franken"
  STATE_55:0 "Hessen"
- STATE_56:0 "Weser-Ems"
+ STATE_56:0 "Niedersachsen"
  STATE_57:0 "Westfalen"
  STATE_58:0 "Slesvig-Holsten"
  STATE_59:0 "Hannover"
@@ -841,3 +841,4 @@
  STATE_840:0 "Lundenburg"
  STATE_841:0 "Río Grande Oeste"
  STATE_842:0 "Chaharmahal"
+ STATE_843:0 "Oost-Friesland"
