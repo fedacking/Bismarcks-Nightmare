@@ -20,6 +20,7 @@ state = {
 			anti_air_building = 1
 		}
 		add_core_of = AUS
+		add_core_of = BOH
 		add_core_of = GAU
 	}
 	provinces =	{

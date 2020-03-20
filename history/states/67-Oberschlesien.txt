@@ -20,6 +20,7 @@ state = {
 		}
 		add_core_of = AUS
 		add_core_of = GAU
+		add_claim_by = BOH
 	}
 	provinces = {
 		479 6512 9457 9511 11467 

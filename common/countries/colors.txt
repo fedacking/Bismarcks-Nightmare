@@ -319,3 +319,7 @@ GAU = {
 	color = rgb { 220 220 220 }
 	color_ui = rgb { 220 220 220 }
 }
+BOH = {
+	color = rgb { 54 167 156 }
+	color_ui = rgb { 70 217 203 }
+}

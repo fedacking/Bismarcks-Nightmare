@@ -21,5 +21,6 @@ state = {
 		}
 		add_core_of = AUS
 		add_core_of = GAU
+		add_claim_by = BOH
 	}
 }
