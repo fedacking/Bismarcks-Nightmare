@@ -17,6 +17,7 @@ state = {
 		}
 		add_core_of = AUS
 		add_core_of = SWI
+		add_core_of = GAU
 	}
 	provinces = {
 		661 663 3660 11601 11623

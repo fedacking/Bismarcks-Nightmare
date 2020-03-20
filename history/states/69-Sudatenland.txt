@@ -20,6 +20,7 @@ state = {
 			anti_air_building = 1
 		}
 		add_core_of = AUS
+		add_core_of = GAU
 	}
 	provinces =	{
 		424 469 3418 3585 6470 7857 9555 11401 11414 11432

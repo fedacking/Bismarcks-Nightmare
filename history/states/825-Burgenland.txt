@@ -12,6 +12,7 @@ state = {
 			infrastructure = 5
 		}
 		add_core_of = AUS
+		add_core_of = GAU
 	}
 	provinces = {
 		3700 9661 11630

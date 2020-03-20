@@ -14,6 +14,7 @@ state = {
 			air_base = 3
 		}
 		add_core_of = AUS
+		add_core_of = GAU
 	}
 	provinces = {
 		668 671 673 3675 6673 6678 6680 9633 9636 11618 11634 

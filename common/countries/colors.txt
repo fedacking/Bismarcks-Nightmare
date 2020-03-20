@@ -315,3 +315,7 @@ MNT = {
 	color = rgb { 77  90  105 }
 	color_ui = rgb { 77  90  105 }
 }
+GAU = {
+	color = rgb { 220 220 220 }
+	color_ui = rgb { 220 220 220 }
+}
