@@ -5,7 +5,7 @@ state = {
 	resources = {
 		#
 	}	
-	state_category = large_town
+	state_category = town
 	history = {
 		owner = AUS
 		victory_points = {
@@ -13,11 +13,12 @@ state = {
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 4
+			industrial_complex = 1
 			air_base = 1
 			arms_factory = 1
 		}
 		add_core_of = AUS
+		add_core_of = SLO
 		add_claim_by = GAU
 	}
 	provinces = {
