@@ -11,6 +11,7 @@ state = {
 			air_base = 3
 		}
 		add_core_of = RUS
+		add_claim_by = POL
 	}
 	provinces = {
 		318 3281 3366 3393 6359 6413 9236 9304 9359 11341 13206 

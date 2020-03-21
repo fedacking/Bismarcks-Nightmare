@@ -21,6 +21,7 @@ state = {
 
 		}
 		add_core_of = AUS
+		add_core_of = POL
 	}
 	provinces = {
 		417 442 466 3410 3434 6499 6522 9427 9494 11398 11413 11507

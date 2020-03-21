@@ -13,6 +13,7 @@ state = {
 			9508 10
 		}
 		add_core_of = RUS
+		add_core_of = POL
 	}
 	provinces = {
 		493 584 9439 9508 9546 11428 11515 
