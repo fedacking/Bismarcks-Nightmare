@@ -18,6 +18,7 @@ state = {
 			air_base = 3
 		}
 		add_core_of = AUS
+		add_core_of = HUN
 	}
 	provinces = {
 		682 686 701 3670 3680 3683 6685 6703 6720 9624 9643 9676 11610 11627 11663 13125 

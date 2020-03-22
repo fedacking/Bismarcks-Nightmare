@@ -18,6 +18,7 @@ state = {
 		}
 		add_core_of = AUS
 		add_core_of = SLO
+		add_core_of = HUN
 	}	
 	provinces = {
 		3565 3716 6561 6573 9537 11679 

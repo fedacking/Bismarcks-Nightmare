@@ -13,6 +13,7 @@ state = {
 			11581 3 
 		}
 		add_core_of = AUS
+		add_claim_by = HUN
 	}
 	provinces = {
 		624 3592 3596 3627 6647 9595 9611 11581 11594
