@@ -52,8 +52,8 @@ SPA = {
 	color_ui = rgb { 255 255 122 }
 }
 AUS = {
-	color = rgb { 220 220 220 }
-	color_ui = rgb { 220 220 220 }
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
 }
 ROM = {
 	color = rgb { 59 148 65 }
@@ -195,22 +195,6 @@ CHL = {
 	color = rgb { 0 89 132 }
 	color_ui = rgb { 0 89 132 }
 }
-URG = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
-}
-BSA = {
-	color = rgb { 52 158 235 }
-	color_ui = rgb { 52 158 235 }
-}
-BAC = {
-	color = rgb { 255 255 255 }
-	color_ui = rgb { 255 255 255 }
-}
-PIR = {
-	color = rgb { 222 187 91 }
-	color_ui = rgb { 222 187 91 }
-}
 COG = {
 	color = rgb { 152 159 209 }
 	color_ui = rgb { 152 159 209 }
@@ -334,4 +318,8 @@ POL = {
 HUN = {
 	color = rgb { 249 126 98 }
 	color_ui = rgb { 255 164 127 }
+}
+BUL = {
+	color = rgb { 51 155 0 }
+	color_ui = rgb { 210 147 217 }
 }

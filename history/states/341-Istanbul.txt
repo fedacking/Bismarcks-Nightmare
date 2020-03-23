@@ -18,6 +18,7 @@ state = {
 			air_base = 2
 		}
 		add_core_of = GRE
+		add_claim_by = BUL
 	}
 	provinces =	{
 		849 922 3879 3893 6895 11842

@@ -17,6 +17,7 @@ state = {
 			dockyard = 1
 		}
 		add_core_of = YUG
+		add_claim_by = BUL
 	}
 	provinces = {
 		657 687 3076 9635
