@@ -1,13 +1,6 @@
 ﻿capital = 502
 
-oob = "RIO_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "RIO_1936_naval_mtg"
-	else = {
-		set_naval_oob = "RIO_1936_naval_legacy"
-	}
-}
+oob = "empty"
 
 set_country_flag = can_replace_hog
 
@@ -65,7 +58,7 @@ if = {
 	}
 }
 
-set_convoys = 100
+set_convoys = 20
 
 set_popularities = {
 	despotist = 0

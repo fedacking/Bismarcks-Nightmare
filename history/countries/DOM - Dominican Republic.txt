@@ -1,12 +1,8 @@
 ﻿capital = 319
 
-oob = "DOM_1936"
+oob = "empty"
 
 set_fuel_ratio = 0.8
-
-add_ideas = {
-	idea_no_content
-}
 
 # Starting tech
 set_technology = {
@@ -40,7 +36,7 @@ set_technology = {
 }
 
 set_research_slots = 3
-set_convoys = 50
+set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.5
 

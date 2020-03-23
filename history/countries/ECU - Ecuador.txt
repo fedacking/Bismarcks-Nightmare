@@ -1,17 +1,8 @@
 ﻿capital = 305
 
-oob = "ECU_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "ECU_1936_naval_mtg"
-	else = {
-		set_naval_oob = "ECU_1936_naval_legacy"
-	}
-}
+oob = "empty"
 
 set_country_flag = can_replace_hog
-add_ideas = {
-}
 
 set_stability = 0.5
 set_war_support = 0.5
@@ -67,7 +58,7 @@ if = {
 	}
 }
 
-set_convoys = 100
+set_convoys = 20
 
 set_popularities = {
 	despotist = 0
