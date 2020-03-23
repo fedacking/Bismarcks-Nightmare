@@ -1,13 +1,14 @@
 state = {
 	id = 826
 	name = "STATE_826"	
-	state_category = large_town
+	state_category = town
 	history = {
 		victory_points = {
 			6626 1 
 		}
 		owner = AUS
 		add_core_of = AUS
+		add_claim_by = SLV
 		add_claim_by = GAU
 		buildings = {
 			infrastructure = 8
@@ -19,6 +20,6 @@ state = {
 	provinces = {
 		6626
 	}
-	manpower = 351600
+	manpower = 248307
 	buildings_max_level_factor = 1.000
 }

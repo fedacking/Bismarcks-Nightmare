@@ -327,3 +327,11 @@ LIT = {
 	color = rgb { 219 219 119 }
 	color_ui = rgb { 255 255 155 }
 }
+CRO = {
+	color = rgb { 230  70  180 }
+	color_ui = rgb { 230 255 122 }
+}
+SLV = {
+	color = rgb { 102 178 255 }
+	color_ui = rgb { 102 178 255 }
+}
