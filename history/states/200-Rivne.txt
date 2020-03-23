@@ -13,6 +13,7 @@ state = {
 			air_base = 3
 		}
 		add_core_of = RUS
+		add_core_of = UKR
 	}
 	provinces = {
 		429 588 3399 3767 6596 9571 9729 11405 11700 

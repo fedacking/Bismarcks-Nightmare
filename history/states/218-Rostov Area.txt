@@ -18,6 +18,7 @@ state = {
 			}
 		}
 		add_core_of = RUS
+		add_claim_by = UKR
 	}
 	provinces = {
 		585 6445 9417 9430 11418 11434 11450 11559 

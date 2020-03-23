@@ -335,3 +335,7 @@ SLV = {
 	color = rgb { 102 178 255 }
 	color_ui = rgb { 102 178 255 }
 }
+UKR = {
+	color = rgb { 0  80  230 }
+	color_ui = rgb { 0  80  230 }	
+}
