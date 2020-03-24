@@ -1,7 +1,7 @@
 state = {
 	id = 32
 	name = "STATE_32"
-	manpower = 1007500	
+	manpower = 1341692	
 	state_category = town	
 	resources = {
 		steel = 30 # was: 56
@@ -18,6 +18,6 @@ state = {
 		add_core_of = FRA
 	}
 	provinces = {
-		762 780 3589 3768 6784 11713 
+		762 764 780 3589 3762 3764 3768 3961 6784 9736 11713
 	}
 }
