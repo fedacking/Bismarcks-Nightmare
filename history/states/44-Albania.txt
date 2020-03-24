@@ -25,6 +25,7 @@ state = {
 			}
 		}
 		add_core_of = YUG
+		add_core_of = ALB
 	}
 	provinces = {
 		3884 3896 9780 9875 9914 11762 
