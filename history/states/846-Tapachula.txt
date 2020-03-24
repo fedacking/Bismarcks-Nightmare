@@ -1,0 +1,22 @@
+state = {
+	id = 846
+	name = "STATE_846"
+	manpower = 607.406
+	state_category = rural
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		add_core_of = GUA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+		}
+		victory_points = {
+			13232 1
+		}
+	}
+	provinces = {
+		13231 13232
+	}
+}
