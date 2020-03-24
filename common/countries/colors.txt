@@ -343,3 +343,11 @@ ALB = {
 	color = rgb { 149 45 102 }
 	color_ui = rgb { 194 59 133 }
 }
+LAT = {
+	color = rgb { 75 77 186 }
+	color_ui = rgb { 124 125 184 }
+}
+EST = {
+	color = rgb { 50 135 175 }
+	color_ui = rgb { 99 204 254 }
+}
