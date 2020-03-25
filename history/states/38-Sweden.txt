@@ -17,7 +17,9 @@ state = {
 			air_base = 3
 			130 = {
 				naval_base = 1
-			}		}
+			}
+		}		
+		add_core_of = SWE
 		add_core_of = SCA
 	}
 	provinces = {

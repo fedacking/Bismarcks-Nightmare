@@ -18,8 +18,8 @@ state = {
 			}
 		}
 		add_core_of = SCA
-	}
-	
+		add_claim_by = DEN
+	}	
 	provinces = {
 		317 3231 3368 6257 6389 11331 11366
  	}

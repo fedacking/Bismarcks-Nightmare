@@ -12,6 +12,8 @@ state = {
 			}
 		}
 		add_core_of = SCA
+		add_claim_by = NOR
+		add_claim_by = DEN
 	}
 	provinces = {
 		13003
