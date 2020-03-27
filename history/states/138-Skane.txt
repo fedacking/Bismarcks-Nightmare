@@ -25,6 +25,7 @@ state = {
 			}
 		}
 		add_core_of = SWE
+		add_claim_by = DEN
 		add_core_of = SCA
 	}
 	provinces = {
