@@ -379,3 +379,7 @@ ARM = {
 	color = rgb { 176  102  180 }
 	color_ui = rgb { 176  102  180 }
 }
+MON = {
+	color = rgb { 108 140 42 }
+	color_ui = rgb { 209 247 133 }
+}

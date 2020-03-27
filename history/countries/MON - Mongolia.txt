@@ -1,0 +1,59 @@
+﻿capital = 330
+
+set_oob = "empty"
+
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.5
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#improved_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	
+	trench_warfare = 1
+
+	
+	fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+set_popularities = {
+	despotist = 0
+	absolutist = 100
+	semi_constitutionalist = 0
+	social_conservative = 0
+	liberal_conservative = 0
+	republican_liberal = 0
+	communist = 0
+	socialist = 0
+}	
+
+set_politics = {
+	ruling_party = absolutist
+	last_election = "1931.11.8"
+	election_frequency = 72
+	elections_allowed = no
+}
