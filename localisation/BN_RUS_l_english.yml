@@ -24,3 +24,8 @@
  RUS_despotist_party:0 "Tschjornaja Sotnja"
  RUS_despotist_party_desc:0 "Dictatorship"
  RUS_despotist_party_long:0 "Tschjornaja Sotnja"
+
+### Ideas ###
+
+RUS_idea_anti_jewish_legislation:0 "Anti-Jewish Legislation"
+RUS_idea_anti_jewish_legislation_desc:0 "Jews within the Russian Empire are forbidden from owning businesses or even acquiring higher level education thus prompting their emigration."

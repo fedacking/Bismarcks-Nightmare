@@ -9,9 +9,17 @@ if = {
 	}
 }
 
+set_country_flag = can_replace_hog
+
+add_ideas = {
+	state_press
+	RUS_idea_anti_jewish_legislation
+}
+
 set_research_slots = 3
 set_stability = 0.1
 set_war_support = 0.1
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -76,10 +84,10 @@ set_convoys = 50
 
 set_popularities = {
 	despotist = 0
-	absolutist = 65
-	semi_constitutionalist = 18
-	social_conservative = 12
-	liberal_conservative = 5
+	absolutist = 100
+	semi_constitutionalist = 0
+	social_conservative = 0
+	liberal_conservative = 0
 	republican_liberal = 0
 	communist = 0
 	socialist = 0

@@ -49,6 +49,7 @@ bookmarks = {
 			history = "RUS_BISMARCKS_NIGHTMARE_DESC"
 			ideology = absolutist
 			ideas = {
+				RUS_idea_anti_jewish_legislation
 			}
 			focuses = {
 			}

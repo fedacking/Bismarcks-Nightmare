@@ -1,0 +1,13 @@
+ideas = {
+	country = {
+	
+		##Starting
+		RUS_idea_anti_jewish_legislation = {
+			picture = army_chained #place holder image
+			modifier = {
+				political_power_gain = 0.05
+				monthly_population = -0.05
+			}
+		}
+	}
+}
