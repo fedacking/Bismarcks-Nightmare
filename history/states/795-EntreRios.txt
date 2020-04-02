@@ -3,8 +3,8 @@ state = {
 	name = "STATE_795" #Entre Rios
 	manpower = 1373156
 	resources = {
-		#
-	}	
+		oil = 20
+	}
 	state_category = city
 	history = {
 		owner = ARG

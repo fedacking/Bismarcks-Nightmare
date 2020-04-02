@@ -2,6 +2,9 @@ state = {
 	id = 278
 	name = "STATE_278" # Buenos Aires
 	manpower = 9759274
+	resources = {
+		aluminium = 12
+	}
 	state_category = megalopolis 
 	history = {
 		owner = ARG

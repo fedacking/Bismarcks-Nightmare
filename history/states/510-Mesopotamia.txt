@@ -3,7 +3,7 @@ state = {
 	name = "STATE_510" #Chubut
 	manpower = 146535
 	resources = {
-		#
+		aluminium = 26
 	}
 	state_category = rural
 	history = {
