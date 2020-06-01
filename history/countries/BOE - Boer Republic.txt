@@ -57,9 +57,9 @@ set_convoys = 10
 set_popularities = {
 	despotist = 31
 	absolutist = 0
-	semi_constitutionalist = 7
-	social_conservative = 47
-	liberal_conservative = 15
+	semi_constitutionalist = 0
+	social_conservative = 40
+	liberal_conservative = 29
 	republican_liberal = 0
 	communist = 0
 	socialist = 0
@@ -73,11 +73,22 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "James Hertzog"
+	name = "J. B. M. Hertzog"
 	desc = "POLITICS_JAMES_HERTZOG_DESC"
-	picture = "gfx/leaders/BOE/Portrait_James_Hertzog.dds"
+	picture = "gfx/leaders/BOE/Portrait_BOE_Leader_J._B._M._Hertzog_I.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Jan Smuts"
+	desc = "POLITICS_JAN_SMUTS_DESC"
+	picture = "gfx/leaders/BOE/Portrait_BOE_Leader_Jan_Smuts.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
 	traits = {
 		#
 	}
