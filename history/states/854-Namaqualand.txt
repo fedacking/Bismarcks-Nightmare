@@ -12,15 +12,16 @@ state = {
 			}
 		}
 		victory_points = {
-			2207 5
+			2207 3
 		}
 		victory_points = {
-			5189 3
+			5189 5
 		}
 		victory_points = {
 			7605 1
 		}
 		add_core_of = SWA
+		add_core_of = NMQ
 	}
 	provinces = {
 		2207 2229 5154 5189 5203 7605 10963

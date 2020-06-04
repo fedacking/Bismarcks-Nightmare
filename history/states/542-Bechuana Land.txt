@@ -9,6 +9,7 @@ state = {
 	history = {
 		owner = SWA
 		add_core_of = SWA
+		add_core_of = BOT
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

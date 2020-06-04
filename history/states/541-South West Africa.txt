@@ -25,6 +25,7 @@ state = {
 			12519 1
 		}
 		add_core_of = SWA
+		add_core_of = HER
 	}
 	provinces = {
 		4879 7770 8136 10957 10978 12519 12921

@@ -383,3 +383,15 @@ MON = {
 	color = rgb { 108 140 42 }
 	color_ui = rgb { 209 247 133 }
 }
+HER = {
+	color = rgb { 135 169 107 }
+	color_ui = rgb { 135 169 107 }
+}
+NMQ = {
+	color = rgb { 229 204 255 }
+	color_ui = rgb { 229 204 255 }
+}
+BOT = {
+	color = rgb { 11 132 112 }
+	color_ui = rgb { 11 132 112 }
+}
