@@ -1,0 +1,22 @@
+state = {
+	id = 852
+	name = "STATE_852" #Oranje
+	manpower = 772100
+	state_category = rural	
+	resources = {
+		chromium = 35
+	}
+	history = {
+		owner = BOE
+		add_core_of = BOE
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			5231 5
+		}
+	}
+	provinces = {
+		5231 12064 12648
+	}
+}

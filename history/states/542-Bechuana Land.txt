@@ -4,7 +4,7 @@ state = {
 	manpower = 234000	
 	state_category = town
 	resources = {
-		chromium = 90
+		chromium = 168
 	}
 	history = {
 		owner = SWA
@@ -17,7 +17,7 @@ state = {
 			1580 1
 		}
 		victory_points = {
-			8214 10
+			8214 5
 		}
 		victory_points = {
 			12963 3

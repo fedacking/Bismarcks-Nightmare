@@ -1,0 +1,22 @@
+state = {
+	id = 853
+	name = "STATE_853" # Cape
+	manpower = 194820
+	state_category = pastoral
+	history = {
+		owner = BOE
+		add_core_of = BOE
+		buildings = {
+			infrastructure = 2
+			4528 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1509 1 #Mafeking
+		}
+	}
+	provinces = {
+		1509 4528 10442 10668 10697 12419
+	}
+}

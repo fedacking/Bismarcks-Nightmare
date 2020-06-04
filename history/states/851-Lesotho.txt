@@ -1,0 +1,19 @@
+state = {
+	id = 851
+	name = "STATE_851" #Lesotho
+	manpower = 594000
+	state_category = rural
+	history = {
+		owner = BOE
+		add_core_of = BOE
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4556 1
+		}
+	}
+	provinces = {
+		4556
+	}
+}

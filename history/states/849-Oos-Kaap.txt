@@ -1,0 +1,26 @@
+state = {
+	id = 849
+	name = "STATE_849" # Oos-Kaap
+	manpower = 1115540
+	resources = {
+		chromium = 40
+	}	
+	state_category = rural
+	history = {
+		owner = BOE
+		add_core_of = BOE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			4696 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			4696 3
+		}
+	}
+	provinces = {
+		1833 4584 4696 7576 13230
+	}
+}

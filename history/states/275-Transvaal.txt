@@ -1,11 +1,11 @@
 state = {
 	id = 275
 	name = "STATE_275" # Transvaal
-	manpower = 3680363	
+	manpower = 3341500
 	state_category = city	
 	resources = {
-		steel = 5
-		chromium = 53
+		steel = 8
+		chromium = 45
 	}
 	history = {
 		owner = BOE
@@ -13,11 +13,8 @@ state = {
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
-			industrial_complex = 5
+			industrial_complex = 4
 			air_base = 3
-		}
-		victory_points = {
-			5231 5
 		}
 		victory_points = {
 			10400 25
@@ -27,6 +24,6 @@ state = {
 		}
 	}
 	provinces = {
-		1688 2171 2213 5106 5217 5231 10400 10566 10668 12064 12648 13229
+		1688 2171 2213 5106 5217 10400 10566 13229
 	}
 }

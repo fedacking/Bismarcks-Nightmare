@@ -1,31 +1,19 @@
 state = {
 	id = 541
 	name = "STATE_541"
-	manpower = 622000	
-	state_category = large_town
+	manpower = 460280
+	state_category = town
 	history = {
 		owner = SWA
 		buildings = {
 			infrastructure = 5
-			2207 = {
-				naval_base = 2
-			}
 			air_base = 1
 			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 1
 		}
 		victory_points = {
-			2207 5
-		}
-		victory_points = {
-			4879 20
-		}
-		victory_points = {
-			5189 3
-		}
-		victory_points = {
-			7605 1
+			4879 10
 		}
 		victory_points = {
 			7770 1
@@ -39,6 +27,6 @@ state = {
 		add_core_of = SWA
 	}
 	provinces = {
-		2207 2229 4879 5154 5189 5203 7605 7770 8136 10957 10963 10978 12519 12921
+		4879 7770 8136 10957 10978 12519 12921
 	}
 }
