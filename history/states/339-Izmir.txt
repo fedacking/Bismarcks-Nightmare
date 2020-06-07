@@ -20,6 +20,7 @@ state = {
 			}
 		}
 		add_core_of = GRE
+		add_claim_by = TUR
 	}
 	provinces = {
 		928 3927 4112 6864 6992 7130 9799 9887 9921 9929 10038 11848  

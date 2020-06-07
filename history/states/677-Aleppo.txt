@@ -1,7 +1,7 @@
 state = {
 	id = 677
 	name = "STATE_677"
-	manpower = 1325594	
+	manpower = 1291594‬
 	state_category = city	
 	history = {
 		owner = ARA
@@ -22,6 +22,6 @@ state = {
 		add_core_of = ARA
 	}	
 	provinces = {
-		1056 1072 1088 7140 7671 10087 12029 12473 
+		1056 1072 1088 7140 7671 10087 12473 
 	}
 }

@@ -1,0 +1,20 @@
+state = {
+	id = 856
+	name = "STATE_856"
+	manpower = 34000	
+	state_category = pastoral	
+	history = {
+		owner = ARA
+		buildings = {
+			infrastructure = 4
+			12029 = {
+				bunker = 1
+			}
+		}
+		add_core_of = ARA
+		add_claim_by = TUR
+	}	
+	provinces = {
+		12029
+	}
+}
