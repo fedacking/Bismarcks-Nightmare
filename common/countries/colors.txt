@@ -403,3 +403,19 @@ MZB = {
 	color = rgb { 255  135  195 }
 	color_ui = rgb { 255  135  195 }
 }
+MLW = {
+	color = rgb { 153 204 0 }
+	color_ui = rgb { 153 204 0 }
+}
+ZAM = {
+	color = rgb { 102 102 255 }
+	color_ui = rgb { 102 102 255 }
+}
+ANG = {
+	color = rgb { 155  135  195 }
+	color_ui = rgb { 155  135  195 }
+}
+GNB = {
+	color = rgb { 153 102 0 }
+	color_ui = rgb { 153 102 0 }
+}
