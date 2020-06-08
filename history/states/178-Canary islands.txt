@@ -15,6 +15,7 @@ state = {
 			}
 		}
 		add_core_of = SPA
+		add_claim_by = MOR
 	}
 	provinces = {
 		13071 

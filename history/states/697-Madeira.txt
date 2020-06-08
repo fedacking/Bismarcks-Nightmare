@@ -15,6 +15,7 @@ state = {
 			}
 		}
 		add_core_of = POR
+		add_claim_by = MOR
 	}	
 	provinces = {
 		3118 

@@ -419,3 +419,7 @@ GNB = {
 	color = rgb { 153 102 0 }
 	color_ui = rgb { 153 102 0 }
 }
+MOR = {
+	color = rgb { 102 51 0 }
+	color_ui = rgb { 102 51 0 }
+}

@@ -4,12 +4,19 @@ state = {
 	manpower = 744000	
 	state_category = rural	
 	resources = {
-		steel = 15 # was: 20
+		steel = 20
 	}
 	history = {
 		owner = SPA
+		add_core_of = MOR
 		victory_points = {
 			9945 5 
+		}
+		victory_points = {
+			12087 1
+		}
+		victory_points = {
+			12100 1
 		}
 		buildings = {
 			infrastructure = 3
