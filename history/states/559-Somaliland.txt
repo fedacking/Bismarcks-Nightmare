@@ -2,9 +2,10 @@ state = {
 	id = 559
 	name = "STATE_559"
 	manpower = 1023895	
-	state_category = rural	
+	state_category = town
 	history = {
 		owner = FRA
+		add_core_of = SOM
 		victory_points = {
 			12991 3 
 		}

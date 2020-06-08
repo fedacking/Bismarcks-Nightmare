@@ -1,12 +1,12 @@
 state = {
-	id=551
-	name="STATE_551"
-	manpower = 1993507
-	
+	id = 551
+	name = "STATE_551"
+	manpower = 1993507	
 	state_category = rural
 	history = {
 		owner = EGY
 		add_core_of = EGY
+		add_core_of = SUD
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -16,13 +16,16 @@ state = {
 			}
 		}
 		victory_points = {
-			12806 3
+			12806 3 #Al-Khurtum
 		}
 		victory_points = {
-			12725 1
+			12725 1 #Bur Sudan
+		}
+		victory_points = {
+			7925 1 #Umm Durmān
 		}
 	}
-	provinces={
+	provinces = {
 		1977 2003 2046 2088 4963 7925 7989 8105 10743 10745 10784 10902 12725 12796 12806 12826 12862 12881 4138 12836 4961
 	}
 }

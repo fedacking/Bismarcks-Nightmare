@@ -1,19 +1,18 @@
 state = {
-	id=767
-	name="STATE_767" # North Darfur
-	manpower = 8143
-	
+	id = 767
+	name = "STATE_767" # North Darfur
+	manpower = 8143	
 	state_category = wasteland
-	impassable = yes
-	
+	impassable = yes	
 	history = {
 		owner = EGY
 		add_core_of = EGY
+		add_core_of = SUD
 		buildings = {
 			infrastructure = 0
 		}
 	}
-	provinces={
+	provinces = {
 		7987 8103 10900
 	}
 }

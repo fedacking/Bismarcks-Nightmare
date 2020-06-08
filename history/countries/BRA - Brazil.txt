@@ -52,20 +52,31 @@ if = {
 
 set_popularities = {
 	despotist = 0
-	absolutist = 75
-	semi_constitutionalist = 10
-	social_conservative = 15
-	liberal_conservative = 0
-	republican_liberal = 0
+	absolutist = 0
+	semi_constitutionalist = 40
+	social_conservative = 3
+	liberal_conservative = 14
+	republican_liberal = 23
 	communist = 0
-	socialist = 0
-}	
+	socialist = 20
+}
 
 set_politics = {
-	ruling_party = absolutist
+	ruling_party = semi_constitutionalist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Manuel I"
+	desc = "POLITICS_MANUEL_II_DESC"
+	picture = "gfx/leaders/BRA/Portrait_Manuel_II.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {

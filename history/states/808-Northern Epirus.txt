@@ -4,13 +4,11 @@ state = {
 	manpower = 201230
 	resources = {
 	}	
-	state_category = town	
+	state_category = rural	
 	history = {
 		owner = GRE
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2 
 		}
 		add_core_of = GRE
 		add_core_of = ALB
