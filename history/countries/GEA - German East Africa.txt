@@ -1,0 +1,154 @@
+﻿capital = 546
+
+oob = "GEA_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_popularities = {
+	despotist = 0
+	absolutist = 0
+	semi_constitutionalist = 100
+	social_conservative = 0
+	liberal_conservative = 0
+	republican_liberal = 0
+	communist = 0
+	socialist = 0
+}	
+
+set_politics = {
+	ruling_party = semi_constitutionalist
+	last_election = "1931.11.8"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Paul von Lettow-Vorbeck"
+	desc = "POLITICS_LETTOW_VORBECK_DESC"
+	picture = "gfx/leaders/GEA/Portrait_GEA_Leader_Paul_von_Lettow_Vorbeck.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
+
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = UGA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = BRD
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = RWA
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = ZAN
+		autonomous_state = autonomy_puppet
+	}
+	
+	else = {
+		puppet = UGA
+		puppet = BRD
+		puppet = RWA
+		puppet = ZAN
+	}
+}
+
+UGA = {
+	set_popularities = {
+		despotist = 0
+		absolutist = 100
+		semi_constitutionalist = 0
+		social_conservative = 0
+		liberal_conservative = 0
+		republican_liberal = 0
+		communist = 0
+		socialist = 0
+	}
+	set_politics = {
+		ruling_party = absolutist
+		last_election = "1931.11.8"
+		election_frequency = 72
+		elections_allowed = no
+	}
+}
+
+BRD = {
+	set_popularities = {
+		despotist = 0
+		absolutist = 100
+		semi_constitutionalist = 0
+		social_conservative = 0
+		liberal_conservative = 0
+		republican_liberal = 0
+		communist = 0
+		socialist = 0
+	}
+	set_politics = {
+		ruling_party = absolutist
+		last_election = "1931.11.8"
+		election_frequency = 72
+		elections_allowed = no
+	}
+}
+
+RWA = {
+	set_popularities = {
+		despotist = 0
+		absolutist = 100
+		semi_constitutionalist = 0
+		social_conservative = 0
+		liberal_conservative = 0
+		republican_liberal = 0
+		communist = 0
+		socialist = 0
+	}
+	set_politics = {
+		ruling_party = absolutist
+		last_election = "1931.11.8"
+		election_frequency = 72
+		elections_allowed = no
+	}
+}
+
+ZAN = {
+	set_popularities = {
+		despotist = 0
+		absolutist = 100
+		semi_constitutionalist = 0
+		social_conservative = 0
+		liberal_conservative = 0
+		republican_liberal = 0
+		communist = 0
+		socialist = 0
+	}
+	set_politics = {
+		ruling_party = absolutist
+		last_election = "1931.11.8"
+		election_frequency = 72
+		elections_allowed = no
+	}
+}
+
+create_faction = east_african_confederation
+add_to_faction = GEA
+add_to_faction = ZAN
+add_to_faction = UGA
+add_to_faction = BRD
+add_to_faction = RWA

@@ -435,3 +435,27 @@ SOM = {
 	color = rgb { 51 102 0 }
 	color_ui = rgb { 51 102 0 }
 }
+GEA = {
+	color = rgb { 183 66 50 }
+	color_ui = rgb { 183 66 50 }
+}
+TAN = {
+	color = rgb { 255 204 153 }
+	color_ui = rgb { 255 204 153 }
+}
+KEN = {
+	color = rgb { 255  57  195 }
+	color_ui = rgb { 255  57  195 }
+}
+UGA = {
+	color = rgb { 255 80 80 }
+	color_ui = rgb { 255 80 80 }
+}
+RWA = {
+	color = rgb { 255 255 102 }
+	color_ui = rgb { 255 255 102 }
+}
+BRD = {
+	color = rgb { 204 153 0 }
+	color_ui = rgb { 204 153 0 }
+}

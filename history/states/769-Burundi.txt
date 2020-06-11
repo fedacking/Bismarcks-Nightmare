@@ -1,24 +1,22 @@
 state = {
-	id=769
-	name="STATE_769" # Burundi
-	
-	state_category = pastoral
-
+	id = 769
+	name = "STATE_769" # Burundi	
+	state_category = rural
 	history = {
-		owner = ZAN
-		add_core_of = ZAN
+		owner = BRD
+		add_core_of = BRD
 		victory_points = {
 			2220 1
 		}
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
 		}
 	}
-
-	provinces={
+	provinces = {
 		2220
 	}
-	manpower=2145731
-	buildings_max_level_factor=1.000
+	manpower = 2145731
+	buildings_max_level_factor = 1.000
 }

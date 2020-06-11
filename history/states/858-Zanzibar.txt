@@ -1,0 +1,25 @@
+state = {
+	id = 858
+	name = "STATE_858"	
+	state_category = rural
+	history = {
+		owner = ZAN
+		add_core_of = ZAN
+		victory_points = {
+			13222 5
+		}		
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			13222 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = {
+		13222
+	}
+	manpower = 178400
+	buildings_max_level_factor = 1.000
+}
