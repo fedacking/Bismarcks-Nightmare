@@ -1680,12 +1680,12 @@
  LIB_semi_constitutionalist_DEF:0 "the Confederation of Liberia"
  LIB_semi_constitutionalist_ADJ:0 "Liberian"
  
- ZAN_semi_constitutionalist:0 "Sultanate of Zanzibar"
- ZAN_semi_constitutionalist_DEF:0 "the Sultanate of Zanzibar"
- ZAN_semi_constitutionalist_ADJ:0 "Zanzibari" 
- ZAN_absolutist:0 "Sultanate of Zanzibar"
- ZAN_absolutist_DEF:0 "the Sultanate of Zanzibar"
- ZAN_absolutist_ADJ:0 "Zanzibari"
+ ZNZ_semi_constitutionalist:0 "Sultanate of Zanzibar"
+ ZNZ_semi_constitutionalist_DEF:0 "the Sultanate of Zanzibar"
+ ZNZ_semi_constitutionalist_ADJ:0 "Zanzibari" 
+ ZNZ_absolutist:0 "Sultanate of Zanzibar"
+ ZNZ_absolutist_DEF:0 "the Sultanate of Zanzibar"
+ ZNZ_absolutist_ADJ:0 "Zanzibari"
  
  GEA_communist:0 "Socialist Republic of GEA"
  GEA_communist_DEF:0 "the Socialist Republic of German East Africa"

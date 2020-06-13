@@ -1,6 +1,6 @@
 ﻿capital = 858
 
-oob = "ZAN_1936"
+oob = "ZNZ_1936"
 
 # Starting tech
 set_technology = {
@@ -28,18 +28,7 @@ set_politics = {
 create_country_leader = {
 	name = "Khalifa II"
 	desc = "POLITICS_KHALIFA_II_DESC"
-	picture = "gfx/leaders/ZAN/Portrait_Sultan_Khalifa.tga"
-	expire = "1965.1.1"
-	ideology = semi_constitutionalist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Khalifa II"
-	desc = "POLITICS_KHALIFA_II_DESC"
-	picture = "gfx/leaders/ZAN/Portrait_Sultan_Khalifa.tga"
+	picture = "gfx/leaders/ZNZ/Portrait_Sultan_Khalifa.tga"
 	expire = "1965.1.1"
 	ideology = absolutist_subtype
 	traits = {

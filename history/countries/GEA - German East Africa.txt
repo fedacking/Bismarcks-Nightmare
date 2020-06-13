@@ -58,7 +58,7 @@ if = {
 		autonomous_state = autonomy_puppet
 	}
 	set_autonomy = {
-		target = ZAN
+		target = ZNZ
 		autonomous_state = autonomy_puppet
 	}
 	
@@ -66,7 +66,7 @@ if = {
 		puppet = UGA
 		puppet = BRD
 		puppet = RWA
-		puppet = ZAN
+		puppet = ZNZ
 	}
 }
 
@@ -127,7 +127,7 @@ RWA = {
 	}
 }
 
-ZAN = {
+ZNZ = {
 	set_popularities = {
 		despotist = 0
 		absolutist = 100
