@@ -9,6 +9,7 @@ state = {
 	history = {
 		owner = BOE
 		add_core_of = BOE
+		add_core_of = ZUL
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -19,7 +20,10 @@ state = {
 			}
 		}
 		victory_points = {
-			1468 5 #Durban
+			8178 5 #uMgungundlovu
+		}
+		victory_points = {
+			1468 3 #Durban
 		}
 		victory_points = {
 			1494 3 #Pietermaritzburg

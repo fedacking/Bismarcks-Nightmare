@@ -6,6 +6,7 @@ state = {
 	history = {
 		owner = BOE
 		add_core_of = BOE
+		add_core_of = SWZ
 		buildings = {
 			infrastructure = 1
 		}

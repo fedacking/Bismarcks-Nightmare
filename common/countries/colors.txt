@@ -459,3 +459,15 @@ ZNZ = {
 	color = rgb { 255 204 154 }
 	color_ui = rgb { 255 204 154 }
 }
+SWZ = {
+	color = rgb { 0 68 205 }
+	color_ui = rgb { 0 68 205 }
+}
+LES = {
+	color = rgb { 0 153 0 }
+	color_ui = rgb { 0 153 0 }
+}
+ZUL = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
