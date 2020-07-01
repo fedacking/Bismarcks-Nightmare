@@ -537,8 +537,8 @@
  USA_social_conservative:0 "United States of America"
  USA_social_conservative_DEF:0 "the United States of America"
  USA_social_conservative_ADJ:0 "American"
- QUE_social_conservative:0 "Dominion of Quebec"
- QUE_social_conservative_DEF:0 "the Dominion of Quebec"
+ QUE_social_conservative:0 "Dominion of New France"
+ QUE_social_conservative_DEF:0 "the Dominion of New France"
  QUE_social_conservative_ADJ:0 "Quebecois"
  
  FRA_communist:0 "French People's Republic"
