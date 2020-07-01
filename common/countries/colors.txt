@@ -471,3 +471,7 @@ ZUL = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
 }
+TUN = {
+	color = rgb { 153 153 102 }
+	color_ui = rgb { 153 153 102 }
+}
