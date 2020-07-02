@@ -475,3 +475,11 @@ TUN = {
 	color = rgb { 153 153 102 }
 	color_ui = rgb { 153 153 102 }
 }
+ALG = {
+	color = rgb { 153 102 51 }
+	color_ui = rgb { 153 102 51 }
+}
+PNG = {
+	color = rgb { 153 0 76 }
+	color_ui = rgb { 153 0 76 }
+}
