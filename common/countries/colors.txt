@@ -483,3 +483,11 @@ PNG = {
 	color = rgb { 153 0 76 }
 	color_ui = rgb { 153 0 76 }
 }
+MRT = {
+	color = rgb { 255 153 153 }
+	color_ui = rgb { 255 153 153 }
+}
+SEN = {
+	color = rgb { 204 51 0 }
+	color_ui = rgb { 204 51 0 }
+}
