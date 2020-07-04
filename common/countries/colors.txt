@@ -491,3 +491,11 @@ SEN = {
 	color = rgb { 204 51 0 }
 	color_ui = rgb { 204 51 0 }
 }
+MLI = {
+	color = rgb { 204 204 255 }
+	color_ui = rgb { 204 204 255 }
+}
+GNA = {
+	color = rgb { 102 153 255 }
+	color_ui = rgb { 102 153 255 }
+}
