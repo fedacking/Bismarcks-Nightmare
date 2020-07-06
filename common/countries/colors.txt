@@ -511,3 +511,7 @@ GHA = {
 	color = rgb { 102 102 51 }
 	color_ui = rgb { 102 102 51 }
 }
+NER = {
+	color = rgb { 255 153 102 }
+	color_ui = rgb { 255 153 102 }
+}
