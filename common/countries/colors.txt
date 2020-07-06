@@ -499,3 +499,15 @@ GNA = {
 	color = rgb { 102 153 255 }
 	color_ui = rgb { 102 153 255 }
 }
+IVO = {
+	color = rgb { 255 255 204 }
+	color_ui = rgb { 255 255 204 }
+}
+UVO = {
+	color = rgb { 153 153 255 }
+	color_ui = rgb { 153 153 255 }
+}
+GHA = {
+	color = rgb { 102 102 51 }
+	color_ui = rgb { 102 102 51 }
+}
