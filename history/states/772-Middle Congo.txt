@@ -1,15 +1,14 @@
-
-state={
-	id=772
-	name="STATE_772" # Middle Congo (Brazzaville)
-	manpower = 746415
-	
+state = {
+	id = 772
+	name = "STATE_772" #Congo Français
+	manpower = 746415	
 	state_category = pastoral
-	resources={
-		rubber=1 # was: 1
+	resources = {
+		rubber = 1
 	}
-	history={
+	history = {
 		owner = FRA
+		add_core_of = FCG
 		victory_points = {
 			8193 2
 		}
@@ -19,10 +18,8 @@ state={
 				naval_base = 1
 			}
 		}
-
 	}
-
-	provinces={
+	provinces = {
 		2192 3109 6008 8193 12975 
 	}
 }

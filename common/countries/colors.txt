@@ -543,3 +543,11 @@ EQG = {
 	color = rgb { 255 204 0 }
 	color_ui = rgb { 255 204 0 }
 }
+FCG = {
+	color = rgb { 102 204 255 }
+	color_ui = rgb { 102 204 255 }
+}
+CAR = {
+	color = rgb { 153 0 0 }
+	color_ui = rgb { 153 0 0 }
+}
