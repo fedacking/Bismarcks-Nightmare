@@ -515,3 +515,23 @@ NER = {
 	color = rgb { 255 153 102 }
 	color_ui = rgb { 255 153 102 }
 }
+TOG = {
+	color = rgb { 0 102 0 }
+	color_ui = rgb { 0 102 0 }
+}
+DAH = {
+	color = rgb { 0 51 204 }
+	color_ui = rgb { 0 51 204 }
+}
+NGA = {
+	color = rgb { 255 204 102 }
+	color_ui = rgb { 255 204 102 }
+}
+CMR = {
+	color = rgb { 255 51 0 }
+	color_ui = rgb { 255 51 0 }
+}
+CHA = {
+	color = rgb { 204 255 204 }
+	color_ui = rgb { 204 255 204 }
+}
