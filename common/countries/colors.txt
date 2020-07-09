@@ -535,3 +535,11 @@ CHA = {
 	color = rgb { 204 255 204 }
 	color_ui = rgb { 204 255 204 }
 }
+GAB = {
+	color = rgb { 51 204 204 }
+	color_ui = rgb { 51 204 204 }
+}
+EQG = {
+	color = rgb { 255 204 0 }
+	color_ui = rgb { 255 204 0 }
+}
