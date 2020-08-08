@@ -1,20 +1,16 @@
-
-state={
-	id=421
-	name="STATE_421"
-	manpower = 780278
-	
+state = {
+	id = 421
+	name = "STATE_421" #Kurdistan
+	manpower = 780278	
 	state_category = rural
-
-	history={
+	history = {
 		owner = IRA
 		add_core_of = IRA
 		buildings = {
 			infrastructure = 3
 		}
 	}
-
-	provinces={
-		829 4943 5050 5098 9816 10774 12773 
+	provinces = {
+		829 4943 5098 9816 10774 12773 
 	}
 }

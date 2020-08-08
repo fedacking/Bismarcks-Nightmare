@@ -1,20 +1,16 @@
-
-state={
-	id=420
-	name="STATE_420"
-	manpower = 1314948
-	
+state = {
+	id = 420
+	name = "STATE_420"
+	manpower = 1014948
 	state_category = rural
-
-	history={
+	history = {
 		owner = IRA
 		add_core_of = IRA
 		buildings = {
 			infrastructure = 3
 		}
 	}
-
-	provinces={
-		4553 4609 4637 4901 7969 10454 10523 
+	provinces = {
+		4553 4609 4637 7969 10523 
 	}
 }
