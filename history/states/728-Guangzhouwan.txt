@@ -1,22 +1,16 @@
-state={
-	id=728
-	name="STATE_728"
-	manpower = 200000
-	
-	state_category = enclave
-	
-	history={
-		owner = QIN
-		add_core_of = QIN
+state = {
+	id = 728
+	name = "STATE_728" #Eastern Sind
+	manpower = 1297000
+	state_category = rural	
+	history = {
+		owner = RGA
+		add_core_of = RGA
 		buildings = {
 			infrastructure = 3
-			11981 = {
-				naval_base = 1
-			}
 		}
-	}
-	
-	provinces={
-		11981 
+	}	
+	provinces = {
+		1147 1971 1980 4003 4110 4382 7084
 	}
 }
