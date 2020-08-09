@@ -1,0 +1,26 @@
+state = {
+	id = 862
+	name = "STATE_862" #Tamil Ceylon
+	manpower = 1205341
+	state_category = pastoral
+	resources = {
+		#
+	}
+	history = {
+		owner = IND
+		add_core_of = IND
+		victory_points = {
+			10201 3 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			10201 = {
+				naval_base = 5
+			}
+		}
+	}	
+	provinces = {
+		10201 10229
+	}
+}

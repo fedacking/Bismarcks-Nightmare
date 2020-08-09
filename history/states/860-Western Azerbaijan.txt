@@ -1,0 +1,16 @@
+state = {
+	id = 860
+	name = "STATE_860" #West Azerbaijan
+	manpower = 423014
+	state_category = rural
+	history = {
+		owner = IRA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = IRA
+	}
+	provinces = {
+		1636 1822 7604
+	}
+}
