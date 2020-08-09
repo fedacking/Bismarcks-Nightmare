@@ -1,14 +1,14 @@
 state = {
 	id = 429
 	name = "STATE_429"
-	manpower = 17355600
+	manpower = 19765600
 	state_category = town	
 	resources = {
 		tungsten = 19
 	}
 	history = {
-		owner = IND
-		add_core_of = IND
+		owner = HYD
+		add_core_of = HYD
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -22,6 +22,6 @@ state = {
 		}
 	}
 	provinces = {
-		1349 1405 4072 4187 4353 7013 7060 7119 7177 7232 10019 10210 10270 12142 12182 12269 
+		1349 1405 4072 4187 4278 4291 4353 4395 7013 7060 7119 7177 7232 7250 7395 7411 10019 10210 10259 10270 10799 12105 12142 12182 12208 12269 12295
 	}
 }
