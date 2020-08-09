@@ -110,3 +110,8 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_faction = princely_confederation
+add_to_faction = HYD
+add_to_faction = MAT
+add_to_faction = RGA
