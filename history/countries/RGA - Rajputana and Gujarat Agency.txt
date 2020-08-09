@@ -1,6 +1,6 @@
-﻿capital = 425
+﻿capital = 428
 
-oob = "MAT_1936"
+oob = "empty"
 
 set_fuel_ratio = 0.8
 
@@ -53,7 +53,7 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "MAT_1936_naval"
+	set_naval_oob = "empty"
 }
 if = {
 	limit = {
@@ -85,7 +85,7 @@ if = {
 		sonar = 1
 		basic_cruiser_armor_scheme = 1
 	}
-	set_naval_oob = "MAT_1936_naval_mtg"
+	set_naval_oob = "empty"
 }
 
 set_research_slots = 3
