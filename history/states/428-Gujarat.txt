@@ -10,7 +10,13 @@ state = {
 		owner = RGA
 		add_core_of = RGA
 		victory_points = {
-			9975 1 
+			9975 5 
+		}
+		victory_points = {
+			10118 1
+		}
+		victory_points = {
+			4132 1
 		}
 		buildings = {
 			infrastructure = 4
