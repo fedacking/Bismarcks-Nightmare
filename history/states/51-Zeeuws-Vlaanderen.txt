@@ -5,7 +5,7 @@ state = {
 		480
 	}
 	manpower = 95247
-	state_category = rural
+	state_category = pastoral
 	history = {
 		owner = FRA
 		add_core_of = FRA
