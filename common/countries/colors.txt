@@ -575,3 +575,11 @@ CEY = {
 	color = rgb { 204 0 102 }
 	color_ui = rgb { 204 0 102 }
 }
+IRQ = {
+	color = rgb { 178  114  99 }
+	color_ui = rgb { 178  114  99 }
+}
+SYR = {
+	color = rgb { 100  100  150 }
+	color_ui = rgb { 100  100  150 }
+}
