@@ -18,6 +18,9 @@ state = {
 				coastal_bunker = 3
 			}
 		}
+		victory_points = {
+			7260 3
+		}
 	}	
 	provinces = {
 		1213 4219 7260 7344 10287 12258 

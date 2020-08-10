@@ -1,30 +1,38 @@
-
-state={
-	id=425
-	name="STATE_425" # Mysore
-	manpower = 9950000
-	
-	state_category = rural
-	
-	resources={
-		chromium=10 # was: 20
-		tungsten=76 # was: 128
+state = {
+	id = 425
+	name = "STATE_425" #Mysore
+	manpower = 9950000	
+	state_category = town	
+	resources = {
+		chromium = 10
+		tungsten = 76
 	}
-
-	history={
+	history = {
 		owner = MAT
 		add_core_of = MAT
 		victory_points = {
+			10208 1
+		}
+		victory_points = {
+			10190 1
+		}
+		victory_points = {
 			8011 1
 		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+		victory_points = {
+			4315 5
 		}
-
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 2
+			10190 = {
+				naval_base = 1
+			}
+		}
 	}
-
-	provinces={
+	provinces = {
 		1412 4315 4344 5032 7244 7391 8011 8100 10190 10208 12146 12734 
 	}
 }

@@ -2,7 +2,7 @@ state = {
 	id = 429
 	name = "STATE_429"
 	manpower = 19765600
-	state_category = town	
+	state_category = large_town	
 	resources = {
 		tungsten = 19
 	}
@@ -11,14 +11,21 @@ state = {
 		add_core_of = HYD
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 2
 			1349 = {
-				naval_base = 6
+				naval_base = 2
 			}
 		}
 		victory_points = {
-			1349 10 
+			7411 1
+		}
+		victory_points = {
+			12182 3
+		}
+		victory_points = {
+			1349 5
 		}
 	}
 	provinces = {
