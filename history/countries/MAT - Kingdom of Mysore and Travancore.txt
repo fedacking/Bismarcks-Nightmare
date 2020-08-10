@@ -110,3 +110,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Jayachamarajendra Wadiyar"
+	desc = "POLITICS_JAYACHAMARAJENDRA_WADIYAR_DESC"
+	picture = "gfx/leaders/MAT/Portrait_MAT_Leader_Jayachamarajendra_Wadiyar.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
