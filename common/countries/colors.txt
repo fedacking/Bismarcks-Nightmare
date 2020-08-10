@@ -119,10 +119,6 @@ NEP = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
-PAK = {
-	color = rgb { 50 205 50 }
-	color_ui = rgb { 50 205 50 }
-}
 IRA = {
 	color = rgb { 21 38 66 }
 	color_ui = rgb { 21 38 66 }
