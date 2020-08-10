@@ -571,3 +571,7 @@ JAK = {
 	color = rgb { 230 212 34 }
 	color_ui = rgb { 230 212 34 }
 }
+CEY = {
+	color = rgb { 204 0 102 }
+	color_ui = rgb { 204 0 102 }
+}
