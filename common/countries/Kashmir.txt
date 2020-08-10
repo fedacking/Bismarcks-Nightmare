@@ -1,6 +1,4 @@
-
-
 graphical_culture = western_european_gfx
 graphical_culture_2d = commonwealth_2d
 
-color = { 50 205 50 }
+color = { 230 212 34 }
