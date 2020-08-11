@@ -14,6 +14,7 @@ state={
 	history={
 		owner = QIN
 		add_core_of = QIN
+		add_core_of = ETK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

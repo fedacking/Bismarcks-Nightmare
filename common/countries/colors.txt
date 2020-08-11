@@ -591,3 +591,11 @@ BHU = {
 	color = rgb { 255  78  18 }
 	color_ui = rgb { 255  78  18 }
 }
+TIB = {
+	color = rgb { 208  207  207 }
+	color_ui = rgb { 208  207  207 }
+}
+ETK = {
+	color = rgb { 85  158  226 }
+	color_ui = rgb { 85  158  226 }
+}

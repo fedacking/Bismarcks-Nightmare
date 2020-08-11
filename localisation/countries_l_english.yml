@@ -2653,3 +2653,14 @@
  BHU_absolutist:0 "Kingdom of Bhutan"
  BHU_absolutist_DEF:0 "the Kingdom of Bhutan"
  BHU_absolutist_ADJ:0 "Bhutanese"
+ 
+ TIB_despotist:0 "Theocracy of Tibet"
+ TIB_despotist_DEF:0 "the Theocracy of Tibet"
+ TIB_despotist_ADJ:0 "Tibetan" 
+ 
+ ETK_semi_constitutionalist:0 "Islamic Republic of East Turkestan"
+ ETK_semi_constitutionalist_DEF:0 "the Islamic Republic of East Turkestan"
+ ETK_semi_constitutionalist_ADJ:0 "Uyghur" 
+ ETK_absolutist:0 "Kumul Khanate"
+ ETK_absolutist_DEF:0 "the Kumul Khanate"
+ ETK_absolutist_ADJ:0 "Uyghur"
