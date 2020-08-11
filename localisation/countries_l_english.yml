@@ -2642,3 +2642,14 @@
  CEY_despotist:0 "State of Ceylon"
  CEY_despotist_DEF:0 "the State of Ceylon"
  CEY_despotist_ADJ:0 "Sri Lankan" 
+ 
+ BEN_absolutist:0 "Sultanate of Bengal"
+ BEN_absolutist_DEF:0 "the Sultanate of Bengal"
+ BEN_absolutist_ADJ:0 "Bengali"
+ BEN_despotist:0 "Islamic Republic of Bengladesh"
+ BEN_despotist_DEF:0 "the Islamic Republic of Bengladesh"
+ BEN_despotist_ADJ:0 "Bengladeshi" 
+ 
+ BHU_absolutist:0 "Kingdom of Bhutan"
+ BHU_absolutist_DEF:0 "the Kingdom of Bhutan"
+ BHU_absolutist_ADJ:0 "Bhutanese"

@@ -587,3 +587,7 @@ BEN = {
 	color = rgb { 0  118  233 }
 	color_ui = rgb { 0  118  233 }
 }
+BHU = {
+	color = rgb { 255  78  18 }
+	color_ui = rgb { 255  78  18 }
+}
