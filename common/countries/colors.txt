@@ -583,3 +583,7 @@ SYR = {
 	color = rgb { 100  100  150 }
 	color_ui = rgb { 100  100  150 }
 }
+BEN = {
+	color = rgb { 0  118  233 }
+	color_ui = rgb { 0  118  233 }
+}
