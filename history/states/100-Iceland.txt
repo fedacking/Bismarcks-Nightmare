@@ -13,6 +13,7 @@ state = {
 			}
 		}
 		add_core_of = SCA
+		add_core_of = ICE
 		add_claim_by = NOR
 		add_claim_by = DEN
 	}
