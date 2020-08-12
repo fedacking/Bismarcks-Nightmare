@@ -576,26 +576,34 @@ CEY = {
 	color_ui = rgb { 204 0 102 }
 }
 IRQ = {
-	color = rgb { 178  114  99 }
-	color_ui = rgb { 178  114  99 }
+	color = rgb { 178 114 99 }
+	color_ui = rgb { 178 114 99 }
 }
 SYR = {
-	color = rgb { 100  100  150 }
-	color_ui = rgb { 100  100  150 }
+	color = rgb { 100 100 150 }
+	color_ui = rgb { 100 100 150 }
 }
 BEN = {
-	color = rgb { 0  118  233 }
-	color_ui = rgb { 0  118  233 }
+	color = rgb { 0 118 233 }
+	color_ui = rgb { 0 118 233 }
 }
 BHU = {
-	color = rgb { 255  78  18 }
-	color_ui = rgb { 255  78  18 }
+	color = rgb { 255 78 18 }
+	color_ui = rgb { 255 78 18 }
 }
 TIB = {
-	color = rgb { 208  207  207 }
-	color_ui = rgb { 208  207  207 }
+	color = rgb { 208 207 207 }
+	color_ui = rgb { 208 207 207 }
 }
 ETK = {
-	color = rgb { 85  158  226 }
-	color_ui = rgb { 85  158  226 }
+	color = rgb { 85 158 226 }
+	color_ui = rgb { 85 158 226 }
+}
+TRK {
+	color = rgb { 0 131 61 }
+	color_ui = rgb { 0 131 61 }
+}
+UZK
+	color = rgb { 197 108 13 }
+	color_ui = rgb { 197 108 13 }
 }
