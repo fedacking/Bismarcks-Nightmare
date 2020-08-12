@@ -108,7 +108,7 @@ ARG_congo_sale = {
 		}
 	}
 	
-	ARG_offer_russia = {
+	ARG_offer_mexico = {
 		icon = eng_propaganda_campaigns #PHolder
 		available = {
 			NOT = { has_country_flag = ARG_congo_offered }
@@ -118,19 +118,19 @@ ARG_congo_sale = {
 		cancel_if_not_visible = yes
 
 		complete_effect = {
-			RUS = {
+			MEX = {
 				country_event = arg.2
 			}
 			ARG = {
 				set_country_flag = ARG_congo_offered
-				clr_country_flag = AI_ARG_congo_RUS
+				clr_country_flag = AI_ARG_congo_MEX
 			}
 		}
 		ai_will_do = {
 			factor = 10
 			modifier = {
 				add = 90
-				has_country_flag = AI_ARG_congo_RUS
+				has_country_flag = AI_ARG_congo_MEX
 			}
 		}
 	}

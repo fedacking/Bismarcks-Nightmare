@@ -53,15 +53,15 @@ if = {
 }
 
 set_popularities = {
-	despotist = 10
+	despotist = 7
 	absolutist = 0
 	semi_constitutionalist = 0
-	social_conservative = 65
+	social_conservative = 42
 	liberal_conservative = 25
-	republican_liberal = 0
+	republican_liberal = 20
 	communist = 0
-	socialist = 0
-}	
+	socialist = 6
+}
 
 set_politics = {
 	ruling_party = social_conservative
