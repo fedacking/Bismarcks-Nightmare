@@ -601,5 +601,32 @@ spriteTypes = {
 		allwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
+	
+	# La resistance
+	
+	spriteType = {
+		name = "GFX_icon_exiled_governments"
+		texturefile = "gfx/interface/icon_exiled_governments.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_occupied_territories"
+		texturefile = "gfx/interface/icon_occupied_territories.dds"
+	}
+
+	spriteType = {
+		name = "GFX_countryview_government_in_exile_bg"
+		texturefile = "gfx/interface/government_in_exile/countryview_government_in_exile_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_countryview_exile_my_legitimacy"
+		texturefile = "gfx/interface/government_in_exile/autonomy_exiles.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_manage_subjects"
+		texturefile = "gfx/interface/icon_manage_subjects.dds"
+	}
 
 }
