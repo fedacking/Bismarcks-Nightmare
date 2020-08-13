@@ -5,6 +5,8 @@ state = {
 	state_category = city	
 	history = {
 		owner = ARA
+		add_core_of = SYR
+		add_core_of = ARA
 		victory_points = {
 			12473 10
 		}
@@ -19,7 +21,6 @@ state = {
 				bunker = 2
 			}
 		}
-		add_core_of = ARA
 	}	
 	provinces = {
 		1056 1072 1088 7140 7671 10087 12473 

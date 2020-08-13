@@ -3,11 +3,12 @@ state = {
 	name = "STATE_413"
 	manpower = 558149
 	resources = {
-		oil = 28 # was: 42
+		oil = 28
 	}	
 	state_category = rural
 	history = {
 		owner = ARA
+		add_core_of = IRQ
 		add_core_of = ARA
 		add_claim_by = IRA
 		buildings = {

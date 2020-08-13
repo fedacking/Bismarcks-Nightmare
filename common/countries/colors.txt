@@ -575,14 +575,6 @@ CEY = {
 	color = rgb { 204 0 102 }
 	color_ui = rgb { 204 0 102 }
 }
-IRQ = {
-	color = rgb { 178 114 99 }
-	color_ui = rgb { 178 114 99 }
-}
-SYR = {
-	color = rgb { 100 100 150 }
-	color_ui = rgb { 100 100 150 }
-}
 BEN = {
 	color = rgb { 0 118 233 }
 	color_ui = rgb { 0 118 233 }
@@ -627,4 +619,28 @@ CIR = {
 ICE = {
 	color = rgb { 100  125  175 }
 	color_ui = rgb { 100  125  175 }
+}
+IRQ = {
+	color = rgb { 178 114 99 }
+	color_ui = rgb { 178 114 99 }
+}
+SYR = {
+	color = rgb { 100 100 150 }
+	color_ui = rgb { 100 100 150 }
+}
+OMA = {
+	color = rgb { 155  101  107 }
+	color_ui = rgb { 155  101  107 }
+}
+YEM = {
+	color = rgb { 155  101  107 }
+	color_ui = rgb { 155  101  107 }
+}
+LEB = {
+	color = rgb { 130  150  60 }
+	color_ui = rgb { 130  150  60 }
+}
+ISR = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
 }

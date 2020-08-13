@@ -5,14 +5,15 @@ state = {
 	state_category = pastoral	
 	history = {
 		owner = ARA
+		add_core_of = SYR
+		add_core_of = ARA
+		add_claim_by = TUR
 		buildings = {
 			infrastructure = 4
 			12029 = {
 				bunker = 1
 			}
 		}
-		add_core_of = ARA
-		add_claim_by = TUR
 	}	
 	provinces = {
 		12029

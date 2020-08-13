@@ -5,6 +5,7 @@ state = {
 	state_category = wasteland
 	history = {
 		owner = ARA
+		add_core_of = IRQ
 		add_core_of = ARA
 		buildings = {
 			infrastructure = 1
