@@ -103,9 +103,11 @@ autonomous_occupation = {
 	sound_effect = "Martial_Law_Interface_Autonomous_Occupation_Unique_DEM"
 	
 	visible = {
-		has_government = republican_liberalrepublican_liberal
-		has_government = liberal_conservative
-		has_government = social_conservative
+		OR = {
+			has_government = republican_liberal
+			has_government = liberal_conservative
+			has_government = social_conservative
+		}
 	}
 	
 	state_modifier = {
@@ -212,8 +214,10 @@ liberate_workers_occupation = {
 	sound_effect = "Martial_Law_Interface_Liberate_Workers_Occupation_Unique_COM"
 	
 	visible = {
-		has_government = communist
-		has_government = socialist
+		OR = {
+			has_government = communist
+			has_government = socialist
+		}
 	}
 	
 	state_modifier = {
