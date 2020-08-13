@@ -985,63 +985,6 @@ POR = {
 	}
 }
 
-PAK = {
-	submarine = {
-		prefix = "PNS"
-		generic = { "Submarine" }
-		unique = {
-			"Hashmat" "Hurmat" "Khalid" "Saad" "Hamza" "Ghazi" "Hangor" "Shushuk" "Mangro"
-		}
-	}
-	destroyer = {
-		prefix = "PNS"
-		generic = { 
-			"Destroyer"
-		}
-		unique = {
-			"Shamsher" "Tippu Sultan" "Tariq" "Jhelum" "Tughril" "Taimur" "Badr" "Zarrar" "Karrar" "Larkana" "Rajshahi" "Jalalat" "Shujaat" "Jurrat" "Quwwat" "Azmat" "Dehshat" "Munsif" "Muhafiz" "Mujahid" "Nazim" "Shahjahan" "Khaibar" "Dacca" "Zulfikar"
-		}
-	}
-	light_cruiser = {
-		prefix = "PNS"
-		generic = { "Light Cruiser" }
-		unique = {
-		   "Babur" "Jahangir" "Humayun" "Sher Shah Suri" "Akbar" "Shah Jahan" "Aurangzeb" "Bahadur Shah" "Furrukhsiyar" "Rafi Ul-Darjat" "Muhammad Ibrahim" "Saif"
-
-		}
-	}
-	heavy_cruiser = {
-		prefix = "PNS"
-		generic = { "Heavy Cruiser" }
-		unique = {
-			"Babur" "Jahangir" "Humayun" "Sher Shah Suri" "Akbar" "Shah Jahan" "Aurangzeb" "Bahadur Shah" "Furrukhsiyar" "Rafi Ul-Darjat" "Muhammad Ibrahim" "Saif"
-		}
-	}
-	battle_cruiser = {
-		prefix = "PNS"
-		generic = { "Battlecruiser" }
-		unique = {
-			"Punjab" "Mughal" "Kashmir" "Afghania" "Sindh" "Baluchistan"
-		}
-	}
-	battleship = {
-		prefix = "PNS"
-		generic = { "Battleship" }
-		unique = {
-			"Punjab" "Mughal" "Kashmir" "Afghania" "Sindh" "Baluchistan"
-		}
-	}
-	carrier = {
-		prefix = "PNS"
-		generic = { "Carrier" }
-		unique = {
-		 	"Punjab" "Mughal" "Kashmir" "Afghania" "Sindh" "Baluchistan"
-
-		}
-	}
-	
-}
-
 IND = {
 	submarine = {
 		prefix = "INS"

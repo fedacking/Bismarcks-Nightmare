@@ -239,7 +239,6 @@ focus_tree = {
 		x = -2
 		y = 1
 		cost = 10
-		mutually_exclusive = { focus = USA_government_intervention }
 
 		available_if_capitulated = no
 
@@ -315,7 +314,6 @@ focus_tree = {
 		x = 2
 		y = 1
 		cost = 10
-		mutually_exclusive = { focus = USA_government_intervention }
 
 		available_if_capitulated = no
 

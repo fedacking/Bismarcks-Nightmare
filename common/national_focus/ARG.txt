@@ -392,9 +392,6 @@ focus_tree = {
 			focus = ARG_abdication
 		}
 		relative_position_id = ARG_moderate_approach
-		mutually_exclusive = {
-			focus = ARG_force_his_hand
-		}
 		completion_reward = {
 			custom_effect_tooltip = ARG_mend_liberal_schism
 			set_party_name = { ideology = liberal_conservative long_name = ARG_liberal_conservative_party_schism_mended_long name = ARG_liberal_conservative_party_schism_mended }

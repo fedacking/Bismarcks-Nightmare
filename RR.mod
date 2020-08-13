@@ -24,6 +24,7 @@ replace_path="common/scripted_effects"
 replace_path="common/scripted_localisation"
 replace_path="common/scripted_triggers"
 replace_path="common/technology_sharing"
+replace_path="common/units/codenames_operatives"
 replace_path="common/units/names"
 replace_path="common/units/names_divisions"
 replace_path="common/units/names_ships"
@@ -37,5 +38,5 @@ tags={
 	"National Focuses"
 	"Events"
 }
-supported_version="1.8.*"
+supported_version="1.9.*"
 
