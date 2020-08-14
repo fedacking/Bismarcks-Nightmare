@@ -644,3 +644,7 @@ ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
+CAP = {
+	color = rgb { 51 0 102 }
+	color_ui = rgb { 51 0 102 }
+}

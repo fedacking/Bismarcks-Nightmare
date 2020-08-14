@@ -1,6 +1,6 @@
 state = {
 	id = 849
-	name = "STATE_849" # Oos-Kaap
+	name = "STATE_849" #Oos-Kaap
 	manpower = 1115540
 	resources = {
 		chromium = 40
@@ -8,6 +8,7 @@ state = {
 	state_category = rural
 	history = {
 		owner = BOE
+		add_core_of = CAP
 		add_core_of = BOE
 		buildings = {
 			infrastructure = 4

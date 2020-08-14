@@ -297,6 +297,17 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Alfred Dreyfus"
+	picture = "Portrait_PlaceHolder.tga" #Place holder
+	traits = { old_guard war_hero artillery_officer }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
 	name = "Henri Giraud"
 	picture = "portrait_france_henri_giraud.dds"
 	traits = {  trickster trait_cautious career_officer infantry_officer }

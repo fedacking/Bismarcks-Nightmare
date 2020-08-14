@@ -5,6 +5,7 @@ state = {
 	state_category = town
 	history = {
 		owner = BOE
+		add_core_of = CAP
 		add_core_of = BOE
 		buildings = {
 			infrastructure = 5
