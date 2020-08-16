@@ -189,6 +189,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			unlock_decision_category_tooltip = USA_works_project_administration_cat
 		}
 	}
 	
