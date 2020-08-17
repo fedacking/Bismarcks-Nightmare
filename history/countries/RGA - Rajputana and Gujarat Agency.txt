@@ -110,3 +110,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Vacant"
+	desc = "VACANT_RGA_DESC"
+	picture = "gfx/leaders/RGA/Portrait_RGA_Vacant.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}

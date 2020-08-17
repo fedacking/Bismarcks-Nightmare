@@ -110,3 +110,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Despo Tamil"
+	desc = "POLITICS_DESPO_TAMIL"
+	picture = "gfx/leaders/TAM/Portrait_TAM_Leader_Despo_Tamil.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
