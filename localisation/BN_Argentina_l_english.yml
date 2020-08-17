@@ -187,7 +187,7 @@ ARG_mend_liberal_schism: "The UCR Moderada and the UCR Republicana will become a
 arg.1.t:0 "The Status of the Congo"
 arg.1.desc:0 "The Congo has been under personal rule of the Argentine monarch since 1885. Now, with the overthrow of the King, the new civilian government needs to decide what to do with the colony."
 arg.1.a:0 "Sell it, we need the money now!"
-arg.1.b:0 "Keep it! It has a lot of economic potential."
+arg.1.b:0 "Keep it! It has a lot of economic potential"
 arg.1.c:0 "The fate of the Congo belongs to the Congolese!"
 arg.2.t:0 "The Congo Purchase"
 arg.2.desc:0 "The Argentine government is approaching us with the once in a lifetime opportunity of purchasing their colony in the Congo. Although they're asking for a stiff price the colony could prove very profitable."

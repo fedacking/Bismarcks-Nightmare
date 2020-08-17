@@ -44,37 +44,38 @@ country_event = { #Status of the Congo
 	option = { #Keep it
 		name = arg.1.b
 		set_country_flag = ARG_keep_the_congo
-		ARG = {
-			country_event = arg.7
+		hidden_effect = {
+			set_country_flag = ARG_flag_socialists_stay
 		}
 	}
 	option = { #Deconolization
 		name = arg.1.c
+		release = COG
+		set_autonomy = {
+			target = COG
+			autonomous_state = autonomy_puppet
+		}
 		hidden_effect = {
 			set_country_flag = ARG_flag_socialists_stay
-			295 = { add_core_of = COG }
-			538 = { add_core_of = COG }
-			718 = { add_core_of = COG }			
 			COG = {
 				set_politics = {
-					ruling_party = republican_liberal
+					ruling_party = semi_constitutionalist
 					last_election = "1936.1.1"
 					election_frequency = 48
 					elections_allowed = no
 				}
 				set_popularities = {
-					despotist = 5
+					despotist = 0
 					absolutist = 0
-					semi_constitutionalist = 0
-					social_conservative = 15
-					liberal_conservative = 18
-					republican_liberal = 48
-					socialist = 10
-					communist = 4
+					semi_constitutionalist = 100
+					social_conservative = 0
+					liberal_conservative = 0
+					republican_liberal = 0
+					socialist = 0
+					communist = 0
 				}
 			}
 		}
-		release = COG
 		remove_ideas = {ARG_idea_overextended_colonial_empire}
 	}
 }

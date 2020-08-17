@@ -422,6 +422,7 @@ focus_tree = {
 			}
 			add_ideas = {
 				ARG_for_scn_julio_argentino_p_roca
+				ARG_eco_lco_roberto_m_ortiz
 				ARG_sec_scn_ramon_s_castillo
 			}
 		}
@@ -442,7 +443,7 @@ focus_tree = {
 			focus = ARG_deal_with_devil
 		}
 		completion_reward = {
-			#
+			ARG_eco_lco_roberto_m_ortiz
 		}
 	}
 	
@@ -460,7 +461,7 @@ focus_tree = {
 		}
 		relative_position_id = ARG_december_revolution	
 		completion_reward = {
-			##load constitution focus
+			##start consitutional events
 			add_stability = 0.1
 			unlock_decision_category_tooltip = ARG_dec_cat_constitutional_assembly
 			if = {
@@ -498,7 +499,7 @@ focus_tree = {
 		icon = GFX_goal_WIP #Pholder
 		x = -3
 		y = 1
-		cost = 3
+		cost = 2
 		prerequisite = {
 			focus = ARG_reform_the_congo
 		}
@@ -506,7 +507,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ARG_a_part_of_the_nation
 		}
-		available = { always = no }
 		bypass = { has_country_flag = ARG_flag_keep_as_colony }
 		completion_reward = {
 			#TBD
@@ -545,7 +545,7 @@ focus_tree = {
 			focus = ARG_congo_licitation
 		}
 		completion_reward = {
-			#TBD bonus a ruber extraction research + resource extraction bonus maybe?
+			#TBD bonus to rubber extraction research + resource extraction bonus maybe?
 		}
 	}
 	
@@ -554,7 +554,7 @@ focus_tree = {
 		icon = GFX_goal_WIP #Pholder
 		x = 3
 		y = 1
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = ARG_reform_the_congo
 		}
@@ -562,7 +562,6 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ARG_an_asset_of_the_nation
 		}
-		available = { always = no }
 		bypass = { has_country_flag = ARG_flag_integrate_the_congo }
 		completion_reward = {
 			#TBD
