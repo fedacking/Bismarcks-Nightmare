@@ -11,6 +11,7 @@ if = {
 
 set_country_flag = can_replace_hog
 add_ideas = {
+	ARG_hog_rli_lisandro_de_la_torre
 	ARG_for_lco_marcelo_t_de_alvear
 	ARG_eco_soc_juan_b_justo
 	ARG_sec_rli_enzo_bordabehere
@@ -21,7 +22,7 @@ add_ideas = {
 }
 
 set_stability = 0.2
-set_war_support = 0.1
+set_war_support = 0.5
 set_research_slots = 4
 
 # Starting tech
@@ -124,7 +125,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Vacant"
 	desc = "VACANT_DESC"
-	picture = "gfx/leaders/ARG/Portrait_ARG_Vacant.tga"
+	picture = "gfx/leaders/Generic/Portrait_Vacant.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -135,7 +136,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Vacant"
 	desc = "VACANT_DESC"
-	picture = "gfx/leaders/ARG/Portrait_ARG_Vacant.tga"
+	picture = "gfx/leaders/Generic/Portrait_Vacant.tga"
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
 	traits = {
