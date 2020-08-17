@@ -57,3 +57,14 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+create_country_leader = {
+	name = "Hari Singh"
+	desc = "POLITICS_HARI_SINGH_DESC"
+	picture = "gfx/leaders/JAK/Portrait_JAK_Leader_Hari_Singh.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
