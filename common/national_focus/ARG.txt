@@ -443,7 +443,7 @@ focus_tree = {
 			focus = ARG_deal_with_devil
 		}
 		completion_reward = {
-			ARG_eco_lco_roberto_m_ortiz
+			add_ideas = ARG_eco_lco_roberto_m_ortiz
 		}
 	}
 	
