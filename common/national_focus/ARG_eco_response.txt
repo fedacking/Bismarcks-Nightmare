@@ -1,0 +1,75 @@
+focus_tree = {
+	id = argentinian_ucrr_eco_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 11
+			tag = ARG
+		}
+	}
+	
+	shared_focus = ARG_ucrr_dealing_with_the_crisis
+}
+
+shared_focus = {
+	id = ARG_ucrr_dealing_with_the_crisis
+	icon = GFX_goal_bankruptcy
+	x = 8
+	y = 0
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_for_the_people
+	prerequisite = { focus = ARG_ucrr_dealing_with_the_crisis }
+	icon = GFX_focus_generic_concessions
+	relative_position_id = ARG_ucrr_dealing_with_the_crisis
+	mutually_exclusive = { 
+		focus = ARG_for_everyone
+	}
+	x = -3
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+
+shared_focus = {
+	id = ARG_for_everyone
+	prerequisite = { focus = ARG_ucrr_dealing_with_the_crisis }
+	icon = GFX_focus_generic_the_giant_wakes
+	relative_position_id = ARG_ucrr_dealing_with_the_crisis
+	mutually_exclusive = { 
+		focus = ARG_for_the_people
+	}
+	x = 3
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_ley_sindical_nr_14_455
+	prerequisite = { focus = ARG_for_the_people }
+	icon = GFX_goal_worker_handshake
+	relative_position_id = ARG_for_the_people
+	x = -3
+	y = 1
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
