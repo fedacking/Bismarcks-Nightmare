@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 11
+			add = 9
 			tag = ARG
 		}
 	}
@@ -16,7 +16,7 @@ focus_tree = {
 shared_focus = {
 	id = ARG_ucrr_dealing_with_the_crisis
 	icon = GFX_goal_bankruptcy
-	x = 8
+	x = 20
 	y = 0
 	cost = 5
 	

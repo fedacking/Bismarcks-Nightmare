@@ -1,55 +1,81 @@
-l_english:
+﻿l_english:
 
 ###Loading Messages###
-LOADING_GUI:0 "§BDamming the Mediterranean§!"
+
 #"Loading GUI"
-LOADING_HISTORY:0 "§BEstablishing the Reichskommissariats§!"
+LOADING_GUI:0 "Redrawing Africa"
+
 #"Loading History"
-LOADING_SAVEGAME:0 "§BReshaping History: $NAME$§!"
+LOADING_HISTORY:0 "Reforming the State"
+
 #"Loading savegame: $NAME$"
-LOADING_SAVEGAME_NO_NAME:0 "§BReshaping History§!"
+LOADING_SAVEGAME:0 "Reshaping History"
+
 #"Loading savegame"
-LOADING_DATABASES:0 "§BTrying to Stop Himmler§!"
+LOADING_SAVEGAME_NO_NAME:0 "Reshaping History"
+
 #"Loading databases"
-LOADING_MAP_SPRITES:0 "§BSigning the Armistice§!"
+LOADING_DATABASES:0 "Burning the Records"
+
 #"Loading sprites"
-LOAD_GFX_PDXMAP_SHADERS:0 "§BMaking Underground Rock and Roll§!"
+LOADING_MAP_SPRITES:0 "Partitioning Germany"
+
 #"Loading Map(Creating Shaders)..."
-LOAD_GFX_PDXMAP_TERRAIN:0 "§BProtesting the Regime§!"
+LOAD_GFX_PDXMAP_SHADERS:0 "Looking and the Past"
+
 #"Loading Map(Creating Terrain)..."
-LOAD_GFX_PDXMAP_BORDERS:0 "§BArming Nuclear Weapons§!"
+LOAD_GFX_PDXMAP_TERRAIN:0 "Protesting the Regime"
+
 #"Loading Map(Creating Borders)..."
-LOAD_GFX_PDXMAP_TEXTURES:0 "§BEntering DEFCON 1§!"
+LOAD_GFX_PDXMAP_BORDERS:0 "Loading the Bombers"
+
 #"Loading Map(Creating Textures)..."
-LOAD_GFX_PDXMAP_TREES:0 "§BStanding Against Fascism§!"
+LOAD_GFX_PDXMAP_TEXTURES:0 "Executing the Traitors"
+
 #"Loading Map(Creating Trees)..."
-LOAD_GFX_PDXMAP_RIVERS:0 "§BEnding Liberty§!"
+LOAD_GFX_PDXMAP_TREES:0 "Standing Against Fascism"
+
 #"Loading Map(Creating Rivers)..."
-LOAD_GFX_PDXMAP_STATIC_OBJECTS:0 "§BSupporting Heydrich§!"
+LOAD_GFX_PDXMAP_RIVERS:0 "Ending Liberty"
+
 #"Loading Map(Creating objects)..."
-LOAD_EVENTS:0 "§BBombing Africa§!"
+LOAD_GFX_PDXMAP_STATIC_OBJECTS:0 "Supporting the Romanov"
+
 #"Loading Events"
-LOAD_GFX:0 "§BBecoming the Sick Man§!"
+LOAD_EVENTS:0 "Preparing for War"
+
 #"Loading Graphics"
-LOADING_MAIN_MENU:0 "§BDebating alternate history endlessly§!"
+LOAD_GFX:0 "Pleading for Peace"
+
 #"Loading main menu"
-PRECALC_NAVAL_DIST:0 "§BReforming the Wehrmacht§!"
+LOADING_MAIN_MENU:0 "Debating the Future"
+
 #"Precalculating Naval Distances"
-EXITING_TO_FRONTEND:0 "§BDeploying the Kempeitai§!"
+PRECALC_NAVAL_DIST:0 "Surviving the Crisis"
+
 #"Returning to main menu"
-LOAD_INIT:0 "§BBeginning the Five Modernizations§!"
+EXITING_TO_FRONTEND:0 "Returning to Square One"
+
 #"Initialising Game..."
-LOAD_FLAGS:0 "§BTurning the Key§!"
+LOAD_INIT:0 "Beginning the End"
+
 #"Creating Flags"
-PROC_FLAGS:0 "§BRaising the Red Flag Anew§!"
+LOAD_FLAGS:0 "Guiding the People"
+
 #"Processing Flags"
-INIT_MAP_LOGIC:0 "§BSaving Africa§!"
+PROC_FLAGS:0 "Raising the Flag"
+
 #"Initialising map logic"
-INIT_GAMESTATE:0 "§BFighting over Algeria§!"
+INIT_MAP_LOGIC:0 "Saving the Nation"
+
 #"Initialising game"
-EXECUTE_HISTORY:0 "§BDamning the Mediterranean§!"
+INIT_GAMESTATE:0 "Fighting over Deutsch-land"
+
 #"Executing history"
-CREATING_CHKSUM:0 "§BFlying Sorties Over Germania§!"
+EXECUTE_HISTORY:0 "Rewarding the Faithful"
+
 #"Creating checksum"
-GENERATING_GRADIENT_BORDERS:0 "§BBombing a Pub§!"
+CREATING_CHKSUM:0 "Surviving the Day of Fate"
+
 #"Generating Gradient Borders"
+GENERATING_GRADIENT_BORDERS:0 "Turning the Page"
