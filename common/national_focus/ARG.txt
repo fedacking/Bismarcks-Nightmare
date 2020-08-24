@@ -477,4 +477,6 @@ focus_tree = {
 	}
 	
 	shared_focus = ARG_ucrr_dealing_with_the_crisis
+	shared_focus = ARG_ucrm_dealing_with_the_crisis
+	shared_focus = ARG_crc_dealing_with_the_crisis
 }
