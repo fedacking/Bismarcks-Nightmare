@@ -18,7 +18,7 @@ shared_focus = {
 	icon = GFX_goal_economic_control
 	x = 16
 	y = 0
-	cost = 5
+	cost = 1
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -30,7 +30,7 @@ shared_focus = {
 	icon = GFX_focus_generic_the_giant_wakes
 	x = 22
 	y = 0
-	cost = 5
+	cost = 1
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -42,6 +42,23 @@ shared_focus = {
 	icon = GFX_goal_continuous_boost_freedom
 	x = 28
 	y = 0
+	cost = 1
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_decreto_sindical_nr_14_455
+	prerequisite = { 
+		focus = ARG_ucrr_dealing_with_the_crisis 
+		focus = ARG_ucrm_dealing_with_the_crisis 
+	}
+	icon = GFX_goal_worker_handshake
+	relative_position_id = ARG_ucrr_dealing_with_the_crisis
+	x = 3
+	y = 1
 	cost = 5
 	
 	available_if_capitulated = no
@@ -50,13 +67,19 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = ARG_ley_sindical_nr_14_455
+	id = ARG_remove_import_barriers
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = ARG_ucrr_will_not_tolerate
+			always = no
+		}
+	}
 	prerequisite = { 
-		focus = ARG_ucrr_dealing_with_the_crisis 
+		focus = ARG_crc_dealing_with_the_crisis 
 		focus = ARG_ucrm_dealing_with_the_crisis 
 	}
 	icon = GFX_goal_worker_handshake
-	relative_position_id = ARG_ucrr_dealing_with_the_crisis
+	relative_position_id = ARG_ucrm_dealing_with_the_crisis
 	x = 3
 	y = 1
 	cost = 5

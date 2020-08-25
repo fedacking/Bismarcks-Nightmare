@@ -181,6 +181,8 @@ ARG_conservative_join_coalition: "The conservatives will join in a coalition wit
 ARG_moderates_angery: "The moderates will leave the coalition."
 ARG_mend_liberal_schism: "The UCR Moderada and the UCR Republicana will become a single party again."
 
+ARG_ucrr_will_not_tolerate:0 "The UCRR will not accept this."
+
 ### Events ###
 
 #Congo

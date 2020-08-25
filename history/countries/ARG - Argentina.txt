@@ -529,3 +529,6 @@ if = {
 		}
 	}
 }
+
+## Variables
+set_variable = { ARG_eco_focus_length = 1 }
