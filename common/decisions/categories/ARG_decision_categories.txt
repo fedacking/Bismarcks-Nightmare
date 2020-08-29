@@ -27,3 +27,14 @@ ARG_dec_cat_constitutional_assembly = {
 	}
 }
 
+ARG_dec_cat_fight_inflation = {
+	icon = eng_organize_the_blackshirts #PHolder
+	picture = GFX_decision_cat_picture_organize_the_blackshirts	#PHolder
+	visible_when_empty = yes
+	allowed = {
+		tag = ARG
+	}
+	visible = {
+		has_country_flag = ARG_flag_fighting_inflation
+	}
+}
