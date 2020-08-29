@@ -153,6 +153,9 @@ ARG_dec_cat_constitutional_assembly = {
 		 	set_country_flag = ARG_flag_dec_rep_terms
         }
         complete_effect = {
+		# Presidential
+		# Semi-Presidential
+		# Parliamentary
         }
 	}
 
@@ -172,6 +175,8 @@ ARG_dec_cat_constitutional_assembly = {
 			clr_country_flag = ARG_flag_dec_rep_terms
         }
         complete_effect = {
+		# Menem 1989
+		# Menem 1994
         }
 	}
 
@@ -191,6 +196,15 @@ ARG_dec_cat_constitutional_assembly = {
 			clr_country_flag = ARG_flag_dec_rep_voting
         }
         complete_effect = {
+		#1 Electoral College
+		## fptp
+		## proportional
+		
+		#1 Popular vote
+		## FPTP
+		## Ballotage
+		
+		#2 Woman Suffrge y/n
         }
 	}
 
@@ -210,6 +224,8 @@ ARG_dec_cat_constitutional_assembly = {
 			clr_country_flag = ARG_flag_dec_rep_camera
         }
         complete_effect = {
+		# Full unitario
+		# Destruiste la republica, espero que te sientas mal (senado)
         }
 	}
 
@@ -229,6 +245,8 @@ ARG_dec_cat_constitutional_assembly = {
 			clr_country_flag = ARG_flag_rep_constituational_assembly
         }
         complete_effect = {
+		# Napoleonic
+		# Common Law
         }
 	}
 }

@@ -330,4 +330,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_FRA_marechal_lannes.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_goal_bad_trade"
+		texturefile = "gfx/interface/goals/goal_bad_trade.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_ARG_mend_the_ucr_schism"
+		texturefile = "gfx/interface/goals/goal_ARG_mend_the_ucr_schism.dds"
+	}
 }

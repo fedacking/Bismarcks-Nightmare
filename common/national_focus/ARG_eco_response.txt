@@ -13,6 +13,8 @@ focus_tree = {
 	shared_focus = ARG_ucrr_dealing_with_the_crisis
 }
 
+### UCRR
+
 shared_focus = {
 	id = ARG_ucrr_dealing_with_the_crisis
 	icon = GFX_goal_economic_control
@@ -24,6 +26,53 @@ shared_focus = {
 	completion_reward = {
 	}
 }
+
+shared_focus = {
+	id = ARG_declare_an_economic_emergency
+	icon = GFX_goal_new_treaty
+	prerequisite = { focus = ARG_ucrr_dealing_with_the_crisis }
+	relative_position_id = ARG_ucrr_dealing_with_the_crisis
+	x = 0
+	y = 1
+	cost = 1
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_stabilize_prices
+	icon = GFX_goal_price_controls
+	prerequisite = { focus = ARG_declare_an_economic_emergency }
+	relative_position_id = ARG_declare_an_economic_emergency
+	x = -1
+	y = 1
+	cost = 1
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_tariff_to_hell_and_back
+	icon = GFX_goal_bad_trade
+	prerequisite = { focus = ARG_declare_an_economic_emergency }
+	relative_position_id = ARG_declare_an_economic_emergency
+	mutually_exclusive = {
+		focus = ARG_an_acceptable_tariff
+	}
+	x = 1
+	y = 1
+	cost = 1
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+### UCRM
 
 shared_focus = {
 	id = ARG_ucrm_dealing_with_the_crisis
@@ -38,6 +87,50 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = ARG_decree_a_bank_holiday
+	icon = GFX_goal_bankruptcy
+	prerequisite = { focus = ARG_ucrm_dealing_with_the_crisis }
+	relative_position_id = ARG_ucrm_dealing_with_the_crisis
+	x = 0
+	y = 1
+	cost = 1
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_expand_road_construction
+	icon = GFX_goal_generic_construction
+	prerequisite = { focus = ARG_decree_a_bank_holiday }
+	relative_position_id = ARG_decree_a_bank_holiday
+	x = -1
+	y = 1
+	cost = 1
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = ARG_cut_consumption_taxes
+	icon = GFX_focus_hol_abandon_the_gold_standard
+	prerequisite = { focus = ARG_decree_a_bank_holiday }
+	relative_position_id = ARG_decree_a_bank_holiday
+	x = 1
+	y = 1
+	cost = 1
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+### UCRM + PAN
+
+shared_focus = {
 	id = ARG_crc_dealing_with_the_crisis
 	icon = GFX_goal_continuous_boost_freedom
 	x = 28
@@ -48,6 +141,9 @@ shared_focus = {
 	completion_reward = {
 	}
 }
+
+
+### Shared Succs
 
 shared_focus = {
 	id = ARG_decreto_sindical_nr_14_455
@@ -66,6 +162,30 @@ shared_focus = {
 	}
 }
 
+### Compromise UCR
+
+shared_focus = {
+	id = ARG_an_acceptable_tariff
+	prerequisite = { 
+		focus = ARG_declare_an_economic_emergency
+		focus = ARG_decree_a_bank_holiday
+	}
+	mutually_exclusive = {
+		focus = ARG_tariff_to_hell_and_back
+	}
+	icon = GFX_goal_generic_trade
+	relative_position_id = ARG_ucrr_dealing_with_the_crisis
+	x = 3
+	y = 2
+	cost = 5
+	
+	available_if_capitulated = no
+	completion_reward = {
+	}
+}
+
+### Compromise PAN
+
 shared_focus = {
 	id = ARG_remove_import_barriers
 	available = {
@@ -78,7 +198,7 @@ shared_focus = {
 		focus = ARG_crc_dealing_with_the_crisis 
 		focus = ARG_ucrm_dealing_with_the_crisis 
 	}
-	icon = GFX_goal_worker_handshake
+	icon = GFX_goal_generic_positive_trade_relations
 	relative_position_id = ARG_ucrm_dealing_with_the_crisis
 	x = 3
 	y = 1
