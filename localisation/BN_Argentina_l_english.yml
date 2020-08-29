@@ -146,6 +146,41 @@ ARG_stand_alone_desc:0 "Although difficult, we need to hold this government toge
 ARG_constitutional_assembly:0 "Create a Constitutional Assembly"
 ARG_constitutional_assembly_desc:0 "Part of what got us in this mess is the lack of a supreme law, an aggregate of fundamental principles that guide the people. Establishing one should be top priority."
 
+##Dealing with the Crisis
+#The Reaching Hand (groping hand)
+ARG_ucrr_dealing_with_the_crisis:0 "The Reaching Hand"
+ARG_ucrr_dealing_with_the_crisis_desc:0 "During these trying times the people need the involvement of the State more than ever."
+ARG_declare_an_economic_emergency:0 "Declare an Economic Emergency"
+ARG_declare_an_economic_emergency_desc:0 "WIP"
+ARG_stabilize_prices:0 "Stabilize Prices"
+ARG_stabilize_prices_desc:0 "Thanks to this recession, prices have been dropping fast making certain products unprofitable and thus leaving more people unemployed. Imposing a price floor on manufactures should aliviete this problem for a while."
+ARG_tariff_to_hell_and_back:0 "Tariff to Hell and Back"
+ARG_tariff_to_hell_and_back_desc:0 "Our entanglement with foreign trade got us in this mess in the first place. We need a self-reliant Argentina that won't shake every time the world shakes. In order to achieve that, we'll enact strong tariffs on foreign goods that will revitilize the internal market."
+
+#Between 2 libs
+ARG_decreto_sindical_nr_14_455:0 "Decreto Sindical Nº 14.455"
+ARG_decreto_sindical_nr_14_455_desc:0 "To reward the socialists for staying in our coalition we will concede some legislation that ought to help the unionization of workers. This decree will establish a union model of absolute freedom to create unions by simple registration and attribution of union status, to the most representative of all, in order to unify workers' representation before employers, the government and international organizations."
+ARG_an_acceptable_tariff:0 "An Acceptable Tariff"
+ARG_an_acceptable_tariff_desc:0 "Although some of us would prefer freer trade, others want more protection for local producers. Luckily, we can compromise in the middle. This coalition has agreed to enact a moderate tariff of foreign manufactures, livestock and grain. While not high enough to put foreign goods out of market, it'll give a good advantaje to local products."
+
+#A Helping Hand
+ARG_ucrm_dealing_with_the_crisis:0 "A Helping Hand"
+ARG_ucrm_dealing_with_the_crisis_desc:0 "The liberal case for economic intervention is the fine art of meddling with the economy in order to guide the market in the right direction without hurting the credibility and the stability of your country in the long run. The new administration is going present a concise package of measures that will take care of the most pressing matters of the current crisis."
+ARG_decree_a_bank_holiday:0 "Decree a Bank Holiday"
+ARG_decree_a_bank_holiday_desc:0 "Since the start of the Great Depression, people had been withdrawing money from the banks in a panic rush to secure their assets. In order to curb bank runs, the government has decided to make official the de facto bank holiday that started after the revolution but putting an expiration date of 20 days after this decree."
+ARG_expand_road_construction:0 "Expand Road Constructions"
+ARG_expand_road_construction_desc:0 "WIP"
+ARG_cut_consumption_taxes:0 "Cut Consumption Taxes"
+ARG_cut_consumption_taxes_desc:0 "Although regressive, consumption taxes are a necessary evil to secure funds for the government. However, consumption taxes are no good if people are, well, not consuming. A cut to those taxes will aliviete the economic hardship of the people which will improve consumption."
+
+#The freer the market the freer the people
+ARG_remove_import_barriers:0 "Remove Import Barriers"
+ARG_remove_import_barriers_desc:0 "All around the world, fools are digging themselves into a hole enacting trade barriers. We will not fall prey to populist rhetoric crying to gimp freedom."
+
+#Hands Off Approach
+ARG_crc_dealing_with_the_crisis:0 "Hands Off Approach"
+ARG_crc_dealing_with_the_crisis_desc:0 "The involvement of governments in the economy created this crisis. It is crazy talk to think that you can fix this with even more government. This new administration has but one objective: deregulation."
+
 ##Congo
 #Asset
 ARG_an_asset_of_the_nation:0 "An Asset of the Nation"
