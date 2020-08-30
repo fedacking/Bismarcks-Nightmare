@@ -1,0 +1,22 @@
+
+ARG_inflation_dynamic_modifier = {
+	enable = {
+		tag = ARG
+		check_variable = { inflation > 2.5 }
+	}
+	icon = GFX_idea_chi_hyper_inflation
+
+	consumer_goods_factor = inflation_consumer_goods
+	production_factory_max_efficiency_factor = inflation_production_cap
+}
+
+ARG_deflation_dynamic_modifier = {
+	enable = {
+		tag = ARG
+		check_variable = { inflation < 0 }
+	}
+	icon = GFX_idea_chi_hyper_inflation
+
+	industrial_capacity_factory = deflation_factory_output
+	production_speed_buildings_factor = deflation_construction_speed
+}

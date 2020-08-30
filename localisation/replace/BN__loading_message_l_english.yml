@@ -21,7 +21,7 @@ LOADING_DATABASES:0 "Burning the Records"
 LOADING_MAP_SPRITES:0 "Partitioning Germany"
 
 #"Loading Map(Creating Shaders)..."
-LOAD_GFX_PDXMAP_SHADERS:0 "Looking and the Past"
+LOAD_GFX_PDXMAP_SHADERS:0 "Looking at the Past"
 
 #"Loading Map(Creating Terrain)..."
 LOAD_GFX_PDXMAP_TERRAIN:0 "Protesting the Regime"
@@ -33,13 +33,13 @@ LOAD_GFX_PDXMAP_BORDERS:0 "Loading the Bombers"
 LOAD_GFX_PDXMAP_TEXTURES:0 "Executing the Traitors"
 
 #"Loading Map(Creating Trees)..."
-LOAD_GFX_PDXMAP_TREES:0 "Standing Against Fascism"
+LOAD_GFX_PDXMAP_TREES:0 "Standing Against Radicalism"
 
 #"Loading Map(Creating Rivers)..."
 LOAD_GFX_PDXMAP_RIVERS:0 "Ending Liberty"
 
 #"Loading Map(Creating objects)..."
-LOAD_GFX_PDXMAP_STATIC_OBJECTS:0 "Supporting the Romanov"
+LOAD_GFX_PDXMAP_STATIC_OBJECTS:0 "Supporting the Romanovs"
 
 #"Loading Events"
 LOAD_EVENTS:0 "Preparing for War"
@@ -69,7 +69,7 @@ PROC_FLAGS:0 "Raising the Flag"
 INIT_MAP_LOGIC:0 "Saving the Nation"
 
 #"Initialising game"
-INIT_GAMESTATE:0 "Fighting over Deutsch-land"
+INIT_GAMESTATE:0 "Fighting over Deutschland"
 
 #"Executing history"
 EXECUTE_HISTORY:0 "Rewarding the Faithful"

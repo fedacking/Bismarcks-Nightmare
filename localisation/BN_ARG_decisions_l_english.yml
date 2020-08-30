@@ -1,4 +1,5 @@
 ﻿l_english:
-##Political Parties
-ARG_dec_cat_fight_inflation:0 "Battle of the Peso"
-ARG_dec_cat_fight_inflation_desc:0 "Inflation is at §Y[?inflation]%§! annually."
+
+ ##Political Parties
+ ARG_dec_cat_fight_inflation:0 "Battle of the Peso"
+ ARG_dec_cat_fight_inflation_desc:0 "Inflation is at §Y[?inflation]%§! annually."

@@ -531,4 +531,5 @@ if = {
 }
 
 ## Variables
-set_variable = { ARG_eco_focus_length = 1 }
+set_variable = { inflation = -6 }
+ARG_update_inflation = yes

@@ -1,0 +1,17 @@
+ARG_update_inflation = {
+	#Inflation
+	set_variable = { inflation_consumer_goods = inflation }
+	set_variable = { inflation_production_cap = inflation }
+	divide_variable = { inflation_consumer_goods = 250 }
+	divide_variable = { inflation_production_cap = -200 }
+	
+	#Deflation
+	set_variable = { deflation_factory_output = inflation }
+	set_variable = { deflation_construction_speed = inflation }
+	divide_variable = { deflation_factory_output = 100 }
+	divide_variable = { deflation_construction_speed = 100 }
+	
+	
+	add_dynamic_modifier = { modifier = ARG_inflation_dynamic_modifier }
+	add_dynamic_modifier = { modifier = ARG_deflation_dynamic_modifier }
+}

@@ -35,6 +35,6 @@ ARG_dec_cat_fight_inflation = {
 		tag = ARG
 	}
 	visible = {
-		has_country_flag = ARG_flag_fighting_inflation
+		always = yes
 	}
 }
