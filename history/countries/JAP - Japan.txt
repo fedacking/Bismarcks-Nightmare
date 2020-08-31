@@ -41,11 +41,11 @@ set_stability = 0.7
 set_war_support = 0.4
 
 set_popularities = {
-	despotist = 5
+	despotist = 18
 	absolutist = 0
-	semi_constitutionalist = 55
-	social_conservative = 20
-	liberal_conservative = 10
+	semi_constitutionalist = 37
+	social_conservative = 18
+	liberal_conservative = 17
 	republican_liberal = 10
 	communist = 0
 	socialist = 0
@@ -56,6 +56,39 @@ set_politics = {
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Kyuichi Tokuda"
+	desc = "POLITICS_KYUICHI_TOKUDA_DESC"
+	picture = "gfx/leaders/JAP/Portrait_JAP_Kyuichi_Tokuda.dds"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tetsu Katayama"
+	desc = "POLITICS_TETSU_KATAYAMA_DESC"
+	picture = "gfx/leaders/JAP/Portrait_JAP_Tetsu_Katayama.dds"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tetsu Katayama"
+	desc = "POLITICS_TETSU_KATAYAMA_DESC"
+	picture = "gfx/leaders/JAP/Portrait_JAP_Tetsu_Katayama.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
