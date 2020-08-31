@@ -125,7 +125,6 @@ leader_traits = {
 		local_resources_factor = -0.05
 		consumer_goods_factor = -0.05
 		political_power_gain = 0.05
-
 		random = no
 	}
 
@@ -133,14 +132,20 @@ leader_traits = {
 		production_factory_max_efficiency_factor = 0.05
 		local_resources_factor = 0.05
 		political_power_cost = 0.05
+		random = no
+	}
 
+	eco_hardline_interventionist = {
+		political_power_gain = 0.1
+		consumer_goods_factor = 0.05
+		local_resources_factor = -0.05
+		production_factory_max_efficiency_factor = -0.05
 		random = no
 	}
 
 	eco_coop_proponent = {
 		political_power_gain = 0.1
 		consumer_goods_factor = 0.05
-
 		random = no
 	}
 
@@ -148,7 +153,14 @@ leader_traits = {
 		political_power_gain = 0.03
 		production_speed_buildings_factor = 0.02
 		production_factory_max_efficiency_factor = 0.02
+		random = no
+	}
 
+	eco_laissez_faire_capitalist = {
+		production_speed_arms_factory_factor = -0.02
+		production_speed_buildings_factor = 0.04
+		local_resources_factor = 0.02
+		political_power_gain = -0.03
 		random = no
 	}
 	

@@ -44,7 +44,9 @@ ARG_for_scn_julio_argentino_p_roca:0 "Julio Argentino P. Roca"
 
 #Economy Minister
 ARG_eco_soc_juan_b_justo:0 "Juan B. Justo"
+ARG_eco_rli_enrique_perez_colman:0 "Enrique Pérez Colman"
 ARG_eco_lco_roberto_m_ortiz:0 "Roberto M. Ortiz"
+ARG_eco_sco_robustiano_patron_costas:0 "Robustiano Patrón Costas"
 
 #Security Ministers
 ARG_sec_rli_enzo_bordabehere:0 "Enzo Bordabehere"

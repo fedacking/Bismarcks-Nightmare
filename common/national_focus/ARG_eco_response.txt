@@ -18,12 +18,23 @@ focus_tree = {
 shared_focus = {
 	id = ARG_ucrr_dealing_with_the_crisis
 	icon = GFX_goal_economic_control
+	available = {
+		focus = ARG_radical_approach
+		focus = ARG_abdication
+	}
+	mutually_exclusive = {
+		focus = ARG_ucrm_dealing_with_the_crisis
+		focus = ARG_crc_dealing_with_the_crisis
+	}
 	x = 16
 	y = 0
 	cost = 1
 	
 	available_if_capitulated = no
 	completion_reward = {
+		add_ideas = {
+			ARG_eco_rli_enrique_perez_colman
+		}
 	}
 }
 
@@ -77,12 +88,23 @@ shared_focus = {
 shared_focus = {
 	id = ARG_ucrm_dealing_with_the_crisis
 	icon = GFX_focus_generic_the_giant_wakes
+	available = {
+		focus = ARG_radical_approach
+		focus = ARG_moderate_approach
+	}
+	mutually_exclusive = {
+		focus = ARG_ucrr_dealing_with_the_crisis
+		focus = ARG_crc_dealing_with_the_crisis
+	}
 	x = 22
 	y = 0
 	cost = 1
 	
 	available_if_capitulated = no
 	completion_reward = {
+		add_ideas = {
+			ARG_eco_lco_roberto_m_ortiz
+		}
 	}
 }
 
@@ -133,12 +155,23 @@ shared_focus = {
 shared_focus = {
 	id = ARG_crc_dealing_with_the_crisis
 	icon = GFX_goal_continuous_boost_freedom
+	available = {
+		focus = ARG_moderate_approach
+		focus = ARG_deal_with_devil
+	}
+	mutually_exclusive = {
+		focus = ARG_ucrr_dealing_with_the_crisis
+		focus = ARG_ucrm_dealing_with_the_crisis
+	}
 	x = 28
 	y = 0
 	cost = 1
 	
 	available_if_capitulated = no
 	completion_reward = {
+		add_ideas = {
+			ARG_eco_sco_robustiano_patron_costas
+		}
 	}
 }
 
@@ -170,9 +203,9 @@ shared_focus = {
 		focus = ARG_declare_an_economic_emergency
 		focus = ARG_decree_a_bank_holiday
 	}
-	mutually_exclusive = {
-		focus = ARG_tariff_to_hell_and_back
-	}
+	#mutually_exclusive = {
+	#	focus = ARG_tariff_to_hell_and_back
+	#}
 	icon = GFX_goal_generic_trade
 	relative_position_id = ARG_ucrr_dealing_with_the_crisis
 	x = 3

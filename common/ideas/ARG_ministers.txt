@@ -392,6 +392,28 @@ ideas = {
 			cancel_if_invalid = no
 		}
 		
+		ARG_eco_rli_enrique_perez_colman = {
+			picture = minister_placeholder
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_enrique_perez_colman }
+					has_country_flag = can_replace_eco
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				economy_minister
+				republican_liberal
+				eco_hardline_interventionist
+			}
+			cancel_if_invalid = no
+		}
+		
 		ARG_eco_lco_roberto_m_ortiz = {
 			picture = minister_roberto_m_ortiz
 			allowed = { original_tag = ARG }
@@ -410,6 +432,28 @@ ideas = {
 				economy_minister
 				liberal_conservative
 				eco_balanced_budget_economy
+			}
+			cancel_if_invalid = no
+		}
+		
+		ARG_eco_sco_robustiano_patron_costas = {
+			picture = minister_placeholder
+			allowed = { original_tag = ARG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ARG_robustiano_patron_costas_dead }
+					has_country_flag = can_replace_eco
+				}
+			}
+			visible = {
+			}
+			on_add = {
+			}
+			traits = {
+				economy_minister
+				social_conservative
+				eco_laissez_faire_capitalist
 			}
 			cancel_if_invalid = no
 		}
@@ -454,7 +498,7 @@ ideas = {
 			on_add = {
 			}
 			traits = {
-				head_of_government
+				security_minister
 				liberal_conservative
 				sec_crime_fighter
 			}
@@ -476,7 +520,7 @@ ideas = {
 			on_add = {
 			}
 			traits = {
-				head_of_government
+				security_minister
 				social_conservative
 				sec_prince_of_terror
 			}

@@ -227,9 +227,6 @@ focus_tree = {
 			}
 			add_popularity = { ideology = republican_liberal popularity = 0.06 }
 			add_political_power = 50
-			add_ideas = {
-				ARG_hog_rli_lisandro_de_la_torre
-			}
 		}
 	}
 	
@@ -290,7 +287,7 @@ focus_tree = {
 					has_country_flag  = ARG_flag_socialists_leave
 				}
 				add_ideas = {
-					ARG_eco_lco_roberto_m_ortiz
+					#
 				}
 			}
 		}
@@ -422,7 +419,6 @@ focus_tree = {
 			}
 			add_ideas = {
 				ARG_for_scn_julio_argentino_p_roca
-				ARG_eco_lco_roberto_m_ortiz
 				ARG_sec_scn_ramon_s_castillo
 			}
 		}
@@ -443,7 +439,7 @@ focus_tree = {
 			focus = ARG_deal_with_devil
 		}
 		completion_reward = {
-			add_ideas = ARG_eco_lco_roberto_m_ortiz
+			#
 		}
 	}
 	
@@ -491,7 +487,7 @@ focus_tree = {
 			focus = ARG_stand_alone
 			focus = ARG_mend_the_liberal_schism
 		}
-		relative_position_id = ARG_december_revolution	
+		relative_position_id = ARG_december_revolution
 		mutually_exclusive = {
 			focus = ARG_constitutional_assembly
 		}
