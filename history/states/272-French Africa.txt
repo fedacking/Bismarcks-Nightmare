@@ -1,7 +1,7 @@
 state = {
 	id = 272
 	name = "STATE_272" #Senegal
-	manpower = 1638000
+	manpower = 1837520
 	resources = {
 		steel = 3
 	}	
