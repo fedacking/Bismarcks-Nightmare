@@ -19,8 +19,14 @@ shared_focus = {
 	id = ARG_ucrr_dealing_with_the_crisis
 	icon = GFX_goal_economic_control
 	available = {
-		focus = ARG_radical_approach
-		focus = ARG_abdication
+		OR = {
+			has_completed_focus = ARG_radical_approach
+			has_completed_focus = ARG_abdication
+		}
+		OR = {
+			has_completed_focus = ARG_constitutional_assembly
+			has_completed_focus = ARG_delay_the_new_constitution
+		}
 	}
 	mutually_exclusive = {
 		focus = ARG_ucrm_dealing_with_the_crisis
@@ -89,8 +95,14 @@ shared_focus = {
 	id = ARG_ucrm_dealing_with_the_crisis
 	icon = GFX_focus_generic_the_giant_wakes
 	available = {
-		focus = ARG_radical_approach
-		focus = ARG_moderate_approach
+		OR = {
+			has_completed_focus = ARG_radical_approach
+			has_completed_focus = ARG_moderate_approach
+		}
+		OR = {
+			has_completed_focus = ARG_constitutional_assembly
+			has_completed_focus = ARG_delay_the_new_constitution
+		}
 	}
 	mutually_exclusive = {
 		focus = ARG_ucrr_dealing_with_the_crisis
@@ -156,8 +168,11 @@ shared_focus = {
 	id = ARG_crc_dealing_with_the_crisis
 	icon = GFX_goal_continuous_boost_freedom
 	available = {
-		focus = ARG_moderate_approach
-		focus = ARG_deal_with_devil
+		has_completed_focus = ARG_deal_with_devil	
+		OR = {
+			has_completed_focus = ARG_constitutional_assembly
+			has_completed_focus = ARG_delay_the_new_constitution
+		}
 	}
 	mutually_exclusive = {
 		focus = ARG_ucrr_dealing_with_the_crisis
@@ -203,9 +218,9 @@ shared_focus = {
 		focus = ARG_declare_an_economic_emergency
 		focus = ARG_decree_a_bank_holiday
 	}
-	#mutually_exclusive = {
-	#	focus = ARG_tariff_to_hell_and_back
-	#}
+	mutually_exclusive = {
+		focus = ARG_tariff_to_hell_and_back
+	}
 	icon = GFX_goal_generic_trade
 	relative_position_id = ARG_ucrr_dealing_with_the_crisis
 	x = 3
