@@ -42,13 +42,13 @@ set_war_support = 0.4
 
 set_popularities = {
 	despotist = 18
-	absolutist = 0
+	absolutist = 2
 	semi_constitutionalist = 37
 	social_conservative = 18
 	liberal_conservative = 17
-	republican_liberal = 10
+	republican_liberal = 5
 	communist = 0
-	socialist = 0
+	socialist = 3
 }	
 
 set_politics = {
@@ -92,11 +92,33 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Tetsuzan Nagata"
+	desc = "POLITICS_TETSUZAN_NAGATA_DESC"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sadao Araki"
+	desc = "POLITICS_SADAO_ARAKI_DESC"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Tokugawa Iesato"
 	desc = "POLITICS_TOKUGAWA_IESATO_DESC"
 	picture = "gfx/leaders/JAP/Portrait_Tokugawa_Iesato.tga"
 	expire = "1965.1.1"
-	ideology = despotism_subtype
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}

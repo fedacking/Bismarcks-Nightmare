@@ -191,7 +191,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Basilio Pertiné"
-	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Basilio_Pertine.tga"
+	portrait_path = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
 	traits = {
 		defensive_doctrine
 		thorough_planner
@@ -221,7 +221,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Luis Dellepiane"
-	portrait_path = "gfx/leaders/ARG/Portrait_ARG_Luis_Dellepiane.tga"
+	portrait_path = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
 	traits = {
 		trait_cautious
 		brilliant_strategist
@@ -351,7 +351,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Alberto Teisaire"
-	portrait_path = "gfx/leaders/ARG/Portrait_Argentine_Alberto_Teisaire.tga"
+	portrait_path = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
 	traits = { chief_engineer }
 	skill = 3
 	attack_skill = 2
