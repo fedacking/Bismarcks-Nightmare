@@ -35,26 +35,3 @@ create_country_leader = {
 		#
 	}
 }
-
-
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = ZAN
-		autonomous_state = autonomy_puppet
-	}
-	
-	else = {
-		puppet = ZAN
-	}
-}
-
-create_faction = east_african_confederation
-add_to_faction = TAN
-add_to_faction = ZAN

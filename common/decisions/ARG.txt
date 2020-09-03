@@ -250,3 +250,25 @@ ARG_dec_cat_constitutional_assembly = {
         }
 	}
 }
+
+ARG_dec_cat_fight_inflation = {
+	ARG_dec_print_smaller_bill_denominations = {
+        allowed = { tag = ARG }
+        available = {
+			always = yes
+        }
+		cost = 50
+        fire_only_once = yes
+        timeout_effect = {
+			clr_country_flag = ARG_flag_dec_rep_legal_code
+			clr_country_flag = ARG_flag_rep_constituational_assembly
+        }
+        complete_effect = {
+			custom_effect_tooltip = reduce_inflation_1_tt
+			hidden_effect = {
+				add_to_variable = { inflation = -1 }
+				ARG_update_inflation = yes
+			}
+		}
+	}
+}
