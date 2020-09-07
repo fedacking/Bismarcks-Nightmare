@@ -1716,8 +1716,8 @@
  HUN_despotist_DEF:0 "the Kingdom of Hungary"
  HUN_despotist_ADJ:0 "Hungarian"
  
- SPA_liberal_conservative:0 "Republic of Spain"
- SPA_liberal_conservative_DEF:0 "the Republic of Spain"
+ SPA_liberal_conservative:0 "Spanish Republic"
+ SPA_liberal_conservative_DEF:0 "the Spanish Republic"
  SPA_liberal_conservative_ADJ:0 "Spanish" 
  
  AUS_communist:0 "Danubian People's Republic"

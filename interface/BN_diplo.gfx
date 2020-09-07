@@ -1,0 +1,6 @@
+spriteTypes = {
+    SpriteType = {
+		name = "GFX_diplo_unity_bg_2"
+		texturefile = "gfx/interface/diplo_unity_bg_2.dds"
+	}
+}
