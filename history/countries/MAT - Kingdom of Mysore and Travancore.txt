@@ -112,9 +112,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Jayachamarajendra Wadiyar"
-	desc = "POLITICS_JAYACHAMARAJENDRA_WADIYAR_DESC"
-	picture = "gfx/leaders/MAT/Portrait_MAT_Leader_Jayachamarajendra_Wadiyar.tga"
+	name = "Krishnaraja Wadiyar IV"
+	desc = "POLITICS_KRISHNARAJA_WADIYAR_IV_DESC"
+	picture = "gfx/leaders/MAT/Portrait_MAT_Krishnaraja_Wadiyar_IV.tga"
 	expire = "1965.1.1"
 	ideology = semi_constitutionalist_subtype
 	traits = {
