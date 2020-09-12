@@ -1,13 +1,6 @@
 ﻿capital = 46
 
 oob = "WAL_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "ROM_1936_naval_mtg"
-	else = {
-		set_naval_oob = "ROM_1936_naval_legacy"
-	}
-}
 
 set_research_slots = 2
 set_stability = 0.5
@@ -49,29 +42,29 @@ if = {
 }
 
 set_popularities = {
-	despotist = 5
-	absolutist = 0
+	despotist = 18
+	absolutist = 5
 	semi_constitutionalist = 0
-	social_conservative = 20
-	liberal_conservative = 46
-	republican_liberal = 25
-	communist = 0
-	socialist = 4
+	social_conservative = 16
+	liberal_conservative = 12
+	republican_liberal = 42
+	communist = 1
+	socialist = 6
 }	
 
 set_politics = {
-	ruling_party = liberal_conservative
+	ruling_party = republican_liberal
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Alexandru Vaida-Voevod"
-	desc = "POLITICS_ALEXANDRU_VAIDA_VOEVOD_DESC"
-	picture = "gfx/leaders/WAL/Portrait_Alexandru_Vaida_Voevod.tga"
+	name = "Gheorghe Tătărescu"
+	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
+	picture = "gfx/leaders/WAL/Portrait_WAL_Gheorghe_Tatarescu.dds"
 	expire = "1965.1.1"
-	ideology = liberal_conservative_subtype
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}

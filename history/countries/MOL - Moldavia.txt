@@ -1,17 +1,10 @@
 ﻿capital = 79
 
-oob = "WAL_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "ROM_1936_naval_mtg"
-	else = {
-		set_naval_oob = "ROM_1936_naval_legacy"
-	}
-}
+oob = "MOL_1936"
 
 set_research_slots = 2
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.1
+set_war_support = 0.1
 
 # Starting tech
 set_technology = {
@@ -49,8 +42,8 @@ if = {
 }
 
 set_popularities = {
-	despotist = 100
-	absolutist = 0
+	despotist = 0
+	absolutist = 100
 	semi_constitutionalist = 0
 	social_conservative = 0
 	liberal_conservative = 0
@@ -60,18 +53,18 @@ set_popularities = {
 }	
 
 set_politics = {
-	ruling_party = despotist
+	ruling_party = absolutist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Gheorghe Brătianu"
-	desc = "POLITICS_GHEORGHE_BRATIANU_DESC"
-	picture = "gfx/leaders/MOL/Portrait_Gheorghe_Bratianu.tga"
+	name = "Chiril I"
+	desc = "POLITICS_CHIRIL_I_DESC"
+	picture = "gfx/leaders/MOL/Portrait_MOL_Kyril_Romanov.tga"
 	expire = "1965.1.1"
-	ideology = despotism_subtype
+	ideology = absolutist_subtype
 	traits = {
 		#
 	}

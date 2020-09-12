@@ -191,7 +191,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ernst Röhm"
 	desc = "POLITICS_ERNST_ROHM_DESC"
-	picture = "gfx/leaders/SGC/SGC_Portrait_Leader_Ernst_Rohm.tga" #Place holder, need a better edited portrait for him.
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga" #Place holder
 	expire = "1965.1.1"
 	ideology = nazism_subtype
 	traits = {
@@ -300,7 +300,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Ernst Röhm"
-	picture = "SGC_Portrait_Leader_Ernst_Rohm.tga" #Place holder, need a better edited portrait for him.
+	picture = "Portrait_PlaceHolder.tga" #Place holder
 	traits = { war_hero politically_connected trait_reckless }
 	skill = 2
 	attack_skill = 3
