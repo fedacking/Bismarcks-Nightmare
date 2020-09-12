@@ -16,3 +16,9 @@
  AUS_absolutist_party_long:0 "Haus Habsburg-Lothringen"
  AUS_despotist_party:0 "VF"
  AUS_despotist_party_long:0 "Vaterländische Front"
+ 
+ 
+ ## Decisions
+ AUS_dec_cat_the_hungarian_government:0 "The Hungarian Government"
+ AUS_dec_cat_the_hungarian_government_desc:0 "The Hungarian Prime Minister is [HUN.GetLeader]"
+ 

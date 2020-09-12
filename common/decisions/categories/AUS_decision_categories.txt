@@ -1,0 +1,15 @@
+################
+##### AUS ######
+################
+
+AUS_dec_cat_the_hungarian_government = {
+	icon = eng_organize_the_blackshirts #PHolder
+	picture = GFX_decision_cat_picture_organize_the_blackshirts	#PHolder
+	visible_when_empty = yes
+	allowed = {
+		tag = AUS
+	}
+	visible = {
+		always = yes
+	}
+}
