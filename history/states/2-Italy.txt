@@ -1,8 +1,8 @@
 state = {
 	id = 2
-	name = "STATE_2" # Latium
+	name = "STATE_2" #Latium
 	manpower = 2781971	
-	state_category = city
+	state_category = metropolis
 	history = {
 		owner = ROM
 		add_core_of = ROM
@@ -11,7 +11,7 @@ state = {
 		buildings = {
 			infrastructure = 8
 			air_base = 8
-			arms_factory = 1
+			arms_factory = 2
 			industrial_complex = 4
 		}
 	}

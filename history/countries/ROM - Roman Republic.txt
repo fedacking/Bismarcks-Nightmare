@@ -114,45 +114,45 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Giuseppe Romita"
-	desc = "POLITICS_GIUSEPPE_ROMITA_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Giuseppe_Romita.tga"
+	name = "Armando Diaz"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Ferruccio Parri"
-	desc = "POLITICS_FERRUCCIO_PARRI_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Ferruccio_Parri.dds"
+	name = "Armando Diaz"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Enrico De Nicola"
-	desc = "POLITICS_ENRICO_DE_NICOLA_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Enrico_De_Nicola.tga"
+	name = "Armando Diaz"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Alcide De Gasperi"
-	picture = "gfx/leaders/ROM/Portrait_Alcide_de_Gasperi.tga"
-	desc = "POLITICS_ALCIDE_GASPERI_DESC"
+	name = "Armando Diaz"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Vittorio Emanuele III"
-	picture = "gfx/leaders/ROM/Portrait_Victor_Emmanuel_III.dds"
-	desc = "POLITICS_VITTORIO_EMANUELE_III_DESC"
+	name = "Armando Diaz"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = semi_constitutionalist_subtype
 	traits = {}
@@ -168,9 +168,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Benito Mussolini"
-	picture = "gfx/leaders/ROM/Portrait_Benito_Mussolini.tga"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	name = "Armando Diaz"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = fascism_subtype
 	traits = {}
