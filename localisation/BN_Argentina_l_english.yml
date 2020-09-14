@@ -66,6 +66,10 @@ ARG_idea_congo_purchase_desc:0 "We are paying the purchase of the Congo"
 ARG_idea_jewish_immigration:0 "Jewish Inmigration"
 ARG_idea_jewish_immigration_desc:0 "Although jewish immigration has been a net positive for the development our Nation, the less accepting members of our society are rambling about the increased presence of jews."
 
+## Dyn modifier
+ARG_deflation_dynamic_modifier:0 "Deflation"
+ARG_inflation_dynamic_modifier:0 "Inflation"
+
 ### Flags ###
 ARG_sell_the_congo:0 "Sell the Congo"
 ARG_keep_the_congo:0 "Keep the Congo"
