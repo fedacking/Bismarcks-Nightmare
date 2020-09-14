@@ -8,6 +8,11 @@ if = {
 	}
 }
 
+## Country
+add_ideas = {
+	FRA_mild_foreign_influence
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

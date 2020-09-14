@@ -9,6 +9,11 @@ if = {
 	}
 }
 
+## Country
+add_ideas = {
+	FRA_sizable_foreign_influence
+}
+
 set_research_slots = 3
 set_stability = 0.8
 set_war_support = 0.1

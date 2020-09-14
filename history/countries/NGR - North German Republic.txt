@@ -2,9 +2,15 @@
 
 oob = "NGR_1936"
 
+## Laws
 add_ideas = {
 	free_trade
 	free_speech
+}
+
+## Country
+add_ideas = {
+	FRA_mild_foreign_influence
 }
 
 set_fuel_ratio = 0.8

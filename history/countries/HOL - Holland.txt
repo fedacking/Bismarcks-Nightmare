@@ -11,8 +11,15 @@ if = {
 
 set_country_flag = can_replace_hog
 set_country_flag = can_replace_for
+
+## Laws
 add_ideas = {
 	state_press
+}
+
+## Country
+add_ideas = {
+	FRA_strong_foreign_influence
 }
 
 set_research_slots = 3

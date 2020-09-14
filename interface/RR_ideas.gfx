@@ -20,7 +20,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic/idea_propaganda_press.dds"
 	}
 	
-	
+	#ARG
+	SpriteType = {
+		name = "GFX_idea_crown_chained"
+		texturefile = "gfx/interface/ideas/idea_crown_chained.dds"
+	}
+
 	#USA
 	SpriteType = {
 		name = "GFX_idea_nativism"
@@ -52,4 +57,14 @@ spriteTypes = {
 		name = "GFX_idea_capital_outflow"
 		texturefile = "gfx/interface/ideas/idea_capital_outflow.tga"
 	}
+	
+	### ZZZ
+
+	# Foreign Infleunce
+
+	SpriteType = {
+		name = "GFX_idea_FRA_mild_foreign_influence"
+		texturefile = "gfx/interface/ideas/idea_FRA_mild_foreign_influence.dds"
+	}
+
 }

@@ -1,0 +1,11 @@
+﻿l_english:
+
+ #############
+ ### Ideas ###
+ #############
+ 
+ # Foreign influence
+ FRA_strong_foreign_influence:0 "Strong French Influence"
+ FRA_sizable_foreign_influence:0 "Sizable French Influence"
+ FRA_mild_foreign_influence:0 "Mild French Influence"
+ 
