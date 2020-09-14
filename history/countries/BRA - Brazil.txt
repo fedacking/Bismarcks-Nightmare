@@ -52,26 +52,81 @@ if = {
 
 set_popularities = {
 	despotist = 0
-	absolutist = 0
-	semi_constitutionalist = 40
-	social_conservative = 3
-	liberal_conservative = 14
-	republican_liberal = 23
+	absolutist = 2
+	semi_constitutionalist = 10
+	social_conservative = 42
+	liberal_conservative = 40
+	republican_liberal = 5
 	communist = 0
-	socialist = 20
+	socialist = 1
 }
 
 set_politics = {
-	ruling_party = semi_constitutionalist
+	ruling_party = social_conservative
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Manuel I"
-	desc = "POLITICS_MANUEL_II_DESC"
-	picture = "gfx/leaders/BRA/Portrait_Manuel_II.tga"
+	name = "Capitão Place Holder"
+	desc = "POLITICS_CAPITAO_PLACE_HOLDER_DESC"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pedro III"
+	desc = "POLITICS_PEDRO_III_DESC"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Pedro_Henrique.tga"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pedro III"
+	desc = "POLITICS_PEDRO_III_DESC"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Pedro_Henrique.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pedro III"
+	desc = "POLITICS_PEDRO_III_DESC"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Pedro_Henrique.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pedro III"
+	desc = "POLITICS_PEDRO_III_DESC"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Pedro_Henrique.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pedro III"
+	desc = "POLITICS_PEDRO_III_DESC"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Pedro_Henrique.tga"
 	expire = "1965.1.1"
 	ideology = semi_constitutionalist_subtype
 	traits = {
@@ -80,11 +135,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Manuel I"
-	desc = "POLITICS_MANUEL_II_DESC"
-	picture = "gfx/leaders/BRA/Portrait_Manuel_II.tga"
+	name = "Pedro III"
+	desc = "POLITICS_PEDRO_III_DESC"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Pedro_Henrique.tga"
 	expire = "1965.1.1"
-	ideology = absolutist_subtype
+	ideology = imperialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pedro III"
+	desc = "POLITICS_PEDRO_III_DESC"
+	picture = "gfx/leaders/BRA/Portrait_BRA_Pedro_Henrique.tga"
+	expire = "1965.1.1"
+	ideology = fascism_subtype
 	traits = {
 		#
 	}

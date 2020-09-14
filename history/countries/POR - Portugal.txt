@@ -10,41 +10,6 @@ if = {
 }
 
 # DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = BRA
-		autonomous_state = personal_union
-	}
-	
-	else = {
-		puppet = BRA
-	}
-}
-
-BRA = {
-	set_popularities = {
-		despotist = 0
-		absolutist = 0
-		semi_constitutionalist = 40
-		social_conservative = 3
-		liberal_conservative = 14
-		republican_liberal = 23
-		communist = 0
-		socialist = 20
-	}
-	set_politics = {
-		ruling_party = semi_constitutionalist
-		last_election = "1931.11.8"
-		election_frequency = 72
-		elections_allowed = no
-	}
-}
 
 set_research_slots = 3
 
@@ -173,3 +138,7 @@ if = {
 		}
 	}
 }
+
+create_faction = confederated_monarchies
+add_to_faction = POR
+add_to_faction = BRA
