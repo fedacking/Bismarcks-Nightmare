@@ -1,11 +1,12 @@
 state = {
 	id = 273
-	name = "STATE_273" # Libyan Desert
+	name = "STATE_273" #Libysche Wüste
 	manpower = 42633	
 	state_category = wasteland
 	impassable = yes
 	history = {
 		owner = AUS
+		add_core_of = LBA
 		buildings = {
 			infrastructure = 0
 		}

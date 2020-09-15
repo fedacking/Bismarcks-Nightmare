@@ -1,10 +1,11 @@
 state = {
 	id = 662
-	name = "STATE_662"
-	manpower = 13213	
+	name = "STATE_662" #Sirte
+	manpower = 13213
 	state_category = wasteland	
 	history = {
 		owner = AUS
+		add_core_of = LBA
 		buildings = {
 			infrastructure = 1
 		}
