@@ -8,6 +8,7 @@ state = {
 	state_category = town
 	history = {
 		owner = EGY
+		add_core_of = ETH
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -18,13 +19,13 @@ state = {
 			5010 5 
 		}
 		victory_points = { 
-			1984 1.0 
+			1984 1
 		}
 		victory_points = { 
-			7980 1.0 
+			7980 1
 		}
 	}
-	provinces= {
+	provinces = {
 		1984 2009 2040 2072 4954 4995 5010 5041 5097 7912 7944 7980 8019 8036 8062 10734 10775 12714 12757 12812 12856 13137
 	}
 }
