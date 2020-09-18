@@ -4,10 +4,11 @@ state = {
 	manpower = 2010656	
 	state_category = city	
 	resources = {
-		rubber = 1 # was: 2
+		rubber = 1
 	}
 	history = {
 		owner = SPA
+		add_core_of = PHI
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

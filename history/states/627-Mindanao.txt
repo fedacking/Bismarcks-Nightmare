@@ -5,6 +5,7 @@ state = {
 	state_category = rural
 	history = {
 		owner = SPA
+		add_core_of = PHI
 		buildings = {
 			infrastructure = 3
 			4241 = {
