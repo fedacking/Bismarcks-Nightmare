@@ -1,0 +1,25 @@
+﻿SWA_INF_01 = {
+	name = "Infanterie-Division"
+	for_countries = { SWA }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	
+	fallback_name = "%dème Infanterie-Division"
+	
+	ordered = {
+		1 = { "%dère Div. d'Infanterie" }
+	}
+}
+
+SWA_CAV_01 = {
+	name = "Kavallerie-Division"
+	for_countries = { SWA }
+	can_use = { always = yes }
+	division_types = { "cavalry" }
+
+	fallback_name = "%dème Kavallerie-Division"
+	
+	ordered ={
+		1 = { "%dère Kavallerie-Division" }
+	}
+}
