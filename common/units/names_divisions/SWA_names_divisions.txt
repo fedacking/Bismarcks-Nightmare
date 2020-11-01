@@ -7,7 +7,7 @@
 	fallback_name = "%dème Infanterie-Division"
 	
 	ordered = {
-		1 = { "%dère Div. d'Infanterie" }
+		1 = { "%dère Infanterie-Division" }
 	}
 }
 
