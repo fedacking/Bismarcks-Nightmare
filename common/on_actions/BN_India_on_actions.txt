@@ -1,0 +1,14 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			RGA = {
+				country_event = {
+					id = rga.1
+					days = 8
+				}
+			}
+		}
+	}
+	
+}
