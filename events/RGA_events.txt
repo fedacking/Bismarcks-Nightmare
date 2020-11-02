@@ -4,7 +4,7 @@
 add_namespace = rga
 
 country_event = {
-    id = rga.1
+    id = rga.1 # Assembly of All Princes
     title = rga.1.t
     desc = rga.1.d
     fire_only_once = yes
@@ -20,5 +20,257 @@ country_event = {
 		IND = {
 			country_event = { id = rga.3 }
 		}
+	}
+}
+
+country_event = {
+    id = rga.2 # HYD Policy Choice
+    title = rga.2.t
+    desc = rga.2.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { # Puppet
+        name = rga.2.a
+        ai_chance = {
+            factor = 50
+        }
+		MAT = {
+			country_event = { id = rga.4 }
+		}
+	}
+	option = { # Ally
+        name = rga.2.b
+        ai_chance = {
+            factor = 50
+        }
+	}
+}
+
+country_event = {
+    id = rga.3 # IND Policy Choice
+    title = rga.3.t
+    desc = rga.3.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { # War
+        name = rga.3.a
+        ai_chance = {
+            factor = 34
+        }
+		MAT = {
+			country_event = { id = rga.5 }
+		}
+		HYD = {
+			country_event = { id = rga.5 }
+		}
+		RGA = {
+			country_event = { id = rga.5 }
+		}
+	}
+	option = { # Peace
+        name = rga.3.b
+        ai_chance = {
+            factor = 33
+        }
+		MAT = {
+			country_event = { id = rga.6 }
+		}
+		HYD = {
+			country_event = { id = rga.6 }
+		}
+		RGA = {
+			country_event = { id = rga.7 }
+		}
+	}
+	option = { # Sabotage
+        name = rga.3.c
+        ai_chance = {
+            factor = 33
+        }
+		MAT = {
+			country_event = { id = rga.8 }
+		}
+		HYD = {
+			country_event = { id = rga.8 }
+		}
+		RGA = {
+			country_event = { id = rga.9 }
+		}
+	}
+}
+
+country_event = {
+    id = rga.4 # MAT response to puppet RGA
+    title = rga.4.t
+    desc = rga.4.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { # MAT remains in the princely confederation
+        name = rga.4.a
+        ai_chance = {
+            factor = 50
+        }
+		HYD = {
+			country_event = { id = rga.10 }
+		}
+	}
+	option = { # MAT leaves the princely confederation
+        name = rga.4.b
+        ai_chance = {
+            factor = 50
+        }
+		HYD = {
+			country_event = { id = rga.11 }
+		}
+	}
+}
+
+country_event = {
+    id = rga.10 # MAT stayed in the PC
+    title = rga.10.t
+    desc = rga.10.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+        name = rga.10.a
+        ai_chance = {
+            factor = 100
+        }
+	}
+}
+
+country_event = {
+    id = rga.11 # MAT left the PC
+    title = rga.11.t
+    desc = rga.11.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+        name = rga.11.a
+        ai_chance = {
+            factor = 100
+        }
+	}
+}
+
+country_event = {
+    id = rga.5 # PC reaction to IND wanting war
+    title = rga.5.t
+    desc = rga.5.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { # Open emergency trees
+        name = rga.5.a
+        ai_chance = {
+            factor = 100
+        }
+		if = {
+			limit = {
+				tag = HYD
+			}
+		}
+		else_if = {
+			limit = {
+				tag = MAT
+			}
+		}
+		else = {
+		}
+	}
+}
+
+country_event = {
+    id = rga.6 # HYD and MAT respond to peace overtures 
+    title = rga.6.t
+    desc = rga.6.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { # Yes
+        name = rga.6.a
+        ai_chance = {
+            factor = 50
+        }
+		if = {
+			limit = {
+				tag = HYD
+			}
+		}
+		else = {
+		}
+	}
+	option = { # No
+        name = rga.6.b
+        ai_chance = {
+            factor = 50
+        }
+		if = {
+			limit = {
+				tag = HYD
+			}
+		}
+		else = {
+		}
+	}
+}
+
+country_event = {
+    id = rga.7 # RGA notified of peace overtures
+    title = rga.7.t
+    desc = rga.7.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { # Can't respond omegalul
+        name = rga.7.a
+        ai_chance = {
+            factor = 100
+        }
+	}
+}
+
+country_event = {
+    id = rga.8 # Like the peace events but a lie 
+    title = rga.6.t
+    desc = rga.6.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { # Yes 
+        name = rga.6.a
+        ai_chance = {
+            factor = 50
+        }
+		if = {
+			limit = {
+				tag = HYD
+			}
+		}
+		else = {
+		}
+	}
+	option = { # No 
+        name = rga.6.b
+        ai_chance = {
+            factor = 50
+        }
+		if = {
+			limit = {
+				tag = HYD
+			}
+		}
+		else = {
+		}
+	}
+}
+
+country_event = {
+    id = rga.9 # Like the peace events but a lie
+    title = rga.7.t
+    desc = rga.7.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { # Can't respond omegalul
+        name = rga.7.a
+        ai_chance = {
+            factor = 100
+        }
 	}
 }
