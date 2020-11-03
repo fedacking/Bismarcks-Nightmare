@@ -194,8 +194,14 @@ country_event = {
 			limit = {
 				tag = HYD
 			}
+			IND = {
+				set_country_flag = IND_HYD_peace
+			}
 		}
 		else = {
+			IND = {
+				set_country_flag = IND_MAT_peace
+			}
 		}
 	}
 	option = { # No
@@ -207,8 +213,14 @@ country_event = {
 			limit = {
 				tag = HYD
 			}
+			IND = {
+				set_country_flag = IND_HYD_refused
+			}
 		}
 		else = {
+			IND = {
+				set_country_flag = IND_MAT_refused
+			}
 		}
 	}
 }
@@ -233,7 +245,7 @@ country_event = {
     desc = rga.6.d
     fire_only_once = yes
 	is_triggered_only = yes
-	option = { # Yes 
+	option = { # Yes
         name = rga.6.a
         ai_chance = {
             factor = 50
@@ -242,11 +254,17 @@ country_event = {
 			limit = {
 				tag = HYD
 			}
+			IND = {
+				set_country_flag = IND_HYD_peace_fake
+			}
 		}
 		else = {
+			IND = {
+				set_country_flag = IND_MAT_peace_fake
+			}
 		}
 	}
-	option = { # No 
+	option = { # No
         name = rga.6.b
         ai_chance = {
             factor = 50
@@ -255,8 +273,14 @@ country_event = {
 			limit = {
 				tag = HYD
 			}
+			IND = {
+				set_country_flag = IND_HYD_refused_fake
+			}
 		}
 		else = {
+			IND = {
+				set_country_flag = IND_MAT_refused_fake
+			}
 		}
 	}
 }
@@ -269,6 +293,20 @@ country_event = {
 	is_triggered_only = yes
 	option = { # Can't respond omegalul
         name = rga.7.a
+        ai_chance = {
+            factor = 100
+        }
+	}
+}
+
+country_event = {
+    id = rga.10 # IND is notified of successful peace talks
+    title = rga.10.t
+    desc = rga.10.d
+    fire_only_once = yes
+	is_triggered_only = yes
+	option = { # Can't respond omegalul
+        name = rga.10.a
         ai_chance = {
             factor = 100
         }
