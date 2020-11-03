@@ -262,3 +262,127 @@ country_event = { #Trials of the PAN
 		}
 	}
 }
+
+country_event = { #Government system
+	id = arg.7
+	title = arg.7.t
+	desc = arg.7.desc
+	is_triggered_only = yes
+	option = { #Presidentialist system
+		name = arg.7.a
+		set_country_flag = ARG_rep_presidential_system
+	}
+	option = { #Semi-Presidentialist system
+		name = arg.7.b
+		set_country_flag = ARG_rep_semipresidential_system
+	}
+	option = { #Parliamentart system
+		name = arg.7.c
+		set_country_flag = ARG_rep_ceremonial_president
+	}
+}
+
+country_event = { #Presidential terms
+	id = arg.8
+	title = arg.8.t
+	desc = arg.8.desc
+	is_triggered_only = yes
+	option = { #4 year terms with reelection
+		name = arg.8.a
+		set_country_flag = ARG_rep_4_year_term
+	}
+	option = { #6 year tems no reelection
+		name = arg.8.b
+		set_country_flag = ARG_rep_6_year_term
+	}
+}
+
+country_event = { #EC vs popular votee
+	id = arg.9
+	title = arg.9.t
+	desc = arg.9.desc
+	is_triggered_only = yes
+	option = { #EC
+		name = arg.9.a
+		set_country_flag = ARG_rep_electoral_college
+	}
+	option = { #Popular vote
+		name = arg.9.b
+		set_country_flag = ARG_rep_popular_vote
+	}
+}
+
+country_event = { #FPTP vs proportional
+	id = arg.10
+	title = arg.10.t
+	desc = arg.10.desc
+	is_triggered_only = yes
+	option = { #FPTP
+		name = arg.10.a
+		set_country_flag = ARG_rep_ec_fptp
+	}
+	option = { #Proportional
+		name = arg.10.b
+		set_country_flag = ARG_rep_proportional
+	}
+}
+
+country_event = { #FPTP vs ballotage
+	id = arg.11
+	title = arg.11.t
+	desc = arg.11.desc
+	is_triggered_only = yes
+	option = { #FPTP
+		name = arg.11.a
+		set_country_flag = ARG_rep_pv_fptp
+	}
+	option = { #Ballotage
+		name = arg.11.b
+		set_country_flag = ARG_rep_pv_ballotage
+	}
+}
+
+country_event = { #Wyoming suffrage
+	id = arg.12
+	title = arg.12.t
+	desc = arg.12.desc
+	is_triggered_only = yes
+	option = { #Yas queen
+		name = arg.12.a
+		set_country_flag = ARG_rep_yes_ws
+	}
+	option = { #Overused kitchen joke
+		name = arg.12.b
+		set_country_flag = ARG_rep_no_ws
+	}
+}
+
+country_event = { #Unicameral vs bicameral
+	id = arg.13
+	title = arg.13.t
+	desc = arg.13.desc
+	is_triggered_only = yes
+	option = { #Unicameral
+		name = arg.13.a
+		set_country_flag = ARG_rep_unicameral
+	}
+	option = { #Bicameral
+		name = arg.13.b
+		set_country_flag = ARG_rep_bicameral
+	}
+}
+
+country_event = { #Legal code
+	id = arg.14
+	title = arg.14.t
+	desc = arg.14.desc
+	is_triggered_only = yes
+	option = { #Napoleonic
+		name = arg.14.a
+		set_country_flag = ARG_rep_napoleonic_code
+	}
+	option = { #Common law
+		name = arg.14.b
+		set_country_flag = ARG_rep_common_law
+	}
+}
