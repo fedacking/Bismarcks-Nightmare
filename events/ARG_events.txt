@@ -264,20 +264,20 @@ country_event = { #Trials of the PAN
 }
 
 country_event = { #Government system
-	id = arg.7
-	title = arg.7.t
-	desc = arg.7.desc
+	id = arg.15
+	title = arg.15.t
+	desc = arg.15.desc
 	is_triggered_only = yes
 	option = { #Presidentialist system
-		name = arg.7.a
+		name = arg.15.a
 		set_country_flag = ARG_rep_presidential_system
 	}
 	option = { #Semi-Presidentialist system
-		name = arg.7.b
+		name = arg.15.b
 		set_country_flag = ARG_rep_semipresidential_system
 	}
 	option = { #Parliamentart system
-		name = arg.7.c
+		name = arg.15.c
 		set_country_flag = ARG_rep_ceremonial_president
 	}
 }
@@ -305,10 +305,12 @@ country_event = { #EC vs popular votee
 	option = { #EC
 		name = arg.9.a
 		set_country_flag = ARG_rep_electoral_college
+		country_event = arg.10
 	}
 	option = { #Popular vote
 		name = arg.9.b
 		set_country_flag = ARG_rep_popular_vote
+		country_event = arg.11
 	}
 }
 
@@ -354,7 +356,7 @@ country_event = { #Wyoming suffrage
 	option = { #Overused kitchen joke
 		name = arg.12.b
 		set_country_flag = ARG_rep_no_ws
-	}
+	} 
 }
 
 country_event = { #Unicameral vs bicameral

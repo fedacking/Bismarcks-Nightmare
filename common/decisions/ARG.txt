@@ -143,19 +143,13 @@ ARG_dec_cat_constitutional_assembly = {
         available = {
 			always = no
         }
-        activation = {
-			has_country_flag = ARG_flag_rep_constituational_assembly
-        }
-        is_good = no
+        activation = { always = no }
+        is_good = yes
         days_mission_timeout = 14
         fire_only_once = yes
         timeout_effect = {
-		 	set_country_flag = ARG_flag_dec_rep_terms
-        }
-        complete_effect = {
-		# Presidential
-		# Semi-Presidential
-		# Parliamentary
+		 	activate_mission = ARG_dec_rep_terms
+			country_event = arg.15
         }
 	}
 
@@ -164,19 +158,13 @@ ARG_dec_cat_constitutional_assembly = {
         available = {
 			always = no
         }
-        activation = {
-			has_country_flag = ARG_flag_dec_rep_terms
-        }
-        is_good = no
+        activation = { always = no }
+        is_good = yes
         days_mission_timeout = 14
         fire_only_once = yes
         timeout_effect = {
-		 	set_country_flag = ARG_flag_dec_rep_voting
-			clr_country_flag = ARG_flag_dec_rep_terms
-        }
-        complete_effect = {
-		# Menem 1989
-		# Menem 1994
+		 	activate_mission = ARG_dec_rep_voting
+			country_event = arg.8
         }
 	}
 
@@ -185,26 +173,17 @@ ARG_dec_cat_constitutional_assembly = {
         available = {
 			always = no
         }
-        activation = {
-			has_country_flag = ARG_flag_dec_rep_voting
-        }
-        is_good = no
+        activation = { always = no }
+        is_good = yes
         days_mission_timeout = 14
         fire_only_once = yes
         timeout_effect = {
-		 	set_country_flag = ARG_flag_dec_rep_camera
-			clr_country_flag = ARG_flag_dec_rep_voting
-        }
-        complete_effect = {
-		#1 Electoral College
-		## fptp
-		## proportional
-		
-		#1 Popular vote
-		## FPTP
-		## Ballotage
-		
-		#2 Woman Suffrge y/n
+		 	activate_mission = ARG_dec_rep_camera
+			country_event = arg.9
+			if = {
+				limit = { NOT = { has_completed_focus = ARG_deal_with_devil } }
+				country_event = arg.12
+			}
         }
 	}
 
@@ -213,19 +192,13 @@ ARG_dec_cat_constitutional_assembly = {
         available = {
 			always = no
         }
-        activation = {
-			has_country_flag = ARG_flag_dec_rep_camera
-        }
-        is_good = no
+        activation = { always = no }
+        is_good = yes
         days_mission_timeout = 14
         fire_only_once = yes
         timeout_effect = {
-		 	set_country_flag = ARG_flag_dec_rep_legal_code
-			clr_country_flag = ARG_flag_dec_rep_camera
-        }
-        complete_effect = {
-		# Full unitario
-		# Destruiste la republica, espero que te sientas mal (senado)
+		 	activate_mission = ARG_dec_rep_legal_code
+			country_event = arg.13
         }
 	}
 
@@ -234,19 +207,13 @@ ARG_dec_cat_constitutional_assembly = {
         available = {
 			always = no
         }
-        activation = {
-			has_country_flag = ARG_flag_dec_rep_legal_code
-        }
-        is_good = no
+        activation = { always = no }
+        is_good = yes
         days_mission_timeout = 14
         fire_only_once = yes
         timeout_effect = {
-			clr_country_flag = ARG_flag_dec_rep_legal_code
 			clr_country_flag = ARG_flag_rep_constituational_assembly
-        }
-        complete_effect = {
-		# Napoleonic
-		# Common Law
+			country_event = arg.14
         }
 	}
 }
@@ -257,6 +224,7 @@ ARG_dec_cat_fight_inflation = {
         available = {
 			always = yes
         }
+        activation = { always = no }
 		cost = 50
         fire_only_once = yes
         timeout_effect = {
