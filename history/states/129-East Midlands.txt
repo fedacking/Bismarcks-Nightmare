@@ -14,6 +14,12 @@ state = {
 			industrial_complex = 1
 			air_base = 5
 		}
+		victory_points = {
+			9268 1 #Leicester
+		}
+		victory_points = {
+			364 1 #Nottingham
+		}
 		add_core_of = ENG
 		add_core_of = ENP
 		add_claim_by = GBR

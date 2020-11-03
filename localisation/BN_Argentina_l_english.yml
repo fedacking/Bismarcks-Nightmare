@@ -64,7 +64,7 @@ ARG_idea_congo_sale_desc:0 "We are receiving payments for the sale of our colony
 ARG_idea_congo_purchase:0 "Congo Purchase"
 ARG_idea_congo_purchase_desc:0 "We are paying the purchase of the Congo"
 ARG_idea_jewish_immigration:0 "Jewish Inmigration"
-ARG_idea_jewish_immigration_desc:0 "Although jewish immigration has been a net positive for the development our Nation, the less accepting members of our society are rambling about the increased presence of jews."
+ARG_idea_jewish_immigration_desc:0 "Although jewish immigration has been a net positive for the development of our Nation, the less accepting members of our society are rambling about the increased presence of jews."
 
 ## Dyn modifier
 ARG_deflation_dynamic_modifier:0 "Deflation"

@@ -2,7 +2,12 @@
 
 oob = "empty"
 
-set_fuel_ratio = 0.8
+set_fuel_ratio = 0.1
+
+add_ideas = {
+	censored_press
+	RGA_decentralized_government
+}
 
 # Starting tech
 set_technology = {
@@ -89,9 +94,9 @@ if = {
 }
 
 set_research_slots = 3
-set_convoys = 200
-set_stability = 0.1
-set_war_support = 0.9
+set_convoys = 20
+set_stability = 0.25
+set_war_support = 0.05
 
 set_popularities = {
 	despotist = 0

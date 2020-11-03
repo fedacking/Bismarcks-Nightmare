@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		
+		##Admin problems
+		RGA_decentralized_government = {
+			picture = army_chained #place holder image
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.1
+				political_power_gain = -0.5
+				surrender_limit = -0.2
+				conscription = -0.02
+				mobilization_speed = -0.1
+				army_org_factor = 0.05
+				army_org_regain = 0.05
+			}
+		}
+	}
+}
