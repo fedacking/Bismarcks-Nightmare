@@ -388,3 +388,18 @@ country_event = { #Legal code
 		set_country_flag = ARG_rep_common_law
 	}
 }
+
+country_event = { #State religion
+	id = arg.16
+	title = arg.16.t
+	desc = arg.16.desc
+	is_triggered_only = yes
+	option = { #Slaves to the pope
+		name = arg.16.a
+		set_country_flag = ARG_rep_no_state_religion
+	}
+	option = { #Common law
+		name = arg.16.b
+		set_country_flag = ARG_rep_yes_state_religion
+	}
+}
