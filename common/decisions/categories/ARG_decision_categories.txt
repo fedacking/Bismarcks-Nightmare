@@ -21,8 +21,8 @@ ARG_dec_cat_constitutional_assembly = {
 	}
 	visible = {
 		OR = {
-			has_country_flag = ARG_flag_rep_constituational_assembly
-			has_country_flag = ARG_flag_mon_constituational_assembly
+			has_country_flag = ARG_flag_rep_constitutional_assembly
+			has_country_flag = ARG_flag_mon_constitutional_assembly
 		}
 	}
 }

@@ -1,4 +1,5 @@
 ﻿add_namespace = arg
+add_namespace = joergia
 
 ##Fate of the Congo
 
@@ -263,6 +264,8 @@ country_event = { #Trials of the PAN
 	}
 }
 
+## Constitutional Convention Republitards 😎
+
 country_event = { #Introductory Event
 	id = arg.17
 	title = arg.17.t
@@ -273,143 +276,159 @@ country_event = { #Introductory Event
 	}
 }
 
+country_event = { #Battle of the Federalists vs Unitarians round n n->∞
+	id = arg.20
+	title = arg.20.t
+	desc = arg.20.desc
+	is_triggered_only = yes
+	option = { #Unitary System
+		name = arg.20.a #Imaginate estar tan basado
+		set_country_flag = ARG_unitary_system
+	}
+	option = { #Federalist System
+		name = arg.20.b # BOOOO
+		set_country_flag = ARG_federalist_system
+	}
+}
+
+
 country_event = { #Government system
-	id = arg.15
-	title = arg.15.t
-	desc = arg.15.desc
+	id = arg.21
+	title = arg.21.t
+	desc = arg.21.desc
 	is_triggered_only = yes
 	option = { #Presidentialist system
-		name = arg.15.a
+		name = arg.21.a
 		set_country_flag = ARG_rep_presidential_system
 	}
 	option = { #Parliamentart system
-		name = arg.15.b
+		name = arg.21.b
 		set_country_flag = ARG_rep_ceremonial_president
 	}
 	option = { #Semi-Presidentialist system
-		name = arg.15.c
+		name = arg.21.c
 		set_country_flag = ARG_rep_semipresidential_system
 	}
 }
 
 country_event = { #Presidential terms
-	id = arg.8
-	title = arg.8.t
-	desc = arg.8.desc
+	id = arg.22
+	title = arg.22.t
+	desc = arg.22.desc
 	is_triggered_only = yes
 	option = { #4 year terms with reelection
-		name = arg.8.a
+		name = arg.22.a
 		set_country_flag = ARG_rep_4_year_term
 	}
 	option = { #6 year tems no reelection
-		name = arg.8.b
+		name = arg.22.b
 		set_country_flag = ARG_rep_6_year_term
 	}
 }
 
 country_event = { #EC vs popular vote
-	id = arg.9
-	title = arg.9.t
-	desc = arg.9.desc
+	id = arg.23
+	title = arg.23.t
+	desc = arg.23.desc
 	is_triggered_only = yes
 	option = { #EC
-		name = arg.9.a
+		name = arg.23.a
 		set_country_flag = ARG_rep_electoral_college
-		country_event = arg.10
+		country_event = arg.24
 	}
 	option = { #Popular vote
-		name = arg.9.b
+		name = arg.23.b
 		set_country_flag = ARG_rep_popular_vote
-		country_event = arg.11
+		country_event = arg.25
 	}
 }
 
 country_event = { #FPTP vs proportional
-	id = arg.10
-	title = arg.10.t
-	desc = arg.10.desc
+	id = arg.24
+	title = arg.24.t
+	desc = arg.24.desc
 	is_triggered_only = yes
 	option = { #FPTP
-		name = arg.10.a
+		name = arg.24.a
 		set_country_flag = ARG_rep_ec_fptp
 	}
 	option = { #Proportional
-		name = arg.10.b
+		name = arg.24.b
 		set_country_flag = ARG_rep_proportional
 	}
 }
 
 country_event = { #FPTP vs ballotage
-	id = arg.11
-	title = arg.11.t
-	desc = arg.11.desc
+	id = arg.25
+	title = arg.25.t
+	desc = arg.25.desc
 	is_triggered_only = yes
 	option = { #FPTP
-		name = arg.11.a
+		name = arg.25.a
 		set_country_flag = ARG_rep_pv_fptp
 	}
 	option = { #Ballotage
-		name = arg.11.b
+		name = arg.25.b
 		set_country_flag = ARG_rep_pv_ballotage
 	}
 }
 
 country_event = { #Wyoming suffrage
-	id = arg.12
-	title = arg.12.t
-	desc = arg.12.desc
+	id = arg.26
+	title = arg.26.t
+	desc = arg.26.desc
 	is_triggered_only = yes
 	option = { #Yas queen
-		name = arg.12.a
+		name = arg.26.a
 		set_country_flag = ARG_rep_yes_ws
 	}
 	option = { #Overused kitchen joke
-		name = arg.12.b
+		name = arg.26.b
 		set_country_flag = ARG_rep_no_ws
 	} 
 }
 
 country_event = { #Unicameral vs bicameral
-	id = arg.13
-	title = arg.13.t
-	desc = arg.13.desc
+	id = arg.27
+	title = arg.27.t
+	desc = arg.27.desc
 	is_triggered_only = yes
 	option = { #Unicameral
-		name = arg.13.a
+		name = arg.27.a
 		set_country_flag = ARG_rep_unicameral
 	}
 	option = { #Bicameral
-		name = arg.13.b
+		name = arg.27.b
 		set_country_flag = ARG_rep_bicameral
 	}
 }
 
 country_event = { #Legal code
-	id = arg.14
-	title = arg.14.t
-	desc = arg.14.desc
+	id = arg.28
+	title = arg.28.t
+	desc = arg.28.desc
 	is_triggered_only = yes
 	option = { #Napoleonic
-		name = arg.14.a
+		name = arg.28.a
 		set_country_flag = ARG_rep_napoleonic_code
 	}
 	option = { #Common law
-		name = arg.14.b
+		name = arg.28.b
 		set_country_flag = ARG_rep_common_law
 	}
 }
 
 country_event = { #State religion
-	id = arg.16
-	title = arg.16.t
-	desc = arg.16.desc
+	id = arg.29
+	title = arg.29.t
+	desc = arg.29.desc
 	is_triggered_only = yes
 	option = { #Schiava di Roma
-		name = arg.16.a
+		name = arg.29.a
 		set_country_flag = ARG_rep_no_state_religion
 	}
 	option = { #Secular
-		name = arg.16.b
+		name = arg.29.b
 		set_country_flag = ARG_rep_yes_state_religion
 	}
 }

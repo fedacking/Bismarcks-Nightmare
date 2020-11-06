@@ -467,10 +467,10 @@ focus_tree = {
 				limit = {
 					NOT = { has_completed_focus = ARG_force_his_hand }
 				}
-				set_country_flag = ARG_flag_rep_constituational_assembly
-				activate_mission = ARG_dec_rep_system
+				set_country_flag = ARG_flag_rep_constitutional_assembly
+				activate_mission = ARG_dec_rep_federalism
 				else = {
-					set_country_flag = ARG_flag_mon_constituational_assembly
+					set_country_flag = ARG_flag_mon_constitutional_assembly
 				}
 			}
 		}
@@ -500,10 +500,10 @@ focus_tree = {
 				limit = {
 					NOT = { has_completed_focus = ARG_force_his_hand }
 				}
-				set_country_flag = ARG_flag_rep_constituational_assembly
+				set_country_flag = ARG_flag_rep_constitutional_assembly
 				activate_mission = ARG_dec_rep_terms
 				else = {
-					set_country_flag = ARG_flag_mon_constituational_assembly
+					set_country_flag = ARG_flag_mon_constitutional_assembly
 				}
 			}
 		}

@@ -138,6 +138,21 @@ ARG_congo_sale = {
 
 ARG_dec_cat_constitutional_assembly = {
 
+	ARG_dec_rep_federalism = {
+        allowed = { tag = ARG }
+        available = {
+			always = no
+        }
+        activation = { always = no }
+        is_good = yes
+        days_mission_timeout = 14
+        fire_only_once = yes
+        timeout_effect = {
+		 	activate_mission = ARG_dec_rep_terms
+			country_event = arg.20
+        }
+	}
+
 	ARG_dec_rep_system = {
         allowed = { tag = ARG }
         available = {
@@ -149,7 +164,7 @@ ARG_dec_cat_constitutional_assembly = {
         fire_only_once = yes
         timeout_effect = {
 		 	activate_mission = ARG_dec_rep_terms
-			country_event = arg.15
+			country_event = arg.21
         }
 	}
 
@@ -164,7 +179,7 @@ ARG_dec_cat_constitutional_assembly = {
         fire_only_once = yes
         timeout_effect = {
 		 	activate_mission = ARG_dec_rep_voting
-			country_event = arg.8
+			country_event = arg.22
         }
 	}
 
@@ -179,10 +194,10 @@ ARG_dec_cat_constitutional_assembly = {
         fire_only_once = yes
         timeout_effect = {
 		 	activate_mission = ARG_dec_rep_camera
-			country_event = arg.9
+			country_event = arg.23
 			if = {
 				limit = { NOT = { has_completed_focus = ARG_deal_with_devil } }
-				country_event = arg.12
+				country_event = arg.26
 			}
         }
 	}
@@ -198,7 +213,7 @@ ARG_dec_cat_constitutional_assembly = {
         fire_only_once = yes
         timeout_effect = {
 		 	activate_mission = ARG_dec_rep_legal_code
-			country_event = arg.13
+			country_event = arg.27
         }
 	}
 
@@ -212,8 +227,8 @@ ARG_dec_cat_constitutional_assembly = {
         days_mission_timeout = 14
         fire_only_once = yes
         timeout_effect = {
-			clr_country_flag = ARG_flag_rep_constituational_assembly
-			country_event = arg.14
+			clr_country_flag = ARG_flag_rep_constitutional_assembly
+			country_event = arg.28
         }
 	}
 }
