@@ -263,6 +263,16 @@ country_event = { #Trials of the PAN
 	}
 }
 
+country_event = { #Introductory Event
+	id = arg.17
+	title = arg.17.t
+	desc = arg.17.desc
+	is_triggered_only = yes
+	option = {
+		name = arg.17.a
+	}
+}
+
 country_event = { #Government system
 	id = arg.15
 	title = arg.15.t
@@ -272,13 +282,13 @@ country_event = { #Government system
 		name = arg.15.a
 		set_country_flag = ARG_rep_presidential_system
 	}
-	option = { #Semi-Presidentialist system
-		name = arg.15.b
-		set_country_flag = ARG_rep_semipresidential_system
-	}
 	option = { #Parliamentart system
-		name = arg.15.c
+		name = arg.15.b
 		set_country_flag = ARG_rep_ceremonial_president
+	}
+	option = { #Semi-Presidentialist system
+		name = arg.15.c
+		set_country_flag = ARG_rep_semipresidential_system
 	}
 }
 
@@ -297,7 +307,7 @@ country_event = { #Presidential terms
 	}
 }
 
-country_event = { #EC vs popular votee
+country_event = { #EC vs popular vote
 	id = arg.9
 	title = arg.9.t
 	desc = arg.9.desc
@@ -394,11 +404,11 @@ country_event = { #State religion
 	title = arg.16.t
 	desc = arg.16.desc
 	is_triggered_only = yes
-	option = { #Slaves to the pope
+	option = { #Schiava di Roma
 		name = arg.16.a
 		set_country_flag = ARG_rep_no_state_religion
 	}
-	option = { #Common law
+	option = { #Secular
 		name = arg.16.b
 		set_country_flag = ARG_rep_yes_state_religion
 	}
