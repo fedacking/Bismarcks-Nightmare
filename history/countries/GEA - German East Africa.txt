@@ -61,12 +61,17 @@ if = {
 		target = ZNZ
 		autonomous_state = autonomy_puppet
 	}
+	set_autonomy = {
+		target = JUD
+		autonomous_state = autonomy_puppet
+	}
 	
 	else = {
 		puppet = UGA
 		puppet = BRD
 		puppet = RWA
 		puppet = ZNZ
+		puppet = JUD
 	}
 }
 
@@ -146,9 +151,29 @@ ZNZ = {
 	}
 }
 
+JUD = {
+	set_popularities = {
+		despotist = 8
+		absolutist = 0
+		semi_constitutionalist = 0
+		social_conservative = 14
+		liberal_conservative = 20
+		republican_liberal = 41
+		communist = 5
+		socialist = 12
+	}
+	set_politics = {
+		ruling_party = republican_liberal
+		last_election = "1931.11.8"
+		election_frequency = 72
+		elections_allowed = no
+	}
+}
+
 create_faction = east_african_confederation
 add_to_faction = GEA
 add_to_faction = ZAN
 add_to_faction = UGA
 add_to_faction = BRD
 add_to_faction = RWA
+add_to_faction = JUD

@@ -676,3 +676,7 @@ PHI = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
 }
+JUD = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
+}
