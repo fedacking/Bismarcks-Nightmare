@@ -8,7 +8,10 @@ state = {
 		add_core_of = GRE
 		add_claim_by = TUR
 		victory_points = {
-			9833 30
+			9833 27
+		}
+		victory_points = {
+			11829 3
 		}
 		buildings = {
 			infrastructure = 6
@@ -25,5 +28,6 @@ state = {
 	}
 	provinces = {
 		9833
+		11829
 	}
 }

@@ -16,11 +16,11 @@ state = {
 		add_core_of = RIO
 		add_claim_by = BRA
 		victory_points = {
-			1598 1
+			4575 1 
 		}
 	}
 	provinces = {
-		1585 1598 4575 4589 4604 5110 7581
+		1585 4575 4604 5110 7581 13239
 	}
 }
 
