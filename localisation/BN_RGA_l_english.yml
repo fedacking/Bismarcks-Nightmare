@@ -22,6 +22,9 @@ RGA_decentralized_government_desc:0 "Although the local princes manage their tro
 
 #Categories
 
+RGA_collapse_status_cat:0 "Status of the Rajput-Gujarati Federation"
+RGA_collapse_status_cat_desc:0 "India's fucked yo'\n\n Rajput Stability is §RWorrying [?RGA.stability|%R0].§!"
+
 #Decisions
 
 ### Cosmetic names ###
