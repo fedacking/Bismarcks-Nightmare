@@ -29,5 +29,32 @@ ideas = {
 				has_war_with = FRA
 			}
 		}
+	
+		ARG_strong_foreign_influence = {
+			picture = FRA_mild_foreign_influence #Change disgusting French flag with chad blanquiceleste
+			modifier = {
+			}
+			cancel = { 
+				has_war_with = ARG
+			}
+		}
+		
+		ARG_sizable_foreign_influence = {
+			picture = FRA_mild_foreign_influence #Change disgusting French flag with chad blanquiceleste
+			modifier = {
+			}
+			cancel = { 
+				has_war_with = ARG
+			}
+		}
+		
+		ARG_mild_foreign_influence = {
+			picture = FRA_mild_foreign_influence #Change disgusting French flag with chad blanquiceleste
+			modifier = {
+			}
+			cancel = { 
+				has_war_with = ARG
+			}
+		}
 	}
 }

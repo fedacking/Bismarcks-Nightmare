@@ -3,6 +3,10 @@
 oob = "empty"
 
 set_country_flag = can_replace_hog
+add_ideas = {
+	censored_press
+	ARG_strong_foreign_influence
+}
 
 set_stability = 0.5
 set_war_support = 0.5
@@ -62,18 +66,95 @@ set_convoys = 20
 
 set_popularities = {
 	despotist = 0
-	absolutist = 0
+	absolutist = 27
 	semi_constitutionalist = 0
-	social_conservative = 0
-	liberal_conservative = 43
-	republican_liberal = 45
-	socialist = 12
-	communist = 0
+	social_conservative = 40
+	liberal_conservative = 12
+	republican_liberal = 16
+	socialist = 4
+	communist = 1
 }
 
 set_politics = {
-	ruling_party = republican_liberal
+	ruling_party = social_conservative
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Luis Carlos Prestes"
+	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
+	picture = "gfx/leaders/RIO/Portrait_RIO_Leader_Luis_Carlos_Prestes.tga"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nereu Ramos"
+	desc = "POLITICS_NEREO_RAMOS_DESC"
+	picture = "gfx/leaders/RIO/Portrait_RIO_Leader_Nereu_Ramos.tga"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Raul Pilla"
+	desc = "POLITICS_RAUL_PILLA_DESC"
+	picture = "gfx/leaders/RIO/Portrait_RIO_Leader_Raul_Pilla.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Flores Da Cunha"
+	desc = "POLITICS_FLORES_DA_CUNHA_DESC"
+	picture = "gfx/leaders/RIO/Portrait_RIO_Leader_Flores_Da_Cunha.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Borges de Medeiros"
+	desc = "POLITICS_BORGES_DE_MADEIROS_DESC"
+	picture = "gfx/leaders/RIO/Portrait_RIO_Leader_Borges_De_Medeiros.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Getúlio Vargas"
+	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	picture = "gfx/leaders/RIO/Portrait_RIO_Leader_Getulio_Vargas.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Getúlio Vargas"
+	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	picture = "gfx/leaders/RIO/Portrait_RIO_Leader_Getulio_Vargas.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+	traits = {
+		#
+	}
 }
