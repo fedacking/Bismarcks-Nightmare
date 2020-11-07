@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+	### categories
+	
+	spriteType = {
+		name = "GFX_decision_cat_pictures_rga_stability"
+		texturefile = "gfx/interface/decisions/decision_cat_pictures_rga_stability.dds"
+	}
+}
