@@ -8,8 +8,8 @@ add_ideas = {
 	ARG_strong_foreign_influence
 }
 
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.6
+set_war_support = 0.3
 set_research_slots = 3
 
 # Starting tech
@@ -65,14 +65,14 @@ if = {
 set_convoys = 20
 
 set_popularities = {
-	despotist = 0
-	absolutist = 27
+	despotist = 5
+	absolutist = 0
 	semi_constitutionalist = 0
-	social_conservative = 40
+	social_conservative = 38
 	liberal_conservative = 12
-	republican_liberal = 16
-	socialist = 4
-	communist = 1
+	republican_liberal = 18
+	socialist = 24
+	communist = 3
 }
 
 set_politics = {
@@ -94,9 +94,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nereu Ramos"
-	desc = "POLITICS_NEREO_RAMOS_DESC"
-	picture = "gfx/leaders/RIO/Portrait_RIO_Leader_Nereu_Ramos.tga"
+	name = "Getúlio Vargas"
+	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	picture = "gfx/leaders/RIO/Portrait_RIO_Leader_Getulio_Vargas.tga"
 	expire = "1965.1.1"
 	ideology = socialist_subtype
 	traits = {
