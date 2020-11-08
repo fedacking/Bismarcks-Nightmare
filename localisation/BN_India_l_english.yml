@@ -1,0 +1,20 @@
+﻿l_english:
+ ##Political Parties
+ IND_communist_party:0 "AIFB"
+ IND_communist_party_long:0 "All India Forward Bloc"
+ IND_socialist_party:0 "ILP"
+ IND_socialist_party_long:0 "Independent Labour Party"
+ IND_republican_liberal_party:0 "SP"
+ IND_republican_liberal_party_long:0 "Swaraj Party"
+ IND_liberal_conservative_party:0 "INC"
+ IND_liberal_conservative_party_long:0 "Indian National Congress"
+ IND_social_conservative_party:0 "CNP"
+ IND_social_conservative_party_long:0 "Congress Nationalist Party"
+ IND_semi_constitutionalist_party:0 "-"
+ IND_semi_constitutionalist_party_long:0 "-"
+ IND_absolutist_party:0 "-"
+ IND_absolutist_party_long:0 "-"
+ IND_despotist_party:0 "AKBHM"
+ IND_despotist_party_long:0 "Akhil Bhārat Hindū Mahāsabhā"
+ ## "Shiromani Akali Dal" para Sikhs?
+ ## Que hacer con "All-India Muslim League"?
