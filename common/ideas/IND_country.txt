@@ -1,0 +1,15 @@
+ideas = {
+	country = {	
+		##Eco
+		IND_idea_depression = {
+			picture = usa_great_depression_3
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.5
+				political_power_cost = 0.2
+				stability_factor  = -0.2
+				war_support_factor = -0.1
+			}
+		}
+	}
+}
