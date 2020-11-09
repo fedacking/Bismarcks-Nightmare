@@ -7,6 +7,7 @@ set_fuel_ratio = 0.3
 add_ideas = {
 	IND_idea_depression
 	free_speech
+	IND_idea_frequent_famines	
 }
 
 # Starting tech
