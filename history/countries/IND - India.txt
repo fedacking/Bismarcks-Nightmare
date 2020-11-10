@@ -5,10 +5,17 @@ oob = "IND_1936"
 set_fuel_ratio = 0.3
 
 add_ideas = {
-	IND_idea_depression
 	free_speech
-	IND_idea_frequent_famines	
+	IND_idea_frequent_famines
+	IND_idea_depression
 }
+
+set_variable = { IND_depression_consumer_goods = 0.3 }
+set_variable = { IND_depression_building_speed = -0.5 }
+set_variable = { IND_depression_pp_cost = 0.2 }
+set_variable = { IND_depression_stability_factor = -0.2 }
+set_variable = { IND_depression_war_support = -0.1 }
+add_dynamic_modifier = { modifier = IND_idea_depression }
 
 # Starting tech
 set_technology = {

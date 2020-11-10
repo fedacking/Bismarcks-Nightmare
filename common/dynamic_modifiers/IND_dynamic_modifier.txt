@@ -1,0 +1,13 @@
+
+IND_idea_depression = {
+	enable = {
+		tag = IND
+	}
+	icon = GFX_idea_usa_great_depression_3
+
+	consumer_goods_factor = IND_depression_consumer_goods
+	production_speed_buildings_factor = IND_depression_building_speed
+	political_power_cost = IND_depression_pp_cost
+	stability_factor = IND_depression_stability_factor
+	war_support_factor = IND_depression_war_support
+}

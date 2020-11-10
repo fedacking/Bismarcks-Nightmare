@@ -8,6 +8,9 @@ on_actions = {
 					days = 8
 				}
 			}
+			IND = {
+				remove_ideas = IND_idea_depression
+			}
 		}
 	}
 	

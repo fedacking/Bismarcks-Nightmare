@@ -14,30 +14,45 @@ focus_tree = {
     default = no
 	
 	focus = {
-		id = Open Mines in Chota Nagpur
+		id = IND_open_mines_in_chota_nagpur
 		icon = GFX_goal_purge_opposition
 		x = 1
 		y = 1
-		cost = 5
+		cost = 4
 		completion_reward = {
 			add_resource = {
 				type = steel
 				amount = 10
 				state = 435
 			}
+			add_to_variable = { IND_depression_pp_cost = -0.05 }
+			custom_effect_tooltip = IND_depression_pp_cost_reduction
 		}
 	}
 	
 	focus = {
-		id = Start Infrastructure Projects
+		id = IND_industrialisation_by_import_substitution
+		icon = GFX_goal_purge_opposition
+		x = 3
+		y = 1
+		cost = 1
+		completion_reward = {
+			add_to_variable = { IND_depression_building_speed = 0.25 }
+			add_to_variable = { IND_depression_pp_cost = -0.05 }
+			custom_effect_tooltip = IND_depression_building_speed
+			custom_effect_tooltip = IND_depression_pp_cost_reduction
+		}
+	}
+	
+	focus = {
+		id = IND_start_infrastructure_projects
 		icon = GFX_goal_purge_opposition
 		available = {
 			always = no 
 		}
-		x = 1
+		x = 5
 		y = 1
 		cost = 3
-		relative_position_id = 
 		completion_reward = {
 			432 = {
 				add_building_construction = {
@@ -60,6 +75,48 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_to_variable = { IND_depression_pp_cost = -0.05 }
+			custom_effect_tooltip = IND_depression_pp_cost_reduction
 		}
 	}
+	
+	focus = {
+		id = IND_light_industry_subsidies
+		icon = GFX_goal_purge_opposition
+		available = {
+			has_completed_focus = IND_industrialisation_by_import_substitution
+		}
+		x = -1
+		y = 2
+		cost = 2
+		relative_position_id = IND_industrialisation_by_import_substitution
+		completion_reward = {
+			add_to_variable = { IND_depression_consumer_goods = -0.1 }
+			add_to_variable = { IND_depression_pp_cost = -0.05 }
+			custom_effect_tooltip = IND_depression_consumer_goods
+			custom_effect_tooltip = IND_depression_pp_cost_reduction
+		}
+	}
+	
+	focus = {
+		id = IND_heavy_industry_subsidies
+		icon = GFX_goal_purge_opposition
+		available = {
+			has_completed_focus = IND_industrialisation_by_import_substitution
+		}
+		x = 1
+		y = 2
+		cost = 2
+		relative_position_id = IND_industrialisation_by_import_substitution
+		completion_reward = {
+			100 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+    }
 }
