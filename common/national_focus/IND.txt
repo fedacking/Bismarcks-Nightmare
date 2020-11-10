@@ -10,33 +10,56 @@ focus_tree = {
 		}
 	}
 	
+	continuous_focus_position = { x = 10000 y = 10 }
+    default = no
+	
 	focus = {
-		id = 
+		id = Open Mines in Chota Nagpur
 		icon = GFX_goal_purge_opposition
-		available = {
-			always = no 
-		}
 		x = 1
 		y = 1
-		cost = 10
+		cost = 5
 		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 10
+				state = 435
+			}
 		}
 	}
 	
 	focus = {
-		id = 
+		id = Start Infrastructure Projects
 		icon = GFX_goal_purge_opposition
 		available = {
 			always = no 
 		}
 		x = 1
 		y = 1
-		cost = 10
-		prerequisite = {
-			focus = 
-		}
+		cost = 3
 		relative_position_id = 
 		completion_reward = {
+			432 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			436 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			426 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 }
