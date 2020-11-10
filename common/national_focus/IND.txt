@@ -1,0 +1,42 @@
+focus_tree = {
+	id = india_rep_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = IND
+		}
+	}
+	
+	focus = {
+		id = 
+		icon = GFX_goal_purge_opposition
+		available = {
+			always = no 
+		}
+		x = 1
+		y = 1
+		cost = 10
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = 
+		icon = GFX_goal_purge_opposition
+		available = {
+			always = no 
+		}
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = 
+		}
+		relative_position_id = 
+		completion_reward = {
+		}
+	}
+}
