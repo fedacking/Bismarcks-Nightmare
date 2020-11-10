@@ -14,14 +14,15 @@ add_ideas = {
 	ARG_hog_rli_lisandro_de_la_torre
 	ARG_for_lco_marcelo_t_de_alvear
 	ARG_sec_rli_enzo_bordabehere
-	censored_press
+	free_speech
+	ARG_idea_depression
 	ARG_idea_captive_king
 	ARG_idea_overextended_colonial_empire
 	ARG_idea_jewish_immigration
 }
 
-set_stability = 0.2
-set_war_support = 0.5
+set_stability = 0.4
+set_war_support = 0.3
 set_research_slots = 4
 give_guarantee = RIO
 

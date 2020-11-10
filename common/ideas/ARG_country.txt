@@ -25,6 +25,17 @@ ideas = {
 				consumer_goods_factor = -0.2
 			}
 		}
+		ARG_idea_depression = {
+			picture = usa_great_depression_3
+			modifier = {
+				consumer_goods_factor = 0.25
+				production_speed_buildings_factor = -0.3
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				political_power_cost = 0.2
+				stability_factor  = -0.2
+			}
+		}
 		
 		## Colonial empire
 		ARG_idea_overextended_colonial_empire = {
