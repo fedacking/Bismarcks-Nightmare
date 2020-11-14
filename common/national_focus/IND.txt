@@ -133,12 +133,24 @@ focus_tree = {
 	
 	focus = {
 		id = IND_assault_engineers ## Research speed for engis
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_assault_engineers
 		x = 7
 		y = 1
 		cost = 5
 		completion_reward = {
-			
+			if = {
+				limit = { NOT = { has_tech = tech_engineers } }
+				set_technology = {
+					tech_engineers = 1
+				}
+			}
+			else = {
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					category = engineers_tech
+				}
+			}
 		}
     }
 	

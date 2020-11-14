@@ -339,4 +339,9 @@ spriteTypes = {
 		name = "GFX_goal_ARG_mend_the_ucr_schism"
 		texturefile = "gfx/interface/goals/goal_ARG_mend_the_ucr_schism.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_assault_engineers"
+		texturefile = "gfx/interface/goals/goal_assault_engineers.dds"
+	}
 }
