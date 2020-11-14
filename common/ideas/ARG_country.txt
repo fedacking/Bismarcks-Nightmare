@@ -43,6 +43,8 @@ ideas = {
 			modifier = {
 				supply_consumption_factor = 0.20
 				local_resources_factor = -0.10
+				compliance_gain = -0.2
+				resistance_target = 0.2
 			}
 		}
 		
