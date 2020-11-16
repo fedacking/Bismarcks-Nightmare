@@ -1,0 +1,113 @@
+focus_tree = {
+	id = hyderabad_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = HYD
+		}
+	}
+	
+	continuous_focus_position = { x = 10000 y = 10 }
+    default = no
+	
+	focus = {
+		id = HYD_secure_a_trade_deal
+		icon = GFX_goal_purge_opposition
+		x = 1
+		y = 1
+		cost = 5
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = HYD_improve_infrastructure
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_secure_a_trade_deal }
+		x = -2
+		y = 1
+		cost = 4
+		relative_position_id = HYD_secure_a_trade_deal
+		completion_reward = {
+			427 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			429 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = HYD_tackle_the_crisis
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_secure_a_trade_deal }
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = HYD_secure_a_trade_deal
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_the_benefits_of_trade
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_secure_a_trade_deal }
+		x = 2
+		y = 1
+		cost = 1
+		relative_position_id = HYD_secure_a_trade_deal
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+	}
+	
+	focus = {
+		id = HYD_reform_the_economy
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_improve_infrastructure }
+		prerequisite = { focus = HYD_tackle_the_crisis }
+		prerequisite = { focus = HYD_the_benefits_of_trade }
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = HYD_tackle_the_crisis
+		mutually_exclusive = {
+			focus = HYD_protect_our_traditional_practices
+		}
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_protect_our_traditional_practices
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_improve_infrastructure }
+		prerequisite = { focus = HYD_tackle_the_crisis }
+		prerequisite = { focus = HYD_the_benefits_of_trade }
+		x = 1
+		y = 1
+		cost = 1
+		relative_position_id = HYD_tackle_the_crisis
+		mutually_exclusive = {
+			focus = HYD_reform_the_economy
+		}
+		completion_reward = {
+
+		}
+	}
