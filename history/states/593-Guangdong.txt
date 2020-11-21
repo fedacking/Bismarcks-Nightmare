@@ -1,17 +1,20 @@
-state= {
-	id=593
-	name="STATE_593"
-	manpower = 12700000
-	state_category = town
-	resources={
+state = {
+	id = 593
+	name = "STATE_593"
+	manpower = 13843516
+	state_category = wasteland
+	resources = {
 		tungsten=15 # was: 20
 		steel= 15 # was: 20
 		chromium = 3 # was: 4
 	}
 
-	history= {
+	history = {
 		owner = QIN
 		add_core_of = QIN
+		victory_points = {
+			10062 3 
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -22,7 +25,7 @@ state= {
 			}
 		}
 	}
-	provinces={
-		1078 1120 1162 1202 4050 4165 4207 7067 7108 7141 7182 9938 9970 9978 9997 10080 12014 12095 
+	provinces = {
+		1078 1120 1162 1202 4050 4165 4207 7067 7108 7141 7182 9938 9970 9978 9997 10062 10080 12014 12095 
 	}
 }

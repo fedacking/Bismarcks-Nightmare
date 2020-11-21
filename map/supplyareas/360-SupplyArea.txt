@@ -1,8 +1,9 @@
+
 supply_area={
 	id=360
 	name="SUPPLYAREA_360"
-	value=6
+	value=7
 	states={
-		803 804 805 807
+		803 804 805 807 
 	}
 }

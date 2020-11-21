@@ -1,0 +1,16 @@
+state = {
+	id = 326
+	name = "STATE_326"
+	manpower = 13426
+	state_category = wasteland
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		13083 13240 13241
+	}
+}
