@@ -1,0 +1,16 @@
+state = {
+	id = 537
+	name = "STATE_537"
+	manpower = 0
+	state_category = pastoral
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		13243 13244
+	}
+}
