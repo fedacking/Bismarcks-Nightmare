@@ -49,3 +49,7 @@
  USA_reduce_the_bureaucracy_desc:0 "'What is the first thing that comes to your mind when I say the word inneficient?' Asks the Secretary of the Treasury to the president. Without waiting for the president's response the Secretary answers his own question: 'Bureaucracy. And why not a kill two birds with one stone?'. Once we reduce bureaucratic processes we'll be able to fire a lot of now unnecessary government officials."
  USA_loosen_border_control:0 "Loosen Border Control"
  USA_loosen_border_control_desc:0 "It's not that we don't think that keeping illegals out is not important, but actively looking for them is proving to be quite expensive. In an effort to reduce government spending we will begin defunding the INS."
+ 
+ ## Decision Categories ##
+ USA_great_depression_cat:0 "The Great Depression"
+ USA_great_depression_cat_desc:0 "The Great Depression is currently §Rfucking our country.§!"

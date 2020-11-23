@@ -13,3 +13,15 @@ AUS_dec_cat_the_hungarian_government = {
 		always = yes
 	}
 }
+
+AUS_dec_cat_the_status_of_minorities = {
+	icon = eng_appeal_to_imperial_loyalists #PHolder
+	picture = GFX_decision_cat_pictures_kuk_minorities
+	visible_when_empty = yes
+	allowed = {
+		tag = AUS
+	}
+	visible = {
+		always = yes
+	}
+}

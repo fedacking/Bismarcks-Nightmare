@@ -60,11 +60,21 @@ spriteTypes = {
 	
 	### ZZZ
 
-	# Foreign Infleunce
+	# Foreign Infleunce - FRA
 
 	SpriteType = {
 		name = "GFX_idea_FRA_mild_foreign_influence"
 		texturefile = "gfx/interface/ideas/idea_FRA_mild_foreign_influence.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_FRA_sizable_foreign_influence"
+		texturefile = "gfx/interface/ideas/idea_FRA_sizable_foreign_influence.dds"
+	}
+ 
+	SpriteType = {
+		name = "GFX_idea_FRA_strong_foreign_influence"
+		texturefile = "gfx/interface/ideas/idea_FRA_strong_foreign_influence.dds"
 	}
 
 }

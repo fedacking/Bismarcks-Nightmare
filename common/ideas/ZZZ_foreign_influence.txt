@@ -4,7 +4,7 @@ ideas = {
 		## France Foreign Influence
 	
 		FRA_strong_foreign_influence = {
-			picture = FRA_mild_foreign_influence
+			picture = FRA_strong_foreign_influence
 			modifier = {
 			}
 			cancel = { 
@@ -13,7 +13,7 @@ ideas = {
 		}
 		
 		FRA_sizable_foreign_influence = {
-			picture = FRA_mild_foreign_influence
+			picture = FRA_sizable2_foreign_influence
 			modifier = {
 			}
 			cancel = { 

@@ -6,4 +6,15 @@ spriteTypes = {
 		name = "GFX_decision_cat_pictures_rga_stability"
 		texturefile = "gfx/interface/decisions/decision_cat_pictures_rga_stability.dds"
 	}
+
+	spriteType = {
+		name = "GFX_decision_cat_pictures_kuk_minorities"
+		texturefile = "gfx/interface/decisions/decision_cat_pictures_kuk_minorities.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_pictures_dollar_bill"
+		texturefile = "gfx/interface/decisions/decision_cat_pictures_dollar_bill.dds"
+	}
+
 }

@@ -12,3 +12,15 @@ USA_works_project_administration_cat = {
 		has_completed_focus = USA_give_jobs_to_the_people
 	}
 }
+
+USA_great_depression_cat = {
+	icon = eng_organize_the_blackshirts #PHolder
+	picture = GFX_decision_cat_pictures_dollar_bill
+	visible_when_empty = yes
+	allowed = {
+		tag = USA
+	}
+	visible = {
+		always = yes
+	}
+}
