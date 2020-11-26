@@ -2,6 +2,22 @@
 ##### USA ######
 ################
 
+USA_political_situation_cat = {
+
+	icon = usa_congress #PHolder
+	visible_when_empty = yes
+
+	scripted_gui = us_congress_decision_ui	
+	
+	allowed = {
+		tag = USA
+	}
+	visible = {
+		always = yes
+	}
+
+}
+
 USA_works_project_administration_cat = {
 	icon = eng_organize_the_blackshirts #PHolder
 	picture = GFX_decision_cat_picture_organize_the_blackshirts	#PHolder

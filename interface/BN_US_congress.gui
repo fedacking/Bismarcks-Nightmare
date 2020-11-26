@@ -1,0 +1,33 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "us_congress_decision_ui_window"
+		size = { width = 100% height = 400 }
+
+		buttonType = {
+			name = "us_congress_map_button"
+			position = { x = 7 y = -17 }
+			quadTextureSprite = "GFX_USA_map_button"
+		}
+	}
+
+	containerWindowType = {
+		name = "us_congress_map_ui_window"
+		size = { width = 1100 height = 700 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			position = { x = 0 y = -1 }
+			quadTextureSprite = "GFX_tiled_decisions_bg_small"
+			clicksound = click_default
+		}
+
+		buttonType = {
+			name = "us_congress_map_button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_USA_pacific"
+		}
+	}
+
+}

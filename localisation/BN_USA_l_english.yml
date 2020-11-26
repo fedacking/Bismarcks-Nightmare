@@ -20,9 +20,11 @@
  #ideas
  USA_nativism:0 "Strong Nativism"
  
- ### Decisions ###
+ ## Decision Categories ##
+ USA_political_situation_cat:0 "The Voice of the People"
  
- ## Categories
  USA_works_project_administration_cat:0 "Works Projects Administration"
  
+ USA_great_depression_cat:0 "The Great Depression"
+ USA_great_depression_cat_desc:0 "The Great Depression is currently §Rfucking our country.§!"
  ## Decisions

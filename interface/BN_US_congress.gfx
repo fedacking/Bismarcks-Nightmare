@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_USA_map_button"
+		texturefile = "gfx/Scripted GUI/US Congress/USA_map_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_USA_pacific"
+		texturefile = "gfx/Scripted GUI/US Congress/USA_map_pacific.dds"
+	}
+
+}

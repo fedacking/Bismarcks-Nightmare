@@ -1,0 +1,25 @@
+scripted_gui = {
+
+	us_congress_decision_ui = {
+		context_type = decision_category
+		window_name = "us_congress_decision_ui_window"
+        
+        effects = {
+            us_congress_map_button_click = {
+                set_country_flag = US_congress_map_flag
+            }
+        }
+	}
+
+	us_congress_map_ui = {
+		context_type = player_context
+		window_name = "us_congress_map_ui_window"
+		parent_window_token = decision_category
+
+		visible = {
+			has_country_flag = US_congress_map_flag
+		}
+	}
+	
+}
+
