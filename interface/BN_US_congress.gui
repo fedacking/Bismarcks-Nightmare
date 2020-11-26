@@ -13,8 +13,20 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "us_congress_map_ui_window"
-		size = { width = 1100 height = 700 }
+		size = { width = 1100 height = 720 }
+		position = { x = 540 y = 160 }
 		moveable = yes
+
+		# Close Button
+		buttonType = {
+			name = "us_congress_map_ui_close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 1061 y = 7 }
+
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
 		
 		background = {
 			name = "Background"
@@ -25,7 +37,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "us_congress_map_button"
-			position = { x = 0 y = 0 }
+			position = { x = 10 y = 10 }
 			quadTextureSprite = "GFX_USA_pacific"
 		}
 	}

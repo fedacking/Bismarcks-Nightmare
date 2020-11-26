@@ -3,12 +3,21 @@ scripted_gui = {
 	us_congress_decision_ui = {
 		context_type = decision_category
 		window_name = "us_congress_decision_ui_window"
-        
-        effects = {
-            us_congress_map_button_click = {
-                set_country_flag = US_congress_map_flag
-            }
-        }
+
+		effects = {
+			us_congress_map_button_click = {
+				set_country_flag = US_congress_map_flag
+				set_variable = { us_congress_fuck_x = -2 }
+				set_variable = { us_congress_fuck_y = -17 }
+			}
+		}
+
+		properties = {
+			us_congress_map_button = {
+				x = us_congress_fuck_x
+				y = us_congress_fuck_y
+			}
+		}
 	}
 
 	us_congress_map_ui = {
@@ -18,6 +27,12 @@ scripted_gui = {
 
 		visible = {
 			has_country_flag = US_congress_map_flag
+		}
+
+		effects = {
+			us_congress_map_ui_close_button_click = {
+				clr_country_flag = US_congress_map_flag
+			}
 		}
 	}
 	

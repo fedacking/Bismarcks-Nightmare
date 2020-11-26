@@ -1,0 +1,11 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			USA = {
+				USA_elections_startup_effect = yes
+			}
+		}
+	}
+
+}
