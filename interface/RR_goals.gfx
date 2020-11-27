@@ -344,4 +344,9 @@ spriteTypes = {
 		name = "GFX_goal_assault_engineers"
 		texturefile = "gfx/interface/goals/goal_assault_engineers.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_great_compromise"
+		texturefile = "gfx/interface/goals/goal_FRA_great_compromise.dds"
+	}
 }

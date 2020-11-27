@@ -258,7 +258,7 @@ focus_tree = {
 		prerequisite = { focus = FRA_the_specter_of_revolution }
 		prerequisite = { focus = FRA_the_emperor_and_the_radio }
 		prerequisite = { focus = FRA_trust_the_guard }
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_goal_FRA_great_compromise
 		relative_position_id = FRA_the_emperor_and_the_radio
 		x = 0
 		y = 1

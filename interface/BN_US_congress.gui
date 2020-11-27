@@ -14,7 +14,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "us_congress_map_ui_window"
 		size = { width = 1100 height = 720 }
-		position = { x = 540 y = 160 }
+		position = { x = 539 y = 120 }
 		moveable = yes
 
 		# Close Button
