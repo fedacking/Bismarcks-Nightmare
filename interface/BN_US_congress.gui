@@ -1,13 +1,49 @@
 guiTypes = {
 
 	containerWindowType = {
+		name = "us_congress_flaxbeard"
+		position = { x = 0 y = 0 }
+
+		iconType = { 
+			name = "us_congress_dot_icon"
+			quadTextureSprite = "GFX_USA_congress_seat_sprite"
+			pdx_tooltip = "Test"
+		}
+	}
+
+	containerWindowType = {
 		name = "us_congress_decision_ui_window"
-		size = { width = 100% height = 400 }
+		size = { width = 100% height = 500 }
 
 		buttonType = {
 			name = "us_congress_map_button"
 			position = { x = 7 y = -17 }
 			quadTextureSprite = "GFX_USA_map_button"
+		}
+		
+		gridboxtype = {
+			name = "us_congress_diagram"
+			position = { x = 2 y = 275 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 100%% height = 0 }
+			max_slots_horizontal = 1
+			add_horizontal = no
+		}
+		
+		instantTextBoxType = {
+			name = "us_congress_textbox"
+			position = { x = 2 y = 235 }
+			maxWidth = 490
+			maxHeight = 235
+			text = us_congress_textbox_desc
+		}
+		
+		instantTextBoxType = {
+			name = "us_congress_representatives_textbox"
+			position = { x = 335 y = 275 }
+			maxWidth = 180
+			maxHeight = 235
+			text = us_congress_house_desc
 		}
 	}
 

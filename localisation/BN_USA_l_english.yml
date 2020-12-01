@@ -22,6 +22,8 @@
  
  ## Decision Categories ##
  USA_political_situation_cat:0 "The Voice of the People"
+ us_congress_textbox_desc:0 "The House of Representatives is the true voice of the people, a legislative body rash and tempestuous, much like the will of the nation."
+ us_congress_house_desc:0 "In the House, there are currently:\n\n[?USA_R_P_representatives] §RProgressive Republicans§!\n[?USA_R_C_representatives] §OCenter Republicans§!\n[?USA_D_L_representatives] §YLiberal Democrats§!\n[?USA_D_K_representatives] §CKnow-Nothing Democrats§!"
  
  USA_works_project_administration_cat:0 "Works Projects Administration"
  

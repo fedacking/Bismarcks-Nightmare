@@ -3,6 +3,15 @@ scripted_gui = {
 	us_congress_decision_ui = {
 		context_type = decision_category
 		window_name = "us_congress_decision_ui_window"
+		
+		dynamic_lists = {
+			us_congress_diagram = {
+				array = x_usa_congress
+				change_scope = no
+				entry_container = us_congress_flaxbeard
+				index = seat_idx
+			}
+		}
 
 		effects = {
 			us_congress_map_button_click = {
@@ -16,6 +25,14 @@ scripted_gui = {
 			us_congress_map_button = {
 				x = us_congress_fuck_x
 				y = us_congress_fuck_y
+			}
+			us_congress_diagram = {
+				x = us_congress_fuck_x
+			}
+			us_congress_dot_icon = {
+				x = x_usa_congress^seat_idx
+				y = y_usa_congress^seat_idx
+				frame = frame_usa_congress^seat_idx
 			}
 		}
 	}
