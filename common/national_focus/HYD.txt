@@ -16,7 +16,7 @@ focus_tree = {
 	focus = {
 		id = HYD_secure_a_trade_deal
 		icon = GFX_goal_purge_opposition
-		x = 1
+		x = 10
 		y = 1
 		cost = 5
 		completion_reward = {
@@ -77,17 +77,66 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = HYD_reform_the_economy
+		id = HYD_talks_of_reform
 		icon = GFX_goal_purge_opposition
 		prerequisite = { focus = HYD_improve_infrastructure }
 		prerequisite = { focus = HYD_tackle_the_crisis }
 		prerequisite = { focus = HYD_the_benefits_of_trade }
-		x = -1
+		x = 0
 		y = 1
 		cost = 1
 		relative_position_id = HYD_tackle_the_crisis
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_the_diamonds_of_golconda
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_talks_of_reform }
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = HYD_talks_of_reform
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_golconda_will_pay_for_factories
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_the_diamonds_of_golconda }
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = HYD_the_diamonds_of_golconda
 		mutually_exclusive = {
-			focus = HYD_protect_our_traditional_practices
+			focus = HYD_subsidize_noble_estates
+		}
+		completion_reward = {
+			427 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = HYD_subsidize_noble_estates
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_the_diamonds_of_golconda }
+		x = 1
+		y = 1
+		cost = 1
+		relative_position_id = HYD_the_diamonds_of_golconda
+		mutually_exclusive = {
+			focus = HYD_golconda_will_pay_for_factories
 		}
 		completion_reward = {
 
@@ -95,18 +144,112 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = HYD_protect_our_traditional_practices
+		id = HYD_the_matter_of_agriculture
 		icon = GFX_goal_purge_opposition
-		prerequisite = { focus = HYD_improve_infrastructure }
-		prerequisite = { focus = HYD_tackle_the_crisis }
-		prerequisite = { focus = HYD_the_benefits_of_trade }
+		prerequisite = { focus = HYD_talks_of_reform }
+		x = -4
+		y = 1
+		cost = 1
+		relative_position_id = HYD_talks_of_reform
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_invest_in_hyderabadi_cotton
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_the_matter_of_agriculture }
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = HYD_the_matter_of_agriculture
+		mutually_exclusive = {
+			focus = HYD_invest_in_maharashtran_rice
+		}
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_invest_in_maharashtran_rice
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_the_matter_of_agriculture }
 		x = 1
 		y = 1
 		cost = 1
-		relative_position_id = HYD_tackle_the_crisis
+		relative_position_id = HYD_the_matter_of_agriculture
 		mutually_exclusive = {
-			focus = HYD_reform_the_economy
+			focus = HYD_invest_in_hyderabadi_cotton
 		}
+		completion_reward = {
+			#Reduce famine penalties
+		}
+	}
+	
+	focus = {
+		id = HYD_placeholder
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_talks_of_reform }
+		x = 4
+		y = 1
+		cost = 1
+		relative_position_id = HYD_talks_of_reform
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = HYD_develop_mumbai_textiles
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_placeholder }
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = HYD_placeholder
+		mutually_exclusive = {
+			focus = HYD_expand_agricultural_protectionism
+		}
+		completion_reward = {
+			429 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = HYD_expand_agricultural_protectionism
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_placeholder }
+		x = 1
+		y = 1
+		cost = 1
+		relative_position_id = HYD_placeholder
+		mutually_exclusive = {
+			focus = HYD_develop_mumbai_textiles
+		}
+		completion_reward = {
+			#Reduces unrest
+		}
+	}
+	
+	focus = {
+		id = HYD_the_nizams_fortune
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_invest_in_hyderabadi_cotton OR = HYD_invest_in_maharashtran_rice }
+		prerequisite = { focus = HYD_golconda_will_pay_for_factories OR = HYD_subsidize_noble_estates }
+		prerequisite = { focus = HYD_develop_mumbai_textiles OR = HYD_expand_agricultural_protectionism }
+		x = 0
+		y = 3
+		cost = 1
+		relative_position_id = HYD_talks_of_reform
 		completion_reward = {
 
 		}
