@@ -8,6 +8,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_USA_pacific"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_map_pacific.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_USA_rockies"
+		texturefile = "gfx/Scripted GUI/US Congress/USA_map_rockies.dds"
+		noOfFrames = 4
 	}
 
 	spriteType = {

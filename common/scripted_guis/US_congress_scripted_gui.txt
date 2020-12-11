@@ -18,6 +18,7 @@ scripted_gui = {
 				set_country_flag = US_congress_map_flag
 				set_variable = { us_congress_fuck_x = -2 }
 				set_variable = { us_congress_fuck_y = -17 }
+				set_variable = { us_congress_text_fuck_x = -50 }
 			}
 		}
 
@@ -25,9 +26,6 @@ scripted_gui = {
 			us_congress_map_button = {
 				x = us_congress_fuck_x
 				y = us_congress_fuck_y
-			}
-			us_congress_diagram = {
-				x = us_congress_fuck_x
 			}
 			us_congress_dot_icon = {
 				x = x_usa_congress^seat_idx
@@ -49,6 +47,15 @@ scripted_gui = {
 		effects = {
 			us_congress_map_ui_close_button_click = {
 				clr_country_flag = US_congress_map_flag
+			}
+		}
+
+		properties = {
+			us_congress_map_pacific = {
+				frame = USA_party_controls_pacific
+			}
+			us_congress_map_rockies = {
+				frame = USA_party_controls_rockies
 			}
 		}
 	}

@@ -40,6 +40,9 @@ USA_elections_startup_effect = {
 	set_variable = { us_congress_fuck_x = 7 }
 	set_variable = { us_congress_fuck_y = -17 }
 	
+	set_variable = { USA_party_controls_pacific = 4 }
+	set_variable = { USA_party_controls_rockies = 3 }
+	
 	set_variable = { USA_R_P_senators = 11 }
 	set_variable = { USA_R_C_senators = 29 }
 	set_variable = { USA_D_L_senators = 25 }
