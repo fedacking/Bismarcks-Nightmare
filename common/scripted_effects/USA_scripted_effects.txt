@@ -42,6 +42,8 @@ USA_elections_startup_effect = {
 	
 	set_variable = { USA_party_controls_pacific = 4 }
 	set_variable = { USA_party_controls_rockies = 3 }
+	set_variable = { USA_party_controls_great_plains = 2 }
+	set_variable = { USA_party_controls_great_lakes = 1 }
 	
 	set_variable = { USA_R_P_senators = 11 }
 	set_variable = { USA_R_C_senators = 29 }

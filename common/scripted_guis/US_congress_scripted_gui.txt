@@ -57,6 +57,12 @@ scripted_gui = {
 			us_congress_map_rockies = {
 				frame = USA_party_controls_rockies
 			}
+			us_congress_map_great_plains = {
+				frame = USA_party_controls_great_plains
+			}
+			us_congress_map_great_lakes = {
+				frame = USA_party_controls_great_lakes
+			}
 		}
 	}
 	

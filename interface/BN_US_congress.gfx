@@ -18,6 +18,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_USA_map_great_plains"
+		texturefile = "gfx/Scripted GUI/US Congress/USA_map_great_plains.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_USA_map_great_lakes"
+		texturefile = "gfx/Scripted GUI/US Congress/USA_map_great_lakes.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
 		name = "GFX_USA_congress_seat_sprite"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_congress_seat_sprite.dds"
 		noOfFrames = 4

@@ -72,6 +72,18 @@ guiTypes = {
 		}
 
 		buttonType = {
+			name = "us_congress_map_great_lakes"
+			position = { x = 585 y = 100 }
+			quadTextureSprite = "GFX_USA_map_great_lakes"
+		}
+
+		buttonType = {
+			name = "us_congress_map_great_plains"
+			position = { x = 380 y = 63 }
+			quadTextureSprite = "GFX_USA_map_great_plains"
+		}
+
+		buttonType = {
 			name = "us_congress_map_rockies"
 			position = { x = 81 y = 33 }
 			quadTextureSprite = "GFX_USA_rockies"
