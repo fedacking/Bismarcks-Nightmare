@@ -72,15 +72,9 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "us_congress_map_great_lakes"
-			position = { x = 585 y = 100 }
-			quadTextureSprite = "GFX_USA_map_great_lakes"
-		}
-
-		buttonType = {
-			name = "us_congress_map_great_plains"
-			position = { x = 380 y = 63 }
-			quadTextureSprite = "GFX_USA_map_great_plains"
+			name = "us_congress_map_pacific"
+			position = { x = 10 y = 10 }
+			quadTextureSprite = "GFX_USA_pacific"
 		}
 
 		buttonType = {
@@ -90,9 +84,33 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "us_congress_map_pacific"
-			position = { x = 10 y = 10 }
-			quadTextureSprite = "GFX_USA_pacific"
+			name = "us_congress_map_great_plains"
+			position = { x = 380 y = 63 }
+			quadTextureSprite = "GFX_USA_map_great_plains"
+		}
+
+		buttonType = {
+			name = "us_congress_map_great_lakes"
+			position = { x = 585 y = 100 }
+			quadTextureSprite = "GFX_USA_map_great_lakes"
+		}
+
+		buttonType = {
+			name = "us_congress_map_deep_south"
+			position = { x = 387 y = 363 }
+			quadTextureSprite = "GFX_USA_map_deep_south"
+		}
+
+		buttonType = {
+			name = "us_congress_map_upper_south"
+			position = { x = 644 y = 255 }
+			quadTextureSprite = "GFX_USA_map_upper_south"
+		}
+
+		buttonType = {
+			name = "us_congress_map_east_coast"
+			position = { x = 812 y = 125 }
+			quadTextureSprite = "GFX_USA_map_east_coast"
 		}
 	}
 
