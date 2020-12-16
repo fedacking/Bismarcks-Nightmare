@@ -97,7 +97,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "us_congress_map_deep_south"
-			position = { x = 387 y = 363 }
+			position = { x = 388 y = 362 }
 			quadTextureSprite = "GFX_USA_map_deep_south"
 		}
 
