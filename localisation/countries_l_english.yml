@@ -1829,6 +1829,7 @@
  SGC_despotist:0 "South German Reich"
  SGC_despotist_DEF:0 "the South German Reich"
  SGC_despotist_ADJ:0 "South German"
+ 
  HOH_semi_constitutionalist:0 "Kingdom of Brandenburg"
  HOH_semi_constitutionalist_DEF:0 "the Kingdom of Brandenburg"
  HOH_semi_constitutionalist_ADJ:0 "Brandenburger"
@@ -1838,6 +1839,11 @@
  HOH_despotist:0 "Eastern German Reich"
  HOH_despotist_DEF:0 "the Eastern German Reich"
  HOH_despotist_ADJ:0 "Eastern German"
+ 
+ PRR_despotist:0 "Prussian State"
+ PRR_despotist_DEF:0 "the Prussian State"
+ PRR_despotist_ADJ:0 "Prussian"
+ 
  SCA_semi_constitutionalist:0 "Congress of Scandinavia"
  SCA_semi_constitutionalist_DEF:0 "the Congress of Scandinavia"
  SCA_semi_constitutionalist_ADJ:0 "Scandinavian"

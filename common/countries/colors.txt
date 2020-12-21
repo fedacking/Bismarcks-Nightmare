@@ -71,6 +71,10 @@ HOH = {
 	color = rgb { 135 169 107 }
 	color_ui = rgb { 135 169 107 }
 }
+PRR = {
+	color = rgb { 0  61  93 }
+	color_ui = rgb { 0  61  93 }
+}
 SCA = {
 	color = rgb { 36 100 247 }
 	color_ui = rgb { 47 172 255 }

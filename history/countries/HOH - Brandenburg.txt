@@ -102,11 +102,11 @@ set_war_support = 0.7
 
 
 set_popularities = {
-	despotist = 2
-	absolutist = 66
-	semi_constitutionalist = 10
-	social_conservative = 12
-	liberal_conservative = 10
+	despotist = 0
+	absolutist = 100
+	semi_constitutionalist = 0
+	social_conservative = 0
+	liberal_conservative = 0
 	republican_liberal = 0
 	communist = 0
 	socialist = 0
@@ -199,23 +199,12 @@ create_country_leader = {
 create_country_leader = {
 	name = "Erich Ludendorff"
 	desc = "POLITICS_ERICH_LUDENDORFF_DESC"
-	picture = "gfx/leaders/HOH/HOH_Portrait_Leader_Erich_Ludendorff.tga" #Place holder, need a better edited portrait for him.
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
 	expire = "1965.1.1"
 	ideology = despotism_subtype
 	traits = {
 		#
 	}
-}
-
-create_field_marshal = {
-	name = "Erich Ludendorff"
-	picture = "HOH_Portrait_Leader_Erich_Ludendorff.tga"
-	traits = { old_guard brilliant_strategist politically_connected offensive_doctrine logistics_wizard } #Place holder, need a better edited portrait for him.
-	skill = 6
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 6
-	logistics_skill = 4
 }
 
 create_field_marshal = {
