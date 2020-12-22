@@ -11,6 +11,12 @@ scripted_gui = {
 				entry_container = us_congress_flaxbeard
 				index = seat_idx
 			}
+			us_senate_diagram = {
+				array = y_usa_senate
+				change_scope = no
+				entry_container = us_senate_flaxbeard
+				index = seat_idx
+			}
 		}
 
 		effects = {
@@ -32,6 +38,11 @@ scripted_gui = {
 				y = y_usa_congress^seat_idx
 				frame = frame_usa_congress^seat_idx
 			}
+			us_senate_dot_icon = {
+				x = x_usa_senate^seat_idx
+				y = y_usa_senate^seat_idx
+				frame = frame_usa_senate^seat_idx
+			}
 		}
 	}
 
@@ -47,6 +58,31 @@ scripted_gui = {
 		effects = {
 			us_congress_map_ui_close_button_click = {
 				clr_country_flag = US_congress_map_flag
+				set_variable = { us_congress_selected_region = USA.id }
+			}
+			us_congress_map_pacific_click = {
+				set_variable = { us_congress_selected_region = 378.id }
+			}
+			us_congress_map_rockies_click = {
+				set_variable = { us_congress_selected_region = 381.id }
+			}
+			us_congress_map_great_plains_click = {
+				set_variable = { us_congress_selected_region = 392.id }
+			}
+			us_congress_map_great_lakes_click = {
+				set_variable = { us_congress_selected_region = 393.id }
+			}
+			us_congress_map_deep_south_click = {
+				set_variable = { us_congress_selected_region = 367.id }
+			}
+			us_congress_map_upper_south_click = {
+				set_variable = { us_congress_selected_region = 362.id }
+			}
+			us_congress_map_east_coast_click = {
+				set_variable = { us_congress_selected_region = 360.id }
+			}
+			us_congress_map_new_england_click = {
+				set_variable = { us_congress_selected_region = 357.id }
 			}
 		}
 
@@ -71,6 +107,9 @@ scripted_gui = {
 			}
 			us_congress_map_east_coast = {
 				frame = USA_party_controls_east_coast
+			}
+			us_congress_map_new_england = {
+				frame = USA_party_controls_new_england
 			}
 		}
 	}

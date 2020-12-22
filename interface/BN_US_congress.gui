@@ -7,13 +7,24 @@ guiTypes = {
 		iconType = { 
 			name = "us_congress_dot_icon"
 			quadTextureSprite = "GFX_USA_congress_seat_sprite"
-			pdx_tooltip = "Test"
+		}
+	}
+	
+
+	containerWindowType = {
+		name = "us_senate_flaxbeard"
+		position = { x = 0 y = 0 }
+
+		iconType = { 
+			name = "us_senate_dot_icon"
+			quadTextureSprite = "GFX_USA_senate_seat_sprite"
+			scale = 1
 		}
 	}
 
 	containerWindowType = {
 		name = "us_congress_decision_ui_window"
-		size = { width = 100% height = 500 }
+		size = { width = 100% height = 650 }
 
 		buttonType = {
 			name = "us_congress_map_button"
@@ -23,7 +34,7 @@ guiTypes = {
 		
 		gridboxtype = {
 			name = "us_congress_diagram"
-			position = { x = 7 y = 275 }
+			position = { x = 2 y = 275 }
 			size = { width = 100%% height = 100%% }
 			slotsize = { width = 100%% height = 0 }
 			max_slots_horizontal = 1
@@ -32,7 +43,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "us_congress_textbox"
-			position = { x = 9 y = 235 }
+			position = { x = 4 y = 235 }
 			maxWidth = 490
 			maxHeight = 235
 			text = us_congress_textbox_desc
@@ -40,16 +51,25 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "us_congress_representatives_textbox"
-			position = { x = 342 y = 275 }
+			position = { x = 337 y = 275 }
 			maxWidth = 180
 			maxHeight = 235
 			text = us_congress_house_desc
+		}
+		
+		gridboxtype = {
+			name = "us_senate_diagram"
+			position = { x = 2 y = 500 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 100%% height = 0 }
+			max_slots_horizontal = 1
+			add_horizontal = no
 		}
 	}
 
 	containerWindowType = {
 		name = "us_congress_map_ui_window"
-		size = { width = 1100 height = 720 }
+		size = { width = 1315 height = 700 }
 		position = { x = 539 y = 120 }
 		moveable = yes
 
@@ -57,8 +77,8 @@ guiTypes = {
 		buttonType = {
 			name = "us_congress_map_ui_close_button"
 			spriteType = "GFX_closebutton"
-			position = { x = 1061 y = 7 }
-
+			position = { x = -40 y = 7 }
+			orientation = UPPER_RIGHT
 			shortcut = "ESCAPE"
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
@@ -70,47 +90,66 @@ guiTypes = {
 			quadTextureSprite = "GFX_tiled_decisions_bg_small"
 			clicksound = click_default
 		}
+		
+		## Map Region Buttons
 
 		buttonType = {
 			name = "us_congress_map_pacific"
-			position = { x = 10 y = 10 }
+			position = { x = 10 y = 40 }
 			quadTextureSprite = "GFX_USA_pacific"
 		}
 
 		buttonType = {
 			name = "us_congress_map_rockies"
-			position = { x = 81 y = 33 }
+			position = { x = 81 y = 63 }
 			quadTextureSprite = "GFX_USA_rockies"
 		}
 
 		buttonType = {
 			name = "us_congress_map_great_plains"
-			position = { x = 380 y = 63 }
+			position = { x = 380 y = 93 }
 			quadTextureSprite = "GFX_USA_map_great_plains"
 		}
 
 		buttonType = {
 			name = "us_congress_map_great_lakes"
-			position = { x = 585 y = 100 }
+			position = { x = 585 y = 130 }
 			quadTextureSprite = "GFX_USA_map_great_lakes"
 		}
 
 		buttonType = {
 			name = "us_congress_map_deep_south"
-			position = { x = 388 y = 362 }
+			position = { x = 388 y = 392 }
 			quadTextureSprite = "GFX_USA_map_deep_south"
 		}
 
 		buttonType = {
 			name = "us_congress_map_upper_south"
-			position = { x = 644 y = 255 }
+			position = { x = 644 y = 285 }
 			quadTextureSprite = "GFX_USA_map_upper_south"
 		}
 
 		buttonType = {
+			name = "us_congress_map_new_england"
+			position = { x = 895 y = 6 }
+			quadTextureSprite = "GFX_USA_map_new_england"
+		}
+
+		buttonType = {
 			name = "us_congress_map_east_coast"
-			position = { x = 812 y = 125 }
+			position = { x = 812 y = 155 }
 			quadTextureSprite = "GFX_USA_map_east_coast"
+		}
+		
+		## Display Representatives
+		
+		instantTextBoxType = {
+			name = "us_congress_representatives_map_textbox"
+			position = { x = 970 y = 265 }
+			maxWidth = 350
+			maxHeight = 600
+			text = us_congress_representatives_map_textbox_desc
+			font = vic_36
 		}
 	}
 

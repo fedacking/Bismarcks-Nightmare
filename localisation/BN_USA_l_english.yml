@@ -29,4 +29,7 @@
  
  USA_great_depression_cat:0 "The Great Depression"
  USA_great_depression_cat_desc:0 "The Great Depression is currently §Rfucking our country.§!"
+ 
+ us_congress_representatives_map_textbox_desc:0 "[USA_electoral_regions_sl]\nRepresentatives:\n[?us_congress_selected_region:USA_R_P_representatives] §RProgressive Republicans§!\n[?us_congress_selected_region:USA_R_C_representatives] §OCenter Republicans§!\n[?us_congress_selected_region:USA_D_L_representatives] §YLiberal Democrats§!\n[?us_congress_selected_region:USA_D_K_representatives] §CKnow-Nothing Democrats§!\nSenators:\n[?us_congress_selected_region:USA_R_P_senators] §RProgressive Republicans§!\n[?us_congress_selected_region:USA_R_C_senators] §OCenter Republicans§!\n[?us_congress_selected_region:USA_D_L_senators] §YLiberal Democrats§!\n[?us_congress_selected_region:USA_D_K_senators] §CKnow-Nothing Democrats§!"
+ 
  ## Decisions

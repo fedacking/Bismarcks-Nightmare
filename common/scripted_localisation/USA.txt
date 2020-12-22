@@ -1,0 +1,38 @@
+defined_text = {
+	name = USA_electoral_regions_sl
+	text = {
+		trigger = { check_variable = { us_congress_selected_region = 378.id } }
+		localization_key = "West Coast"
+	}
+	text = {
+		trigger = { check_variable = { us_congress_selected_region = 381.id } }
+		localization_key = "Western Frontier"
+	}
+	text = {
+		trigger = { check_variable = { us_congress_selected_region = 392.id } }
+		localization_key = "Great Plains"
+	}
+	text = {
+		trigger = { check_variable = { us_congress_selected_region = 393.id } }
+		localization_key = "Great Lakes"
+	}
+	text = {
+		trigger = { check_variable = { us_congress_selected_region = 367.id } }
+		localization_key = "Deep South"
+	}
+	text = {
+		trigger = { check_variable = { us_congress_selected_region = 362.id } }
+		localization_key = "Upper South"
+	}
+	text = {
+		trigger = { check_variable = { us_congress_selected_region = 360.id } }
+		localization_key = "East Coast"
+	}
+	text = {
+		trigger = { check_variable = { us_congress_selected_region = 357.id } }
+		localization_key = "New England"
+	}
+	text = {
+		localization_key = "The United States of America"
+	}
+}

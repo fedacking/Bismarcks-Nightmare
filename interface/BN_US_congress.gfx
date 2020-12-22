@@ -48,8 +48,20 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_USA_map_new_england"
+		texturefile = "gfx/Scripted GUI/US Congress/USA_map_new_england.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
 		name = "GFX_USA_congress_seat_sprite"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_congress_seat_sprite.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_USA_senate_seat_sprite"
+		texturefile = "gfx/Scripted GUI/US Congress/USA_senate_seat_sprite.dds"
 		noOfFrames = 4
 	}
 
