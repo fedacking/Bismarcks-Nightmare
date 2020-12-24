@@ -113,6 +113,16 @@ create_country_leader = {
 
 ###Field Marshalls
 
+create_field_marshal = {
+	name = "Carl Gustaf Emil Mannerheim"
+	picture = "RUS_Portrait_Carl_Gustaf_Mannerheim.tga"
+	traits = { inflexible_strategist war_hero trait_cautious defensive_doctrine trickster winter_specialist }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 4
+}
 
 create_field_marshal = {
 	name = "Anton Denikin"
@@ -399,6 +409,21 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vilho Peter Nenonen"
+	picture = "RUS_Vilho_Peter_Nenonen.tga"
+	traits = {
+		career_officer
+		cavalry_officer
+		cavalry_leader
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
