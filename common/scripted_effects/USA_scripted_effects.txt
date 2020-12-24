@@ -21,7 +21,36 @@ USA_congress_add_class_senators = {
 	add_to_variable = { USA_D_K_senators = USA_class_3_D_K_senators }
 }
 
+# State Scope
 USA_congress_add_house_senate_elections = {
+	add_to_variable = { PREV.USA_R_P_senators = USA_R_P_senators }
+	add_to_variable = { PREV.USA_R_C_senators = USA_R_C_senators }
+	add_to_variable = { PREV.USA_D_L_senators = USA_D_L_senators }
+	add_to_variable = { PREV.USA_D_K_senators = USA_D_K_senators }
+	
+	add_to_variable = { PREV.USA_R_P_representatives = USA_R_P_representatives }
+	add_to_variable = { PREV.USA_R_C_representatives = USA_R_C_representatives }
+	add_to_variable = { PREV.USA_D_L_representatives = USA_D_L_representatives }
+	add_to_variable = { PREV.USA_D_K_representatives = USA_D_K_representatives }
+}
+
+# Country Scope
+USA_country_congress_add_house_senate_elections = {
+	set_variable = { USA_R_P_senators = 0 }
+	set_variable = { USA_R_C_senators = 0 }
+	set_variable = { USA_D_L_senators = 0 }
+	set_variable = { USA_D_K_senators = 0 }
+
+	set_variable = { USA_R_P_representatives = 0 }
+	set_variable = { USA_R_C_representatives = 0 }
+	set_variable = { USA_D_L_representatives = 0 }
+	set_variable = { USA_D_K_representatives = 0 }
+
+	every_owned_state = {
+		limit = { has_state_flag = USA_electoral_region }
+		USA_congress_add_class_senators = yes
+		USA_congress_add_house_senate_elections = yes
+	}
 }
 
 # Needs the seats set
@@ -106,6 +135,16 @@ USA_elections_startup_effect = {
 	set_variable = { USA_party_controls_east_coast = 2 }
 	set_variable = { USA_party_controls_new_england = 2 }
 	
+	set_variable = { USA_R_P_senators = 11 }
+	set_variable = { USA_R_C_senators = 29 }
+	set_variable = { USA_D_L_senators = 25 }
+	set_variable = { USA_D_K_senators = 31 }
+
+	set_variable = { USA_R_P_representatives = 57 }
+	set_variable = { USA_R_C_representatives = 109 }
+	set_variable = { USA_D_L_representatives = 118 }
+	set_variable = { USA_D_K_representatives = 151 }
+	
 	378 = { # California
 		set_variable = { USA_state_representatives = 19 }
 
@@ -134,7 +173,7 @@ USA_elections_startup_effect = {
 		set_variable = { USA_class_3_D_L_senators = 1 }
 		set_variable = { USA_class_3_D_K_senators = 2 }
 		
-		USA_congress_add_class_senators = yes
+		set_state_flag = USA_electoral_region
 	}
 	
 	381 = { # Wyoming
@@ -165,7 +204,7 @@ USA_elections_startup_effect = {
 		set_variable = { USA_class_3_D_L_senators = 2 }
 		set_variable = { USA_class_3_D_K_senators = 1 }
 		
-		USA_congress_add_class_senators = yes
+		set_state_flag = USA_electoral_region
 	}
 	
 	392 = { # Great Plains
@@ -193,10 +232,10 @@ USA_elections_startup_effect = {
 
 		set_variable = { USA_class_3_R_P_senators = 0 }
 		set_variable = { USA_class_3_R_C_senators = 1 }
-		set_variable = { USA_class_3_D_L_senators = 2 }
-		set_variable = { USA_class_3_D_K_senators = 2 }
+		set_variable = { USA_class_3_D_L_senators = 3 }
+		set_variable = { USA_class_3_D_K_senators = 1 }
 		
-		USA_congress_add_class_senators = yes
+		set_state_flag = USA_electoral_region
 	}
 	
 	393 = { # Great Lakes
@@ -227,7 +266,7 @@ USA_elections_startup_effect = {
 		set_variable = { USA_class_3_D_L_senators = 0 }
 		set_variable = { USA_class_3_D_K_senators = 1 }
 		
-		USA_congress_add_class_senators = yes
+		set_state_flag = USA_electoral_region
 	}
 
 	367 = { # Alabama
@@ -258,7 +297,7 @@ USA_elections_startup_effect = {
 		set_variable = { USA_class_3_D_L_senators = 1 }
 		set_variable = { USA_class_3_D_K_senators = 6 }
 		
-		USA_congress_add_class_senators = yes
+		set_state_flag = USA_electoral_region
 	}
 
 	362 = { # Virginia
@@ -289,7 +328,7 @@ USA_elections_startup_effect = {
 		set_variable = { USA_class_3_D_L_senators = 1 }
 		set_variable = { USA_class_3_D_K_senators = 1 }
 		
-		USA_congress_add_class_senators = yes
+		set_state_flag = USA_electoral_region
 	}
 
 	360 = { # Pennsylvania
@@ -310,8 +349,8 @@ USA_elections_startup_effect = {
 		set_variable = { USA_class_1_D_L_senators = 1 }
 		set_variable = { USA_class_1_D_K_senators = 1 }
 
-		set_variable = { USA_class_2_R_P_senators = 1 }
-		set_variable = { USA_class_2_R_C_senators = 2 }
+		set_variable = { USA_class_2_R_P_senators = 2 }
+		set_variable = { USA_class_2_R_C_senators = 1 }
 		set_variable = { USA_class_2_D_L_senators = 0 }
 		set_variable = { USA_class_2_D_K_senators = 0 }
 
@@ -320,20 +359,43 @@ USA_elections_startup_effect = {
 		set_variable = { USA_class_3_D_L_senators = 1 }
 		set_variable = { USA_class_3_D_K_senators = 0 }
 		
-		USA_congress_add_class_senators = yes
+		set_state_flag = USA_electoral_region
+	}
+
+	log = "[?]"
+	
+	357 = { # New England
+		set_variable = { USA_state_representatives = 48 }
+
+		set_variable = { USA_R_P_representatives = 0 }
+		set_variable = { USA_R_C_representatives = 30 }
+		set_variable = { USA_D_L_representatives = 18 }
+		set_variable = { USA_D_K_representatives = 0 }
+		
+		set_variable = { USA_state_senators = 18 }
+		set_variable = { USA_class_1_senators = 8 }
+		set_variable = { USA_class_2_senators = 6 }
+		set_variable = { USA_class_3_senators = 4 }
+
+		set_variable = { USA_class_1_R_P_senators = 0 }
+		set_variable = { USA_class_1_R_C_senators = 5 }
+		set_variable = { USA_class_1_D_L_senators = 3 }
+		set_variable = { USA_class_1_D_K_senators = 0 }
+
+		set_variable = { USA_class_2_R_P_senators = 0 }
+		set_variable = { USA_class_2_R_C_senators = 6 }
+		set_variable = { USA_class_2_D_L_senators = 0 }
+		set_variable = { USA_class_2_D_K_senators = 0 }
+
+		set_variable = { USA_class_3_R_P_senators = 0 }
+		set_variable = { USA_class_3_R_C_senators = 2 }
+		set_variable = { USA_class_3_D_L_senators = 2 }
+		set_variable = { USA_class_3_D_K_senators = 0 }
+		
+		set_state_flag = USA_electoral_region
 	}
 	
-	set_variable = { USA_R_P_senators = 11 }
-	set_variable = { USA_R_C_senators = 29 }
-	set_variable = { USA_D_L_senators = 25 }
-	set_variable = { USA_D_K_senators = 31 }
-
-	set_variable = { USA_R_P_representatives = 57 }
-	set_variable = { USA_R_C_representatives = 109 }
-	set_variable = { USA_D_L_representatives = 118 }
-	set_variable = { USA_D_K_representatives = 151 }
-
-	USA_congress_add_house_senate_elections = yes
+	USA_country_congress_add_house_senate_elections = yes
 	USA_congress_gui_assign_seat = yes
 	USA_senate_gui_assign_seat = yes
 }
