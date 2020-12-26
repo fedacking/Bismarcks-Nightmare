@@ -123,9 +123,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Rudolf Rocker"
-	desc = "POLITICS_RUDOLF_ROCKER_DESC"
-	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Rudolf_Rocker.tga"
+	name = "Ernst Thälmann"
+	desc = "POLITICS_ERNST_THALMANN_DESC"
+	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Ernst_Thalmann_I.tga"
 	expire = "1965.1.1"
 	ideology = communist_subtype
 	traits = {
@@ -134,9 +134,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ernst Thälmann"
-	desc = "POLITICS_ERNST_THALMANN_DESC"
-	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Ernst_Thalmann_I.tga"
+	name = "Hermann Müller"
+	desc = "POLITICS_HERMANN_MULLER_DESC"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
 	expire = "1965.1.1"
 	ideology = socialist_subtype
 	traits = {
@@ -158,7 +158,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Konrad Adenauer"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "gfx/leaders/NGR/Portrait_Konrad_Adenauer.dds"
+	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Konrad_Adenauer.tga" #Might be too young in this pic, idk
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
 	traits = {
@@ -172,6 +172,17 @@ create_country_leader = {
 	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Franz_von_Papen.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alfred Hugenberg"
+	desc = "POLITICS_ALFRED_HUGENBERG_DESC"
+	picture = "gfx/leaders/NGR/NGR_Portrait_Leader_Alfred_Hugenberg.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
 	traits = {
 		#
 	}

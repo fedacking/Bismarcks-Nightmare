@@ -71,7 +71,7 @@ HOH = {
 	color = rgb { 135 169 107 }
 	color_ui = rgb { 135 169 107 }
 }
-PRR = {
+PRU = {
 	color = rgb { 0  61  93 }
 	color_ui = rgb { 0  61  93 }
 }

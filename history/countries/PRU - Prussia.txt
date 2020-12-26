@@ -143,7 +143,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Paul Hausser"
-	picture = "Portrait_PRR_General_Paul_Hausser.dds"
+	picture = "Portrait_PRU_General_Paul_Hausser.dds"
 	traits = {  armor_officer politically_connected }
 	skill = 4
 	id = 20

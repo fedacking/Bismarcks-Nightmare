@@ -1863,9 +1863,9 @@
  HOH_despotist_DEF:0 "the Kingdom of Prussia"
  HOH_despotist_ADJ:0 "Prussian"
  
- PRR_despotist:0 "Prussian State"
- PRR_despotist_DEF:0 "the Prussian State"
- PRR_despotist_ADJ:0 "Prussian"
+ PRU_despotist:0 "Prussian State"
+ PRU_despotist_DEF:0 "the Prussian State"
+ PRU_despotist_ADJ:0 "Prussian"
  
  SCA_semi_constitutionalist:0 "Congress of Scandinavia"
  SCA_semi_constitutionalist_DEF:0 "the Congress of Scandinavia"
