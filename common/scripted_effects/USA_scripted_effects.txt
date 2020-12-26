@@ -1,3 +1,36 @@
+# Country Scope
+USA_update_pie_chart = {
+	set_temp_variable = { USA_R_chart = USA_R_P_representatives }
+	add_to_temp_variable = { USA_R_chart = USA_R_C_representatives }
+	set_temp_variable = { USA_D_L_chart = USA_D_L_representatives }
+	set_temp_variable = { USA_D_K_chart = USA_D_K_representatives }
+	
+	multiply_temp_variable = { USA_R_chart = 100 }
+	multiply_temp_variable = { USA_D_L_chart = 100 }
+	multiply_temp_variable = { USA_D_K_chart = 100 }
+	
+	divide_temp_variable = { USA_R_chart = 435 }
+	divide_temp_variable = { USA_D_L_chart = 435 }
+	divide_temp_variable = { USA_D_K_chart = 435 }
+	
+	set_temp_variable = { USA_missing_adding = 100 }
+	subtract_from_temp_variable = { USA_missing_adding = USA_R_chart }
+	subtract_from_temp_variable = { USA_missing_adding = USA_D_L_chart }
+	subtract_from_temp_variable = { USA_missing_adding = USA_D_K_chart }
+	add_to_temp_variable = { USA_D_K_chart = USA_missing_adding }
+	
+	set_popularities = {
+		despotist = 0
+		absolutist = 0
+		semi_constitutionalist = 0
+		social_conservative = var:USA_D_K_chart
+		liberal_conservative = var:USA_D_L_chart
+		republican_liberal = var:USA_R_chart
+		communist = 0
+		socialist = 0
+	}
+}
+
 # State Scope
 USA_congress_add_class_senators = {
 	set_variable = { USA_R_P_senators = 0 }
@@ -398,6 +431,7 @@ USA_elections_startup_effect = {
 	USA_country_congress_add_house_senate_elections = yes
 	USA_congress_gui_assign_seat = yes
 	USA_senate_gui_assign_seat = yes
+	USA_update_pie_chart = yes
 }
 
 USA_elections_startup_effect_tedium = {

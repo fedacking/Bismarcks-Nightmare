@@ -86,9 +86,9 @@ set_popularities = {
 	semi_constitutionalist = 0
 	social_conservative = 37
 	liberal_conservative = 27
-	republican_liberal = 31
+	republican_liberal = 36
 	communist = 0
-	socialist = 5
+	socialist = 0
 }	
 
 set_politics = {
