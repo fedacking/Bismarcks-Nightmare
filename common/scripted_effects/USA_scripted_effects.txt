@@ -1,3 +1,102 @@
+######################################################
+######################################################
+###												   ###
+###		Election Code							   ###	
+###												   ###
+######################################################
+######################################################
+
+
+# State Scope
+USA_calculate_total_vote_share = {
+	set_variable = { USA_R_vote_share = USA_R_popularity }
+	set_variable = { USA_D_vote_share = USA_D_popularity }
+	
+	multiply_variable = { USA_R_vote_share = USA_R_enthusiasm }
+	multiply_variable = { USA_D_vote_share = USA_D_enthusiasm }
+	
+	set_temp_variable = { vote_normalizer = USA_R_vote_share }
+	add_to_temp_variable = { vote_normalizer = USA_D_vote_share }
+	
+	divide_variable = { USA_R_vote_share = vote_normalizer }
+	divide_variable = { USA_D_vote_share = vote_normalizer }
+}
+
+# State Scope
+USA_calculate_total_vote_state = {
+	set_variable = { USA_R_popular_vote = USA_voter_turnout }
+	set_variable = { USA_D_popular_vote = USA_voter_turnout }
+	
+	multiply_variable = { USA_R_popular_vote = USA_R_vote_share }
+	multiply_variable = { USA_D_popular_vote = USA_D_vote_share }
+	
+	multiply_variable = { USA_R_popular_vote = state_population_k }
+	multiply_variable = { USA_D_popular_vote = state_population_k }
+}
+
+# State Scope
+USA_hold_election_house_state = {
+
+	set_temp_variable = { USA_R_new_house_share = USA_R_vote_share }
+	subtract_from_temp_variable = { USA_R_new_house_share = 0.2 }
+	divide_temp_variable = { USA_R_new_house_share = 0.6 }
+	clamp_variable = {
+		var = USA_R_new_house_share
+		min = 0
+		max = 1
+	}
+	set_temp_variable = { USA_D_new_house_share = 1 }
+	subtract_from_temp_variable = { USA_D_new_house_share = USA_R_new_house_share }
+	
+	
+	log = "Republicans [?USA_R_vote_share] [?USA_R_new_house_share]"
+	log = "Democrats [?USA_D_vote_share] [?USA_D_new_house_share]"
+	
+	set_variable = { USA_R_new_house_seats = USA_state_representatives }
+	set_variable = { USA_D_new_house_seats = USA_state_representatives }
+	
+	multiply_variable = { USA_R_new_house_seats = USA_R_new_house_share }
+	multiply_variable = { USA_D_new_house_seats = USA_D_new_house_share }
+	
+	log = "[?USA_state_representatives]"
+	
+	round_variable = USA_R_new_house_seats
+	round_variable = USA_D_new_house_seats
+	
+	log = "Republicans [?USA_R_new_house_seats] "
+	log = "Democrats [?USA_D_new_house_seats]"
+	
+	set_variable = { USA_R_P_new_house_seats = USA_R_new_house_seats }
+	set_variable = { USA_R_C_new_house_seats = USA_R_new_house_seats }
+	set_variable = { USA_D_L_new_house_seats = USA_D_new_house_seats }
+	set_variable = { USA_D_K_new_house_seats = USA_D_new_house_seats }
+	
+	multiply_variable = { USA_R_P_new_house_seats = USA_R_P_popularity }
+	multiply_variable = { USA_R_C_new_house_seats = USA_R_C_popularity }
+	multiply_variable = { USA_D_L_new_house_seats = USA_D_L_popularity }
+	multiply_variable = { USA_D_K_new_house_seats = USA_D_K_popularity }
+	
+	round_variable = USA_R_P_new_house_seats
+	round_variable = USA_R_C_new_house_seats
+	round_variable = USA_D_L_new_house_seats
+	round_variable = USA_D_K_new_house_seats
+	
+	subtract_from_variable = { USA_R_P_new_house_seats = USA_R_P_representatives }
+	subtract_from_variable = { USA_R_C_new_house_seats = USA_R_C_representatives }
+	subtract_from_variable = { USA_D_L_new_house_seats = USA_D_L_representatives }
+	subtract_from_variable = { USA_D_K_new_house_seats = USA_D_K_representatives }
+}
+
+# Country Scope
+USA_hold_election_house_country = {
+
+	378 = {
+		USA_calculate_total_vote_share = yes
+		USA_calculate_total_vote_state = yes
+		USA_hold_election_house_state = yes
+	}
+}
+
 # Country Scope
 USA_update_pie_chart = {
 	set_temp_variable = { USA_R_chart = USA_R_P_representatives }
@@ -86,6 +185,14 @@ USA_country_congress_add_house_senate_elections = {
 	}
 }
 
+######################################################
+######################################################
+###												   ###
+###		Election Gui Code					   	   ###	
+###												   ###
+######################################################
+######################################################
+
 # Needs the seats set
 USA_congress_gui_assign_seat = {
 	# R_P
@@ -150,6 +257,14 @@ USA_senate_gui_assign_seat = {
 	}
 }
 
+######################################################
+######################################################
+###												   ###
+###		Election Startup Code					   ###	
+###												   ###
+######################################################
+######################################################
+
 
 USA_elections_startup_effect = {
 	USA_elections_startup_effect_tedium = yes
@@ -179,6 +294,20 @@ USA_elections_startup_effect = {
 	set_variable = { USA_D_K_representatives = 151 }
 	
 	378 = { # California
+
+		set_variable = { USA_R_P_popularity = 0.18 }
+		set_variable = { USA_R_C_popularity = 0.82 }
+		set_variable = { USA_D_L_popularity = 0.32 }
+		set_variable = { USA_D_K_popularity = 0.68 }
+		
+		set_variable = { USA_R_popularity = 0.38 }
+		set_variable = { USA_D_popularity = 0.62 }
+		
+		set_variable = { USA_R_enthusiasm = 1.2 }
+		set_variable = { USA_D_enthusiasm = 0.8 }
+		
+		set_variable = { USA_voter_turnout = 0.328 }
+		
 		set_variable = { USA_state_representatives = 19 }
 
 		set_variable = { USA_R_P_representatives = 1 }

@@ -4,7 +4,7 @@
 
 USA_political_situation_cat = {
 
-	icon = usa_congress #PHolder
+	icon = usa_congress
 	visible_when_empty = yes
 
 	scripted_gui = us_congress_decision_ui	
@@ -15,11 +15,24 @@ USA_political_situation_cat = {
 	visible = {
 		always = yes
 	}
+}
 
+USA_election_results_cat = {
+
+	icon = usa_congress #PHolder
+	picture = GFX_decision_cat_pictures_usa_election_results
+	visible_when_empty = yes
+	
+	allowed = {
+		tag = USA
+	}
+	visible = {
+		has_country_flag = USA_show_election_results
+	}
 }
 
 USA_works_project_administration_cat = {
-	icon = eng_organize_the_blackshirts #PHolder
+	icon = generic_industry #PHolder
 	picture = GFX_decision_cat_picture_organize_the_blackshirts	#PHolder
 	allowed = {
 		tag = USA

@@ -27,6 +27,9 @@
  us_senate_textbox_desc:0 "The most august Senate is the conscience of the people, a legislative body slow, and deliberative."
  us_senate_members_desc:0 "In the Senate, there are currently:\n\n[?USA_R_P_senators] §RProgressive Republicans§!\n[?USA_R_C_senators] §OCenter Republicans§!\n[?USA_D_L_senators] §YLiberal Democrats§!\n[?USA_D_K_senators] §CKnow-Nothing Democrats§!"
  
+ USA_election_results_cat:0 "The Election of [GetYear]"
+ USA_election_results_cat_desc:0 "The elections has concluded, and the People has spoken.\n\nIn the West Coast:\n\tRepublican Popular Vote: §Y[?378.USA_R_popular_vote]§!\n\tDemonrat Popular Vote: §Y[?378.USA_D_popular_vote]§!\n\t§RProgressive Republicans§! House Results: [?378.USA_R_P_new_house_seats|=+0]\n\t§OCenter Republicans§! House Results: [?378.USA_R_C_new_house_seats|=+0]\n\t§YLiberal Democrats§! House Results: [?378.USA_D_L_new_house_seats|=+0]\n\t§CKnow-Nothing Democrats§! House Results: [?378.USA_D_K_new_house_seats|=+0]"
+ 
  USA_works_project_administration_cat:0 "Works Projects Administration"
  
  USA_great_depression_cat:0 "The Great Depression"

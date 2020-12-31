@@ -1,0 +1,16 @@
+﻿add_namespace = usa
+add_namespace = usa_elections
+
+##Fate of the Congo
+
+country_event = { #Class 1 Elections
+	id = usa_elections.1
+	title = usa_elections.1.t
+	desc = usa_elections.1.desc
+	is_triggered_only = yes
+	hidden = yes
+	option = {
+		set_country_flag = USA_show_election_results
+		USA_hold_election_house_country = yes
+	}
+}
