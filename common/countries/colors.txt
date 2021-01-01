@@ -685,6 +685,6 @@ JUD = {
 	color_ui = rgb { 152  130  191 }
 }
 PIE = {
-	color = rgb { 255  153  255 }
-	color_ui = rgb { 255  153  255 }
+	color = rgb { 97  209  251 }
+	color_ui = rgb { 92  204  247 }
 }
