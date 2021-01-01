@@ -1,0 +1,74 @@
+﻿capital = 158
+
+oob = "empty"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.1
+
+add_ideas = {
+	#
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+set_convoys = 50
+
+set_popularities = {
+	communist = 0
+	socialist = 0
+	republican_liberal = 0
+	liberal_conservative = 0
+	social_conservative = 0
+	semi_constitutionalist = 100
+	absolutist = 0
+	despotist = 0
+}	
+
+set_politics = {
+	ruling_party = semi_constitutionalist
+	last_election = "1934.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+### Initial Leaders
+
+create_country_leader = {
+	name = "Vittorio Emanuele III"
+	picture = "gfx/leaders/ROM/Portrait_Victor_Emmanuel_III.dds"
+	desc = "POLITICS_VITTORIO_EMANUELE_III_DESC"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Vittorio Emanuele III"
+	picture = "gfx/leaders/ROM/Portrait_Victor_Emmanuel_III.dds"
+	desc = "POLITICS_VITTORIO_EMANUELE_III_DESC"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {}
+}

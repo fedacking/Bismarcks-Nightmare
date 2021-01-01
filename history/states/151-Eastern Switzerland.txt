@@ -7,7 +7,7 @@ state = {
 		aluminium = 24
 	}
 	history = {
-		owner = AUS
+		owner = SWI
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -15,9 +15,7 @@ state = {
 		victory_points = {
 			663 10 
 		}
-		add_core_of = AUS
 		add_core_of = SWI
-		add_core_of = GAU
 	}
 	provinces = {
 		661 663 3660 11601 11623

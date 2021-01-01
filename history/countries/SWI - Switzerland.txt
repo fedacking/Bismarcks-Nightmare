@@ -56,3 +56,10 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+create_country_leader = {
+	name = "Swiss Federal Council"
+	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
+	picture = "SWI_Portrait_Leader_Swiss_Federal_Council.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+}

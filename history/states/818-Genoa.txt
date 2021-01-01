@@ -7,8 +7,8 @@ state = {
 		#
 	}
 	history = {
-		owner = ROM
-		add_core_of = ROM
+		owner = PIE
+		add_core_of = PIE
 		victory_points = {
 			6788 10 
 		}
@@ -21,6 +21,6 @@ state = {
 		}
 	}
 	provinces = {
-		771 6788 11726
+		771 3773 6788 6790 11726
 	}
 }
