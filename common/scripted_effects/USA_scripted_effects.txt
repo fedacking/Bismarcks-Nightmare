@@ -36,7 +36,6 @@ USA_calculate_total_vote_state = {
 
 # State Scope
 USA_hold_election_house_state = {
-
 	set_temp_variable = { USA_R_new_house_share = USA_R_vote_share }
 	subtract_from_temp_variable = { USA_R_new_house_share = 0.2 }
 	divide_temp_variable = { USA_R_new_house_share = 0.6 }
@@ -48,23 +47,57 @@ USA_hold_election_house_state = {
 	set_temp_variable = { USA_D_new_house_share = 1 }
 	subtract_from_temp_variable = { USA_D_new_house_share = USA_R_new_house_share }
 	
-	
-	log = "Republicans [?USA_R_vote_share] [?USA_R_new_house_share]"
-	log = "Democrats [?USA_D_vote_share] [?USA_D_new_house_share]"
-	
 	set_variable = { USA_R_new_house_seats = USA_state_representatives }
 	set_variable = { USA_D_new_house_seats = USA_state_representatives }
 	
 	multiply_variable = { USA_R_new_house_seats = USA_R_new_house_share }
 	multiply_variable = { USA_D_new_house_seats = USA_D_new_house_share }
 	
-	log = "[?USA_state_representatives]"
-	
 	round_variable = USA_R_new_house_seats
 	round_variable = USA_D_new_house_seats
 	
-	log = "Republicans [?USA_R_new_house_seats] "
-	log = "Democrats [?USA_D_new_house_seats]"
+	set_variable = { USA_R_P_new_house_seats = USA_R_new_house_seats }
+	set_variable = { USA_R_C_new_house_seats = USA_R_new_house_seats }
+	set_variable = { USA_D_L_new_house_seats = USA_D_new_house_seats }
+	set_variable = { USA_D_K_new_house_seats = USA_D_new_house_seats }
+	
+	multiply_variable = { USA_R_P_new_house_seats = USA_R_P_popularity }
+	multiply_variable = { USA_R_C_new_house_seats = USA_R_C_popularity }
+	multiply_variable = { USA_D_L_new_house_seats = USA_D_L_popularity }
+	multiply_variable = { USA_D_K_new_house_seats = USA_D_K_popularity }
+	
+	round_variable = USA_R_P_new_house_seats
+	round_variable = USA_R_C_new_house_seats
+	round_variable = USA_D_L_new_house_seats
+	round_variable = USA_D_K_new_house_seats
+	
+	subtract_from_variable = { USA_R_P_new_house_seats = USA_R_P_representatives }
+	subtract_from_variable = { USA_R_C_new_house_seats = USA_R_C_representatives }
+	subtract_from_variable = { USA_D_L_new_house_seats = USA_D_L_representatives }
+	subtract_from_variable = { USA_D_K_new_house_seats = USA_D_K_representatives }
+}
+
+# State Scope
+USA_hold_election_senate_state = {
+	set_temp_variable = { USA_R_new_senate_share = USA_R_vote_share }
+	subtract_from_temp_variable = { USA_R_new_senate_share = 0.25 }
+	divide_temp_variable = { USA_R_new_senate_share = 0.5 }
+	clamp_variable = {
+		var = USA_R_new_senate_share
+		min = 0
+		max = 1
+	}
+	set_temp_variable = { USA_D_new_senate_share = 1 }
+	subtract_from_temp_variable = { USA_D_new_senate_share = USA_R_new_senate_share }
+	
+	set_variable = { USA_R_new_house_seats = USA_class_1_senators }
+	set_variable = { USA_D_new_house_seats = USA_class_1_senators }
+	
+	multiply_variable = { USA_R_new_senate_seats = USA_R_new_senate_share }
+	multiply_variable = { USA_D_new_house_seats = USA_D_new_senate_share }
+	
+	round_variable = USA_R_new_house_seats
+	round_variable = USA_D_new_house_seats
 	
 	set_variable = { USA_R_P_new_house_seats = USA_R_new_house_seats }
 	set_variable = { USA_R_C_new_house_seats = USA_R_new_house_seats }
@@ -294,7 +327,6 @@ USA_elections_startup_effect = {
 	set_variable = { USA_D_K_representatives = 151 }
 	
 	378 = { # California
-
 		set_variable = { USA_R_P_popularity = 0.18 }
 		set_variable = { USA_R_C_popularity = 0.82 }
 		set_variable = { USA_D_L_popularity = 0.32 }
@@ -340,6 +372,16 @@ USA_elections_startup_effect = {
 	
 	381 = { # Wyoming
 		set_variable = { USA_state_representatives = 10 }
+		set_variable = { USA_R_P_popularity = 0.18 }
+		set_variable = { USA_R_C_popularity = 0.82 }
+		set_variable = { USA_D_L_popularity = 0.65 }
+		set_variable = { USA_D_K_popularity = 0.35 }
+		
+		set_variable = { USA_R_popularity = 0.38 }
+		set_variable = { USA_D_popularity = 0.62 }
+		
+		set_variable = { USA_R_enthusiasm = 1.2 }
+		set_variable = { USA_D_enthusiasm = 0.8 }
 
 		set_variable = { USA_R_P_representatives = 1 }
 		set_variable = { USA_R_C_representatives = 2 }
