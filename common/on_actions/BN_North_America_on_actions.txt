@@ -4,6 +4,7 @@ on_actions = {
 		effect = {
 			USA = {
 				USA_elections_startup_effect = yes
+				USA_crisis_startup_effect = yes
 			}
 		}
 	}

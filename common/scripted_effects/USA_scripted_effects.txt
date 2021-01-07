@@ -1,6 +1,39 @@
 ######################################################
 ######################################################
 ###												   ###
+###		Crisis Code								   ###	
+###												   ###
+######################################################
+######################################################
+
+USA_crisis_startup_effect = {
+	set_variable = { USA_crisis_farming = 25 }
+	set_variable = { USA_crisis_business = 35 }
+	set_variable = { USA_crisis_financial = 15 }
+	set_variable = { USA_crisis_unemployement = 15.9 }
+	set_variable = { USA_crisis_inflation = -9.3 }
+	set_variable = { USA_crisis_deficit = -0.6 }
+	
+	set_variable = { USA_crisis_overall = 25 }
+	set_variable = { USA_crisis_public_approval = 30 }
+	
+	USA_crisis_clamp_effect = yes
+}
+
+USA_crisis_clamp_effect = {
+	set_variable = { USA_crisis_deflation = USA_crisis_inflation }
+	multiply_variable = { USA_crisis_deflation = -1 }
+	set_variable = { USA_crisis_surplus = USA_crisis_deficit }
+	multiply_variable = { USA_crisis_surplus = -1 }
+}
+
+
+
+
+
+######################################################
+######################################################
+###												   ###
 ###		Election Code							   ###	
 ###												   ###
 ######################################################

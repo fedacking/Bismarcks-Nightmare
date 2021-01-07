@@ -1,3 +1,222 @@
+
+
+defined_text = {
+	name = USA_crisis_farming_level_sl
+	text = {
+		trigger = { check_variable = { USA_crisis_farming > 90 } }
+		localization_key = USA_sector_crisis_level_0
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_farming > 80 } }
+		localization_key = USA_sector_crisis_level_1
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_farming > 70 } }
+		localization_key = USA_sector_crisis_level_2
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_farming > 60 } }
+		localization_key = USA_sector_crisis_level_3
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_farming > 50 } }
+		localization_key = USA_sector_crisis_level_4
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_farming > 40 } }
+		localization_key = USA_sector_crisis_level_5
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_farming > 30 } }
+		localization_key = USA_sector_crisis_level_6
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_farming > 20 } }
+		localization_key = USA_sector_crisis_level_7
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_farming > 10 } }
+		localization_key = USA_sector_crisis_level_8
+	}
+	text = {
+		localization_key = USA_sector_crisis_level_9
+	}
+}
+
+defined_text = {
+	name = USA_crisis_business_level_sl
+	text = {
+		trigger = { check_variable = { USA_crisis_business > 90 } }
+		localization_key = USA_sector_crisis_level_0
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_business > 80 } }
+		localization_key = USA_sector_crisis_level_1
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_business > 70 } }
+		localization_key = USA_sector_crisis_level_2
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_business > 60 } }
+		localization_key = USA_sector_crisis_level_3
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_business > 50 } }
+		localization_key = USA_sector_crisis_level_4
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_business > 40 } }
+		localization_key = USA_sector_crisis_level_5
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_business > 30 } }
+		localization_key = USA_sector_crisis_level_6
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_business > 20 } }
+		localization_key = USA_sector_crisis_level_7
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_business > 10 } }
+		localization_key = USA_sector_crisis_level_8
+	}
+	text = {
+		localization_key = USA_sector_crisis_level_9
+	}
+}
+
+defined_text = {
+	name = USA_crisis_financial_level_sl
+	text = {
+		trigger = { check_variable = { USA_crisis_financial > 90 } }
+		localization_key = USA_sector_crisis_level_0
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_financial > 80 } }
+		localization_key = USA_sector_crisis_level_1
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_financial > 70 } }
+		localization_key = USA_sector_crisis_level_2
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_financial > 60 } }
+		localization_key = USA_sector_crisis_level_3
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_financial > 50 } }
+		localization_key = USA_sector_crisis_level_4
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_financial > 40 } }
+		localization_key = USA_sector_crisis_level_5
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_financial > 30 } }
+		localization_key = USA_sector_crisis_level_6
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_financial > 20 } }
+		localization_key = USA_sector_crisis_level_7
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_financial > 10 } }
+		localization_key = USA_sector_crisis_level_8
+	}
+	text = {
+		localization_key = USA_sector_crisis_level_9
+	}
+}
+
+defined_text = {
+	name = USA_crisis_inflation_sl
+	text = {
+		trigger = { check_variable = { USA_crisis_inflation > 0 } }
+		localization_key = USA_crisis_inflation_loc
+	}
+	text = {
+		localization_key = USA_crisis_deflation_loc
+	}
+}
+
+defined_text = {
+	name = USA_crisis_deficit_sl
+	text = {
+		trigger = { check_variable = { USA_crisis_deficit > 0 } }
+		localization_key = USA_crisis_deficit_loc
+	}
+	text = {
+		localization_key = USA_crisis_surplus_loc
+	}
+}
+
+defined_text = {
+	name = USA_crisis_overall_level_sl
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 90 } }
+		localization_key = USA_sector_crisis_level_0
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 80 } }
+		localization_key = USA_sector_crisis_level_1
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 70 } }
+		localization_key = USA_sector_crisis_level_2
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 60 } }
+		localization_key = USA_sector_crisis_level_3
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 50 } }
+		localization_key = USA_sector_crisis_level_4
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 40 } }
+		localization_key = USA_sector_crisis_level_5
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 30 } }
+		localization_key = USA_sector_crisis_level_6
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 20 } }
+		localization_key = USA_sector_crisis_level_7
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 10 } }
+		localization_key = USA_sector_crisis_level_8
+	}
+	text = {
+		localization_key = USA_sector_crisis_level_9
+	}
+}
+
+defined_text = {
+	name = USA_crisis_public_approval_level_sl
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 80 } }
+		localization_key = USA_crisis_public_approval_level_0
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 60 } }
+		localization_key = USA_crisis_public_approval_level_1
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 40 } }
+		localization_key = USA_crisis_public_approval_level_2
+	}
+	text = {
+		trigger = { check_variable = { USA_crisis_overall > 20 } }
+		localization_key = USA_crisis_public_approval_level_3
+	}
+	text = {
+		localization_key = USA_crisis_public_approval_level_4
+	}
+}
+
 defined_text = {
 	name = USA_electoral_regions_sl
 	text = {
