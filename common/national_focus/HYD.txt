@@ -77,7 +77,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = HYD_talks_of_reform
+		id = HYD_friction_in_the_executive_council ## Dewan (PM) Kishen Pershad vs finance minister Casson Walker
 		icon = GFX_goal_purge_opposition
 		prerequisite = { focus = HYD_improve_infrastructure }
 		prerequisite = { focus = HYD_tackle_the_crisis }
@@ -92,13 +92,26 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = HYD_the_osmania_sikka ## Name of Hyderabad Rupee; Eco tree
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_friction_in_the_executive_council }
+		x = -4
+		y = 1
+		cost = 1
+		relative_position_id = HYD_friction_in_the_executive_council
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
 		id = HYD_the_diamonds_of_golconda
 		icon = GFX_goal_purge_opposition
-		prerequisite = { focus = HYD_talks_of_reform }
+		prerequisite = { focus = HYD_the_osmania_sikka }
 		x = 0
 		y = 1
 		cost = 1
-		relative_position_id = HYD_talks_of_reform
+		relative_position_id = HYD_the_osmania_sikka
 		completion_reward = {
 
 		}
@@ -144,13 +157,26 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = HYD_the_matter_of_agriculture
+		id = HYD_a_185_carat_paperweight ## Jacob diamond
 		icon = GFX_goal_purge_opposition
-		prerequisite = { focus = HYD_talks_of_reform }
-		x = -4
-		y = 1
+		prerequisite = { focus = HYD_golconda_will_pay_for_factories OR = HYD_subsidize_noble_estates }
+		x = 0
+		y = 2
 		cost = 1
-		relative_position_id = HYD_talks_of_reform
+		relative_position_id = HYD_the_diamonds_of_golconda
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = HYD_the_main_experimental_farm
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_the_osmania_sikka }
+		x = -2
+		y = 3
+		cost = 1
+		relative_position_id = HYD_the_osmania_sikka
 		completion_reward = {
 
 		}
@@ -159,11 +185,11 @@ focus_tree = {
 	focus = {
 		id = HYD_invest_in_hyderabadi_cotton
 		icon = GFX_goal_purge_opposition
-		prerequisite = { focus = HYD_the_matter_of_agriculture }
+		prerequisite = { focus = HYD_the_main_experimental_farm }
 		x = -1
 		y = 1
 		cost = 1
-		relative_position_id = HYD_the_matter_of_agriculture
+		relative_position_id = HYD_the_main_experimental_farm
 		mutually_exclusive = {
 			focus = HYD_invest_in_maharashtran_rice
 		}
@@ -175,11 +201,11 @@ focus_tree = {
 	focus = {
 		id = HYD_invest_in_maharashtran_rice
 		icon = GFX_goal_purge_opposition
-		prerequisite = { focus = HYD_the_matter_of_agriculture }
+		prerequisite = { focus = HYD_the_main_experimental_farm }
 		x = 1
 		y = 1
 		cost = 1
-		relative_position_id = HYD_the_matter_of_agriculture
+		relative_position_id = HYD_the_main_experimental_farm
 		mutually_exclusive = {
 			focus = HYD_invest_in_hyderabadi_cotton
 		}
@@ -189,13 +215,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = HYD_placeholder
+		id = HYD_establish_the_state_bank_of_hyderabad
 		icon = GFX_goal_purge_opposition
-		prerequisite = { focus = HYD_talks_of_reform }
-		x = 4
-		y = 1
+		prerequisite = { focus = HYD_the_osmania_sikka }
+		x = 2
+		y = 3
 		cost = 1
-		relative_position_id = HYD_talks_of_reform
+		relative_position_id = HYD_the_osmania_sikka
 		completion_reward = {
 
 		}
@@ -204,11 +230,11 @@ focus_tree = {
 	focus = {
 		id = HYD_develop_mumbai_textiles
 		icon = GFX_goal_purge_opposition
-		prerequisite = { focus = HYD_placeholder }
+		prerequisite = { focus = HYD_establish_the_state_bank_of_hyderabad }
 		x = -1
 		y = 1
 		cost = 1
-		relative_position_id = HYD_placeholder
+		relative_position_id = HYD_establish_the_state_bank_of_hyderabad
 		mutually_exclusive = {
 			focus = HYD_expand_agricultural_protectionism
 		}
@@ -227,11 +253,11 @@ focus_tree = {
 	focus = {
 		id = HYD_expand_agricultural_protectionism
 		icon = GFX_goal_purge_opposition
-		prerequisite = { focus = HYD_placeholder }
+		prerequisite = { focus = HYD_establish_the_state_bank_of_hyderabad }
 		x = 1
 		y = 1
 		cost = 1
-		relative_position_id = HYD_placeholder
+		relative_position_id = HYD_establish_the_state_bank_of_hyderabad
 		mutually_exclusive = {
 			focus = HYD_develop_mumbai_textiles
 		}
@@ -244,13 +270,188 @@ focus_tree = {
 		id = HYD_the_nizams_fortune
 		icon = GFX_goal_purge_opposition
 		prerequisite = { focus = HYD_invest_in_hyderabadi_cotton OR = HYD_invest_in_maharashtran_rice }
-		prerequisite = { focus = HYD_golconda_will_pay_for_factories OR = HYD_subsidize_noble_estates }
+		prerequisite = { focus = HYD_a_185_carat_paperweight }
 		prerequisite = { focus = HYD_develop_mumbai_textiles OR = HYD_expand_agricultural_protectionism }
 		x = 0
-		y = 3
+		y = 5
 		cost = 1
-		relative_position_id = HYD_talks_of_reform
+		relative_position_id = HYD_the_osmania_sikka
 		completion_reward = {
 
 		}
 	}
+	
+	focus = {
+		id = HYD_compromise_for_stability ## Reform tree
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_friction_in_the_executive_council }
+		x = 4
+		y = 1
+		cost = 5
+		relative_position_id = HYD_friction_in_the_executive_council
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = HYD_the_issue_of_bonded_labour ## Bhoodan_movement
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_compromise_for_stability }
+		x = -2
+		y = 1
+		cost = 5
+		relative_position_id = HYD_compromise_for_stability
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = HYD_redistribute_land_to_landless_farmers ## Bhoodan_movement
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_the_issue_of_bonded_labour }
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = HYD_the_issue_of_bonded_labour
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = HYD_moratorium_on_debt_collection
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_the_issue_of_bonded_labour }
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = HYD_the_issue_of_bonded_labour
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = HYD_abolish_begar ## Called begar or Veth?
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_moratorium_on_debt_collection }
+		prerequisite = { focus = HYD_redistribute_land_to_landless_farmers }
+		x = 0
+		y = 2
+		cost = 5
+		relative_position_id = HYD_the_issue_of_bonded_labour
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = HYD_rebuild_hindu_temples ## Event with increasingly expensive options, the more expensive the temple the better the effect
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_compromise_for_stability }
+		x = 2
+		y = 1
+		cost = 5
+		relative_position_id = HYD_compromise_for_stability
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = HYD_publish_the_critical_edition_of_the_mahabharata ## Shorten the name for fuck's sake
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_rebuild_hindu_temples }
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = HYD_rebuild_hindu_temples
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = HYD_empower_the_hyderabad_state_reforms_association ## Political tree
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_compromise_for_stability }
+		x = 0
+		y = 4
+		cost = 1
+		relative_position_id = HYD_compromise_for_stability	
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_the_mulki_regulations ## Mulkies (hyderabadis) are prefered in the administration
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
+		x = -3
+		y = 1
+		cost = 1
+		relative_position_id = HYD_empower_the_hyderabad_state_reforms_association	
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_allow_political_meetings ## Banned in 29?
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = HYD_empower_the_hyderabad_state_reforms_association	
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_calls_for_responsible_government ## Changes final result of constitution: ceremonial monarch vs semi-constitutionalist
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
+		x = 1
+		y = 1
+		cost = 1
+		relative_position_id = HYD_empower_the_hyderabad_state_reforms_association	
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_unban_the_andhra_mahasabha ## defang the commies once and for all by allowing lefty parties but angers elites
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
+		x = 3
+		y = 1
+		cost = 1
+		relative_position_id = HYD_empower_the_hyderabad_state_reforms_association	
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = HYD_a_constitution_for_hyderabad ## What it sounds like, death of absolutist HYD
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = HYD_the_mulki_regulations }
+		prerequisite = { focus = HYD_allow_political_meetings }
+		prerequisite = { focus = HYD_calls_for_responsible_government }
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = HYD_allow_political_meetings	
+		completion_reward = {
+
+		}
+	}
+	
+	
+
