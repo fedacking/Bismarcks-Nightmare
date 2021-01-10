@@ -349,4 +349,9 @@ spriteTypes = {
 		name = "GFX_goal_FRA_great_compromise"
 		texturefile = "gfx/interface/goals/goal_FRA_great_compromise.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_FRA_empire_secured"
+		texturefile = "gfx/interface/goals/goal_FRA_empire_secured.dds"
+	}
 }
