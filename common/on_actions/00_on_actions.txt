@@ -5,11 +5,6 @@ on_actions = {
 				clr_country_flag = can_replace_hog
 				clr_country_flag = can_replace_for
 			}
-			GBR = {
-				country_event = {
-					id = ecw.1 
-				}
-			}
 		}
 	}
 }
