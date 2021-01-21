@@ -1,0 +1,19 @@
+state = {
+	id = 867
+	name = "STATE_867" #Isle of Man
+	manpower = 51000
+	state_category = tiny_island
+	history = {
+		owner = GBR
+		buildings = {
+			infrastructure = 3
+			3311 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = GBR
+		add_claim_by = ENG
+		add_claim_by = SCO
+	}
+	provinces = { 3311 }
+}

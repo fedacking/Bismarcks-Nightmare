@@ -4,7 +4,7 @@ state = {
 	manpower = 1363174	
 	state_category = city
 	history = {
-		owner = ENG
+		owner = GBR
 		victory_points = { 271 5 }
 		buildings = {
 			infrastructure = 7
@@ -17,9 +17,8 @@ state = {
 				naval_base = 3
 			}
 		}
-		add_core_of = ENG
-		add_core_of = ENP
-		add_claim_by = GBR
+		add_core_of = GBR
+		add_claim_by = ENG
 	}
 	provinces = {
 		221 271 296 322 3287 11221 11253 

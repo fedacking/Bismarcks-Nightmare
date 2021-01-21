@@ -4,8 +4,7 @@ state = {
 	history = {
 		owner = GBR
 		add_core_of = GBR
-		add_core_of = IRE
-		add_claim_by = ENG
+		add_claim_by = IRE
 		victory_points = {
 			3379 5 
 		}

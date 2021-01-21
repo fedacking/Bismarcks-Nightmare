@@ -7,7 +7,7 @@ state = {
 	}	
 	state_category = city	
 	history = {
-		owner = GBR
+		owner = IRE
 		victory_points = {
 			11293 10 
 		}
@@ -20,9 +20,8 @@ state = {
 				naval_base = 6
 			}
 		}
-		add_core_of = GBR
 		add_core_of = IRE
-		add_claim_by = ENG
+		add_claim_by = GBR
 	}
 	provinces = {
 		285 303 369 3342 3359 7377 11293 11303 

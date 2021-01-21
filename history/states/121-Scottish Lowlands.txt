@@ -7,7 +7,6 @@ state = {
 		owner = GBR
 		add_core_of = GBR
 		add_core_of = SCO
-		add_claim_by = ENG
 		victory_points = { 9392 10 }
 		victory_points = { 6300 1 }
 		buildings = {

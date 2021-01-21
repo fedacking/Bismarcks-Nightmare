@@ -8,7 +8,7 @@ state = {
 		aluminium = 5
 	}
 	history = {
-		owner = GBR
+		owner = ENG
 		victory_points = {
 			351 10 
 		}
@@ -20,15 +20,11 @@ state = {
 			351 = {
 				naval_base = 6
 			}
-			3311 = {
-				naval_base = 1
-			}
 		}
-		add_core_of = GBR
-		add_core_of = ENP
-		add_claim_by = ENG
+		add_core_of = ENG
+		add_claim_by = GBR
 	}
 	provinces = {
-		219 351 3311 6399 9285 11270 11299 11332 
+		219 351 6399 9285 11270 11299 11332 
 	}
 }

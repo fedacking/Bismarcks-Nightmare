@@ -140,8 +140,8 @@ TUR = {
 	color_ui = rgb { 123 0 0 }
 }
 GBR = {
-	color = rgb { 61 226 166 }
-	color_ui = rgb { 61 226 166 }
+	color = rgb { 152 129 123 }
+	color_ui = rgb { 152 129 123 }
 }
 ENG = {
 	color = rgb { 208 12 39 }

@@ -1,0 +1,25 @@
+state = {
+	id = 866
+	name = "STATE_866"
+	manpower = 692769	
+	state_category = rural	
+	resources = {
+		#
+	}
+	history = {
+		owner = GBR
+		victory_points = { 311 1 } #Wrexham
+		buildings = {
+			infrastructure = 4
+			377 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = GBR
+		add_core_of = WLS
+		add_claim_by = ENG
+	}
+	provinces = {
+		311 6363 9364
+	}
+}

@@ -88,27 +88,38 @@ if = {
 set_convoys = 20
 
 set_popularities = {
-	despotist = 0
+	despotist = 20
 	absolutist = 0
 	semi_constitutionalist = 0
-	social_conservative = 5
+	social_conservative = 32
 	liberal_conservative = 10
-	republican_liberal = 66
-	communist = 7
+	republican_liberal = 24
+	communist = 2
 	socialist = 12
 }	
 
 set_politics = {
-	ruling_party = republican_liberal
-	last_election = "1931.11.8"
+	ruling_party = social_conservative
+	last_election = "1935.12.8"
 	election_frequency = 72
 	elections_allowed = no
 }
 
 create_country_leader = {
+	name = "Éamon de Valera"
+	desc = "POLITICS_EAMON_DE_VALERA_DESC"
+	picture = "gfx/leaders/IRE/Portrait_Ireland_Eamon_de_Valera.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Michael Collins"
 	desc = "POLITICS_MICHAEL_COLLINS_DESC"
-	picture = "gfx/leaders/GBR/Portrait_Michael_Collins.tga"
+	picture = "gfx/leaders/IRE/Portrait_Michael_Collins.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
