@@ -180,6 +180,12 @@ ARG_remove_import_barriers_desc:0 "All around the world, fools are digging thems
 #Hands Off Approach
 ARG_crc_dealing_with_the_crisis:0 "Hands Off Approach"
 ARG_crc_dealing_with_the_crisis_desc:0 "The involvement of governments in the economy created this crisis. It is crazy talk to think that you can fix this with even more government. This new administration has but one objective: deregulation."
+ARG_reinforce_the_police:0 "Reinforce the Police"
+ARG_reinforce_the_police_desc:0 "As the new economy minister was detailing his plan to the prime minister and the rest of the cabinet one man raised a hand: the interior minister. He demanded to know what they should do with the people that were inevitably going to protest and strike over the new policies. The economy minister simply responded by saying 'Let the police handle it, that's why they still have a job'."
+ARG_roll_back_labour_reforms:0 "Roll Back Labour Reform"
+ARG_roll_back_labour_reforms_desc:0 "The reason why the people are getting fired is not because of the crisis, it's because of the oppressive labour reforms that one of my predecessors passed to calm down some rubble rousers. But this administration knows what's best and most importantly, this administration will not back down."
+ARG_tax_cut_landowners:0 "Tax Cut for Big Landowners"
+ARG_tax_cut_landowners_desc:0 "Wealthy rural producers like myself are the bread and butter of this country's economy so, naturally, our success is our country's success."
 
 ##Congo
 #Asset

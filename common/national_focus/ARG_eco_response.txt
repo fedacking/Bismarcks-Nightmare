@@ -34,7 +34,7 @@ shared_focus = {
 	}
 	x = 16
 	y = 0
-	cost = 1
+	cost = 3
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -51,7 +51,7 @@ shared_focus = {
 	relative_position_id = ARG_ucrr_dealing_with_the_crisis
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -65,7 +65,7 @@ shared_focus = {
 	relative_position_id = ARG_declare_an_economic_emergency
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -82,7 +82,7 @@ shared_focus = {
 	}
 	x = 1
 	y = 1
-	cost = 1
+	cost = 2
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -110,7 +110,7 @@ shared_focus = {
 	}
 	x = 22
 	y = 0
-	cost = 1
+	cost = 3
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -127,7 +127,7 @@ shared_focus = {
 	relative_position_id = ARG_ucrm_dealing_with_the_crisis
 	x = 0
 	y = 1
-	cost = 1
+	cost = 2
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -141,7 +141,7 @@ shared_focus = {
 	relative_position_id = ARG_decree_a_bank_holiday
 	x = -1
 	y = 1
-	cost = 1
+	cost = 3
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -190,6 +190,55 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = ARG_reinforce_the_police
+	icon = GFX_focus_generic_little_entente
+	prerequisite = { focus = ARG_crc_dealing_with_the_crisis }
+	relative_position_id = ARG_crc_dealing_with_the_crisis
+	x = 0
+	y = 1
+	cost = 2
+	
+	available_if_capitulated = no
+	completion_reward = {
+		add_manpower = -5000
+		add_stability = 0.05
+	}
+}
+
+shared_focus = {
+	id = ARG_roll_back_labour_reforms
+	icon = GFX_goal_continuous_suppression
+	prerequisite = { focus = ARG_reinforce_the_police }
+	relative_position_id = ARG_crc_dealing_with_the_crisis
+	x = -1
+	y = 2
+	cost = 2
+	
+	available_if_capitulated = no
+	completion_reward = {
+		add_stability = -0.15
+		#Moderate great depression reduction
+		#Add popularity to commie party when we add the popularity system
+	}
+}
+
+shared_focus = {
+	id = ARG_tax_cut_landowners
+	icon = GFX_goal_bag_of_money
+	prerequisite = { focus = ARG_reinforce_the_police }
+	relative_position_id = ARG_crc_dealing_with_the_crisis
+	x = 1
+	y = 2
+	cost = 2
+	
+	available_if_capitulated = no
+	completion_reward = {
+		add_political_power = 50
+		#Slight great depression reduction
+	}
+}
+
 
 ### Shared Succs
 
@@ -203,7 +252,7 @@ shared_focus = {
 	relative_position_id = ARG_ucrr_dealing_with_the_crisis
 	x = 3
 	y = 1
-	cost = 5
+	cost = 1
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -225,7 +274,7 @@ shared_focus = {
 	relative_position_id = ARG_ucrr_dealing_with_the_crisis
 	x = 3
 	y = 2
-	cost = 5
+	cost = 2
 	
 	available_if_capitulated = no
 	completion_reward = {
@@ -250,7 +299,7 @@ shared_focus = {
 	relative_position_id = ARG_ucrm_dealing_with_the_crisis
 	x = 3
 	y = 1
-	cost = 5
+	cost = 2
 	
 	available_if_capitulated = no
 	completion_reward = {
