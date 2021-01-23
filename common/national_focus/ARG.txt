@@ -60,7 +60,7 @@ focus_tree = {
 		y = 2
 		cost = 10
 		prerequisite = {
-			focus = ARG_revolution_of_the_park
+			focus = ARG_seek_compromise
 		}
 		relative_position_id = ARG_revolution_of_the_park
 		mutually_exclusive = {
