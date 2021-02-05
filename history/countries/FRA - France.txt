@@ -37,6 +37,7 @@ add_ideas = {
 	
 	FRA_hog_sct_philippe_henriot
 	FRA_for_sct_pierre_laval
+	FRA_sec_sct_pierre_costantini
 }
 
 set_research_slots = 4

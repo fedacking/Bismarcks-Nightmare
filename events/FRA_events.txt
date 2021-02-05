@@ -200,6 +200,7 @@ country_event = { #Party like it's 1789
 			ruling_party = republican_liberal
 			elections_allowed = yes
 		}
+		set_country_flag = FRA_french_revolution
 		load_focus_tree = FRA_focus_tree_revolution
 	}
 }

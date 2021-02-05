@@ -30,6 +30,10 @@ spriteTypes = {
 		name = "GFX_idea_minister_edouard_daladier"
 		texturefile = "gfx/interface/ministers/FRA/idea_minister_edouard_daladier.tga"
 	}
+	SpriteType = {
+		name = "GFX_idea_minister_pierre_costantini"
+		texturefile = "gfx/interface/ministers/FRA/idea_minister_pierre_costantini.tga"
+	}
 
     ##Argentina
 	

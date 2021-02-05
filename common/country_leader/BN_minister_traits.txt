@@ -169,6 +169,7 @@ leader_traits = {
 	########################################	
 	
 	security_minister = {}
+	minister_of_the_interior = {}
 	
 	sec_prince_of_terror = {
 		political_power_gain = 0.05

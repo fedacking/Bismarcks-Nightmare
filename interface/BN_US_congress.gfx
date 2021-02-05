@@ -9,60 +9,70 @@ spriteTypes = {
 		name = "GFX_USA_pacific"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_map_pacific.dds"
 		noOfFrames = 4
+		transparencecheck = yes
 	}
 
 	spriteType = {
 		name = "GFX_USA_rockies"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_map_rockies.dds"
 		noOfFrames = 4
+		transparencecheck = yes
 	}
 
 	spriteType = {
 		name = "GFX_USA_map_great_plains"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_map_great_plains.dds"
 		noOfFrames = 4
+		transparencecheck = yes
 	}
 
 	spriteType = {
 		name = "GFX_USA_map_great_lakes"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_map_great_lakes.dds"
 		noOfFrames = 4
+		transparencecheck = yes
 	}
 
 	spriteType = {
 		name = "GFX_USA_map_deep_south"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_map_deep_south.dds"
 		noOfFrames = 4
+		transparencecheck = yes
 	}
 
 	spriteType = {
 		name = "GFX_USA_map_upper_south"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_map_upper_south.dds"
 		noOfFrames = 4
+		transparencecheck = yes
 	}
 
 	spriteType = {
 		name = "GFX_USA_map_east_coast"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_map_east_coast.dds"
 		noOfFrames = 4
+		transparencecheck = yes
 	}
 
 	spriteType = {
 		name = "GFX_USA_map_new_england"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_map_new_england.dds"
 		noOfFrames = 4
+		transparencecheck = yes
 	}
 
 	spriteType = {
 		name = "GFX_USA_congress_seat_sprite"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_congress_seat_sprite.dds"
 		noOfFrames = 4
+		transparencecheck = yes
 	}
 
 	spriteType = {
 		name = "GFX_USA_senate_seat_sprite"
 		texturefile = "gfx/Scripted GUI/US Congress/USA_senate_seat_sprite.dds"
 		noOfFrames = 4
+		transparencecheck = yes
 	}
 
 }

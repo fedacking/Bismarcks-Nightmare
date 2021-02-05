@@ -27,6 +27,11 @@
  #Foreign Minister
  FRA_for_rli_edouard_daladier:0 "Édouard Daladier"
  FRA_for_sct_pierre_laval:0 "Pierre Laval"
+ #Security Minister
+ FRA_sec_sct_pierre_costantini:0 "Pierre Constantini"
+ 
+ # Ideology tags
+ ultra_bonapartiste:0 "Ultra-Bonapartiste"
   
  ###Country Ideas
  ##Eco

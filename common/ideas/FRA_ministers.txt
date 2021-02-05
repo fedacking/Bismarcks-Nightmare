@@ -13,6 +13,7 @@ ideas = {
 				}
 			}
 			visible = {
+				has_country_flag = FRA_french_revolution
 			}
 			on_add = {
 			}
@@ -101,6 +102,7 @@ ideas = {
 				}
 			}
 			visible = {
+				has_country_flag = FRA_french_revolution
 			}
 			on_add = {
 			}
@@ -130,6 +132,32 @@ ideas = {
 				head_of_government
 				semi_constitutionalist
 				for_anti_communist_crusader
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	security_minister = {
+		
+		FRA_sec_sct_pierre_costantini = {
+			picture = minister_pierre_costantini
+			allowed = { original_tag = FRA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = FRA_flag_philippe_henriot_dead }
+					has_country_flag = can_replace_for
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = FRA_french_revolution }
+			}
+			on_add = {
+			}
+			traits = {
+				minister_of_the_interior
+				ultra_bonapartiste
+				sec_prince_of_terror
 			}
 			cancel_if_invalid = no
 		}

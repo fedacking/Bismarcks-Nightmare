@@ -41,3 +41,6 @@
  ##Military personality
  artillery_officer: "Artillery Officer"
  artillery_officer_desc: "§LThis man has been to the side of artillery as far as he can remember.§!"
+ 
+ ## Alt Names
+ minister_of_the_interior:0 "Minister of the Interior"

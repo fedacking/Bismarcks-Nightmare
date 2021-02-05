@@ -1,0 +1,8 @@
+leader_traits = {
+
+	### Ideologias ###
+	
+	# Francia
+	ultra_bonapartiste = {}
+	
+}
