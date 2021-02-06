@@ -13,7 +13,7 @@
 		}
 		x = 18
 		y = 0
-		cost = 10
+		cost = 70
 		completion_reward = {
 		}
 	}
@@ -23,7 +23,7 @@
 		icon = GFX_goal_WIP #Pholder
 		x = -3
 		y = 1
-		cost = 2
+		cost = 14
 		prerequisite = {
 			focus = ARG_reform_the_congo
 		}
@@ -42,7 +42,7 @@
 		icon = GFX_goal_generic_intelligence_exchange
 		x = 1
 		y = 1
-		cost = 3
+		cost = 21
 		prerequisite = {
 			focus = ARG_an_asset_of_the_nation
 		}
@@ -60,7 +60,7 @@
 		icon = GFX_goal_WIP #Pholder
 		x = -1
 		y = 1
-		cost = 3
+		cost = 21
 		prerequisite = {
 			focus = ARG_an_asset_of_the_nation
 		}
@@ -78,7 +78,7 @@
 		icon = GFX_goal_WIP #Pholder
 		x = 3
 		y = 1
-		cost = 5
+		cost = 35
 		prerequisite = {
 			focus = ARG_reform_the_congo
 		}
@@ -97,7 +97,7 @@
 		icon = GFX_goal_single_red_book
 		x = 1
 		y = 1
-		cost = 6
+		cost = 42
 		prerequisite = {
 			focus = ARG_a_part_of_the_nation
 		}
@@ -115,7 +115,7 @@
 		icon = GFX_goal_bookstack
 		x = -1
 		y = 1
-		cost = 10
+		cost = 70
 		prerequisite = {
 			focus = ARG_a_part_of_the_nation
 		}
@@ -133,7 +133,7 @@
 		icon = GFX_goal_passports
 		x = 0
 		y = 2
-		cost = 10
+		cost = 70
 		prerequisite = {
 			focus = ARG_local_language_schools
 			focus = ARG_spanish_schools
@@ -149,7 +149,7 @@
 		icon = GFX_goal_generic_elections
 		x = -1
 		y = 3
-		cost = 6
+		cost = 42
 		prerequisite = {
 			focus = ARG_national_ids
 		}
@@ -167,7 +167,7 @@
 		icon = GFX_focus_usa_voter_registration_act
 		x = 1
 		y = 3
-		cost = 6
+		cost = 42
 		prerequisite = {
 			focus = ARG_national_ids
 		}
@@ -185,7 +185,7 @@
 		icon = GFX_goal_WIP #Pholder
 		x = 0
 		y = 4
-		cost = 10
+		cost = 70
 		prerequisite = {
 			focus = ARG_call_local_elections
 			focus = ARG_they_are_not_ready

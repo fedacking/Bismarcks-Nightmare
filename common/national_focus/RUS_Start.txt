@@ -18,7 +18,7 @@ focus_tree = {
 		icon = GFX_goal_purge_opposition
 		x = 7
 		y = 0
-		cost = 4
+		cost = 28
 
 		available_if_capitulated = no
 
@@ -33,7 +33,7 @@ focus_tree = {
 		relative_position_id = RUS_deploy_the_okhrana
 		x = -3
 		y = 1
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -48,7 +48,7 @@ focus_tree = {
 		relative_position_id = RUS_western_empire
 		x = -2
 		y = 1
-		cost = 1
+		cost = 7
 		mutually_exclusive = { focus = RUS_all_russian_loyalty }
 
 		available_if_capitulated = no
@@ -64,7 +64,7 @@ focus_tree = {
 		relative_position_id = RUS_our_port_to_the_west
 		x = -1
 		y = 1
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -79,7 +79,7 @@ focus_tree = {
 		relative_position_id = RUS_our_port_to_the_west
 		x = 1
 		y = 1
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -95,7 +95,7 @@ focus_tree = {
 		relative_position_id = RUS_our_port_to_the_west
 		x = 0
 		y = 2
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -110,7 +110,7 @@ focus_tree = {
 		relative_position_id = RUS_western_empire
 		x = 2
 		y = 1
-		cost = 1
+		cost = 7
 		mutually_exclusive = { focus = RUS_our_port_to_the_west }
 
 		available_if_capitulated = no
@@ -126,7 +126,7 @@ focus_tree = {
 		relative_position_id = RUS_all_russian_loyalty
 		x = 0
 		y = 1
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -141,7 +141,7 @@ focus_tree = {
 		relative_position_id = RUS_white_russia
 		x = 0
 		y = 1
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -157,7 +157,7 @@ focus_tree = {
 		relative_position_id = RUS_deploy_the_okhrana
 		x = 3
 		y = 1
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -172,7 +172,7 @@ focus_tree = {
 		relative_position_id = RUS_southern_empire
 		x = -2
 		y = 1
-		cost = 1
+		cost = 7
 		mutually_exclusive = { focus = RUS_under_the_volga }
 
 		available_if_capitulated = no
@@ -188,7 +188,7 @@ focus_tree = {
 		relative_position_id = RUS_into_turkestan
 		x = 0
 		y = 1
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -203,7 +203,7 @@ focus_tree = {
 		relative_position_id = RUS_crush_bukhara
 		x = 0
 		y = 1
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -218,7 +218,7 @@ focus_tree = {
 		relative_position_id = RUS_southern_empire
 		x = 2
 		y = 1
-		cost = 1
+		cost = 7
 		mutually_exclusive = { focus = RUS_into_turkestan }
 
 		available_if_capitulated = no
@@ -234,7 +234,7 @@ focus_tree = {
 		relative_position_id = RUS_under_the_volga
 		x = -1
 		y = 1
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -249,7 +249,7 @@ focus_tree = {
 		relative_position_id = RUS_under_the_volga
 		x = 1
 		y = 1
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -265,7 +265,7 @@ focus_tree = {
 		relative_position_id = RUS_under_the_volga
 		x = 0
 		y = 2
-		cost = 1
+		cost = 7
 
 		available_if_capitulated = no
 

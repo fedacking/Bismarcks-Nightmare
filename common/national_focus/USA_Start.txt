@@ -18,7 +18,7 @@ focus_tree = {
 		icon = GFX_goal_continuous_def_against_influence
 		x = 7
 		y = 0
-		cost = 4
+		cost = 28
 
 		available_if_capitulated = no
 
@@ -33,7 +33,7 @@ focus_tree = {
 		relative_position_id = USA_state_of_the_union
 		x = -4
 		y = 1
-		cost = 1
+		cost = 7
 		mutually_exclusive = { focus = USA_government_deregulation }
 
 		available_if_capitulated = no
@@ -49,7 +49,7 @@ focus_tree = {
 		relative_position_id = USA_government_intervention
 		x = -2
 		y = 1
-		cost = 4
+		cost = 28
 
 		available_if_capitulated = no
 
@@ -64,7 +64,7 @@ focus_tree = {
 		relative_position_id = USA_save_business
 		x = -1
 		y = 1
-		cost = 3
+		cost = 21
 
 		available_if_capitulated = no
 
@@ -79,7 +79,7 @@ focus_tree = {
 		relative_position_id = USA_bail_out_banks
 		x = 0
 		y = 1
-		cost = 2
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -94,7 +94,7 @@ focus_tree = {
 		relative_position_id = USA_save_business
 		x = 1
 		y = 1
-		cost = 2
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -109,7 +109,7 @@ focus_tree = {
 		relative_position_id = USA_bail_out_farmers
 		x = 0
 		y = 1
-		cost = 3
+		cost = 21
 
 		available_if_capitulated = no
 
@@ -124,7 +124,7 @@ focus_tree = {
 		relative_position_id = USA_government_intervention
 		x = 2
 		y = 1
-		cost = 4
+		cost = 28
 
 		available_if_capitulated = no
 
@@ -139,7 +139,7 @@ focus_tree = {
 		relative_position_id = USA_save_the_people
 		x = -1
 		y = 1
-		cost = 2
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -154,7 +154,7 @@ focus_tree = {
 		relative_position_id = USA_expand_soup_kitchens
 		x = 0
 		y = 1
-		cost = 3
+		cost = 21
 
 		available_if_capitulated = no
 
@@ -169,7 +169,7 @@ focus_tree = {
 		relative_position_id = USA_save_the_people
 		x = 1
 		y = 1
-		cost = 3
+		cost = 21
 
 		available_if_capitulated = no
 
@@ -184,7 +184,7 @@ focus_tree = {
 		relative_position_id = USA_expand_the_bureacracy
 		x = 0
 		y = 1
-		cost = 3
+		cost = 21
 
 		available_if_capitulated = no
 
@@ -203,7 +203,7 @@ focus_tree = {
 		relative_position_id = USA_police_the_reedvilles
 		x = -1
 		y = 1
-		cost = 5
+		cost = 35
 
 		available_if_capitulated = no
 
@@ -219,7 +219,7 @@ focus_tree = {
 		relative_position_id = USA_state_of_the_union
 		x = 4
 		y = 1
-		cost = 10
+		cost = 70
 		mutually_exclusive = { focus = USA_government_intervention }
 
 		available_if_capitulated = no
@@ -239,7 +239,7 @@ focus_tree = {
 		relative_position_id = USA_government_deregulation
 		x = -2
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -254,7 +254,7 @@ focus_tree = {
 		relative_position_id = USA_government_is_not_the_solution
 		x = -1
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -269,7 +269,7 @@ focus_tree = {
 		relative_position_id = USA_president_organization_on_unemployment_relief
 		x = 0
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -284,7 +284,7 @@ focus_tree = {
 		relative_position_id = USA_government_is_not_the_solution
 		x = 1
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -299,7 +299,7 @@ focus_tree = {
 		relative_position_id = USA_meet_with_business_leaders
 		x = 0
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -314,7 +314,7 @@ focus_tree = {
 		relative_position_id = USA_government_deregulation
 		x = 2
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -329,7 +329,7 @@ focus_tree = {
 		relative_position_id = USA_government_is_the_problem
 		x = -1
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -344,7 +344,7 @@ focus_tree = {
 		relative_position_id = USA_reduce_the_bureaucracy
 		x = 0
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -359,7 +359,7 @@ focus_tree = {
 		relative_position_id = USA_government_is_the_problem
 		x = 1
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -374,7 +374,7 @@ focus_tree = {
 		relative_position_id = USA_reduce_taxes
 		x = 0
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -392,7 +392,7 @@ focus_tree = {
 		relative_position_id = USA_loosen_border_control
 		x = -1
 		y = 1
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 
@@ -410,7 +410,7 @@ focus_tree = {
 		relative_position_id = USA_state_of_the_union
 		x = 0
 		y = 6
-		cost = 10
+		cost = 70
 
 		available_if_capitulated = no
 

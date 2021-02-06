@@ -18,7 +18,7 @@ focus_tree = {
 		icon = GFX_goal_purge_opposition
 		x = 10
 		y = 1
-		cost = 5
+		cost = 35
 		completion_reward = {
 			
 		}
@@ -30,7 +30,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_secure_a_trade_deal }
 		x = -2
 		y = 1
-		cost = 4
+		cost = 28
 		relative_position_id = HYD_secure_a_trade_deal
 		completion_reward = {
 			427 = {
@@ -56,7 +56,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_secure_a_trade_deal }
 		x = 0
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_secure_a_trade_deal
 		completion_reward = {
 
@@ -69,7 +69,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_secure_a_trade_deal }
 		x = 2
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_secure_a_trade_deal
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 2 }
@@ -84,7 +84,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_the_benefits_of_trade }
 		x = 0
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_tackle_the_crisis
 		completion_reward = {
 
@@ -97,7 +97,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_friction_in_the_executive_council }
 		x = -4
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_friction_in_the_executive_council
 		completion_reward = {
 
@@ -110,7 +110,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_the_osmania_sikka }
 		x = 0
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_the_osmania_sikka
 		completion_reward = {
 
@@ -123,7 +123,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_the_diamonds_of_golconda }
 		x = -1
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_the_diamonds_of_golconda
 		mutually_exclusive = {
 			focus = HYD_subsidize_noble_estates
@@ -146,7 +146,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_the_diamonds_of_golconda }
 		x = 1
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_the_diamonds_of_golconda
 		mutually_exclusive = {
 			focus = HYD_golconda_will_pay_for_factories
@@ -162,7 +162,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_golconda_will_pay_for_factories OR = HYD_subsidize_noble_estates }
 		x = 0
 		y = 2
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_the_diamonds_of_golconda
 		completion_reward = {
 		
@@ -175,7 +175,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_the_osmania_sikka }
 		x = -2
 		y = 3
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_the_osmania_sikka
 		completion_reward = {
 
@@ -188,7 +188,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_the_main_experimental_farm }
 		x = -1
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_the_main_experimental_farm
 		mutually_exclusive = {
 			focus = HYD_invest_in_maharashtran_rice
@@ -204,7 +204,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_the_main_experimental_farm }
 		x = 1
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_the_main_experimental_farm
 		mutually_exclusive = {
 			focus = HYD_invest_in_hyderabadi_cotton
@@ -220,7 +220,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_the_osmania_sikka }
 		x = 2
 		y = 3
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_the_osmania_sikka
 		completion_reward = {
 
@@ -233,7 +233,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_establish_the_state_bank_of_hyderabad }
 		x = -1
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_establish_the_state_bank_of_hyderabad
 		mutually_exclusive = {
 			focus = HYD_expand_agricultural_protectionism
@@ -256,7 +256,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_establish_the_state_bank_of_hyderabad }
 		x = 1
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_establish_the_state_bank_of_hyderabad
 		mutually_exclusive = {
 			focus = HYD_develop_mumbai_textiles
@@ -274,7 +274,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_develop_mumbai_textiles OR = HYD_expand_agricultural_protectionism }
 		x = 0
 		y = 5
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_the_osmania_sikka
 		completion_reward = {
 
@@ -287,7 +287,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_friction_in_the_executive_council }
 		x = 4
 		y = 1
-		cost = 5
+		cost = 35
 		relative_position_id = HYD_friction_in_the_executive_council
 		completion_reward = {
 			
@@ -300,7 +300,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_compromise_for_stability }
 		x = -2
 		y = 1
-		cost = 5
+		cost = 35
 		relative_position_id = HYD_compromise_for_stability
 		completion_reward = {
 			
@@ -313,7 +313,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_the_issue_of_bonded_labour }
 		x = -1
 		y = 1
-		cost = 5
+		cost = 35
 		relative_position_id = HYD_the_issue_of_bonded_labour
 		completion_reward = {
 			
@@ -326,7 +326,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_the_issue_of_bonded_labour }
 		x = 1
 		y = 1
-		cost = 5
+		cost = 35
 		relative_position_id = HYD_the_issue_of_bonded_labour
 		completion_reward = {
 			
@@ -340,7 +340,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_redistribute_land_to_landless_farmers }
 		x = 0
 		y = 2
-		cost = 5
+		cost = 35
 		relative_position_id = HYD_the_issue_of_bonded_labour
 		completion_reward = {
 			
@@ -353,7 +353,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_compromise_for_stability }
 		x = 2
 		y = 1
-		cost = 5
+		cost = 35
 		relative_position_id = HYD_compromise_for_stability
 		completion_reward = {
 			
@@ -366,7 +366,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_rebuild_hindu_temples }
 		x = 0
 		y = 1
-		cost = 5
+		cost = 35
 		relative_position_id = HYD_rebuild_hindu_temples
 		completion_reward = {
 			
@@ -379,7 +379,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_compromise_for_stability }
 		x = 0
 		y = 4
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_compromise_for_stability	
 		completion_reward = {
 
@@ -392,7 +392,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
 		x = -3
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_empower_the_hyderabad_state_reforms_association	
 		completion_reward = {
 
@@ -405,7 +405,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
 		x = -1
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_empower_the_hyderabad_state_reforms_association	
 		completion_reward = {
 
@@ -418,7 +418,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
 		x = 1
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_empower_the_hyderabad_state_reforms_association	
 		completion_reward = {
 
@@ -431,7 +431,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
 		x = 3
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_empower_the_hyderabad_state_reforms_association	
 		completion_reward = {
 
@@ -446,7 +446,7 @@ focus_tree = {
 		prerequisite = { focus = HYD_calls_for_responsible_government }
 		x = 0
 		y = 1
-		cost = 1
+		cost = 7
 		relative_position_id = HYD_allow_political_meetings	
 		completion_reward = {
 
