@@ -527,4 +527,85 @@ focus_tree = {
 			add_war_support = 0.05
 		}
 	}
+	
+	#Invade Greece now for the Italy
+
+	focus = {
+		id = ROM_inspect_smyrna_situation
+		icon = GFX_focus_jap_cast_the_die
+		x = 25
+		y = 0
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			#Event sent to Greece and maybe Turkey
+		}
+	}
+
+	focus = {
+		id = ROM_drill_legions
+		prerequisite = { focus = ROM_inspect_smyrna_situation }
+		icon = GFX_focus_generic_little_entente
+		relative_position_id = ROM_inspect_smyrna_situation
+		x = -1
+		y = 1
+		cost = 14
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			#Army XP
+		}
+	}
+
+	focus = {
+		id = ROM_agitate_plebeians
+		prerequisite = { focus = ROM_inspect_smyrna_situation }
+		icon = GFX_goal_revolution
+		relative_position_id = ROM_inspect_smyrna_situation
+		x = 1
+		y = 1
+		cost = 14
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			#add war support
+		}
+	}
+
+	focus = {
+		id = ROM_parabellum
+		prerequisite = { focus = ROM_drill_legions }
+		prerequisite = { focus = ROM_agitate_plebeians }
+		icon = GFX_goal_generic_more_territorial_claims
+		relative_position_id = ROM_inspect_smyrna_situation
+		x = 0
+		y = 2
+		cost = 42
+
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			#Add marine template
+		}
+	}
+
+	focus = {
+		id = ROM_launch_attack
+		prerequisite = { focus = ROM_parabellum }
+		icon = GFX_goal_generic_forceful_treaty
+		relative_position_id = ROM_inspect_smyrna_situation
+		x = 0
+		y = 3
+		cost = 21
+		available_if_capitulated = no
+		completion_reward = {
+			#add wargoal vs greece
+			#add naval invasion bonus idea
+		}
+	}	
 }

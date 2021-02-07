@@ -1,0 +1,25 @@
+state = {
+	id = 868
+	name = "STATE_868" #Ioníon Níson
+	manpower = 208584
+	state_category = rural
+	resources = {
+		#
+	}
+	history = {
+		victory_points = {
+			10203 1 #Corfu
+		}
+		victory_points = {
+			1106 1 #Argostoli
+		}
+		owner = GRE
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = GRE
+	}
+	provinces = {
+		1106 10203
+	}
+}

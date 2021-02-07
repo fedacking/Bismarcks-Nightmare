@@ -1,0 +1,23 @@
+state = {
+	id = 870
+	name = "STATE_870" #Coastal Northern Epirus
+	manpower = 81074
+	resources = {
+		#
+	}	
+	state_category = pastoral
+	history = {
+		owner = GRE
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GRE
+		add_core_of = ALB
+		victory_points = {
+			914 1 #Agioi Saranda
+		}
+	}
+	provinces = {
+		914 11767
+	}
+}
