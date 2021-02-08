@@ -182,7 +182,7 @@
  STATE_181:0 "Guarda"
  STATE_182:0 "Kríti"
  STATE_183:0 "Kýpros"
- STATE_184:0 "Thráki"
+ STATE_184:0 "Anatolikí Thráki"
  STATE_185:0 "Épeiros"
  STATE_186:0 "Peloponnisos"
  STATE_187:0 "Nisiá Aigaíou"
@@ -869,3 +869,4 @@
  STATE_868:0 "Ioníon Níson"
  STATE_869:0 "Paráktia Épeiros"
  STATE_870:0 "Paráktia Vóreios Épeiros"
+ STATE_871:0 "Dytikí Thráki"

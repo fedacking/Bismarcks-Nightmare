@@ -1,0 +1,23 @@
+state = {
+	id = 871
+	name = "STATE_871"
+	manpower = 489673
+	state_category = rural
+	resources = {
+		chromium = 11
+	}
+	history = {
+		victory_points = {
+			9930 1
+		}
+		owner = GRE
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = GRE
+		add_core_of = BUL
+	}
+	provinces = {
+		6990 9791 9930
+	}
+}

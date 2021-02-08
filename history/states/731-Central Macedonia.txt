@@ -1,7 +1,7 @@
 state = {
 	id = 731
 	name = "STATE_731"
-	manpower = 1155700	
+	manpower = 878914
 	state_category = town
 	history = {
 		owner = GRE
@@ -21,6 +21,6 @@ state = {
 		add_claim_by = BUL
 	}	
 	provinces = {
-		895 936 3526 3936 10163 11818 
+		895 936 3526 3936 10163 11818
 	}
 }
