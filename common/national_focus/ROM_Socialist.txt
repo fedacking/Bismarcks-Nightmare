@@ -21,7 +21,7 @@ focus_tree = {
 		icon = GFX_goal_generic_war_with_comintern
 		x = 10
 		y = 0
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -38,7 +38,7 @@ focus_tree = {
 		relative_position_id = ROM_take_power
 		x = -3
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -53,7 +53,7 @@ focus_tree = {
 		relative_position_id = ROM_secure_the_streets
 		x = -1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -68,7 +68,7 @@ focus_tree = {
 		relative_position_id = ROM_secure_the_streets
 		x = 1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -85,7 +85,7 @@ focus_tree = {
 		relative_position_id = ROM_arrest_the_blackshirts
 		x = 0
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -102,7 +102,7 @@ focus_tree = {
 		relative_position_id = ROM_arrest_disloyal_generals
 		x = 0
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -120,7 +120,7 @@ focus_tree = {
 		relative_position_id = ROM_secure_the_streets
 		x = 0
 		y = 3
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -137,7 +137,7 @@ focus_tree = {
 		relative_position_id = ROM_take_power
 		x = 3
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -152,7 +152,7 @@ focus_tree = {
 		relative_position_id = ROM_secure_the_government
 		x = -1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -168,7 +168,7 @@ focus_tree = {
 		relative_position_id = ROM_form_the_provisional_government
 		x = -1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -184,7 +184,7 @@ focus_tree = {
 		relative_position_id = ROM_form_the_provisional_government
 		x = 1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -199,7 +199,7 @@ focus_tree = {
 		relative_position_id = ROM_secure_the_government
 		x = 2
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -214,7 +214,7 @@ focus_tree = {
 		relative_position_id = ROM_close_down_the_senate
 		x = 0
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -233,7 +233,7 @@ focus_tree = {
 		relative_position_id = ROM_secure_the_government
 		x = 1
 		y = 3
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -249,7 +249,7 @@ focus_tree = {
 		relative_position_id = ROM_take_power
 		x = 0
 		y = 5
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -267,7 +267,7 @@ focus_tree = {
 		relative_position_id = ROM_the_new_socialist_government
 		x = -7
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -282,7 +282,7 @@ focus_tree = {
 		relative_position_id = ROM_answer_the_economic_question
 		x = -2
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -298,7 +298,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ROM_the_unions_in_charge }
 		x = -1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -314,7 +314,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ROM_the_state_takes_over }
 		x = 1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -332,7 +332,7 @@ focus_tree = {
 		relative_position_id = ROM_seize_the_factories
 		x = 0
 		y = 2
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -347,7 +347,7 @@ focus_tree = {
 		relative_position_id = ROM_answer_the_economic_question
 		x = 2
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -363,7 +363,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ROM_redistribute_land }
 		x = -1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -379,7 +379,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ROM_farm_collectivization }
 		x = 1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -397,7 +397,7 @@ focus_tree = {
 		relative_position_id = ROM_seize_the_latifundies
 		x = 0
 		y = 2
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -413,7 +413,7 @@ focus_tree = {
 		relative_position_id = ROM_answer_the_economic_question
 		x = 0
 		y = 4
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -431,7 +431,7 @@ focus_tree = {
 		relative_position_id = ROM_the_new_socialist_government
 		x = 0
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -446,7 +446,7 @@ focus_tree = {
 		relative_position_id = ROM_answer_the_political_question
 		x = -2
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -461,7 +461,7 @@ focus_tree = {
 		relative_position_id = ROM_answer_the_political_question
 		x = 0
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -476,7 +476,7 @@ focus_tree = {
 		relative_position_id = ROM_answer_the_political_question
 		x = 2
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -494,7 +494,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ROM_only_the_reds }
 		x = -1
 		y = 2
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -512,7 +512,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ROM_have_an_open_election }
 		x = 1
 		y = 2
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -530,7 +530,7 @@ focus_tree = {
 		relative_position_id = ROM_answer_the_political_question
 		x = 0
 		y = 3
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -546,7 +546,7 @@ focus_tree = {
 		relative_position_id = ROM_socialist_this_isnt_working
 		x = -1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -562,7 +562,7 @@ focus_tree = {
 		relative_position_id = ROM_socialist_this_isnt_working
 		x = 1
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -578,7 +578,7 @@ focus_tree = {
 		relative_position_id = ROM_the_new_socialist_government
 		x = 7
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -596,7 +596,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ROM_from_the_bottom_up }
 		x = -2
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -611,7 +611,7 @@ focus_tree = {
 		relative_position_id = ROM_from_the_top_down
 		x = -2
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -626,7 +626,7 @@ focus_tree = {
 		relative_position_id = ROM_from_the_top_down
 		x = 0
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -642,7 +642,7 @@ focus_tree = {
 		relative_position_id = ROM_from_the_top_down
 		x = 0
 		y = 2
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -660,7 +660,7 @@ focus_tree = {
 		mutually_exclusive = { focus = ROM_from_the_top_down }
 		x = 2
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -675,7 +675,7 @@ focus_tree = {
 		relative_position_id = ROM_from_the_bottom_up
 		x = 0
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -690,7 +690,7 @@ focus_tree = {
 		relative_position_id = ROM_from_the_bottom_up
 		x = 2
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -706,7 +706,7 @@ focus_tree = {
 		relative_position_id = ROM_from_the_bottom_up
 		x = 0
 		y = 2
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -726,7 +726,7 @@ focus_tree = {
 		relative_position_id = ROM_answer_the_military_question
 		x = 0
 		y = 2
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -741,7 +741,7 @@ focus_tree = {
 		relative_position_id = ROM_political_commisars
 		x = 0
 		y = 1
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -760,7 +760,7 @@ focus_tree = {
 		relative_position_id = ROM_answer_the_military_question
 		x = 0
 		y = 4
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 
@@ -780,7 +780,7 @@ focus_tree = {
 		relative_position_id = ROM_the_new_socialist_government
 		x = 0
 		y = 6
-		cost = 7
+		cost = 7
 
 		available_if_capitulated = no
 

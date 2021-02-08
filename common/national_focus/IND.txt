@@ -18,7 +18,7 @@ focus_tree = {
 		icon = GFX_goal_purge_opposition
 		x = 1
 		y = 1
-		cost = 21
+		cost = 21
 		completion_reward = {
 			432 = {
 				add_building_construction = {
@@ -52,7 +52,7 @@ focus_tree = {
 		prerequisite = { focus = IND_start_infrastructure_projects }
 		x = 0
 		y = 1
-		cost = 28
+		cost = 28
 		relative_position_id = IND_start_infrastructure_projects
 		completion_reward = {
 			add_resource = {
@@ -70,7 +70,7 @@ focus_tree = {
 		icon = GFX_goal_purge_opposition
 		x = 4
 		y = 1
-		cost = 7
+		cost = 7
 		completion_reward = {
 			add_to_variable = { IND_depression_building_speed = 0.25 }
 			add_to_variable = { IND_depression_pp_cost = -0.05 }
@@ -85,7 +85,7 @@ focus_tree = {
 		prerequisite = { focus = IND_industrialisation_by_import_substitution }
 		x = -1
 		y = 1
-		cost = 14
+		cost = 14
 		relative_position_id = IND_industrialisation_by_import_substitution
 		completion_reward = {
 			add_to_variable = { IND_depression_consumer_goods = -0.1 }
@@ -101,7 +101,7 @@ focus_tree = {
 		prerequisite = { focus = IND_industrialisation_by_import_substitution }
 		x = 1
 		y = 1
-		cost = 14
+		cost = 14
 		relative_position_id = IND_industrialisation_by_import_substitution
 		completion_reward = {
 			436 = {
@@ -123,7 +123,7 @@ focus_tree = {
 		prerequisite = { focus = IND_heavy_industry_subsidies }
 		x = 0
 		y = 1
-		cost = 14
+		cost = 14
 		relative_position_id = IND_light_industry_subsidies
 		completion_reward = {
 			add_to_variable = { IND_depression_war_support = +0.1 }
@@ -136,7 +136,7 @@ focus_tree = {
 		icon = GFX_goal_assault_engineers
 		x = 7
 		y = 1
-		cost = 35
+		cost = 35
 		completion_reward = {
 			if = {
 				limit = { NOT = { has_tech = tech_engineers } }
@@ -159,7 +159,7 @@ focus_tree = {
 		icon = GFX_goal_purge_opposition
 		x = 9
 		y = 1
-		cost = 70
+		cost = 70
 		completion_reward = {
 			
 		}
@@ -171,7 +171,7 @@ focus_tree = {
 		prerequisite = { focus = IND_assault_engineers }
 		x = 0
 		y = 2
-		cost = 14
+		cost = 14
 		relative_position_id = IND_assault_engineers
 		completion_reward = {
 			
@@ -184,7 +184,7 @@ focus_tree = {
 		prerequisite = { focus = IND_step_up_the_rethoric }
 		x = 0
 		y = 2
-		cost = 28
+		cost = 28
 		relative_position_id = IND_step_up_the_rethoric
 		completion_reward = {
 			
@@ -199,7 +199,7 @@ focus_tree = {
 		prerequisite = { focus = IND_how_are_we_paying_for_this_shit }
 		x = 2
 		y = 1
-		cost = 7
+		cost = 7
 		relative_position_id = IND_how_are_we_paying_for_this_shit
 		completion_reward = {
 			

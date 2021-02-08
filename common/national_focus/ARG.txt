@@ -25,7 +25,7 @@ focus_tree = {
 		}
 		x = 8
 		y = 0
-		cost = 70
+		cost = 70
 		completion_reward = {
 		}
 	}
@@ -38,7 +38,7 @@ focus_tree = {
 		}
 		x = -3
 		y = 1
-		cost = 70
+		cost = 70
 		prerequisite = {
 			focus = ARG_revolution_of_the_park
 		}
@@ -58,7 +58,7 @@ focus_tree = {
 		}
 		x = -3
 		y = 2
-		cost = 70
+		cost = 70
 		prerequisite = {
 			focus = ARG_seek_compromise
 		}
@@ -75,7 +75,7 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-		cost = 70
+		cost = 70
 		prerequisite = {
 			focus = ARG_revolution_of_the_park
 		}
@@ -95,7 +95,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 70
+		cost = 70
 		prerequisite = {
 			focus = ARG_approach_pan_ucrm
 		}
@@ -109,7 +109,7 @@ focus_tree = {
 		icon = GFX_goal_people
 		x = 0
 		y = 1
-		cost = 7
+		cost = 7
 		prerequisite = {
 			focus = ARG_december_revolution
 		}
@@ -124,7 +124,7 @@ focus_tree = {
 		icon = GFX_goal_moar_rubber
 		x = 0
 		y = 2
-		cost = 14
+		cost = 14
 		prerequisite = {
 			focus = ARG_release_political_prisoners
 		}
@@ -139,7 +139,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		x = -3
 		y = 3
-		cost = 7
+		cost = 7
 		prerequisite = {
 			focus = ARG_status_of_the_congo
 		}
@@ -161,7 +161,7 @@ focus_tree = {
 		icon = GFX_goal_crush_monarchy
 		x = 0
 		y = 1
-		cost = 7
+		cost = 7
 		prerequisite = {
 			focus = ARG_radical_approach
 		}
@@ -176,7 +176,7 @@ focus_tree = {
 		icon = GFX_goal_the_trial
 		x = 0
 		y = 2
-		cost = 7
+		cost = 7
 		prerequisite = {
 			focus = ARG_fate_of_the_king
 		}
@@ -191,7 +191,7 @@ focus_tree = {
 		icon = GFX_goal_generic_neutrality_focus
 		x = 2
 		y = 3
-		cost = 7
+		cost = 7
 		prerequisite = {
 			focus = ARG_status_of_the_congo
 		}
@@ -224,7 +224,7 @@ focus_tree = {
 		icon = GFX_focus_rom_abdicate
 		x = -2
 		y = 1
-		cost = 7
+		cost = 7
 		prerequisite = {
 			focus = ARG_moderate_approach
 		}
@@ -244,7 +244,7 @@ focus_tree = {
 		icon = GFX_goal_generic_forceful_treaty
 		x = 2
 		y = 1
-		cost = 7
+		cost = 7
 		prerequisite = {
 			focus = ARG_moderate_approach
 		}
@@ -310,7 +310,7 @@ focus_tree = {
 		icon = GFX_goal_ARG_mend_the_ucr_schism
 		x = -2
 		y = 2
-		cost = 7
+		cost = 7
 		prerequisite = {
 			focus = ARG_abdication
 		}
@@ -329,7 +329,7 @@ focus_tree = {
 		bypass = { has_country_flag = ARG_flag_socialists_stay }
 		x = -1
 		y = 1
-		cost = 7
+		cost = 7
 		prerequisite = {
 			focus = ARG_force_his_hand
 		}
@@ -356,7 +356,7 @@ focus_tree = {
 		bypass = { has_country_flag = ARG_flag_socialists_stay }
 		x = 1
 		y = 1
-		cost = 7
+		cost = 7
 		prerequisite = {
 			focus = ARG_force_his_hand
 		}
@@ -374,7 +374,7 @@ focus_tree = {
 		icon = GFX_goal_government_icon
 		x = -1
 		y = 6
-		cost = 21
+		cost = 21
 		prerequisite = {
 			focus = ARG_trials_of_the_pan
 			focus = ARG_deal_with_devil
@@ -407,7 +407,7 @@ focus_tree = {
 		icon = GFX_goal_chain_building
 		x = 1
 		y = 6
-		cost = 21
+		cost = 21
 		prerequisite = {
 			focus = ARG_trials_of_the_pan
 			focus = ARG_deal_with_devil

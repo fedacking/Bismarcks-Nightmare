@@ -23,7 +23,7 @@ focus_tree = {
 		
 		x = 10
 		y = 0
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -39,7 +39,7 @@ focus_tree = {
 		relative_position_id = FRA_emergency_revolutionary_government
 		x = -2
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -54,7 +54,7 @@ focus_tree = {
 		relative_position_id = FRA_secure_the_military
 		x = -1
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -69,7 +69,7 @@ focus_tree = {
 		relative_position_id = FRA_secure_the_military
 		x = 1
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -85,7 +85,7 @@ focus_tree = {
 		relative_position_id = FRA_secure_the_military
 		x = 0
 		y = 2
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -101,7 +101,7 @@ focus_tree = {
 		mutually_exclusive = {Focus = FRA_distribute_relief}
 		x = 1
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -117,7 +117,7 @@ focus_tree = {
 		relative_position_id = FRA_emergency_revolutionary_government
 		x = 2
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -132,7 +132,7 @@ focus_tree = {
 		relative_position_id = FRA_secure_the_government
 		x = -1
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -147,7 +147,7 @@ focus_tree = {
 		relative_position_id = FRA_secure_the_government
 		x = 1
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -163,7 +163,7 @@ focus_tree = {
 		relative_position_id = FRA_secure_the_government
 		x = 0
 		y = 2
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -179,7 +179,7 @@ focus_tree = {
 		mutually_exclusive = {Focus = FRA_maximum_general}
 		x = -1
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -201,7 +201,7 @@ focus_tree = {
 		relative_position_id = FRA_emergency_revolutionary_government
 		x = 0
 		y = 5
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -216,7 +216,7 @@ focus_tree = {
 		relative_position_id = FRA_the_constituent_assembly
 		x = -6
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -232,7 +232,7 @@ focus_tree = {
 		relative_position_id = FRA_rep_liberte
 		x = -2
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -247,7 +247,7 @@ focus_tree = {
 		relative_position_id = FRA_guarante_freedoms
 		x = -2
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -262,7 +262,7 @@ focus_tree = {
 		relative_position_id = FRA_guarante_freedoms
 		x = 0
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -277,7 +277,7 @@ focus_tree = {
 		relative_position_id = FRA_guarante_freedoms
 		x = 2
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -295,7 +295,7 @@ focus_tree = {
 		mutually_exclusive = {Focus = FRA_ban_monarchists_parties}
 		x = -1
 		y = 2
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -313,7 +313,7 @@ focus_tree = {
 		mutually_exclusive = {Focus = FRA_permit_monarchist_parties}
 		x = 1
 		y = 2
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -331,7 +331,7 @@ focus_tree = {
 		relative_position_id = FRA_guarante_freedoms
 		x = 0
 		y = 3
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -347,7 +347,7 @@ focus_tree = {
 		relative_position_id = FRA_rep_liberte
 		x = 2
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -362,7 +362,7 @@ focus_tree = {
 		relative_position_id = FRA_the_constituent_assembly
 		x = 0
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -377,7 +377,7 @@ focus_tree = {
 		relative_position_id = FRA_rep_egalite
 		x = -2
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -394,7 +394,7 @@ focus_tree = {
 		mutually_exclusive = { focus = FRA_right_to_work }
 		x = 0
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -411,7 +411,7 @@ focus_tree = {
 		mutually_exclusive = { focus = FRA_right_to_employ }
 		x = 0
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -430,7 +430,7 @@ focus_tree = {
 		mutually_exclusive = { focus = FRA_tenant_rights }
 		x = 0
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -449,7 +449,7 @@ focus_tree = {
 		mutually_exclusive = { focus = FRA_landlords_right }
 		x = 0
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -467,7 +467,7 @@ focus_tree = {
 		relative_position_id = FRA_landlords_right
 		x = 1
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -482,7 +482,7 @@ focus_tree = {
 		relative_position_id = FRA_the_constituent_assembly
 		x = 6
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -499,7 +499,7 @@ focus_tree = {
 		relative_position_id = FRA_rep_fraternite
 		x = -3
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -514,7 +514,7 @@ focus_tree = {
 		relative_position_id = FRA_national_fraternite
 		x = -2
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -529,7 +529,7 @@ focus_tree = {
 		relative_position_id = FRA_abolish_death_penalty
 		x = 0
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -545,7 +545,7 @@ focus_tree = {
 		mutually_exclusive = { focus = FRA_allow_minority_administration_language }
 		x = 0
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -561,7 +561,7 @@ focus_tree = {
 		mutually_exclusive = { focus = FRA_french_language_supremacy }
 		x = 2
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -579,7 +579,7 @@ focus_tree = {
 		relative_position_id = FRA_national_fraternite
 		x = 1
 		y = 2
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -595,7 +595,7 @@ focus_tree = {
 		relative_position_id = FRA_national_fraternite
 		x = 0
 		y = 3
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -612,7 +612,7 @@ focus_tree = {
 		relative_position_id = FRA_the_constituent_assembly
 		x = 0
 		y = 6
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -628,7 +628,7 @@ focus_tree = {
 		relative_position_id = FRA_rep_fraternite
 		x = 4
 		y = 1
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 
@@ -644,7 +644,7 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 30
 		y = 0
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 

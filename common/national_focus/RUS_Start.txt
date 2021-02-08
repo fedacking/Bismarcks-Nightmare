@@ -20,7 +20,6 @@ focus_tree = {
 		y = 0
 		cost = 28
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -35,7 +34,6 @@ focus_tree = {
 		x = -3
 		y = 1
 		cost = 7
-
 
 		available_if_capitulated = no
 
@@ -52,7 +50,6 @@ focus_tree = {
 		y = 1
 		cost = 7
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -67,7 +64,6 @@ focus_tree = {
 		x = 3
 		y = 1
 		cost = 7
-
 
 		available_if_capitulated = no
 
@@ -84,7 +80,6 @@ focus_tree = {
 		y = 1
 		cost = 7
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -100,7 +95,6 @@ focus_tree = {
 		x = 0
 		y = 3
 		cost = 7
-
 
 		available_if_capitulated = no
 

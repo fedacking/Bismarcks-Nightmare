@@ -24,7 +24,7 @@ focus_tree = {
 		x = 11
 		y = 9
 		
-		cost = 14
+		cost = 14
 
 		available_if_capitulated = no
 

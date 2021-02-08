@@ -3,8 +3,7 @@ shared_focus = {
 	icon = GFX_goal_FRA_imperial_eagle
 	x = 39
 	y = 0
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -20,8 +19,7 @@ shared_focus = {
 	mutually_exclusive = { focus = FRA_the_guns_of_napoleon }
 	x = -8
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -35,8 +33,7 @@ shared_focus = {
 	mutually_exclusive = { focus = FRA_doctrine_of_patriotic_officers }
 	x = -5
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -49,8 +46,7 @@ shared_focus = {
 	relative_position_id = FRA_doctrine_of_patriotic_fervor
 	x = -2
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 		increase_conscription = yes
@@ -64,8 +60,7 @@ shared_focus = {
 	relative_position_id = FRA_doctrine_of_superiority
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 		increase_conscription = yes
@@ -79,8 +74,7 @@ shared_focus = {
 	relative_position_id = FRA_empower_the_ncos
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 		increase_conscription = yes
@@ -94,8 +88,7 @@ shared_focus = {
 	relative_position_id = FRA_doctrine_of_patriotic_fervor
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 		increase_conscription = yes
@@ -109,8 +102,7 @@ shared_focus = {
 	relative_position_id = FRA_revive_the_jourdan_law
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -123,8 +115,7 @@ shared_focus = {
 	relative_position_id = FRA_every_frenchman_is_a_soldier
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -138,8 +129,7 @@ shared_focus = {
 	relative_position_id = FRA_and_must_defend_the_country
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -153,8 +143,7 @@ shared_focus = {
 	mutually_exclusive = { focus = FRA_doctrine_of_patriotic_fervor }
 	x = 5
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -167,8 +156,7 @@ shared_focus = {
 	relative_position_id = FRA_doctrine_of_patriotic_officers
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -181,8 +169,7 @@ shared_focus = {
 	relative_position_id = FRA_expand_the_officer_schools
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 		add_ideas = FRA_idea_reckless_generals
@@ -196,8 +183,7 @@ shared_focus = {
 	relative_position_id = FRA_leading_from_the_front
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -210,8 +196,7 @@ shared_focus = {
 	relative_position_id = FRA_doctrine_of_patriotic_officers
 	x = 2
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -224,8 +209,7 @@ shared_focus = {
 	relative_position_id = FRA_prioritize_planning
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 		add_ideas = FRA_idea_reckless_generals
@@ -239,8 +223,7 @@ shared_focus = {
 	relative_position_id = FRA_refine_the_grand_assault
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -254,8 +237,7 @@ shared_focus = {
 	relative_position_id = FRA_and_holding_the_line
 	x = 0
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -274,8 +256,7 @@ shared_focus = {
 	relative_position_id = FRA_the_noble_sons_of_france
 	x = -2
 	y = 2
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -288,8 +269,7 @@ shared_focus = {
 	relative_position_id = FRA_department_of_patriotism
 	x = -1
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -302,8 +282,7 @@ shared_focus = {
 	relative_position_id = FRA_department_of_patriotism
 	x = 1
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -317,8 +296,7 @@ shared_focus = {
 	relative_position_id = FRA_department_of_patriotism
 	x = 0
 	y = 2
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -335,8 +313,7 @@ shared_focus = {
 	relative_position_id = FRA_the_noble_sons_of_france
 	x = 2
 	y = 2
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -349,8 +326,7 @@ shared_focus = {
 	relative_position_id = FRA_support_our_troops
 	x = -1
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -363,8 +339,7 @@ shared_focus = {
 	relative_position_id = FRA_support_our_troops
 	x = 1
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -378,8 +353,7 @@ shared_focus = {
 	relative_position_id = FRA_support_our_troops
 	x = 0
 	y = 2
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -395,8 +369,7 @@ shared_focus = {
 	mutually_exclusive = { focus = FRA_the_noble_sons_of_france }
 	x = 8
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -410,8 +383,7 @@ shared_focus = {
 	mutually_exclusive = { focus = FRA_doctrine_of_mass_artillery }
 	x = -2
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}
@@ -425,8 +397,7 @@ shared_focus = {
 	mutually_exclusive = { focus = FRA_doctrine_of_mobile_artillery }
 	x = 2
 	y = 1
-	cost = 5
-	
+	cost = 35	
 	available_if_capitulated = no
 	completion_reward = {
 	}

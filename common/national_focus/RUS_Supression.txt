@@ -15,7 +15,6 @@ focus_tree = {
 		y = 0
 		cost = 28
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -31,7 +30,6 @@ focus_tree = {
 		y = 1
 		cost = 7
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -46,7 +44,6 @@ focus_tree = {
 		x = -2
 		y = 1
 		cost = 7
-
 		mutually_exclusive = { focus = RUS_all_russian_loyalty }
 
 		available_if_capitulated = no
@@ -64,7 +61,6 @@ focus_tree = {
 		y = 1
 		cost = 7
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -79,7 +75,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 7
-
 
 		available_if_capitulated = no
 
@@ -97,7 +92,6 @@ focus_tree = {
 		y = 2
 		cost = 7
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -112,7 +106,6 @@ focus_tree = {
 		x = 2
 		y = 1
 		cost = 7
-
 		mutually_exclusive = { focus = RUS_our_port_to_the_west }
 
 		available_if_capitulated = no
@@ -130,7 +123,6 @@ focus_tree = {
 		y = 1
 		cost = 7
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -145,7 +137,6 @@ focus_tree = {
 		x = 0
 		y = 1
 		cost = 7
-
 
 		available_if_capitulated = no
 
@@ -163,7 +154,6 @@ focus_tree = {
 		y = 1
 		cost = 7
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -178,7 +168,6 @@ focus_tree = {
 		x = -2
 		y = 1
 		cost = 7
-
 		mutually_exclusive = { focus = RUS_under_the_volga }
 
 		available_if_capitulated = no
@@ -196,7 +185,6 @@ focus_tree = {
 		y = 1
 		cost = 7
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -212,7 +200,6 @@ focus_tree = {
 		y = 1
 		cost = 7
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -227,7 +214,6 @@ focus_tree = {
 		x = 2
 		y = 1
 		cost = 7
-
 		mutually_exclusive = { focus = RUS_into_turkestan }
 
 		available_if_capitulated = no
@@ -245,7 +231,6 @@ focus_tree = {
 		y = 1
 		cost = 7
 
-
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -260,7 +245,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 7
-
 
 		available_if_capitulated = no
 
@@ -277,7 +261,6 @@ focus_tree = {
 		x = 0
 		y = 2
 		cost = 7
-
 
 		available_if_capitulated = no
 
