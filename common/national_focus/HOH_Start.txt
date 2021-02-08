@@ -1,0 +1,181 @@
+focus_tree = {
+	id = HOH_start_ft
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = HOH
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = HOH_assess_situation
+		icon = GFX_goal_purge_opposition
+		x = 7
+		y = 0
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HOH_increase_army_wages
+		prerequisite = { focus = HOH_assess_situation }
+		icon = GFX_goal_purge_opposition
+		relative_position_id = HOH_assess_situation
+		x = -1
+		y = 1
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HOH_expand_military_academies
+		prerequisite = { focus = HOH_increase_army_wages }
+		icon = GFX_goal_purge_opposition
+		relative_position_id = HOH_increase_army_wages
+		x = 0
+		y = 1
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HOH_increase_junker_subsidies
+		prerequisite = { focus = HOH_assess_situation }
+		icon = GFX_goal_purge_opposition
+		relative_position_id = HOH_assess_situation
+		x = 1
+		y = 1
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HOH_secure_loyal_generals
+		prerequisite = { focus = HOH_increase_junker_subsidies }
+		icon = GFX_goal_purge_opposition
+		relative_position_id = HOH_increase_junker_subsidies
+		x = 0
+		y = 1
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HOH_how_do_we_pay_for_it
+		prerequisite = { focus = HOH_expand_military_academies }
+		prerequisite = { focus = HOH_secure_loyal_generals }
+		icon = GFX_goal_purge_opposition
+		relative_position_id = HOH_assess_situation
+		x = 0
+		y = 3
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HOH_infraestructure_budget
+		prerequisite = { focus = HOH_how_do_we_pay_for_it }
+		icon = GFX_goal_purge_opposition
+		relative_position_id = HOH_how_do_we_pay_for_it
+		x = -1
+		y = 1
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HOH_police_budget
+		prerequisite = { focus = HOH_infraestructure_budget }
+		icon = GFX_goal_purge_opposition
+		relative_position_id = HOH_infraestructure_budget
+		x = 0
+		y = 1
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HOH_education_budget
+		prerequisite = { focus = HOH_how_do_we_pay_for_it }
+		icon = GFX_goal_purge_opposition
+		relative_position_id = HOH_how_do_we_pay_for_it
+		x = 1
+		y = 1
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HOH_pension_budget
+		prerequisite = { focus = HOH_education_budget }
+		icon = GFX_goal_purge_opposition
+		relative_position_id = HOH_education_budget
+		x = 0
+		y = 1
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = HOH_this_isnt_working
+		prerequisite = { focus = HOH_police_budget }
+		prerequisite = { focus = HOH_pension_budget }
+		icon = GFX_goal_purge_opposition
+		relative_position_id = HOH_how_do_we_pay_for_it
+		x = 0
+		y = 3
+		cost = 35
+
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+}
