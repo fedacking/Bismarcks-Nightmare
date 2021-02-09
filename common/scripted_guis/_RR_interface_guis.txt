@@ -1,0 +1,7 @@
+scripted_gui = {
+    party_name_sg = {
+        window_name = ruling_party_name_info
+        context_type = player_context
+        parent_window_token = politics_tab
+	}
+}

@@ -1,4 +1,6 @@
 ﻿l_english:
+ party_name:0 "[This.GetRulingParty]"
+
  communist:0 "Communism"
  communist_desc:0 "Communism"
  communist_subtype_desc:0 "WIP"
