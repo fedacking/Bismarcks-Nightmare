@@ -15,7 +15,7 @@ focus_tree = {
 	
 	focus = {
 		id = IND_start_infrastructure_projects
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		x = 1
 		y = 1
 		cost = 21
@@ -48,7 +48,7 @@ focus_tree = {
 	
 	focus = {
 		id = IND_open_mines_in_chota_nagpur
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		prerequisite = { focus = IND_start_infrastructure_projects }
 		x = 0
 		y = 1
@@ -67,7 +67,7 @@ focus_tree = {
 	
 	focus = {
 		id = IND_industrialisation_by_import_substitution
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		x = 4
 		y = 1
 		cost = 7
@@ -81,7 +81,7 @@ focus_tree = {
 	
 	focus = {
 		id = IND_light_industry_subsidies
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		prerequisite = { focus = IND_industrialisation_by_import_substitution }
 		x = -1
 		y = 1
@@ -97,7 +97,7 @@ focus_tree = {
 	
 	focus = {
 		id = IND_heavy_industry_subsidies
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		prerequisite = { focus = IND_industrialisation_by_import_substitution }
 		x = 1
 		y = 1
@@ -117,7 +117,7 @@ focus_tree = {
 	
 	focus = {
 		id = IND_how_are_we_paying_for_this_shit ## War bonds my dude
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		prerequisite = { focus = IND_open_mines_in_chota_nagpur }
 		prerequisite = { focus = IND_light_industry_subsidies }
 		prerequisite = { focus = IND_heavy_industry_subsidies }
@@ -156,7 +156,7 @@ focus_tree = {
 	
 	focus = {
 		id = IND_step_up_the_rethoric ## Rebellions
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		x = 9
 		y = 1
 		cost = 70
@@ -167,7 +167,7 @@ focus_tree = {
 	
 	focus = {
 		id = IND_procure_equipment
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		prerequisite = { focus = IND_assault_engineers }
 		x = 0
 		y = 2
@@ -180,7 +180,7 @@ focus_tree = {
 	
 	focus = {
 		id = IND_military_exercises
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		prerequisite = { focus = IND_step_up_the_rethoric }
 		x = 0
 		y = 2
@@ -193,7 +193,7 @@ focus_tree = {
 	
 	focus = {
 		id = IND_united_and_indivisible
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		prerequisite = { focus = IND_military_exercises }
 		prerequisite = { focus = IND_procure_equipment }
 		prerequisite = { focus = IND_how_are_we_paying_for_this_shit }

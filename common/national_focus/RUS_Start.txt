@@ -15,7 +15,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_coronation_day
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		x = 7
 		y = 0
 		cost = 28
@@ -29,7 +29,7 @@ focus_tree = {
 	focus = {
 		id = RUS_a_feast_for_the_masses
 		prerequisite = { focus = RUS_coronation_day }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_coronation_day
 		x = -3
 		y = 1
@@ -44,7 +44,7 @@ focus_tree = {
 	focus = {
 		id = RUS_never_another_khodynka
 		prerequisite = { focus = RUS_a_feast_for_the_masses }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_a_feast_for_the_masses
 		x = 0
 		y = 1
@@ -59,7 +59,7 @@ focus_tree = {
 	focus = {
 		id = RUS_military_parade
 		prerequisite = { focus = RUS_coronation_day }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_coronation_day
 		x = 3
 		y = 1
@@ -74,7 +74,7 @@ focus_tree = {
 	focus = {
 		id = RUS_the_polychronion
 		prerequisite = { focus = RUS_military_parade }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_military_parade
 		x = 0
 		y = 1
@@ -90,7 +90,7 @@ focus_tree = {
 		id = RUS_send_out_the_invitations
 		prerequisite = { focus = RUS_the_polychronion }
 		prerequisite = { focus = RUS_never_another_khodynka }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_coronation_day
 		x = 0
 		y = 3

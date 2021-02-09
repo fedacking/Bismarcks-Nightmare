@@ -10,7 +10,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_deploy_the_okhrana
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		x = 7
 		y = 0
 		cost = 28
@@ -24,7 +24,7 @@ focus_tree = {
 	focus = {
 		id = RUS_western_empire
 		prerequisite = { focus = RUS_deploy_the_okhrana }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_deploy_the_okhrana
 		x = -3
 		y = 1
@@ -39,7 +39,7 @@ focus_tree = {
 	focus = {
 		id = RUS_our_port_to_the_west
 		prerequisite = { focus = RUS_western_empire }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_western_empire
 		x = -2
 		y = 1
@@ -55,7 +55,7 @@ focus_tree = {
 	focus = {
 		id = RUS_dealing_with_estonia
 		prerequisite = { focus = RUS_our_port_to_the_west }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_our_port_to_the_west
 		x = -1
 		y = 1
@@ -70,7 +70,7 @@ focus_tree = {
 	focus = {
 		id = RUS_dealing_with_latvia
 		prerequisite = { focus = RUS_our_port_to_the_west }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_our_port_to_the_west
 		x = 1
 		y = 1
@@ -86,7 +86,7 @@ focus_tree = {
 		id = RUS_keep_lithuania_in_our_hands
 		prerequisite = { focus = RUS_dealing_with_estonia }
 		prerequisite = { focus = RUS_dealing_with_latvia }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_our_port_to_the_west
 		x = 0
 		y = 2
@@ -101,7 +101,7 @@ focus_tree = {
 	focus = {
 		id = RUS_all_russian_loyalty
 		prerequisite = { focus = RUS_western_empire }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_western_empire
 		x = 2
 		y = 1
@@ -117,7 +117,7 @@ focus_tree = {
 	focus = {
 		id = RUS_white_russia
 		prerequisite = { focus = RUS_all_russian_loyalty }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_all_russian_loyalty
 		x = 0
 		y = 1
@@ -132,7 +132,7 @@ focus_tree = {
 	focus = {
 		id = RUS_little_russia
 		prerequisite = { focus = RUS_white_russia }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_white_russia
 		x = 0
 		y = 1
@@ -148,7 +148,7 @@ focus_tree = {
 	focus = {
 		id = RUS_southern_empire
 		prerequisite = { focus = RUS_deploy_the_okhrana }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_deploy_the_okhrana
 		x = 3
 		y = 1
@@ -163,7 +163,7 @@ focus_tree = {
 	focus = {
 		id = RUS_into_turkestan
 		prerequisite = { focus = RUS_southern_empire }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_southern_empire
 		x = -2
 		y = 1
@@ -179,7 +179,7 @@ focus_tree = {
 	focus = {
 		id = RUS_crush_bukhara
 		prerequisite = { focus = RUS_into_turkestan }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_into_turkestan
 		x = 0
 		y = 1
@@ -194,7 +194,7 @@ focus_tree = {
 	focus = {
 		id = RUS_destroy_the_basmachi
 		prerequisite = { focus = RUS_crush_bukhara }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_crush_bukhara
 		x = 0
 		y = 1
@@ -209,7 +209,7 @@ focus_tree = {
 	focus = {
 		id = RUS_under_the_volga
 		prerequisite = { focus = RUS_southern_empire }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_southern_empire
 		x = 2
 		y = 1
@@ -225,7 +225,7 @@ focus_tree = {
 	focus = {
 		id = RUS_securing_the_mountains
 		prerequisite = { focus = RUS_under_the_volga }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_under_the_volga
 		x = -1
 		y = 1
@@ -240,7 +240,7 @@ focus_tree = {
 	focus = {
 		id = RUS_securing_our_oil_supply
 		prerequisite = { focus = RUS_under_the_volga }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_under_the_volga
 		x = 1
 		y = 1
@@ -256,7 +256,7 @@ focus_tree = {
 		id = RUS_for_the_safety_of_armenia
 		prerequisite = { focus = RUS_securing_the_mountains }
 		prerequisite = { focus = RUS_securing_our_oil_supply }
-		icon = GFX_goal_purge_opposition
+		icon = GFX_goal_WIP
 		relative_position_id = RUS_under_the_volga
 		x = 0
 		y = 2
