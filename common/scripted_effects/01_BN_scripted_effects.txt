@@ -1,3 +1,84 @@
+reload_popularity_chart = {
+
+	set_temp_variable = { offset_com = actual_popularity^0 }
+	set_temp_variable = { offset_soc = actual_popularity^1 }
+	set_temp_variable = { offset_rad = actual_popularity^2 }
+	set_temp_variable = { offset_lib = actual_popularity^3 }
+	set_temp_variable = { offset_con = actual_popularity^4 }
+	set_temp_variable = { offset_sem = actual_popularity^5 }
+	set_temp_variable = { offset_abs = actual_popularity^6 }
+	set_temp_variable = { offset_des = actual_popularity^7 }
+	
+	add_to_temp_variable = { offset_soc = offset_com }
+	add_to_temp_variable = { offset_rad = offset_soc }
+	add_to_temp_variable = { offset_lib = offset_rad }
+	add_to_temp_variable = { offset_con = offset_lib }
+	add_to_temp_variable = { offset_sem = offset_con }
+	add_to_temp_variable = { offset_abs = offset_sem }
+	add_to_temp_variable = { offset_des = offset_abs }
+
+	for_loop_effect = {
+		start = 0
+		end = 99 
+		if = {
+			limit = { check_variable = { v < offset_com } }
+			add_to_array = {
+				array = pie_chart
+				value = 1 # Communist
+			}
+		} else_if = {
+			limit = { check_variable = { v < offset_soc } }
+			add_to_array = {
+				array = pie_chart
+				value = 2 # Socialis
+			}
+		} else_if = {
+			limit = { check_variable = { v < offset_rad } }
+			add_to_array = {
+				array = pie_chart
+				value = 3 # Rad
+			}
+		} else_if = {
+			limit = { check_variable = { v < offset_lib } }
+			add_to_array = {
+				array = pie_chart
+				value = 4 # Liberal
+			}
+		} else_if = {
+			limit = { check_variable = { v < offset_con } }
+			add_to_array = {
+				array = pie_chart
+				value = 5 # Con
+			}
+		} else_if = {
+			limit = { check_variable = { v < offset_sem } }
+			add_to_array = {
+				array = pie_chart
+				value = 6 # Semi Abs
+			}
+		} else_if = {
+			limit = { check_variable = { v < offset_abs } }
+			add_to_array = {
+				array = pie_chart
+				value = 7 # Abs
+			}
+		} else_if = {
+			limit = { check_variable = { v < offset_des } }
+			add_to_array = {
+				array = pie_chart
+				value = 8 # Despot
+			}
+		} else = {
+			add_to_array = {
+				array = pie_chart
+				value = 9 # Separatism
+			}
+		}
+	}
+	
+	add_to_variable = { pie_chart_dirty = 1 }
+}
+
 FRA_libral_tree_effect = {
 	FRA = {
 		if = {

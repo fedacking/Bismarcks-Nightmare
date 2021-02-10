@@ -1,0 +1,59 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+			
+				# Popularity start	
+				add_to_array = {
+					array = actual_popularity
+					value = 2 # Communist
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 11 # Socialist
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 25 # Rad
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 25 # Liberal
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 25 # Con
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 5 # Semi Abs
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 1 # Abs
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 2 # Despot
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 4 # Separatism
+				}
+				
+				reload_popularity_chart = yes
+				
+			}
+		}
+	}
+
+}
