@@ -4,7 +4,7 @@ state = {
 	manpower = 355492
 	state_category = rural	
 	resources = {
-		tungsten=45 # was: 76
+		tungsten = 45
 	}
 	history = {
 		owner = USA

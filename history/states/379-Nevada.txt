@@ -4,9 +4,9 @@ state = {
 	manpower = 63739	
 	state_category = pastoral	
 	resources = {
-		steel = 40 # was: 70
-		tungsten = 20 # was: 32
-		aluminium = 20 # was: 25
+		steel = 40
+		tungsten = 20
+		aluminium = 20
 	}
 	history = {
 		owner = USA
@@ -14,6 +14,9 @@ state = {
 			infrastructure = 2
 		}
 		add_core_of = USA
+		victory_points = {
+			10422 1 
+		}
 	}
 	provinces = {
 		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 

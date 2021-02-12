@@ -10,7 +10,10 @@ add_ideas = {
 
 ## Country
 add_ideas = {
-	FRA_mild_foreign_influence
+	NGR_sizable_french_influence
+	NGR_idea_dream_of_germany
+	NGR_idea_depression
+	NGR_idea_french_allies
 }
 
 set_fuel_ratio = 0.8
@@ -101,8 +104,8 @@ if = {
 
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.4
-set_war_support = 0.2
+set_stability = 0.6
+set_war_support = 0.3
 
 set_popularities = {
 	despotist = 5

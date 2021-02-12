@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		
+		##Economy
+		NGR_idea_depression = {
+			picture = usa_great_depression_3
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.5
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+				political_power_cost = 0.2
+			}
+		}
+	
+		##Foreign Policy
+		NGR_idea_dream_of_germany = {
+			picture = army_chained #place holder image
+			modifier = {
+				#
+			}
+		}
+		NGR_sizable_french_influence = {
+			picture = FRA_sizable_foreign_influence
+			modifier = {				
+				political_power_cost = 0.1
+			}
+		}
+		NGR_idea_french_allies = {
+			picture = army_chained #place holder image
+			modifier = {
+				stability_factor  = -0.05
+			}
+		}
+	}
+}

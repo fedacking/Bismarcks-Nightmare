@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "BISMARCKS_NIGHTMARE_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "ARG"
+		default_country = "FRA"
 		default = yes
 		
 		"ARG"={
@@ -56,29 +56,19 @@ bookmarks = {
 			}
 		}
 		
-		"SCA"={
-			history = "SCA_BISMARCKS_NIGHTMARE_DESC"
-			ideology = semi_constitutionalist
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		
-		"---"={
-			history = "OTHER_BISMARCKS_NIGHTMARE_DESC"
-		}
-		
 		"USA"={
 			history = "USA_BISMARCKS_NIGHTMARE_DESC"
 			ideology = social_conservative
-			minor = yes
 			ideas = {
 				USA_idea_nativism
 			}
 			focuses = {
 				USA_government_intervention
 			}
+		}
+		
+		"---"={
+			history = "OTHER_BISMARCKS_NIGHTMARE_DESC"
 		}
 		
 		"ROM"={
@@ -97,9 +87,33 @@ bookmarks = {
 			}
 		}
 		
-		"SWA"={
-			history = "SWA_BISMARCKS_NIGHTMARE_DESC"
+		"NGR"={
+			history = "NGR_BISMARCKS_NIGHTMARE_DESC"
+			ideology = liberal_conservative
+			minor = yes
+			ideas = {
+				NGR_sizable_french_influence
+				NGR_idea_dream_of_germany
+				NGR_idea_depression
+				NGR_idea_french_allies
+			}
+			focuses = {
+			}
+		}
+		
+		"SGC"={
+			history = "SGC_BISMARCKS_NIGHTMARE_DESC"
 			ideology = semi_constitutionalist
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"HOH"={
+			history = "HOH_BISMARCKS_NIGHTMARE_DESC"
+			ideology = absolutist
 			minor = yes
 			ideas = {
 			}
