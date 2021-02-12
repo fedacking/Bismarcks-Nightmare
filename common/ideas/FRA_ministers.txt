@@ -41,6 +41,7 @@ ideas = {
 			traits = {
 				head_of_government
 				liberal_conservative
+				hog_man_of_the_people
 			}
 			cancel_if_invalid = no
 		}
@@ -61,7 +62,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				semi_constitutionalist
+				ortho_bonapartiste
 			}
 			cancel_if_invalid = no
 		}
@@ -132,6 +133,31 @@ ideas = {
 				head_of_government
 				semi_constitutionalist
 				for_anti_communist_crusader
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	economy_minister = {
+		
+		FRA_eco_sct_pucheu_pierre = {
+			picture = minister_pucheu_pierre
+			allowed = { original_tag = FRA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					has_country_flag = can_replace_for
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = FRA_french_revolution }
+			}
+			on_add = {
+			}
+			traits = {
+				minister_of_finance
+				ortho_bonapartiste
+				eco_corporatist
 			}
 			cancel_if_invalid = no
 		}

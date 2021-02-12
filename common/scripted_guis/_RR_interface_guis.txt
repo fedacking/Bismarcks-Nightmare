@@ -11,6 +11,20 @@ scripted_gui = {
 
 scripted_gui = {
 	
+	pie_chart_text = {
+		window_name = "pie_text_container"
+        context_type = player_context
+        parent_window_token = politics_tab
+
+		visible = {
+			is_ai = no
+		}
+
+		ai_enabled = {
+			always = no
+		}
+	}
+	
 	pie_chart_sg = {
 		window_name = "pie_container"
         context_type = player_context
@@ -23,8 +37,6 @@ scripted_gui = {
 		ai_enabled = {
 			always = no
 		}
-
-		dirty = pie_chart_dirty
 
 		properties = {
 			pie0 = { frame = pie_chart^0 }

@@ -3,6 +3,8 @@ leader_traits = {
 	### Ideologias ###
 	
 	# Francia
+	left_bonapartiste = {}
+	ortho_bonapartiste = {}
 	ultra_bonapartiste = {}
 	
 }

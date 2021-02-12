@@ -6,5 +6,6 @@ spriteTypes = {
 		name = "GFX_pie_chart_segment"
 		texturefile = "gfx//Scripted GUI//pie_chart_segment.dds"
 		noOfFrames = 9 # change to how many frames you have, index starts at 1
+		transparencecheck = yes
 	}
 }

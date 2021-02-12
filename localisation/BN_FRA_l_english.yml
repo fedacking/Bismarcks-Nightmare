@@ -17,7 +17,7 @@
  FRA_absolutist_party_long:0 "Parti Ultra-Legitimistes"
  FRA_despotist_party:0 "AF"
  FRA_despotist_party_long:0 "Actione Française"
- FRA_separatist_party:0 "Autonomistische Rheinland Partei"
+ FRA_separatist_party:0 "ARP"
  FRA_separatist_party_long:0 "Autonomistische Rheinland Partei"
  
  ##Ministers
@@ -29,10 +29,14 @@
  #Foreign Minister
  FRA_for_rli_edouard_daladier:0 "Édouard Daladier"
  FRA_for_sct_pierre_laval:0 "Pierre Laval"
+ #Eco Minister
+ 
  #Security Minister
  FRA_sec_sct_pierre_costantini:0 "Pierre Constantini"
  
  # Ideology tags
+ left_bonapartiste:0 "Left-Bonapartiste"
+ ortho_bonapartiste:0 "Orthodox Bonapartiste"
  ultra_bonapartiste:0 "Ultra-Bonapartiste"
   
  ###Country Ideas
@@ -54,7 +58,7 @@
  FRA_idea_loyal_garde_nationale:0 "Loyal Garde Nationale"
  FRA_idea_loyal_garde_nationale_desc:0 "The Garde Nationale has been restored to it's previous honor, as the country's organized citizens, defending the Nation, Order and Property."
  FRA_idea_napoleon_iv_reforms:0 "Napoleon IV Reforms"
- FRA_idea_napoleon_iv_reforms_desc:0 "In order to ensure the smooth continuation of the Empire, the Emperor Napoleon IV worked hard with the political spectrum to develop constitutional reforms that expanded the power of congress, ensured fair representation and diminished the power of the Emperor."
+ FRA_idea_napoleon_iv_reforms_desc:0 "In order to ensure the smooth continuation of the Empire, the Emperor Napoleon IV worked hard with the political spectrum to develop constitutional reforms that expanded the power of congress, ensured fairer representation and diminished the power of the Emperor."
  FRA_idea_napoleon_iv_reforms_1:0 "Napoleon IV Reforms"
  FRA_idea_napoleon_iv_reforms_1_desc:0 "Napoleon V has been forced to grant greater concessions to parliament, in hope that the new prime minister can fix the crisis France is embroiled in."
  FRA_idea_napoleon_iv_reforms_2:0 "Napoleon IV Reforms"
@@ -114,6 +118,8 @@
  #Revolution
  fra.101.t:0 "Paris Uprising!"
  fra.102.t:0 "Scuffle at Le National"
+ fra.102.desc:0 "Today at 10 in the morning we dispatched some police offices to serve the notice of closure to the oficines of all the major papers of the oppossition, who are printing lies against the Emperor and his change in policy. When our agents arrived at The National, however we found the editor rallying protesters against the government and after a brief fight where shots we fired our agents retreated, leaving the premises free and the presses intact.\n\n While we speak, the editor of the national is rallying the other newspapers to condemn our move and have printed an extraordinary one page pamphlet decrying our defense of the true press. This event could be very dangerous to the prestige of our police forces and the power of our decrees in the capital. Sir what should we do?"
+ fra.102.a:0 "Send in the army!"
  
  ##News Events
  fra_news.1.t:0 "J'Accuse...!"

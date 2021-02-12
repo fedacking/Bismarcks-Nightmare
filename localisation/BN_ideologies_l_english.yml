@@ -1,8 +1,17 @@
 ﻿l_english:
- party_name:0 "[This.GetRulingParty]"
 
- communist:0 "Communism"
- communist_desc:0 "Communism"
+ #################
+ ### Interface ###
+ #################
+
+ interface_popularity_txt:0 "[interface_popularity_sl]"
+ interface_popularity_sco:0 "[This.GetRulingParty] has a popularity of [?actual_popularity^5]% but a control of [?party_popularity@semi_constitutionalist|%] of the government." 
+ 
+ party_name:0 "[This.GetRulingParty]"
+ test:0 "test"
+
+ communist:0 "Revolutionary Socialism"
+ communist_desc:0 "Revolutionary Socialism"
  communist_subtype_desc:0 "WIP"
  socialist:0 "Democratic Socialism"
  socialist_desc:0 "Democratic Socialism"
@@ -11,10 +20,10 @@
  republican_liberal_desc:0 "Radicalism"
  social_liberal_subtype_desc:0 "WIP"
  social_democrat_subtype_desc:0 "WIP"
- liberal_conservative:0 "Liberal Conservatism"
- liberal_conservative_desc:0 "Liberal Conservatism"
- liberal_conservative_noun:0 "Liberal Conservatism"
- liberal_conservative_subtype_desc:0 "Liberal Conservatism is the belief that should be free to participate in the market and generate wealth without government interference. However, liberal conservatism also holds that individuals cannot be thoroughly depended on to act responsibly in other spheres of life, therefore liberal conservatives believe that a strong state is necessary to ensure law and order and social institutions are needed to nurture a sense of duty and responsibility to the nation."
+ liberal_conservative:0 "Moderate Liberalism"
+ liberal_conservative_desc:0 "Moderate Liberalism"
+ liberal_conservative_noun:0 "Moderate Liberalism"
+ liberal_conservative_subtype_desc:0 "WIP"
  semi_constitutionalist:0 "Semi Constitutionalism"
  semi_constitutionalist_desc:0 "Semi Constitutionalism"
  semi_constitutionalist_noun:0 "Semi Constitutionalism"

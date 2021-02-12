@@ -112,6 +112,7 @@ leader_traits = {
 	########################################	
 	
 	economy_minister = {}
+	minister_of_finance = {}
 	
 	eco_reformer = {
 		political_power_cost = 0.05
