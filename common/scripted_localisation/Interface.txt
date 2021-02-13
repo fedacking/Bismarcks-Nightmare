@@ -1,22 +1,42 @@
-
-
 defined_text = {
-	name = interface_government_type_sl
+	name = interface_government_type_head_of_state_sl
 	text = {
 		trigger = { 
 			has_country_flag = monarchy_flag
-			has_country_flag = semi_dmocratic_flag
+		}
+		localization_key = interface_government_type_mon
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = interface_government_type_democracy_level_sl
+	text = {
+		trigger = { 
+			has_country_flag = semi_democratic_flag
+		}
+		localization_key = interface_government_type_sem
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = interface_government_type_centralization_sl
+	text = {
+		trigger = { 
 			has_country_flag = unitary_flag
 		}
-		localization_key = interface_government_type_msdu
+		localization_key = interface_government_type_uni
 	}
 	text = {
 		trigger = { 
-			has_country_flag = monarchy_flag
-			has_country_flag = semi_dmocratic_flag
 			has_country_flag = federal_flag
 		}
-		localization_key = interface_government_type_msdf
+		localization_key = interface_government_type_fed
 	}
 	text = {
 		localization_key = ""

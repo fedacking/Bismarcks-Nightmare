@@ -924,10 +924,28 @@ guiTypes = {
 		clipping = no
 		
 		instantTextBoxType = {
-			name = "pol_control_view_txt"
-			position = { x = 99 y = 375 }
+			name = "pol_control_hos_txt"
+			position = { x = 99 y = 376 }
+			font = "hoi_18mbs"
+			text = interface_government_type_head_of_state_txt
+			maxWidth = 160
+			maxHeight = 80
+		}
+		
+		instantTextBoxType = {
+			name = "pol_control_dem_txt"
+			position = { x = 99 y = 397 }
 			font = "hoi_16mbs"
-			text = interface_government_type_txt
+			text = interface_government_type_democracy_level_txt
+			maxWidth = 160
+			maxHeight = 80
+		}
+		
+		instantTextBoxType = {
+			name = "pol_control_cen_txt"
+			position = { x = 99 y = 417 }
+			font = "hoi_16mbs"
+			text = interface_government_type_centralization_txt
 			maxWidth = 160
 			maxHeight = 80
 		}

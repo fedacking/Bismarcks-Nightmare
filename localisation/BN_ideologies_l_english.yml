@@ -4,9 +4,14 @@
  ### Interface ###
  #################
 
- interface_government_type_txt:0 "[interface_government_type_sl]"
- interface_government_type_msdu:0 "Monarchy\nSemi-Democratic\nUnitary" 
- interface_government_type_msdf:0 "Monarchy\nSemi-Democratic\nFederal" 
+ interface_government_type_head_of_state_txt:0 "[interface_government_type_head_of_state_sl]"
+ interface_government_type_democracy_level_txt:0 "[interface_government_type_democracy_level_sl]"
+ interface_government_type_centralization_txt:0 "[interface_government_type_centralization_sl]"
+ 
+ interface_government_type_mon:0 "Monarchy" 
+ interface_government_type_sem:0 "Semi-Democratic" 
+ interface_government_type_fed:0 "Federal" 
+ interface_government_type_uni:0 "Unitary" 
  
  party_name:0 "[This.GetRulingParty]"
  test:0 "test"
