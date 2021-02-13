@@ -1,44 +1,16 @@
 
 
 defined_text = {
-	name = interface_popularity_sl
+	name = interface_government_type_sl
 	text = {
-		trigger = { has_government = communist }
-		localization_key = interface_popularity_sco
+		trigger = { 
+			has_country_flag = monarchy_flag
+			has_country_flag = constitutional_flag
+			has_country_flag = unitary_flag
+		}
+		localization_key = interface_government_type_mcu
 	}
 	text = {
-		trigger = { check_variable = { USA_crisis_farming > 80 } }
-		localization_key = interface_popularity_sco
-	}
-	text = {
-		trigger = { check_variable = { USA_crisis_farming > 70 } }
-		localization_key = interface_popularity_sco
-	}
-	text = {
-		trigger = { check_variable = { USA_crisis_farming > 60 } }
-		localization_key = interface_popularity_sco
-	}
-	text = {
-		trigger = { check_variable = { USA_crisis_farming > 50 } }
-		localization_key = interface_popularity_sco
-	}
-	text = {
-		trigger = { check_variable = { USA_crisis_farming > 40 } }
-		localization_key = interface_popularity_sco
-	}
-	text = {
-		trigger = { check_variable = { USA_crisis_farming > 30 } }
-		localization_key = interface_popularity_sco
-	}
-	text = {
-		trigger = { check_variable = { USA_crisis_farming > 20 } }
-		localization_key = interface_popularity_sco
-	}
-	text = {
-		trigger = { check_variable = { USA_crisis_farming > 10 } }
-		localization_key = interface_popularity_sco
-	}
-	text = {
-		localization_key = interface_popularity_sco
+		localization_key = ""
 	}
 }

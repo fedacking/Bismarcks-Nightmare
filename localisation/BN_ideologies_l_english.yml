@@ -4,8 +4,8 @@
  ### Interface ###
  #################
 
- interface_popularity_txt:0 "[interface_popularity_sl]"
- interface_popularity_sco:0 "[This.GetRulingParty] has a popularity of [?actual_popularity^5]% but a control of [?party_popularity@semi_constitutionalist|%] of the government." 
+ interface_government_type_txt:0 "[interface_government_type_sl]"
+ interface_government_type_mcu:0 "Monarchy\nConstitutional\nUnitary" 
  
  party_name:0 "[This.GetRulingParty]"
  test:0 "test"

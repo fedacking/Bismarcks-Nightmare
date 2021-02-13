@@ -42,7 +42,7 @@
  ###Country Ideas
  ##Eco
  FRA_idea_depression_0:0 "Great Depression"
- FRA_idea_depression_0_desc:0 "During the second semester of 1935, the US and French economies started to slow down. The massive expansion of the economy in the 1920's has lead to overborrowing and overexposure for the banks. In the US in 1935 the banks started to default, and the crisis spiraled from there to the rest of the world."
+ FRA_idea_depression_0_desc:0 "During the second semester of 1935, the US and French economies started to slow down. The massive expansion of the economy in the 1920's has lead to overborrowing and overexposure for the banks. US banks started to default in 1935 and the crisis spread to the rest of the world."
  FRA_idea_depression_1:0 "Great Depression"
  FRA_idea_depression_2:0 "Great Depression"
  FRA_idea_depression_3:0 "Slow Recovery"
@@ -52,7 +52,7 @@
  #Abs
  FRA_idea_railway_fund:0 "Railway Fund"
  FRA_idea_cermonial_garde_nationale:0 "Ceremonial Garde Nationale"
- FRA_idea_cermonial_garde_nationale_desc:0 "Since the Coup de Etat in 1852, the National Guard continue to exist and exempts you from general conscription, but the Napoleonic Emperors have kept their powers and roles to the minimum."
+ FRA_idea_cermonial_garde_nationale_desc:0 "Since the Coup de Etat in 1852, the National Guard continues to exist and exempts you from general conscription, but the Napoleonic Emperors have kept their powers and roles to the minimum."
  ##Politics
  #Lib
  FRA_idea_loyal_garde_nationale:0 "Loyal Garde Nationale"
@@ -118,7 +118,7 @@
  #Revolution
  fra.101.t:0 "Paris Uprising!"
  fra.102.t:0 "Scuffle at Le National"
- fra.102.desc:0 "Today at 10 in the morning we dispatched some police offices to serve the notice of closure to the oficines of all the major papers of the oppossition, who are printing lies against the Emperor and his change in policy. When our agents arrived at The National, however we found the editor rallying protesters against the government and after a brief fight where shots we fired our agents retreated, leaving the premises free and the presses intact.\n\n While we speak, the editor of the national is rallying the other newspapers to condemn our move and have printed an extraordinary one page pamphlet decrying our defense of the true press. This event could be very dangerous to the prestige of our police forces and the power of our decrees in the capital. Sir what should we do?"
+ fra.102.desc:0 "Today at 10 in the morning we dispatched some police officers to serve the notice of closure to the offices of all the major papers of the oppossition, who are printing lies against the Emperor and his change in policy.  However, when our agents arrived at Le National we found the editor rallying protesters against the government. After a brief firefight on the streets our agents retreated, leaving the premises free and the presses intact.\n\n At this very moment, the editor of Le National is rallying the other newspapers to condemn our move and have printed an extraordinary one page pamphlet decrying our defense of the true press. This event could be very dangerous to the prestige of our police forces and the power of our decrees in the capital. Sir what should we do?"
  fra.102.a:0 "Send in the army!"
  
  ##News Events

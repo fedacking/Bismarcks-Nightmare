@@ -927,7 +927,7 @@ guiTypes = {
 			name = "pol_control_view_txt"
 			position = { x = 99 y = 375 }
 			font = "hoi_16mbs"
-			text = interface_popularity_txt
+			text = interface_government_type_txt
 			maxWidth = 160
 			maxHeight = 80
 		}
