@@ -107,6 +107,14 @@ on_actions = {
 				reload_popularity_chart = yes
 				
 			}
+			
+			6 = { remove_core_of = FRA }
+			35 = { remove_core_of = FRA }
+			42 = { remove_core_of = FRA }
+			516 = { remove_core_of = FRA }
+			817 = { remove_core_of = FRA }
+			822 = { remove_core_of = FRA }
+			872 = { remove_core_of = FRA }
 		}
 	}
 
