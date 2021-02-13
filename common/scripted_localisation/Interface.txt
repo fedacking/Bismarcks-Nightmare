@@ -5,10 +5,18 @@ defined_text = {
 	text = {
 		trigger = { 
 			has_country_flag = monarchy_flag
-			has_country_flag = constitutional_flag
+			has_country_flag = semi_dmocratic_flag
 			has_country_flag = unitary_flag
 		}
-		localization_key = interface_government_type_mcu
+		localization_key = interface_government_type_msdu
+	}
+	text = {
+		trigger = { 
+			has_country_flag = monarchy_flag
+			has_country_flag = semi_dmocratic_flag
+			has_country_flag = federal_flag
+		}
+		localization_key = interface_government_type_msdf
 	}
 	text = {
 		localization_key = ""

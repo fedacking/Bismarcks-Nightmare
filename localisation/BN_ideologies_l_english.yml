@@ -5,7 +5,8 @@
  #################
 
  interface_government_type_txt:0 "[interface_government_type_sl]"
- interface_government_type_mcu:0 "Monarchy\nConstitutional\nUnitary" 
+ interface_government_type_msdu:0 "Monarchy\nSemi-Democratic\nUnitary" 
+ interface_government_type_msdf:0 "Monarchy\nSemi-Democratic\nFederal" 
  
  party_name:0 "[This.GetRulingParty]"
  test:0 "test"
