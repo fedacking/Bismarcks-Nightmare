@@ -56,6 +56,11 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+set_country_flag = republic_flag
+set_country_flag = democratic_flag
+set_country_flag = confederal_flag
+
 create_country_leader = {
 	name = "Swiss Federal Council"
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"

@@ -39,6 +39,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = republic_flag
+set_country_flag = authoritarian_flag
+set_country_flag = unitary_flag
+
 create_country_leader = {
 	name = "Rafael Franco"
 	desc = "POLITICS_RAFAEL_FRANCO_DESC"

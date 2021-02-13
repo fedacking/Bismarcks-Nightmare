@@ -66,6 +66,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = monarchy_flag
+set_country_flag = authoritarian_flag
+set_country_flag = federal_flag
+
 create_country_leader = {
 	name = "Abdul Rahman"
 	desc = "POLITICS_ABDUL_RAHMAN_DESC"

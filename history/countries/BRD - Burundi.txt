@@ -25,6 +25,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = monarchy_flag
+set_country_flag = authoritarian_flag
+set_country_flag = unitary_flag
+
 create_country_leader = {
 	name = "Mwambutsa IV"
 	desc = "POLITICS_MWAMBUTSA_IV_DESC"

@@ -23,7 +23,7 @@ set_popularities = {
 	republican_liberal = 25
 	communist = 0
 	socialist = 2
-}	
+}
 
 set_politics = {
 	ruling_party = social_conservative
@@ -31,6 +31,10 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
+set_country_flag = monarchy_flag
+set_country_flag = democratic_flag
+set_country_flag = federal_flag
 
 create_country_leader = {
 	name = "Franz II"

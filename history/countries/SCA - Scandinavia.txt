@@ -67,6 +67,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = monarchy_flag
+set_country_flag = democratic_flag
+set_country_flag = federal_flag
+
 create_country_leader = {
 	name = "Congress of Copenhagen"
 	desc = "POLITICS_SCANDINAVIAN_CONGRESS_DESC"

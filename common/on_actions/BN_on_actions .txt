@@ -54,6 +54,57 @@ on_actions = {
 				set_country_flag = has_popularities_defined
 			}
 			
+			ARG = {
+				# Popularity start	
+				add_to_array = {
+					array = actual_popularity
+					value = 3 # Communist
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 15 # Socialist
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 33 # Rad
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 22 # Liberal
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 15 # Con
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 4 # Semi Abs
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 1 # Abs
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 4 # Despot
+				}
+				
+				add_to_array = {
+					array = actual_popularity
+					value = 3 # Separatism
+				}
+				
+				reload_popularity_chart = yes
+				set_country_flag = has_popularities_defined
+			}
+			
 			
 			every_country = {
 				limit = { NOT = { has_country_flag = has_popularities_defined } }

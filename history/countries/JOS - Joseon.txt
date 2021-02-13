@@ -115,6 +115,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = monarchy_flag
+set_country_flag = authoritarian_flag
+set_country_flag = unitary_flag
+
 create_country_leader = {
 	name = "Yunghui"
 	desc = "POLITICS_YUNGHUI_DESC"

@@ -29,6 +29,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = monarchy_flag
+set_country_flag = semi_democratic_flag
+set_country_flag = unitary_flag
+
 create_country_leader = {
 	name = "Faisal I"
 	desc = "POLITICS_FAISAL_II_DESC"

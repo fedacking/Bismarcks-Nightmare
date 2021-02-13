@@ -7,6 +7,12 @@ defined_text = {
 		localization_key = interface_government_type_mon
 	}
 	text = {
+		trigger = { 
+			has_country_flag = republic_flag
+		}
+		localization_key = interface_government_type_rep
+	}
+	text = {
 		localization_key = ""
 	}
 }
@@ -15,9 +21,21 @@ defined_text = {
 	name = interface_government_type_democracy_level_sl
 	text = {
 		trigger = { 
+			has_country_flag = democratic_flag
+		}
+		localization_key = interface_government_type_dem
+	}
+	text = {
+		trigger = { 
 			has_country_flag = semi_democratic_flag
 		}
 		localization_key = interface_government_type_sem
+	}
+	text = {
+		trigger = { 
+			has_country_flag = authoritarian_flag
+		}
+		localization_key = interface_government_type_aut
 	}
 	text = {
 		localization_key = ""
@@ -37,6 +55,12 @@ defined_text = {
 			has_country_flag = federal_flag
 		}
 		localization_key = interface_government_type_fed
+	}
+	text = {
+		trigger = { 
+			has_country_flag = confederal_flag
+		}
+		localization_key = interface_government_type_cfe
 	}
 	text = {
 		localization_key = ""

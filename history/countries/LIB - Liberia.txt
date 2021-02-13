@@ -77,6 +77,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = republic_flag
+set_country_flag = semi_democratic_flag
+set_country_flag = federal_flag
+
 create_country_leader = {
 	name = "Edwin Barclay"
 	desc = "POLITICS_EDWIN_BARCLAY_DESC"

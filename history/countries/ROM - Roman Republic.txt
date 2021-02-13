@@ -102,6 +102,10 @@ set_politics = {
 	elections_allowed = yes
 }
 
+set_country_flag = republic_flag
+set_country_flag = democratic_flag
+set_country_flag = unitary_flag
+
 ### Initial Leaders
 
 create_country_leader = {

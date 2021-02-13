@@ -69,6 +69,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = monarchy_flag
+set_country_flag = democratic_flag
+set_country_flag = unitary_flag
+
 create_country_leader = {
 	name = "Manuel II"
 	desc = "POLITICS_MANUEL_II_DESC"

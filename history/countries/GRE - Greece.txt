@@ -63,7 +63,11 @@ set_popularities = {
 	republican_liberal = 25
 	communist = 0		
 	socialist = 2
-}	
+}
+
+set_country_flag = monarchy_flag
+set_country_flag = authoritarian_flag
+set_country_flag = unitary_flag
 
 set_politics = {
 	ruling_party = social_conservative

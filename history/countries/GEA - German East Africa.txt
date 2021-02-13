@@ -25,6 +25,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = republic_flag
+set_country_flag = authoritarian_flag
+set_country_flag = unitary_flag
+
 create_country_leader = {
 	name = "Paul von Lettow-Vorbeck"
 	desc = "POLITICS_LETTOW_VORBECK_DESC"
