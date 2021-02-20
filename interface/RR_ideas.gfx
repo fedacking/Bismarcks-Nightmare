@@ -31,6 +31,10 @@ spriteTypes = {
 		name = "GFX_idea_nativism"
 		texturefile = "gfx/interface/ideas/idea_nativism.dds"
 	}
+	SpriteType = {
+		name = "GFX_idea_segregation"
+		texturefile = "gfx/interface/ideas/idea_segregation.dds"
+	}
 	
 	#FRA
 	SpriteType = {

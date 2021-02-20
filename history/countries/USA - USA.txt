@@ -13,7 +13,19 @@ set_country_flag = can_replace_hog
 add_ideas = {
 	free_speech
 	USA_idea_nativism
+	USA_idea_great_depression
+	USA_idea_institutional_discrimination
+	
+	USA_hog_con_james_reed
+	USA_for_lib_walter_george
+	USA_eco_con_farmer_bob
+	USA_sec_con_james_crawford_biggs
 }
+
+USA_crisis_startup_effect = yes
+USA_deflation_surplus_effect = yes
+USA_crisis_calculate_effect = yes	
+add_dynamic_modifier = { modifier = USA_great_depression_dynamic_modifier } 
 
 set_research_slots = 2
 set_stability = 0.7
@@ -97,6 +109,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+set_country_flag = USA_K_D_1928
+set_country_flag = USA_K_D_1928_past
 
 set_country_flag = republic_flag
 set_country_flag = democratic_flag

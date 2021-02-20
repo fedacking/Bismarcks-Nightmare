@@ -43,7 +43,7 @@ USA_works_project_administration_cat = {
 }
 
 USA_great_depression_cat = {
-	icon = eng_organize_the_blackshirts #PHolder
+	icon = generic_economy #PHolder
 	picture = GFX_decision_cat_pictures_dollar_bill
 	visible_when_empty = yes
 	allowed = {

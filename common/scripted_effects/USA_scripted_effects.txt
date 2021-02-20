@@ -17,19 +17,86 @@ USA_crisis_startup_effect = {
 	set_variable = { USA_crisis_overall = 25 }
 	set_variable = { USA_crisis_public_approval = 30 }
 	
-	USA_crisis_clamp_effect = yes
 }
 
 USA_crisis_clamp_effect = {
+	clamp_variable = { 
+		var = USA_crisis_farming 
+		min = 0
+		max = 100
+	}
+	clamp_variable = { 
+		var = USA_crisis_business 
+		min = 0
+		max = 100
+	}
+	clamp_variable = { 
+		var = USA_crisis_financial 
+		min = 0
+		max = 100
+	}
+	clamp_variable = { 
+		var = USA_crisis_unemployement 
+		min = 0
+		max = 100
+	}
+	clamp_variable = { 
+		var = USA_crisis_inflation 
+		min = -100
+		max = 100
+	}
+	clamp_variable = { 
+		var = USA_crisis_deficit 
+		min = -100
+		max = 100
+	}
+	clamp_variable = { 
+		var = USA_crisis_overall 
+		min = 0
+		max = 100
+	}
+	clamp_variable = { 
+		var = USA_crisis_public_approval 
+		min = 0
+		max = 100
+	}
+}
+
+USA_deflation_surplus_effect = {
 	set_variable = { USA_crisis_deflation = USA_crisis_inflation }
 	multiply_variable = { USA_crisis_deflation = -1 }
 	set_variable = { USA_crisis_surplus = USA_crisis_deficit }
 	multiply_variable = { USA_crisis_surplus = -1 }
 }
 
+USA_crisis_calculate_effect = {
+	set_variable = { great_depression_pp = USA_crisis_deficit }
+	divide_variable = { great_depression_pp = 20 }
+	
+	set_temp_variable = { temp_USA_crisis_unemployement = USA_crisis_unemployement }
+	divide_variable = { temp_USA_crisis_unemployement = 50 }
+	add_to_variable = { great_depression_pp = temp_USA_crisis_unemployement }
+	
+	divide_variable = { great_depression_pp = -100 }
+	
+	set_variable = { great_depression_consumer_goods = 80 }
+	subtract_from_variable = { great_depression_consumer_goods = USA_crisis_financial }
+	divide_variable = { great_depression_consumer_goods = 300 }
+	
+	set_variable = { great_depression_production_cap = USA_crisis_business }
+	subtract_from_variable = { great_depression_production_cap = 80 }
+	divide_variable = { great_depression_production_cap = 300 }
+	
+	set_variable = { great_depression_output = USA_crisis_unemployement }
+	divide_variable = { great_depression_output = -100 }
+	
+	set_variable = { great_depression_stability = USA_crisis_farming }
+	subtract_from_variable = { great_depression_stability = 80 }
+	divide_variable = { great_depression_stability = 300 }
+}
 
-
-
+USA_crisis_monthly_effect = {
+}
 
 ######################################################
 ######################################################

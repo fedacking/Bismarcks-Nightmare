@@ -2,6 +2,12 @@ leader_traits = {
 
 	### Ideologias ###
 	
+	# USA
+	
+	principled_conservative = {}
+	southern_democrat = {}
+	staunch_democrat = {}
+	
 	# Francia
 	left_bonapartiste = {}
 	ortho_bonapartiste = {}

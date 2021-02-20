@@ -1,0 +1,117 @@
+ideas = {
+
+	head_of_government = { ### Head of Government ###
+	
+		USA_hog_con_james_reed = {
+			picture = minister_james_reed
+			allowed = { original_tag = USA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = USA_james_reed_president_tt
+					has_country_flag = USA_K_D_1928
+				}
+			}
+			visible = {
+				has_country_flag = USA_K_D_1928
+			}
+			on_add = {
+			}
+			traits = {
+				president
+				principled_conservative
+				hog_staunch_nativist
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	foreign_minister = {
+	
+		USA_for_lib_walter_george = {
+			picture = minister_walter_george
+			allowed = { original_tag = USA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = USA_democrat_president
+					has_government = social_conservative
+					has_government = liberal_conservative
+				}
+			}
+			visible = {
+				custom_trigger_tooltip = {
+					tooltip = USA_democrat_president
+					has_government = social_conservative
+					has_government = liberal_conservative
+				}
+			}
+			on_add = {
+			}
+			traits = {
+				secretary_of_state
+				southern_democrat
+				for_isolationist
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	economy_minister = {
+		
+		USA_eco_con_farmer_bob = {
+			picture = minister_farmer_bob
+			allowed = { original_tag = USA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = USA_democrat_president
+					has_government = social_conservative
+					has_government = liberal_conservative
+				}
+			}
+			visible = {
+				custom_trigger_tooltip = {
+					tooltip = USA_democrat_president
+					has_government = social_conservative
+					has_government = liberal_conservative
+				}
+			}
+			on_add = {
+			}
+			traits = {
+				secretary_of_the_treasury
+				southern_democrat
+				eco_farmers_advocate
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	security_minister = {
+		
+		USA_sec_con_james_crawford_biggs = {
+			picture = minister_james_crawford_biggs
+			allowed = { original_tag = USA }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = USA_democrat_president
+					has_government = social_conservative
+					has_government = liberal_conservative
+				}
+			}
+			visible = {
+				custom_trigger_tooltip = {
+					tooltip = USA_democrat_president
+					has_government = social_conservative
+					has_government = liberal_conservative
+				}
+			}
+			on_add = {
+			}
+			traits = {
+				attorney_general
+				staunch_democrat
+				sec_incompetent_lawyer
+			}
+			cancel_if_invalid = no
+		}
+	}
+}

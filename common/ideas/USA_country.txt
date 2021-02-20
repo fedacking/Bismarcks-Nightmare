@@ -3,8 +3,23 @@ ideas = {
 		USA_idea_nativism = {
 			picture = nativism
 			modifier = {
-				MONTHLY_POPULATION = -0.1
+				monthly_population = -0.1
 				war_support_factor = 0.1
+			}
+		}
+		
+		USA_idea_great_depression = {
+			picture = usa_great_depression_3
+			modifier = {
+			}
+		}
+		
+		USA_idea_institutional_discrimination = {
+			picture = segregation
+			modifier = {
+				conscription_factor = -0.15
+				war_support_factor = -0.1
+				stability_factor = -0.05
 			}
 		}
 	}

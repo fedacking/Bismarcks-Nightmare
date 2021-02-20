@@ -61,6 +61,8 @@ bookmarks = {
 			ideology = social_conservative
 			ideas = {
 				USA_idea_nativism
+				USA_idea_great_depression
+				USA_idea_institutional_discrimination
 			}
 			focuses = {
 				USA_government_intervention

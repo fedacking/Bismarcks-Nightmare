@@ -145,6 +145,25 @@ spriteTypes = {
 		name = "GFX_idea_minister_roberto_farinacci"
 		texturefile = "gfx/interface/ministers/ROM/idea_minister_roberto_farinacci.tga"
 	}
+	
+	## United States of America
+	
+	SpriteType = {
+		name = "GFX_idea_minister_james_reed"
+		texturefile = "gfx/interface/ministers/USA/idea_minister_james_reed.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_walter_george"
+		texturefile = "gfx/interface/ministers/USA/idea_minister_walter_george.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_farmer_bob"
+		texturefile = "gfx/interface/ministers/USA/idea_minister_farmer_bob.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_james_crawford_biggs"
+		texturefile = "gfx/interface/ministers/USA/idea_minister_james_crawford_biggs.tga"
+	}
 
 	
 }

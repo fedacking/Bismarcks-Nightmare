@@ -16,9 +16,29 @@
  USA_absolutist_party_long:0 "-"
  USA_despotist_party:0 "Christian Party"
  USA_despotist_party_long:0 "Christian Party of America"
+ USA_separatist_party:0 "-"
+ USA_separatist_party_desc:0 "-"
+ 
+ # Minister ideologies
+ 
+ principled_conservative:0 "Principled Conservative"
+ southern_democrat:0 "Southern Democrat"
+ staunch_democrat:0 "Staunch Democrat"
  
  #ideas
- USA_nativism:0 "Strong Nativism"
+ USA_idea_nativism:0 "Strong Nativism"
+ USA_idea_nativism_desc:0 "Ever since the 1840s, a strong nativist sentiment has grown in the country. The Know-Nothing Democrats have garnished this energy into a series of immigration restriction laws, severely diminishing the ability to migrate to America. Despite the general trends though, the north-east is more accepting of immigrants due to its historical background."
+ USA_great_depression_dynamic_modifier:0 "The Great Depression"
+ USA_idea_great_depression:0 "The Great Depression"
+ USA_idea_great_depression_desc:0 "§WPolitical Power Gain: [?great_depression_pp|=+2]\nStability: [?great_depression_stability|=+2%]\nFactory Output: [?great_depression_output|=+2%]\nDockyard Output: [?great_depression_pp|=+2%]\nConsumer Goods Factories: §Y[?great_depression_consumer_goods|2%]§!\nProduction Efficency Cap: [?great_depression_production_cap|=+2%]\n--------------\n§!Our country has been struck with the greatest economic crisis in its history. In 1934 a series of droughts and dust storms hit hard our farming sector. This made many farmers bankrupt, and the missing payments made many of our banks which were already overleveraged and low on reserves, started to close. With a series of runs and a general credit crunch, business have started to close and unemployment has shot up. "
+ USA_idea_institutional_discrimination:0 "Institutional Discrimination"
+ USA_idea_institutional_discrimination_desc:0 ""We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the Pursuit of Happiness".\n\nDespite the end of slavery, the African Americans are still not equal in rights. Through legal segregation in the South, "separate but equal", the southern governments provide substandard services and opportunities. In the North, discrimination in employment, redlining and targeted policies have kept the African American as second class citizens in all but name."
+ 
+ # Ministers
+ USA_hog_con_james_reed:0 "James A. Reed"
+ USA_for_lib_walter_george:0 "Walter F. George"
+ USA_eco_con_farmer_bob:0 "Robert Lee Doughton"
+ USA_sec_con_james_crawford_biggs:0 "James Crawford Biggs"
  
  ## Decision Categories ##
  USA_political_situation_cat:0 "The Voice of the People"

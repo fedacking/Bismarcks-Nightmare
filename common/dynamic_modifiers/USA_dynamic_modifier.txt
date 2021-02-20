@@ -1,0 +1,13 @@
+
+USA_great_depression_dynamic_modifier = {
+	enable = {
+		tag = USA
+	}
+
+	political_power_gain = great_depression_pp
+	consumer_goods_factor = great_depression_consumer_goods
+	production_factory_max_efficiency_factor = great_depression_production_cap
+	industrial_capacity_factory = great_depression_output
+	industrial_capacity_dockyard = great_depression_output
+	stability_factor = great_depression_stability
+}

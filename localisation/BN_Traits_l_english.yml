@@ -21,6 +21,7 @@
  for_anti_communist_crusader:0 "Anti-Communist Crusader"
  for_flexible_diplomat:0 "Flexible Diplomat"
  for_apologetic_clerk:0 "Apologetic Clerk"
+ for_isolationist:0 "Isolationist"
  
  ### Economy Minister ###
  economy_minister:0 "Economy Minister"
@@ -31,17 +32,26 @@
  eco_coop_proponent: "Coop Proponent"
  eco_balanced_budget_economy: "Balanced Budget Economy"
  eco_laissez_faire_capitalist: "Laissez Faire Capitalist"
+ eco_farmers_advocate:0 "Farmer's Advocate"
  
  ### Security Minister ###
  security_minister:0 "Security Minister"
  sec_prince_of_terror:0 "Prince of Terror"
  sec_crime_fighter:0 "Crime Fighter"
  sec_compassionate_gentleman:0 "Compassionate Gentleman"
+ sec_incompetent_lawyer:0 "Incompetent Lawyer"
  
  ##Military personality
  artillery_officer: "Artillery Officer"
  artillery_officer_desc: "§LThis man has been to the side of artillery as far as he can remember.§!"
  
  ## Alt Names
+ president:0 "President"
+ 
+ secretary_of_state:0 "Secretary of State"
+ 
  minister_of_finance:0 "Minister of Finance"
+ secretary_of_the_treasury:0 "Secretary of the Treasury"
+ 
  minister_of_the_interior:0 "Minister of the Interior"
+ attorney_general:0 "Attorney General"
