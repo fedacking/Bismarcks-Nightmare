@@ -80,4 +80,28 @@
  
  us_congress_representatives_map_textbox_desc:0 "[USA_electoral_regions_sl]\nRepresentatives:\n[?us_congress_selected_region:USA_R_P_representatives] §RProgressive Republicans§!\n[?us_congress_selected_region:USA_R_C_representatives] §OCenter Republicans§!\n[?us_congress_selected_region:USA_D_L_representatives] §YLiberal Democrats§!\n[?us_congress_selected_region:USA_D_K_representatives] §CKnow-Nothing Democrats§!\nSenators:\n[?us_congress_selected_region:USA_R_P_senators] §RProgressive Republicans§!\n[?us_congress_selected_region:USA_R_C_senators] §OCenter Republicans§!\n[?us_congress_selected_region:USA_D_L_senators] §YLiberal Democrats§!\n[?us_congress_selected_region:USA_D_K_senators] §CKnow-Nothing Democrats§!"
  
+########################
+### Billls           ###
+########################
+
  ## Decisions
+ USA_bill_vote_calculation:0 "\n\n$USA_bill_vote_calculation_house$\n\n$USA_bill_vote_calculation_senate$"
+ USA_bill_vote_calculation_house:0 "House Support: \n§RProgressive Republicans:§! §g[?USA_R_P_rep_supporters]§!/[?USA_R_P_representatives]\n§OCenter Republicans:§! §g[?USA_R_C_rep_supporters]§!/[?USA_R_C_representatives]\n§YLiberal Democrats:§! §g[?USA_D_L_rep_supporters]§!/[?USA_D_L_representatives]\n§CKnow Nothing Democrats:§! §g[?USA_D_K_rep_supporters]§!/[?USA_D_K_representatives]\nWe have §g[?supporting_representatives]§! votes and we need §g[?needed_representatives_display]§! to pass the law."
+ USA_bill_vote_calculation_senate:0 "Senate Support:\n§RProgressive Republicans:§! §g[?USA_R_P_sen_supporters]§!/[?USA_R_P_senators]\n§OCenter Republicans:§! §g[?USA_R_C_sen_supporters]§!/[?USA_R_C_senators]\n§YLiberal Democrats:§! §g[?USA_D_L_sen_supporters]§!/[?USA_D_L_senators]\n§CKnow Nothing Democrats:§!\t§g[?USA_D_K_sen_supporters]§!/[?USA_D_K_senators]\nWe have §g[?supporting_senators]§! votes and we need §g[?needed_senators]§! to pass the law."
+
+ USA_bill_R_P_increase_support:0 "§RProgressive§! support for this bill will §Rdecrease.§!\n"
+
+ USA_bill_D_L_increase_support:0 "§YLiberal§! support for this bill will §Gincrease.§!\n"
+ USA_bill_D_K_increase_support:0 "§CKnow-Nothing§! support for this bill will §Gincrease.§!\n"
+
+ USA_bill_cost_decrease:0 "The cost for this bill will §Gdecrease.§!\n"
+ USA_bill_farming_decrease:0 "The farming effect for this bill will §Rdecrease.§!\n"
+
+ USA_bill_AAA_cat:0 "Agricultural Adjustment Act"
+ USA_bill_AAA_cat_desc:0 ""... Hand in hand with this we must frankly recognize the overbalance of population in our industrial centers and, by engaging on a national scale in a redistribution, endeavor to provide a better use of the land for those best fitted for the land. The task can be helped by definite efforts to raise the values of agricultural products and with this the power to purchase the output of our cities. It can be helped by preventing realistically the tragedy of the growing loss through foreclosure of our small homes and our farms. It can be helped by insistence that the Federal, State, and local governments act forthwith on the demand that their cost be drastically reduced."\n\nThe American farmers are suffering, and the government has promised to help them. The Agricultural Adjustment bill would allow the federal government to set target prices for agricultural commodities and sets aside large amounts of money to pay farmers not to produce more food and keep prices high. Many critics point out that this is unconstitutional, as the government doesn't have the power to regulate agriculture in the Constitution, but the law is so popular that we will surely not face difficulties in the vote. $USA_bill_vote_calculation$"
+
+ USA_bill_AAA_remove_sharecropping_payments:0 "Restrict Direct Payments to Tenants"
+ USA_bill_AAA_remove_sharecropping_payments_desc:0 "By making the direct payments apply to sections of lands that are left unattended instead of the farmers that do the work, sharecroppers will not receive benefits from our new bill. This will make our southern members happy as very few African American will see the benefits of our law, and our Liberal members will be happy with the reduction of costs and the respect for the landowners. Regretably, this will costs us some support among progressive republicans for the bill, but we probably don't need them."
+
+
+ USA_bill_AAA_increase_direct_payments:0 "Increase Direct Payments"

@@ -101,6 +101,145 @@ USA_crisis_monthly_effect = {
 ######################################################
 ######################################################
 ###												   ###
+###		Bill Passing Code						   ###	
+###												   ###
+######################################################
+######################################################
+
+## Initializations
+
+USA_bill_initialize_AAA = {
+	set_variable = { USA_R_P_rep_bill_support = 0.45 }
+	set_variable = { USA_R_C_rep_bill_support = 0.20 }
+	set_variable = { USA_D_L_rep_bill_support = 0.55 }
+	set_variable = { USA_D_K_rep_bill_support = 0.95 }
+
+	set_variable = { USA_R_P_sen_bill_support = 0.55 }
+	set_variable = { USA_R_C_sen_bill_support = 0.25 }
+	set_variable = { USA_D_L_sen_bill_support = 0.65 }
+	set_variable = { USA_D_K_sen_bill_support = 0.99 }
+
+	USA_recalculate_support = yes
+}
+
+## Core
+
+USA_recalculate_support = {
+	### House Version
+	set_variable = { USA_R_P_rep_supporters = USA_R_P_rep_bill_support }
+	set_variable = { USA_R_C_rep_supporters = USA_R_C_rep_bill_support }
+	set_variable = { USA_D_L_rep_supporters = USA_D_L_rep_bill_support }
+	set_variable = { USA_D_K_rep_supporters = USA_D_K_rep_bill_support }
+
+	multiply_variable = { USA_R_P_rep_supporters = USA_R_P_representatives }
+	multiply_variable = { USA_R_C_rep_supporters = USA_R_C_representatives }
+	multiply_variable = { USA_D_L_rep_supporters = USA_D_L_representatives }
+	multiply_variable = { USA_D_K_rep_supporters = USA_D_K_representatives }
+
+	subtract_from_variable = { USA_R_P_rep_supporters = 0.500 }
+	subtract_from_variable = { USA_R_C_rep_supporters = 0.500 }
+	subtract_from_variable = { USA_D_L_rep_supporters = 0.500 }
+	subtract_from_variable = { USA_D_K_rep_supporters = 0.500 }
+
+	round_variable = USA_R_P_rep_supporters
+	round_variable = USA_R_C_rep_supporters
+	round_variable = USA_D_L_rep_supporters
+	round_variable = USA_D_K_rep_supporters
+	
+	set_variable = { needed_representatives = 0 }
+	add_to_variable = { needed_representatives = USA_R_P_representatives }
+	add_to_variable = { needed_representatives = USA_R_C_representatives }
+	add_to_variable = { needed_representatives = USA_D_L_representatives }
+	add_to_variable = { needed_representatives = USA_D_K_representatives }
+	divide_variable = { needed_representatives = 2}
+	set_variable = { needed_representatives_display = needed_representatives }
+	round_variable = needed_representatives_display
+
+	set_variable = { supporting_representatives = 0 }
+	add_to_variable = { supporting_representatives = USA_R_P_rep_supporters }
+	add_to_variable = { supporting_representatives = USA_R_C_rep_supporters }
+	add_to_variable = { supporting_representatives = USA_D_L_rep_supporters }
+	add_to_variable = { supporting_representatives = USA_D_K_rep_supporters }
+
+	### Senate Version
+	set_variable = { USA_R_P_sen_supporters = USA_R_P_sen_bill_support }
+	set_variable = { USA_R_C_sen_supporters = USA_R_C_sen_bill_support }
+	set_variable = { USA_D_L_sen_supporters = USA_D_L_sen_bill_support }
+	set_variable = { USA_D_K_sen_supporters = USA_D_K_sen_bill_support }
+
+	multiply_variable = { USA_R_P_sen_supporters = USA_R_P_senators }
+	multiply_variable = { USA_R_C_sen_supporters = USA_R_C_senators }
+	multiply_variable = { USA_D_L_sen_supporters = USA_D_L_senators }
+	multiply_variable = { USA_D_K_sen_supporters = USA_D_K_senators }
+
+	subtract_from_variable = { USA_R_P_sen_supporters = 0.499 }
+	subtract_from_variable = { USA_R_C_sen_supporters = 0.499 }
+	subtract_from_variable = { USA_D_L_sen_supporters = 0.499 }
+	subtract_from_variable = { USA_D_K_sen_supporters = 0.499 }
+
+	round_variable = USA_R_P_sen_supporters
+	round_variable = USA_R_C_sen_supporters
+	round_variable = USA_D_L_sen_supporters
+	round_variable = USA_D_K_sen_supporters
+
+	set_variable = { needed_senators = 0 }
+	add_to_variable = { needed_senators = USA_R_P_senators }
+	add_to_variable = { needed_senators = USA_R_C_senators }
+	add_to_variable = { needed_senators = USA_D_L_senators }
+	add_to_variable = { needed_senators = USA_D_K_senators }
+	divide_variable = { needed_senators = 2 }
+
+	set_variable = { supporting_senators = 0 }
+	add_to_variable = { supporting_senators = USA_R_P_sen_supporters }
+	add_to_variable = { supporting_senators = USA_R_C_sen_supporters }
+	add_to_variable = { supporting_senators = USA_D_L_sen_supporters }
+	add_to_variable = { supporting_senators = USA_D_K_sen_supporters }
+}
+
+USA_vote_on_bill = {
+	USA_recalculate_support = yes
+	
+	if = {
+		limit = {
+			check_variable = {
+				var = supporting_representatives
+				value = needed_representatives
+				compare = greater_than_or_equals
+			}
+		}
+		set_country_flag = USA_bill_passed_house
+	}
+
+	if = {
+		limit = {
+			check_variable = {
+				var = supporting_senators
+				value = needed_senators
+				compare = greater_than_or_equals
+			}
+		}
+		set_country_flag = USA_bill_passed_senate
+	}
+
+
+	if = {
+		limit = {
+			has_country_flag = USA_bill_passed_house
+			has_country_flag = USA_bill_passed_senate
+		}
+		set_country_flag = USA_bill_passed_congress
+	}
+}
+
+USA_bill_cleanup = {
+	clr_country_flag = USA_bill_passed_house
+	clr_country_flag = USA_bill_passed_senate
+	clr_country_flag = USA_bill_passed_congress
+}
+
+######################################################
+######################################################
+###												   ###
 ###		Election Code							   ###	
 ###												   ###
 ######################################################
@@ -471,7 +610,6 @@ USA_elections_startup_effect = {
 	}
 	
 	381 = { # Wyoming
-		set_variable = { USA_state_representatives = 10 }
 		set_variable = { USA_R_P_popularity = 0.18 }
 		set_variable = { USA_R_C_popularity = 0.82 }
 		set_variable = { USA_D_L_popularity = 0.65 }
@@ -482,6 +620,10 @@ USA_elections_startup_effect = {
 		
 		set_variable = { USA_R_enthusiasm = 1.2 }
 		set_variable = { USA_D_enthusiasm = 0.8 }
+		
+		set_variable = { USA_voter_turnout = 0.328 }
+
+		set_variable = { USA_state_representatives = 10 }
 
 		set_variable = { USA_R_P_representatives = 1 }
 		set_variable = { USA_R_C_representatives = 2 }
@@ -512,6 +654,19 @@ USA_elections_startup_effect = {
 	}
 	
 	392 = { # Great Plains
+		set_variable = { USA_R_P_popularity = 0.18 }
+		set_variable = { USA_R_C_popularity = 0.82 }
+		set_variable = { USA_D_L_popularity = 0.65 }
+		set_variable = { USA_D_K_popularity = 0.35 }
+		
+		set_variable = { USA_R_popularity = 0.38 }
+		set_variable = { USA_D_popularity = 0.62 }
+		
+		set_variable = { USA_R_enthusiasm = 1.2 }
+		set_variable = { USA_D_enthusiasm = 0.8 }
+		
+		set_variable = { USA_voter_turnout = 0.328 }
+		
 		set_variable = { USA_state_representatives = 46 }
 
 		set_variable = { USA_R_P_representatives = 9 }
@@ -543,6 +698,19 @@ USA_elections_startup_effect = {
 	}
 	
 	393 = { # Great Lakes
+		set_variable = { USA_R_P_popularity = 0.18 }
+		set_variable = { USA_R_C_popularity = 0.82 }
+		set_variable = { USA_D_L_popularity = 0.65 }
+		set_variable = { USA_D_K_popularity = 0.35 }
+		
+		set_variable = { USA_R_popularity = 0.38 }
+		set_variable = { USA_D_popularity = 0.62 }
+		
+		set_variable = { USA_R_enthusiasm = 1.2 }
+		set_variable = { USA_D_enthusiasm = 0.8 }
+		
+		set_variable = { USA_voter_turnout = 0.328 }
+		
 		set_variable = { USA_state_representatives = 87 }
 
 		set_variable = { USA_R_P_representatives = 33 }
@@ -574,6 +742,19 @@ USA_elections_startup_effect = {
 	}
 
 	367 = { # Alabama
+		set_variable = { USA_R_P_popularity = 0.18 }
+		set_variable = { USA_R_C_popularity = 0.82 }
+		set_variable = { USA_D_L_popularity = 0.65 }
+		set_variable = { USA_D_K_popularity = 0.35 }
+		
+		set_variable = { USA_R_popularity = 0.38 }
+		set_variable = { USA_D_popularity = 0.62 }
+		
+		set_variable = { USA_R_enthusiasm = 1.2 }
+		set_variable = { USA_D_enthusiasm = 0.8 }
+		
+		set_variable = { USA_voter_turnout = 0.328 }
+		
 		set_variable = { USA_state_representatives = 73 }
 
 		set_variable = { USA_R_P_representatives = 0 }
@@ -605,6 +786,19 @@ USA_elections_startup_effect = {
 	}
 
 	362 = { # Virginia
+		set_variable = { USA_R_P_popularity = 0.18 }
+		set_variable = { USA_R_C_popularity = 0.82 }
+		set_variable = { USA_D_L_popularity = 0.65 }
+		set_variable = { USA_D_K_popularity = 0.35 }
+		
+		set_variable = { USA_R_popularity = 0.38 }
+		set_variable = { USA_D_popularity = 0.62 }
+		
+		set_variable = { USA_R_enthusiasm = 1.2 }
+		set_variable = { USA_D_enthusiasm = 0.8 }
+		
+		set_variable = { USA_voter_turnout = 0.328 }
+		
 		set_variable = { USA_state_representatives = 48 }
 
 		set_variable = { USA_R_P_representatives = 0 }
@@ -636,6 +830,19 @@ USA_elections_startup_effect = {
 	}
 
 	360 = { # Pennsylvania
+		set_variable = { USA_R_P_popularity = 0.18 }
+		set_variable = { USA_R_C_popularity = 0.82 }
+		set_variable = { USA_D_L_popularity = 0.65 }
+		set_variable = { USA_D_K_popularity = 0.35 }
+		
+		set_variable = { USA_R_popularity = 0.38 }
+		set_variable = { USA_D_popularity = 0.62 }
+		
+		set_variable = { USA_R_enthusiasm = 1.2 }
+		set_variable = { USA_D_enthusiasm = 0.8 }
+		
+		set_variable = { USA_voter_turnout = 0.328 }
+		
 		set_variable = { USA_state_representatives = 104 }
 
 		set_variable = { USA_R_P_representatives = 12 }
@@ -667,6 +874,19 @@ USA_elections_startup_effect = {
 	}
 	
 	357 = { # New England
+		set_variable = { USA_R_P_popularity = 0.18 }
+		set_variable = { USA_R_C_popularity = 0.82 }
+		set_variable = { USA_D_L_popularity = 0.65 }
+		set_variable = { USA_D_K_popularity = 0.35 }
+		
+		set_variable = { USA_R_popularity = 0.38 }
+		set_variable = { USA_D_popularity = 0.62 }
+		
+		set_variable = { USA_R_enthusiasm = 1.2 }
+		set_variable = { USA_D_enthusiasm = 0.8 }
+		
+		set_variable = { USA_voter_turnout = 0.328 }
+		
 		set_variable = { USA_state_representatives = 48 }
 
 		set_variable = { USA_R_P_representatives = 0 }

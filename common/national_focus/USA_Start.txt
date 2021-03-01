@@ -113,7 +113,12 @@ focus_tree = {
 
 		available_if_capitulated = no
 
+		select_effect = {
+			USA_bill_initialize_AAA = yes
+		}
+
 		completion_reward = {
+			USA_bill_cleanup = yes
 		}
 	}
 
