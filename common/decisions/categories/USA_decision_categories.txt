@@ -15,11 +15,14 @@ USA_political_situation_cat = {
 	visible = {
 		always = yes
 	}
+	priority = {
+		base = 10
+	}
 }
 
 USA_election_results_cat = {
 
-	icon = usa_congress #PHolder
+	icon = usa_congress
 	picture = GFX_decision_cat_pictures_usa_election_results
 	visible_when_empty = yes
 	
@@ -32,7 +35,7 @@ USA_election_results_cat = {
 }
 
 USA_works_project_administration_cat = {
-	icon = generic_industry #PHolder
+	icon = generic_industry
 	picture = GFX_decision_cat_picture_organize_the_blackshirts	#PHolder
 	allowed = {
 		tag = USA
@@ -43,7 +46,7 @@ USA_works_project_administration_cat = {
 }
 
 USA_great_depression_cat = {
-	icon = generic_economy #PHolder
+	icon = generic_economy
 	picture = GFX_decision_cat_pictures_dollar_bill
 	visible_when_empty = yes
 	allowed = {
@@ -52,4 +55,24 @@ USA_great_depression_cat = {
 	visible = {
 		always = yes
 	}
+}
+
+##################
+##### Bills ######
+##################
+
+USA_bill_AAA_cat = {
+	icon = generic_political_actions
+	picture = GFX_decision_cat_pictures_usa_bill_AAA
+	visible_when_empty = yes
+	allowed = {
+		tag = USA
+	}
+	visible = {
+		always = yes
+	}
+	priority = {
+		base = 9
+	}
+
 }

@@ -25,3 +25,34 @@ USA_works_project_administration_cat = {
 		}
 	}
 }
+
+USA_bill_AAA_cat = {
+	USA_bill_AAA_remove_sharecropping_payments = {
+		icon = generic_decision
+		cost = 50
+		fire_only_once = yes
+
+		complete_effect = {
+			custom_effect_tooltip = USA_bill_cost_decrease
+			custom_effect_tooltip = USA_bill_farming_decrease
+			custom_effect_tooltip = USA_bill_R_P_increase_support
+			custom_effect_tooltip = USA_bill_D_L_increase_support
+			custom_effect_tooltip = USA_bill_D_K_increase_support
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	USA_bill_AAA_increase_direct_payments = {
+		icon = generic_decision
+		cost = 50
+		fire_only_once = yes
+
+		complete_effect = {
+			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}
