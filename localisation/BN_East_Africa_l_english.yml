@@ -1,6 +1,25 @@
 ﻿l_english:
 ##Political Parties
 
+GEA_communist_party:0 "KPOA"
+GEA_communist_party_long:0 "Kommunistische Partei Ostafrikas"
+GEA_socialist_party:0 "SPOA"
+GEA_socialist_party_long:0 "Sozialdemokratische Partei Ostafrikas"
+GEA_republican_liberal_party:0 "LP"
+GEA_republican_liberal_party_long:0 "Liberaldemokratische Partei"
+GEA_liberal_conservative_party:0 "NLP"
+GEA_liberal_conservative_party_long:0 "Nationalliberale Partei"
+GEA_social_conservative_party:0 "VP"
+GEA_social_conservative_party_long:0 "Volkspartei"
+GEA_semi_constitutionalist_party:0 "LVL"
+GEA_semi_constitutionalist_party_long:0 "Lettow-Vorbecks Loyalisten"
+GEA_absolutist_party:0 "Schnee Verwaltung"
+GEA_absolutist_party_long:0 "Schnee Verwaltung"
+GEA_despotist_party:0 "DEP"
+GEA_despotist_party_long:0 "Deutsche Erste Partei"
+GEA_separatist_party:0 "MUK"
+GEA_separatist_party_long:0 "Mbele ya Uhuru wa Kiswahili"
+
 ##Ministers
 #Head of Government
 
@@ -29,7 +48,7 @@ GEA_idea_depression_desc:0 "During the second semester of 1935, the US and Frenc
 GEA_idea_segregated_society:0 "Segregated Administration"
 GEA_idea_segregated_society_desc:0 "While there's no legal segregation in East Africa, the state clearly favours white people when it comes to government jobs."
 GEA_idea_lettow_vorbecks_askaris:0 "Lettow-Vorbeck's Askaris"
-GEA_idea_lettow_vorbecks_askaris_desc:0 "WIP"
+GEA_idea_lettow_vorbecks_askaris_desc:0 "Commander in Chief Lettow-Vorbeck earned the respect and admiration of the Askaris, which make the bulge of our army, thanks to his fluency of the Swahili language and his willingness to appoint black officers. The Askaris also formed a military caste within the colonial structure, which had largely separated itself from its members' tribal roots thus making them loyal to the administration."
 
 ## Dyn modifier
 
