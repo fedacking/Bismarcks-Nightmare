@@ -7,19 +7,29 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+add_ideas = {	
+	GEA_idea_depression
+	GEA_idea_segregated_society
+	GEA_idea_lettow_vorbecks_askaris
+}
+add_timed_idea = {
+	idea = GEA_idea_reparations_for_the_coast_debtor
+	days = 2500
+}
+
 set_popularities = {
 	despotist = 0
-	absolutist = 0
-	semi_constitutionalist = 100
+	absolutist = 60
+	semi_constitutionalist = 40
 	social_conservative = 0
 	liberal_conservative = 0
 	republican_liberal = 0
 	communist = 0
 	socialist = 0
-}	
+}
 
 set_politics = {
-	ruling_party = semi_constitutionalist
+	ruling_party = absolutist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
@@ -38,6 +48,84 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_country_leader = {
+	name = "Heinrich Schnee"
+	desc = "POLITICS_HEINRICH_SCHNEE_DESC"
+	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	expire = "1965.1.1"
+	ideology = imperialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Paul von Lettow-Vorbeck"
+	picture = "Portrait_GEA_Leader_Paul_von_Lettow_Vorbeck.tga"
+	traits =  { old_guard trickster war_hero guerilla_fighter logistics_wizard }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Georg Kraut"
+	picture = "Portrait_GEA_General_PlaceHolder.tga"
+	traits = { old_guard career_officer war_hero }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+
+create_corps_commander = {
+	name = "Ludwig Crüwell"
+	picture = "Portrait_GEA_General_PlaceHolder.tga"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Elias Nazari"
+	picture = "Portrait_GEA_General_PlaceHolder.tga"
+	traits = { commando }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Bakari Simba"
+	picture = "Portrait_GEA_General_PlaceHolder.tga"
+	traits = { # }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Kamili Sayyid"
+	picture = "Portrait_GEA_General_PlaceHolder.tga"
+	traits = { # }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 

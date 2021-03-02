@@ -1,0 +1,48 @@
+﻿l_english:
+##Political Parties
+
+##Ministers
+#Head of Government
+
+#Foreign Minister
+
+#Economy Minister
+
+#Security Ministers
+
+### Ideas ###
+
+GEA_idea_hutu_tutsi_divide:0 "Hutu-Tutsi Divide"
+GEA_idea_hutu_tutsi_divide_desc:0 "Although they are a minority, the Tutsi became the dominant ethnicity in Rwanda and Burundi due to the German colonial administration thinking they're are racially superior thanks to their alleged "Hamitic" origins making them more "European" than the Hutu. This discrimination is proving more and more destabilizing and might throw the two countries into a civil war if it's not adressed soon."
+GEA_idea_in_the_middle_of_nowhere:0 "In the Middle of Nowhere"
+GEA_idea_in_the_middle_of_nowhere_desc:0 "After thousands of years of exile, a homeland was established for our people in the then British East Africa Protectorate. Although here we are free from persecution, starting a functional state in the middle of nowhere is proving troublesome. Our economy is borderline non-existent, the natives don't want us here and on top of that, we risk a famine if more people were to come here."
+GEA_idea_jewish_immigration:0 "Jewish Homeland"
+GEA_idea_jewish_immigration_desc:0 "Our state is the jewish homeland. That being said, many brothers still reject the idea of a jewish homeland outside of Palestine. Aside from ideological reasons, the situation of the country doesn't make for a very attractive immigrant destination either."
+GEA_idea_the_christian_schism:0 "Christian Schism"
+GEA_idea_the_christian_schism_desc:0 "In the mid 1880s, the Kingdom of Uganda was divided between four religious factions -Adherents of Uganda's Native Religion, Catholics, Protestants and Muslims - each vying for political control. After allying themselves against the muslim faction, the catholics and protestants resumed their struggle for supremacy, leading to a civil war. With British intervention, the war ended and the protestants were placed in positions of power. Now, with the British gone from the region, tensions are running high again."
+GEA_idea_reparations_for_the_coast_creditor:0 "Reparation for the Swahili Coast"
+GEA_idea_reparations_for_the_coast_creditor_desc:0 "The Swahili Coast was taken from us by the German administration in the mainland. To prevent conflict, they agreed to pay us a hefty amount of money to compensate for the loss of land."
+GEA_idea_reparations_for_the_coast_debtor:0 "Reparation for the Swahili Coast"
+GEA_idea_reparations_for_the_coast_debtor_desc:0 "Our administration seized the Swahili Coast from the Sultan of Zanzibar at the cost of compensating him with gold for the lost land. However, this debt is taking a toll on our budget."
+GEA_idea_depression:0 "Great Depression"
+GEA_idea_depression_desc:0 "During the second semester of 1935, the US and French economies started to slow down. The massive expansion of the economy in the 1920's has lead to overborrowing and overexposure for the banks. In the US in 1935 the banks started to default, and the crisis spiraled from there to the rest of the world."
+GEA_idea_segregated_society:0 "Segregated Administration"
+GEA_idea_segregated_society_desc:0 "While there's no legal segregation in East Africa, the state clearly favours white people when it comes to government jobs."
+GEA_idea_lettow_vorbecks_askaris:0 "Lettow-Vorbeck's Askaris"
+GEA_idea_lettow_vorbecks_askaris_desc:0 "WIP"
+
+## Dyn modifier
+
+### Flags ###
+
+### Decisions ###
+
+#Categories
+
+#Decisions
+
+### Cosmetic names ###
+
+### National Focus #####
+
+### Events ###

@@ -7,6 +7,11 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+add_timed_idea = {
+	idea = GEA_idea_reparations_for_the_coast_creditor
+	days = 2500
+}
+
 set_popularities = {
 	despotist = 0
 	absolutist = 100

@@ -1,0 +1,84 @@
+ideas = {
+	country = {
+		
+		##Rwanda-Burundi
+		GEA_idea_hutu_tutsi_divide = {
+			picture = army_chained #place holder image
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.1
+			}
+		}
+	
+		##Judea
+		GEA_idea_in_the_middle_of_nowhere = {
+			picture = army_chained #place holder image
+			modifier = {
+				consumer_goods_factor = 0.1
+				stability_factor = -0.2
+				political_power_gain = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.2
+				local_resources_factor = -0.1
+				conscription_factor = -0.2
+			}
+		}
+		GEA_idea_jewish_immigration = {
+			picture = army_chained #place holder image
+			modifier = {
+				monthly_population = 0.05
+			}
+		}
+		
+		##Buganda
+		GEA_idea_the_christian_schism = {
+			picture = army_chained #place holder image
+			modifier = {
+				stability_factor = -0.2
+			}
+		}
+		
+		##Zanzibar
+		GEA_idea_reparations_for_the_coast_creditor = {
+			picture = GEA_incoming_money
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+		##GEA
+		GEA_idea_reparations_for_the_coast_debtor = {
+			picture = capital_outflow
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+		GEA_idea_depression = {
+			picture = usa_great_depression_3
+			modifier = {
+				consumer_goods_factor = 0.2
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				political_power_cost = 0.2
+				stability_factor  = -0.2
+			}
+		}
+		GEA_idea_segregated_society = {
+			picture = segregation
+			modifier = {
+				conscription_factor = -0.2
+				stability_factor = -0.05
+				political_power_gain = 0.1
+				industrial_capacity_factory = -0.05
+			}
+		}
+		GEA_idea_lettow_vorbecks_askaris = {
+			picture = GEA_Askaris
+			modifier = {
+				conscription_factor = 0.1
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+			}
+		}
+	}
+}

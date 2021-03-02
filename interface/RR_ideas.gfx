@@ -61,6 +61,16 @@ spriteTypes = {
 		name = "GFX_idea_capital_outflow"
 		texturefile = "gfx/interface/ideas/idea_capital_outflow.tga"
 	}
+
+	#GEA
+	SpriteType = {
+		name = "GFX_idea_GEA_Askaris"
+		texturefile = "gfx/interface/ideas/idea_GEA_Askaris.tga" #Credits to KR
+	}
+	SpriteType = {
+		name = "GFX_idea_GEA_incoming_money"
+		texturefile = "gfx/interface/ideas/idea_GEA_incoming_money.dds" #Credits to base HOI4
+	}
 	
 	### ZZZ
 

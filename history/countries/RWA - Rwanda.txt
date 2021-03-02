@@ -7,6 +7,10 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+add_ideas = {
+	GEA_idea_hutu_tutsi_divide	
+}
+
 set_popularities = {
 	despotist = 0
 	absolutist = 100
@@ -16,7 +20,7 @@ set_popularities = {
 	republican_liberal = 0
 	communist = 0
 	socialist = 0
-}	
+}
 
 set_politics = {
 	ruling_party = absolutist
