@@ -354,4 +354,14 @@ spriteTypes = {
 		name = "GFX_goal_FRA_empire_secured"
 		texturefile = "gfx/interface/goals/goal_FRA_empire_secured.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_hands_paper_ripping"
+		texturefile = "gfx/interface/goals/goal_hands_paper_ripping.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_HYD_trade_cotton"
+		texturefile = "gfx/interface/goals/goal_HYD_trade_cotton.tga"
+	}
 }
