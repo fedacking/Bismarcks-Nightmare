@@ -364,4 +364,29 @@ spriteTypes = {
 		name = "GFX_goal_HYD_trade_cotton"
 		texturefile = "gfx/interface/goals/goal_HYD_trade_cotton.tga"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_constitution"
+		texturefile = "gfx/interface/goals/goal_constitution.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_rice"
+		texturefile = "gfx/interface/goals/goal_rice.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_HYD_cotton_investment"
+		texturefile = "gfx/interface/goals/goal_HYD_cotton_investment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_scientific_farm"
+		texturefile = "gfx/interface/goals/goal_scientific_farm.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_HYD_big_diamond"
+		texturefile = "gfx/interface/goals/goal_HYD_big_diamond.dds"
+	}
 }
