@@ -283,7 +283,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_compromise_for_stability ## Reform tree
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = { focus = HYD_friction_in_the_executive_council }
 		x = 4
 		y = 1
@@ -309,7 +309,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_redistribute_land_to_landless_farmers ## Bhoodan_movement
-		icon = GFX_goal_WIP
+		icon = GFX_goal_agrarian_reform
 		prerequisite = { focus = HYD_the_issue_of_bonded_labour }
 		x = -1
 		y = 1
@@ -322,7 +322,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_moratorium_on_debt_collection
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = HYD_the_issue_of_bonded_labour }
 		x = 1
 		y = 1
@@ -362,7 +362,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_publish_the_critical_edition_of_the_mahabharata ## Shorten the name for fuck's sake
-		icon = GFX_goal_WIP
+		icon = GFX_focus_hol_the_foundations_of_defense
 		prerequisite = { focus = HYD_rebuild_hindu_temples }
 		x = 0
 		y = 1
