@@ -93,7 +93,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_the_osmania_sikka ## Name of Hyderabad Rupee; Eco tree
-		icon = GFX_goal_WIP
+		icon = GFX_goal_silver_money
 		prerequisite = { focus = HYD_friction_in_the_executive_council }
 		x = -4
 		y = 1
@@ -106,7 +106,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_the_diamonds_of_golconda
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = HYD_the_osmania_sikka }
 		x = 0
 		y = 1
@@ -119,7 +119,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_golconda_will_pay_for_factories
-		icon = GFX_goal_WIP
+		icon = GFX_goal_cash_factories
 		prerequisite = { focus = HYD_the_diamonds_of_golconda }
 		x = -1
 		y = 1
@@ -142,7 +142,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_subsidize_noble_estates
-		icon = GFX_goal_WIP
+		icon = GFX_goal_bag_of_money
 		prerequisite = { focus = HYD_the_diamonds_of_golconda }
 		x = 1
 		y = 1
@@ -349,7 +349,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_rebuild_hindu_temples ## Event with increasingly expensive options, the more expensive the temple the better the effect
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = HYD_compromise_for_stability }
 		x = 2
 		y = 1
@@ -375,7 +375,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_empower_the_hyderabad_state_reforms_association ## Political tree
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = { focus = HYD_compromise_for_stability }
 		x = 0
 		y = 4
@@ -388,7 +388,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_the_mulki_regulations ## Mulkies (hyderabadis) are prefered in the administration
-		icon = GFX_goal_WIP
+		icon = GFX_focus_generic_diplomatic_treaty
 		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
 		x = -3
 		y = 1
@@ -401,7 +401,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_allow_political_meetings ## Banned in 29?
-		icon = GFX_goal_WIP
+		icon = GFX_goal_people
 		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
 		x = -1
 		y = 1
@@ -414,7 +414,7 @@ focus_tree = {
 	
 	focus = {
 		id = HYD_calls_for_responsible_government ## Changes final result of constitution: ceremonial monarch vs semi-constitutionalist
-		icon = GFX_goal_WIP
+		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = HYD_empower_the_hyderabad_state_reforms_association }
 		x = 1
 		y = 1

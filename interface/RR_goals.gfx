@@ -389,4 +389,14 @@ spriteTypes = {
 		name = "GFX_goal_HYD_big_diamond"
 		texturefile = "gfx/interface/goals/goal_HYD_big_diamond.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_cash_factories"
+		texturefile = "gfx/interface/goals/goal_cash_factories.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_silver_money"
+		texturefile = "gfx/interface/goals/goal_silver_money.dds"
+	}
 }

@@ -19,7 +19,12 @@
  IND_separatist_party:0 "AIML"
  IND_separatist_party_long:0 "All-India Muslim League"
  ## "Shiromani Akali Dal" para Sikhs?
- 
+
+ ## Ideas
+ IND_idea_frequent_famines: "Frequent Famines"
+ IND_idea_depression: "The Great Depression"
+
+
  ## IND depression
  IND_depression_pp_cost_reduction: "Modify §YGreat Depression§! by Daily Political Power Cost: §G-0.05§!"
  IND_depression_building_speed: "Modify §YGreat Depression§! by Construction Speed: §G+25%§!"

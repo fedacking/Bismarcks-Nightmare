@@ -5,7 +5,8 @@ oob = "empty"
 set_fuel_ratio = 0.8
 
 add_ideas = {
-	IND_idea_frequent_famines	
+	IND_idea_frequent_famines
+	IND_idea_depression
 }
 
 # Starting tech
