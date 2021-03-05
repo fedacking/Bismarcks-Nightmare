@@ -1,4 +1,4 @@
-﻿capital = 546
+﻿capital = 873
 
 oob = "GEA_1936"
 
@@ -73,12 +73,30 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Georg Kraut"
-	picture = "Portrait_GEA_General_PlaceHolder.tga"
-	traits = { old_guard career_officer war_hero }
+	name = "Theodor von Hippel"
+	picture = "Portrait_GEA_Theodor_von_Hippel.tga"
+	traits = {
+		brilliant_strategist
+		war_hero
+		trickster
+		commando
+		camouflage_expert
+		guerilla_fighter
+	}
 	skill = 3
 	attack_skill = 2
-	defense_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Georg Kraut"
+	picture = "Portrait_GEA_Georg_Kraut.tga"
+	traits = { war_hero media_personality desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
 }

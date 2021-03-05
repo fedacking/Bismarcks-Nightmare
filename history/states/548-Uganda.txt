@@ -3,7 +3,7 @@ state = {
 	name = "STATE_548"
 	state_category = rural
 	resources = {
-		rubber = 3
+		rubber = 6
 	}
 	manpower = 3515625
 	buildings_max_level_factor = 1.000	

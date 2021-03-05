@@ -1,0 +1,25 @@
+state = {
+	id = 875
+	name = "STATE_875"	
+	state_category = rural
+	resources = {
+		#
+	}
+	history = {
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = TAN
+		victory_points = {
+			10932 1 #Mwanza
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces = {
+		2176 2308 8144 10932 11017 13253 13257 13258 13259 13261 13262 13263 13264 13280
+	}
+	manpower = 1771440
+	buildings_max_level_factor = 1.000
+}

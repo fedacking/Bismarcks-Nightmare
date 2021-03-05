@@ -1,0 +1,33 @@
+state = {
+	id = 873
+	name = "STATE_873"	
+	state_category = town
+	resources = {
+		#
+	}
+	history = {
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = TAN
+		victory_points = {
+			2196 5 #Daressalam
+		}
+		victory_points = {
+			8183 1 #Tanga
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			industrial_complex = 2
+			arms_factory = 1
+			2196 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = {
+		12944 13273 8182 2196 13254 8183
+	}
+	manpower = 1091319
+	buildings_max_level_factor = 1.000
+}

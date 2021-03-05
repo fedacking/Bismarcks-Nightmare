@@ -131,3 +131,19 @@ create_country_leader = {
 		#
 	}
 }
+
+create_corps_commander = {
+	name = "Hermann Detzner"
+	portrait_path = "gfx/leaders/SWA/Portrait_SWA_Hermann_Detzner.tga"
+	traits = {
+		war_hero
+		jungle_rat
+		trickster
+		guerilla_fighter
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
