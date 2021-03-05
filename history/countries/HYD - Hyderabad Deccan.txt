@@ -7,6 +7,11 @@ set_fuel_ratio = 0.8
 add_ideas = {
 	IND_idea_frequent_famines
 	IND_idea_depression
+
+	HYD_hog_abs_kishen_pershad
+	HYD_for_abs_muhammad_ali_beg
+	HYD_eco_abs_akbar_hydari
+	HYD_sec_abs_zain_yar_jung
 }
 
 # Starting tech

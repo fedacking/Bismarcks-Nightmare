@@ -164,6 +164,25 @@ spriteTypes = {
 		name = "GFX_idea_minister_james_crawford_biggs"
 		texturefile = "gfx/interface/ministers/USA/idea_minister_james_crawford_biggs.tga"
 	}
+	
+	## Hyderabad
+	
+	SpriteType = {
+		name = "GFX_idea_minister_kishen_pershad"
+		texturefile = "gfx/interface/ministers/HYD/idea_minister_kishen_pershad.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_muhammad_ali_beg"
+		texturefile = "gfx/interface/ministers/HYD/idea_minister_muhammad_ali_beg.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_akbar_hydari"
+		texturefile = "gfx/interface/ministers/HYD/idea_minister_akbar_hydari.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_minister_james_zain_yar_jung"
+		texturefile = "gfx/interface/ministers/HYD/idea_minister_james_zain_yar_jung.dds"
+	}
 
 	
 }

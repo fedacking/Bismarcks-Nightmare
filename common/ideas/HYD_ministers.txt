@@ -1,0 +1,114 @@
+ideas = {
+
+	head_of_government = { ### Head of Government ###
+	
+		HYD_hog_abs_kishen_pershad = {
+			picture = minister_kishen_pershad
+			allowed = { original_tag = HYD }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = HYD_nizam_tt
+					has_government = absolutist
+				}
+			}
+			visible = {
+				custom_trigger_tooltip = {
+					tooltip = HYD_nizam_tt
+					has_government = absolutist
+				}
+			}
+			on_add = {
+			}
+			traits = {
+				prime_minister
+				principled_conservative
+				hog_staunch_nativist
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	foreign_minister = {
+	
+		HYD_for_abs_muhammad_ali_beg = {
+			picture = minister_muhammad_ali_beg
+			allowed = { original_tag = HYD }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = HYD_nizam_tt
+					has_government = absolutist
+				}
+			}
+			visible = {
+				custom_trigger_tooltip = {
+					tooltip = HYD_nizam_tt
+					has_government = absolutist
+				}
+			}
+			on_add = {
+			}
+			traits = {
+				foreign_minister
+				southern_democrat
+				for_isolationist
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	economy_minister = {
+		
+		HYD_eco_abs_akbar_hydari = {
+			picture = minister_akbar_hydari
+			allowed = { original_tag = HYD }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = HYD_nizam_tt
+					has_government = absolutist
+				}
+			}
+			visible = {
+				custom_trigger_tooltip = {
+					tooltip = HYD_nizam_tt
+					has_government = absolutist
+				}
+			}
+			on_add = {
+			}
+			traits = {
+				minister_of_finance
+				southern_democrat
+				eco_farmers_advocate
+			}
+			cancel_if_invalid = no
+		}
+	}
+	
+	security_minister = {
+		
+		HYD_sec_abs_zain_yar_jung = {
+			picture = minister_james_zain_yar_jung
+			allowed = { original_tag = HYD }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = HYD_nizam_tt
+					has_government = absolutist
+				}
+			}
+			visible = {
+				custom_trigger_tooltip = {
+					tooltip = HYD_nizam_tt
+					has_government = absolutist
+				}
+			}
+			on_add = {
+			}
+			traits = {
+				security_minister
+				staunch_democrat
+				sec_incompetent_lawyer
+			}
+			cancel_if_invalid = no
+		}
+	}
+}
