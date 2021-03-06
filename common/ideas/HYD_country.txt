@@ -1,0 +1,28 @@
+ideas = {
+	country = {	
+		##Eco
+		HYD_idea_depression = {
+			picture = usa_great_depression_3
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.5
+			}
+		}
+		
+		HYD_idea_frequent_famines = {
+			picture = raj_risk_of_famine
+			modifier = {
+				monthly_population = -0.3
+			}
+		}
+		
+		HYD_political_instability = {
+			picture = generic_disjointed_gov
+			modifier = {
+				stability_factor  = -0.3
+				political_power_cost = 0.2
+				war_support_factor = -0.4
+			}
+		}
+	}
+}

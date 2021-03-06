@@ -28,9 +28,9 @@ ideas = {
 		}
 	}
 	
-	foreign_minister = {
+	security_minister = {
 	
-		HYD_for_abs_muhammad_ali_beg = {
+		HYD_sec_abs_muhammad_ali_beg = {
 			picture = minister_muhammad_ali_beg
 			allowed = { original_tag = HYD }
 			available = {
@@ -48,7 +48,7 @@ ideas = {
 			on_add = {
 			}
 			traits = {
-				foreign_minister
+				security_minister
 				southern_democrat
 				for_isolationist
 			}
@@ -84,9 +84,9 @@ ideas = {
 		}
 	}
 	
-	security_minister = {
+	foreign_minister = {
 		
-		HYD_sec_abs_zain_yar_jung = {
+		HYD_for_abs_zain_yar_jung = {
 			picture = minister_james_zain_yar_jung
 			allowed = { original_tag = HYD }
 			available = {
@@ -104,7 +104,7 @@ ideas = {
 			on_add = {
 			}
 			traits = {
-				security_minister
+				foreign_minister
 				staunch_democrat
 				sec_incompetent_lawyer
 			}
