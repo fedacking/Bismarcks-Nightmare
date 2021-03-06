@@ -1,21 +1,21 @@
 state = {
-	id = 547
-	name = "STATE_547" #Kenia
-	manpower = 1804630
-	state_category = rural
+	id = 885
+	name = "STATE_885" #Grabenbruch
+	manpower = 1893000
+	state_category = pastoral
 	history = {
 		owner = GEA
-		add_core_of = GEA
+		add_claim_by = GEA
 		add_core_of = KEN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
 		victory_points = {
-			1939 3 #Nairobi
+			10860 1 #Nakuru
 		}
 	}
 	provinces = {
-		1939 5196 6020 10962 13249 13250
+		5160 10860
 	}
 }

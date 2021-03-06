@@ -12,6 +12,9 @@ state = {
 		victory_points = {
 			10988 1 #Mbeya
 		}
+		victory_points = {
+			10845 1 #Songea
+		}
 		buildings = {
 			infrastructure = 3
 		}
