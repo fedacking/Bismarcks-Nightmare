@@ -7,7 +7,7 @@ set_fuel_ratio = 0.8
 add_ideas = {
 	HYD_idea_frequent_famines
 	HYD_idea_depression
-	HYD_political_instabilit
+	HYD_political_instability
 
 	HYD_hog_abs_kishen_pershad
 	HYD_sec_abs_muhammad_ali_beg
