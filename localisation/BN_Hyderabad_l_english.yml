@@ -32,7 +32,7 @@
  HYD_idea_depression: "The Great Depression"
  HYD_idea_depression_desc: "As the western economies started spiraling down during the crisis of 1935 there was a generalized move towards protectionist legislation. This has reaped a terrible toll on our agricultural exports which are the basis of our economy. Our warehouses are filled with unsold cotton and the state's incomes suffer as a result."
  HYD_idea_frequent_famines: "Frequent Famines"
- HYD_idea_frequent_famines_desc: "Ever since ancient times famine has been a recurring issue in the indian subcontinent. Greatly dependent on the effects of favorable monsoons, local agriculture could fail to support the dense populations typical of the region in the case of a drought or flood. While the Nizam does his best to quickly intervene in any such cases it is unlikely that this issue could ever be truly solved without the capacity to bring in aid from other parts of India."
+ HYD_idea_frequent_famines_desc: "Ever since ancient times famine has been a recurring issue in the Indian Subcontinent. Greatly dependent on the effects of favorable monsoons, local agriculture could fail to support the dense populations typical of the region in the case of a drought or flood. While the Nizam does his best to quickly intervene in any such cases it is unlikely that this issue could ever be truly solved without the capacity to bring in aid from other parts of India."
  HYD_political_instability: "Political Instability"
  HYD_political_instability_desc: "The Nizam is strongest of the remaining monarchs of India and the last of the truly absolute rulers of their state. While this reality brings him much power it is only possible as long as he retains the support of the local elites, predominantly muslim. On the other hand the majority hindu population might be, while not yet openly rebellious, inclined to ask for further rights and reforms if not properly appeased."
 ## Dyn modifier
@@ -105,7 +105,7 @@
  HYD_allow_political_meetings_desc:0 "WIP"
  HYD_calls_for_responsible_government:0 "Calls for Reponsible Government"
  HYD_calls_for_responsible_government_desc:0 "WIP"
- HYD_unban_the_andhra_mahasabha:0 "Unban the Andhra Mahasabba"
+ HYD_unban_the_andhra_mahasabha:0 "Unban the Andhra Mahasabha"
  HYD_unban_the_andhra_mahasabha_desc:0 "WIP"
  HYD_a_constitution_for_hyderabad:0 "A Constitution for Hyderabad"
  HYD_a_constitution_for_hyderabad_desc:0 "WIP"
