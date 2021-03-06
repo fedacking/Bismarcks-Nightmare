@@ -1,0 +1,20 @@
+state = {
+	id = 878
+	name = "STATE_878"
+	manpower = 802030
+	resources = {
+		#
+	}	
+	state_category = rural
+	history = {
+		owner = EGY
+		add_core_of = ETH
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		4995 7980 12757 12812 
+	}
+}

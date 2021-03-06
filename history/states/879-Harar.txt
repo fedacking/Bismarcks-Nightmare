@@ -1,0 +1,23 @@
+state = {
+	id = 879
+	name = "STATE_879"
+	manpower = 1690400
+	resources = {
+		#
+	}	
+	state_category = pastoral
+	history = {
+		owner = EGY
+		add_core_of = ETH
+		add_claim_by = SOM
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 
+			12714 1 #Harar
+		}
+	}
+	provinces = {
+		10775 12714 13248
+	}
+}

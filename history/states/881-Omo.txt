@@ -1,0 +1,19 @@
+state = {
+	id = 881
+	name = "STATE_881"
+	manpower = 1713680
+	resources = {
+		#
+	}	
+	state_category = pastoral
+	history = {
+		owner = EGY
+		add_core_of = ETH
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		7912 8019 10734 
+	}
+}
