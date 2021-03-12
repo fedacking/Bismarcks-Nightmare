@@ -1,0 +1,27 @@
+
+
+ROM_investigation_cat = {
+	ROM_investigation_warehouses_dec = {
+		icon = generic_decision
+		cost = 10
+		fire_only_once = yes
+
+		complete_effect = {
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	ROM_investigation_officers_dec = {
+		icon = generic_decision
+		cost = 10
+		fire_only_once = yes
+
+		complete_effect = {
+			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

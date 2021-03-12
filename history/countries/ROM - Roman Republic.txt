@@ -119,7 +119,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Armando Diaz"
-	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	picture = "gfx/leaders/ROM/Portrait_Armando_Diaz.tga"
 	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = socialist_subtype
@@ -128,7 +128,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Armando Diaz"
-	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	picture = "gfx/leaders/ROM/Portrait_Armando_Diaz.tga"
 	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
@@ -137,7 +137,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Armando Diaz"
-	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	picture = "gfx/leaders/ROM/Portrait_Armando_Diaz.tga"
 	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
@@ -146,7 +146,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Armando Diaz"
-	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	picture = "gfx/leaders/ROM/Portrait_Armando_Diaz.tga"
 	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
@@ -155,7 +155,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Armando Diaz"
-	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	picture = "gfx/leaders/ROM/Portrait_Armando_Diaz.tga"
 	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = semi_constitutionalist_subtype
@@ -173,7 +173,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Armando Diaz"
-	picture = "gfx/leaders/Generic/Portrait_PlaceHolder.tga"
+	picture = "gfx/leaders/ROM/Portrait_Armando_Diaz.tga"
 	desc = "POLITICS_ARMANDO_DIAZ_DESC"
 	expire = "1965.1.1"
 	ideology = fascism_subtype

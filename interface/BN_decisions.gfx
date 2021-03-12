@@ -27,6 +27,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_pictures_usa_election_results.dds"
 	}
 
+	### ROM
+
+	spriteType = {
+		name = "GFX_decision_cat_pictures_ROM_investigation"
+		texturefile = "gfx/interface/decisions/decision_cat_pictures_rom_investigation.dds"
+	}
+
 	### USA Bills
 
 	spriteType = {

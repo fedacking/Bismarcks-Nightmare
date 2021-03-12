@@ -42,6 +42,12 @@
  ROM_idea_hole_budget:0 "Budget Shortfall"
  ROM_idea_march_on_rome:0 "March On Rome"
  ROM_idea_march_on_rome_desc:0 "The Syndicates of Rome have called for a march to the Eternal City, to protest the economic situation."
+
+ ROM_investigation_cat:0 "The Investigation"
+ ROM_investigation_cat_desc:0 "The Investigation"
+
+ ROM_investigation_warehouses_dec:0 "Investigate the Warehouses"
+ ROM_investigation_officers_dec:0 "Investigate the Officers"
  
  ### Ministers
  ## Head of government

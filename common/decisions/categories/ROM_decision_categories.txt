@@ -1,0 +1,15 @@
+################
+##### ROM ######
+################
+
+ROM_investigation_cat = {
+	icon = generic_crisis
+	picture = GFX_decision_cat_pictures_ROM_investigation
+	allowed = {
+		tag = ROM
+	}
+	visible = {
+		always = yes
+	}
+	visible_when_empty = yes
+}
