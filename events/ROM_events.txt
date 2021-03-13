@@ -81,25 +81,7 @@ country_event = { #The Socialists Leave
 	}
 }
 
-country_event = { #Deal with the trade unions
-	id = rom.15
-	title = rom.15.t
-	desc = rom.15.desc
-	picture = GFX_report_event_american_hunger_march
-	
-	is_triggered_only = yes
-	
-	option = { #No Deal
-		name = rom.15.a 
-		add_political_power = 50
-	}
-	option = { #Minor Concessions
-		name = rom.15.b
-		add_ideas = FRA_idea_minor_concessions
-	}
-}
-
-country_event = { #Deal with the Garde Nationale
+country_event = { #General Assasination
 	id = rom.20
 	title = rom.20.t
 	desc = rom.20.desc
@@ -109,113 +91,7 @@ country_event = { #Deal with the Garde Nationale
 	
 	option = { #Disarm them
 		name = rom.20.a 
-	}
-	option = { #Let Them go
-		name = rom.20.b
-		add_political_power = 50
-		set_country_flag = FRA_flag_garde_still_active
-	}
-}
-
-country_event = { #Deal with the liberals in government
-	id = rom.21
-	title = rom.21.t
-	desc = rom.21.desc
-	picture = GFX_report_event_hungary_parliament
-	
-	is_triggered_only = yes
-	
-	option = { #Crush Them
-		name = rom.21.a 
-	}
-}
-
-country_event = { #Deal with the Lying Presses
-	id = rom.22
-	title = rom.22.t
-	desc = rom.22.desc
-	picture = GFX_report_event_soviet_purge_trial
-	
-	is_triggered_only = yes
-	
-	option = { #Crush Them
-		name = rom.22.a 
-		add_political_power = 50
-	}
-}
-
-## 100 - 102 Revolution trigger
-country_event = { #Resist the army
-	id = rom.100
-	title = rom.100.t
-	desc = rom.100.desc
-	picture = GFX_report_event_ger_civil_war
-	
-	is_triggered_only = yes
-	
-	option = { #This is bad
-		name = rom.100.a
-		country_event = rom.105
-	}
-}
-
-country_event = { #Uprising of the current date
-	id = rom.101
-	title = rom.101.t
-	desc = rom.101.desc
-	picture = GFX_report_event_spain_civil_war_soldiers
-	
-	is_triggered_only = yes
-	
-	option = { #This is bad
-		name = rom.101.a
-		country_event = rom.105
-	}
-}
-
-country_event = { #Protect the presses
-	id = rom.102
-	title = rom.102.t
-	desc = rom.102.desc
-	picture = GFX_report_event_generic_riot
-	
-	is_triggered_only = yes
-	
-	option = { #Revolution
-		name = rom.102.a
-		country_event = rom.105
-	}
-}
-
-country_event = { #Fighting in the Streets
-	id = rom.105
-	title = rom.105.t
-	desc = rom.105.desc
-	picture = GFX_report_event_fight_in_street
-	
-	is_triggered_only = yes
-	
-	option = { #Revolution
-		name = rom.105.a
-		country_event = rom.110
-	}
-}
-
-## 110 The new government
-country_event = { #Party like it's 1789
-	id = rom.110
-	title = rom.110.t
-	desc = rom.110.desc
-	picture = GFX_report_event_soviet_purge_speech
-	
-	is_triggered_only = yes
-	
-	option = { #Revolution
-		name = rom.110.a
-		set_politics = {
-			ruling_party = republican_liberal
-			elections_allowed = yes
-		}
-		load_focus_tree = FRA_focus_tree_revolution
+		set_country_flag = ROM_assasinated_campioni
+		mark_focus_tree_layout_dirty = yes
 	}
 }

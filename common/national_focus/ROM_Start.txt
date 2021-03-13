@@ -17,7 +17,7 @@ focus_tree = {
 	focus = {
 		id = ROM_woes_of_the_coalition
 		icon = GFX_focus_generic_concessions
-		x = 7
+		x = 8
 		y = 0
 		cost = 14
 
@@ -34,7 +34,7 @@ focus_tree = {
 		prerequisite = { focus = ROM_woes_of_the_coalition }
 		icon = GFX_goal_bankruptcy
 		relative_position_id = ROM_woes_of_the_coalition
-		x = -2
+		x = -3
 		y = 1
 		cost = 14
 
@@ -46,69 +46,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROM_redundancy_funds
+		id = ROM_march_on_rome
 		prerequisite = { focus = ROM_on_unenmployment }
-		icon = GFX_goal_agrarian_reform
-		relative_position_id = ROM_on_unenmployment
-		x = -1
-		y = 1
-		cost = 28
-		mutually_exclusive = { focus = ROM_expand_the_army }
-
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = -50
-			add_ideas = ROM_idea_redundancy_funds
-		}
-	}
-
-	focus = {
-		id = ROM_expand_the_army
-		prerequisite = { focus = ROM_on_unenmployment }
-		icon = GFX_goal_ROM_soldiers_fire
-		relative_position_id = ROM_on_unenmployment
-		x = 1
-		y = 1
-		cost = 28
-		mutually_exclusive = { focus = ROM_redundancy_funds }
-
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = -50
-			add_ideas = ROM_idea_overzied_military_budget
-		}
-	}
-
-	focus = {
-		id = ROM_how_do_we_pay_for_it
-		prerequisite = { 
-			focus = ROM_expand_the_army
-			focus = ROM_redundancy_funds
-		}
-		icon = GFX_goal_empty_coffers
+		icon = GFX_focus_YUG_pan_slavic_congress
 		relative_position_id = ROM_on_unenmployment
 		x = 0
-		y = 2
-		cost = 7
-
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = ROM_idea_hole_budget
-			hidden_effect = {
-				ROM_effect_cabinet_change = yes
-			}
-		}
-	}
-
-	focus = {
-		id = ROM_march_on_rome
-		prerequisite = { focus = ROM_woes_of_the_coalition }
-		icon = GFX_focus_YUG_pan_slavic_congress
-		relative_position_id = ROM_woes_of_the_coalition
-		x = 2
 		y = 1
 		cost = 14
 
@@ -160,37 +102,240 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROM_clean_the_streets
+		id = ROM_redundancy_funds
 		prerequisite = { 
-			focus = ROM_close_the_city
 			focus = ROM_let_them_march
+			focus = ROM_close_the_city
 		}
-		icon = GFX_goal_generic_defence
-		relative_position_id = ROM_march_on_rome
+		icon = GFX_goal_agrarian_reform
+		relative_position_id = ROM_on_unenmployment
+		x = 0
+		y = 3
+		cost = 28
+	
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_ideas = ROM_idea_redundancy_funds
+		}
+	}
+
+	# Investigation Focuses
+
+	focus = {
+		id = ROM_servizio_informazioni_militare
+		prerequisite = { focus = ROM_woes_of_the_coalition }
+		icon = GFX_goal_generic_army_doctrines
+		relative_position_id = ROM_woes_of_the_coalition
+		x = 0
+		y = 1
+		cost = 35
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ROM_audit_the_supply_lines
+		prerequisite = { focus = ROM_servizio_informazioni_militare }
+		icon = GFX_goal_generic_army_doctrines
+		relative_position_id = ROM_servizio_informazioni_militare
+		x = 0
+		y = 1
+		cost = 35
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ROM_increase_the_military_pensions
+		prerequisite = { focus = ROM_audit_the_supply_lines }
+		icon = GFX_goal_generic_army_doctrines
+		relative_position_id = ROM_audit_the_supply_lines
+		x = 0
+		y = 1
+		cost = 35
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ROM_deploy_our_agents
+		prerequisite = { focus = ROM_increase_the_military_pensions }
+		icon = GFX_goal_generic_army_doctrines
+		relative_position_id = ROM_increase_the_military_pensions
+		x = 0
+		y = 1
+		cost = 35
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+	
+	#Invade Greece now for the Italy
+
+	focus = {
+		id = ROM_inspect_smyrna_situation
+		prerequisite = { focus = ROM_woes_of_the_coalition }
+		icon = GFX_goal_generic_army_doctrines
+		relative_position_id = ROM_woes_of_the_coalition
+		x = 3
+		y = 1
+		cost = 35
+		available_if_capitulated = no
+
+		completion_reward = {
+			#Event sent to Greece and maybe Turkey
+		}
+	}
+
+	focus = {
+		id = ROM_drill_legions_0
+		prerequisite = { focus = ROM_inspect_smyrna_situation }
+		icon = GFX_focus_generic_little_entente
+		relative_position_id = ROM_inspect_smyrna_situation
+		allow_branch = { NOT = { has_country_flag = ROM_assasinated_campioni } }
+		x = -1
+		y = 1
+		cost = 14
+		available_if_capitulated = no
+
+		completion_reward = {
+			#Army XP
+		}
+	}
+
+	focus = {
+		id = ROM_agitate_plebeians_0
+		prerequisite = { focus = ROM_inspect_smyrna_situation }
+		icon = GFX_goal_revolution
+		relative_position_id = ROM_inspect_smyrna_situation
+		allow_branch = { NOT = { has_country_flag = ROM_assasinated_campioni } }
+		x = 1
+		y = 1
+		cost = 14
+		available_if_capitulated = no
+
+		completion_reward = {
+			#add war support
+		}
+	}
+
+	focus = {
+		id = ROM_parabellum_0
+		prerequisite = { focus = ROM_drill_legions_0 }
+		prerequisite = { focus = ROM_agitate_plebeians_0 }
+		icon = GFX_goal_generic_more_territorial_claims
+		relative_position_id = ROM_inspect_smyrna_situation
 		x = 0
 		y = 2
-		cost = 7
+		cost = 42
 
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = 0.05
-			hidden_effect = {
-				ROM_effect_cabinet_change = yes
-			}
+			#Add marine template
 		}
 	}
+
+	focus = {
+		id = ROM_launch_attack_0
+		prerequisite = { focus = ROM_parabellum_0 }
+		icon = GFX_goal_generic_forceful_treaty
+		relative_position_id = ROM_inspect_smyrna_situation
+		x = 0
+		y = 3
+		cost = 21		available_if_capitulated = no
+		completion_reward = {
+			#add wargoal vs greece
+			#add naval invasion bonus idea
+		}
+	}	
+	
+	#Invade Greece now for the Italy
+
+	focus = {
+		id = ROM_drill_legions_1
+		prerequisite = { focus = ROM_inspect_smyrna_situation }
+		icon = GFX_focus_generic_little_entente
+		relative_position_id = ROM_inspect_smyrna_situation
+		allow_branch = { has_country_flag = ROM_assasinated_campioni }
+		x = -1
+		y = 1
+		cost = 14
+		available_if_capitulated = no
+
+		completion_reward = {
+			#Army XP
+		}
+	}
+
+	focus = {
+		id = ROM_agitate_plebeians_1
+		prerequisite = { focus = ROM_inspect_smyrna_situation }
+		icon = GFX_goal_revolution
+		relative_position_id = ROM_inspect_smyrna_situation
+		allow_branch = { has_country_flag = ROM_assasinated_campioni }
+		x = 1
+		y = 1
+		cost = 14
+		available_if_capitulated = no
+
+		completion_reward = {
+			#add war support
+		}
+	}
+
+	focus = {
+		id = ROM_parabellum_1
+		prerequisite = { focus = ROM_drill_legions_1 }
+		prerequisite = { focus = ROM_agitate_plebeians_1 }
+		icon = GFX_goal_generic_more_territorial_claims
+		relative_position_id = ROM_inspect_smyrna_situation
+		x = 0
+		y = 2
+		cost = 42
+
+		available_if_capitulated = no
+
+		completion_reward = {
+			#Add marine template
+		}
+	}
+
+	focus = {
+		id = ROM_launch_attack_1
+		prerequisite = { focus = ROM_parabellum_1 }
+		icon = GFX_goal_generic_forceful_treaty
+		relative_position_id = ROM_inspect_smyrna_situation
+		x = 0
+		y = 3
+		cost = 21		available_if_capitulated = no
+		completion_reward = {
+			#add wargoal vs greece
+			#add naval invasion bonus idea
+		}
+	}	
 
 ## Succ tree
 	focus = {
 		id = ROM_the_fascists_leave
 		icon = GFX_focus_generic_anti_fascist_diplomacy
-		prerequisite = { focus = ROM_how_do_we_pay_for_it }
-		prerequisite = { focus = ROM_clean_the_streets }
 		available = { has_country_flag = ROM_flag_fascists_leave_coalition }
-		relative_position_id = ROM_how_do_we_pay_for_it
-		x = -3
-		y = 1
+		relative_position_id = ROM_woes_of_the_coalition
+		x = -5
+		y = 5
 		cost = 7
 		mutually_exclusive = { focus = ROM_the_liberals_stand_alone }
 		mutually_exclusive = { focus = ROM_the_socialists_leave }
@@ -315,11 +460,9 @@ focus_tree = {
 		id = ROM_the_liberals_stand_alone
 		icon = GFX_goal_liberty
 		available = { has_country_flag = ROM_flag_liberals_stand_alone }
-		prerequisite = { focus = ROM_how_do_we_pay_for_it }
-		prerequisite = { focus = ROM_clean_the_streets }
-		relative_position_id = ROM_how_do_we_pay_for_it
-		x = 2
-		y = 1
+		relative_position_id = ROM_woes_of_the_coalition
+		x = 0
+		y = 5
 		cost = 70
 		mutually_exclusive = { focus = ROM_the_fascists_leave }
 		mutually_exclusive = { focus = ROM_the_socialists_leave }
@@ -409,12 +552,10 @@ focus_tree = {
 	focus = {
 		id = ROM_the_socialists_leave
 		icon = GFX_goal_generic_war_with_comintern
-		prerequisite = { focus = ROM_how_do_we_pay_for_it }
-		prerequisite = { focus = ROM_clean_the_streets }
 		available = { has_country_flag = ROM_flag_socialists_leave_coalition }
-		relative_position_id = ROM_how_do_we_pay_for_it
-		x = 7
-		y = 1
+		relative_position_id = ROM_woes_of_the_coalition
+		x = 5
+		y = 5
 		cost = 70
 		mutually_exclusive = { focus = ROM_the_fascists_leave }
 		mutually_exclusive = { focus = ROM_the_liberals_stand_alone }
@@ -528,79 +669,5 @@ focus_tree = {
 		}
 	}
 	
-	#Invade Greece now for the Italy
-
-	focus = {
-		id = ROM_inspect_smyrna_situation
-		icon = GFX_focus_jap_cast_the_die
-		x = 25
-		y = 0
-		cost = 35
-		available_if_capitulated = no
-
-		completion_reward = {
-			#Event sent to Greece and maybe Turkey
-		}
-	}
-
-	focus = {
-		id = ROM_drill_legions
-		prerequisite = { focus = ROM_inspect_smyrna_situation }
-		icon = GFX_focus_generic_little_entente
-		relative_position_id = ROM_inspect_smyrna_situation
-		x = -1
-		y = 1
-		cost = 14
-		available_if_capitulated = no
-
-		completion_reward = {
-			#Army XP
-		}
-	}
-
-	focus = {
-		id = ROM_agitate_plebeians
-		prerequisite = { focus = ROM_inspect_smyrna_situation }
-		icon = GFX_goal_revolution
-		relative_position_id = ROM_inspect_smyrna_situation
-		x = 1
-		y = 1
-		cost = 14
-		available_if_capitulated = no
-
-		completion_reward = {
-			#add war support
-		}
-	}
-
-	focus = {
-		id = ROM_parabellum
-		prerequisite = { focus = ROM_drill_legions }
-		prerequisite = { focus = ROM_agitate_plebeians }
-		icon = GFX_goal_generic_more_territorial_claims
-		relative_position_id = ROM_inspect_smyrna_situation
-		x = 0
-		y = 2
-		cost = 42
-
-		available_if_capitulated = no
-
-		completion_reward = {
-			#Add marine template
-		}
-	}
-
-	focus = {
-		id = ROM_launch_attack
-		prerequisite = { focus = ROM_parabellum }
-		icon = GFX_goal_generic_forceful_treaty
-		relative_position_id = ROM_inspect_smyrna_situation
-		x = 0
-		y = 3
-		cost = 21		available_if_capitulated = no
-		completion_reward = {
-			#add wargoal vs greece
-			#add naval invasion bonus idea
-		}
-	}	
+	
 }
