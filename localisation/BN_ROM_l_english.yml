@@ -1,4 +1,7 @@
 ﻿l_english:
+ # Starting Situation
+ ROM_BISMARCKS_NIGHTMARE_DESC:0 "When the conservative Kingdom of Italy surrendered at the end of The Great War, radical republicans in Rome seized the moment to declare a new Roman Republic, unshackled from the tyranny of the monarchy and its appeal to "Italianness". Since then, the Republic has been an unstable mess of factions, with the radical government steadily losing support. In the last election the radical liberals were forced to enter an alliance with the Partito Socialista Romano and the Fascio d'Azione Rivoluzionaria, a fringe movement of the italian left that has incorporated elements of nationalism and interventionism."
+
  ### Political Parties
  ROM_communist_party:0 "PCdR"
  ROM_communist_party_desc:0 "Social Republic"
@@ -36,7 +39,7 @@
  ROM_idea_rampant_militarism:0 "Rampant Militarism"
  ROM_idea_rampant_militarism_desc:0 "Since the loss of the territories in the north due to the Great War, nationalists and politicians blame the traitors of Democrazia Cristiana and PLI, who advocated for lower investment in the army and peace. As a result, the government has ramped up the worship of the military and amped up the 'stabbed in the back' narrative."
  ROM_idea_shaky_coalition:0 "Shaky Coalition"
- ROM_shaky_coalition_desc:0 "The governing coalition has been under duress since the last year. With the economic crisis and the constant infighting between the Fascists and Socialists, the Coalition seems poised to fall."
+ ROM_idea_shaky_coalition_desc:0 "After the loss of confidence in the PRR's abilities to improve the situation of the republic and recuperate the lost territories, the radicals have lost many seats in the chamber of deputies and have been forced to enter into an uncomfortable alliance with the socialist and the fascist.\n\nWith the economic crisis and the constant infighting between the Fascists and Socialists, the coalition seems poised to fall."
  ROM_idea_redundancy_funds:0 "Cura Annonae"
  ROM_idea_overzied_military_budget:0 "Oversized Military Budget"
  ROM_idea_hole_budget:0 "Budget Shortfall"
@@ -44,13 +47,35 @@
  ROM_idea_march_on_rome_desc:0 "The Syndicates of Rome have called for a march to the Eternal City, to protest the economic situation."
 
  ROM_investigation_cat:0 "The Investigation"
- ROM_investigation_cat_desc:0 "The Investigation"
+ ROM_investigation_cat_desc:0 "[ROM_investigation_events_sl]\n\nWe are currently [ROM_investigation_status_sl] and [ROM_investigation_check_sl]"
+
+ ROM_investigation_events_0:0 "During the last months, there have been increasing reports of leaks and missing military supplies. While during a time this was considered uninmportant and fairly small, the reports have not stopped. The total missing equipment has now surpassed what is expected of normal military corruption and graft. The government has decided to create an intelligence agency to monitor ands to handle its more 'sensitive' issues and use this investigation as its first big test."
+ ROM_investigation_events_1:0 ""
+ ROM_investigation_events_2:0 ""
+ ROM_investigation_events_3:0 ""
+ ROM_investigation_events_4:0 ""
+ ROM_investigation_events_5:0 ""
+
+ ROM_investigation_status_0:0 "§Runsure about what is causing this problem§!"
+ ROM_investigation_status_1:0 ""
+ ROM_investigation_status_2:0 ""
+ ROM_investigation_status_3:0 ""
+ ROM_investigation_status_4:0 ""
+ ROM_investigation_status_5:0 ""
+
+ ROM_investigation_check_0:0 "§Rnot ready to strike.§!"
+ ROM_investigation_check_1:0 ""
+ ROM_investigation_check_2:0 ""
+ ROM_investigation_check_3:0 ""
+ ROM_investigation_check_4:0 ""
+ ROM_investigation_check_5:0 ""
 
  ROM_investigation_warehouses_dec:0 "Investigate the Warehouses"
  ROM_investigation_officers_dec:0 "Investigate the Officers"
  
  ### Ministers
  ## Head of government
+ ROM_hog_rli_eugenio_chiesa:0 "Eugenio Chiesa"
  ROM_hog_rli_ugo_la_malfa:0 "Ugo La Malfa"
  ROM_hog_des_benito_mussolini:0 "Benito Mussolini"
  ## Foreign
@@ -65,7 +90,7 @@
  ROM_sec_soc_sandro_pertini:0 "Sandro Pertini"
  ROM_sec_rli_oronzo_reale:0 "Oronzo Reale"
  ROM_sec_des_roberto_farinacci:0 "Roberto Farinacci"
- ROM_sec_des_benito_mussolini:0 "Benito Mussolini"
+ ROM_sec_des_michele_bianchi:0 "Michele Bianchi"
  
  ### Events
  rom.1.t:0 "Woes of the Coalition"
@@ -77,3 +102,7 @@
  rom.3.t:0 "The Demonstrators Retreat"
  rom.3.desc:0 "With the police out in force, "
  rom.3.a:0 "I hope I don't stain my shoes"
+
+ rom.20.t:0 "The Smyrna Situation"
+ rom.20.desc:0 "It was a cold morning in Smyrna. The respected War Hero Inigo Campioni was inspecting the "
+ rom.20.a:0 "Get the Ambassador on the phone"

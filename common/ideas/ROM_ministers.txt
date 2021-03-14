@@ -2,6 +2,30 @@ ideas = {
 
 	head_of_government = {
 	
+		ROM_hog_rli_eugenio_chiesa = {
+			picture = minister_eugenio_chiesa
+			allowed = { original_tag = ROM }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = tooltip_minister_available
+					NOT = { has_country_flag = ROM_flag_eugenio_chiesa_dead }
+					has_country_flag = can_appoint_republican_liberal
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = ROM_flag_eugenio_chiesa_dead }
+			}
+			on_add = {
+			}
+			traits = {
+				head_of_government
+				republican_liberal
+				hog_unflinching_republican
+			}
+			cancel_if_invalid = no
+		}
+	
 		ROM_hog_rli_ugo_la_malfa = {
 			picture = minister_ugo_la_malfa
 			allowed = { original_tag = ROM }
@@ -254,19 +278,19 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	
-		ROM_sec_des_benito_mussolini = {
-			picture = minister_benito_mussolini
+		ROM_sec_des_michele_bianchi = {
+			picture = minister_michele_bianchi
 			allowed = { original_tag = ROM }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = tooltip_minister_available
-					NOT = { has_country_flag = ROM_flag_benito_mussolini_dead }
-					has_country_flag = can_appoint_republican_liberal
+					NOT = { has_country_flag = ROM_flag_michele_bianchi_dead }
+					has_country_flag = can_appoint_despotist
 					has_country_flag = can_replace_sec
 				}
 			}
 			visible = {
-				NOT = { has_country_flag = ROM_flag_benito_mussolini_dead }
+				NOT = { has_country_flag = ROM_flag_michele_bianchi_dead }
 			}
 			on_add = {
 			}

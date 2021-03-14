@@ -20,13 +20,13 @@
  ROM_deploy_our_agents:0 "Deploy our Agents"
  
  ROM_inspect_smyrna_situation:0 "Inspect Smyrna Situation"
- ROM_drill_legions_0:0 "Combined Military"
+ ROM_drill_legions_0:0 "Reduce the Garrisons"
  ROM_drill_legions_1:0 "Drill Legions"
- ROM_agitate_plebians_0:0 "Turn Our Eyes North"
- ROM_agitate_plebians_1:0 "Agitate Plebians"
- ROM_parabellum_0:0 "Plan the Crossing of the Po"
+ ROM_agitate_plebeians_0:0 "Establish Areas of Common Travel"
+ ROM_agitate_plebeians_1:0 "Agitate Plebeians"
+ ROM_parabellum_0:0 "The Treaty of Mutual Aid and Friendship"
  ROM_parabellum_1:0 "Parabellum"
- ROM_launch_attack_0:0 "Propagandize the Second Risorgimento"
+ ROM_launch_attack_0:0 "Bridge the Divide"
  ROM_launch_attack_1:0 "Launch The Attack"
 
  ROM_the_fascists_leave:0 "The Fascists Leave"
@@ -55,6 +55,11 @@
  ROM_consul_election:0 "Snap Election"
  ROM_consul_election_desc:0 "Despite the attempts of the government to remain in power, the collapse of the alliance has left them without a mandate or ability to pass legislation. The time has come to call for elections, and let the chips fall where they may."
  
+ ROM_the_socialists_leave:0 "The Socialists Leave"
+ ROM_trust_the_romans:0 "Trust The Romans"
+ ROM_pro_government_military_parades:0 "Pro-Government Parades"
+ ROM_save_the_nation:0 "Save The Nation"
+
  ### Socialist Tree
  
  ROM_expand_the_powers_of_the_economy_minister:0 "Economic Emergency Decree"

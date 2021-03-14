@@ -1,65 +1,81 @@
+
 defined_text = {
-	name = ROM_drill_legions_sl
-	text = { 
-		trigger = { has_country_flag = ROM_assasinated_campioni }
-		localization_key = ROM_drill_legions_1
+	name = ROM_investigation_events_sl
+	text = {
+		trigger = { check_variable = { rom_investigation_events_description > 99 } }
+		localization_key = ROM_investigation_events_5
 	}
 	text = {
-		localization_key = ROM_drill_legions_0
+		trigger = { check_variable = { rom_investigation_events_description > 79 } }
+		localization_key = ROM_investigation_events_4
+	}
+	text = {
+		trigger = { check_variable = { rom_investigation_events_description > 59 } }
+		localization_key = ROM_investigation_events_3
+	}
+	text = {
+		trigger = { check_variable = { rom_investigation_events_description > 39 } }
+		localization_key = ROM_investigation_events_2
+	}
+	text = {
+		trigger = { check_variable = { rom_investigation_events_description > 19 } }
+		localization_key = ROM_investigation_events_1
+	}
+	text = {
+		localization_key = ROM_investigation_events_0
 	}
 }
 
 defined_text = {
-	name = ROM_agitate_plebians_sl
+	name = ROM_investigation_status_sl
 	text = {
-		trigger = { has_country_flag = ROM_assasinated_campioni }
-		localization_key = ROM_agitate_plebians_1
+		trigger = { check_variable = { rom_investigation_status > 99 } }
+		localization_key = ROM_investigation_status_5
 	}
 	text = {
-		localization_key = ROM_agitate_plebians_0
-	}
-}
-
-defined_text = {
-	name = ROM_parabellum_sl
-	text = {
-		trigger = { has_country_flag = ROM_assasinated_campioni }
-		localization_key = ROM_parabellum_1
+		trigger = { check_variable = { rom_investigation_status > 79 } }
+		localization_key = ROM_investigation_status_4
 	}
 	text = {
-		localization_key = ROM_parabellum_0
-	}
-}
-
-defined_text = {
-	name = ROM_launch_attack_sl
-	text = {
-		trigger = { has_country_flag = ROM_assasinated_campioni }
-		localization_key = ROM_launch_attack_1
+		trigger = { check_variable = { rom_investigation_status > 59 } }
+		localization_key = ROM_investigation_status_3
 	}
 	text = {
-		localization_key = ROM_launch_attack_0
+		trigger = { check_variable = { rom_investigation_status > 39 } }
+		localization_key = ROM_investigation_status_2
+	}
+	text = {
+		trigger = { check_variable = { rom_investigation_status > 19 } }
+		localization_key = ROM_investigation_status_1
+	}
+	text = {
+		localization_key = ROM_investigation_status_0
 	}
 }
 
 defined_text = {
-	name = investigation_status_sl
+	name = ROM_investigation_check_sl
 	text = {
-		trigger = { check_variable = { us_congress_selected_region = 357.id } }
-		localization_key = "New England"
+		trigger = { check_variable = { rom_investigation_level > 99 } }
+		localization_key = ROM_investigation_check_5
 	}
 	text = {
-		localization_key = "The United States of America"
-	}
-}
-
-defined_text = {
-	name = investigation_check_sl
-	text = {
-		trigger = { check_variable = { us_congress_selected_region = 357.id } }
-		localization_key = "New England"
+		trigger = { check_variable = { rom_investigation_level > 79 } }
+		localization_key = ROM_investigation_check_4
 	}
 	text = {
-		localization_key = "The United States of America"
+		trigger = { check_variable = { rom_investigation_level > 59 } }
+		localization_key = ROM_investigation_check_3
+	}
+	text = {
+		trigger = { check_variable = { rom_investigation_level > 39 } }
+		localization_key = ROM_investigation_check_2
+	}
+	text = {
+		trigger = { check_variable = { rom_investigation_level > 19 } }
+		localization_key = ROM_investigation_check_1
+	}
+	text = {
+		localization_key = ROM_investigation_check_0
 	}
 }

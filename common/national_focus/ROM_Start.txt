@@ -126,7 +126,7 @@ focus_tree = {
 	focus = {
 		id = ROM_servizio_informazioni_militare
 		prerequisite = { focus = ROM_woes_of_the_coalition }
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_goal_generic_radar
 		relative_position_id = ROM_woes_of_the_coalition
 		x = 0
 		y = 1
@@ -139,10 +139,25 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROM_audit_the_supply_lines
+		id = ROM_deploy_our_agents
 		prerequisite = { focus = ROM_servizio_informazioni_militare }
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_generic_military_academy
 		relative_position_id = ROM_servizio_informazioni_militare
+		x = 0
+		y = 1
+		cost = 35
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ROM_audit_the_supply_lines
+		prerequisite = { focus = ROM_deploy_our_agents }
+		icon = GFX_focus_secret_rearmament
+		relative_position_id = ROM_deploy_our_agents
 		x = 0
 		y = 1
 		cost = 35
@@ -156,23 +171,8 @@ focus_tree = {
 	focus = {
 		id = ROM_increase_the_military_pensions
 		prerequisite = { focus = ROM_audit_the_supply_lines }
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_mex_privatisation
 		relative_position_id = ROM_audit_the_supply_lines
-		x = 0
-		y = 1
-		cost = 35
-		available_if_capitulated = no
-
-		completion_reward = {
-			
-		}
-	}
-
-	focus = {
-		id = ROM_deploy_our_agents
-		prerequisite = { focus = ROM_increase_the_military_pensions }
-		icon = GFX_goal_generic_army_doctrines
-		relative_position_id = ROM_increase_the_military_pensions
 		x = 0
 		y = 1
 		cost = 35
@@ -188,7 +188,7 @@ focus_tree = {
 	focus = {
 		id = ROM_inspect_smyrna_situation
 		prerequisite = { focus = ROM_woes_of_the_coalition }
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_generic_aegean_sea_focus
 		relative_position_id = ROM_woes_of_the_coalition
 		x = 3
 		y = 1
@@ -197,6 +197,9 @@ focus_tree = {
 
 		completion_reward = {
 			#Event sent to Greece and maybe Turkey
+			country_event = rom.20
+			GRE = { country_event = rom.21 }
+			TUR = { country_event = rom.22 }
 		}
 	}
 
@@ -219,7 +222,7 @@ focus_tree = {
 	focus = {
 		id = ROM_agitate_plebeians_0
 		prerequisite = { focus = ROM_inspect_smyrna_situation }
-		icon = GFX_goal_revolution
+		icon = GFX_goal_generic_navy_battleship
 		relative_position_id = ROM_inspect_smyrna_situation
 		allow_branch = { NOT = { has_country_flag = ROM_assasinated_campioni } }
 		x = 1
@@ -236,7 +239,7 @@ focus_tree = {
 		id = ROM_parabellum_0
 		prerequisite = { focus = ROM_drill_legions_0 }
 		prerequisite = { focus = ROM_agitate_plebeians_0 }
-		icon = GFX_goal_generic_more_territorial_claims
+		icon = GFX_goal_generic_improve_relations
 		relative_position_id = ROM_inspect_smyrna_situation
 		x = 0
 		y = 2
@@ -252,7 +255,7 @@ focus_tree = {
 	focus = {
 		id = ROM_launch_attack_0
 		prerequisite = { focus = ROM_parabellum_0 }
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_goal_ROM_greece_turkey_friendship
 		relative_position_id = ROM_inspect_smyrna_situation
 		x = 0
 		y = 3
@@ -317,7 +320,7 @@ focus_tree = {
 	focus = {
 		id = ROM_launch_attack_1
 		prerequisite = { focus = ROM_parabellum_1 }
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_focus_generic_attack_greece
 		relative_position_id = ROM_inspect_smyrna_situation
 		x = 0
 		y = 3
@@ -343,7 +346,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			remove_ideas = { ROM_sec_des_benito_mussolini }
+			remove_ideas = { ROM_sec_des_michele_bianchi }
 		}
 	}
 
@@ -472,7 +475,7 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = { 
 				ROM_eco_soc_giuseppe_romita
-				ROM_sec_des_benito_mussolini
+				ROM_sec_des_michele_bianchi
 			}
 		}
 	}

@@ -89,9 +89,35 @@ country_event = { #General Assasination
 	
 	is_triggered_only = yes
 	
-	option = { #Disarm them
+	option = { #Shit
 		name = rom.20.a 
 		set_country_flag = ROM_assasinated_campioni
 		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+country_event = { #General Assasination - Greece
+	id = rom.21
+	title = rom.20.t
+	desc = rom.21.desc
+	picture = GFX_report_event_ANZAC_day
+	
+	is_triggered_only = yes
+	
+	option = { #WTF??
+		name = rom.21.a 
+	}
+}
+
+country_event = { #General Assasination - Turkey
+	id = rom.22
+	title = rom.20.t
+	desc = rom.22.desc
+	picture = GFX_report_event_ANZAC_day
+	
+	is_triggered_only = yes
+	
+	option = { #Happy Independence War noises
+		name = rom.22.a 
 	}
 }

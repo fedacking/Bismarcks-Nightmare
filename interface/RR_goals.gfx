@@ -399,4 +399,9 @@ spriteTypes = {
 		name = "GFX_goal_silver_money"
 		texturefile = "gfx/interface/goals/goal_silver_money.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_goal_ROM_greece_turkey_friendship"
+		texturefile = "gfx/interface/goals/goal_ROM_greece_turkey_friendship.dds"
+	}
 }
