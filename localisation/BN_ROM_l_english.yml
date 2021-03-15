@@ -30,16 +30,16 @@
  
  ### Flags
  ROM_flag_fascists_leave_coalition: "The Fascists Left"
- ROM_flag_liberals_stand_alone: "The Liberals Stand Alone"
+ ROM_flag_liberals_stand_alone: "The Radicals Stand Alone"
  ROM_flag_socialists_leave_coalition: "The Socialists Left"
  
  ### Ideas
  ROM_idea_depression_0:0 "Great Depression"
- ROM_idea_depression_0_desc:0 "During the second semester of 1935, the US and French economies started to slow down. The massive expansion of the economy in the 1920's has lead to overborrowing and overexposure for the banks. In the US in 1935 the banks started to default, and the crisis spiraled from there to the rest of the world.\nThe Roman Republic has been less affected due to low international the trade, but the crisis still lingers."
+ ROM_idea_depression_0_desc:0 "During the second semester of 1935, the US and French economies started to slow down. The massive expansion of the economy in the 1920's has lead to overborrowing and overexposure for the banks. In the US in 1935 the banks started to default, and the crisis spiraled from there to the rest of the world.\nThe Roman Republic has been less affected due to low international trade, but the crisis still lingers."
  ROM_idea_rampant_militarism:0 "Rampant Militarism"
  ROM_idea_rampant_militarism_desc:0 "Since the loss of the territories in the north due to the Great War, nationalists and politicians blame the traitors of Democrazia Cristiana and PLI, who advocated for lower investment in the army and peace. As a result, the government has ramped up the worship of the military and amped up the 'stabbed in the back' narrative."
  ROM_idea_shaky_coalition:0 "Shaky Coalition"
- ROM_idea_shaky_coalition_desc:0 "After the loss of confidence in the PRR's abilities to improve the situation of the republic and recuperate the lost territories, the radicals have lost many seats in the chamber of deputies and have been forced to enter into an uncomfortable alliance with the socialist and the fascist.\n\nWith the economic crisis and the constant infighting between the Fascists and Socialists, the coalition seems poised to fall."
+ ROM_idea_shaky_coalition_desc:0 "After the loss of confidence in the PRR's abilities to improve the situation of the republic and recuperate the lost territories, the radicals have lost many seats in the chamber of deputies and have been forced to enter into an uncomfortable alliance with the socialists and the fascists.\n\nWith the economic crisis and the constant infighting between the fascists and socialists, the coalition seems poised to fall."
  ROM_idea_redundancy_funds:0 "Cura Annonae"
  ROM_idea_overzied_military_budget:0 "Oversized Military Budget"
  ROM_idea_hole_budget:0 "Budget Shortfall"
@@ -104,5 +104,5 @@
  rom.3.a:0 "I hope I don't stain my shoes"
 
  rom.20.t:0 "The Smyrna Situation"
- rom.20.desc:0 "It was a cold morning in Smyrna. The respected War Hero Inigo Campioni was inspecting the "
+ rom.20.desc:0 "Eugenia Chiesa was sitting at his desk, collecting his notes from the last cabinet meeting, when there was a knock on the door. An aide came into the room, looking like he had run. He held in his hand a paper, a communique brought from the foreign ministry. He looked shook. "What's going on?", asked Chiesa. The aide stammered "... this, this is for you sir", and handed him the paper. On the note it said:\n\nPARAMALITARY ATTACK ON SMYRNA. INIGO CAMPIONI KIA. THIS IS NO DRILL."
  rom.20.a:0 "Get the Ambassador on the phone"
