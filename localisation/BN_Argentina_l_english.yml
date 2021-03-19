@@ -14,12 +14,14 @@ ARG_liberal_conservative_party_schism_mended:0 "UCR"
 ARG_liberal_conservative_party_schism_mended_long:0 "Unión Cívica Radical"
 ARG_social_conservative_party:0 "PAN"
 ARG_social_conservative_party_long:0 "Partido Autonomista Nacional"
-ARG_semi_constitutionalist_party:0 "November Government"
-ARG_semi_constitutionalist_party_long:0 "His Royal Majesty's Cabinet of Great Consensus for the Stability of the Nation and the Wellbeing of the People"
+ARG_semi_constitutionalist_party:0 "Gobierno de Noviembre"
+ARG_semi_constitutionalist_party_long:0 "Gabinete de Gran Consenso para la Estabilidad de la Nación y el Bienestar del Pueblo"
 ARG_absolutist_party:0 "Casa Rosas"
 ARG_absolutist_party_long:0 "Casa Rosas"
 ARG_despotist_party:0 "PNLR"
 ARG_despotist_party_long:0 "Partido Nacionalista Leal al Rey"
+ARG_separatist_party:0 "MLC"
+ARG_separatist_party_long:0 "Movimiento por la Liberación del Congo"
 
 ##Ministers
 #Head of Government

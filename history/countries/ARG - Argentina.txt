@@ -128,8 +128,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vacant"
-	desc = "VACANT_DESC"
+	name = "Vacante"
+	desc = "VACANTE_DESC"
 	picture = "gfx/leaders/Generic/Portrait_Vacant.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
@@ -139,8 +139,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vacant"
-	desc = "VACANT_DESC"
+	name = "Vacante"
+	desc = "VACANTE_DESC"
 	picture = "gfx/leaders/Generic/Portrait_Vacant.tga"
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
