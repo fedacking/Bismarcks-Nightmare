@@ -13,6 +13,7 @@
  interface_government_type_dem:0 "Democratic"
  interface_government_type_sem:0 "Semi-Democratic"
  interface_government_type_aut:0 "Authoritarian"
+ interface_government_type_pro:0 "Provisional"
  interface_government_type_uni:0 "Unitary"
  interface_government_type_fed:0 "Federal"
  interface_government_type_cfe:0 "Confederal"

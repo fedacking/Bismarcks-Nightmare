@@ -38,6 +38,12 @@ defined_text = {
 		localization_key = interface_government_type_aut
 	}
 	text = {
+		trigger = { 
+			has_country_flag = provisional_flag
+		}
+		localization_key = interface_government_type_pro
+	}
+	text = {
 		localization_key = ""
 	}
 }
