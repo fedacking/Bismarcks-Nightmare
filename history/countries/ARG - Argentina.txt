@@ -16,7 +16,6 @@ add_ideas = {
 	ARG_sec_rli_enzo_bordabehere
 	free_speech
 	ARG_idea_depression
-	ARG_idea_captive_king
 	ARG_idea_overextended_colonial_empire
 	ARG_idea_jewish_immigration
 }
@@ -134,7 +133,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
-		#
+		captive_king
 	}
 }
 
@@ -145,7 +144,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
 	traits = {
-		#
+		captive_king
 	}
 }
 

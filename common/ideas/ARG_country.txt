@@ -3,7 +3,7 @@ ideas = {
 		
 		##Social issues
 		ARG_idea_jewish_immigration = {
-			picture = army_chained #place holder image
+			picture = jewish_immigration
 			modifier = {
 				monthly_population = 0.1
 				research_speed_factor = 0.03
@@ -39,7 +39,7 @@ ideas = {
 		
 		## Colonial empire
 		ARG_idea_overextended_colonial_empire = {
-			picture = army_chained #place holder image
+			picture = colonial_overextension
 			modifier = {
 				supply_consumption_factor = 0.20
 				local_resources_factor = -0.10
@@ -49,12 +49,6 @@ ideas = {
 		}
 		
 		#Revolution
-		ARG_idea_captive_king = {
-			picture = crown_chained #place holder image
-			modifier = {
-				political_power_gain = -0.2
-			}
-		}
 		ARG_idea_strong_coalition = {
 			picture = army_chained #place holder image
 			modifier = {

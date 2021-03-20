@@ -233,9 +233,7 @@ focus_tree = {
 			focus = ARG_force_his_hand
 		}
 		completion_reward = {
-			remove_ideas = {
-				ARG_idea_captive_king
-			}
+			# Hijo de Rosas
 		}
 	}
 	
@@ -267,9 +265,6 @@ focus_tree = {
 				}
 			}
 			add_political_power = 25
-			remove_ideas = {
-				ARG_idea_captive_king
-			}
 			create_country_leader = {
 				name = "Juan II"
 				desc = "POLITICS_JUAN_II_DESC"

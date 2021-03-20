@@ -25,6 +25,16 @@ spriteTypes = {
 		name = "GFX_idea_crown_chained"
 		texturefile = "gfx/interface/ideas/idea_crown_chained.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_idea_jewish_immigration"
+		texturefile = "gfx/interface/ideas/idea_jewish_immigration.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_colonial_overextension"
+		texturefile = "gfx/interface/ideas/idea_colonial_overextension.dds"
+	}
 
 	#USA
 	SpriteType = {

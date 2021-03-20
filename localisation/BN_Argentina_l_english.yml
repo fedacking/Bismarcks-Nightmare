@@ -23,6 +23,10 @@ ARG_despotist_party_long:0 "Partido Nacionalista Leal al Rey"
 ARG_separatist_party:0 "MLC"
 ARG_separatist_party_long:0 "Movimiento por la Liberación del Congo"
 
+## Head of State
+captive_king:0 "Captive King"
+VACANTE_DESC:0 "King Juan II of house Rosas is still in the hands of the Revolutionary government waiting for them to decide what to do with him."
+
 ##Ministers
 #Head of Government
 ARG_hog_com_rodolfo_ghioldi:0 "Rodolfo Ghioldi"
@@ -57,15 +61,13 @@ ARG_sec_scn_ramon_s_castillo:0 "Ramón S. Castillo"
 
 ### Ideas ###
 
-ARG_idea_captive_king:0 "Captive King"
-ARG_idea_captive_king_desc:0 "King Juan II of house Rosas is still in the hands of the Revolutionary government waiting for them to decide what to do with him."
 ARG_idea_overextended_colonial_empire:0 "Colonial Overextension"
 ARG_idea_overextended_colonial_empire_desc:0 "The Congo was the personal property of the King. With him out of power we need to rethink our colonial administration."
 ARG_idea_congo_sale:0 "Congo Sale"
 ARG_idea_congo_sale_desc:0 "We are receiving payments for the sale of our colony."
 ARG_idea_congo_purchase:0 "Congo Purchase"
 ARG_idea_congo_purchase_desc:0 "We are paying the purchase of the Congo"
-ARG_idea_jewish_immigration:0 "Jewish Inmigration"
+ARG_idea_jewish_immigration:0 "Jewish Immigration"
 ARG_idea_jewish_immigration_desc:0 "Although jewish immigration has been a net positive for the development of our Nation, the less accepting members of our society are rambling about the increased presence of jews."
 ARG_idea_depression:0 "Great Depression"
 ARG_idea_depression_desc:0 "During the second semester of 1935, the US and French economies started to slow down. The massive expansion of the economy in the 1920's has lead to overborrowing and overexposure for the banks. In the US in 1935 the banks started to default, and the crisis spiraled from there to the rest of the world."

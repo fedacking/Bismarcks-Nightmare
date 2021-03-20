@@ -1,2 +1,5 @@
 leader_traits = {
+    captive_king = {
+		political_power_gain = -0.2
+    }
 }
