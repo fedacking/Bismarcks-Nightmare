@@ -149,6 +149,7 @@ ARG_stand_alone:0 "Stand Alone"
 ARG_stand_alone_desc:0 "Although difficult, we need to hold this government together alone. Making a deal with the PAN would be practically betraying the revolution."
 ARG_constitutional_assembly:0 "Create a Constitutional Assembly"
 ARG_constitutional_assembly_desc:0 "Part of what got us in this mess is the lack of a supreme law, an aggregate of fundamental principles that guide the people. Establishing one should be top priority."
+ARG_delay_the_new_constitution:0 "Delay The New Constitution"
 
 ##Dealing with the Crisis
 #The Reaching Hand (groping hand)
