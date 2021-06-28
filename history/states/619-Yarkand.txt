@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		owner = QIN
-		add_core_of = QIN
+		owner = CHI
+		add_core_of = CHI
 		add_core_of = ETK
 		buildings = {
 			infrastructure = 3
