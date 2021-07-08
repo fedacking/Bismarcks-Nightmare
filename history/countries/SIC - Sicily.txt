@@ -1,4 +1,4 @@
-﻿capital = 158
+﻿capital = 115
 
 oob = "empty"
 
@@ -58,21 +58,3 @@ set_country_flag = semi_democratic_flag
 set_country_flag = unitary_flag
 
 ### Initial Leaders
-
-create_country_leader = {
-	name = "Vittorio Emanuele III"
-	picture = "gfx/leaders/ROM/Portrait_Victor_Emmanuel_III.dds"
-	desc = "POLITICS_VITTORIO_EMANUELE_III_DESC"
-	expire = "1965.1.1"
-	ideology = semi_constitutionalist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Vittorio Emanuele III"
-	picture = "gfx/leaders/ROM/Portrait_Victor_Emmanuel_III.dds"
-	desc = "POLITICS_VITTORIO_EMANUELE_III_DESC"
-	expire = "1965.1.1"
-	ideology = absolutist_subtype
-	traits = {}
-}

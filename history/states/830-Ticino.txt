@@ -4,12 +4,12 @@ state = {
 	manpower = 265000	
 	state_category = rural
 	history = {
-		owner = PIE
+		owner = SWI
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_core_of = PIE
+		add_core_of = SWI
 	}
 	provinces = {
 		636 658 3641 3662 9587 9600

@@ -1,12 +1,11 @@
-state={
-	id=757
-	name="STATE_757"
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category = rural
-	
-	history={
-		owner = CHI
+state = {
+	id = 757
+	name = "STATE_757"
+	manpower = 1000000
+	buildings_max_level_factor = 1.000
+	state_category = rural	
+	history = {
+		owner = TIB
 		add_core_of = TIB
 		buildings = {
 			infrastructure = 1
@@ -16,10 +15,8 @@ state={
 		victory_points = {
 			5033 5 
 		}
-		add_core_of = CHI
-	}
-	
-	provinces={
+	}	
+	provinces = {
 		1991 2014 2098 4900 5033 8121 12807 
 	}
 }

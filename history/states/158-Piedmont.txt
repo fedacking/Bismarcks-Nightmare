@@ -10,7 +10,7 @@ state = {
 		tungsten = 1
 	}
 	history = {
-		owner = PIE
+		owner = ROM
 		victory_points = {
 			6788 10 
 		}
@@ -23,7 +23,7 @@ state = {
 			industrial_complex = 1
 			air_base = 8
 		}
-		add_core_of = PIE
+		add_core_of = ROM
 	}
 	provinces = {
 		611 770 776 3772 3782 6635 6780 9738 9741 11570 11721 11723 11730 11891 
