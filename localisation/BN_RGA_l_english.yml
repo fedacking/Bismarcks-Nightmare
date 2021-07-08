@@ -19,11 +19,21 @@ RGA_decentralized_government_desc:0 "Although the local princes manage their tro
 ### Flags ###
 
 ### Decisions ###
+HYD_give_weapons_to_princes_costs_blocked:0 "£decision_generic_prepare_civil_war §R250§!"
+HYD_give_weapons_to_princes_costs:0 "£decision_generic_prepare_civil_war §G250§!"
+HYD_expand_the_razakars_costs_blocked:0 "£decision_generic_prepare_civil_war §R250§! £manpower_icon §R250§!"
+HYD_expand_the_razakars_costs:0 "£decision_generic_prepare_civil_war §G250§! £army_experience §G250§!"
+HYD_send_advisors_costs_blocked:0 "£pol_power §R10§! £army_experience §R10§!"
+HYD_send_advisors_costs:0 "£pol_power §G10§! £manpower_icon §G10§!"
+custom_cost_trigger_5_cp_blocked:0 "£command_power §R5§!"
+custom_cost_trigger_5_cp:0 "£command_power §G5§!"
 
 #Categories
 
-RGA_collapse_status_cat:0 "Status of the Rajput-Gujarati Federation"
-RGA_collapse_status_cat_desc:0 "India's fucked yo'\n\n Rajput Stability is §RWorrying [?RGA.stability|%R0].§!"
+RGA_collapse_status_IND_cat:0 "Status of the Rajput-Gujarati Federation"
+RGA_collapse_status_HYD_cat:0 "Status of the Rajput-Gujarati Federation"
+RGA_collapse_status_IND_cat_desc:0 "India's fucked yo'\n\n Rajput Stability is §RWorrying [?RGA.stability|%R0].§!"
+RGA_collapse_status_HYD_cat_desc:0 "India's fucked yo'\n\n Rajput Stability is §RWorrying [?RGA.stability|%R0].§!"
 
 #Decisions
 

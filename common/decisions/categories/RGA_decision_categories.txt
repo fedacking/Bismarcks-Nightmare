@@ -2,16 +2,21 @@
 ##### RGA ######
 ################
 
-RGA_collapse_status_cat = {
+RGA_collapse_status_HYD_cat = {
 	icon = eng_organize_the_blackshirts #PHolder
 	picture = GFX_decision_cat_pictures_rga_stability
-	allowed = {
-		OR = {
-			tag = RGA
-			tag = HYD
-			tag = IND
-		}
+	allowed = { tag = HYD }
+	visible = {
+		NOT = { has_global_flag = RGA_has_collapsed_flag }
+		NOT = { has_global_flag = RGA_has_survived_flag }
 	}
+	visible_when_empty = yes
+}
+
+RGA_collapse_status_IND_cat = {
+	icon = eng_organize_the_blackshirts #PHolder
+	picture = GFX_decision_cat_pictures_rga_stability
+	allowed = { tag = IND }
 	visible = {
 		NOT = { has_global_flag = RGA_has_collapsed_flag }
 		NOT = { has_global_flag = RGA_has_survived_flag }
