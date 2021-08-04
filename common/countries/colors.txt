@@ -692,3 +692,7 @@ SIC = {
 	color = rgb { 57  113  228 }
 	color_ui = rgb { 57  113  228 }
 }
+MCR = {
+	color = rgb { 43 43 186 }
+	color_ui = rgb { 43 43 186 }
+}
