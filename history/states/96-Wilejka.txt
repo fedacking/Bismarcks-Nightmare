@@ -11,10 +11,12 @@ state = {
 		buildings = {
 			infrastructure = 4
 		}
+		add_core_of = BLR
+		add_core_of = LIT
 		add_core_of = RUS
 		add_claim_by = POL
 	}
 	provinces = {
-		233 277 358 406 6340 9341 11391 
+		233 277 358 406 6340 6413 9236 9341 11391 
 	}
 }
