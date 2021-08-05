@@ -1,4 +1,4 @@
-﻿capital = 229
+﻿capital = 232
 
 oob = "empty"
 
