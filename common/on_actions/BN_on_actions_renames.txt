@@ -1,0 +1,26 @@
+on_actions = {
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+
+			FROM.FROM = {
+
+				### Germans ###
+				if = {
+					limit = {
+						ROOT = {
+							OR = {
+								original_tag = NGR
+								original_tag = SGC
+								original_tag = HOH
+							} 
+						}
+					}
+					ROOT = { do_german_renames = yes }
+				}
+			}
+			
+		}
+	}
+}
+

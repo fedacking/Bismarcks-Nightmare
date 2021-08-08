@@ -1,0 +1,12 @@
+do_german_renames = {
+	every_owned_state = {
+		if = { #Varsovia 
+			limit = { state = 10 }
+			set_state_name = STATE_10_de
+			set_province_name = {
+				id = 3544 # Warsaw
+				name = VICTORY_POINTS_3544_de
+			}
+		}
+	}
+}

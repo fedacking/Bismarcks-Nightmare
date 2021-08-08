@@ -9,6 +9,7 @@
  STATE_8:0 "Luxembourg"
  STATE_9:0 "Cechy"
  STATE_10:0 "Warszawa"
+ STATE_10_de:0 "Warschau"
  STATE_11:0 "Kovno"
  STATE_12:0 "Vidzeme"
  STATE_13:0 "Harju"
