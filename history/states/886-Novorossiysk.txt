@@ -1,0 +1,33 @@
+state = {
+	id = 886
+	name = "STATE_886"
+	manpower = 912781
+	state_category = rural
+
+	resources = {
+		oil = 12
+	}
+
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		add_claim_by = CIR
+		victory_points = {
+			719 1 #Novorossiysk
+		}
+		victory_points = {
+			3720 1 
+		}
+		buildings = {
+			infrastructure = 5
+			719 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+		717 719 735 3698 3717 3720 3760 6721 6736 6738 6741 9674 9691 9694 9696 11668 11681
+	}
+}
