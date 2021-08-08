@@ -18,6 +18,95 @@ on_actions = {
 					}
 					ROOT = { do_german_renames = yes }
 				}
+				### France ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = FRA
+						}
+					}
+					ROOT = { do_french_renames = yes }
+				}
+				### Holland ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = HOL
+						}
+					}
+					ROOT = { do_dutch_renames = yes }
+				}
+				### Roma ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = ROM
+						}
+					}
+					ROOT = { do_italian_renames = yes }
+				}
+				### Spain ###
+				if = {
+					limit = {
+						ROOT = {
+							OR = {
+								original_tag = SPA
+								original_tag = CAT
+							}
+						}
+					}
+					ROOT = { do_spanish_renames = yes }
+				}
+				### Austria ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = AUS
+						}
+					}
+					ROOT = { do_austrian_renames = yes }
+				}
+				### Southern Slavs ###
+				if = {
+					limit = {
+						ROOT = {
+							OR = {
+								original_tag = YUG
+								original_tag = SLV
+								original_tag = CRO
+								original_tag = MNT
+								original_tag = SER
+								original_tag = BOS
+							}
+						}
+					}
+					ROOT = { do_yugoslav_renames = yes }
+				}
+				### Romanian ###
+				if = {
+					limit = {
+						ROOT = {
+							OR = {
+								original_tag = WAL
+								original_tag = MOL
+							}
+						}
+					}
+					ROOT = { do_romanian_renames = yes }
+				}
+				### Russian-Ukrainean-Belarusian ###
+				if = {
+					limit = {
+						ROOT = {
+							OR = {
+								original_tag = RUS
+								original_tag = UKR
+								original_tag = BLR
+							}
+						}
+					}
+					ROOT = { do_russian_renames = yes }
+				}
 			}
 			
 		}

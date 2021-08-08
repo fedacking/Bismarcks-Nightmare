@@ -1,11 +1,751 @@
 do_german_renames = {
 	every_owned_state = {
-		if = { #Varsovia 
+		if = { #Warschau
 			limit = { state = 10 }
 			set_state_name = STATE_10_de
 			set_province_name = {
-				id = 3544 # Warsaw
+				id = 3544 #Warsaw
 				name = VICTORY_POINTS_3544_de
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Elsaß-Lothringen
+			limit = { state = 28 }
+			set_state_name = STATE_28_de
+			set_province_name = {
+				id = 9503 #Straßburg
+				name = VICTORY_POINTS_9503_de
+			}
+			set_province_name = {
+				id = 678 #Mülhausen
+				name = VICTORY_POINTS_678_de
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Nanzig
+			limit = { state = 823 }
+			set_state_name = STATE_823_de
+			set_province_name = {
+				id = 11516 #Nanzig
+				name = VICTORY_POINTS_11516_de
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Saarland
+			limit = { state = 872 }
+			set_state_name = STATE_872_de
+			set_province_name = {
+				id = 11531 #Saarbrücken
+				name = VICTORY_POINTS_11531_de
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Pfalz
+			limit = { state = 42 }
+			set_state_name = STATE_42_de
+			set_province_name = {
+				id = 11435 #Bitburg
+				name = VICTORY_POINTS_11435_de
+			}
+			set_province_name = {
+				id = 11560 #Mainz
+				name = VICTORY_POINTS_11560_de
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Luxemburg
+			limit = { state = 8 }
+			set_state_name = STATE_8_de
+			set_province_name = {
+				id = 6583 #Luxemburg
+				name = VICTORY_POINTS_6583_de
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Westrheinland
+			limit = { state = 817 }
+			set_state_name = STATE_817_de
+			set_province_name = {
+				id = 587 #Köln
+				name = VICTORY_POINTS_587_de
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Eupen-Malmünd
+			limit = { state = 822 }
+			set_state_name = STATE_822_de
+			set_province_name = {
+				id = 3488 #Malmünd
+				name = VICTORY_POINTS_3488_de
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Südtirol
+			limit = { state = 39 }
+			set_state_name = STATE_39
+			set_province_name = {
+				id = 11598 #Bozen
+				name = VICTORY_POINTS_11598
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Triest
+			limit = { state = 826 }
+			set_state_name = STATE_826
+			set_province_name = {
+				id = 6626 #Triest
+				name = VICTORY_POINTS_6626
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Istrien
+			limit = { state = 736 }
+			set_state_name = STATE_736
+		}
+	}
+	every_owned_state = {
+		if = { #Görz
+			limit = { state = 845 }
+			set_state_name = STATE_845
+		}
+	}
+	every_owned_state = {
+		if = { #Krain
+			limit = { state = 102 }
+			set_state_name = STATE_102
+			set_province_name = {
+				id = 9627 #Laibach
+				name = VICTORY_POINTS_9627
+			}
+		}
+	}
+}
+
+do_french_renames = {
+	every_owned_state = {
+		if = { #Alsace-Lorraine
+			limit = { state = 28 }
+			set_state_name = STATE_28
+			set_province_name = {
+				id = 9503 # Strasbourg
+				name = VICTORY_POINTS_9503
+			}
+			set_province_name = {
+				id = 678 # Mulhouse
+				name = VICTORY_POINTS_678
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Nancy
+			limit = { state = 823 }
+			set_state_name = STATE_823
+			set_province_name = {
+				id = 11516 #Nancy
+				name = VICTORY_POINTS_11516
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Sarre
+			limit = { state = 872 }
+			set_state_name = STATE_872
+			set_province_name = {
+				id = 11531 #Sarrebruck
+				name = VICTORY_POINTS_11531
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Palatinat
+			limit = { state = 42 }
+			set_state_name = STATE_42
+			set_province_name = {
+				id = 11435 #Béibreg
+				name = VICTORY_POINTS_11435
+			}
+			set_province_name = {
+				id = 11560 #Mayence
+				name = VICTORY_POINTS_11560
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Luxembourg
+			limit = { state = 8 }
+			set_state_name = STATE_8
+			set_province_name = {
+				id = 6583 #Luxembourg
+				name = VICTORY_POINTS_6583
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Rhénanie-Occidentale
+			limit = { state = 817 }
+			set_state_name = STATE_817
+			set_province_name = {
+				id = 587 #Cologne
+				name = VICTORY_POINTS_587
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Néau-Malmédy
+			limit = { state = 822 }
+			set_state_name = STATE_822
+			set_province_name = {
+				id = 3488 #Néau
+				name = VICTORY_POINTS_3488
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Flandre
+			limit = { state = 6 }
+			set_state_name = STATE_6
+			set_province_name = {
+				id = 13068 #Louvain
+				name = VICTORY_POINTS_13068
+			}
+			set_province_name = {
+				id = 6598 #Anvers
+				name = VICTORY_POINTS_6598
+			}
+			set_province_name = {
+				id = 516 #Bruxelles
+				name = VICTORY_POINTS_516
+			}
+			set_province_name = {
+				id = 6560 #Gand
+				name = VICTORY_POINTS_6560
+			}
+			set_province_name = {
+				id = 3576 #Courtrai
+				name = VICTORY_POINTS_3576
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Escaut-Occidentale
+			limit = { state = 51 }
+			set_state_name = STATE_51
+		}
+	}
+	every_owned_state = {
+		if = { #Malte
+			limit = { state = 116 }
+			set_state_name = STATE_116
+			set_province_name = {
+				id = 12003 #La Valette
+				name = VICTORY_POINTS_12003
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Sardaigne
+			limit = { state = 114 }
+			set_state_name = STATE_114
+		}
+	}
+	every_owned_state = {
+		if = { #Corse
+			limit = { state = 1 }
+			set_state_name = STATE_1
+		}
+	}
+	every_owned_state = {
+		if = { #Alpes-Maritimes
+			limit = { state = 735 }
+			set_state_name = STATE_735
+			set_province_name = {
+				id = 9909 #Nice
+				name = VICTORY_POINTS_9909
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Savoie
+			limit = { state = 848 }
+			set_state_name = STATE_848
+		}
+	}
+	every_owned_state = {
+		if = { #Catalogne
+			limit = { state = 165 }
+			set_state_name = STATE_165_fr
+			set_province_name = {
+				id = 6927 #Gérone
+				name = VICTORY_POINTS_6927_fr
+			}
+			set_province_name = {
+				id = 9764 #Barcelone
+				name = VICTORY_POINTS_9764_fr
+			}
+		}
+	}
+}
+
+do_dutch_renames = {
+	every_owned_state = {
+		if = { #Vlaanderen
+			limit = { state = 6 }
+			set_state_name = STATE_6_dt
+			set_province_name = {
+				id = 13068 #Leuven
+				name = VICTORY_POINTS_13068_dt
+			}
+			set_province_name = {
+				id = 6598 #Antwerpen
+				name = VICTORY_POINTS_6598_dt
+			}
+			set_province_name = {
+				id = 516 #Brussel
+				name = VICTORY_POINTS_516_dt
+			}
+			set_province_name = {
+				id = 6560 #Gent
+				name = VICTORY_POINTS_6560_dt
+			}
+			set_province_name = {
+				id = 3576 #Kortrijk
+				name = VICTORY_POINTS_3576_dt
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Westerschelde
+			limit = { state = 51 }
+			set_state_name = STATE_51_dt
+		}
+	}
+}
+
+do_italian_renames = {
+	every_owned_state = {
+		if = { #Malta
+			limit = { state = 116 }
+			set_state_name = STATE_116_it
+			set_province_name = {
+				id = 12003 #La Valletta
+				name = VICTORY_POINTS_12003_it
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Sardegna
+			limit = { state = 114 }
+			set_state_name = STATE_114_it
+		}
+	}
+	every_owned_state = {
+		if = { #Corsica
+			limit = { state = 1 }
+			set_state_name = STATE_1_it
+		}
+	}
+	every_owned_state = {
+		if = { #Alpi Marittime
+			limit = { state = 735 }
+			set_state_name = STATE_735_it
+			set_province_name = {
+				id = 9909 #Nizza
+				name = VICTORY_POINTS_9909_it
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Savoia
+			limit = { state = 848 }
+			set_state_name = STATE_848_it
+		}
+	}
+	every_owned_state = {
+		if = { #Alto Adige
+			limit = { state = 39 }
+			set_state_name = STATE_39_it
+			set_province_name = {
+				id = 11598 #Bolzano
+				name = VICTORY_POINTS_11598_it
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Trieste
+			limit = { state = 826 }
+			set_state_name = STATE_826
+			set_province_name = {
+				id = 6626 #Trieste
+				name = VICTORY_POINTS_6626_it
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Istria
+			limit = { state = 736 }
+			set_state_name = STATE_736_it
+		}
+	}
+	every_owned_state = {
+		if = { #Gurize
+			limit = { state = 845 }
+			set_state_name = STATE_845_it
+		}
+	}
+	every_owned_state = {
+		if = { #Dalmazia
+			limit = { state = 163 }
+			set_state_name = STATE_163_it
+			set_province_name = {
+				id = 3924 #Spalato
+				name = VICTORY_POINTS_3924_it
+			}
+		}
+	}
+}
+
+do_spanish_renames = {
+	every_owned_state = {
+		if = { #Catalunya
+			limit = { state = 165 }
+			set_state_name = STATE_165
+			set_province_name = {
+				id = 6927 #Girona
+				name = VICTORY_POINTS_6927
+			}
+			set_province_name = {
+				id = 9764 #Barcelona
+				name = VICTORY_POINTS_9764
+			}
+		}
+	}
+}
+
+do_austrian_renames = {
+	every_owned_state = {
+		if = { #Südtirol
+			limit = { state = 39 }
+			set_state_name = STATE_39
+			set_province_name = {
+				id = 11598 #Bozen
+				name = VICTORY_POINTS_11598
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Triest
+			limit = { state = 826 }
+			set_state_name = STATE_826
+			set_province_name = {
+				id = 6626 #Triest
+				name = VICTORY_POINTS_6626
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Istrien
+			limit = { state = 736 }
+			set_state_name = STATE_736
+		}
+	}
+	every_owned_state = {
+		if = { #Görz
+			limit = { state = 845 }
+			set_state_name = STATE_845
+		}
+	}
+	every_owned_state = {
+		if = { #Krain
+			limit = { state = 102 }
+			set_state_name = STATE_102
+			set_province_name = {
+				id = 9627 #Laibach
+				name = VICTORY_POINTS_9627
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Lika-Korbava
+			limit = { state = 103 }
+			set_state_name = STATE_103
+			set_province_name = {
+				id = 11564 #Fiume
+				name = VICTORY_POINTS_11564
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Dalmacija
+			limit = { state = 163 }
+			set_state_name = STATE_163
+			set_province_name = {
+				id = 3924 #Split
+				name = VICTORY_POINTS_3924
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Északi-Erdély
+			limit = { state = 76 }
+			set_state_name = STATE_76
+			set_province_name = {
+				id = 6711 #Kolozs
+				name = VICTORY_POINTS_6711
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Erdély
+			limit = { state = 84 }
+			set_state_name = STATE_84
+			set_province_name = {
+				id = 690 #Brassó
+				name = VICTORY_POINTS_690
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Bánság
+			limit = { state = 82 }
+			set_state_name = STATE_82
+			set_province_name = {
+				id = 9606 #Temesvár
+				name = VICTORY_POINTS_9606
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Körösvidék
+			limit = { state = 83 }
+			set_state_name = STATE_83
+		}
+	}
+	every_owned_state = {
+		if = { #Süd-Buchenland
+			limit = { state = 837 }
+			set_state_name = STATE_837
+		}
+	}
+	every_owned_state = {
+		if = { #Buchenland
+			limit = { state = 80 }
+			set_state_name = STATE_80
+			set_province_name = {
+				id = 577 #Czernowitz
+				name = VICTORY_POINTS_577
+			}
+		}
+	}
+}
+
+do_yugoslav_renames = {
+	every_owned_state = {
+		if = { #Trst
+			limit = { state = 826 }
+			set_state_name = STATE_826_yg
+			set_province_name = {
+				id = 6626 #Trst
+				name = VICTORY_POINTS_6626_yg
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Istra
+			limit = { state = 736 }
+			set_state_name = STATE_736_yg
+		}
+	}
+	every_owned_state = {
+		if = { #Gorica
+			limit = { state = 845 }
+			set_state_name = STATE_845_yg
+		}
+	}
+	every_owned_state = {
+		if = { #Kranjska
+			limit = { state = 102 }
+			set_state_name = STATE_102_yg
+			set_province_name = {
+				id = 9627 #Ljubljana
+				name = VICTORY_POINTS_9627_yg
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Ličko-Krbavska
+			limit = { state = 103 }
+			set_state_name = STATE_103_yg
+			set_province_name = {
+				id = 11564 #Rijeka
+				name = VICTORY_POINTS_11564_yg
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Dalmacija
+			limit = { state = 163 }
+			set_state_name = STATE_163
+			set_province_name = {
+				id = 3924 #Split
+				name = VICTORY_POINTS_3924
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Yuzhna Dobrich
+			limit = { state = 77 }
+			set_state_name = STATE_77
+			set_province_name = {
+				id = 11597 #Dobrich
+				name = VICTORY_POINTS_11597
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Severna Dobrich
+			limit = { state = 827 }
+			set_state_name = STATE_827
+			set_province_name = {
+				id = 657 #Kjustendža
+				name = VICTORY_POINTS_657
+			}
+		}
+	}
+}
+
+do_romanian_renames = {
+	every_owned_state = {
+		if = { #Dobrici de Sud 
+			limit = { state = 77 }
+			set_state_name = STATE_77_ro
+			set_province_name = {
+				id = 11597 #Dobrici
+				name = VICTORY_POINTS_11597_ro
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Dobrici de Nord
+			limit = { state = 827 }
+			set_state_name = STATE_827_ro
+			set_province_name = {
+				id = 657 #Constanța
+				name = VICTORY_POINTS_657_ro
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Transilvania de Nord
+			limit = { state = 76 }
+			set_state_name = STATE_76_ro
+			set_province_name = {
+				id = 6711 #Cluj-Napoca
+				name = VICTORY_POINTS_6711_ro
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Transilvania
+			limit = { state = 84 }
+			set_state_name = STATE_84_ro
+			set_province_name = {
+				id = 690 #Braşov
+				name = VICTORY_POINTS_690_ro
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Banat
+			limit = { state = 82 }
+			set_state_name = STATE_82_ro
+			set_province_name = {
+				id = 9606 #Timișoara
+				name = VICTORY_POINTS_9606_ro
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Crișana
+			limit = { state = 83 }
+			set_state_name = STATE_83_ro
+		}
+	}
+	every_owned_state = {
+		if = { #Bucovina de Sud
+			limit = { state = 837 }
+			set_state_name = STATE_837_ro
+		}
+	}
+	every_owned_state = {
+		if = { #Bucovina
+			limit = { state = 80 }
+			set_state_name = STATE_80_ro
+			set_province_name = {
+				id = 577 #Cernăuți
+				name = VICTORY_POINTS_577_ro
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Cetatea Albă
+			limit = { state = 766 }
+			set_state_name = STATE_766_ro
+			set_province_name = {
+				id = 6727 #Cetatea Albă
+				name = VICTORY_POINTS_6727_ro
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Basarabia
+			limit = { state = 78 }
+			set_state_name = STATE_78_ro
+			set_province_name = {
+				id = 3707 #Chișinău
+				name = VICTORY_POINTS_3707_ro
+			}
+		}
+	}
+}
+
+do_russian_renames = {
+	every_owned_state = {
+		if = { #Chernivtsi
+			limit = { state = 80 }
+			set_state_name = STATE_80_ru
+			set_province_name = {
+				id = 577 #Chernivtsi
+				name = VICTORY_POINTS_577_ru
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Bélgorod-Dnestróvskiy
+			limit = { state = 766 }
+			set_state_name = STATE_766
+			set_province_name = {
+				id = 6727 #Bélgorod-Dnestróvskiy
+				name = VICTORY_POINTS_6727
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Bessarabiya
+			limit = { state = 78 }
+			set_state_name = STATE_78
+			set_province_name = {
+				id = 3707 #Kishinev
+				name = VICTORY_POINTS_3707
 			}
 		}
 	}
