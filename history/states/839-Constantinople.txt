@@ -1,12 +1,12 @@
 state = {
 	id = 839
 	name = "STATE_839"
-	manpower = 777106
+	manpower = 877106 
 	state_category = metropolis
 	history = {
-		owner = GRE
-		add_core_of = GRE
+		owner = RUS
 		add_claim_by = TUR
+		add_claim_by = RUS
 		victory_points = {
 			9833 25
 		}

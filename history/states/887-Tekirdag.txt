@@ -1,0 +1,27 @@
+state = {
+	id = 887
+	name = "STATE_887"
+	manpower = 195043
+	resources = {
+		chromium = 45
+		steel = 10
+	}	
+	state_category = rural
+	history = {
+		owner = RUS
+		victory_points = {
+			6895 1 #Tekirdağ
+		}
+		victory_points = {
+			849 1 #Gallipoli
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_claim_by = TUR
+		add_claim_by = RUS
+	}
+	provinces =	{
+		849 922 3879 6895
+	}
+}

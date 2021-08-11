@@ -107,6 +107,15 @@ on_actions = {
 					}
 					ROOT = { do_russian_renames = yes }
 				}
+				### Greek ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = GRE
+						}
+					}
+					ROOT = { do_greek_renames = yes }
+				}
 			}
 			
 		}

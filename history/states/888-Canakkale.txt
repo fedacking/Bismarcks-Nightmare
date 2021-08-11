@@ -1,0 +1,23 @@
+state = {
+	id = 888
+	name = "STATE_888"
+	manpower = 223214
+	state_category = rural
+	history = {
+		owner = RUS
+		victory_points = {
+			9887 1 #Canakkale
+		}
+		buildings = {
+			infrastructure = 3
+			9887 = {
+				naval_base = 2
+			}
+		}
+		add_claim_by = TUR
+		add_claim_by = RUS
+	}
+	provinces = {
+		6864 9887
+	}
+}

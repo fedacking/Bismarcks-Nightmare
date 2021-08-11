@@ -412,6 +412,20 @@ do_italian_renames = {
 			}
 		}
 	}
+	every_owned_state = {
+		if = { #Constantinopolis
+			limit = { state = 839 }
+			set_state_name = STATE_839_it
+			set_province_name = {
+				id = 9833 #Constantinopolis
+				name = VICTORY_POINTS_9833_it
+			}
+			set_province_name = {
+				id = 11829 #Constantinopolis Anatolian
+				name = VICTORY_POINTS_11829_it
+			}
+		}
+	}
 }
 
 do_spanish_renames = {
@@ -621,6 +635,20 @@ do_yugoslav_renames = {
 			}
 		}
 	}
+	every_owned_state = {
+		if = { #Tsarigrad
+			limit = { state = 839 }
+			set_state_name = STATE_839_yg
+			set_province_name = {
+				id = 9833 #Tsarigrad
+				name = VICTORY_POINTS_9833_yg
+			}
+			set_province_name = {
+				id = 11829 #Anatoliĭski Tsarigrad
+				name = VICTORY_POINTS_11829_yg
+			}
+		}
+	}
 }
 
 do_romanian_renames = {
@@ -746,6 +774,37 @@ do_russian_renames = {
 			set_province_name = {
 				id = 3707 #Kishinev
 				name = VICTORY_POINTS_3707
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Konstantinopolj
+			limit = { state = 839 }
+			set_state_name = STATE_839
+			set_province_name = {
+				id = 9833 #Konstantinopolj
+				name = VICTORY_POINTS_9833
+			}
+			set_province_name = {
+				id = 11829 #Anatoliyskiy Konstantinopolj
+				name = VICTORY_POINTS_11829
+			}
+		}
+	}
+}
+
+do_greek_renames = {
+	every_owned_state = {
+		if = { #Kōnstantinoúpolis
+			limit = { state = 839 }
+			set_state_name = STATE_839_gr
+			set_province_name = {
+				id = 9833 #Kōnstantinoúpolis
+				name = VICTORY_POINTS_9833_gr
+			}
+			set_province_name = {
+				id = 11829 #Anatolikí Kōnstantinoúpolis
+				name = VICTORY_POINTS_11829_gr
 			}
 		}
 	}

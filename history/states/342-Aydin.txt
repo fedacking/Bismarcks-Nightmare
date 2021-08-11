@@ -1,7 +1,7 @@
 state = {
 	id = 342
 	name = "STATE_342" # Antalya
-	manpower = 192541
+	manpower = 241210
 	resources = {
 		chromium = 35
 	}
@@ -21,6 +21,6 @@ state = {
 		add_core_of = TUR
 	}
 	provinces = {
-		1005 1119 12013 12016 12096
+		1005 1119 1122 4127 12016
 	}
 }
