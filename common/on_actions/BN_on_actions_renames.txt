@@ -116,6 +116,27 @@ on_actions = {
 					}
 					ROOT = { do_greek_renames = yes }
 				}
+				### North-Caucasian ###
+				if = {
+					limit = {
+						ROOT = {
+							OR = {
+								original_tag = MCR
+								original_tag = ABK
+							}
+						}
+					}
+					ROOT = { do_northcaucasian_renames = yes }
+				}
+				### Georgian ###
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = GEO
+						}
+					}
+					ROOT = { do_georgian_renames = yes }
+				}
 			}
 			
 		}

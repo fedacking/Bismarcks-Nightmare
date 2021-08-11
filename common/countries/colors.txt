@@ -696,6 +696,10 @@ MCR = {
 	color = rgb { 43 43 186 }
 	color_ui = rgb { 43 43 186 }
 }
+ABK = {
+	color = rgb { 43 43 186 }
+	color_ui = rgb { 43 43 186 }
+}
 BLR = {
 	color = rgb { 180 220 190 }
 	color_ui = rgb { 180 220 190 }

@@ -791,21 +791,49 @@ do_russian_renames = {
 			}
 		}
 	}
+	every_owned_state = {
+		if = { #Abkhazia
+			limit = { state = 693 }
+			set_province_name = {
+				id = 11617 #Sukhumi
+				name = VICTORY_POINTS_11617
+			}
+		}
+	}
+	every_owned_state = {
+		if = { #Gruzija
+			limit = { state = 231 }
+			set_state_name = STATE_231
+		}
+	}
 }
 
-do_greek_renames = {
+do_northcaucasian_renames = {
 	every_owned_state = {
-		if = { #Kōnstantinoúpolis
-			limit = { state = 839 }
-			set_state_name = STATE_839_gr
+		if = { #Abkhazia
+			limit = { state = 693 }
 			set_province_name = {
-				id = 9833 #Kōnstantinoúpolis
-				name = VICTORY_POINTS_9833_gr
+				id = 11617 #Aqwa
+				name = VICTORY_POINTS_11617_nca
 			}
+		}
+	}
+}
+
+do_georgian_renames = {
+	every_owned_state = {
+		if = { #Abkhazia
+			limit = { state = 693 }
 			set_province_name = {
-				id = 11829 #Anatolikí Kōnstantinoúpolis
-				name = VICTORY_POINTS_11829_gr
+				id = 11617 #Sokhumi
+				name = VICTORY_POINTS_11617_geo
 			}
+		}
+	}
+	every_owned_state = {
+		if = { #Sakartvelo
+			limit = { state = 231 }
+			set_state_name = STATE_231_geo
 		}
 	}
 }

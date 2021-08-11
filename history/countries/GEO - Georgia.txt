@@ -99,8 +99,151 @@ set_popularities = {
 }	
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = separatist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Lavrentiy Beria"
+	desc = "POLITICS_LAVRENTI_BERIA_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Lavrentiy_Beria.tga"
+	expire = "1965.1.1"
+	ideology = communist_subtype
+}
+
+create_country_leader = {
+	name = "Noe Zhordania"
+	desc = "POLITICS_NOE_ZHORDANIA_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Portrait_Noe_Zhordania.tga"
+	expire = "1965.1.1"
+	ideology = socialist_subtype
+}
+
+create_country_leader = {
+	name = "Noe Zhordania"
+	desc = "POLITICS_NOE_ZHORDANIA_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Portrait_Noe_Zhordania.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Ekvtime Takaishvili"
+	desc = "POLITICS_EKVTIME_TAKAISHVILI_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Ekvtime_Takaishvili.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Ekvtime Takaishvili"
+	desc = "POLITICS_EKVTIME_TAKAISHVILI_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Ekvtime_Takaishvili.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Kakutsa Cholokashvili"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Kakutsa_Cholokashvili.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutionalist_subtype
+}
+
+create_country_leader = {
+	name = "Giorgi I"
+	desc = "POLITICS_GEORGI_I_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_George_Bagriaton_Mukhraneli.tga"
+	expire = "1965.1.1"
+	ideology = absolutist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kakutsa Cholokashvili"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Kakutsa_Cholokashvili.tga"
+	expire = "1965.1.1"
+	ideology = despotism_subtype
+}
+
+### Field Marshal
+
+create_corps_commander = {
+	name = "Giorgi Khimshiashvili"
+	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Giorgi_Khimshiashvili.tga"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+	id = 3502
+	traits = {
+		defensive_doctrine
+		artillery_officer
+		organizer
+	}
+}
+
+### Corps Commander
+create_field_marshal = {
+	name = "Kakutsa Cholokashvili"
+	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Kakutsa_Cholokashvili.tga"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	id = 3501
+	traits = {
+		politically_connected
+		aggressive_assaulter
+	}
+}
+
+create_corps_commander = {
+	name = "Valiko Jugheli"
+	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Valiko_Jugheli.tga"
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+	id = 3503
+	traits = {
+		politically_connected
+		infantry_officer
+		trait_engineer
+		fortress_buster
+	}
+}
+
+create_corps_commander = {
+	name = "Vladimer Goguadze"
+	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Vladimer_Goguadze.tga"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+	id = 3504
+	traits = {
+		armor_officer
+		trickster
+		trait_engineer
+	}
+}
+
+create_navy_leader = {
+	name = "Giorgi Abashvili"
+	portrait_path = "gfx/leaders/GEO/Portrait_GEO_Giorgi_Abashvili.tga"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+	traits = {}
 }

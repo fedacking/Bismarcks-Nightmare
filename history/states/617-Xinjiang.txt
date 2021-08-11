@@ -9,7 +9,7 @@ state = {
 		add_core_of = ETK
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 1
 		}
 		victory_points = {
 			4709 3 

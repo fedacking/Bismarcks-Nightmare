@@ -7,7 +7,10 @@ state = {
 			1599 5 
 		}
 		victory_points = {
-			3653 3 
+			3658 3
+		}
+		victory_points = {
+			3653 1 
 		}
 		buildings = {
 			infrastructure = 3
@@ -22,7 +25,7 @@ state = {
 		add_core_of = RUS
 	}
 	provinces = {
-		654 672 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 9626 9702 11599 11617 12309 
+		654 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 9626 9702 12309 
 	}
 	manpower = 2949413
 	buildings_max_level_factor = 1.000
