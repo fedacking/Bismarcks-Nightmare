@@ -97,7 +97,7 @@ set_popularities = {
 }	
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = separatist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no

@@ -19,19 +19,8 @@ set_popularities = {
 }	
 
 set_politics = {
-	ruling_party = semi_constitutionalist
+	ruling_party = separatist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Paul von Lettow-Vorbeck"
-	desc = "POLITICS_LETTOW_VORBECK_DESC"
-	picture = "gfx/leaders/GEA/Portrait_GEA_Leader_Paul_von_Lettow_Vorbeck.tga"
-	expire = "1965.1.1"
-	ideology = semi_constitutionalist_subtype
-	traits = {
-		#
-	}
 }
