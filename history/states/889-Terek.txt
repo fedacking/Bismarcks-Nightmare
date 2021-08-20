@@ -1,0 +1,19 @@
+state = {
+	id = 889
+	name = "STATE_889"
+	manpower = 227522
+	state_category = rural
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = {
+			6730 1 #Kizlyar
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		683 700 712 728 6730 6748 11632
+	}
+}

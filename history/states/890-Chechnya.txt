@@ -1,0 +1,19 @@
+state = {
+	id = 890
+	name = "STATE_890"
+	manpower = 227522
+	state_category = rural
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = {
+			3672 1 #Grozny
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		666 670 1455 3667 3672 6689
+	}
+}
