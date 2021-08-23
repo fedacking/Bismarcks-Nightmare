@@ -4,17 +4,18 @@ state = {
 	manpower = 788098	
 	state_category = rural	
 	resources = {
-		oil = 19 # was: 26
+		oil = 19
 	}
 	history = {
 		owner = RUS
+		add_core_of = DAG
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = {
-			3668 2 #Petrovsk-Port 
+			3668 3 #Petrovsk-Port 
 		}
-		add_core_of = RUS
 	}
 	provinces = {
 		1450 3668 3682 3711 4463 6701 7554 7624 9645 

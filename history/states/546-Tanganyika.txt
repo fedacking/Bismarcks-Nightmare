@@ -7,8 +7,8 @@ state = {
 	}
 	history = {
 		owner = GEA
-		add_core_of = GEA
 		add_core_of = TAN
+		add_claim_by = GEA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

@@ -696,10 +696,6 @@ MCR = {
 	color = rgb { 43 43 186 }
 	color_ui = rgb { 43 43 186 }
 }
-ABK = {
-	color = rgb { 43 43 186 }
-	color_ui = rgb { 43 43 186 }
-}
 BLR = {
 	color = rgb { 180 220 190 }
 	color_ui = rgb { 180 220 190 }
@@ -707,4 +703,16 @@ BLR = {
 MAN = {
 	color = rgb { 255 120 71 }
 	color_ui = rgb { 255 120 71 }
+}
+ABK = {
+	color = rgb { 43 43 186 }
+	color_ui = rgb { 43 43 186 }
+}
+CHE = {
+	color = rgb { 244 56 49 }
+	color_ui = rgb { 244 56 49 }
+}
+DAG = {
+	color = rgb { 255 216 85 }
+	color_ui = rgb { 255 216 85 }
 }

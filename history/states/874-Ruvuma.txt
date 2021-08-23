@@ -7,8 +7,8 @@ state = {
 	}
 	history = {
 		owner = GEA
-		add_core_of = GEA
 		add_core_of = TAN
+		add_claim_by = GEA
 		victory_points = {
 			10988 1 #Mbeya
 		}
