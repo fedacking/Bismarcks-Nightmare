@@ -4,11 +4,11 @@ state = {
 	manpower = 259612	
 	state_category = rural
 	history = {
-		owner = QUE
+		owner = USA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = QUE
 	}
 	provinces = {
 		7259 1214 12259 12272 1420 

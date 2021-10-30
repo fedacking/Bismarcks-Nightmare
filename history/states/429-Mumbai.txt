@@ -1,14 +1,14 @@
 state = {
 	id = 429
 	name = "STATE_429"
-	manpower = 19765600
+	manpower = 1
 	state_category = large_town	
 	resources = {
 		tungsten = 19
 	}
 	history = {
-		owner = HYD
-		add_core_of = HYD
+		owner = MAR
+		add_core_of = MAR
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -19,12 +19,6 @@ state = {
 			}
 		}
 		victory_points = {
-			7411 1
-		}
-		victory_points = {
-			4187 3
-		}
-		victory_points = {
 			12182 3
 		}
 		victory_points = {
@@ -32,6 +26,6 @@ state = {
 		}
 	}
 	provinces = {
-		1349 1405 4072 4187 4278 4291 4353 4395 7013 7060 7119 7177 7232 7250 7395 7411 10019 10210 10259 10270 10799 12105 12142 12182 12208 12269 12295
+		1349 1405 4072 4291 4353 4395 7013 7060 7119 7177 7232 7250 10019 10210 10270 12105 12142 12182 12208 12269 12295
 	}
 }

@@ -1,10 +1,11 @@
 state = {
 	id = 424
 	name = "STATE_424" #Madras
-	manpower = 15791700
+	manpower = 1
 	state_category = rural	
 	history = {
-		owner = FRA
+		owner = HYD
+		add_core_of = HYD
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -12,14 +13,8 @@ state = {
 		victory_points = {
 			7340 5
 		}
-		victory_points = {
-			10152 1
-		}
-		victory_points = {
-			10756 1
-		}
 	}
 	provinces = {
-		1228 1344 1430 4321 4365 4414 7297 7310 7340 10152 10296 10756 10897 12180 12779 
+		1228 4321 4365 7297 7340
 	}
 }

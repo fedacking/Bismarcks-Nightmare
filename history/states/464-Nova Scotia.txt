@@ -4,7 +4,8 @@ state = {
 	manpower = 490912
 	state_category = rural
 	history = {
-		owner = USA
+		owner = QUE
+		add_core_of = QUE
 		victory_points = {
 			7361 3
 		}
@@ -16,7 +17,6 @@ state = {
 				naval_base = 4
 			}
 		}
-		add_core_of = USA
 	}
 	provinces = {
 		1354 4360 4430 4623 7304 7361 7644 10244 

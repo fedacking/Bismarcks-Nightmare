@@ -1,0 +1,19 @@
+state = {
+	id = 891
+	name = "STATE_891" #Maastricht
+	history = {
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			11562 1 
+		}
+	}
+	provinces = {
+		11562 
+	}
+	manpower = 63927
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+}

@@ -136,7 +136,3 @@ create_country_leader = {
 		#
 	}
 }
-
-create_faction = princely_confederation
-add_to_faction = MAT
-add_to_faction = RGA

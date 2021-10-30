@@ -559,13 +559,25 @@ RGA = {
 	color = rgb { 26 13 0 }
 	color_ui = rgb { 26 13 0 }
 }
+BAR = {
+	color = rgb { 140 0 0 }
+	color_ui = rgb { 140 0 0 }
+}
 HYD = {
 	color = rgb { 255 194 46 }
 	color_ui = rgb { 255 194 46 }
 }
-MAT = {
+MYS = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
+}
+TRA = {
+	color = rgb { 55 108 158 }
+	color_ui = rgb { 55 108 158 }
+}
+MAR = {
+	color = rgb { 83 218 63 }
+	color_ui = rgb { 83 218 63 }
 }
 MUG = {
 	color = rgb { 0 98 51 }
