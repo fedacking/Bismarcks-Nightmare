@@ -4,7 +4,7 @@ state = {
 	manpower = 3836571	
 	state_category = city
 	history = {
-		owner = SIC
+		owner = ROM
 		victory_points = {
 			10074 20 
 		}
@@ -17,7 +17,7 @@ state = {
 			air_base = 10
 			dockyard = 1
 		}
-		add_core_of = SIC
+		add_core_of = ROM
 	}
 	provinces = {
 		1009 1156 3857 4014 4159 7059 7147 10074 12047 
