@@ -1,7 +1,7 @@
 state = {
 	id = 893
 	name = "STATE_893" #Nord Cameroun
-	manpower = 1
+	manpower = 800000
 	state_category = pastoral
 	history = {
 		owner = FRA

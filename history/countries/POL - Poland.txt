@@ -1,11 +1,11 @@
-﻿capital = 10
+﻿capital = 773
 
 oob = "empty"
 
-set_research_slots = 3
+set_research_slots = 2
 
-set_stability = 0.5
-set_war_support = 0.5
+set_stability = 0.3
+set_war_support = 0.6
 
 # Starting tech
 set_technology = {
@@ -90,16 +90,16 @@ set_convoys = 20
 set_popularities = {
 	despotist = 0
 	absolutist = 0
-	semi_constitutionalist = 0
-	social_conservative = 38
-	liberal_conservative = 15
-	republican_liberal = 28
-	communist = 7
-	socialist = 12
+	semi_constitutionalist = 100
+	social_conservative = 0
+	liberal_conservative = 0
+	republican_liberal = 0
+	communist = 0
+	socialist = 0
 }	
 
 set_politics = {
-	ruling_party = separatist
+	ruling_party = semi_constitutionalist
 	last_election = "1931.11.8"
 	election_frequency = 72
 	elections_allowed = no
