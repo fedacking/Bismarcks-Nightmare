@@ -142,7 +142,3 @@ if = {
 		}
 	}
 }
-
-create_faction = confederated_monarchies
-add_to_faction = POR
-add_to_faction = BRA
